@@ -74,7 +74,8 @@ export default function CourseList({ title }: CourseListProps) {
     console.log(`${itemId} 아이템 조회로 이동`);
   };
 
-  const onScrapClick = (itemId: number) => {
+  const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
+    e.stopPropagation();
     console.log(`${itemId} 스크랩 클릭`);
     const updatedScrap = courseData.map((item) =>
       item.id === itemId ? { ...item, isScraped: !item.isScraped } : item
@@ -108,7 +109,7 @@ export default function CourseList({ title }: CourseListProps) {
               level={item.level}
               isScraped={item.isScraped}
               onCourseItemClock={() => onCourseItemClock(item.id)}
-              onScrapClick={() => onScrapClick(item.id)}
+              onScrapClick={(e) => onScrapClick(item.id, e)}
             />
           ))}
         </Styled.CourseWrapper>
