@@ -45,7 +45,8 @@ export default function ReviewList({ title }: ReviewListProps) {
     console.log(`${itemId} 아이템 조회로 이동`);
   };
 
-  const onLikeClick = (itemId: number) => {
+  const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
+    e.stopPropagation();
     console.log(`${itemId} 좋아요 클릭`);
     const updatedLike = reviewData.map((item) => (item.id === itemId ? { ...item, isLiked: !item.isLiked } : item));
     setReviewData(updatedLike);
@@ -78,7 +79,7 @@ export default function ReviewList({ title }: ReviewListProps) {
               isLiked={item.isLiked}
               isWriter={item.isWriter}
               onReviewItemClick={() => onReviewItemClick(item.id)}
-              onLikeClick={() => onLikeClick(item.id)}
+              onLikeClick={(e) => onLikeClick(item.id, e)}
             />
           ))}
         </Styled.ReviewWrapper>
