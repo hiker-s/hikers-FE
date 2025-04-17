@@ -36,7 +36,7 @@ export default function Community() {
 
   return (
     <>
-      <Layout $margin="9rem 0 4.87rem 0">
+      <Layout $margin="9rem 0 4.87rem 0" isFooter={true}>
         <Header onClick={handleBackBtn} isCategory={true} onCategoryClick={handleCategoryClick} categories={categories}>
           커뮤니티
         </Header>
