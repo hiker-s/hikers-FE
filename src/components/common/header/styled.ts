@@ -36,3 +36,37 @@ export const Container = styled.div`
   background-color: white;
   z-index: 1000;
 `;
+
+export const CategoryBox = styled.div`
+  display: flex;
+  width: 24.375rem;
+  height: 2.75rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #c8c8c8;
+`;
+
+export const CategoryItem = styled.div`
+  width: 8.13rem;
+  text-align: center;
+  color: #a4a4a4;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  &:hover {
+    color: #3b3b3b;
+  }
+  &:active {
+    color: #3b3b3b;
+  }
+`;
+
+export const Line = styled.div`
+  width: 0.0625rem;
+  height: 0.875rem;
+  background: #a4a4a4;
+  margin: 0;
+  padding: 0;
+`;

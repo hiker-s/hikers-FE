@@ -6,9 +6,23 @@ type HeaderProps = {
   children?: ReactNode;
   onClick?: () => void;
   isOnboarding?: boolean;
+  isCategory?: boolean;
+  onCategoryClick?: (keyword: string) => void;
 };
 
-export const Header = ({ onClick, children, isOnboarding = false }: HeaderProps) => {
+export const Header = ({
+  onClick,
+  children,
+  isOnboarding = false,
+  isCategory = false,
+  onCategoryClick,
+}: HeaderProps) => {
+  const categories = [
+    { text: "프로그램", keyword: "프로그램" },
+    { text: "리뷰", keyword: "리뷰" },
+    { text: "크루", keyword: "크루" },
+  ];
+
   return (
     <Styled.Container>
       <Styled.HeaderBox $isOnboarding={isOnboarding}>
@@ -19,6 +33,18 @@ export const Header = ({ onClick, children, isOnboarding = false }: HeaderProps)
           <Styled.HeaderText>{children}</Styled.HeaderText>
         </Styled.TextWrapper>
       </Styled.HeaderBox>
+      {isCategory && (
+        <Styled.CategoryBox>
+          {categories.map((category, index) => (
+            <>
+              <Styled.CategoryItem key={category.text} onClick={() => onCategoryClick?.(category.keyword)}>
+                {category.text}
+              </Styled.CategoryItem>
+              {index !== categories.length - 1 && <Styled.Line />}
+            </>
+          ))}
+        </Styled.CategoryBox>
+      )}
     </Styled.Container>
   );
 };
