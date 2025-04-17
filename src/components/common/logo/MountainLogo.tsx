@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import mountainLogo from "../../../assets/mountainLogo.svg";
+import mountainLogo from "../../../assets/images/mountainLogo.svg";
 
 const MountainLogo = () => {
   return (

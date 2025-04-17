@@ -1,6 +1,6 @@
 import { Input } from "../../components/common/input/Input";
 import { useState } from "react";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/images/logo.svg";
 import { BottomBtn } from "../../components/common/button/BottomBtn";
 import { Header } from "../../components/common/header/Header";
 import * as Styled from "./styled";
