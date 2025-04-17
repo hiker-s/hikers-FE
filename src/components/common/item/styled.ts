@@ -4,7 +4,6 @@ import { LevelCompProps } from "./Level";
 export const ItemWrapper = styled.div`
   width: 21.875rem;
   height: 4.9375rem;
-  /* padding: 0.5rem 0; */
   display: flex;
   align-items: center;
   gap: 0.87rem;
@@ -101,7 +100,5 @@ export const Level = styled.div<LevelCompProps>`
 `;
 
 export const BooleanWrapper = styled.div`
-  /* width: 1.5rem;
-  height: 1.5rem; */
   cursor: pointer;
 `;
