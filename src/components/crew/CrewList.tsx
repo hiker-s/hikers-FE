@@ -60,7 +60,6 @@ export default function CrewList() {
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>크루</Styled.Title>
-        <div> 정렬컴포넌트 넣기</div>
       </Styled.TitleWrapper>
       <div>
         <Styled.CrewWrapper>
