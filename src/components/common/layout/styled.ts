@@ -6,6 +6,7 @@ export const Layout = styled.div<LayoutProps>`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-bottom: ${({ isFooter }) => (isFooter ? "5rem" : "0")};
   min-height: calc(var(—vh, 1vh) * 100);
   margin: ${({ $margin }) => $margin};
 `;

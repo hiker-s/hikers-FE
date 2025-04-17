@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import greyBackground from "../../assets/greyBackground.svg";
+import greyBackground from "../../assets/images/greyBackground.svg";
 
 export const SuccessWrapper = styled.div`
   width: 100%;

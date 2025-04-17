@@ -1,6 +1,6 @@
 import { IoMdBookmark } from "react-icons/io";
 import * as Styled from "./styled";
-import squareBaseImg from "../../../assets/squareBaseImg.svg";
+import squareBaseImg from "../../../assets/images/squareBaseImg.svg";
 import { LevelComp } from "./Level";
 
 type CourseItemProps = {

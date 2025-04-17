@@ -5,6 +5,7 @@ import CourseData from "../../components/course/courseInfo/CourseData";
 import SketchMap from "../../components/course/courseInfo/SketchMap";
 import CourseReview from "../../components/course/courseInfo/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
+import { Footer } from "../../components/common/footer/Footer";
 
 const CourseInfo = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const CourseInfo = () => {
   ];
 
   return (
-    <Layout $margin="6.25rem 0 0 0">
+    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
       <Styled.Wrapper>
         <Header isOnboarding={true} onClick={handleBackBtn}>
           코스
@@ -37,6 +38,7 @@ const CourseInfo = () => {
         <SketchMap sections={sections} />
         <CourseReview />
       </Styled.Wrapper>
+      <Footer />
     </Layout>
   );
 };
