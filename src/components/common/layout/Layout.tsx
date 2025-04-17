@@ -7,7 +7,7 @@ export type LayoutProps = {
   isFooter?: boolean;
 };
 
-export const Layout = ({ children, $margin = "0rem", isFooter = true }: LayoutProps) => {
+export const Layout = ({ children, $margin = "0rem", isFooter = false }: LayoutProps) => {
   return (
     <Styled.Layout $margin={$margin} isFooter={isFooter}>
       {children}
