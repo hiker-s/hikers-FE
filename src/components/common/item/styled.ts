@@ -64,7 +64,7 @@ export const CrewContentText = styled.div`
 `;
 
 export const Level = styled.div<LevelCompProps>`
-  border-radius: ${({ $iscard }) => ($iscard ? "0.5rem" : "0.3125rem")};
+  border-radius: ${({ $iscard }) => ($iscard ? "0.375rem" : "0.3125rem")};
   display: flex;
   width: ${({ $iscard }) => ($iscard ? "1.5625rem" : "1.25rem")};
   height: ${({ $iscard }) => ($iscard ? "1.5625rem" : "1.25rem")};
