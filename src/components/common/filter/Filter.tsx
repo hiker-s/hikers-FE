@@ -1,6 +1,6 @@
 import { useState } from "react";
 import * as Styled from "./styled";
-import filterImg from "../../../assets/filter.svg";
+import filterImg from "../../../assets/icons/filter.svg";
 
 interface FilterProps {
   filter: string;

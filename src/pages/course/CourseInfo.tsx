@@ -28,7 +28,7 @@ const CourseInfo = () => {
   ];
 
   return (
-    <Layout $margin="6.25rem 0 0 0">
+    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
       <Styled.Wrapper>
         <Header isOnboarding={true} onClick={handleBackBtn}>
           코스
