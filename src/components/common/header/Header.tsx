@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import * as Styled from "./styled";
 import backBtn from "../../../assets/backBtn.svg";
+import React from "react";
 
 type HeaderProps = {
   children?: ReactNode;
@@ -36,12 +37,12 @@ export const Header = ({
       {isCategory && (
         <Styled.CategoryBox>
           {categories.map((category, index) => (
-            <>
-              <Styled.CategoryItem key={category.text} onClick={() => onCategoryClick?.(category.keyword)}>
+            <React.Fragment key={index}>
+              <Styled.CategoryItem onClick={() => onCategoryClick?.(category.keyword)}>
                 {category.text}
               </Styled.CategoryItem>
               {index !== categories.length - 1 && <Styled.Line />}
-            </>
+            </React.Fragment>
           ))}
         </Styled.CategoryBox>
       )}
