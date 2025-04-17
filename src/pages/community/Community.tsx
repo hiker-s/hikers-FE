@@ -1,3 +1,5 @@
+// import * as Styled from "./Community.styled";
+
 import { Header } from "../../components/common/header/Header";
 import { Layout } from "../../components/common/layout/Layout";
 import CrewList from "../../components/crew/CrewList";
@@ -10,10 +12,14 @@ export default function Community() {
     navigate(-1);
   };
   return (
-    <Layout $margin="6.25rem 0 0 0">
-      <Header onClick={handleBackBtn}>커뮤니티</Header>
-      <ReviewList title="리뷰" />
-      <CrewList />
-    </Layout>
+    <>
+      <Layout $margin="9rem 0 0 0">
+        <Header onClick={handleBackBtn} isCategory={true}>
+          커뮤니티
+        </Header>
+        <ReviewList title="리뷰" />
+        <CrewList />
+      </Layout>
+    </>
   );
 }
