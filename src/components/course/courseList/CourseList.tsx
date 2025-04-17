@@ -1,8 +1,9 @@
 import { useState } from "react";
-import CourseItem from "../common/item/CourseItem";
+import CourseItem from "../../common/item/CourseItem";
 import * as Styled from "./CourseList.styled";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { Filter } from "../../common/filter/Filter";
 
 type CourseListProps = {
   title: string;
@@ -94,7 +95,7 @@ export default function CourseList({ title }: CourseListProps) {
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <div> 정렬컴포넌트 넣기</div>
+        <Filter isReview={false} filter={"가나다순"} onFilterChange={() => {}} />
       </Styled.TitleWrapper>
       <div>
         <Styled.CourseWrapper>

@@ -34,5 +34,5 @@ export const Container = styled.div`
   width: 100%;
   max-width: 390px;
   background-color: white;
-  z-index: 200;
+  z-index: 1000;
 `;

@@ -1,5 +1,5 @@
-import * as Styled from "./styled";
 import { ReactNode } from "react";
+import * as Styled from "./styled";
 
 export type LevelCompProps = {
   $level: string;
