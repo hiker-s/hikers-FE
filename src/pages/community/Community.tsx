@@ -10,7 +10,7 @@ export default function Community() {
     navigate(-1);
   };
   return (
-    <Layout $margin="6.25rem 0 0 0">
+    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
       <Header onClick={handleBackBtn}>커뮤니티</Header>
       <ReviewList title="리뷰" />
       <CrewList />

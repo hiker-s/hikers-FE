@@ -5,13 +5,13 @@ import CourseListComp from "../../components/course/courseList/CourseList";
 import CourseReview from "../../components/course/courseList/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
 import * as Styled from "./CourseList.styled";
-
+import { Footer } from "../../components/common/footer/Footer";
 const CourseList = () => {
   const navigate = useNavigate();
   const handleBackBtn = () => navigate("/home");
 
   return (
-    <Layout $margin="6.25rem 0 0 0">
+    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
       <Styled.Wrapper>
         <Header isOnboarding={true} onClick={handleBackBtn}>
           코스
@@ -20,6 +20,7 @@ const CourseList = () => {
         <CourseListComp title="코스" />
         <CourseReview />
       </Styled.Wrapper>
+      <Footer />
     </Layout>
   );
 };
