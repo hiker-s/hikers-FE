@@ -3,12 +3,18 @@ import * as Styled from "./styled";
 import backBtn from "../../../assets/backBtn.svg";
 import React from "react";
 
+type Category = {
+  text: string;
+  keyword: string;
+};
+
 type HeaderProps = {
   children?: ReactNode;
   onClick?: () => void;
   isOnboarding?: boolean;
   isCategory?: boolean;
   onCategoryClick?: (keyword: string) => void;
+  categories?: Category[];
 };
 
 export const Header = ({
@@ -17,13 +23,12 @@ export const Header = ({
   isOnboarding = false,
   isCategory = false,
   onCategoryClick,
-}: HeaderProps) => {
-  const categories = [
-    { text: "프로그램", keyword: "프로그램" },
+  categories = [
+    { text: "약도", keyword: "약도" },
+    { text: "상세 코스", keyword: "상세 코스" },
     { text: "리뷰", keyword: "리뷰" },
-    { text: "크루", keyword: "크루" },
-  ];
-
+  ],
+}: HeaderProps) => {
   return (
     <Styled.Container>
       <Styled.HeaderBox $isOnboarding={isOnboarding}>
