@@ -3,6 +3,7 @@ import ReviewItem from "../common/item/ReviewItem";
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { Filter } from "../common/filter/Filter";
 
 type ReviewListProps = {
   title: string;
@@ -64,7 +65,7 @@ export default function ReviewList({ title }: ReviewListProps) {
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <div> 정렬컴포넌트 넣기</div>
+        <Filter isReview={true} filter={"최신순"} onFilterChange={() => {}} />
       </Styled.TitleWrapper>
       <div>
         <Styled.ReviewWrapper>
