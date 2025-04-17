@@ -65,7 +65,7 @@ export default function Community() {
               bgColor="#349989"
               color="white"
               fontSize="0.875rem"
-              width="6.75rem"
+              width="7.5625rem"
             >
               모집글 작성하기
             </GreenBtn>
