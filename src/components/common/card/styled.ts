@@ -118,6 +118,7 @@ export const CardListWrapper = styled.div`
   margin: 3.94rem 0 3.75rem 0;
   position: relative;
   width: 100%;
+  overflow: hidden;
 `;
 
 export const CardListTopWrapper = styled.div`
@@ -138,20 +139,11 @@ export const CardsWrapper = styled.div`
   display: flex;
   gap: 0.625rem;
   overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior: none;
-  touch-action: pan-x;
-  padding: 0.5rem;
-  margin: 0 -1.25rem;
-  padding-left: 1.25rem;
+  width: calc(100% + 2.5rem);
+  padding: 0.5rem 1.25rem;
   flex-wrap: nowrap;
-
-  /* 카드 크기 고정 */
-  & > * {
-    flex: 0 0 10.625rem;
-  }
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 
   /* 스크롤바 숨기기 */
   &::-webkit-scrollbar {
@@ -160,13 +152,10 @@ export const CardsWrapper = styled.div`
   -ms-overflow-style: none;
   scrollbar-width: none;
 
-  /* 모바일 터치 최적화 */
-  @media (hover: none) {
-    scroll-snap-type: x mandatory;
-
-    & > * {
-      scroll-snap-align: start;
-    }
+  /* 카드 크기 고정 */
+  & > * {
+    flex: 0 0 10.625rem;
+    scroll-snap-align: start;
   }
 `;
 
