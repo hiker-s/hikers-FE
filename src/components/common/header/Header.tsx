@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import * as Styled from "./styled";
-import backBtn from "../../../assets/backBtn.svg";
+import backBtn from "../../../assets/icons/backBtn.svg";
 import React from "react";
 
 type Category = {
@@ -29,6 +29,13 @@ export const Header = ({
     { text: "리뷰", keyword: "리뷰" },
   ],
 }: HeaderProps) => {
+  const [activeCategory, setActiveCategory] = useState<string>(categories[0].keyword);
+
+  const handleCategoryClick = (keyword: string) => {
+    setActiveCategory(keyword);
+    onCategoryClick?.(keyword);
+  };
+
   return (
     <Styled.Container>
       <Styled.HeaderBox $isOnboarding={isOnboarding}>
@@ -43,7 +50,10 @@ export const Header = ({
         <Styled.CategoryBox>
           {categories.map((category, index) => (
             <React.Fragment key={index}>
-              <Styled.CategoryItem onClick={() => onCategoryClick?.(category.keyword)}>
+              <Styled.CategoryItem
+                onClick={() => handleCategoryClick(category.keyword)}
+                $isActive={activeCategory === category.keyword}
+              >
                 {category.text}
               </Styled.CategoryItem>
               {index !== categories.length - 1 && <Styled.Line />}

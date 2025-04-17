@@ -46,19 +46,16 @@ export const CategoryBox = styled.div`
   border-bottom: 0.5px solid #c8c8c8;
 `;
 
-export const CategoryItem = styled.div`
+export const CategoryItem = styled.div<{ $isActive?: boolean }>`
   width: 8.13rem;
   text-align: center;
-  color: #a4a4a4;
+  color: ${({ $isActive }) => ($isActive ? "#3b3b3b" : "#a4a4a4")};
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
   &:hover {
-    color: #3b3b3b;
-  }
-  &:active {
     color: #3b3b3b;
   }
 `;
