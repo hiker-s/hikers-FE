@@ -5,7 +5,7 @@ import CourseListComp from "../../components/course/courseList/CourseList";
 import CourseReview from "../../components/course/courseList/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
 import * as Styled from "./CourseList.styled";
-import { Footer } from "../../components/common/footer/Footer";
+
 const CourseList = () => {
   const navigate = useNavigate();
   const handleBackBtn = () => navigate("/home");
@@ -20,7 +20,6 @@ const CourseList = () => {
         <CourseListComp title="코스" />
         <CourseReview />
       </Styled.Wrapper>
-      <Footer />
     </Layout>
   );
 };

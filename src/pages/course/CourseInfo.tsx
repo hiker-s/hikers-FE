@@ -5,7 +5,6 @@ import CourseData from "../../components/course/courseInfo/CourseData";
 import SketchMap from "../../components/course/courseInfo/SketchMap";
 import CourseReview from "../../components/course/courseInfo/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
-import { Footer } from "../../components/common/footer/Footer";
 
 const CourseInfo = () => {
   const navigate = useNavigate();
@@ -38,7 +37,6 @@ const CourseInfo = () => {
         <SketchMap sections={sections} />
         <CourseReview />
       </Styled.Wrapper>
-      <Footer />
     </Layout>
   );
 };

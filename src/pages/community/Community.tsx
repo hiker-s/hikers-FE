@@ -3,7 +3,6 @@ import { Layout } from "../../components/common/layout/Layout";
 import CrewList from "../../components/crew/CrewList";
 import ReviewList from "../../components/review/ReviewList";
 import { useNavigate } from "react-router-dom";
-import { Footer } from "../../components/common/footer/Footer";
 
 export default function Community() {
   const navigate = useNavigate();
@@ -15,7 +14,6 @@ export default function Community() {
       <Header onClick={handleBackBtn}>커뮤니티</Header>
       <ReviewList title="리뷰" />
       <CrewList />
-      <Footer />
     </Layout>
   );
 }
