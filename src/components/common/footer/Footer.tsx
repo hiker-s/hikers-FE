@@ -1,31 +1,38 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import * as Styled from "./styled";
 import Home from "../../../assets/icons/Home.svg";
-import Community from "../../../assets/icons/Community.svg";
+import { CommunityIcon } from "../../../assets/icons/CommunityIcon";
 import Rank from "../../../assets/icons/Rank.svg";
 import My from "../../../assets/icons/My.svg";
 
 export const Footer = () => {
+  const location = useLocation();
   const navigate = useNavigate();
+
+  const isActive = (path: string) => location.pathname.startsWith(path);
+
+  const handleClick = (path: string) => {
+    navigate(path, { replace: true });
+  };
 
   return (
     <Styled.FooterWrapper>
-      <Styled.NavContainer>
-        <Styled.HomeImg src={Home} onClick={() => navigate("/home")} />
+      <Styled.HomeContainer $isActive={isActive("/courseInfo")} onClick={() => handleClick("/courseInfo")}>
+        <Styled.HomeImg src={Home} $isActive={isActive("/courseInfo")} />
         <span>홈</span>
-      </Styled.NavContainer>
-      <Styled.NavContainer>
-        <Styled.CommunityImg src={Community} onClick={() => navigate("/community")} />
+      </Styled.HomeContainer>
+      <Styled.CommunityContainer $isActive={isActive("/community")} onClick={() => handleClick("/community")}>
+        <CommunityIcon $isActive={isActive("/community")} />
         <span>커뮤니티</span>
-      </Styled.NavContainer>
-      <Styled.NavContainer>
-        <Styled.RankImg src={Rank} onClick={() => navigate("/rank")} />
+      </Styled.CommunityContainer>
+      <Styled.RankContainer $isActive={isActive("/rank")} onClick={() => handleClick("/rank")}>
+        <Styled.RankImg src={Rank} $isActive={isActive("/rank")} />
         <span>랭킹</span>
-      </Styled.NavContainer>
-      <Styled.NavContainer>
-        <Styled.MyImg src={My} onClick={() => navigate("/my")} />
+      </Styled.RankContainer>
+      <Styled.MyContainer $isActive={isActive("/my")} onClick={() => handleClick("/my")}>
+        <Styled.MyImg src={My} $isActive={isActive("/my")} />
         <span>마이</span>
-      </Styled.NavContainer>
+      </Styled.MyContainer>
     </Styled.FooterWrapper>
   );
 };
