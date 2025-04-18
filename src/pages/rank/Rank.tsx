@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/common/header/Header";
 import { Layout } from "../../components/common/layout/Layout";
 import Top3 from "../../components/rank/Top3";
+import RankList from "../../components/rank/RankList";
 
 const Rank = () => {
   const navigate = useNavigate();
@@ -15,6 +16,7 @@ const Rank = () => {
           랭킹
         </Header>
         <Top3 />
+        <RankList />
       </Styled.Wrapper>
     </Layout>
   );

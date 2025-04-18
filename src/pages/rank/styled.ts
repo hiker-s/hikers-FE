@@ -5,4 +5,5 @@ export const Wrapper = styled.div`
   max-width: 390px;
   height: 100%;
   min-height: calc(100vh - 6.25rem);
+  margin-bottom: 2rem;
 `;
