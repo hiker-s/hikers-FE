@@ -9,7 +9,7 @@ interface CourseItem {
   title: string;
   level: string;
   description: string;
-  imgUrl: string;
+  imgUrl?: string;
   isLiked: boolean;
 }
 

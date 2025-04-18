@@ -4,11 +4,11 @@ import filterImg from "../../../assets/icons/filter.svg";
 
 interface FilterProps {
   filter: string;
-  isReview: boolean;
+  isReview?: boolean;
   onFilterChange: (newFilter: string) => void;
 }
 
-export const Filter = ({ filter, isReview, onFilterChange }: FilterProps) => {
+export const Filter = ({ filter, isReview = false, onFilterChange }: FilterProps) => {
   const [selectedFilter, setSelectedFilter] = useState(filter);
   const [isOpen, setIsOpen] = useState(false);
 
