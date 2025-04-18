@@ -12,7 +12,7 @@ type CourseItemProps = {
   totalDuration: string;
   isScraped: boolean;
   onCourseItemClock: (e: number) => void;
-  onScrapClick: (e: number) => void;
+  onScrapClick: (e: React.MouseEvent<SVGElement>) => void;
 };
 
 export default function CourseItem({
@@ -43,7 +43,7 @@ export default function CourseItem({
         <IoMdBookmark
           size="24"
           color={isScraped ? "#349989" : "#C8C8C8"}
-          onClick={() => onScrapClick(id)}
+          onClick={onScrapClick}
           style={{ cursor: "pointer" }}
         />
       </Styled.BooleanWrapper>

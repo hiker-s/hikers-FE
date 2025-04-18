@@ -3,6 +3,7 @@ import ReviewItem from "../common/item/ReviewItem";
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { Filter } from "../common/filter/Filter";
 
 type ReviewListProps = {
   title: string;
@@ -45,7 +46,8 @@ export default function ReviewList({ title }: ReviewListProps) {
     console.log(`${itemId} 아이템 조회로 이동`);
   };
 
-  const onLikeClick = (itemId: number) => {
+  const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
+    e.stopPropagation();
     console.log(`${itemId} 좋아요 클릭`);
     const updatedLike = reviewData.map((item) => (item.id === itemId ? { ...item, isLiked: !item.isLiked } : item));
     setReviewData(updatedLike);
@@ -63,7 +65,7 @@ export default function ReviewList({ title }: ReviewListProps) {
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <div> 정렬컴포넌트 넣기</div>
+        <Filter isReview={true} filter={"최신순"} onFilterChange={() => {}} />
       </Styled.TitleWrapper>
       <div>
         <Styled.ReviewWrapper>
@@ -78,7 +80,7 @@ export default function ReviewList({ title }: ReviewListProps) {
               isLiked={item.isLiked}
               isWriter={item.isWriter}
               onReviewItemClick={() => onReviewItemClick(item.id)}
-              onLikeClick={() => onLikeClick(item.id)}
+              onLikeClick={(e) => onLikeClick(item.id, e)}
             />
           ))}
         </Styled.ReviewWrapper>

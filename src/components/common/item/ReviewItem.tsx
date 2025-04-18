@@ -13,7 +13,7 @@ type ReviewItemProps = {
   isLiked: boolean;
   isWriter: boolean;
   onReviewItemClick: (id: number) => void;
-  onLikeClick: (id: number) => void;
+  onLikeClick: (e: React.MouseEvent<SVGElement>) => void;
 };
 
 export default function ReviewItem({
@@ -46,7 +46,7 @@ export default function ReviewItem({
           <IoMdHeart
             size="24"
             color={isLiked ? "#349989" : "#C8C8C8"}
-            onClick={() => onLikeClick(id)}
+            onClick={onLikeClick}
             style={{ cursor: "pointer" }}
           />
         </Styled.BooleanWrapper>
