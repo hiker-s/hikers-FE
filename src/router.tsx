@@ -7,6 +7,7 @@ import Success from "./pages/signup/Success";
 import Community from "./pages/community/Community";
 import CourseList from "./pages/course/CourseList";
 import CourseInfo from "./pages/course/CourseInfo";
+import Rank from "./pages/rank/Rank";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
         path: "/courseInfo",
         element: <CourseInfo />,
       },
+      { path: "/rank", element: <Rank /> },
     ],
   },
 ]);
