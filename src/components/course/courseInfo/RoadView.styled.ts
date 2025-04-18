@@ -5,4 +5,5 @@ export const Wrapper = styled.div`
   height: 6.4375rem;
   flex-shrink: 0;
   aspect-ratio: 137.33/103;
+  border-radius: 0.625rem;
 `;
