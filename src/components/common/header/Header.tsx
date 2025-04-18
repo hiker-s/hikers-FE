@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import * as Styled from "./styled";
 import backBtn from "../../../assets/icons/backBtn.svg";
 import React from "react";
+import CourseData from "../../course/courseInfo/CourseData";
 
 type Category = {
   text: string;
@@ -12,6 +13,7 @@ type HeaderProps = {
   children?: ReactNode;
   onClick?: () => void;
   isOnboarding?: boolean;
+  isCourse?: boolean;
   isCategory?: boolean;
   onCategoryClick?: (keyword: string) => void;
   categories?: Category[];
@@ -22,13 +24,10 @@ export const Header = ({
   onClick,
   children,
   isOnboarding = false,
+  isCourse = false,
   isCategory = false,
   onCategoryClick,
-  categories = [
-    { text: "약도", keyword: "약도" },
-    { text: "상세 코스", keyword: "상세 코스" },
-    { text: "리뷰", keyword: "리뷰" },
-  ],
+  categories = [],
   activeCategory,
 }: HeaderProps) => {
   const handleCategoryClick = (keyword: string) => {
@@ -45,6 +44,7 @@ export const Header = ({
           <Styled.HeaderText>{children}</Styled.HeaderText>
         </Styled.TextWrapper>
       </Styled.HeaderBox>
+      {isCourse && <CourseData />}
       {isCategory && (
         <Styled.CategoryBox>
           {categories.map((category, index) => (

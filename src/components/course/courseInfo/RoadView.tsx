@@ -13,7 +13,7 @@ interface RoadViewProps {
   lng: number;
 }
 
-export default function RoadViewProps({ lat, lng }: RoadViewProps) {
+export default function RoadView({ lat, lng }: RoadViewProps) {
   const panoramaRef = useRef<HTMLDivElement>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
