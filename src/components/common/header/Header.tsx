@@ -1,4 +1,4 @@
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 import * as Styled from "./styled";
 import backBtn from "../../../assets/icons/backBtn.svg";
 import React from "react";
@@ -15,6 +15,7 @@ type HeaderProps = {
   isCategory?: boolean;
   onCategoryClick?: (keyword: string) => void;
   categories?: Category[];
+  activeCategory?: string;
 };
 
 export const Header = ({
@@ -28,11 +29,9 @@ export const Header = ({
     { text: "상세 코스", keyword: "상세 코스" },
     { text: "리뷰", keyword: "리뷰" },
   ],
+  activeCategory,
 }: HeaderProps) => {
-  const [activeCategory, setActiveCategory] = useState<string>(categories[0].keyword);
-
   const handleCategoryClick = (keyword: string) => {
-    setActiveCategory(keyword);
     onCategoryClick?.(keyword);
   };
 
