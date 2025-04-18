@@ -7,18 +7,24 @@ import CrewList from "../../components/crew/CrewList";
 import ReviewList from "../../components/review/ReviewList";
 import { useNavigate } from "react-router-dom";
 import Carousel from "../../components/program/Carousel";
+import { useEffect, useState, useMemo } from "react";
 
 export default function Community() {
   const navigate = useNavigate();
+  const [activeCategory, setActiveCategory] = useState("프로그램");
+
   const handleBackBtn = () => {
     navigate(-1);
   };
 
-  const categories = [
-    { text: "프로그램", keyword: "프로그램" },
-    { text: "리뷰", keyword: "리뷰" },
-    { text: "크루", keyword: "크루" },
-  ];
+  const categories = useMemo(
+    () => [
+      { text: "프로그램", keyword: "프로그램" },
+      { text: "리뷰", keyword: "리뷰" },
+      { text: "크루", keyword: "크루" },
+    ],
+    []
+  );
 
   const handleCategoryClick = (keyword: string) => {
     const element = document.getElementById(keyword);
@@ -34,10 +40,38 @@ export default function Community() {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const headerHeight = 9.5 * 16;
+      const scrollPosition = window.scrollY + headerHeight;
+      for (const category of categories) {
+        const element = document.getElementById(category.keyword);
+        if (element) {
+          const elementTop = element.offsetTop;
+          const elementBottom = elementTop + element.offsetHeight;
+
+          if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
+            setActiveCategory(category.keyword);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [categories]);
+
   return (
     <>
       <Layout $margin="9rem 0 4.87rem 0" isFooter={true}>
-        <Header onClick={handleBackBtn} isCategory={true} onCategoryClick={handleCategoryClick} categories={categories}>
+        <Header
+          onClick={handleBackBtn}
+          isCategory={true}
+          onCategoryClick={handleCategoryClick}
+          categories={categories}
+          activeCategory={activeCategory}
+        >
           커뮤니티
         </Header>
         <Styled.Wrapper>
@@ -65,7 +99,7 @@ export default function Community() {
               bgColor="#349989"
               color="white"
               fontSize="0.875rem"
-              width="7.5625rem"
+              width="6.75rem"
             >
               모집글 작성하기
             </GreenBtn>
