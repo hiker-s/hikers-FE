@@ -20,8 +20,7 @@ export default function Carousel() {
   };
 
   const onClick = (programId: number) => {
-    // console.log(`${programId}로 이동`);
-    navigate(`/program/${programId}`);
+    navigate(`program/${programId}`);
   };
 
   return (
