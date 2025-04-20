@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <CourseInfo />,
       },
       { path: "/rank", element: <Rank /> },
-      { path: "/program/:id", element: <Program /> },
+      { path: "/program/:programId", element: <Program /> },
     ],
   },
 ]);
