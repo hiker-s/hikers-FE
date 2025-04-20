@@ -4,45 +4,18 @@ import CrewItem from "../../components/common/item/CrewItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-export default function CrewList() {
-  const MOCK_CREWITEMS = [
-    {
-      id: 1,
-      title: "인왕산 크루 구해요 !",
-      content: "우리 인왕산 크루는 등산을 못하더라도",
-    },
-    {
-      id: 2,
-      title: "인왕산 크루 구해요 !",
-      content:
-        "우리 인왕산 크루는 등산을 못하더라도 만사 오케이 다 괜찮으니까 가볍게 들어오세요우리 인왕산 크루는 등산을 못하더라도",
-    },
-    {
-      id: 3,
-      title: "인왕산 크루 구해요 !",
-      content:
-        "우리 인왕산 크루는 등산을 못하더라도 만사 오케이 다 괜찮으니까 가볍게 들어오세요우리 인왕산 크루는 등산을 못하더라도",
-    },
-    {
-      id: 4,
-      title: "인왕산 크루 구해요 !",
-      content:
-        "우리 인왕산 크루는 등산을 못하더라도 만사 오케이 다 괜찮으니까 가볍게 들어오세요우리 인왕산 크루는 등산을 못하더라도",
-    },
-    {
-      id: 5,
-      title: "인왕산 크루 구해요 !",
-      content:
-        "우리 인왕산 크루는 등산을 못하더라도 만사 오케이 다 괜찮으니까 가볍게 들어오세요우리 인왕산 크루는 등산을 못하더라도",
-    },
-    {
-      id: 1,
-      title: "인왕산 크루 구해요 !",
-      content: "우리 인왕산 크루는 등산을 못하더라도",
-    },
-  ];
+type CrewItem = {
+  id: number;
+  title: string;
+  content: string;
+};
 
-  const [crewData] = useState(MOCK_CREWITEMS);
+type CrewListProps = {
+  data: CrewItem[];
+};
+
+export default function CrewList({ data }: CrewListProps) {
+  const [crewData] = useState(data);
 
   const onCrewItemClick = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
