@@ -1,6 +1,6 @@
 import * as Styled from "./CommunityReview.styled";
 import { GreenBtn } from "../common/button/styled";
-import ReviewList from "../review/ReviewList";
+import ReviewList from "../common/list/ReviewList";
 
 export default function CommunityReview() {
   const MOCK_COMMUNITY_REVIEW = [

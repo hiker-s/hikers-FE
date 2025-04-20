@@ -1,6 +1,6 @@
 import * as Styled from "./CommunityCrew.styled";
 import { GreenBtn } from "../common/button/styled";
-import CrewList from "../crew/CrewList";
+import CrewList from "../common/list/CrewList";
 
 export default function CommunityCrew() {
   const MOCK_COMMUNITY_CREW = [

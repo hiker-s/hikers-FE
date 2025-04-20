@@ -1,9 +1,9 @@
 import * as Styled from "./ReviewList.styled";
-import ReviewItem from "../common/item/ReviewItem";
+import ReviewItem from "../item/ReviewItem";
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import { Filter } from "../common/filter/Filter";
+import { Filter } from "../filter/Filter";
 
 type ReviewItem = {
   id: number;

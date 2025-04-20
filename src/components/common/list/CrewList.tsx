@@ -1,6 +1,6 @@
 import * as Styled from "./CrewList.styled";
 import { useState } from "react";
-import CrewItem from "../../components/common/item/CrewItem";
+import CrewItem from "../item/CrewItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
