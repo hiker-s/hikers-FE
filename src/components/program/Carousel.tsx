@@ -3,8 +3,10 @@ import programDatas from "../../dummy/carousel.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Carousel() {
+  const navigate = useNavigate();
   const settings = {
     dots: true,
     infinite: programDatas.programDatas.length > 1,
@@ -18,7 +20,7 @@ export default function Carousel() {
   };
 
   const onClick = (programId: number) => {
-    console.log(`${programId}로 이동`);
+    navigate(`program/${programId}`);
   };
 
   return (

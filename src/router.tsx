@@ -8,6 +8,7 @@ import Community from "./pages/community/Community";
 import CourseList from "./pages/course/CourseList";
 import CourseInfo from "./pages/course/CourseInfo";
 import Rank from "./pages/rank/Rank";
+import Program from "./pages/program/Program";
 
 const router = createBrowserRouter([
   {
@@ -18,42 +19,13 @@ const router = createBrowserRouter([
       { path: "login", element: <Login /> },
       { path: "signup", element: <SignUp /> },
       { path: "signup/success", element: <Success /> },
+      { path: "/courseList", element: <CourseList /> },
+      {
+        path: "/courseInfo",
+        element: <CourseInfo />,
+      },
       { path: "community", element: <Community /> },
-      {
-        path: "/",
-        element: <Onboarding />,
-      },
-      {
-        path: "/login",
-        element: <Login />,
-      },
-      { path: "/courseList", element: <CourseList /> },
-      {
-        path: "/courseInfo",
-        element: <CourseInfo />,
-      },
-      {
-        path: "/signup",
-        element: <SignUp />,
-      },
-      {
-        path: "/",
-        element: <Onboarding />,
-      },
-      {
-        path: "/login",
-        element: <Login />,
-      },
-      { path: "/courseList", element: <CourseList /> },
-      {
-        path: "/courseInfo",
-        element: <CourseInfo />,
-      },
-      { path: "/courseList", element: <CourseList /> },
-      {
-        path: "/courseInfo",
-        element: <CourseInfo />,
-      },
+      { path: "community/program/:programId", element: <Program /> },
       { path: "/rank", element: <Rank /> },
     ],
   },
