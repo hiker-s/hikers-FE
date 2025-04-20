@@ -1,75 +1,26 @@
-import { useState } from "react";
-import CourseItem from "../../common/item/CourseItem";
 import * as Styled from "./CourseList.styled";
+import { useState } from "react";
+import CourseItem from "../item/CourseItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import { Filter } from "../../common/filter/Filter";
+import { Filter } from "../filter/Filter";
+
+type CourseItem = {
+  id: number;
+  courseName: string;
+  courseRoute: string;
+  totalDuration: string;
+  level: string;
+  isScraped: boolean;
+};
 
 type CourseListProps = {
   title: string;
+  data: CourseItem[];
 };
 
-export default function CourseList({ title }: CourseListProps) {
-  const MOCK_COURSE = [
-    {
-      id: 1,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "하",
-      isScraped: true,
-    },
-    {
-      id: 2,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "상",
-      isScraped: false,
-    },
-    {
-      id: 3,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "중",
-      isScraped: true,
-    },
-    {
-      id: 4,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "상",
-      isScraped: false,
-    },
-    {
-      id: 5,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "중",
-      isScraped: true,
-    },
-    {
-      id: 6,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "상",
-      isScraped: false,
-    },
-    {
-      id: 7,
-      courseName: "인왕산1코스",
-      courseRoute: "돈의문터 - 창의문",
-      totalDuration: "1시간 50분",
-      level: "중",
-      isScraped: true,
-    },
-  ];
-
-  const [courseData, setCourseData] = useState(MOCK_COURSE);
+export default function CourseList({ title, data }: CourseListProps) {
+  const [courseData, setCourseData] = useState(data);
 
   const onCourseItemClock = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
