@@ -1,13 +1,11 @@
 import * as Styled from "./Community.styled";
-
-import { GreenBtn } from "../../components/common/button/GreenBtn";
 import { Header } from "../../components/common/header/Header";
 import { Layout } from "../../components/common/layout/Layout";
-import CrewList from "../../components/crew/CrewList";
-import ReviewList from "../../components/review/ReviewList";
 import { useNavigate } from "react-router-dom";
 import Carousel from "../../components/program/Carousel";
 import { useEffect, useState, useMemo } from "react";
+import CommunityReview from "../../components/community/CommunityReview";
+import CommunityCrew from "../../components/community/CommunityCrew";
 
 export default function Community() {
   const navigate = useNavigate();
@@ -75,35 +73,15 @@ export default function Community() {
           커뮤니티
         </Header>
         <Styled.Wrapper>
-          <Styled.CarouselWrapper id="프로그램">
+          <div id="프로그램">
             <Carousel />
-          </Styled.CarouselWrapper>
-          <Styled.ListCompWrapper id="리뷰">
-            <ReviewList title="리뷰" />
-            <GreenBtn
-              onClick={() => console.log("리뷰 작성 버튼 클릭")}
-              padding="0.38rem 1rem"
-              bgColor="#349989"
-              color="white"
-              fontSize="0.875rem"
-              width="6.75rem"
-            >
-              리뷰 작성하기
-            </GreenBtn>
-          </Styled.ListCompWrapper>
-          <Styled.ListCompWrapper id="크루">
-            <CrewList />
-            <GreenBtn
-              onClick={() => console.log("모집글 작성 버튼 클릭")}
-              padding="0.38rem 1rem"
-              bgColor="#349989"
-              color="white"
-              fontSize="0.875rem"
-              width="6.75rem"
-            >
-              모집글 작성하기
-            </GreenBtn>
-          </Styled.ListCompWrapper>
+          </div>
+          <div id="리뷰">
+            <CommunityReview />
+          </div>
+          <div id="크루">
+            <CommunityCrew />
+          </div>
         </Styled.Wrapper>
       </Layout>
     </>
