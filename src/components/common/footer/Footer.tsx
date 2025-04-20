@@ -29,8 +29,8 @@ export const Footer = () => {
         <Styled.RankImg src={Rank} $isActive={isActive("/rank")} />
         <span>랭킹</span>
       </Styled.RankContainer>
-      <Styled.MyContainer $isActive={isActive("/my")} onClick={() => handleClick("/my")}>
-        <Styled.MyImg src={My} $isActive={isActive("/my")} />
+      <Styled.MyContainer $isActive={isActive("/mypage")} onClick={() => handleClick("/mypage/:username")}>
+        <Styled.MyImg src={My} $isActive={isActive("/mypage")} />
         <span>마이</span>
       </Styled.MyContainer>
     </Styled.FooterWrapper>

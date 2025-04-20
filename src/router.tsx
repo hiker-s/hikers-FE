@@ -9,6 +9,7 @@ import CourseList from "./pages/course/CourseList";
 import CourseInfo from "./pages/course/CourseInfo";
 import Rank from "./pages/rank/Rank";
 import Program from "./pages/program/Program";
+import Mypage from "./pages/mypage/Mypage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: "community", element: <Community /> },
       { path: "community/program/:programId", element: <Program /> },
       { path: "/rank", element: <Rank /> },
+      { path: "/mypage/:username", element: <Mypage /> },
     ],
   },
 ]);
