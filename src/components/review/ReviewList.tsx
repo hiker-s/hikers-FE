@@ -5,42 +5,23 @@ import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../common/filter/Filter";
 
-type ReviewListProps = {
+type ReviewItem = {
+  id: number;
   title: string;
+  mountainName: string;
+  courseName: string;
+  level: string;
+  isLiked: boolean;
+  isWriter: boolean;
 };
 
-export default function ReviewList({ title }: ReviewListProps) {
-  const MOCK_REVIEW = [
-    {
-      id: 1,
-      title: "인왕산 껌이네",
-      mountainName: "인왕산",
-      courseName: "인왕산1코스인왕산1코스인왕산1코스",
-      level: "상",
-      isLiked: true,
-      isWriter: false,
-    },
-    {
-      id: 2,
-      title: "북한산 껌이네",
-      mountainName: "북한산",
-      courseName: "북한산3코스",
-      level: "중",
-      isLiked: false,
-      isWriter: true,
-    },
-    {
-      id: 3,
-      title: "관악산 껌이네",
-      mountainName: "관악산",
-      courseName: "관악산5코스",
-      level: "하",
-      isLiked: true,
-      isWriter: true,
-    },
-  ];
+type ReviewListProps = {
+  title: string;
+  data: ReviewItem[];
+};
 
-  const [reviewData, setReviewData] = useState(MOCK_REVIEW);
+export default function ReviewList({ title, data }: ReviewListProps) {
+  const [reviewData, setReviewData] = useState(data);
 
   const onReviewItemClick = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
