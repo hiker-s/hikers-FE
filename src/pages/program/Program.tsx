@@ -64,7 +64,7 @@ export default function Program() {
             </Styled.InfoWrapper>
           </Styled.ContextWrapper>
           <Styled.PosterWrapper>
-            <img src={data.poster} />
+            <img src={data.poster} alt={data.title} />
             <GreenBtn
               onClick={() => alert(`${data.title} 프로그램 신청 완료!`)}
               $padding="0.38rem 1rem"
