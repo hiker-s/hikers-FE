@@ -1,11 +1,11 @@
-import * as Styled from "./Carousel.styled";
-import programDatas from "../../dummy/carousel.json";
+import * as Styled from "./ProgramCarousel.styled";
+import programDatas from "../../data/program-dummy.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 
-export default function Carousel() {
+export default function ProgramCarousel() {
   const navigate = useNavigate();
   const settings = {
     dots: true,

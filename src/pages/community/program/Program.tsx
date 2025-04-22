@@ -1,10 +1,10 @@
-import * as Styled from "./styled";
-import programDatas from "../../dummy/carousel.json";
+import * as Styled from "./Program.styled";
+import programDatas from "../../../data/program-dummy.json";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Header } from "../../components/common/header/Header";
-import { Layout } from "../../components/common/layout/Layout";
-import { GreenBtn } from "../../components/common/button/styled";
+import { Header } from "../../../components/common/header/Header";
+import { Layout } from "../../../components/common/layout/Layout";
+import { GreenBtn } from "../../../components/common/button/styled";
 
 type ProgramData = {
   id: number;

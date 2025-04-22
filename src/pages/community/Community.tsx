@@ -2,7 +2,7 @@ import * as Styled from "./Community.styled";
 import { Header } from "../../components/common/header/Header";
 import { Layout } from "../../components/common/layout/Layout";
 import { useNavigate } from "react-router-dom";
-import Carousel from "../../components/program/Carousel";
+import ProgramCarousel from "../../components/community/ProgramCarousel";
 import { useEffect, useState, useMemo } from "react";
 import CommunityReview from "../../components/community/CommunityReview";
 import CommunityCrew from "../../components/community/CommunityCrew";
@@ -74,7 +74,7 @@ export default function Community() {
         </Header>
         <Styled.Wrapper>
           <div id="프로그램">
-            <Carousel />
+            <ProgramCarousel />
           </div>
           <div id="리뷰">
             <CommunityReview />

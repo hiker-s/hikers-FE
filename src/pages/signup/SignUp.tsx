@@ -9,8 +9,8 @@ import { Layout } from "../../components/common/layout/Layout";
 const SignUp = () => {
   const navigate = useNavigate();
   const [formValue, setFormValue] = useState({
-    username: "",
-    password: "",
+    user_id: "",
+    passwd: "",
     nickname: "",
     email: "",
   });
@@ -23,8 +23,8 @@ const SignUp = () => {
   };
 
   const isValid =
-    formValue.username.trim() !== "" &&
-    formValue.password.trim() !== "" &&
+    formValue.user_id.trim() !== "" &&
+    formValue.passwd.trim() !== "" &&
     formValue.nickname.trim() !== "" &&
     formValue.email.trim() !== "";
 
@@ -49,7 +49,7 @@ const SignUp = () => {
               title="아이디"
               type="text"
               name="username"
-              value={formValue.username}
+              value={formValue.user_id}
               onChange={handleChange}
               placeholder="아이디를 입력해주세요"
             />
@@ -57,7 +57,7 @@ const SignUp = () => {
               title="비밀번호"
               type="password"
               name="password"
-              value={formValue.password}
+              value={formValue.passwd}
               onChange={handleChange}
               placeholder="비밀번호를 입력해주세요"
             />

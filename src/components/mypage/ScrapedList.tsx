@@ -1,8 +1,8 @@
-import * as Styled from "./CourseListComp.styled";
-import CourseList from "../../common/list/CourseList";
+import CourseList from "../common/list/CourseList";
+import * as Styled from "./ScrapedList.styled";
 
-export default function CourseListComp() {
-  const MOCK_COURSE = [
+export default function ScrapedList() {
+  const MOCK_MYPAGE_COURSE = [
     {
       course_id: 1,
       course_name: "인왕산1코스",
@@ -17,7 +17,7 @@ export default function CourseListComp() {
       course_len: "돈의문터 - 창의문",
       course_time: "1시간 50분",
       level: "상",
-      is_scrapped: false,
+      is_scrapped: true,
     },
     {
       course_id: 3,
@@ -33,7 +33,7 @@ export default function CourseListComp() {
       course_len: "돈의문터 - 창의문",
       course_time: "1시간 50분",
       level: "상",
-      is_scrapped: false,
+      is_scrapped: true,
     },
     {
       course_id: 5,
@@ -60,10 +60,9 @@ export default function CourseListComp() {
       is_scrapped: true,
     },
   ];
-
   return (
     <Styled.Wrapper>
-      <CourseList title="코스" course_data={MOCK_COURSE} />
+      <CourseList title="스크랩한 코스" course_data={MOCK_MYPAGE_COURSE} />
     </Styled.Wrapper>
   );
 }
