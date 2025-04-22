@@ -62,7 +62,7 @@ export default function ScrapedList() {
   ];
   return (
     <Styled.Wrapper>
-      <CourseList title="코스" data={MOCK_MYPAGE_COURSE} />
+      <CourseList title="스크랩한 코스" data={MOCK_MYPAGE_COURSE} />
     </Styled.Wrapper>
   );
 }
