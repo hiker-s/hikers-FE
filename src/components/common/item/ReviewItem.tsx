@@ -34,7 +34,7 @@ export default function ReviewItem({
 }: ReviewItemProps) {
   return (
     <Styled.ItemWrapper onClick={() => onReviewItemClick(review_id)}>
-      <img src={images || squareBaseImg} alt="squareBaseImg" />
+      <Styled.ThumbnailImg src={images || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{title}</Styled.TitleText>

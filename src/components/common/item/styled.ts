@@ -116,3 +116,10 @@ export const Count = styled.div`
   font-weight: 400;
   line-height: 120%;
 `;
+
+export const ThumbnailImg = styled.img`
+  border-radius: 0.3125rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  object-fit: cover;
+`;

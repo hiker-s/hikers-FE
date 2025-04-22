@@ -30,7 +30,7 @@ export default function CourseItem({
 }: CourseItemProps) {
   return (
     <Styled.ItemWrapper onClick={() => onCourseItemClock(course_id)}>
-      <img src={images || squareBaseImg} alt="squareBaseImg" />
+      <Styled.ThumbnailImg src={images || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{course_name}</Styled.TitleText>

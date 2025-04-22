@@ -12,7 +12,7 @@ type CrewItemProps = {
 export default function CrewItem({ crew_id, images, title, content, onCrewItemClick }: CrewItemProps) {
   return (
     <Styled.ItemWrapper onClick={() => onCrewItemClick(crew_id)}>
-      <img src={images || squareBaseImg} alt="squareBaseImg" />
+      <Styled.ThumbnailImg src={images || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{title}</Styled.TitleText>
