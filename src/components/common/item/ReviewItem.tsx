@@ -5,6 +5,7 @@ import { IoMdHeart } from "react-icons/io";
 
 type ReviewItemProps = {
   review_id: number;
+  images?: string;
   title: string;
   level: string;
   $iscard?: boolean;
@@ -19,6 +20,7 @@ type ReviewItemProps = {
 
 export default function ReviewItem({
   review_id,
+  images,
   title,
   level,
   $iscard = false,
@@ -32,7 +34,7 @@ export default function ReviewItem({
 }: ReviewItemProps) {
   return (
     <Styled.ItemWrapper onClick={() => onReviewItemClick(review_id)}>
-      <img src={squareBaseImg} alt="squareBaseImg" />
+      <img src={images || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{title}</Styled.TitleText>

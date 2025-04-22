@@ -7,6 +7,7 @@ import { Filter } from "../filter/Filter";
 
 type ReviewItemDataProps = {
   review_id: number;
+  images?: string;
   title: string;
   mnt_name: string;
   course_name: string;
@@ -57,6 +58,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
             <ReviewItem
               review_id={item.review_id}
               key={item.review_id}
+              images={item.images}
               title={item.title}
               mnt_name={item.mnt_name}
               course_name={item.course_name}
