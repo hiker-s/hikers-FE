@@ -34,7 +34,7 @@ export default function LikedList() {
 
   return (
     <Styled.Wrapper>
-      <ReviewList title="좋아요한 리뷰" data={MOCK_MYPAGE_REVIEW} />
+      <ReviewList title="좋아요한 리뷰" review_data={MOCK_MYPAGE_REVIEW} />
     </Styled.Wrapper>
   );
 }
