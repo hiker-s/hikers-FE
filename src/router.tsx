@@ -8,7 +8,7 @@ import Community from "./pages/community/Community";
 import CourseList from "./pages/course/CourseList";
 import CourseInfo from "./pages/course/CourseInfo";
 import Rank from "./pages/rank/Rank";
-import Program from "./pages/program/Program";
+import Program from "./pages/community/program/Program";
 import Mypage from "./pages/mypage/Mypage";
 
 const router = createBrowserRouter([
