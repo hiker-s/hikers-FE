@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       { path: "community", element: <Community /> },
       { path: "community/program/:programId", element: <Program /> },
       { path: "/rank", element: <Rank /> },
-      { path: "/mypage/:username", element: <Mypage /> },
+      { path: "/mypage/:nickname", element: <Mypage /> },
     ],
   },
 ]);
