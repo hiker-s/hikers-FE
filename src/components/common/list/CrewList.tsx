@@ -4,18 +4,19 @@ import CrewItem from "../item/CrewItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-type CrewItem = {
-  id: number;
+type CrewItemDataProps = {
+  crew_id: number;
+  images?: string;
   title: string;
   content: string;
 };
 
 type CrewListProps = {
-  data: CrewItem[];
+  crew_data: CrewItemDataProps[];
 };
 
-export default function CrewList({ data }: CrewListProps) {
-  const [crewData] = useState(data);
+export default function CrewList({ crew_data }: CrewListProps) {
+  const [crewData] = useState<CrewItemDataProps[]>(crew_data);
 
   const onCrewItemClick = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
@@ -38,11 +39,11 @@ export default function CrewList({ data }: CrewListProps) {
         <Styled.CrewWrapper>
           {currentItems.map((crew) => (
             <CrewItem
-              key={crew.id}
-              id={crew.id}
+              key={crew.crew_id}
+              crew_id={crew.crew_id}
               title={crew.title}
               content={crew.content}
-              onCrewItemClick={() => onCrewItemClick(crew.id)}
+              onCrewItemClick={() => onCrewItemClick(crew.crew_id)}
             />
           ))}
         </Styled.CrewWrapper>
