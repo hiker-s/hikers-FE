@@ -102,3 +102,17 @@ export const Level = styled.div<LevelCompProps>`
 export const BooleanWrapper = styled.div`
   cursor: pointer;
 `;
+
+export const ReviewBoolWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const Count = styled.div`
+  color: #3b3b3b;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+`;
