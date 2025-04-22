@@ -4,32 +4,34 @@ import { LevelComp } from "./Level";
 import { IoMdHeart } from "react-icons/io";
 
 type ReviewItemProps = {
-  id: number;
+  review_id: number;
   title: string;
   level: string;
   $iscard?: boolean;
-  mountainName: string;
-  courseName: string;
-  isLiked: boolean;
-  isWriter: boolean;
+  mnt_name: string;
+  course_name: string;
+  is_liked?: boolean;
+  is_writer: boolean;
+  like_count: number | undefined;
   onReviewItemClick: (id: number) => void;
   onLikeClick: (e: React.MouseEvent<SVGElement>) => void;
 };
 
 export default function ReviewItem({
-  id,
+  review_id,
   title,
   level,
   $iscard = false,
-  mountainName,
-  courseName,
-  isLiked,
-  isWriter,
+  mnt_name,
+  course_name,
+  is_liked,
+  is_writer,
+  like_count,
   onReviewItemClick,
   onLikeClick,
 }: ReviewItemProps) {
   return (
-    <Styled.ItemWrapper onClick={() => onReviewItemClick(id)}>
+    <Styled.ItemWrapper onClick={() => onReviewItemClick(review_id)}>
       <img src={squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
@@ -38,18 +40,23 @@ export default function ReviewItem({
             {level}
           </LevelComp>
         </Styled.TitleWrapper>
-        <Styled.ContentText>{mountainName}</Styled.ContentText>
-        <Styled.ContentText>{courseName}</Styled.ContentText>
+        <Styled.ContentText>{mnt_name}</Styled.ContentText>
+        <Styled.ContentText>{course_name}</Styled.ContentText>
       </Styled.InfoWrapper>
-      {!isWriter && (
+      {!is_writer ? (
         <Styled.BooleanWrapper>
           <IoMdHeart
             size="24"
-            color={isLiked ? "#349989" : "#C8C8C8"}
+            color={is_liked ? "#349989" : "#C8C8C8"}
             onClick={onLikeClick}
             style={{ cursor: "pointer" }}
           />
         </Styled.BooleanWrapper>
+      ) : (
+        <Styled.ReviewBoolWrapper>
+          <IoMdHeart size="24" color="#3B3B3B" style={{ cursor: "disabled" }} />
+          <Styled.Count>{like_count}</Styled.Count>
+        </Styled.ReviewBoolWrapper>
       )}
     </Styled.ItemWrapper>
   );
