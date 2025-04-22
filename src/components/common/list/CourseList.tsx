@@ -5,22 +5,23 @@ import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
 
-type CourseItem = {
-  id: number;
-  courseName: string;
-  courseRoute: string;
-  totalDuration: string;
+type CourseItemDataProps = {
+  course_id: number;
+  images?: string;
+  course_name: string;
+  course_len: string;
+  course_time: string;
   level: string;
-  isScraped: boolean;
+  is_scrapped: boolean;
 };
 
 type CourseListProps = {
   title: string;
-  data: CourseItem[];
+  course_data: CourseItemDataProps[];
 };
 
-export default function CourseList({ title, data }: CourseListProps) {
-  const [courseData, setCourseData] = useState(data);
+export default function CourseList({ title, course_data }: CourseListProps) {
+  const [courseData, setCourseData] = useState<CourseItemDataProps[]>(course_data);
 
   const onCourseItemClock = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
@@ -30,7 +31,7 @@ export default function CourseList({ title, data }: CourseListProps) {
     e.stopPropagation();
     console.log(`${itemId} 스크랩 클릭`);
     const updatedScrap = courseData.map((item) =>
-      item.id === itemId ? { ...item, isScraped: !item.isScraped } : item
+      item.course_id === itemId ? { ...item, isScraped: !item.is_scrapped } : item
     );
     setCourseData(updatedScrap);
   };
@@ -53,15 +54,16 @@ export default function CourseList({ title, data }: CourseListProps) {
         <Styled.CourseWrapper>
           {currentItems.map((item) => (
             <CourseItem
-              id={item.id}
-              key={item.id}
-              courseName={item.courseName}
-              courseRoute={item.courseRoute}
-              totalDuration={item.totalDuration}
+              course_id={item.course_id}
+              key={item.course_id}
+              images={item.images}
+              course_name={item.course_name}
+              course_len={item.course_len}
+              course_time={item.course_time}
               level={item.level}
-              isScraped={item.isScraped}
-              onCourseItemClock={() => onCourseItemClock(item.id)}
-              onScrapClick={(e) => onScrapClick(item.id, e)}
+              is_scrapped={item.is_scrapped}
+              onCourseItemClock={() => onCourseItemClock(item.course_id)}
+              onScrapClick={(e) => onScrapClick(item.course_id, e)}
             />
           ))}
         </Styled.CourseWrapper>
