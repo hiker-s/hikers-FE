@@ -33,7 +33,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
     e.stopPropagation();
     console.log(`${itemId} 좋아요 클릭`);
     const updatedLike = reviewData.map((item) =>
-      item.review_id === itemId ? { ...item, isLiked: !item.is_liked } : item
+      item.review_id === itemId ? { ...item, is_liked: !item.is_liked } : item
     );
     setReviewData(updatedLike);
   };

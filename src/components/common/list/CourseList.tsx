@@ -31,7 +31,7 @@ export default function CourseList({ title, course_data }: CourseListProps) {
     e.stopPropagation();
     console.log(`${itemId} 스크랩 클릭`);
     const updatedScrap = courseData.map((item) =>
-      item.course_id === itemId ? { ...item, isScraped: !item.is_scrapped } : item
+      item.course_id === itemId ? { ...item, is_scrapped: !item.is_scrapped } : item
     );
     setCourseData(updatedScrap);
   };
