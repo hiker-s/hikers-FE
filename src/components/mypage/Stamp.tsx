@@ -4,13 +4,23 @@ import { GreenBtn } from "../common/button/GreenBtn";
 
 export default function Stamp() {
   const handleStamp = () => {
-    console.log("스탬프 받기 클릭");
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      console.log(pos);
+      const latitude = pos.coords.latitude;
+      const longitude = pos.coords.longitude;
+      alert("lat: " + latitude + ", lng:" + longitude);
+    });
   };
+  const MOCK_STAMP_DATA = [];
+
+  // const [stampData] = useState(MOCK_STAMP_DATA);
   return (
     <Styled.Wrapper>
       <Styled.TitleWrapper>
         <Styled.Title>스탬프</Styled.Title>
-        <Styled.StampCount>#1</Styled.StampCount>
+        <Styled.StampCount>
+          # <span>{MOCK_STAMP_DATA.length}</span>
+        </Styled.StampCount>
       </Styled.TitleWrapper>
       <Styled.StampWrapper>
         <img src={stampMap} alt="스탬프 판" />
