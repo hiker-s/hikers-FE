@@ -1,5 +1,5 @@
 import * as Styled from "./ProgramCarousel.styled";
-import programDatas from "../../dummy/carousel.json";
+import programDatas from "../../data/program-dummy.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

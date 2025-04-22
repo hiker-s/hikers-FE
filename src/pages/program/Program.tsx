@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import programDatas from "../../dummy/carousel.json";
+import programDatas from "../../data/program-dummy.json";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Header } from "../../components/common/header/Header";
