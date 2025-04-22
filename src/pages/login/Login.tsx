@@ -10,8 +10,8 @@ import { Layout } from "../../components/common/layout/Layout";
 const Login = () => {
   const navigate = useNavigate();
   const [formValue, setFormValue] = useState({
-    username: "",
-    password: "",
+    user_id: "",
+    passwd: "",
   });
 
   const handleChange = (e: { target: { name: string; value: string } }) => {
@@ -22,7 +22,7 @@ const Login = () => {
     }));
   };
 
-  const isValid = formValue.username.trim() !== "" && formValue.password.trim() !== "";
+  const isValid = formValue.user_id.trim() !== "" && formValue.passwd.trim() !== "";
 
   const handleBackBtn = () => {
     navigate("/");
@@ -47,16 +47,16 @@ const Login = () => {
           <Input
             title={"아이디"}
             type="text"
-            name="username"
-            value={formValue.username}
+            name="user_id"
+            value={formValue.user_id}
             onChange={handleChange}
             placeholder={"아이디를 입력해주세요"}
           />
           <Input
             title={"비밀번호"}
             type="password"
-            name="password"
-            value={formValue.password}
+            name="passwd"
+            value={formValue.passwd}
             onChange={handleChange}
             placeholder={"비밀번호를 입력해주세요"}
           />
