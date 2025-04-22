@@ -17,7 +17,7 @@ export default function ScrapedList() {
       courseRoute: "돈의문터 - 창의문",
       totalDuration: "1시간 50분",
       level: "상",
-      isScraped: false,
+      isScraped: true,
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function ScrapedList() {
       courseRoute: "돈의문터 - 창의문",
       totalDuration: "1시간 50분",
       level: "상",
-      isScraped: false,
+      isScraped: true,
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export default function ScrapedList() {
       courseRoute: "돈의문터 - 창의문",
       totalDuration: "1시간 50분",
       level: "상",
-      isScraped: false,
+      isScraped: true,
     },
     {
       id: 7,
