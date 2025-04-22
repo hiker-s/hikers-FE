@@ -41,7 +41,7 @@ export default function ReviewItem({
         <Styled.ContentText>{mountainName}</Styled.ContentText>
         <Styled.ContentText>{courseName}</Styled.ContentText>
       </Styled.InfoWrapper>
-      {isWriter && (
+      {!isWriter && (
         <Styled.BooleanWrapper>
           <IoMdHeart
             size="24"
