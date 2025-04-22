@@ -5,23 +5,24 @@ import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
 
-type ReviewItem = {
-  id: number;
+type ReviewItemDataProps = {
+  review_id: number;
   title: string;
-  mountainName: string;
-  courseName: string;
+  mnt_name: string;
+  course_name: string;
   level: string;
-  isLiked: boolean;
-  isWriter: boolean;
+  is_liked?: boolean;
+  is_writer: boolean;
+  like_count?: number;
 };
 
 type ReviewListProps = {
   title: string;
-  data: ReviewItem[];
+  review_data: ReviewItemDataProps[];
 };
 
-export default function ReviewList({ title, data }: ReviewListProps) {
-  const [reviewData, setReviewData] = useState(data);
+export default function ReviewList({ title, review_data }: ReviewListProps) {
+  const [reviewData, setReviewData] = useState<ReviewItemDataProps[]>(review_data);
 
   const onReviewItemClick = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
@@ -30,7 +31,9 @@ export default function ReviewList({ title, data }: ReviewListProps) {
   const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
     e.stopPropagation();
     console.log(`${itemId} 좋아요 클릭`);
-    const updatedLike = reviewData.map((item) => (item.id === itemId ? { ...item, isLiked: !item.isLiked } : item));
+    const updatedLike = reviewData.map((item) =>
+      item.review_id === itemId ? { ...item, isLiked: !item.is_liked } : item
+    );
     setReviewData(updatedLike);
   };
 
@@ -52,16 +55,17 @@ export default function ReviewList({ title, data }: ReviewListProps) {
         <Styled.ReviewWrapper>
           {currentItems.map((item) => (
             <ReviewItem
-              id={item.id}
-              key={item.id}
+              review_id={item.review_id}
+              key={item.review_id}
               title={item.title}
-              mountainName={item.mountainName}
-              courseName={item.courseName}
+              mnt_name={item.mnt_name}
+              course_name={item.course_name}
               level={item.level}
-              isLiked={item.isLiked}
-              isWriter={item.isWriter}
-              onReviewItemClick={() => onReviewItemClick(item.id)}
-              onLikeClick={(e) => onLikeClick(item.id, e)}
+              is_liked={item.is_liked}
+              is_writer={item.is_writer}
+              like_count={item.like_count}
+              onReviewItemClick={() => onReviewItemClick(item.review_id)}
+              onLikeClick={(e) => onLikeClick(item.review_id, e)}
             />
           ))}
         </Styled.ReviewWrapper>
