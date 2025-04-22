@@ -14,7 +14,7 @@ type ReviewItemProps = {
   is_liked?: boolean;
   is_writer: boolean;
   like_count: number | undefined;
-  onReviewItemClick: (id: number) => void;
+  onReviewItemClick: (review_id: number) => void;
   onLikeClick: (e: React.MouseEvent<SVGElement>) => void;
 };
 
