@@ -11,6 +11,7 @@ import Rank from "./pages/rank/Rank";
 import Program from "./pages/community/program/Program";
 import Mypage from "./pages/mypage/Mypage";
 import CrewWrite from "./pages/community/crew/CrewWrite";
+import CrewRead from "./pages/community/crew/CrewRead";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "community", element: <Community /> },
       { path: "community/program/:programId", element: <Program /> },
       { path: "community/crew/write", element: <CrewWrite /> },
+      { path: "community/crew/:crew_id", element: <CrewRead /> },
       { path: "/rank", element: <Rank /> },
       { path: "/mypage/:nickname", element: <Mypage /> },
     ],
