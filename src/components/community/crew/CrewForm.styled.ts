@@ -16,13 +16,8 @@ export const TitleInput = styled.input`
   &::placeholder {
     color: #a4a4a4;
     font-family: "Pretendard";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 1.875rem */
   }
   &:focus {
-    border: none;
     outline: none;
   }
 `;
@@ -57,11 +52,10 @@ export const ContentWrapper = styled.div`
   padding: 1.37rem 0;
 `;
 
-export const ContentInput = styled.textarea`
+export const ContentInput = styled.textarea<{ hasImages: boolean }>`
   white-space: pre-line;
   width: 100%;
-  min-height: 26rem;
-  max-height: 28rem;
+  min-height: ${({ hasImages }) => (hasImages ? "calc(100vh - 32rem)" : "calc(100vh - 24rem)")};
   color: #3b3b3b;
   font-family: "Pretendard";
   font-size: 1rem;
@@ -69,16 +63,56 @@ export const ContentInput = styled.textarea`
   font-weight: 500;
   line-height: 140%; /* 1.4rem */
   resize: none;
+  border: none;
   &::placeholder {
     color: #a4a4a4;
     font-family: "Pretendard";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 140%; /* 1.4rem */
   }
   &:focus {
-    border: none;
     outline: none;
   }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
+
+export const ImagePreviewWrapper = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
+
+export const ImagePreview = styled.div`
+  position: relative;
+  width: 6.25rem;
+  height: 6.25rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.62rem;
+  }
+`;
+
+export const RemoveImageButton = styled.button`
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 `;
