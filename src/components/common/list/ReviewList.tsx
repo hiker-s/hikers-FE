@@ -29,7 +29,6 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
 
   const onReviewItemClick = (itemId: number) => {
     navigate(`review/${itemId}`);
-    console.log(`${itemId} 아이템 조회로 이동`);
   };
 
   const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
