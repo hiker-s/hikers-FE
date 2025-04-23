@@ -1,5 +1,4 @@
 import * as Styled from "./CommunityCrew.styled";
-// import { GreenBtn } from "../common/button/styled";
 import CrewList from "../common/list/CrewList";
 import { useNavigate } from "react-router-dom";
 import { GreenBtn } from "../common/button/GreenBtn";
