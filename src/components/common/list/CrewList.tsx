@@ -3,6 +3,7 @@ import { useState } from "react";
 import CrewItem from "../item/CrewItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 type CrewItemDataProps = {
   crew_id: number;
@@ -16,10 +17,11 @@ type CrewListProps = {
 };
 
 export default function CrewList({ crew_data }: CrewListProps) {
+  const navigate = useNavigate();
   const [crewData] = useState<CrewItemDataProps[]>(crew_data);
 
   const onCrewItemClick = (itemId: number) => {
-    console.log(`${itemId} 아이템 조회로 이동`);
+    navigate(`crew/${itemId}`);
   };
 
   const itemsPerPage = 5;

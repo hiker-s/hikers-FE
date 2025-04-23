@@ -10,6 +10,9 @@ import CourseInfo from "./pages/course/CourseInfo";
 import Rank from "./pages/rank/Rank";
 import Program from "./pages/community/program/Program";
 import Mypage from "./pages/mypage/Mypage";
+import CrewWrite from "./pages/community/crew/CrewWrite";
+import CrewRead from "./pages/community/crew/CrewRead";
+import ReviewRead from "./pages/community/review/ReviewRead";
 
 const router = createBrowserRouter([
   {
@@ -21,12 +24,12 @@ const router = createBrowserRouter([
       { path: "signup", element: <SignUp /> },
       { path: "signup/success", element: <Success /> },
       { path: "/courseList", element: <CourseList /> },
-      {
-        path: "/courseInfo",
-        element: <CourseInfo />,
-      },
+      { path: "/courseInfo", element: <CourseInfo /> },
       { path: "community", element: <Community /> },
       { path: "community/program/:programId", element: <Program /> },
+      { path: "community/crew/write", element: <CrewWrite /> },
+      { path: "community/crew/:crew_id", element: <CrewRead /> },
+      { path: "community/review/:review_id", element: <ReviewRead /> },
       { path: "/rank", element: <Rank /> },
       { path: "/mypage/:nickname", element: <Mypage /> },
     ],

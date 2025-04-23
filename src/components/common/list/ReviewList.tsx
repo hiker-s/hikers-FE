@@ -4,6 +4,7 @@ import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
+import { useNavigate } from "react-router-dom";
 
 type ReviewItemDataProps = {
   review_id: number;
@@ -23,10 +24,11 @@ type ReviewListProps = {
 };
 
 export default function ReviewList({ title, review_data }: ReviewListProps) {
+  const navigate = useNavigate();
   const [reviewData, setReviewData] = useState<ReviewItemDataProps[]>(review_data);
 
   const onReviewItemClick = (itemId: number) => {
-    console.log(`${itemId} 아이템 조회로 이동`);
+    navigate(`review/${itemId}`);
   };
 
   const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
