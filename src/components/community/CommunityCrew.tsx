@@ -1,8 +1,10 @@
 import * as Styled from "./CommunityCrew.styled";
 import { GreenBtn } from "../common/button/styled";
 import CrewList from "../common/list/CrewList";
+import { useNavigate } from "react-router-dom";
 
 export default function CommunityCrew() {
+  const navigate = useNavigate();
   const MOCK_COMMUNITY_CREW = [
     {
       crew_id: 1,
@@ -45,7 +47,7 @@ export default function CommunityCrew() {
       <CrewList crew_data={MOCK_COMMUNITY_CREW} />
       <Styled.ButtonWrapper>
         <GreenBtn
-          onClick={() => console.log("모집글 작성 버튼 클릭")}
+          onClick={() => navigate("crew/write")}
           $padding="0.38rem 1rem"
           $bgColor="#349989"
           color="white"
