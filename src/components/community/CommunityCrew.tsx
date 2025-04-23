@@ -36,7 +36,7 @@ export default function CommunityCrew() {
         "우리 인왕산 크루는 등산을 못하더라도 만사 오케이 다 괜찮으니까 가볍게 들어오세요우리 인왕산 크루는 등산을 못하더라도",
     },
     {
-      crew_id: 1,
+      crew_id: 6,
       title: "인왕산 크루 구해요 !",
       content: "우리 인왕산 크루는 등산을 못하더라도",
     },
