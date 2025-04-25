@@ -21,10 +21,10 @@ export default function CrewRead() {
     {
       title: "크루 모집 제목입니다.",
       created_at: "2025.04.01",
-      writer: "하이커스",
+      author_name: "하이커스",
       is_writer: false,
       content: "크루 모집 내용입니다.",
-      images: [
+      images_url: [
         "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMjBfMjky%2FMDAxNzI5NDA1OTcwNzEz.vgbx7hvDEulsx48OE4T8wwTH_bnAX5CNBU_Y2WiEkfgg.D3M27ocuqJld1BaoXaurFg8JuoC3F1vD9o2vxjY6w0sg.JPEG%2FKakaoTalk_20241020_151047702_15.jpg&type=sc960_832",
         "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130916_18%2Fjisan80_137929009080279rQi_JPEG%2F1-%25BA%25D2%25BE%25CF2-1300.jpg&type=sc960_832",
       ],
@@ -40,10 +40,10 @@ export default function CrewRead() {
         <PostCreateInfo
           is_review={false}
           created_at={crewDetailData[0].created_at}
-          writer={crewDetailData[0].writer}
+          author_name={crewDetailData[0].author_name}
           is_writer={crewDetailData[0].is_writer}
         />
-        <PostContent content={crewDetailData[0].content} images={crewDetailData[0].images} />
+        <PostContent content={crewDetailData[0].content} images_url={crewDetailData[0].images_url} />
       </Styled.Wrapper>
       {crewDetailData[0].is_writer && (
         <Styled.ButtonWrapper>
