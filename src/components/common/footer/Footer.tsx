@@ -17,8 +17,8 @@ export const Footer = () => {
 
   return (
     <Styled.FooterWrapper>
-      <Styled.HomeContainer $isActive={isActive("/courseInfo")} onClick={() => handleClick("/courseInfo")}>
-        <Styled.HomeImg src={Home} $isActive={isActive("/courseInfo")} />
+      <Styled.HomeContainer $isActive={isActive("/home")} onClick={() => handleClick("/home")}>
+        <Styled.HomeImg src={Home} $isActive={isActive("/home")} />
         <span>홈</span>
       </Styled.HomeContainer>
       <Styled.CommunityContainer $isActive={isActive("/community")} onClick={() => handleClick("/community")}>
