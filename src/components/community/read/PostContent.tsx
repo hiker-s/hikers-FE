@@ -2,16 +2,16 @@ import * as Styled from "./styled";
 
 type PostContentProps = {
   content: string;
-  images_url: string[];
+  image_urls: string[];
 };
 
-export default function PostContent({ content, images_url }: PostContentProps) {
+export default function PostContent({ content, image_urls }: PostContentProps) {
   return (
     <div>
       <Styled.ContentWrapper>
-        {images_url.length > 0 && (
+        {image_urls.length > 0 && (
           <Styled.ImageWrapper>
-            {images_url.map((image, index) => (
+            {image_urls.map((image, index) => (
               <Styled.ImageContent key={index}>
                 <img src={image} alt={`이미지 ${index + 1} 장`} />
               </Styled.ImageContent>

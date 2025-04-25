@@ -25,12 +25,12 @@ export default function ReviewRead() {
       course_name: "인왕산 1코스",
       level: "중",
       created_at: "2025.04.01",
-      writer: "하이커스",
+      author_name: "하이커스",
       is_writer: true,
       is_liked: false,
       like_count: 100,
       content: "리뷰 모집 내용입니다.",
-      images: [],
+      image_urls: [],
     },
   ];
   const [reviewDetailData] = useState(MOCK_REVIEW_DETAIL);
@@ -51,12 +51,12 @@ export default function ReviewRead() {
           review_id={post_id}
           is_review={true}
           created_at={reviewDetailData[0].created_at}
-          writer={reviewDetailData[0].writer}
+          author_name={reviewDetailData[0].author_name}
           is_writer={reviewDetailData[0].is_writer}
           is_liked={reviewDetailData[0].is_liked}
           like_count={reviewDetailData[0].like_count}
         />
-        <PostContent content={reviewDetailData[0].content} images={reviewDetailData[0].images} />
+        <PostContent content={reviewDetailData[0].content} image_urls={reviewDetailData[0].image_urls} />
       </Styled.Wrapper>
       {reviewDetailData[0].is_writer && (
         <Styled.ButtonWrapper>
