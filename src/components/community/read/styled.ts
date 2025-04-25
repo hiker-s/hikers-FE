@@ -53,10 +53,31 @@ export const HeartCount = styled.div`
 export const ContentWrapper = styled.div`
   width: 350px;
   min-height: 24rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 `;
 
-export const ImageWrapper = styled.div``;
-export const ImageContent = styled.div``;
+export const ImageWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
+export const ImageContent = styled.div`
+  width: auto;
+  height: 200px;
+  img {
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0.62rem;
+  }
+`;
 export const Content = styled.div`
   color: #3b3b3b;
   font-family: "Pretendard";
