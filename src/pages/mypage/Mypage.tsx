@@ -5,7 +5,7 @@ import { Layout } from "../../components/common/layout/Layout";
 import UserInfo from "../../components/mypage/UserInfo";
 import Stamp from "../../components/mypage/Stamp";
 import ScrapedList from "../../components/mypage/ScrapedList";
-import LikedList from "../../components/mypage/likedList";
+import LikedList from "../../components/mypage/LikedList";
 import MyReviewList from "../../components/mypage/MyReviewList";
 
 export default function Mypage() {
@@ -16,7 +16,7 @@ export default function Mypage() {
   };
   return (
     <div>
-      <Layout $margin="6.25rem 0 1rem 0" isFooter={true}>
+      <Layout $margin="6.25rem 0 1rem 0" $isFooter={true}>
         <Header onClick={handleBackBtn}>마이페이지</Header>
         <UserInfo />
         <Stamp />
