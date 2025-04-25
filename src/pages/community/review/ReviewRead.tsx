@@ -36,7 +36,7 @@ export default function ReviewRead() {
   const [reviewDetailData] = useState(MOCK_REVIEW_DETAIL);
 
   return (
-    <Layout $margin="6.81rem 0 0 0" isFooter={true}>
+    <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>리뷰</Header>
       <Styled.Wrapper>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
