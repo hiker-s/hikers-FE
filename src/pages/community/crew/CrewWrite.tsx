@@ -17,7 +17,7 @@ export default function CrewWrite() {
 
   const nickname = "하이커스";
   return (
-    <Layout $margin="6.81rem 0 1rem 0" isFooter={true}>
+    <Layout $margin="6.81rem 0 1rem 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>크루</Header>
       <CrewForm date_info={date_info} nickname={nickname} />
     </Layout>

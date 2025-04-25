@@ -38,7 +38,7 @@ export default function Program() {
   }, [programId]);
 
   return (
-    <Layout $margin="7.5rem 0 2.5rem 0" isFooter={true}>
+    <Layout $margin="7.5rem 0 2.5rem 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>프로그램</Header>
       {data && (
         <Styled.Wrapper>

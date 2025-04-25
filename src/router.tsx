@@ -13,6 +13,7 @@ import Mypage from "./pages/mypage/Mypage";
 import CrewWrite from "./pages/community/crew/CrewWrite";
 import CrewRead from "./pages/community/crew/CrewRead";
 import ReviewRead from "./pages/community/review/ReviewRead";
+import Home from "./pages/home/Home";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/", element: <Onboarding /> },
+      { path: "home", element: <Home /> },
       { path: "login", element: <Login /> },
       { path: "signup", element: <SignUp /> },
       { path: "signup/success", element: <Success /> },

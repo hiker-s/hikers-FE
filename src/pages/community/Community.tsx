@@ -62,7 +62,7 @@ export default function Community() {
 
   return (
     <>
-      <Layout $margin="10rem 0 4.87rem 0" isFooter={true}>
+      <Layout $margin="10rem 0 4.87rem 0" $isFooter={true}>
         <Header
           onClick={handleBackBtn}
           isCategory={true}
