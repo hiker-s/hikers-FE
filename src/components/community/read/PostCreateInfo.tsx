@@ -6,7 +6,7 @@ type PostCreateInfoProps = {
   review_id?: number;
   is_review: boolean;
   created_at: string;
-  writer: string;
+  author_name: string;
   is_writer: boolean;
   like_count?: number;
   is_liked?: boolean;
@@ -16,7 +16,7 @@ function PostCreateInfo({
   review_id,
   is_review,
   created_at,
-  writer,
+  author_name,
   is_writer,
   like_count = 0,
   is_liked = false,
@@ -40,7 +40,7 @@ function PostCreateInfo({
     <Styled.CreateInfoWrapper>
       <Styled.WriteInfo>
         <div style={{ fontWeight: 400 }}>{created_at}</div>
-        <div style={{ fontWeight: 700 }}>{writer}</div>
+        <div style={{ fontWeight: 700 }}>{author_name}</div>
       </Styled.WriteInfo>
 
       {is_review && (
