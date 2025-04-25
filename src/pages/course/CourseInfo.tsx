@@ -75,7 +75,7 @@ const CourseInfo = () => {
   }, [categories]);
 
   return (
-    <Layout $margin="17rem 0 3rem 0" isFooter={true}>
+    <Layout $margin="17rem 0 3rem 0" $isFooter={true}>
       <Styled.Wrapper>
         <Header
           onClick={handleBackBtn}

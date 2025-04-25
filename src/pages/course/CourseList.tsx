@@ -11,7 +11,7 @@ const CourseList = () => {
   const handleBackBtn = () => navigate("/home");
 
   return (
-    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
+    <Layout $margin="6.25rem 0 0 0" $isFooter={true}>
       <Styled.Wrapper>
         <Header onClick={handleBackBtn}>코스</Header>
         <MountainBanner />

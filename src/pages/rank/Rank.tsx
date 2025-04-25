@@ -10,7 +10,7 @@ const Rank = () => {
   const handleBackBtn = () => navigate(-1);
 
   return (
-    <Layout $margin="6.25rem 0 0 0" isFooter={true}>
+    <Layout $margin="6.25rem 0 0 0" $isFooter={true}>
       <Styled.Wrapper>
         <Header isOnboarding={true} onClick={handleBackBtn}>
           랭킹
