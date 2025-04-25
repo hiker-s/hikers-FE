@@ -52,10 +52,10 @@ export const ContentWrapper = styled.div`
   padding: 1.37rem 0;
 `;
 
-export const ContentInput = styled.textarea<{ hasImages: boolean }>`
+export const ContentInput = styled.textarea<{ $hasImages: boolean }>`
   white-space: pre-line;
   width: 100%;
-  min-height: ${({ hasImages }) => (hasImages ? "calc(100vh - 32rem)" : "calc(100vh - 24rem)")};
+  min-height: ${({ $hasImages }) => ($hasImages ? "calc(100vh - 32rem)" : "calc(100vh - 24rem)")};
   color: #3b3b3b;
   font-family: "Pretendard";
   font-size: 1rem;

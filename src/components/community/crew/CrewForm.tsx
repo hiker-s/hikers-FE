@@ -95,7 +95,7 @@ export default function CrewForm({ date_info, nickname }: CrewFormProps) {
           onChange={handleChangeContent}
           name="content"
           value={content}
-          hasImages={images.length > 0}
+          $hasImages={images.length > 0}
         />
       </Styled.ContentWrapper>
       <div
