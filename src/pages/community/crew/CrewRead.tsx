@@ -24,7 +24,10 @@ export default function CrewRead() {
       writer: "하이커스",
       is_writer: false,
       content: "크루 모집 내용입니다.",
-      images: [],
+      images: [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMjBfMjky%2FMDAxNzI5NDA1OTcwNzEz.vgbx7hvDEulsx48OE4T8wwTH_bnAX5CNBU_Y2WiEkfgg.D3M27ocuqJld1BaoXaurFg8JuoC3F1vD9o2vxjY6w0sg.JPEG%2FKakaoTalk_20241020_151047702_15.jpg&type=sc960_832",
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130916_18%2Fjisan80_137929009080279rQi_JPEG%2F1-%25BA%25D2%25BE%25CF2-1300.jpg&type=sc960_832",
+      ],
     },
   ];
   const [crewDetailData] = useState(MOCK_CREW_DETAIL);
