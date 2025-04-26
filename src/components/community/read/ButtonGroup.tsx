@@ -1,4 +1,5 @@
 import * as Styled from "./styled";
+import { useNavigate } from "react-router-dom";
 
 type ButtonGroupProps = {
   mode: string;
@@ -6,8 +7,10 @@ type ButtonGroupProps = {
 };
 
 export default function ButtonGroup({ mode, id }: ButtonGroupProps) {
+  const navigate = useNavigate();
   const handleEdit = (id: number) => {
-    console.log(`${mode === "crew" ? "crew_id" : "review_id"} ${id} 수정`);
+    navigate(`${mode === "crew" ? `edit` : "edit"}`);
+    console.log(id);
   };
 
   const handleDelete = (id: number) => {
