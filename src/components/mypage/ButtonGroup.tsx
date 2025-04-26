@@ -1,22 +1,33 @@
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import { DeleteAccountModal } from "./DeleteAccountModal";
+import { useState } from "react";
 
 export default function ButtonGroup() {
   const navigate = useNavigate();
   const handleLogout = () => {
-    console.log("로그아웃");
+    console.log("로그아웃 api 연동");
     navigate("/");
   };
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   const handleDelete = () => {
-    console.log("회원탈퇴");
+    setIsModalOpen(true);
   };
 
   return (
-    <BtnWrapper>
-      <LogoutBtn onClick={handleLogout}>로그아웃</LogoutBtn>
-      <DeleteBtn onClick={handleDelete}>회원탈퇴</DeleteBtn>
-    </BtnWrapper>
+    <>
+      {isModalOpen && <DeleteAccountModal onClose={handleCloseModal} />}
+      <BtnWrapper>
+        <LogoutBtn onClick={handleLogout}>로그아웃</LogoutBtn>
+        <DeleteBtn onClick={handleDelete}>회원탈퇴</DeleteBtn>
+      </BtnWrapper>
+    </>
   );
 }
 
