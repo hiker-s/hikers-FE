@@ -7,14 +7,14 @@ import { Filter } from "../filter/Filter";
 import { useNavigate } from "react-router-dom";
 
 type ReviewItemDataProps = {
-  review_id: number;
-  images?: string;
+  id: number;
+  image_urls?: string[];
   title: string;
-  mnt_name: string;
+  mountain_name: string;
   course_name: string;
   level: string;
-  is_liked?: boolean;
-  is_writer: boolean;
+  liked_by_current_user?: boolean;
+  writer: boolean;
   like_count?: number;
 };
 
@@ -35,7 +35,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
     e.stopPropagation();
     console.log(`${itemId} 좋아요 클릭`);
     const updatedLike = reviewData.map((item) =>
-      item.review_id === itemId ? { ...item, is_liked: !item.is_liked } : item
+      item.id === itemId ? { ...item, liked_by_current_user: !item.liked_by_current_user } : item
     );
     setReviewData(updatedLike);
   };
@@ -58,18 +58,18 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
         <Styled.ReviewWrapper>
           {currentItems.map((item) => (
             <ReviewItem
-              review_id={item.review_id}
-              key={item.review_id}
-              images={item.images}
+              id={item.id}
+              key={item.id}
+              image_urls={item.image_urls}
               title={item.title}
-              mnt_name={item.mnt_name}
+              mountain_name={item.mountain_name}
               course_name={item.course_name}
               level={item.level}
-              is_liked={item.is_liked}
-              is_writer={item.is_writer}
+              liked_by_current_user={item.liked_by_current_user}
+              writer={item.writer}
               like_count={item.like_count}
-              onReviewItemClick={() => onReviewItemClick(item.review_id)}
-              onLikeClick={(e) => onLikeClick(item.review_id, e)}
+              onReviewItemClick={() => onReviewItemClick(item.id)}
+              onLikeClick={(e) => onLikeClick(item.id, e)}
             />
           ))}
         </Styled.ReviewWrapper>

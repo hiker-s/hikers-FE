@@ -27,7 +27,7 @@ export default function ReviewRead() {
       created_at: "2025.04.01",
       author_name: "하이커스",
       is_writer: true,
-      is_liked: false,
+      liked_by_current_user: false,
       like_count: 100,
       content: "리뷰 모집 내용입니다.",
       image_urls: [],
@@ -53,7 +53,7 @@ export default function ReviewRead() {
           created_at={reviewDetailData[0].created_at}
           author_name={reviewDetailData[0].author_name}
           is_writer={reviewDetailData[0].is_writer}
-          is_liked={reviewDetailData[0].is_liked}
+          liked_by_current_user={reviewDetailData[0].liked_by_current_user}
           like_count={reviewDetailData[0].like_count}
         />
         <PostContent content={reviewDetailData[0].content} image_urls={reviewDetailData[0].image_urls} />
