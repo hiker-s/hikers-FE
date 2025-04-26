@@ -5,8 +5,8 @@ import { useState } from "react";
 export default function UserInfo() {
   const MOCK_USERINFO = [
     {
+      userId: "hikers123",
       nickname: "하이커스",
-      user_id: "hikers123",
     },
   ];
 
@@ -18,7 +18,7 @@ export default function UserInfo() {
       </div>
       <NameWrapper>
         <Nickname>{userInfo[0].nickname}</Nickname>
-        <UserId>{userInfo[0].user_id}</UserId>
+        <UserId>{userInfo[0].userId}</UserId>
       </NameWrapper>
     </Wrapper>
   );
