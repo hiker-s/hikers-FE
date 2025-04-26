@@ -10,7 +10,7 @@ export default function LikedList() {
       course_name: "인왕산1코스인왕산1코스인왕산1코스",
       level: "상",
       liked_by_current_user: true,
-      writer: false,
+      is_writer: false,
       image_urls: [],
     },
     {
@@ -20,7 +20,7 @@ export default function LikedList() {
       course_name: "북한산3코스",
       level: "중",
       liked_by_current_user: true,
-      writer: false,
+      is_writer: false,
       image_urls: [],
     },
     {
@@ -30,7 +30,7 @@ export default function LikedList() {
       course_name: "관악산5코스",
       level: "하",
       liked_by_current_user: true,
-      writer: false,
+      is_writer: false,
       image_urls: [],
     },
   ];
