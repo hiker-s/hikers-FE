@@ -7,6 +7,7 @@ import Stamp from "../../components/mypage/Stamp";
 import ScrapedList from "../../components/mypage/ScrapedList";
 import LikedList from "../../components/mypage/LikedList";
 import MyReviewList from "../../components/mypage/MyReviewList";
+import ButtonGroup from "../../components/mypage/ButtonGroup";
 
 export default function Mypage() {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ export default function Mypage() {
           <MyReviewList />
           <LikedList />
         </Styled.ListWrapper>
+        <ButtonGroup />
       </Layout>
     </div>
   );
