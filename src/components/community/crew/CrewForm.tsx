@@ -1,20 +1,30 @@
 import * as Styled from "./CrewForm.styled";
 import { MdImage } from "react-icons/md";
 import { PLACEHOLDERS } from "../../../constants/communityPlaceholder";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { GreenBtn } from "../../common/button/GreenBtn";
 import { IoMdClose } from "react-icons/io";
+import { useImageUpload } from "../../../hooks/useImageUpload";
 
 type CrewFormProps = {
   date_info: string;
   nickname: string;
+  initialData?: {
+    title: string;
+    content: string;
+    image_urls: string[];
+  };
+  isEdit?: boolean;
+  onSubmit?: (data: { title: string; content: string; images: File[] }) => void;
 };
 
-export default function CrewForm({ date_info, nickname }: CrewFormProps) {
-  const [title, setTitle] = useState<string>("");
-  const [content, setContent] = useState<string>("");
-  const [images, setImages] = useState<string[]>([]);
-  const fileInputRef = useRef<HTMLInputElement>(null);
+export default function CrewForm({ date_info, nickname, initialData, isEdit = false, onSubmit }: CrewFormProps) {
+  const [title, setTitle] = useState<string>(initialData?.title || "");
+  const [content, setContent] = useState<string>(initialData?.content || "");
+
+  // 커스텀 훅 호출 (초기값 설정)
+  const { previewUrls, imageFiles, fileInputRef, handleImageClick, handleImageUpload, handleRemoveImage } =
+    useImageUpload(initialData?.image_urls || []);
 
   const handleChangeTitle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(e.target.value);
@@ -25,30 +35,13 @@ export default function CrewForm({ date_info, nickname }: CrewFormProps) {
   };
 
   const handleWritePost = () => {
-    console.log("글 작성 버튼 클릭");
-  };
-
-  const handleImageClick = () => {
-    fileInputRef.current?.click();
-  };
-
-  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files;
-    if (!files) return;
-
-    const imageFiles = Array.from(files).filter((file) => file.type.startsWith("image/"));
-
-    if (images.length + imageFiles.length > 3) {
-      alert("이미지는 최대 3장까지만 업로드할 수 있습니다.");
-      return;
+    if (onSubmit) {
+      onSubmit({
+        title,
+        content,
+        images: imageFiles,
+      });
     }
-
-    const newImages = imageFiles.map((file) => URL.createObjectURL(file));
-    setImages((prev) => [...prev, ...newImages]);
-  };
-
-  const handleRemoveImage = (index: number) => {
-    setImages((prev) => prev.filter((_, i) => i !== index));
   };
 
   return (
@@ -60,11 +53,13 @@ export default function CrewForm({ date_info, nickname }: CrewFormProps) {
         name="title"
         value={title}
       />
+
       <Styled.ImgInputWrapper>
         <Styled.WriteInfo>
           <div style={{ fontWeight: 400 }}>{date_info}</div>
           <div style={{ fontWeight: 700 }}>{nickname}</div>
         </Styled.WriteInfo>
+
         <Styled.ImgInput onClick={handleImageClick}>
           <MdImage size="24" color="#C8C8C8" />
           <input
@@ -77,11 +72,12 @@ export default function CrewForm({ date_info, nickname }: CrewFormProps) {
           />
         </Styled.ImgInput>
       </Styled.ImgInputWrapper>
-      {images.length > 0 && (
+
+      {previewUrls.length > 0 && (
         <Styled.ImagePreviewWrapper>
-          {images.map((image, index) => (
+          {previewUrls.map((url, index) => (
             <Styled.ImagePreview key={index}>
-              <img src={image} alt={`미리보기 이미지 ${index + 1} 장`} />
+              <img src={url} alt={`업로드된 이미지 ${index + 1}`} />
               <Styled.RemoveImageButton onClick={() => handleRemoveImage(index)}>
                 <IoMdClose size="20" color="#fff" />
               </Styled.RemoveImageButton>
@@ -89,22 +85,19 @@ export default function CrewForm({ date_info, nickname }: CrewFormProps) {
           ))}
         </Styled.ImagePreviewWrapper>
       )}
+
       <Styled.ContentWrapper>
         <Styled.ContentInput
           placeholder={PLACEHOLDERS["crew"]}
           onChange={handleChangeContent}
           name="content"
           value={content}
-          $hasImages={images.length > 0}
+          $hasImages={previewUrls.length > 0}
         />
       </Styled.ContentWrapper>
-      <div
-        style={{
-          position: "relative",
-          left: "65%",
-        }}
-      >
-        <GreenBtn onClick={handleWritePost}>모집글 게시하기</GreenBtn>
+
+      <div style={{ width: "350px", display: "flex", justifyContent: "flex-end" }}>
+        <GreenBtn onClick={handleWritePost}>{isEdit ? "모집글 수정하기" : "모집글 게시하기"}</GreenBtn>
       </div>
     </Styled.Wrapper>
   );

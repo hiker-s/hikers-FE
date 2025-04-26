@@ -8,6 +8,16 @@ export const ItemWrapper = styled.div`
   align-items: center;
   gap: 0.87rem;
   cursor: pointer;
+  justify-content: space-between;
+`;
+
+export const CrewItemWrapper = styled.div`
+  width: 21.875rem;
+  height: 4.9375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.87rem;
+  cursor: pointer;
 `;
 
 export const InfoWrapper = styled.div`

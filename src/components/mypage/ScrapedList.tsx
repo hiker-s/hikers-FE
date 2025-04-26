@@ -1,5 +1,5 @@
 import CourseList from "../common/list/CourseList";
-import * as Styled from "./ScrapedList.styled";
+import styled from "styled-components";
 
 export default function ScrapedList() {
   const MOCK_MYPAGE_COURSE = [
@@ -61,8 +61,13 @@ export default function ScrapedList() {
     },
   ];
   return (
-    <Styled.Wrapper>
+    <Wrapper>
       <CourseList title="스크랩한 코스" course_data={MOCK_MYPAGE_COURSE} />
-    </Styled.Wrapper>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
