@@ -18,14 +18,13 @@ export const CourseTitleWrapper = styled.div`
 `;
 
 export const CourseTitle = styled.div`
-  width: 12rem;
   color: #3b3b3b;
   font-family: "Pretendard";
   font-size: 1.25rem;
   font-weight: 700;
   line-height: normal;
   flex: 1;
-  margin-right: 0.2rem;
+  margin-right: 0.62rem;
 `;
 
 export const CourseLevel = styled.div`
@@ -68,10 +67,11 @@ export const StartToEnd = styled.div`
 
 export const CourseStats = styled.div`
   display: flex;
-  width: 20.5rem;
+  width: 100%;
   height: 1.0625rem;
+  justify-content: space-between;
   align-items: center;
-  gap: 1.625rem;
+  gap: 0.5rem;
 `;
 
 export const CourseStatsItem = styled.span`
