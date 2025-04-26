@@ -15,19 +15,18 @@ export default function Mypage() {
   const handleBackBtn = () => {
     navigate(-1);
   };
+
   return (
-    <div>
-      <Layout $margin="6.25rem 0 1rem 0" $isFooter={true}>
-        <Header onClick={handleBackBtn}>마이페이지</Header>
-        <UserInfo />
-        <Stamp />
-        <Styled.ListWrapper>
-          <ScrapedList />
-          <MyReviewList />
-          <LikedList />
-        </Styled.ListWrapper>
-        <ButtonGroup />
-      </Layout>
-    </div>
+    <Layout $margin="6.25rem 0 1rem 0" $isFooter={true}>
+      <Header onClick={handleBackBtn}>마이페이지</Header>
+      <UserInfo />
+      <Stamp />
+      <Styled.ListWrapper>
+        <ScrapedList />
+        <MyReviewList />
+        <LikedList />
+      </Styled.ListWrapper>
+      <ButtonGroup />
+    </Layout>
   );
 }
