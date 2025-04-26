@@ -1,4 +1,4 @@
-import * as Styled from "./styled";
+import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/common/header/Header";
 import { Layout } from "../../components/common/layout/Layout";
@@ -21,12 +21,18 @@ export default function Mypage() {
       <Header onClick={handleBackBtn}>마이페이지</Header>
       <UserInfo />
       <Stamp />
-      <Styled.ListWrapper>
+      <ListWrapper>
         <ScrapedList />
         <MyReviewList />
         <LikedList />
-      </Styled.ListWrapper>
+      </ListWrapper>
       <ButtonGroup />
     </Layout>
   );
 }
+
+const ListWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3.12rem;
+`;
