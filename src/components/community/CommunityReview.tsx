@@ -11,7 +11,7 @@ export default function CommunityReview() {
       course_name: "인왕산1코스인왕산1코스인왕산1코스",
       level: "상",
       liked_by_current_user: true,
-      writer: false,
+      is_writer: false,
       like_count: 23,
     },
     {
@@ -21,7 +21,7 @@ export default function CommunityReview() {
       course_name: "북한산3코스",
       level: "중",
       liked_by_current_user: false,
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
     {
@@ -31,7 +31,7 @@ export default function CommunityReview() {
       course_name: "관악산5코스",
       level: "하",
       liked_by_current_user: true,
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
   ];

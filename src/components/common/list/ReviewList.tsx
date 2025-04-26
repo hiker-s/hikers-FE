@@ -14,7 +14,7 @@ type ReviewItemDataProps = {
   course_name: string;
   level: string;
   liked_by_current_user?: boolean;
-  writer: boolean;
+  is_writer: boolean;
   like_count?: number;
 };
 
@@ -66,7 +66,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
               course_name={item.course_name}
               level={item.level}
               liked_by_current_user={item.liked_by_current_user}
-              writer={item.writer}
+              is_writer={item.is_writer}
               like_count={item.like_count}
               onReviewItemClick={() => onReviewItemClick(item.id)}
               onLikeClick={(e) => onLikeClick(item.id, e)}

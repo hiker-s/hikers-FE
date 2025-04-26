@@ -12,7 +12,7 @@ type ReviewItemProps = {
   mountain_name: string;
   course_name: string;
   liked_by_current_user?: boolean;
-  writer: boolean;
+  is_writer: boolean;
   like_count: number | undefined;
   onReviewItemClick: (id: number) => void;
   onLikeClick: (e: React.MouseEvent<SVGElement>) => void;
@@ -27,7 +27,7 @@ export default function ReviewItem({
   mountain_name,
   course_name,
   liked_by_current_user,
-  writer,
+  is_writer,
   like_count,
   onReviewItemClick,
   onLikeClick,
@@ -45,7 +45,7 @@ export default function ReviewItem({
         <Styled.ContentText>{mountain_name}</Styled.ContentText>
         <Styled.ContentText>{course_name}</Styled.ContentText>
       </Styled.InfoWrapper>
-      {!writer ? (
+      {!is_writer ? (
         <Styled.BooleanWrapper>
           <IoMdHeart
             size="24"

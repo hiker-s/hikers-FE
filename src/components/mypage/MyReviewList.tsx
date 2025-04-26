@@ -9,7 +9,7 @@ export default function MyReviewList() {
       mountain_name: "인왕산",
       course_name: "인왕산1코스인왕산1코스인왕산1코스",
       level: "상",
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
     {
@@ -18,7 +18,7 @@ export default function MyReviewList() {
       mountain_name: "북한산",
       course_name: "북한산3코스",
       level: "중",
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
     {
@@ -27,7 +27,7 @@ export default function MyReviewList() {
       mountain_name: "관악산",
       course_name: "관악산5코스",
       level: "하",
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
     {
@@ -36,7 +36,7 @@ export default function MyReviewList() {
       mountain_name: "북한산",
       course_name: "북한산3코스",
       level: "중",
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
     {
@@ -45,7 +45,7 @@ export default function MyReviewList() {
       mountain_name: "관악산",
       course_name: "관악산5코스",
       level: "하",
-      writer: true,
+      is_writer: true,
       like_count: 23,
     },
   ];

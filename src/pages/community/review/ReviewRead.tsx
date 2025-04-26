@@ -21,7 +21,7 @@ export default function ReviewRead() {
   const MOCK_REVIEW_DETAIL = [
     {
       title: "리뷰 모집 제목입니다.",
-      mnt_name: "인왕산",
+      mountain_name: "인왕산",
       course_name: "인왕산 1코스",
       level: "중",
       created_at: "2025.04.01",
@@ -42,7 +42,7 @@ export default function ReviewRead() {
         <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
           <PostTitle title={reviewDetailData[0].title} />
           <PostReviewInfo
-            mnt_name={reviewDetailData[0].mnt_name}
+            mountain_name={reviewDetailData[0].mountain_name}
             course_name={reviewDetailData[0].course_name}
             level={reviewDetailData[0].level}
           />
