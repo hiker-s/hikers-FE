@@ -1,4 +1,4 @@
-import * as Styled from "./ReviewRead.styled";
+import styled from "styled-components";
 import { useNavigate, useParams } from "react-router-dom";
 import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
@@ -38,7 +38,7 @@ export default function ReviewRead() {
   return (
     <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>리뷰</Header>
-      <Styled.Wrapper>
+      <Wrapper>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
           <PostTitle title={reviewDetailData[0].title} />
           <PostReviewInfo
@@ -57,12 +57,23 @@ export default function ReviewRead() {
           like_count={reviewDetailData[0].like_count}
         />
         <PostContent content={reviewDetailData[0].content} image_urls={reviewDetailData[0].image_urls} />
-      </Styled.Wrapper>
+      </Wrapper>
       {reviewDetailData[0].is_writer && (
-        <Styled.ButtonWrapper>
+        <ButtonWrapper>
           <ButtonGroup mode="review" id={post_id} />
-        </Styled.ButtonWrapper>
+        </ButtonWrapper>
       )}
     </Layout>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+`;
+
+const ButtonWrapper = styled.div`
+  position: absolute;
+  top: calc(100vh - 18%);
+`;
