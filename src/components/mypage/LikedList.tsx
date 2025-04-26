@@ -1,4 +1,4 @@
-import * as Styled from "./likedList.styled";
+import styled from "styled-components";
 import ReviewList from "../common/list/ReviewList";
 
 export default function LikedList() {
@@ -33,8 +33,15 @@ export default function LikedList() {
   ];
 
   return (
-    <Styled.Wrapper>
+    <Wrapper>
       <ReviewList title="좋아요한 리뷰" review_data={MOCK_MYPAGE_REVIEW} />
-    </Styled.Wrapper>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3125rem;
+`;
