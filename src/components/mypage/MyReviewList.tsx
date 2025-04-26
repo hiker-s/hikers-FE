@@ -1,5 +1,5 @@
-import * as Styled from "./MyReviewList.styled";
 import ReviewList from "../common/list/ReviewList";
+import { styled } from "styled-components";
 
 export default function MyReviewList() {
   const MOCK_MYPAGE_MYREVIEW = [
@@ -51,8 +51,15 @@ export default function MyReviewList() {
   ];
 
   return (
-    <Styled.Wrapper>
+    <Wrapper>
       <ReviewList title="내가 쓴 리뷰" review_data={MOCK_MYPAGE_MYREVIEW} />
-    </Styled.Wrapper>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3125rem;
+`;
