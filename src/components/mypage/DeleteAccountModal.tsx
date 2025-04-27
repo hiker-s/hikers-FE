@@ -1,5 +1,6 @@
+import { accountApi } from "../../apis/account/AccountApi";
 import * as Styled from "./DeleteAccountModal.styled";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 
 interface DeleteAccountModalProps {
@@ -7,10 +8,15 @@ interface DeleteAccountModalProps {
 }
 
 export const DeleteAccountModal = ({ onClose }: DeleteAccountModalProps) => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
-  const handleDeleteAccount = () => {
-    console.log("회원탈퇴 api 연동");
+  const handleDeleteAccount = async () => {
+    try {
+      await accountApi.postDeleteUser();
+      navigate("/");
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
