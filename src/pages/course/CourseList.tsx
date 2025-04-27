@@ -4,7 +4,7 @@ import MountainBanner from "../../components/course/courseList/MountainBanner";
 import CourseListComp from "../../components/course/courseList/CourseListComp";
 import CourseReview from "../../components/course/courseList/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
-import * as Styled from "./CourseList.styled";
+import styled from "styled-components";
 
 const CourseList = () => {
   const navigate = useNavigate();
@@ -12,14 +12,23 @@ const CourseList = () => {
 
   return (
     <Layout $margin="6.25rem 0 0 0" $isFooter={true}>
-      <Styled.Wrapper>
+      <Wrapper>
         <Header onClick={handleBackBtn}>코스</Header>
         <MountainBanner />
         <CourseListComp />
         <CourseReview />
-      </Styled.Wrapper>
+      </Wrapper>
     </Layout>
   );
 };
 
 export default CourseList;
+
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+`;

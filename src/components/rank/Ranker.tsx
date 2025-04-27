@@ -9,19 +9,18 @@ interface RankerProps {
   $isMe?: boolean;
   rank: number;
   name: string;
-  img: string;
   stamp: number;
   status: "up" | "down" | "same";
 }
 
-const Ranker = ({ $isMe = false, rank, name, img, stamp, status }: RankerProps) => {
+const Ranker = ({ $isMe = false, rank, name, stamp, status }: RankerProps) => {
   return (
     <Styled.RankerContainer $isMe={$isMe}>
       <Styled.RankerInfoContainer>
         <Styled.PlaceContainer>
           <Styled.Place $isMe={$isMe}>{rank}</Styled.Place>
         </Styled.PlaceContainer>
-        <Styled.Img src={img || ($isMe ? myRankDefault : otherRankDefault)} />
+        <Styled.Img src={$isMe ? myRankDefault : otherRankDefault} />
         <Styled.NameStampContainer>
           <Styled.Name>{name}</Styled.Name>
           <Styled.Stamp $isMe={$isMe}>{stamp}</Styled.Stamp>

@@ -3,110 +3,52 @@ import { Modal } from "../../common/modal/Modal";
 import { GreenBtn } from "../../common/button/GreenBtn";
 import { LevelComp } from "../../common/item/Level";
 import * as Styled from "./CourseData.styled";
+import mntData from "../../../data/mnt/가리산/가리산_1.json";
+import useKakaoShare from "../../../hooks/useKakaoShare";
 
-interface KakaoShareButton {
-  title: string;
-  link: {
-    mobileWebUrl: string;
-    webUrl: string;
-  };
-}
-
-interface KakaoShareContent {
-  title: string;
-  description: string;
-  imageUrl: string;
-  link: {
-    mobileWebUrl: string;
-    webUrl: string;
-  };
-}
-
-interface KakaoShareParams {
-  objectType: string;
-  content: KakaoShareContent;
-  buttons: KakaoShareButton[];
-}
-
-interface KakaoShare {
-  sendDefault: (params: KakaoShareParams) => void;
-}
-
-interface KakaoSDK {
-  init: (key: string) => void;
-  isInitialized: () => boolean;
-  Share: KakaoShare;
-}
-
-declare global {
-  interface Window {
-    Kakao: KakaoSDK;
-  }
+// 타입 가드 함수 - json 형식
+function isMountainData(data: unknown): data is typeof mntData {
+  const d = data as typeof mntData;
+  return (
+    d !== null &&
+    typeof d === "object" &&
+    typeof d.course_name === "string" &&
+    typeof d.mnt_name === "string" &&
+    typeof d.total_length_km === "string" &&
+    typeof d.max_ele === "number" &&
+    typeof d.total_time === "string" &&
+    typeof d.start_name === "string" &&
+    typeof d.end_name === "string" &&
+    typeof d.level === "string"
+  );
 }
 
 const CourseData = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { shareCourse } = useKakaoShare();
 
-  const dummyCourse = {
-    mountainName: "인왕산",
-    sections: [
-      {
-        id: 1,
-        name: "돈의문터 - 창의문",
-        startName: "돈의문터",
-        endName: "창의문",
-        level: "중",
-        coordinates: [
-          { lat: 37.571, lng: 126.969 },
-          { lat: 37.577, lng: 126.974 },
-        ],
-        distance: 1.8, // km
-        elevation: 328, // m
-        duration: 110, // minutes
-      },
-    ],
-  };
+  // 타입 검사
+  if (!isMountainData(mntData)) {
+    console.error("Invalid mountain data structure:", mntData);
+    return <div>데이터 형식이 올바르지 않습니다.</div>;
+  }
 
-  const formatTime = (minutes: number) => {
-    const h = Math.floor(minutes / 60);
-    const m = minutes % 60;
-    return `${h > 0 ? `${h}시간 ` : ""}${m}분`;
-  };
-
-  const totalDistance = dummyCourse.sections.reduce((acc, cur) => acc + cur.distance, 0);
-  const totalElevation = dummyCourse.sections.reduce((acc, cur) => acc + cur.elevation, 0);
-  const totalDuration = dummyCourse.sections.reduce((acc, cur) => acc + cur.duration, 0);
-
-  const firstSection = dummyCourse.sections[0];
-  const lastSection = dummyCourse.sections[dummyCourse.sections.length - 1];
-  const courseName = `${firstSection.startName} ⟷ ${lastSection.endName}`;
-  const courseTitle = `${dummyCourse.mountainName} ${dummyCourse.sections[0].name}`;
-  const courseLevel = dummyCourse.sections[0].level;
+  const totalDistance = mntData.total_length_km;
+  const totalElevation = `${mntData.max_ele}m`;
+  const totalDuration = mntData.total_time;
+  const courseName = mntData.course_name;
+  const courseStartEnd = `${mntData.start_name} ⟷ ${mntData.end_name}`;
+  const courseTitle = `${mntData.mnt_name} ${courseName}`;
+  const courseLevel = mntData.level;
 
   const handleKakaoShare = () => {
-    if (window.Kakao) {
-      window.Kakao.Share.sendDefault({
-        objectType: "feed",
-        content: {
-          title: `${courseTitle} `,
-          description: `난이도: ${courseLevel} 소요시간: ${formatTime(totalDuration)}\n코스길이: ${totalDistance.toFixed(1)}km\n고도: ${totalElevation}m`,
-          imageUrl: "./assets/logo.svg",
-          link: {
-            mobileWebUrl: window.location.href,
-            webUrl: window.location.href,
-          },
-        },
-        buttons: [
-          {
-            title: "코스 자세히 보기",
-            link: {
-              mobileWebUrl: window.location.href,
-              webUrl: window.location.href,
-            },
-          },
-        ],
-      });
-    }
+    shareCourse({
+      title: courseTitle,
+      level: courseLevel,
+      duration: totalDuration,
+      distance: totalDistance,
+      elevation: totalElevation,
+    });
   };
 
   const handleLinkShare = async () => {
@@ -139,16 +81,16 @@ const CourseData = () => {
           </Styled.GreenBtnWrapper>
         </Styled.CourseTitleWrapper>
         <Styled.CourseMeta>
-          <Styled.StartToEnd>{courseName}</Styled.StartToEnd>
+          <Styled.StartToEnd>{courseStartEnd}</Styled.StartToEnd>
           <Styled.CourseStats>
             <Styled.CourseStatsItem>
-              <span style={{ color: "#A4A4A4" }}>소요시간</span> {formatTime(totalDuration)}
+              <span style={{ color: "#A4A4A4" }}>소요시간</span> {totalDuration}
             </Styled.CourseStatsItem>
             <Styled.CourseStatsItem>
-              <span style={{ color: "#A4A4A4" }}>코스길이</span> {totalDistance.toFixed(1)}km
+              <span style={{ color: "#A4A4A4" }}>코스길이</span> {totalDistance}
             </Styled.CourseStatsItem>
             <Styled.CourseStatsItem>
-              <span style={{ color: "#A4A4A4" }}>고도</span> {totalElevation}m
+              <span style={{ color: "#A4A4A4" }}>고도</span> {totalElevation}
             </Styled.CourseStatsItem>
           </Styled.CourseStats>
         </Styled.CourseMeta>

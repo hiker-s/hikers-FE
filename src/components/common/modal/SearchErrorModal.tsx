@@ -1,5 +1,6 @@
 import * as Styled from "./SearchErrorModal.styled";
 import { useNavigate } from "react-router-dom";
+import { IoClose } from "react-icons/io5";
 
 interface SearchErrorModalProps {
   onClose: () => void;
@@ -14,7 +15,9 @@ export const SearchErrorModal = ({ onClose }: SearchErrorModalProps) => {
   return (
     <Styled.ModalOverlay onClick={onClose}>
       <Styled.SearchErrorModal>
-        <Styled.CloseButton onClick={onClose}>×</Styled.CloseButton>
+        <Styled.CloseButton onClick={onClose}>
+          <IoClose size="24" color="#3b3b3b" />
+        </Styled.CloseButton>
 
         <Styled.ModalText>
           <span>죄송합니다</span>
