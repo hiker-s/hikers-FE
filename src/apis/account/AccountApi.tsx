@@ -10,21 +10,21 @@ export type formValue = {
 };
 
 // 토큰 가져오기
-// const getToken = () => {
-//   const token = localStorage.getItem("token");
-//   console.log("가져온 토큰:", token);
-//   return token;
-// };
+const getToken = () => {
+  const token = localStorage.getItem("token");
+  //   console.log("가져온 토큰:", token);
+  return token;
+};
 
 // 토큰을 헤더에 추가
-// const getAuthHeader = () => {
-//   const token = getToken();
-//   const headers = {
-//     Authorization: `Bearer ${token}`,
-//   };
-//   console.log("생성된 헤더:", headers);
-//   return headers;
-// };
+const getAuthHeader = () => {
+  const token = getToken();
+  const headers = {
+    Authorization: `Bearer ${token}`,
+  };
+  console.log("생성된 헤더:", headers);
+  return headers;
+};
 
 export const accountApi = {
   postLogin: async (formValue: formValue) => {
@@ -43,6 +43,11 @@ export const accountApi = {
 
   postLogout: async () => {
     const response = await axios.post(`${baseURL}/api/logout`);
+    console.log(response);
+  },
+  postDeleteUser: async () => {
+    const headers = getAuthHeader();
+    const response = await axios.delete(`${baseURL}/api/user`, { headers });
     console.log(response);
   },
 };
