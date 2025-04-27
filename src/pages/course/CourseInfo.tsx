@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/common/header/Header";
-import * as Styled from "./CourseInfo.styled";
+import styled from "styled-components";
 
 import SketchMap from "../../components/course/courseInfo/SketchMap";
 import CourseReview from "../../components/course/courseInfo/CourseReview";
@@ -76,7 +76,7 @@ const CourseInfo = () => {
 
   return (
     <Layout $margin="17rem 0 3rem 0" $isFooter={true}>
-      <Styled.Wrapper>
+      <Wrapper>
         <Header
           onClick={handleBackBtn}
           isCourse={true}
@@ -87,18 +87,28 @@ const CourseInfo = () => {
         >
           코스
         </Header>
-        <Styled.ListCompWrapper id="약도">
+        <ListCompWrapper id="약도">
           <SketchMap sections={sections} />
-        </Styled.ListCompWrapper>
-        <Styled.ListCompWrapper id="상세 코스">
+        </ListCompWrapper>
+        <ListCompWrapper id="상세 코스">
           <DetailCourseList />
-        </Styled.ListCompWrapper>
-        <Styled.ListCompWrapper id="리뷰">
+        </ListCompWrapper>
+        <ListCompWrapper id="리뷰">
           <CourseReview />
-        </Styled.ListCompWrapper>
-      </Styled.Wrapper>
+        </ListCompWrapper>
+      </Wrapper>
     </Layout>
   );
 };
 
 export default CourseInfo;
+
+const Wrapper = styled.div`
+  width: 100%;
+  max-width: 390px;
+`;
+
+const ListCompWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
