@@ -1,4 +1,4 @@
-import { KakaoShareParams, KakaoShareContent, KakaoShareButton } from "../types/KakaoInterface";
+import { KakaoShareParams, KakaoShareContent, KakaoShareButton } from "../types/kakaoShare";
 interface CourseInfo {
   title: string;
   level: string;
