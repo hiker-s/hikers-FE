@@ -6,6 +6,8 @@ import { Header } from "../../components/common/header/Header";
 import * as Styled from "./styled";
 import { useNavigate } from "react-router-dom";
 import { Layout } from "../../components/common/layout/Layout";
+import { accountApi } from "../../apis/account/AccountApi";
+import { AxiosError } from "axios";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -28,8 +30,25 @@ const Login = () => {
     navigate("/");
   };
 
-  const handleLogin = () => {
-    console.log("로그인 버튼 클릭");
+  const handleLogin = async () => {
+    try {
+      await accountApi.postLogin(formValue);
+      navigate("/home");
+    } catch (error) {
+      if (error instanceof AxiosError) {
+        if (error.response) {
+          switch (error.response.status) {
+            case 400:
+              alert("아이디 또는 비밀번호를 확인해주세요.");
+              break;
+          }
+        } else if (error.request) {
+          alert("서버와 통신할 수 없습니다. 네트워크 연결을 확인해주세요.");
+        } else {
+          alert("오류가 발생했습니다. 다시 시도해주세요.");
+        }
+      }
+    }
   };
 
   const handleGoSignUp = () => {
