@@ -5,6 +5,8 @@ import { Header } from "../../components/common/header/Header";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Layout } from "../../components/common/layout/Layout";
+import { accountApi } from "../../apis/account/AccountApi";
+import { AxiosError } from "axios";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -32,8 +34,32 @@ const SignUp = () => {
     navigate("/");
   };
 
-  const handleSignUp = () => {
-    console.log("회원가입 버튼 클릭");
+  const handleSignUp = async () => {
+    try {
+      await accountApi.postSignup(formValue);
+      console.log("회원가입 성공");
+      navigate("/signup/success");
+    } catch (error) {
+      if (error instanceof AxiosError) {
+        if (error.response) {
+          switch (error.response.status) {
+            case 409:
+              alert("이미 사용 중인 아이디입니다.");
+              break;
+            case 400:
+              alert("입력하신 정보를 다시 확인해주세요.");
+              break;
+            default:
+              alert("회원가입 중 오류가 발생했습니다. 다시 시도해주세요.");
+          }
+        } else if (error.request) {
+          alert("서버와 통신할 수 없습니다. 네트워크 연결을 확인해주세요.");
+        } else {
+          alert("오류가 발생했습니다. 다시 시도해주세요.");
+        }
+      }
+      console.error("회원가입 실패:", error);
+    }
   };
 
   return (
@@ -48,7 +74,7 @@ const SignUp = () => {
             <Input
               title="아이디"
               type="text"
-              name="username"
+              name="user_id"
               value={formValue.user_id}
               onChange={handleChange}
               placeholder="아이디를 입력해주세요"
@@ -56,7 +82,7 @@ const SignUp = () => {
             <Input
               title="비밀번호"
               type="password"
-              name="password"
+              name="passwd"
               value={formValue.passwd}
               onChange={handleChange}
               placeholder="비밀번호를 입력해주세요"
