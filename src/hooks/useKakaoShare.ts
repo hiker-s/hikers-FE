@@ -1,5 +1,4 @@
-import { KakaoSDK, KakaoShareParams, KakaoShareContent, KakaoShareButton } from "../types/KakaoInterface";
-
+import { KakaoShareParams, KakaoShareContent, KakaoShareButton } from "../types/KakaoInterface";
 interface CourseInfo {
   title: string;
   level: string;
@@ -17,7 +16,7 @@ const useKakaoShare = () => {
 
     const shareContent: KakaoShareContent = {
       title: `${courseInfo.title}`,
-      description: `난이도: ${courseInfo.level} 소요시간: ${courseInfo.duration}\n코스길이: ${courseInfo.distance}\n고도: ${courseInfo.elevation}m`,
+      description: `난이도: ${courseInfo.level} 소요시간: ${courseInfo.duration}\n코스길이: ${courseInfo.distance}\n고도: ${courseInfo.elevation}`,
       imageUrl: "./assets/logo.svg",
       link: {
         mobileWebUrl: window.location.href,
