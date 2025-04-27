@@ -1,4 +1,4 @@
-import * as Styled from "./ReviewRead.styled";
+import styled from "styled-components";
 import { useNavigate, useParams } from "react-router-dom";
 import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
@@ -21,13 +21,13 @@ export default function ReviewRead() {
   const MOCK_REVIEW_DETAIL = [
     {
       title: "리뷰 모집 제목입니다.",
-      mnt_name: "인왕산",
+      mountain_name: "인왕산",
       course_name: "인왕산 1코스",
       level: "중",
       created_at: "2025.04.01",
       author_name: "하이커스",
       is_writer: true,
-      is_liked: false,
+      liked_by_current_user: false,
       like_count: 100,
       content: "리뷰 모집 내용입니다.",
       image_urls: [],
@@ -38,11 +38,11 @@ export default function ReviewRead() {
   return (
     <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>리뷰</Header>
-      <Styled.Wrapper>
+      <Wrapper>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
           <PostTitle title={reviewDetailData[0].title} />
           <PostReviewInfo
-            mnt_name={reviewDetailData[0].mnt_name}
+            mountain_name={reviewDetailData[0].mountain_name}
             course_name={reviewDetailData[0].course_name}
             level={reviewDetailData[0].level}
           />
@@ -53,16 +53,27 @@ export default function ReviewRead() {
           created_at={reviewDetailData[0].created_at}
           author_name={reviewDetailData[0].author_name}
           is_writer={reviewDetailData[0].is_writer}
-          is_liked={reviewDetailData[0].is_liked}
+          liked_by_current_user={reviewDetailData[0].liked_by_current_user}
           like_count={reviewDetailData[0].like_count}
         />
         <PostContent content={reviewDetailData[0].content} image_urls={reviewDetailData[0].image_urls} />
-      </Styled.Wrapper>
+      </Wrapper>
       {reviewDetailData[0].is_writer && (
-        <Styled.ButtonWrapper>
+        <ButtonWrapper>
           <ButtonGroup mode="review" id={post_id} />
-        </Styled.ButtonWrapper>
+        </ButtonWrapper>
       )}
     </Layout>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+`;
+
+const ButtonWrapper = styled.div`
+  position: absolute;
+  top: calc(100vh - 18%);
+`;

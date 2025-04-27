@@ -1,6 +1,5 @@
 import { IoMdBookmark } from "react-icons/io";
 import * as Styled from "./styled";
-import squareBaseImg from "../../../assets/images/squareBaseImg.svg";
 import { LevelComp } from "./Level";
 
 type CourseItemProps = {
@@ -18,7 +17,6 @@ type CourseItemProps = {
 
 export default function CourseItem({
   course_id,
-  images,
   course_name,
   level,
   $iscard = false,
@@ -30,7 +28,6 @@ export default function CourseItem({
 }: CourseItemProps) {
   return (
     <Styled.ItemWrapper onClick={() => onCourseItemClock(course_id)}>
-      <Styled.ThumbnailImg src={images || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{course_name}</Styled.TitleText>

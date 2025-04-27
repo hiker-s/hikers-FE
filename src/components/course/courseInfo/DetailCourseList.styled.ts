@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   flex-direction: column;
-  align-items: flex-start;
   gap: 0.625rem;
   padding: 1.63rem 1.25rem 1.25rem 1.25rem;
 `;
@@ -96,7 +95,7 @@ export const DetailContext = styled.div`
 
 export const DetailInfo = styled.div`
   color: #000;
-  font-family: Pretendard;
+  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -116,4 +115,10 @@ export const RoadViewWrapper = styled.div`
   flex-shrink: 0;
   aspect-ratio: 133.33/100;
   border-radius: 0.625rem;
+`;
+
+export const BtnWrapper = styled.div`
+  display: flex;
+  padding: 0.44rem 0;
+  justify-content: flex-end;
 `;

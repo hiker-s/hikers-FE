@@ -9,7 +9,7 @@ type PostCreateInfoProps = {
   author_name: string;
   is_writer: boolean;
   like_count?: number;
-  is_liked?: boolean;
+  liked_by_current_user?: boolean;
 };
 
 function PostCreateInfo({
@@ -19,9 +19,9 @@ function PostCreateInfo({
   author_name,
   is_writer,
   like_count = 0,
-  is_liked = false,
+  liked_by_current_user = false,
 }: PostCreateInfoProps) {
-  const [liked, setLiked] = useState(is_liked);
+  const [liked, setLiked] = useState(liked_by_current_user);
   const [likeCount, setLikeCount] = useState(like_count);
 
   const handleHeartClick = () => {

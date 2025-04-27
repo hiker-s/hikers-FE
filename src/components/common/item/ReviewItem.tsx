@@ -4,37 +4,37 @@ import { LevelComp } from "./Level";
 import { IoMdHeart } from "react-icons/io";
 
 type ReviewItemProps = {
-  review_id: number;
-  images?: string;
+  id: number;
+  image_urls?: string[] | undefined;
   title: string;
   level: string;
   $iscard?: boolean;
-  mnt_name: string;
+  mountain_name: string;
   course_name: string;
-  is_liked?: boolean;
+  liked_by_current_user?: boolean;
   is_writer: boolean;
   like_count: number | undefined;
-  onReviewItemClick: (review_id: number) => void;
+  onReviewItemClick: (id: number) => void;
   onLikeClick: (e: React.MouseEvent<SVGElement>) => void;
 };
 
 export default function ReviewItem({
-  review_id,
-  images,
+  id,
+  image_urls,
   title,
   level,
   $iscard = false,
-  mnt_name,
+  mountain_name,
   course_name,
-  is_liked,
+  liked_by_current_user,
   is_writer,
   like_count,
   onReviewItemClick,
   onLikeClick,
 }: ReviewItemProps) {
   return (
-    <Styled.ItemWrapper onClick={() => onReviewItemClick(review_id)}>
-      <Styled.ThumbnailImg src={images || squareBaseImg} alt="squareBaseImg" />
+    <Styled.ItemWrapper onClick={() => onReviewItemClick(id)}>
+      <Styled.ThumbnailImg src={image_urls?.[0] || squareBaseImg} alt="squareBaseImg" />
       <Styled.InfoWrapper>
         <Styled.TitleWrapper>
           <Styled.TitleText>{title}</Styled.TitleText>
@@ -42,14 +42,14 @@ export default function ReviewItem({
             {level}
           </LevelComp>
         </Styled.TitleWrapper>
-        <Styled.ContentText>{mnt_name}</Styled.ContentText>
+        <Styled.ContentText>{mountain_name}</Styled.ContentText>
         <Styled.ContentText>{course_name}</Styled.ContentText>
       </Styled.InfoWrapper>
       {!is_writer ? (
         <Styled.BooleanWrapper>
           <IoMdHeart
             size="24"
-            color={is_liked ? "#349989" : "#C8C8C8"}
+            color={liked_by_current_user ? "#349989" : "#C8C8C8"}
             onClick={onLikeClick}
             style={{ cursor: "pointer" }}
           />

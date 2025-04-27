@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.62rem;
-  margin: 0.63rem 0 2.5rem 0;
+  margin: 0.63rem 0 3.75rem 0;
 `;
 
 export const TitleWrapper = styled.div`
@@ -28,12 +28,4 @@ export const StampCount = styled.div`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-`;
-
-export const StampWrapper = styled.div``;
-
-export const BtnWrapper = styled.div`
-  display: flex;
-  padding: 0.44rem 0;
-  justify-content: flex-end;
 `;

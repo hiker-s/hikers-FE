@@ -7,7 +7,6 @@ import { Filter } from "../filter/Filter";
 
 type CourseItemDataProps = {
   course_id: number;
-  images?: string;
   course_name: string;
   course_len: string;
   course_time: string;
@@ -56,7 +55,6 @@ export default function CourseList({ title, course_data }: CourseListProps) {
             <CourseItem
               course_id={item.course_id}
               key={item.course_id}
-              images={item.images}
               course_name={item.course_name}
               course_len={item.course_len}
               course_time={item.course_time}

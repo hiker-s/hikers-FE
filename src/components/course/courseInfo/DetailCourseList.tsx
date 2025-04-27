@@ -1,6 +1,7 @@
 import { useState } from "react";
 import * as Styled from "./DetailCourseList.styled";
 import RoadView from "./RoadView";
+import { GreenBtn } from "../../common/button/GreenBtn";
 
 export default function DetailCourseList() {
   const MOCK_DETAILCOURSE = [
@@ -28,6 +29,16 @@ export default function DetailCourseList() {
   ];
   const [courses] = useState(MOCK_DETAILCOURSE);
   const COLORS = ["#3D8B7D", "#E69B4C", "#D97575"];
+
+  const handleStamp = () => {
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      console.log(pos);
+      const latitude = pos.coords.latitude;
+      const longitude = pos.coords.longitude;
+      alert("lat: " + latitude + ", lng:" + longitude);
+    });
+  };
+
   return (
     <Styled.Wrapper>
       <Styled.Title>상세 코스</Styled.Title>
@@ -65,6 +76,9 @@ export default function DetailCourseList() {
           );
         })}
       </Styled.CourseContainer>
+      <Styled.BtnWrapper>
+        <GreenBtn onClick={handleStamp}>완등 스탬프 받기</GreenBtn>
+      </Styled.BtnWrapper>
     </Styled.Wrapper>
   );
 }

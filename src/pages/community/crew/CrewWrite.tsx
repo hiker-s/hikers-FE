@@ -16,10 +16,16 @@ export default function CrewWrite() {
     .padStart(2, "0")}.${today.getDate().toString().padStart(2, "0")}`;
 
   const nickname = "하이커스";
+
+  const handleSubmit = (data: { title: string; content: string; images: File[] }) => {
+    console.log("작성한 글 데이터:", data);
+    // navigate("/community");
+  };
+
   return (
     <Layout $margin="6.81rem 0 1rem 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>크루</Header>
-      <CrewForm date_info={date_info} nickname={nickname} />
+      <CrewForm date_info={date_info} nickname={nickname} onSubmit={handleSubmit} />
     </Layout>
   );
 }

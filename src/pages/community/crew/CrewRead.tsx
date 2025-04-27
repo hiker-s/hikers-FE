@@ -1,4 +1,4 @@
-import * as Styled from "./CrewRead.styled";
+import styled from "styled-components";
 import { useNavigate, useParams } from "react-router-dom";
 import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
@@ -22,7 +22,7 @@ export default function CrewRead() {
       title: "크루 모집 제목입니다.",
       created_at: "2025.04.01",
       author_name: "하이커스",
-      is_writer: false,
+      is_writer: true,
       content: "크루 모집 내용입니다.",
       image_urls: [
         "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMjBfMjky%2FMDAxNzI5NDA1OTcwNzEz.vgbx7hvDEulsx48OE4T8wwTH_bnAX5CNBU_Y2WiEkfgg.D3M27ocuqJld1BaoXaurFg8JuoC3F1vD9o2vxjY6w0sg.JPEG%2FKakaoTalk_20241020_151047702_15.jpg&type=sc960_832",
@@ -35,7 +35,7 @@ export default function CrewRead() {
   return (
     <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>크루</Header>
-      <Styled.Wrapper>
+      <Wrapper>
         <PostTitle title={crewDetailData[0].title} />
         <PostCreateInfo
           is_review={false}
@@ -44,12 +44,23 @@ export default function CrewRead() {
           is_writer={crewDetailData[0].is_writer}
         />
         <PostContent content={crewDetailData[0].content} image_urls={crewDetailData[0].image_urls} />
-      </Styled.Wrapper>
+      </Wrapper>
       {crewDetailData[0].is_writer && (
-        <Styled.ButtonWrapper>
+        <ButtonWrapper>
           <ButtonGroup mode="crew" id={post_id} />
-        </Styled.ButtonWrapper>
+        </ButtonWrapper>
       )}
     </Layout>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+`;
+
+const ButtonWrapper = styled.div`
+  position: absolute;
+  top: calc(100vh - 18%);
+`;
