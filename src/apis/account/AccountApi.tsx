@@ -40,4 +40,9 @@ export const accountApi = {
     const response = await axios.post(`${baseURL}/api/signup`, formValue);
     console.log(response);
   },
+
+  postLogout: async () => {
+    const response = await axios.post(`${baseURL}/api/logout`);
+    console.log(response);
+  },
 };
