@@ -6,9 +6,32 @@ import * as Styled from "./CourseData.styled";
 import mntData from "../../../data/mnt/가리산/가리산_1.json";
 import useKakaoShare from "../../../hooks/useKakaoShare";
 
+// 타입 가드 함수 - json 형식
+function isMountainData(data: unknown): data is typeof mntData {
+  const d = data as typeof mntData;
+  return (
+    d !== null &&
+    typeof d === "object" &&
+    typeof d.course_name === "string" &&
+    typeof d.mnt_name === "string" &&
+    typeof d.total_length_km === "string" &&
+    typeof d.max_ele === "number" &&
+    typeof d.total_time === "string" &&
+    typeof d.start_name === "string" &&
+    typeof d.end_name === "string" &&
+    typeof d.level === "string"
+  );
+}
+
 const CourseData = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const { shareCourse } = useKakaoShare();
+
+  // 타입 검사
+  if (!isMountainData(mntData)) {
+    console.error("Invalid mountain data structure:", mntData);
+    return <div>데이터 형식이 올바르지 않습니다.</div>;
+  }
 
   const totalDistance = mntData.total_length_km;
   const totalElevation = `${mntData.max_ele}m`;
