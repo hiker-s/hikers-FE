@@ -28,7 +28,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
   const [reviewData, setReviewData] = useState<ReviewItemDataProps[]>(review_data);
 
   const onReviewItemClick = (itemId: number) => {
-    navigate(`review/${itemId}`);
+    navigate(`/community/review/${itemId}`);
   };
 
   const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {

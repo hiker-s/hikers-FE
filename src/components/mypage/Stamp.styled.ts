@@ -29,3 +29,31 @@ export const StampCount = styled.div`
   font-weight: 500;
   line-height: normal;
 `;
+
+export const StampContainer = styled.div`
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+`;
+
+export const StampMap = styled.img`
+  width: 100%;
+  height: auto;
+`;
+
+export const StampsWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+`;
+
+export const StampImage = styled.img`
+  object-fit: contain;
+`;
