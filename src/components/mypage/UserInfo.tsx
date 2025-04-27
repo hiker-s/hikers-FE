@@ -1,24 +1,32 @@
 import styled from "styled-components";
 import otherRankDefault from "../../assets/images/otherRankDefault.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { mypageApi } from "../../apis/mypage/MypageApi";
 
 export default function UserInfo() {
-  const MOCK_USERINFO = [
-    {
-      userId: "hikers123",
-      nickname: "하이커스",
-    },
-  ];
+  const [userInfo, setUserInfo] = useState<{ userId: number; nickname: string }[]>([]);
 
-  const [userInfo] = useState(MOCK_USERINFO);
+  useEffect(() => {
+    const fetchUserInfo = async () => {
+      try {
+        const user = await mypageApi.getUserInfo();
+        setUserInfo(user);
+      } catch (error) {
+        console.error("유저 정보 받아오기 실패:", error);
+      }
+    };
+
+    fetchUserInfo();
+  }, []);
+
   return (
     <Wrapper>
       <div>
-        <ProfileImg src={otherRankDefault} alt={`${userInfo[0].nickname} 프로필 사진`} />
+        <ProfileImg src={otherRankDefault} alt={`${userInfo[0]?.nickname} 프로필 사진`} />
       </div>
       <NameWrapper>
-        <Nickname>{userInfo[0].nickname}</Nickname>
-        <UserId>{userInfo[0].userId}</UserId>
+        <Nickname>{userInfo[0]?.nickname}</Nickname>
+        <UserId>{userInfo[0]?.userId}</UserId>
       </NameWrapper>
     </Wrapper>
   );
