@@ -125,10 +125,6 @@ export const crewApi = {
       formData.append("title", putValue.title);
       formData.append("content", putValue.content);
 
-      // putValue.images.forEach((image) => {
-      //   formData.append("images", image);
-      // });
-
       // 이미지 URL을 File로 변환하여 추가하는 부분
       const imagePromises = putValue.images.map(async (image) => {
         if (typeof image === "string") {
