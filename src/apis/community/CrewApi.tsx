@@ -48,7 +48,7 @@ const getAuthHeader = () => {
   return headers;
 };
 
-export const communityApi = {
+export const crewApi = {
   postCrew: async (postValue: postValue) => {
     try {
       const formData = new FormData();
