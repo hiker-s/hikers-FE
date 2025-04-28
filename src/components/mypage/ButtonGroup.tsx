@@ -2,12 +2,17 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { DeleteAccountModal } from "./DeleteAccountModal";
 import { useState } from "react";
+import { accountApi } from "../../apis/account/AccountApi";
 
 export default function ButtonGroup() {
   const navigate = useNavigate();
-  const handleLogout = () => {
-    console.log("로그아웃 api 연동");
-    navigate("/");
+  const handleLogout = async () => {
+    try {
+      await accountApi.postLogout();
+      navigate("/");
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const [isModalOpen, setIsModalOpen] = useState(false);

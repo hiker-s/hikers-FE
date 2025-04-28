@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       { path: "community/crew/:crew_id", element: <CrewRead /> },
       { path: "community/review/:review_id", element: <ReviewRead /> },
       { path: "/rank", element: <Rank /> },
-      { path: "/mypage/:nickname", element: <Mypage /> },
+      { path: "/mypage", element: <Mypage /> },
     ],
   },
 ]);
