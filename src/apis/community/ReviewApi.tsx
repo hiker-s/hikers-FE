@@ -116,4 +116,10 @@ export const reviewApi = {
     // console.log(response);
     alert(response.data.message);
   },
+
+  deleteReview: async (id: number) => {
+    const headers = getAuthHeader();
+    const response = await axios.delete(`${baseURL}/api/review/${id}`, { headers });
+    console.log(response);
+  },
 };
