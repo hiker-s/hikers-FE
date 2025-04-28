@@ -102,4 +102,16 @@ export const reviewApi = {
       return undefined;
     }
   },
+
+  postReviewHeart: async (id: number) => {
+    const headers = getAuthHeader();
+    const response = await axios.post(`${baseURL}/api/review/${id}/like`, {}, { headers });
+    console.log(response);
+  },
+
+  deleteReviewHeart: async (id: number) => {
+    const headers = getAuthHeader();
+    const response = await axios.delete(`${baseURL}/api/review/${id}/like`, { headers });
+    console.log(response);
+  },
 };
