@@ -58,4 +58,24 @@ export const communityApi = {
       throw error;
     }
   },
+  getCrew: async () => {
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/crewpost`, { headers });
+      console.log("크루 글 목록 데이터:", response.data);
+
+      if (response.data) {
+        return response.data.map((item: CrewPost) => ({
+          id: item.id,
+          title: item.title,
+          content: item.content,
+          image_urls: item.image_urls,
+        }));
+      }
+      return [];
+    } catch (error) {
+      console.error("크루 글 목록 가져오기 실패:", error);
+      return [];
+    }
+  },
 };
