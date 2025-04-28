@@ -37,7 +37,7 @@ export default function CommunityReview() {
         await reviewApi.postReviewHeart(itemId);
       }
     } catch (error) {
-      console.error("좋아요 토글 실패:", error);
+      console.error("좋아요 실패:", error);
     }
   };
 
