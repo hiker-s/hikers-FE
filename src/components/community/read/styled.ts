@@ -56,7 +56,6 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  line-height: 140%;
 `;
 
 export const ImageWrapper = styled.div`
@@ -85,7 +84,7 @@ export const Content = styled.div`
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 100%; /* 1rem */
+  line-height: 130%; /* 1rem */
 `;
 
 // 리뷰 조회 글 정보 컴포넌트
