@@ -29,7 +29,7 @@ export const mypageApi = {
     try {
       const headers = getAuthHeader();
       const response = await axios.get(`${baseURL}/api/profile`, { headers });
-      console.log("유저 정보 데이터:", response.data);
+      // console.log("유저 정보 데이터:", response.data);
 
       if (response.data.result) {
         return [response.data.result];
