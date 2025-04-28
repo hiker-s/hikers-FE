@@ -56,6 +56,7 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  line-height: 140%;
 `;
 
 export const ImageWrapper = styled.div`
