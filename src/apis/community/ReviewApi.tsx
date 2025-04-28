@@ -47,11 +47,12 @@ const getAuthHeader = () => {
 };
 
 export const reviewApi = {
-  getReviewList: async () => {
+  getReviewList: async (filter: string) => {
+    const sortType = filter === "최신순" ? "latest" : "likes";
     try {
       const headers = getAuthHeader();
-      const response = await axios.get(`${baseURL}/api/review?sortType=latest`, { headers });
-      console.log("리뷰 글 목록 데이터:", response.data);
+      const response = await axios.get(`${baseURL}/api/review?sortType=${sortType}`, { headers });
+      //   console.log("리뷰 글 목록 데이터:", response.data);
 
       if (response.data) {
         return response.data.map((item: ReviewListAPI) => ({
@@ -120,6 +121,7 @@ export const reviewApi = {
   deleteReview: async (id: number) => {
     const headers = getAuthHeader();
     const response = await axios.delete(`${baseURL}/api/review/${id}`, { headers });
-    console.log(response);
+    // console.log(response);
+    alert(response.data.message);
   },
 };
