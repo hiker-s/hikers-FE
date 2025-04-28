@@ -1,3 +1,4 @@
+import { communityApi } from "../../../apis/community/CommunityApi";
 import * as Styled from "./styled";
 import { useNavigate } from "react-router-dom";
 
@@ -9,12 +10,14 @@ type ButtonGroupProps = {
 export default function ButtonGroup({ mode, id }: ButtonGroupProps) {
   const navigate = useNavigate();
   const handleEdit = (id: number) => {
-    navigate(`${mode === "crew" ? `edit` : "edit"}`);
-    console.log(id);
+    navigate(`/community/${mode}/${id}/edit`);
+    // console.log(id);
   };
 
-  const handleDelete = (id: number) => {
-    console.log(`${mode === "crew" ? "crew_id" : "review_id"} ${id} 삭제`);
+  const handleDelete = async (id: number) => {
+    await communityApi.deleteCrew(id);
+    alert("게시글이 삭제되었습니다.");
+    navigate(-1);
   };
 
   return (
