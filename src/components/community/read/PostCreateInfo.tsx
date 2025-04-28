@@ -49,7 +49,7 @@ function PostCreateInfo({
           style={{ cursor: is_writer ? "default" : "pointer" }}
         >
           <IoMdHeart size="24" color={heartColor} />
-          <Styled.HeartCount>{likeCount}</Styled.HeartCount>
+          {is_writer && <Styled.HeartCount>{likeCount}</Styled.HeartCount>}
         </Styled.HeartWrapper>
       )}
     </Styled.CreateInfoWrapper>
