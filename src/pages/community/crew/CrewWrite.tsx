@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
 import CrewForm from "../../../components/community/crew/CrewForm";
-import { communityApi } from "../../../apis/community/CommunityApi";
+import { crewApi } from "../../../apis/community/CrewApi";
 import { useEffect, useState } from "react";
 import { mypageApi } from "../../../apis/mypage/MypageApi";
 
@@ -21,7 +21,7 @@ export default function CrewWrite() {
 
   const handleSubmit = async (postValue: { title: string; content: string; images: File[] }) => {
     try {
-      await communityApi.postCrew(postValue);
+      await crewApi.postCrew(postValue);
       // console.log("postValue:", postValue);
       navigate("/community");
     } catch (error) {

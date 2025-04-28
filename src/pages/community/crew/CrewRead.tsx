@@ -7,7 +7,7 @@ import PostCreateInfo from "../../../components/community/read/PostCreateInfo";
 import PostTitle from "../../../components/community/read/PostTitle";
 import { useEffect, useState } from "react";
 import ButtonGroup from "../../../components/community/read/ButtonGroup";
-import { communityApi, CrewDetail } from "../../../apis/community/CommunityApi";
+import { crewApi, CrewDetail } from "../../../apis/community/CrewApi";
 
 export default function CrewRead() {
   const navigate = useNavigate();
@@ -23,7 +23,7 @@ export default function CrewRead() {
   useEffect(() => {
     const fetchCrewDetail = async (id: number) => {
       try {
-        const crew = await communityApi.getCrewDetail(id);
+        const crew = await crewApi.getCrewDetail(id);
         setCrewDetailData(crew);
       } catch (error) {
         console.error("크루 글 상세 데이터 가져오기 실패:", error);

@@ -3,7 +3,7 @@ import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
 import { useEffect, useState } from "react";
 import { mypageApi } from "../../../apis/mypage/MypageApi";
-import { communityApi, CrewDetail } from "../../../apis/community/CommunityApi";
+import { crewApi, CrewDetail } from "../../../apis/community/CrewApi";
 import CrewEditForm from "../../../components/community/crew/CrewEditForm";
 
 export default function CrewEdit() {
@@ -28,8 +28,8 @@ export default function CrewEdit() {
     try {
       // console.log("수정된 데이터:", putValue);
 
-      // const response = await communityApi.putCrew(id, putValue);
-      await communityApi.putCrew(id, putValue);
+      // const response = await crewApi.putCrew(id, putValue);
+      await crewApi.putCrew(id, putValue);
       // console.log("수정된 크루 게시글:", response);
 
       navigate(-1);
@@ -41,7 +41,7 @@ export default function CrewEdit() {
   useEffect(() => {
     const fetchCrewDetail = async (id: number) => {
       try {
-        const crew = await communityApi.getCrewDetail(id);
+        const crew = await crewApi.getCrewDetail(id);
         setInitialData(crew);
         console.log(crew);
       } catch (error) {
