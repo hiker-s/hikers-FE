@@ -167,4 +167,10 @@ export const communityApi = {
       throw error;
     }
   },
+
+  deleteCrew: async (id: number) => {
+    const headers = getAuthHeader();
+    const response = await axios.delete(`${baseURL}/api/crewpost/${id}`, { headers });
+    console.log(response);
+  },
 };
