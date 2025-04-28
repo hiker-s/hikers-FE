@@ -45,7 +45,7 @@ export default function CrewWrite() {
   return (
     <Layout $margin="6.81rem 0 1rem 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>크루</Header>
-      <CrewForm date_info={date_info} nickname={userInfo[0]?.nickname} onSubmit={handleSubmit} />
+      <CrewForm date_info={date_info} nickname={userInfo[0].nickname} onSubmit={handleSubmit} />
     </Layout>
   );
 }
