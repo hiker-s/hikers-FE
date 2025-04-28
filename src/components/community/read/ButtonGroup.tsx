@@ -18,10 +18,10 @@ export default function ButtonGroup({ mode, id }: ButtonGroupProps) {
   const handleDelete = async (id: number) => {
     if (mode === "crew") {
       await crewApi.deleteCrew(id);
-      alert("크루 게시글이 삭제되었습니다.");
+      // alert("크루 게시글이 삭제되었습니다.");
     } else {
       await reviewApi.deleteReview(id);
-      alert("리뷰 게시글이 삭제되었습니다.");
+      // alert("리뷰 게시글이 삭제되었습니다.");
     }
     navigate(-1);
   };
