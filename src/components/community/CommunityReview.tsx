@@ -10,8 +10,8 @@ export default function CommunityReview() {
 
   const fetchReviewList = async (filter: string) => {
     try {
-      const crew = await reviewApi.getReviewList(filter); // Pass filter to API
-      setReviewData(crew);
+      const review = await reviewApi.getReviewList(filter);
+      setReviewData(review);
     } catch (error) {
       console.error("리뷰 글 목록 데이터 가져오기 실패:", error);
     }
