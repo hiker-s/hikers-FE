@@ -8,6 +8,12 @@ type postValue = {
   images: File[];
 };
 
+type putValue = {
+  title: string;
+  content: string;
+  images: (string | File)[];
+};
+
 export type CrewList = {
   id: number;
   title: string;
@@ -59,7 +65,7 @@ export const communityApi = {
       };
 
       const response = await axios.post(`${baseURL}/api/crewpost`, formData, { headers });
-      console.log("크루 게시글 post 성공:", response);
+      // console.log("크루 게시글 post 성공:", response);
       return response;
     } catch (error) {
       console.error("크루 게시글 post 실패:", error);
@@ -71,7 +77,7 @@ export const communityApi = {
     try {
       const headers = getAuthHeader();
       const response = await axios.get(`${baseURL}/api/crewpost`, { headers });
-      console.log("크루 글 목록 데이터:", response.data);
+      // console.log("크루 글 목록 데이터:", response.data);
 
       if (response.data) {
         return response.data.map((item: CrewList) => ({
@@ -110,6 +116,55 @@ export const communityApi = {
     } catch (error) {
       console.error("크루 글 상세 데이터 가져오기 실패:", error);
       return undefined;
+    }
+  },
+
+  putCrew: async (id: number, putValue: putValue) => {
+    try {
+      const formData = new FormData();
+      formData.append("title", putValue.title);
+      formData.append("content", putValue.content);
+
+      // putValue.images.forEach((image) => {
+      //   formData.append("images", image);
+      // });
+
+      // 이미지 URL을 File로 변환하여 추가하는 부분
+      const imagePromises = putValue.images.map(async (image) => {
+        if (typeof image === "string") {
+          // URL을 통해 Blob 객체를 가져옴
+          const response = await fetch(image);
+          const blob = await response.blob();
+          // Blob을 File 객체로 변환
+          const file = new File([blob], "image.jpg", { type: blob.type });
+          return file;
+        } else {
+          // 이미 File 객체인 경우 그대로 사용
+          return image;
+        }
+      });
+
+      // 이미지 변환이 완료된 후 FormData에 추가
+      const imageFiles = await Promise.all(imagePromises);
+      imageFiles.forEach((file) => {
+        formData.append("images", file); // File 객체를 FormData에 추가
+      });
+
+      // FormData 내용 확인: entries() 메서드를 사용하여 출력
+      for (const pair of formData.entries()) {
+        console.log(pair[0] + ": " + pair[1]);
+      }
+
+      const headers = {
+        ...getAuthHeader(),
+        "Content-Type": "multipart/form-data",
+      };
+      const response = await axios.put(`${baseURL}/api/crewpost/${id}`, formData, { headers });
+      console.log("크루 게시글 put 성공:", response);
+      return response;
+    } catch (error) {
+      console.error("크루 게시글 put 실패:", error);
+      throw error;
     }
   },
 };
