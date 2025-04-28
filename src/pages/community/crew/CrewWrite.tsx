@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "../../../components/common/header/Header";
 import { Layout } from "../../../components/common/layout/Layout";
 import CrewForm from "../../../components/community/crew/CrewForm";
+import { communityApi } from "../../../apis/community/CommunityApi";
 
 export default function CrewWrite() {
   const navigate = useNavigate();
@@ -17,9 +18,14 @@ export default function CrewWrite() {
 
   const nickname = "하이커스";
 
-  const handleSubmit = (data: { title: string; content: string; images: File[] }) => {
-    console.log("작성한 글 데이터:", data);
-    // navigate("/community");
+  const handleSubmit = async (postValue: { title: string; content: string; images: File[] }) => {
+    try {
+      await communityApi.postCrew(postValue);
+      // console.log("postValue:", postValue);
+      navigate("/community");
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
