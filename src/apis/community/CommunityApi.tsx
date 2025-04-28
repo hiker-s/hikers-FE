@@ -8,19 +8,27 @@ type postValue = {
   images: File[];
 };
 
-export type CrewPost = {
+export type CrewList = {
+  id: number;
+  title: string;
+  content: string;
+  image_urls: string[];
+};
+
+export type CrewDetail = {
   id: number;
   title: string;
   content: string;
   author_name: string;
   created_at: string;
   image_urls: string[];
+  is_writer: boolean;
 };
 
 // 토큰 가져오기
 const getToken = () => {
   const token = localStorage.getItem("token");
-  console.log("가져온 토큰:", token);
+  // console.log("가져온 토큰:", token);
   return token;
 };
 
@@ -30,7 +38,7 @@ const getAuthHeader = () => {
   const headers = {
     Authorization: `Bearer ${token}`,
   };
-  console.log("생성된 헤더:", headers);
+  // console.log("생성된 헤더:", headers);
   return headers;
 };
 
@@ -58,6 +66,7 @@ export const communityApi = {
       throw error;
     }
   },
+
   getCrewList: async () => {
     try {
       const headers = getAuthHeader();
@@ -65,7 +74,7 @@ export const communityApi = {
       console.log("크루 글 목록 데이터:", response.data);
 
       if (response.data) {
-        return response.data.map((item: CrewPost) => ({
+        return response.data.map((item: CrewList) => ({
           id: item.id,
           title: item.title,
           content: item.content,
@@ -76,6 +85,31 @@ export const communityApi = {
     } catch (error) {
       console.error("크루 글 목록 가져오기 실패:", error);
       return [];
+    }
+  },
+
+  getCrewDetail: async (id: number) => {
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/crewpost/${id}`, { headers });
+      // console.log("크루 글 상세 데이터:", response.data);
+
+      if (response.data) {
+        const item = response.data;
+        return {
+          id: item.id,
+          title: item.title,
+          content: item.content,
+          image_urls: item.image_urls,
+          created_at: item.created_at,
+          author_name: item.author_name,
+          is_writer: item.is_writer,
+        };
+      }
+      return undefined;
+    } catch (error) {
+      console.error("크루 글 상세 데이터 가져오기 실패:", error);
+      return undefined;
     }
   },
 };
