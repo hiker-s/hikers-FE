@@ -1,4 +1,4 @@
-import * as Styled from "./CrewForm.styled";
+import * as Styled from "./styled";
 import { MdImage } from "react-icons/md";
 import { PLACEHOLDERS } from "../../../constants/communityPlaceholder";
 import { useState } from "react";
@@ -9,22 +9,15 @@ import { useImageUpload } from "../../../hooks/useImageUpload";
 type CrewFormProps = {
   date_info: string;
   nickname: string;
-  initialData?: {
-    title: string;
-    content: string;
-    image_urls: string[];
-  };
-  isEdit?: boolean;
   onSubmit?: (postValue: { title: string; content: string; images: File[] }) => void;
 };
 
-export default function CrewForm({ date_info, nickname, initialData, isEdit = false, onSubmit }: CrewFormProps) {
-  const [title, setTitle] = useState<string>(initialData?.title || "");
-  const [content, setContent] = useState<string>(initialData?.content || "");
+export default function CrewForm({ date_info, nickname, onSubmit }: CrewFormProps) {
+  const [title, setTitle] = useState<string>("");
+  const [content, setContent] = useState<string>("");
 
-  // 커스텀 훅 호출 (초기값 설정)
   const { previewUrls, imageFiles, fileInputRef, handleImageClick, handleImageUpload, handleRemoveImage } =
-    useImageUpload(initialData?.image_urls || []);
+    useImageUpload([]);
 
   const handleChangeTitle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(e.target.value);
@@ -97,7 +90,7 @@ export default function CrewForm({ date_info, nickname, initialData, isEdit = fa
       </Styled.ContentWrapper>
 
       <div style={{ width: "350px", display: "flex", justifyContent: "flex-end" }}>
-        <GreenBtn onClick={handleWritePost}>{isEdit ? "모집글 수정하기" : "모집글 게시하기"}</GreenBtn>
+        <GreenBtn onClick={handleWritePost}>모집글 게시하기</GreenBtn>
       </div>
     </Styled.Wrapper>
   );
