@@ -22,9 +22,11 @@ type ReviewListProps = {
   title: string;
   review_data: ReviewItemDataProps[];
   onLikeToggle: (itemId: number) => void;
+  filter: string;
+  onFilterChange: (newFilter: string) => void;
 };
 
-export default function ReviewList({ title, review_data, onLikeToggle }: ReviewListProps) {
+export default function ReviewList({ title, review_data, onLikeToggle, filter, onFilterChange }: ReviewListProps) {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -48,7 +50,7 @@ export default function ReviewList({ title, review_data, onLikeToggle }: ReviewL
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <Filter isReview={true} filter={"최신순"} onFilterChange={() => {}} />
+        <Filter isReview={true} filter={filter} onFilterChange={onFilterChange} />
       </Styled.TitleWrapper>
       <div>
         <Styled.ReviewWrapper>
