@@ -48,7 +48,7 @@ export default function CommunityReview() {
         title="리뷰"
         review_data={reviewData}
         onLikeToggle={handleLikeToggle}
-        filter={filter} // Pass filter as a prop to ReviewList
+        filter={filter}
         onFilterChange={setFilter}
       />
       <Styled.ButtonWrapper>
