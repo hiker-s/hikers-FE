@@ -72,4 +72,34 @@ export const reviewApi = {
       return [];
     }
   },
+
+  getReviewDetail: async (id: number) => {
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/review/${id}`, { headers });
+      // console.log("리뷰 글 상세 데이터:", response.data);
+
+      if (response.data) {
+        const item = response.data;
+        return {
+          id: item.id,
+          title: item.title,
+          content: item.content,
+          image_urls: item.image_urls,
+          created_at: item.created_at,
+          author_name: item.author_name,
+          is_writer: item.is_writer,
+          like_count: item.like_count,
+          liked_by_current_user: item.liked_by_current_user,
+          level: item.level,
+          course_name: item.course_name,
+          mountain_name: item.mountain_name,
+        };
+      }
+      return undefined;
+    } catch (error) {
+      console.error("리뷰 글 상세 데이터 가져오기 실패:", error);
+      return undefined;
+    }
+  },
 };
