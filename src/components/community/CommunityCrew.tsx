@@ -12,7 +12,7 @@ export default function CommunityCrew() {
   useEffect(() => {
     const fetchCrewList = async () => {
       try {
-        const crew = await communityApi.getCrew();
+        const crew = await communityApi.getCrewList();
         setCrewData(crew);
       } catch (error) {
         console.error("크루 글 목록 데이터 가져오기 실패:", error);

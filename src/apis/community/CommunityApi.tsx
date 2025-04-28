@@ -58,7 +58,7 @@ export const communityApi = {
       throw error;
     }
   },
-  getCrew: async () => {
+  getCrewList: async () => {
     try {
       const headers = getAuthHeader();
       const response = await axios.get(`${baseURL}/api/crewpost`, { headers });
