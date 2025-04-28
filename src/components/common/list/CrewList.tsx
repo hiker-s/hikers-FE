@@ -6,8 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 
 type CrewItemDataProps = {
-  crew_id: number;
-  images?: string;
+  id: number;
+  image_urls?: string[];
   title: string;
   content: string;
 };
@@ -18,7 +18,6 @@ type CrewListProps = {
 
 export default function CrewList({ crew_data }: CrewListProps) {
   const navigate = useNavigate();
-  const [crewData] = useState<CrewItemDataProps[]>(crew_data);
 
   const onCrewItemClick = (itemId: number) => {
     navigate(`crew/${itemId}`);
@@ -27,10 +26,10 @@ export default function CrewList({ crew_data }: CrewListProps) {
   const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(0);
   const offset = currentPage * itemsPerPage;
-  const currentItems = crewData.slice(offset, offset + itemsPerPage);
+  const currentItems = crew_data.slice(offset, offset + itemsPerPage);
 
   const isFirstPage = currentPage === 0;
-  const isLastPage = currentPage === Math.ceil(crewData.length / itemsPerPage) - 1;
+  const isLastPage = currentPage === Math.ceil(crew_data.length / itemsPerPage) - 1;
 
   return (
     <Styled.ListWrapper>
@@ -41,11 +40,12 @@ export default function CrewList({ crew_data }: CrewListProps) {
         <Styled.CrewWrapper>
           {currentItems.map((crew) => (
             <CrewItem
-              key={crew.crew_id}
-              crew_id={crew.crew_id}
+              key={crew.id}
+              id={crew.id}
               title={crew.title}
               content={crew.content}
-              onCrewItemClick={() => onCrewItemClick(crew.crew_id)}
+              image_urls={crew.image_urls}
+              onCrewItemClick={() => onCrewItemClick(crew.id)}
             />
           ))}
         </Styled.CrewWrapper>
@@ -59,7 +59,8 @@ export default function CrewList({ crew_data }: CrewListProps) {
           <Styled.PageNumber>{currentPage + 1}</Styled.PageNumber>
           <Styled.PagingBtn
             onClick={() =>
-              !isLastPage && setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(crewData.length / itemsPerPage) - 1))
+              !isLastPage &&
+              setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(crew_data.length / itemsPerPage) - 1))
             }
             disabled={isLastPage}
           >
