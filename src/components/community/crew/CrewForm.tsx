@@ -15,7 +15,7 @@ type CrewFormProps = {
     image_urls: string[];
   };
   isEdit?: boolean;
-  onSubmit?: (data: { title: string; content: string; images: File[] }) => void;
+  onSubmit?: (postValue: { title: string; content: string; images: File[] }) => void;
 };
 
 export default function CrewForm({ date_info, nickname, initialData, isEdit = false, onSubmit }: CrewFormProps) {
