@@ -37,7 +37,7 @@ const SignUp = () => {
   const handleSignUp = async () => {
     try {
       await accountApi.postSignup(formValue);
-      console.log("회원가입 성공");
+      // console.log("회원가입 성공");
       navigate("/signup/success");
     } catch (error) {
       if (error instanceof AxiosError) {
