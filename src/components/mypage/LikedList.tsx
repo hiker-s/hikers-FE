@@ -10,7 +10,7 @@ export default function LikedList() {
 
   const fetchReviewList = async (filter: string) => {
     try {
-      const review = await mypageApi.getMyReviewList(filter);
+      const review = await mypageApi.getLikedReviewList(filter);
       setReviewData(review);
     } catch (error) {
       console.error("좋아요한 리뷰 글 목록 데이터 가져오기 실패:", error);
