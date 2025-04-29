@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import ReviewList from "../common/list/ReviewList";
 import { useEffect, useState } from "react";
-import { mypageApi, ReviewListAPI } from "../../apis/mypage/MypageApi";
+import { mypageApi, LikedReviewListAPI } from "../../apis/mypage/MypageApi";
 import { reviewApi } from "../../apis/community/ReviewApi";
 
 export default function LikedList() {
   const [filter, setFilter] = useState<string>("최신순");
-  const [reviewData, setReviewData] = useState<ReviewListAPI[]>([]);
+  const [reviewData, setReviewData] = useState<LikedReviewListAPI[]>([]);
 
   const fetchReviewList = async (filter: string) => {
     try {
