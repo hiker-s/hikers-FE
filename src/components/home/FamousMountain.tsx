@@ -5,34 +5,47 @@ import mountainUp from "../../assets/icons/mountainRankUp.svg";
 import mountainSame from "../../assets/icons/mountainRankSame.svg";
 import filter from "../../assets/icons/mountainRankFilter.svg";
 import closefilter from "../../assets/icons/mountainRankFilterClose.svg";
+import { famousMountainApi } from "../../apis/home/FamousMountainApi";
+
+type MountainRankItem = {
+  id: number;
+  mnt_name: string;
+  // mnt_rank: number;
+  // mnt_status: string;
+  view_count: number;
+};
 
 export const FamousMountain = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [mountainRank, setMountainRank] = useState<MountainRankItem[]>([]);
 
-  const mock_mountain_rank = [
-    { id: 1, rank: 1, mountain_name: "인왕산", mountain_status: "same" },
-    { id: 2, rank: 2, mountain_name: "북한산", mountain_status: "down" },
-    { id: 3, rank: 3, mountain_name: "북악산", mountain_status: "same" },
-    { id: 4, rank: 4, mountain_name: "관악산", mountain_status: "up" },
-    { id: 5, rank: 5, mountain_name: "수락산", mountain_status: "down" },
-  ];
+  useEffect(() => {
+    const fetchMountainRank = async () => {
+      try {
+        const data = await famousMountainApi.getMountainRank();
+        setMountainRank(data);
+      } catch (error) {
+        console.error("산 랭킹 가져오기 실패:", error);
+      }
+    };
 
-  const [mountain_rank] = useState(mock_mountain_rank);
+    fetchMountainRank();
+  }, []);
 
   // 3초마다 표시할 산 정보 변경
   useEffect(() => {
-    if (!mountain_rank) return;
+    if (!mountainRank.length) return;
 
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % mountain_rank.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % mountainRank.length);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [mountain_rank]);
+  }, [mountainRank]);
 
   // 현재 표시할 산 항목
-  const item = mountain_rank[currentIndex];
+  const item = mountainRank[currentIndex];
 
   // filter
   const handleFilterClick = () => {
@@ -44,7 +57,7 @@ export const FamousMountain = () => {
       <FamousMountainContainer>
         <FamousLabel>인기</FamousLabel>
         <MountainRank>{item.rank}</MountainRank>
-        <MountainName>{item.mountain_name}</MountainName>
+        <MountainName>{item.mnt_name}</MountainName>
         <MountainStatusImageContainer>
           <MountainStatusImage
             src={
