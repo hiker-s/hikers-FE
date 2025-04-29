@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoMdHeart } from "react-icons/io";
 import * as Styled from "./styled";
+import { reviewApi } from "../../../apis/community/ReviewApi";
 
 type PostCreateInfoProps = {
   review_id?: number;
@@ -24,14 +25,30 @@ function PostCreateInfo({
   const [liked, setLiked] = useState(liked_by_current_user);
   const [likeCount, setLikeCount] = useState(like_count);
 
-  const handleHeartClick = () => {
-    console.log(` ${review_id} 좋아요 클릭`);
-    if (liked) {
-      setLikeCount((prev) => prev - 1);
-    } else {
-      setLikeCount((prev) => prev + 1);
+  const handleHeartClick = async () => {
+    if (!review_id) {
+      console.error("review_id가 없습니다.");
+      return;
     }
-    setLiked(!liked);
+    // console.log(`${review_id} 좋아요 클릭`);
+
+    if (liked) {
+      try {
+        await reviewApi.deleteReviewHeart(review_id);
+        setLikeCount((prev) => prev - 1);
+        setLiked(false);
+      } catch (error) {
+        console.error("좋아요 실패", error);
+      }
+    } else {
+      try {
+        await reviewApi.postReviewHeart(review_id);
+        setLikeCount((prev) => prev + 1);
+        setLiked(true);
+      } catch (error) {
+        console.error("좋아요 실패", error);
+      }
+    }
   };
 
   const heartColor = is_writer ? "#3b3b3b" : liked ? "#349989" : "#C8C8C8";
@@ -49,7 +66,7 @@ function PostCreateInfo({
           style={{ cursor: is_writer ? "default" : "pointer" }}
         >
           <IoMdHeart size="24" color={heartColor} />
-          <Styled.HeartCount>{likeCount}</Styled.HeartCount>
+          {is_writer && <Styled.HeartCount>{likeCount}</Styled.HeartCount>}
         </Styled.HeartWrapper>
       )}
     </Styled.CreateInfoWrapper>

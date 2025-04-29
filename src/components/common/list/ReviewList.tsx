@@ -21,11 +21,14 @@ type ReviewItemDataProps = {
 type ReviewListProps = {
   title: string;
   review_data: ReviewItemDataProps[];
+  onLikeToggle: (itemId: number) => void;
+  filter: string;
+  onFilterChange: (newFilter: string) => void;
 };
 
-export default function ReviewList({ title, review_data }: ReviewListProps) {
+export default function ReviewList({ title, review_data, onLikeToggle, filter, onFilterChange }: ReviewListProps) {
   const navigate = useNavigate();
-  const [reviewData, setReviewData] = useState<ReviewItemDataProps[]>(review_data);
+  const [currentPage, setCurrentPage] = useState(0);
 
   const onReviewItemClick = (itemId: number) => {
     navigate(`/community/review/${itemId}`);
@@ -33,26 +36,21 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
 
   const onLikeClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
     e.stopPropagation();
-    console.log(`${itemId} 좋아요 클릭`);
-    const updatedLike = reviewData.map((item) =>
-      item.id === itemId ? { ...item, liked_by_current_user: !item.liked_by_current_user } : item
-    );
-    setReviewData(updatedLike);
+    onLikeToggle(itemId);
   };
 
   const itemsPerPage = 5;
-  const [currentPage, setCurrentPage] = useState(0);
   const offset = currentPage * itemsPerPage;
-  const currentItems = reviewData.slice(offset, offset + itemsPerPage);
+  const currentItems = review_data.slice(offset, offset + itemsPerPage);
 
   const isFirstPage = currentPage === 0;
-  const isLastPage = currentPage === Math.ceil(reviewData.length / itemsPerPage) - 1;
+  const isLastPage = currentPage === Math.ceil(review_data.length / itemsPerPage) - 1;
 
   return (
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <Filter isReview={true} filter={"최신순"} onFilterChange={() => {}} />
+        <Filter isReview={true} filter={filter} onFilterChange={onFilterChange} />
       </Styled.TitleWrapper>
       <div>
         <Styled.ReviewWrapper>
@@ -84,7 +82,7 @@ export default function ReviewList({ title, review_data }: ReviewListProps) {
           <Styled.PagingBtn
             onClick={() =>
               !isLastPage &&
-              setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(reviewData.length / itemsPerPage) - 1))
+              setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(review_data.length / itemsPerPage) - 1))
             }
             disabled={isLastPage}
           >

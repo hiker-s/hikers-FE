@@ -6,18 +6,36 @@ import { GreenBtn } from "../../common/button/GreenBtn";
 import { IoMdClose } from "react-icons/io";
 import { useImageUpload } from "../../../hooks/useImageUpload";
 
-type CrewFormProps = {
+type CrewEditFormProps = {
   date_info: string;
   nickname: string;
-  onSubmit?: (postValue: { title: string; content: string; images: File[] }) => void;
+  initialData: {
+    title: string;
+    content: string;
+    image_urls: string[];
+  };
+  onSubmit?: (postValue: {
+    title: string;
+    content: string;
+    images: (string | File)[];
+    deletedImages?: string[];
+    existingImages?: string[];
+  }) => void;
 };
 
-export default function CrewForm({ date_info, nickname, onSubmit }: CrewFormProps) {
-  const [title, setTitle] = useState<string>("");
-  const [content, setContent] = useState<string>("");
+export default function CrewEditForm({ date_info, nickname, initialData, onSubmit }: CrewEditFormProps) {
+  const [title, setTitle] = useState<string>(initialData?.title || "");
+  const [content, setContent] = useState<string>(initialData?.content || "");
 
-  const { previewUrls, imageFiles, fileInputRef, handleImageClick, handleImageUpload, handleRemoveImage } =
-    useImageUpload([]);
+  const {
+    previewUrls,
+    fileInputRef,
+    imageFiles,
+    deletedImageUrls,
+    handleImageClick,
+    handleImageUpload,
+    handleRemoveImage,
+  } = useImageUpload(initialData?.image_urls || []);
 
   const handleChangeTitle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(e.target.value);
@@ -27,12 +45,27 @@ export default function CrewForm({ date_info, nickname, onSubmit }: CrewFormProp
     setContent(e.target.value);
   };
 
-  const handleWritePost = () => {
+  const handleEditPost = () => {
+    const imagesToSend: (string | File)[] = [];
+
+    // 기존 이미지 URL은 그대로 추가
+    previewUrls.forEach((url) => {
+      if (!url.startsWith("blob:")) {
+        imagesToSend.push(url);
+      }
+    });
+
+    // 새로 업로드된 File 객체들을 추가
+    imageFiles.forEach((file) => {
+      imagesToSend.push(file);
+    });
+
     if (onSubmit) {
       onSubmit({
         title,
         content,
-        images: imageFiles,
+        images: imagesToSend,
+        deletedImages: deletedImageUrls,
       });
     }
   };
@@ -90,7 +123,7 @@ export default function CrewForm({ date_info, nickname, onSubmit }: CrewFormProp
       </Styled.ContentWrapper>
 
       <div style={{ width: "350px", display: "flex", justifyContent: "flex-end" }}>
-        <GreenBtn onClick={handleWritePost}>모집글 게시하기</GreenBtn>
+        <GreenBtn onClick={handleEditPost}>모집글 수정하기</GreenBtn>
       </div>
     </Styled.Wrapper>
   );
