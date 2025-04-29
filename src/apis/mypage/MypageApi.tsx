@@ -31,6 +31,11 @@ export type UserInfo = {
   nickname: string;
 };
 
+export type MyStampAPI = {
+  mountain_name: string;
+  stamp_id: number;
+};
+
 // 토큰 가져오기
 const getToken = () => {
   const token = localStorage.getItem("token");
@@ -61,6 +66,25 @@ export const mypageApi = {
       return [];
     } catch (error) {
       console.error("유저 정보 받아오기 실패:", error);
+      return [];
+    }
+  },
+
+  getMyStamp: async () => {
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/stamp/mine`, { headers });
+      // console.log("내 스탬프 조회 데이터:", response.data);
+
+      if (response.data) {
+        return response.data.map((item: MyStampAPI) => ({
+          id: item.stamp_id,
+          mountain_name: item.mountain_name,
+        }));
+      }
+      return [];
+    } catch (error) {
+      console.error("내 스탬프 조회 실패:", error);
       return [];
     }
   },
