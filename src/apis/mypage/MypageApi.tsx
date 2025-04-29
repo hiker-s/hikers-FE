@@ -116,7 +116,7 @@ export const mypageApi = {
     try {
       const headers = getAuthHeader();
       const response = await axios.get(`${baseURL}/api/scrap/user?sortType=${sortType}`, { headers });
-      console.log("스크랩한 코스 목록 데이터:", response.data.result);
+      // console.log("스크랩한 코스 목록 데이터:", response.data.result);
 
       return response.data.result.scraps.map((item: ScrapedCourseListAPI) => ({
         scrap_id: item.scrap_id,
