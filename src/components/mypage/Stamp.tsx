@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import * as Styled from "./Stamp.styled";
 import stampMap from "../../assets/images/stampMap.svg";
 import stampDatas from "../../data/stamp.json";
+import { mypageApi, MyStampAPI } from "../../apis/mypage/MypageApi";
 
 type StampData = {
   mountain_name: string;
@@ -20,34 +21,16 @@ const STAMP_POSITIONS = [
 ];
 
 export default function Stamp() {
-  const MOCK_STAMPS = [
-    {
-      stamp_id: 14,
-      mountain_name: "남산",
-      course_name: "중턱오름 코스",
-      course_lat: 35.460835,
-      course_lng: 126.840881,
-      level_weight: 2,
-    },
-    {
-      stamp_id: 14,
-      mountain_name: "남산",
-      course_name: "중턱오름 코스",
-      course_lat: 35.460835,
-      course_lng: 126.840881,
-      level_weight: 2,
-    },
-    {
-      stamp_id: 14,
-      mountain_name: "남산",
-      course_name: "중턱오름 코스",
-      course_lat: 35.460835,
-      course_lng: 126.840881,
-      level_weight: 2,
-    },
-  ];
   const [stamps, setStamps] = useState<StampData[]>([]);
-  const [myStampData] = useState(MOCK_STAMPS);
+  const [myStampData, setMyStampData] = useState<MyStampAPI[]>([]);
+
+  useEffect(() => {
+    const fetchMyStamp = async () => {
+      const review = await mypageApi.getMyStamp();
+      setMyStampData(review);
+    };
+    fetchMyStamp();
+  }, []);
 
   useEffect(() => {
     const matchedStamps = myStampData
