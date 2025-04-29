@@ -2,7 +2,19 @@ import axios from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
-export type ReviewListAPI = {
+export type MyReviewListAPI = {
+  id: number;
+  image_urls?: string[];
+  title: string;
+  mountain_name: string;
+  course_name: string;
+  level: string;
+  liked_by_current_user?: boolean;
+  is_writer: boolean;
+  like_count?: number;
+};
+
+export type LikedReviewListAPI = {
   id: number;
   image_urls?: string[];
   title: string;
@@ -53,15 +65,15 @@ export const mypageApi = {
     }
   },
 
-  getLikedReviewList: async (filter: string) => {
+  getMyReviewList: async (filter: string) => {
     const sortType = filter === "최신순" ? "latest" : "likes";
     try {
       const headers = getAuthHeader();
-      const response = await axios.get(`${baseURL}/api/review/liked?sortType=${sortType}`, { headers });
-      //   console.log("좋아요한 리뷰 글 목록 데이터:", response.data);
+      const response = await axios.get(`${baseURL}/api/review/mine?sortType=${sortType}`, { headers });
+      // console.log("내가 쓴 리뷰 글 목록 데이터:", response.data.result);
 
       if (response.data) {
-        return response.data.map((item: ReviewListAPI) => ({
+        return response.data.result.map((item: MyReviewListAPI) => ({
           id: item.id,
           title: item.title,
           image_urls: item.image_urls,
@@ -75,20 +87,20 @@ export const mypageApi = {
       }
       return [];
     } catch (error) {
-      console.error("좋아요한 리뷰 글 목록 가져오기 실패:", error);
+      console.error("내가 쓴 리뷰 글 목록 가져오기 실패:", error);
       return [];
     }
   },
 
-  geReviewList: async (filter: string) => {
+  getLikedReviewList: async (filter: string) => {
     const sortType = filter === "최신순" ? "latest" : "likes";
     try {
       const headers = getAuthHeader();
       const response = await axios.get(`${baseURL}/api/review/liked?sortType=${sortType}`, { headers });
-      //   console.log("좋아요한 리뷰 글 목록 데이터:", response.data);
+      // console.log("좋아요한 리뷰 글 목록 데이터:", response.data);
 
       if (response.data) {
-        return response.data.map((item: ReviewListAPI) => ({
+        return response.data.result.map((item: LikedReviewListAPI) => ({
           id: item.id,
           title: item.title,
           image_urls: item.image_urls,
