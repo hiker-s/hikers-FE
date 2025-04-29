@@ -1,68 +1,51 @@
+import { useEffect, useState } from "react";
 import CourseList from "../common/list/CourseList";
 import styled from "styled-components";
+import { mypageApi, ScrapedCourseListAPI } from "../../apis/mypage/MypageApi";
+import { courseListApi } from "../../apis/course/CourseListApi";
 
 export default function ScrapedList() {
-  const MOCK_MYPAGE_COURSE = [
-    {
-      course_id: 1,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "하",
-      is_scrapped: true,
-    },
-    {
-      course_id: 2,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "상",
-      is_scrapped: true,
-    },
-    {
-      course_id: 3,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "중",
-      is_scrapped: true,
-    },
-    {
-      course_id: 4,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "상",
-      is_scrapped: true,
-    },
-    {
-      course_id: 5,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "중",
-      is_scrapped: true,
-    },
-    {
-      course_id: 6,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "상",
-      is_scrapped: false,
-    },
-    {
-      course_id: 7,
-      course_name: "인왕산1코스",
-      course_len: "돈의문터 - 창의문",
-      course_time: "1시간 50분",
-      level: "중",
-      is_scrapped: true,
-    },
-  ];
+  const [filter, setFilter] = useState<string>("가나다순");
+  const [courseData, setCourseData] = useState<ScrapedCourseListAPI[]>([]);
+
+  const fetchScrappedList = async (filter: string) => {
+    try {
+      const course = await mypageApi.getScrapedCourseList(filter);
+      setCourseData(course);
+    } catch (error) {
+      console.error("스크랩한 코스 목록 데이터 가져오기 실패:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchScrappedList(filter);
+  }, [filter]);
+
+  const handleScrapToggle = async (itemId: number) => {
+    setCourseData((prevData) =>
+      prevData.map((item) => (item.course.id === itemId ? { ...item, is_scrapped: !item.is_scrapped } : item))
+    );
+    const currentItem = courseData.find((item) => item.course.id === itemId);
+    if (!currentItem) return;
+    try {
+      if (currentItem.is_scrapped) {
+        await courseListApi.deleteCourseScrap(itemId);
+        fetchScrappedList(filter);
+      }
+    } catch (error) {
+      console.error("스크랩 실패:", error);
+    }
+  };
+
   return (
     <Wrapper>
-      <CourseList title="스크랩한 코스" course_data={MOCK_MYPAGE_COURSE} />
+      <CourseList
+        title="스크랩한 코스"
+        course_data={courseData}
+        onScrapToggle={handleScrapToggle}
+        filter={filter}
+        onFilterChange={setFilter}
+      />
     </Wrapper>
   );
 }
