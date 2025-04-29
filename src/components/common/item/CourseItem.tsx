@@ -8,8 +8,9 @@ type CourseItemProps = {
   course_name: string;
   level: string;
   $iscard?: boolean;
-  course_len: string;
-  course_time: string;
+  start_name: string;
+  end_name: string;
+  time: string;
   is_scrapped: boolean;
   onCourseItemClock: (e: number) => void;
   onScrapClick: (e: React.MouseEvent<SVGElement>) => void;
@@ -18,10 +19,11 @@ type CourseItemProps = {
 export default function CourseItem({
   course_id,
   course_name,
+  end_name,
   level,
   $iscard = false,
-  course_len,
-  course_time,
+  start_name,
+  time,
   is_scrapped,
   onCourseItemClock,
   onScrapClick,
@@ -35,8 +37,10 @@ export default function CourseItem({
             {level}
           </LevelComp>
         </Styled.TitleWrapper>
-        <Styled.ContentText>{course_len}</Styled.ContentText>
-        <Styled.ContentText>{course_time}</Styled.ContentText>
+        <Styled.ContentText>
+          {start_name} ⟷ {end_name}
+        </Styled.ContentText>
+        <Styled.ContentText>{time}</Styled.ContentText>
       </Styled.InfoWrapper>
       <Styled.BooleanWrapper>
         <IoMdBookmark
