@@ -29,6 +29,17 @@ export const ReviewWrapper = styled.div`
   width: 21.875rem;
 `;
 
+export const NoneData = styled.div`
+  width: 21.875rem;
+  height: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #3b3b3b;
+`;
+
 export const PaginationWrapper = styled.div`
   display: flex;
   flex-direction: row;
