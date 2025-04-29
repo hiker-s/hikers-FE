@@ -61,7 +61,7 @@ export const ContentInput = styled.textarea<{ $hasImages: boolean }>`
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 140%; /* 1.4rem */
+  line-height: 140%;
   resize: none;
   border: none;
   &::placeholder {

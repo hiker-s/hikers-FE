@@ -1,3 +1,5 @@
+import { crewApi } from "../../../apis/community/CrewApi";
+import { reviewApi } from "../../../apis/community/ReviewApi";
 import * as Styled from "./styled";
 import { useNavigate } from "react-router-dom";
 
@@ -9,12 +11,19 @@ type ButtonGroupProps = {
 export default function ButtonGroup({ mode, id }: ButtonGroupProps) {
   const navigate = useNavigate();
   const handleEdit = (id: number) => {
-    navigate(`${mode === "crew" ? `edit` : "edit"}`);
-    console.log(id);
+    navigate(`/community/${mode}/${id}/edit`);
+    // console.log(id);
   };
 
-  const handleDelete = (id: number) => {
-    console.log(`${mode === "crew" ? "crew_id" : "review_id"} ${id} 삭제`);
+  const handleDelete = async (id: number) => {
+    if (mode === "crew") {
+      await crewApi.deleteCrew(id);
+      // alert("크루 게시글이 삭제되었습니다.");
+    } else {
+      await reviewApi.deleteReview(id);
+      // alert("리뷰 게시글이 삭제되었습니다.");
+    }
+    navigate(-1);
   };
 
   return (

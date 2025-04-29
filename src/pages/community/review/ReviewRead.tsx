@@ -6,8 +6,9 @@ import PostContent from "../../../components/community/read/PostContent";
 import PostCreateInfo from "../../../components/community/read/PostCreateInfo";
 import PostTitle from "../../../components/community/read/PostTitle";
 import PostReviewInfo from "../../../components/community/read/PostReviewInfo";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ButtonGroup from "../../../components/community/read/ButtonGroup";
+import { reviewApi, ReviewDetail } from "../../../apis/community/ReviewApi";
 
 export default function ReviewRead() {
   const navigate = useNavigate();
@@ -16,53 +17,57 @@ export default function ReviewRead() {
   };
 
   const { review_id } = useParams();
-  const post_id = parseInt(review_id ?? "", 10);
+  const id = parseInt(review_id ?? "", 10);
 
-  const MOCK_REVIEW_DETAIL = [
-    {
-      title: "리뷰 모집 제목입니다.",
-      mountain_name: "인왕산",
-      course_name: "인왕산 1코스",
-      level: "중",
-      created_at: "2025.04.01",
-      author_name: "하이커스",
-      is_writer: true,
-      liked_by_current_user: false,
-      like_count: 100,
-      content: "리뷰 모집 내용입니다.",
-      image_urls: [],
-    },
-  ];
-  const [reviewDetailData] = useState(MOCK_REVIEW_DETAIL);
+  const [reviewDetailData, setReviewDetailData] = useState<ReviewDetail>();
+
+  useEffect(() => {
+    const fetchCrewDetail = async (id: number) => {
+      try {
+        const review = await reviewApi.getReviewDetail(id);
+        setReviewDetailData(review);
+      } catch (error) {
+        console.error("크루 글 상세 데이터 가져오기 실패:", error);
+      }
+    };
+
+    if (!isNaN(id)) {
+      fetchCrewDetail(id);
+    }
+  }, [id]);
 
   return (
     <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>리뷰</Header>
       <Wrapper>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
-          <PostTitle title={reviewDetailData[0].title} />
-          <PostReviewInfo
-            mountain_name={reviewDetailData[0].mountain_name}
-            course_name={reviewDetailData[0].course_name}
-            level={reviewDetailData[0].level}
-          />
-        </div>
-        <PostCreateInfo
-          review_id={post_id}
-          is_review={true}
-          created_at={reviewDetailData[0].created_at}
-          author_name={reviewDetailData[0].author_name}
-          is_writer={reviewDetailData[0].is_writer}
-          liked_by_current_user={reviewDetailData[0].liked_by_current_user}
-          like_count={reviewDetailData[0].like_count}
-        />
-        <PostContent content={reviewDetailData[0].content} image_urls={reviewDetailData[0].image_urls} />
+        {reviewDetailData && (
+          <>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.31rem" }}>
+              <PostTitle title={reviewDetailData.title} />
+              <PostReviewInfo
+                mountain_name={reviewDetailData.mountain_name}
+                course_name={reviewDetailData.course_name}
+                level={reviewDetailData.level}
+              />
+            </div>
+            <PostCreateInfo
+              review_id={id}
+              is_review={true}
+              created_at={reviewDetailData.created_at}
+              author_name={reviewDetailData.author_name}
+              is_writer={reviewDetailData.is_writer}
+              liked_by_current_user={reviewDetailData.liked_by_current_user}
+              like_count={reviewDetailData.like_count}
+            />
+            <PostContent content={reviewDetailData.content} image_urls={reviewDetailData.image_urls} />
+            {reviewDetailData.is_writer && (
+              <ButtonWrapper>
+                <ButtonGroup mode="review" id={id} />
+              </ButtonWrapper>
+            )}
+          </>
+        )}
       </Wrapper>
-      {reviewDetailData[0].is_writer && (
-        <ButtonWrapper>
-          <ButtonGroup mode="review" id={post_id} />
-        </ButtonWrapper>
-      )}
     </Layout>
   );
 }

@@ -3,6 +3,8 @@ import { useState, useRef, useEffect } from "react";
 export function useImageUpload(initialUrls: string[] = []) {
   const [previewUrls, setPreviewUrls] = useState<string[]>(initialUrls);
   const [imageFiles, setImageFiles] = useState<File[]>([]);
+  const [existingImageUrls, setExistingImageUrls] = useState<string[]>(initialUrls);
+  const [deletedImageUrls, setDeletedImageUrls] = useState<string[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleImageClick = () => {
@@ -25,12 +27,16 @@ export function useImageUpload(initialUrls: string[] = []) {
   };
 
   const handleRemoveImage = (index: number) => {
-    setPreviewUrls((prev) => {
-      const newUrls = prev.filter((_, i) => i !== index);
-      URL.revokeObjectURL(prev[index]);
-      return newUrls;
-    });
-    setImageFiles((prev) => prev.filter((_, i) => i !== index));
+    const imageUrlToRemove = previewUrls[index];
+    setPreviewUrls((prev) => prev.filter((_, i) => i !== index));
+
+    if (initialUrls.includes(imageUrlToRemove)) {
+      setDeletedImageUrls((prev) => [...prev, imageUrlToRemove]);
+      setExistingImageUrls((prev) => prev.filter((url) => url !== imageUrlToRemove));
+    } else {
+      setImageFiles((prev) => prev.filter((_, i) => i !== index - initialUrls.length));
+      URL.revokeObjectURL(imageUrlToRemove);
+    }
   };
 
   useEffect(() => {
@@ -46,6 +52,8 @@ export function useImageUpload(initialUrls: string[] = []) {
   return {
     previewUrls,
     imageFiles,
+    existingImageUrls,
+    deletedImageUrls,
     fileInputRef,
     handleImageClick,
     handleImageUpload,
