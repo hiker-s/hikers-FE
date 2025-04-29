@@ -34,6 +34,7 @@ export default function LikedList() {
     try {
       if (currentItem.liked_by_current_user) {
         await reviewApi.deleteReviewHeart(itemId);
+        fetchReviewList(filter);
       } else {
         await reviewApi.postReviewHeart(itemId);
       }
