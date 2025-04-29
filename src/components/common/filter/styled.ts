@@ -15,7 +15,8 @@ export const Filter = styled.div`
 export const DropdownWrapper = styled.div<{ $isOpen: boolean }>`
   position: absolute;
   top: calc(100% + 0.5rem);
-  right: calc(-1rem);
+  /* right: calc(-1rem); */
+  right: 0;
   display: flex;
   padding: 0.3125rem;
   flex-direction: column;
