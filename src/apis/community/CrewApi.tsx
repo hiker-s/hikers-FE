@@ -129,7 +129,7 @@ export const crewApi = {
       const imagePromises = putValue.images.map(async (image) => {
         if (typeof image === "string") {
           // URL을 통해 Blob 객체를 가져옴
-          const response = await fetch(image);
+          const response = await fetch(`${image}?not-from-cache-please`);
           const blob = await response.blob();
           // Blob을 File 객체로 변환
           const file = new File([blob], "image.jpg", { type: blob.type });
