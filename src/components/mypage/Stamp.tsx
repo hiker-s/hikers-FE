@@ -46,7 +46,7 @@ export default function Stamp() {
       })
       .filter((stamp): stamp is StampData => stamp !== null);
 
-    console.log("Matched stamps:", matchedStamps);
+    // console.log("Matched stamps:", matchedStamps);
     setStamps(matchedStamps);
   }, [myStampData]);
 
