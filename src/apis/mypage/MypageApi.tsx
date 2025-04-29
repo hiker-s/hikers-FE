@@ -2,6 +2,21 @@ import axios from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
+export type ScrapedCourseListAPI = {
+  scrap_id: number;
+  is_scrapped: boolean;
+  course: {
+    id: number;
+    course_file_path: string;
+    course_name: string;
+    start_name: string;
+    end_name: string;
+    level: string;
+    time: string;
+    mountain_id: number;
+  };
+};
+
 export type MyReviewListAPI = {
   id: number;
   image_urls?: string[];
@@ -85,6 +100,40 @@ export const mypageApi = {
       return [];
     } catch (error) {
       console.error("내 스탬프 조회 실패:", error);
+      return [];
+    }
+  },
+
+  getScrapedCourseList: async (filter: string) => {
+    const sortMap: Record<string, string> = {
+      가나다순: "NAME",
+      난이도순: "LEVEL",
+      인기순: "REVIEW",
+      스크랩순: "SCRAP",
+    };
+    const sortType = sortMap[filter] || "NAME";
+
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/scrap/user?sortType=${sortType}`, { headers });
+      console.log("스크랩한 코스 목록 데이터:", response.data.result);
+
+      return response.data.result.scraps.map((item: ScrapedCourseListAPI) => ({
+        scrap_id: item.scrap_id,
+        is_scrapped: true,
+        course: {
+          id: item.course.id,
+          course_file_path: item.course.course_file_path,
+          course_name: item.course.course_name,
+          start_name: item.course.start_name,
+          end_name: item.course.end_name,
+          level: item.course.level,
+          time: item.course.time,
+          mountain_id: item.course.mountain_id,
+        },
+      }));
+    } catch (error) {
+      console.error("스크랩한 코스 목록 가져오기 실패:", error);
       return [];
     }
   },
