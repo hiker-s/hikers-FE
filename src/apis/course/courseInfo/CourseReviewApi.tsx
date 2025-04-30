@@ -39,7 +39,7 @@ export const courseReviewApi = {
     const apiSortType = sortTypeMap[type];
     const headers = getAuthHeader();
     const response = await axios.get(`${baseURL}/api/course/review/${course_id}?sortType=${apiSortType}`, { headers });
-    console.log("코스 리뷰 조회 결과:", response.data);
+    // console.log("코스 리뷰 조회 결과:", response.data);
     return response.data.result;
   },
 };
