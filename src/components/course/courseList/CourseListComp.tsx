@@ -104,7 +104,7 @@ export default function CourseListComp() {
         course_data={MOCK_COURSE}
         filter={filter}
         onScrapToggle={handleScrapToggle}
-        onFilterChange={setFilter}
+        onTypeChange={setFilter}
       />
     </Styled.Wrapper>
   );
