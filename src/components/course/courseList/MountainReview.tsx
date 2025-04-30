@@ -35,7 +35,7 @@ const CourseReview = () => {
   return (
     <>
       {isLoading ? (
-        <Skeleton width={"100%"} height={"11.100%"} />
+        <Skeleton width={"100%"} height={"100%"} />
       ) : mntReview.length > 0 ? (
         <CardList items={mntReview} type={type} onTypeChange={setType} />
       ) : (
