@@ -4,6 +4,7 @@ import CourseItem from "../item/CourseItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
+import { useNavigate } from "react-router-dom";
 
 type CourseItemDataProps = {
   scrap_id?: number;
@@ -29,8 +30,10 @@ type CourseListProps = {
 };
 
 export default function CourseList({ title, course_data, onScrapToggle, filter, onTypeChange }: CourseListProps) {
+  const navigate = useNavigate();
   const onCourseItemClock = (itemId: number) => {
-    console.log(`${itemId} 아이템 조회로 이동`);
+    // console.log(`${itemId} 아이템 조회로 이동`);
+    navigate(`/courseInfo/${itemId}`);
   };
 
   const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
