@@ -33,6 +33,7 @@ export const CardContainer = styled.div<{ $imgUrl?: string }>`
 
 export const CardContent = styled.div<{ $hasImage?: boolean }>`
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
