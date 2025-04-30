@@ -8,6 +8,8 @@ import useKakaoShare from "../../../hooks/useKakaoShare";
 import course_ids from "../../../data/course_ids.json"; // 1. course_ids, MountainData import 해주기
 import { MountainData } from "../../../types/mountainData";
 import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
+import { SkeletonTheme } from "react-loading-skeleton";
 
 const CourseData = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -77,30 +79,40 @@ const CourseData = () => {
   // 4. courseData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
   if (error || !courseData || loading) {
     return (
-      <Styled.Wrapper>
-        <Styled.CourseTitleWrapper>
-          <Skeleton width={"100%"} height={"100%"} />
-          <Styled.GreenBtnWrapper>
-            <GreenBtn onClick={() => setIsModalOpen(true)}>코스 공유하기</GreenBtn>
-          </Styled.GreenBtnWrapper>
-        </Styled.CourseTitleWrapper>
-        <Styled.CourseMeta>
-          <Styled.StartToEnd>
-            <Skeleton width={"100%"} height={"100%"} />
-          </Styled.StartToEnd>
-          <Styled.CourseStats>
-            <Styled.CourseStatsItem>
-              <Skeleton width={"100%"} height={"100%"} />
-            </Styled.CourseStatsItem>
-            <Styled.CourseStatsItem>
-              <Skeleton width={"100%"} height={"100%"} />
-            </Styled.CourseStatsItem>
-            <Styled.CourseStatsItem>
-              <Skeleton width={"100%"} height={"100%"} />
-            </Styled.CourseStatsItem>
-          </Styled.CourseStats>
-        </Styled.CourseMeta>
-      </Styled.Wrapper>
+      <SkeletonTheme baseColor="#e0e0e0" highlightColor="#f5f5f5">
+        <Styled.Wrapper>
+          <Styled.CourseTitleWrapper>
+            <div style={{ width: "70%", height: "25px" }}>
+              <Skeleton height={25} />
+            </div>
+            <Styled.GreenBtnWrapper>
+              <Skeleton height={25} width={120} />
+            </Styled.GreenBtnWrapper>
+          </Styled.CourseTitleWrapper>
+
+          <Styled.CourseMeta>
+            <Styled.StartToEnd>
+              <Skeleton height={20} width="110px" />
+            </Styled.StartToEnd>
+
+            <Styled.CourseStats
+              style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "25px" }}
+            >
+              <Styled.CourseStatsItem>
+                <Skeleton height={16} width={100} />
+              </Styled.CourseStatsItem>
+
+              <Styled.CourseStatsItem>
+                <Skeleton height={16} width={100} />
+              </Styled.CourseStatsItem>
+
+              <Styled.CourseStatsItem>
+                <Skeleton height={16} width={100} />
+              </Styled.CourseStatsItem>
+            </Styled.CourseStats>
+          </Styled.CourseMeta>
+        </Styled.Wrapper>
+      </SkeletonTheme>
     );
   }
   // 여기까지 .. if (!courseData) {} 확인한 후에 courseData 확인하기 ⬇️ 아래가 5. courseData 객체 사용하기
