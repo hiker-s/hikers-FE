@@ -16,7 +16,7 @@ export const Search = () => {
     const matched = mnt_ids.find((item) => item.mnt_name === searchInput.trim());
 
     if (matched) {
-      navigate(`/corseList/${matched.mnt_id}`);
+      navigate(`/courseList/${matched.mnt_id}`);
     } else {
       setIsModalOpen(true);
       setSearchInput("");
