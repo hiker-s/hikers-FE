@@ -10,7 +10,7 @@ import DetailCourseList from "../../components/course/courseInfo/DetailCourseLis
 
 const CourseInfo = () => {
   const navigate = useNavigate();
-  const handleBackBtn = () => navigate("/courseList");
+  const handleBackBtn = () => navigate(-1);
   const [activeCategory, setActiveCategory] = useState("약도");
 
   const sections = [
