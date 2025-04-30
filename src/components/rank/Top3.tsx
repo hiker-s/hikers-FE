@@ -4,8 +4,6 @@ import top3Default from "../../assets/images/top3Default.svg";
 import crown from "../../assets/images/crown.svg";
 import { rankApi, Rankers } from "../../apis/rank/RankApi";
 import { useState, useEffect } from "react";
-import Skeleton from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
 
 const Top3 = () => {
   const [rankers, setRankers] = useState<Rankers["result"] | null>(null);
@@ -20,7 +18,7 @@ const Top3 = () => {
 
         console.log(data);
       } catch (error) {
-        console.error("산 리뷰 가져오기 실패:", error);
+        console.error("랭킹 가져오기 실패:", error);
       } finally {
         setIsLoading(false);
       }
@@ -47,9 +45,7 @@ const Top3 = () => {
     <>
       {isLoading ? (
         <>
-          <Styled.Wrapper $backgroundImage={top3Background}>
-            <Skeleton width={"100%"} height={"100%"} />
-          </Styled.Wrapper>
+          <Styled.Wrapper $backgroundImage={top3Background}></Styled.Wrapper>
         </>
       ) : (
         <Styled.Wrapper $backgroundImage={top3Background}>
