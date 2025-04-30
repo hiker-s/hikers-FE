@@ -5,19 +5,19 @@ import { GreenBtn } from "../../common/button/GreenBtn";
 import { LevelComp } from "../../common/item/Level";
 import * as Styled from "./CourseData.styled";
 import useKakaoShare from "../../../hooks/useKakaoShare";
-import course_ids from "../../../data/course_ids.json";
+import course_ids from "../../../data/course_ids.json"; // 1. course_ids, MountainData import 해주기
 import { MountainData } from "../../../types/mountainData";
 import Skeleton from "react-loading-skeleton";
 
 const CourseData = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [courseData, setCourseData] = useState<MountainData | null>(null);
+  const [courseData, setCourseData] = useState<MountainData | null>(null); // 2. 여기에도 MountainData useState로 설정해줘야 돼요
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const { shareCourse } = useKakaoShare();
 
-  // 여기서부터 course_id로 course_ids.json에서 코스 데이터 경로 가져오기 시작
+  // 3. 여기서부터 course_id로 course_ids.json에서 코스 데이터 경로 가져오기 시작
   const { course_id } = useParams();
   const id = parseInt(course_id ?? "", 10);
 
@@ -26,7 +26,7 @@ const CourseData = () => {
       try {
         setLoading(true);
 
-        // course_ids에서 코스 데이터 경로 찾기
+        // 3-1) course_ids에서 코스 데이터 경로 찾기
         const mnt_course = course_ids.find((item) => Number(item.course_id) === id);
 
         // 유효한 코스를 찾았는지 확인
@@ -38,7 +38,7 @@ const CourseData = () => {
 
         // console.log("Found course path:", mnt_course.courseFilePath);
 
-        // 직접적인 동적 import 방식
+        // 3-2-1) 직접적인 동적 import 방식
         try {
           const dataModule = await import(`../../../data/mnt/${mnt_course.courseFilePath}`);
           setCourseData(dataModule.default);
@@ -46,12 +46,13 @@ const CourseData = () => {
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
 
-          // 대체 방법: glob 방식 사용
+          // 3-2-1) 대체 방법: glob 방식 사용
           const modules: Record<string, { default: MountainData }> = import.meta.glob("../../../data/mnt/**/*.json", {
             eager: true,
           });
           // console.log("Available modules:", Object.keys(modules));
 
+          // 3-3) 코스.json 경로지정해서 불러오기
           const targetPath = `../../../data/mnt/${mnt_course.courseFilePath}`;
           const data = modules[targetPath];
 
@@ -73,8 +74,8 @@ const CourseData = () => {
     loadMountainData();
   }, [id]);
 
+  // 4. courseData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
   if (error || !courseData) {
-    // courseData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
     return (
       <Styled.Wrapper>
         <Styled.CourseTitleWrapper>
@@ -102,7 +103,7 @@ const CourseData = () => {
       </Styled.Wrapper>
     );
   }
-  // 여기까지 .. if (!courseData) {} 확인한 후에 courseData 확인하기
+  // 여기까지 .. if (!courseData) {} 확인한 후에 courseData 확인하기 ⬇️ 아래가 5. courseData 객체 사용하기
 
   const totalDistance = courseData.total_length_km;
   const totalElevation = `${courseData.max_ele}m`;
