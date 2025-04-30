@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
 
 type CourseItemDataProps = {
-  scrap_id: number;
+  scrap_id?: number;
   is_scrapped: boolean;
   course: {
     id: number;
