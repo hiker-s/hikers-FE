@@ -24,8 +24,8 @@ function App() {
     script.async = true;
 
     script.onload = () => {
-      console.log("네이버 지도 API 로드 완료");
-      console.log("불러온 네이버 API 키:", import.meta.env.VITE_APP_NAVER_MAP_API_KEY);
+      // console.log("네이버 지도 API 로드 완료");
+      // console.log("불러온 네이버 API 키:", import.meta.env.VITE_APP_NAVER_MAP_API_KEY);
       setMapReady(true);
     };
 
