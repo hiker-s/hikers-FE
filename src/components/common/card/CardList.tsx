@@ -49,7 +49,7 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
           filter={type}
           isReview={true}
           onTypeChange={(newType) => {
-            console.log("Selected Type:", newType);
+            // console.log("Selected Type:", newType);
             onTypeChange?.(newType); // 상위로 전달
           }}
         />
