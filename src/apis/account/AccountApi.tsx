@@ -44,10 +44,12 @@ export const accountApi = {
   postLogout: async () => {
     const response = await axios.post(`${baseURL}/api/logout`);
     console.log(response);
+    localStorage.clear();
   },
   postDeleteUser: async () => {
     const headers = getAuthHeader();
     const response = await axios.delete(`${baseURL}/api/user`, { headers });
     console.log(response);
+    localStorage.clear();
   },
 };

@@ -44,7 +44,7 @@ export default function ScrapedList() {
         course_data={courseData}
         onScrapToggle={handleScrapToggle}
         filter={filter}
-        onFilterChange={setFilter}
+        onTypeChange={setFilter}
       />
     </Wrapper>
   );

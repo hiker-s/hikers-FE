@@ -48,7 +48,7 @@ export default function MyReviewList() {
         review_data={reviewData}
         onLikeToggle={handleLikeToggle}
         filter={filter}
-        onFilterChange={setFilter}
+        onTypeChange={setFilter}
       />
     </Wrapper>
   );

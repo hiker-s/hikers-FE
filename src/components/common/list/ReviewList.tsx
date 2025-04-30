@@ -23,10 +23,10 @@ type ReviewListProps = {
   review_data: ReviewItemDataProps[];
   onLikeToggle: (itemId: number) => void;
   filter: string;
-  onFilterChange: (newFilter: string) => void;
+  onTypeChange: (newFilter: string) => void;
 };
 
-export default function ReviewList({ title, review_data, onLikeToggle, filter, onFilterChange }: ReviewListProps) {
+export default function ReviewList({ title, review_data, onLikeToggle, filter, onTypeChange }: ReviewListProps) {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -50,7 +50,7 @@ export default function ReviewList({ title, review_data, onLikeToggle, filter, o
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <Filter isReview={true} filter={filter} onFilterChange={onFilterChange} />
+        <Filter isReview={true} filter={filter} onTypeChange={onTypeChange} />
       </Styled.TitleWrapper>
       {currentItems.length > 0 ? (
         <div>

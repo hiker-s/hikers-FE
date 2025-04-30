@@ -49,7 +49,7 @@ export default function CommunityReview() {
         review_data={reviewData}
         onLikeToggle={handleLikeToggle}
         filter={filter}
-        onFilterChange={setFilter}
+        onTypeChange={setFilter}
       />
       <Styled.ButtonWrapper>
         <GreenBtn onClick={() => console.log("리뷰 작성 버튼 클릭")}>리뷰 작성하기</GreenBtn>
