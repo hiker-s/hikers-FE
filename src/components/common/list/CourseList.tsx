@@ -4,9 +4,10 @@ import CourseItem from "../item/CourseItem";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
+import { useNavigate } from "react-router-dom";
 
 type CourseItemDataProps = {
-  scrap_id: number;
+  scrap_id?: number;
   is_scrapped: boolean;
   course: {
     id: number;
@@ -24,13 +25,15 @@ type CourseListProps = {
   title: string;
   course_data: CourseItemDataProps[];
   filter: string;
-  onFilterChange: (newFilter: string) => void;
+  onTypeChange: (newFilter: string) => void;
   onScrapToggle: (itemId: number) => void;
 };
 
-export default function CourseList({ title, course_data, onScrapToggle, filter, onFilterChange }: CourseListProps) {
+export default function CourseList({ title, course_data, onScrapToggle, filter, onTypeChange }: CourseListProps) {
+  const navigate = useNavigate();
   const onCourseItemClock = (itemId: number) => {
-    console.log(`${itemId} 아이템 조회로 이동`);
+    // console.log(`${itemId} 아이템 조회로 이동`);
+    navigate(`/courseInfo/${itemId}`);
   };
 
   const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
@@ -50,7 +53,7 @@ export default function CourseList({ title, course_data, onScrapToggle, filter, 
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <Filter isReview={false} filter={filter} onFilterChange={onFilterChange} />
+        <Filter isReview={false} filter={filter} onTypeChange={onTypeChange} />
       </Styled.TitleWrapper>
       {currentItems.length > 0 ? (
         <div>

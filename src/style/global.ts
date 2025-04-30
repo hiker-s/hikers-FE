@@ -44,8 +44,10 @@ html {
 	align-items: center;
 	-webkit-touch-callout: none;
     -webkit-tap-highlight-color:rgb(0 0 0 / 0%);
-    scroll-behavior: smooth; 
-
+    scroll-behavior: smooth;
+	&::-webkit-scrollbar {
+    display: none;
+  } 
 }
 
 body {
