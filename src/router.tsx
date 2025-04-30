@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       { path: "signup", element: <SignUp /> },
       { path: "signup/success", element: <Success /> },
       { path: "/courseList/:mnt_id", element: <CourseList /> },
-      { path: "/courseInfo", element: <CourseInfo /> },
+      { path: "/courseInfo/:course_id", element: <CourseInfo /> },
       { path: "community", element: <Community /> },
       { path: "community/program/:programId", element: <Program /> },
       { path: "community/crew/write", element: <CrewWrite /> },
