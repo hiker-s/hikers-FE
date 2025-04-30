@@ -41,18 +41,13 @@ function App() {
     loadNaverMapScript();
   }, []);
 
+  if (loadError) return null;
+  if (!mapReady) return null;
+
   return (
     <>
       <GlobalStyle />
-      {loadError ? (
-        <p style={{ textAlign: "center", marginTop: "50px", color: "red" }}>
-          지도를 불러오지 못했습니다. 새로고침 해주세요.
-        </p>
-      ) : mapReady ? (
-        <Outlet />
-      ) : (
-        <p style={{ textAlign: "center", marginTop: "50px" }}>지도를 불러오는 중입니다...</p>
-      )}
+      <Outlet />
     </>
   );
 }
