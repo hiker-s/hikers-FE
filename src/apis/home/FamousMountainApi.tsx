@@ -2,11 +2,11 @@ import axios from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
-type MountainRankItem = {
+export type MountainRankItem = {
   id: number;
-  mnt_name: string;
-  // mnt_rank: number;
-  // mnt_status: string;
+  rank: number;
+  mountain_name: string;
+  // mnt_status: string; // 백엔드 기능 구현 X
   view_count: number;
 };
 
