@@ -1,0 +1,1312 @@
+[
+    {
+        "course_id": "1",
+        "mnt_id": "1",
+        "mnt_name": "가리산"
+    },
+    {
+        "course_id": "2",
+        "mnt_id": "2",
+        "mnt_name": "가리왕산"
+    },
+    {
+        "course_id": "3",
+        "mnt_id": "2",
+        "mnt_name": "가리왕산"
+    },
+    {
+        "course_id": "4",
+        "mnt_id": "3",
+        "mnt_name": "가야산"
+    },
+    {
+        "course_id": "5",
+        "mnt_id": "3",
+        "mnt_name": "가야산"
+    },
+    {
+        "course_id": "6",
+        "mnt_id": "3",
+        "mnt_name": "가야산"
+    },
+    {
+        "course_id": "7",
+        "mnt_id": "3",
+        "mnt_name": "가야산"
+    },
+    {
+        "course_id": "8",
+        "mnt_id": "3",
+        "mnt_name": "가야산"
+    },
+    {
+        "course_id": "9",
+        "mnt_id": "4",
+        "mnt_name": "가지산"
+    },
+    {
+        "course_id": "10",
+        "mnt_id": "4",
+        "mnt_name": "가지산"
+    },
+    {
+        "course_id": "11",
+        "mnt_id": "4",
+        "mnt_name": "가지산"
+    },
+    {
+        "course_id": "12",
+        "mnt_id": "4",
+        "mnt_name": "가지산"
+    },
+    {
+        "course_id": "13",
+        "mnt_id": "5",
+        "mnt_name": "감악산"
+    },
+    {
+        "course_id": "14",
+        "mnt_id": "5",
+        "mnt_name": "감악산"
+    },
+    {
+        "course_id": "15",
+        "mnt_id": "5",
+        "mnt_name": "감악산"
+    },
+    {
+        "course_id": "16",
+        "mnt_id": "6",
+        "mnt_name": "강천산"
+    },
+    {
+        "course_id": "17",
+        "mnt_id": "6",
+        "mnt_name": "강천산"
+    },
+    {
+        "course_id": "18",
+        "mnt_id": "7",
+        "mnt_name": "계룡산"
+    },
+    {
+        "course_id": "19",
+        "mnt_id": "7",
+        "mnt_name": "계룡산"
+    },
+    {
+        "course_id": "20",
+        "mnt_id": "7",
+        "mnt_name": "계룡산"
+    },
+    {
+        "course_id": "21",
+        "mnt_id": "7",
+        "mnt_name": "계룡산"
+    },
+    {
+        "course_id": "22",
+        "mnt_id": "8",
+        "mnt_name": "계방산"
+    },
+    {
+        "course_id": "23",
+        "mnt_id": "9",
+        "mnt_name": "공작산"
+    },
+    {
+        "course_id": "24",
+        "mnt_id": "9",
+        "mnt_name": "공작산"
+    },
+    {
+        "course_id": "25",
+        "mnt_id": "9",
+        "mnt_name": "공작산"
+    },
+    {
+        "course_id": "26",
+        "mnt_id": "10",
+        "mnt_name": "관악산"
+    },
+    {
+        "course_id": "27",
+        "mnt_id": "10",
+        "mnt_name": "관악산"
+    },
+    {
+        "course_id": "28",
+        "mnt_id": "11",
+        "mnt_name": "구병산"
+    },
+    {
+        "course_id": "29",
+        "mnt_id": "12",
+        "mnt_name": "금산"
+    },
+    {
+        "course_id": "30",
+        "mnt_id": "13",
+        "mnt_name": "금수산"
+    },
+    {
+        "course_id": "31",
+        "mnt_id": "13",
+        "mnt_name": "금수산"
+    },
+    {
+        "course_id": "32",
+        "mnt_id": "13",
+        "mnt_name": "금수산"
+    },
+    {
+        "course_id": "33",
+        "mnt_id": "13",
+        "mnt_name": "금수산"
+    },
+    {
+        "course_id": "34",
+        "mnt_id": "14",
+        "mnt_name": "금오산"
+    },
+    {
+        "course_id": "35",
+        "mnt_id": "14",
+        "mnt_name": "금오산"
+    },
+    {
+        "course_id": "36",
+        "mnt_id": "15",
+        "mnt_name": "금정산"
+    },
+    {
+        "course_id": "37",
+        "mnt_id": "15",
+        "mnt_name": "금정산"
+    },
+    {
+        "course_id": "38",
+        "mnt_id": "15",
+        "mnt_name": "금정산"
+    },
+    {
+        "course_id": "39",
+        "mnt_id": "16",
+        "mnt_name": "깃대봉"
+    },
+    {
+        "course_id": "40",
+        "mnt_id": "17",
+        "mnt_name": "남산"
+    },
+    {
+        "course_id": "41",
+        "mnt_id": "17",
+        "mnt_name": "남산"
+    },
+    {
+        "course_id": "42",
+        "mnt_id": "17",
+        "mnt_name": "남산"
+    },
+    {
+        "course_id": "43",
+        "mnt_id": "17",
+        "mnt_name": "남산"
+    },
+    {
+        "course_id": "44",
+        "mnt_id": "18",
+        "mnt_name": "내연산"
+    },
+    {
+        "course_id": "45",
+        "mnt_id": "18",
+        "mnt_name": "내연산"
+    },
+    {
+        "course_id": "46",
+        "mnt_id": "18",
+        "mnt_name": "내연산"
+    },
+    {
+        "course_id": "47",
+        "mnt_id": "18",
+        "mnt_name": "내연산"
+    },
+    {
+        "course_id": "48",
+        "mnt_id": "18",
+        "mnt_name": "내연산"
+    },
+    {
+        "course_id": "49",
+        "mnt_id": "19",
+        "mnt_name": "내장산"
+    },
+    {
+        "course_id": "50",
+        "mnt_id": "19",
+        "mnt_name": "내장산"
+    },
+    {
+        "course_id": "51",
+        "mnt_id": "19",
+        "mnt_name": "내장산"
+    },
+    {
+        "course_id": "52",
+        "mnt_id": "19",
+        "mnt_name": "내장산"
+    },
+    {
+        "course_id": "53",
+        "mnt_id": "20",
+        "mnt_name": "대둔산"
+    },
+    {
+        "course_id": "54",
+        "mnt_id": "21",
+        "mnt_name": "대야산"
+    },
+    {
+        "course_id": "55",
+        "mnt_id": "21",
+        "mnt_name": "대야산"
+    },
+    {
+        "course_id": "56",
+        "mnt_id": "21",
+        "mnt_name": "대야산"
+    },
+    {
+        "course_id": "57",
+        "mnt_id": "22",
+        "mnt_name": "덕숭산"
+    },
+    {
+        "course_id": "58",
+        "mnt_id": "23",
+        "mnt_name": "덕유산"
+    },
+    {
+        "course_id": "59",
+        "mnt_id": "23",
+        "mnt_name": "덕유산"
+    },
+    {
+        "course_id": "60",
+        "mnt_id": "23",
+        "mnt_name": "덕유산"
+    },
+    {
+        "course_id": "61",
+        "mnt_id": "24",
+        "mnt_name": "덕항산"
+    },
+    {
+        "course_id": "62",
+        "mnt_id": "24",
+        "mnt_name": "덕항산"
+    },
+    {
+        "course_id": "63",
+        "mnt_id": "25",
+        "mnt_name": "도락산"
+    },
+    {
+        "course_id": "64",
+        "mnt_id": "26",
+        "mnt_name": "도봉산"
+    },
+    {
+        "course_id": "65",
+        "mnt_id": "26",
+        "mnt_name": "도봉산"
+    },
+    {
+        "course_id": "66",
+        "mnt_id": "27",
+        "mnt_name": "두륜산"
+    },
+    {
+        "course_id": "67",
+        "mnt_id": "27",
+        "mnt_name": "두륜산"
+    },
+    {
+        "course_id": "68",
+        "mnt_id": "27",
+        "mnt_name": "두륜산"
+    },
+    {
+        "course_id": "69",
+        "mnt_id": "27",
+        "mnt_name": "두륜산"
+    },
+    {
+        "course_id": "70",
+        "mnt_id": "28",
+        "mnt_name": "두타산"
+    },
+    {
+        "course_id": "71",
+        "mnt_id": "28",
+        "mnt_name": "두타산"
+    },
+    {
+        "course_id": "72",
+        "mnt_id": "28",
+        "mnt_name": "두타산"
+    },
+    {
+        "course_id": "73",
+        "mnt_id": "29",
+        "mnt_name": "마니산"
+    },
+    {
+        "course_id": "74",
+        "mnt_id": "29",
+        "mnt_name": "마니산"
+    },
+    {
+        "course_id": "75",
+        "mnt_id": "29",
+        "mnt_name": "마니산"
+    },
+    {
+        "course_id": "76",
+        "mnt_id": "30",
+        "mnt_name": "마이산"
+    },
+    {
+        "course_id": "77",
+        "mnt_id": "30",
+        "mnt_name": "마이산"
+    },
+    {
+        "course_id": "78",
+        "mnt_id": "30",
+        "mnt_name": "마이산"
+    },
+    {
+        "course_id": "79",
+        "mnt_id": "31",
+        "mnt_name": "명성산"
+    },
+    {
+        "course_id": "80",
+        "mnt_id": "32",
+        "mnt_name": "명지산"
+    },
+    {
+        "course_id": "81",
+        "mnt_id": "32",
+        "mnt_name": "명지산"
+    },
+    {
+        "course_id": "82",
+        "mnt_id": "32",
+        "mnt_name": "명지산"
+    },
+    {
+        "course_id": "83",
+        "mnt_id": "32",
+        "mnt_name": "명지산"
+    },
+    {
+        "course_id": "84",
+        "mnt_id": "33",
+        "mnt_name": "모악산"
+    },
+    {
+        "course_id": "85",
+        "mnt_id": "33",
+        "mnt_name": "모악산"
+    },
+    {
+        "course_id": "86",
+        "mnt_id": "33",
+        "mnt_name": "모악산"
+    },
+    {
+        "course_id": "87",
+        "mnt_id": "34",
+        "mnt_name": "무등산"
+    },
+    {
+        "course_id": "88",
+        "mnt_id": "34",
+        "mnt_name": "무등산"
+    },
+    {
+        "course_id": "89",
+        "mnt_id": "34",
+        "mnt_name": "무등산"
+    },
+    {
+        "course_id": "90",
+        "mnt_id": "35",
+        "mnt_name": "무학산"
+    },
+    {
+        "course_id": "91",
+        "mnt_id": "35",
+        "mnt_name": "무학산"
+    },
+    {
+        "course_id": "92",
+        "mnt_id": "35",
+        "mnt_name": "무학산"
+    },
+    {
+        "course_id": "93",
+        "mnt_id": "36",
+        "mnt_name": "미륵산"
+    },
+    {
+        "course_id": "94",
+        "mnt_id": "36",
+        "mnt_name": "미륵산"
+    },
+    {
+        "course_id": "95",
+        "mnt_id": "36",
+        "mnt_name": "미륵산"
+    },
+    {
+        "course_id": "96",
+        "mnt_id": "37",
+        "mnt_name": "민주지산"
+    },
+    {
+        "course_id": "97",
+        "mnt_id": "38",
+        "mnt_name": "방장산"
+    },
+    {
+        "course_id": "98",
+        "mnt_id": "38",
+        "mnt_name": "방장산"
+    },
+    {
+        "course_id": "99",
+        "mnt_id": "39",
+        "mnt_name": "방태산"
+    },
+    {
+        "course_id": "100",
+        "mnt_id": "40",
+        "mnt_name": "백덕산"
+    },
+    {
+        "course_id": "101",
+        "mnt_id": "40",
+        "mnt_name": "백덕산"
+    },
+    {
+        "course_id": "102",
+        "mnt_id": "40",
+        "mnt_name": "백덕산"
+    },
+    {
+        "course_id": "103",
+        "mnt_id": "41",
+        "mnt_name": "백암산"
+    },
+    {
+        "course_id": "104",
+        "mnt_id": "41",
+        "mnt_name": "백암산"
+    },
+    {
+        "course_id": "105",
+        "mnt_id": "41",
+        "mnt_name": "백암산"
+    },
+    {
+        "course_id": "106",
+        "mnt_id": "41",
+        "mnt_name": "백암산"
+    },
+    {
+        "course_id": "107",
+        "mnt_id": "42",
+        "mnt_name": "백운산(광양)"
+    },
+    {
+        "course_id": "108",
+        "mnt_id": "42",
+        "mnt_name": "백운산(광양)"
+    },
+    {
+        "course_id": "109",
+        "mnt_id": "43",
+        "mnt_name": "백운산(정선)"
+    },
+    {
+        "course_id": "110",
+        "mnt_id": "43",
+        "mnt_name": "백운산(정선)"
+    },
+    {
+        "course_id": "111",
+        "mnt_id": "44",
+        "mnt_name": "백운산(포천)"
+    },
+    {
+        "course_id": "112",
+        "mnt_id": "44",
+        "mnt_name": "백운산(포천)"
+    },
+    {
+        "course_id": "113",
+        "mnt_id": "44",
+        "mnt_name": "백운산(포천)"
+    },
+    {
+        "course_id": "114",
+        "mnt_id": "45",
+        "mnt_name": "변산"
+    },
+    {
+        "course_id": "115",
+        "mnt_id": "45",
+        "mnt_name": "변산"
+    },
+    {
+        "course_id": "116",
+        "mnt_id": "45",
+        "mnt_name": "변산"
+    },
+    {
+        "course_id": "117",
+        "mnt_id": "45",
+        "mnt_name": "변산"
+    },
+    {
+        "course_id": "118",
+        "mnt_id": "45",
+        "mnt_name": "변산"
+    },
+    {
+        "course_id": "119",
+        "mnt_id": "46",
+        "mnt_name": "북한산"
+    },
+    {
+        "course_id": "120",
+        "mnt_id": "46",
+        "mnt_name": "북한산"
+    },
+    {
+        "course_id": "121",
+        "mnt_id": "46",
+        "mnt_name": "북한산"
+    },
+    {
+        "course_id": "122",
+        "mnt_id": "47",
+        "mnt_name": "비슬산"
+    },
+    {
+        "course_id": "123",
+        "mnt_id": "47",
+        "mnt_name": "비슬산"
+    },
+    {
+        "course_id": "124",
+        "mnt_id": "47",
+        "mnt_name": "비슬산"
+    },
+    {
+        "course_id": "125",
+        "mnt_id": "47",
+        "mnt_name": "비슬산"
+    },
+    {
+        "course_id": "126",
+        "mnt_id": "48",
+        "mnt_name": "삼악산"
+    },
+    {
+        "course_id": "127",
+        "mnt_id": "48",
+        "mnt_name": "삼악산"
+    },
+    {
+        "course_id": "128",
+        "mnt_id": "48",
+        "mnt_name": "삼악산"
+    },
+    {
+        "course_id": "129",
+        "mnt_id": "48",
+        "mnt_name": "삼악산"
+    },
+    {
+        "course_id": "130",
+        "mnt_id": "49",
+        "mnt_name": "서대산"
+    },
+    {
+        "course_id": "131",
+        "mnt_id": "49",
+        "mnt_name": "서대산"
+    },
+    {
+        "course_id": "132",
+        "mnt_id": "49",
+        "mnt_name": "서대산"
+    },
+    {
+        "course_id": "133",
+        "mnt_id": "49",
+        "mnt_name": "서대산"
+    },
+    {
+        "course_id": "134",
+        "mnt_id": "50",
+        "mnt_name": "선운산"
+    },
+    {
+        "course_id": "135",
+        "mnt_id": "50",
+        "mnt_name": "선운산"
+    },
+    {
+        "course_id": "136",
+        "mnt_id": "50",
+        "mnt_name": "선운산"
+    },
+    {
+        "course_id": "137",
+        "mnt_id": "50",
+        "mnt_name": "선운산"
+    },
+    {
+        "course_id": "138",
+        "mnt_id": "51",
+        "mnt_name": "설악산"
+    },
+    {
+        "course_id": "139",
+        "mnt_id": "51",
+        "mnt_name": "설악산"
+    },
+    {
+        "course_id": "140",
+        "mnt_id": "51",
+        "mnt_name": "설악산"
+    },
+    {
+        "course_id": "141",
+        "mnt_id": "51",
+        "mnt_name": "설악산"
+    },
+    {
+        "course_id": "142",
+        "mnt_id": "52",
+        "mnt_name": "성인봉"
+    },
+    {
+        "course_id": "143",
+        "mnt_id": "52",
+        "mnt_name": "성인봉"
+    },
+    {
+        "course_id": "144",
+        "mnt_id": "52",
+        "mnt_name": "성인봉"
+    },
+    {
+        "course_id": "145",
+        "mnt_id": "53",
+        "mnt_name": "소백산"
+    },
+    {
+        "course_id": "146",
+        "mnt_id": "53",
+        "mnt_name": "소백산"
+    },
+    {
+        "course_id": "147",
+        "mnt_id": "53",
+        "mnt_name": "소백산"
+    },
+    {
+        "course_id": "148",
+        "mnt_id": "54",
+        "mnt_name": "소요산"
+    },
+    {
+        "course_id": "149",
+        "mnt_id": "54",
+        "mnt_name": "소요산"
+    },
+    {
+        "course_id": "150",
+        "mnt_id": "54",
+        "mnt_name": "소요산"
+    },
+    {
+        "course_id": "151",
+        "mnt_id": "55",
+        "mnt_name": "속리산"
+    },
+    {
+        "course_id": "152",
+        "mnt_id": "55",
+        "mnt_name": "속리산"
+    },
+    {
+        "course_id": "153",
+        "mnt_id": "56",
+        "mnt_name": "신불산"
+    },
+    {
+        "course_id": "154",
+        "mnt_id": "56",
+        "mnt_name": "신불산"
+    },
+    {
+        "course_id": "155",
+        "mnt_id": "56",
+        "mnt_name": "신불산"
+    },
+    {
+        "course_id": "156",
+        "mnt_id": "56",
+        "mnt_name": "신불산"
+    },
+    {
+        "course_id": "157",
+        "mnt_id": "57",
+        "mnt_name": "연화산"
+    },
+    {
+        "course_id": "158",
+        "mnt_id": "57",
+        "mnt_name": "연화산"
+    },
+    {
+        "course_id": "159",
+        "mnt_id": "58",
+        "mnt_name": "오대산"
+    },
+    {
+        "course_id": "160",
+        "mnt_id": "58",
+        "mnt_name": "오대산"
+    },
+    {
+        "course_id": "161",
+        "mnt_id": "58",
+        "mnt_name": "오대산"
+    },
+    {
+        "course_id": "162",
+        "mnt_id": "58",
+        "mnt_name": "오대산"
+    },
+    {
+        "course_id": "163",
+        "mnt_id": "59",
+        "mnt_name": "오봉산"
+    },
+    {
+        "course_id": "164",
+        "mnt_id": "59",
+        "mnt_name": "오봉산"
+    },
+    {
+        "course_id": "165",
+        "mnt_id": "60",
+        "mnt_name": "용문산"
+    },
+    {
+        "course_id": "166",
+        "mnt_id": "60",
+        "mnt_name": "용문산"
+    },
+    {
+        "course_id": "167",
+        "mnt_id": "60",
+        "mnt_name": "용문산"
+    },
+    {
+        "course_id": "168",
+        "mnt_id": "60",
+        "mnt_name": "용문산"
+    },
+    {
+        "course_id": "169",
+        "mnt_id": "61",
+        "mnt_name": "용화산"
+    },
+    {
+        "course_id": "170",
+        "mnt_id": "61",
+        "mnt_name": "용화산"
+    },
+    {
+        "course_id": "171",
+        "mnt_id": "61",
+        "mnt_name": "용화산"
+    },
+    {
+        "course_id": "172",
+        "mnt_id": "62",
+        "mnt_name": "운문산"
+    },
+    {
+        "course_id": "173",
+        "mnt_id": "62",
+        "mnt_name": "운문산"
+    },
+    {
+        "course_id": "174",
+        "mnt_id": "63",
+        "mnt_name": "운악산"
+    },
+    {
+        "course_id": "175",
+        "mnt_id": "63",
+        "mnt_name": "운악산"
+    },
+    {
+        "course_id": "176",
+        "mnt_id": "63",
+        "mnt_name": "운악산"
+    },
+    {
+        "course_id": "177",
+        "mnt_id": "64",
+        "mnt_name": "운장산"
+    },
+    {
+        "course_id": "178",
+        "mnt_id": "65",
+        "mnt_name": "월악산"
+    },
+    {
+        "course_id": "179",
+        "mnt_id": "65",
+        "mnt_name": "월악산"
+    },
+    {
+        "course_id": "180",
+        "mnt_id": "65",
+        "mnt_name": "월악산"
+    },
+    {
+        "course_id": "181",
+        "mnt_id": "66",
+        "mnt_name": "월출산"
+    },
+    {
+        "course_id": "182",
+        "mnt_id": "66",
+        "mnt_name": "월출산"
+    },
+    {
+        "course_id": "183",
+        "mnt_id": "66",
+        "mnt_name": "월출산"
+    },
+    {
+        "course_id": "184",
+        "mnt_id": "66",
+        "mnt_name": "월출산"
+    },
+    {
+        "course_id": "185",
+        "mnt_id": "66",
+        "mnt_name": "월출산"
+    },
+    {
+        "course_id": "186",
+        "mnt_id": "67",
+        "mnt_name": "유명산"
+    },
+    {
+        "course_id": "187",
+        "mnt_id": "67",
+        "mnt_name": "유명산"
+    },
+    {
+        "course_id": "188",
+        "mnt_id": "67",
+        "mnt_name": "유명산"
+    },
+    {
+        "course_id": "189",
+        "mnt_id": "68",
+        "mnt_name": "응봉산"
+    },
+    {
+        "course_id": "190",
+        "mnt_id": "69",
+        "mnt_name": "장안산"
+    },
+    {
+        "course_id": "191",
+        "mnt_id": "70",
+        "mnt_name": "재약산"
+    },
+    {
+        "course_id": "192",
+        "mnt_id": "71",
+        "mnt_name": "적상산"
+    },
+    {
+        "course_id": "193",
+        "mnt_id": "72",
+        "mnt_name": "점봉산"
+    },
+    {
+        "course_id": "194",
+        "mnt_id": "73",
+        "mnt_name": "조계산"
+    },
+    {
+        "course_id": "195",
+        "mnt_id": "73",
+        "mnt_name": "조계산"
+    },
+    {
+        "course_id": "196",
+        "mnt_id": "74",
+        "mnt_name": "주왕산"
+    },
+    {
+        "course_id": "197",
+        "mnt_id": "75",
+        "mnt_name": "주흘산"
+    },
+    {
+        "course_id": "198",
+        "mnt_id": "76",
+        "mnt_name": "지리산(천왕봉)"
+    },
+    {
+        "course_id": "199",
+        "mnt_id": "76",
+        "mnt_name": "지리산(천왕봉)"
+    },
+    {
+        "course_id": "200",
+        "mnt_id": "76",
+        "mnt_name": "지리산(천왕봉)"
+    },
+    {
+        "course_id": "201",
+        "mnt_id": "77",
+        "mnt_name": "지리산(통영)"
+    },
+    {
+        "course_id": "202",
+        "mnt_id": "78",
+        "mnt_name": "천관산"
+    },
+    {
+        "course_id": "203",
+        "mnt_id": "78",
+        "mnt_name": "천관산"
+    },
+    {
+        "course_id": "204",
+        "mnt_id": "78",
+        "mnt_name": "천관산"
+    },
+    {
+        "course_id": "205",
+        "mnt_id": "79",
+        "mnt_name": "천마산"
+    },
+    {
+        "course_id": "206",
+        "mnt_id": "79",
+        "mnt_name": "천마산"
+    },
+    {
+        "course_id": "207",
+        "mnt_id": "80",
+        "mnt_name": "천성산"
+    },
+    {
+        "course_id": "208",
+        "mnt_id": "81",
+        "mnt_name": "천태산"
+    },
+    {
+        "course_id": "209",
+        "mnt_id": "81",
+        "mnt_name": "천태산"
+    },
+    {
+        "course_id": "210",
+        "mnt_id": "82",
+        "mnt_name": "청량산"
+    },
+    {
+        "course_id": "211",
+        "mnt_id": "82",
+        "mnt_name": "청량산"
+    },
+    {
+        "course_id": "212",
+        "mnt_id": "82",
+        "mnt_name": "청량산"
+    },
+    {
+        "course_id": "213",
+        "mnt_id": "83",
+        "mnt_name": "추월산"
+    },
+    {
+        "course_id": "214",
+        "mnt_id": "83",
+        "mnt_name": "추월산"
+    },
+    {
+        "course_id": "215",
+        "mnt_id": "84",
+        "mnt_name": "축령산"
+    },
+    {
+        "course_id": "216",
+        "mnt_id": "84",
+        "mnt_name": "축령산"
+    },
+    {
+        "course_id": "217",
+        "mnt_id": "84",
+        "mnt_name": "축령산"
+    },
+    {
+        "course_id": "218",
+        "mnt_id": "85",
+        "mnt_name": "치악산"
+    },
+    {
+        "course_id": "219",
+        "mnt_id": "85",
+        "mnt_name": "치악산"
+    },
+    {
+        "course_id": "220",
+        "mnt_id": "85",
+        "mnt_name": "치악산"
+    },
+    {
+        "course_id": "221",
+        "mnt_id": "86",
+        "mnt_name": "칠갑산"
+    },
+    {
+        "course_id": "222",
+        "mnt_id": "86",
+        "mnt_name": "칠갑산"
+    },
+    {
+        "course_id": "223",
+        "mnt_id": "86",
+        "mnt_name": "칠갑산"
+    },
+    {
+        "course_id": "224",
+        "mnt_id": "86",
+        "mnt_name": "칠갑산"
+    },
+    {
+        "course_id": "225",
+        "mnt_id": "87",
+        "mnt_name": "태백산"
+    },
+    {
+        "course_id": "226",
+        "mnt_id": "87",
+        "mnt_name": "태백산"
+    },
+    {
+        "course_id": "227",
+        "mnt_id": "87",
+        "mnt_name": "태백산"
+    },
+    {
+        "course_id": "228",
+        "mnt_id": "87",
+        "mnt_name": "태백산"
+    },
+    {
+        "course_id": "229",
+        "mnt_id": "88",
+        "mnt_name": "태화산"
+    },
+    {
+        "course_id": "230",
+        "mnt_id": "88",
+        "mnt_name": "태화산"
+    },
+    {
+        "course_id": "231",
+        "mnt_id": "89",
+        "mnt_name": "팔공산"
+    },
+    {
+        "course_id": "232",
+        "mnt_id": "89",
+        "mnt_name": "팔공산"
+    },
+    {
+        "course_id": "233",
+        "mnt_id": "90",
+        "mnt_name": "팔봉산"
+    },
+    {
+        "course_id": "234",
+        "mnt_id": "91",
+        "mnt_name": "팔영산"
+    },
+    {
+        "course_id": "235",
+        "mnt_id": "91",
+        "mnt_name": "팔영산"
+    },
+    {
+        "course_id": "236",
+        "mnt_id": "92",
+        "mnt_name": "한라산"
+    },
+    {
+        "course_id": "237",
+        "mnt_id": "92",
+        "mnt_name": "한라산"
+    },
+    {
+        "course_id": "238",
+        "mnt_id": "92",
+        "mnt_name": "한라산"
+    },
+    {
+        "course_id": "239",
+        "mnt_id": "92",
+        "mnt_name": "한라산"
+    },
+    {
+        "course_id": "240",
+        "mnt_id": "92",
+        "mnt_name": "한라산"
+    },
+    {
+        "course_id": "241",
+        "mnt_id": "93",
+        "mnt_name": "화악산"
+    },
+    {
+        "course_id": "242",
+        "mnt_id": "93",
+        "mnt_name": "화악산"
+    },
+    {
+        "course_id": "243",
+        "mnt_id": "93",
+        "mnt_name": "화악산"
+    },
+    {
+        "course_id": "244",
+        "mnt_id": "93",
+        "mnt_name": "화악산"
+    },
+    {
+        "course_id": "245",
+        "mnt_id": "94",
+        "mnt_name": "화왕산"
+    },
+    {
+        "course_id": "246",
+        "mnt_id": "94",
+        "mnt_name": "화왕산"
+    },
+    {
+        "course_id": "247",
+        "mnt_id": "94",
+        "mnt_name": "화왕산"
+    },
+    {
+        "course_id": "248",
+        "mnt_id": "94",
+        "mnt_name": "화왕산"
+    },
+    {
+        "course_id": "249",
+        "mnt_id": "94",
+        "mnt_name": "화왕산"
+    },
+    {
+        "course_id": "250",
+        "mnt_id": "95",
+        "mnt_name": "황매산"
+    },
+    {
+        "course_id": "251",
+        "mnt_id": "95",
+        "mnt_name": "황매산"
+    },
+    {
+        "course_id": "252",
+        "mnt_id": "95",
+        "mnt_name": "황매산"
+    },
+    {
+        "course_id": "253",
+        "mnt_id": "95",
+        "mnt_name": "황매산"
+    },
+    {
+        "course_id": "254",
+        "mnt_id": "96",
+        "mnt_name": "황석산"
+    },
+    {
+        "course_id": "255",
+        "mnt_id": "96",
+        "mnt_name": "황석산"
+    },
+    {
+        "course_id": "256",
+        "mnt_id": "97",
+        "mnt_name": "황악산"
+    },
+    {
+        "course_id": "257",
+        "mnt_id": "97",
+        "mnt_name": "황악산"
+    },
+    {
+        "course_id": "258",
+        "mnt_id": "98",
+        "mnt_name": "황장산"
+    },
+    {
+        "course_id": "259",
+        "mnt_id": "99",
+        "mnt_name": "희양산"
+    },
+    {
+        "course_id": "260",
+        "mnt_id": "99",
+        "mnt_name": "희양산"
+    },
+    {
+        "course_id": "261",
+        "mnt_id": "99",
+        "mnt_name": "희양산"
+    },
+    {
+        "course_id": "262",
+        "mnt_id": "1",
+        "mnt_name": "가리산"
+    }
+]

@@ -1,38 +1,48 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import mountainDown from "../../assets/icons/mountainRankDown.svg";
-import mountainUp from "../../assets/icons/mountainRankUp.svg";
-import mountainSame from "../../assets/icons/mountainRankSame.svg";
+// import mountainDown from "../../assets/icons/mountainRankDown.svg";    .. 상태 api 구현 X
+// import mountainUp from "../../assets/icons/mountainRankUp.svg";
+// import mountainSame from "../../assets/icons/mountainRankSame.svg";
 import filter from "../../assets/icons/mountainRankFilter.svg";
-import closefilter from "../../assets/icons/mountainRankFilterClose.svg";
+import closeFilter from "../../assets/icons/mountainRankFilterClose.svg";
+import { famousMountainApi } from "../../apis/home/FamousMountainApi";
+import { MountainRankItem } from "../../apis/home/FamousMountainApi";
 
 export const FamousMountain = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [mountainRank, setMountainRank] = useState<MountainRankItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true); // 로딩 상태 추가
 
-  const mock_mountain_rank = [
-    { id: 1, rank: 1, mountain_name: "인왕산", mountain_status: "same" },
-    { id: 2, rank: 2, mountain_name: "북한산", mountain_status: "down" },
-    { id: 3, rank: 3, mountain_name: "북악산", mountain_status: "same" },
-    { id: 4, rank: 4, mountain_name: "관악산", mountain_status: "up" },
-    { id: 5, rank: 5, mountain_name: "수락산", mountain_status: "down" },
-  ];
+  useEffect(() => {
+    const fetchMountainRank = async () => {
+      try {
+        setIsLoading(true);
+        const data = await famousMountainApi.getMountainRank();
+        setMountainRank(data);
+      } catch (error) {
+        console.error("산 랭킹 가져오기 실패:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
 
-  const [mountain_rank] = useState(mock_mountain_rank);
+    fetchMountainRank();
+  }, []);
 
   // 3초마다 표시할 산 정보 변경
   useEffect(() => {
-    if (!mountain_rank) return;
+    if (!mountainRank.length) return;
 
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % mountain_rank.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % mountainRank.length);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [mountain_rank]);
+  }, [mountainRank]);
 
   // 현재 표시할 산 항목
-  const item = mountain_rank[currentIndex];
+  const item = mountainRank[currentIndex];
 
   // filter
   const handleFilterClick = () => {
@@ -43,38 +53,39 @@ export const FamousMountain = () => {
     <FamousMountainWrapper>
       <FamousMountainContainer>
         <FamousLabel>인기</FamousLabel>
-        <MountainRank>{item.rank}</MountainRank>
-        <MountainName>{item.mountain_name}</MountainName>
-        <MountainStatusImageContainer>
-          <MountainStatusImage
+        {isLoading || mountainRank.length === 0 ? (
+          <div> </div>
+        ) : (
+          <>
+            <MountainRank>{item.rank}</MountainRank>
+            <MountainName>{item.mountain_name}</MountainName>
+            <MountainStatusImageContainer>
+              {/* 상태 api 구현 X 
+              <MountainStatusImage
             src={
               item.mountain_status === "up" ? mountainUp : item.mountain_status === "down" ? mountainDown : mountainSame
             }
-            onClick={handleFilterClick}
-          />
-          <FamousMountainFilter src={isOpen ? closefilter : filter} onClick={handleFilterClick} />
-        </MountainStatusImageContainer>
+          /> */}
+              <FamousMountainFilter src={isOpen ? closeFilter : filter} onClick={handleFilterClick} />
+            </MountainStatusImageContainer>
+          </>
+        )}
       </FamousMountainContainer>
 
       {isOpen && (
         <Filter>
           <DropdownWrapper $isOpen={isOpen}>
-            {mountain_rank.map((filterItem) => (
-              <DropdownItem key={filterItem.id}>
+            {mountainRank.map((item) => (
+              <DropdownItem key={item.id}>
                 <FilterRankNameContainer>
-                  <FilterItemRank>{filterItem.rank}</FilterItemRank>
-                  <FilterItemName>{filterItem.mountain_name}</FilterItemName>
+                  <FilterItemRank>{item.rank}</FilterItemRank>
+                  <FilterItemName>{item.mountain_name}</FilterItemName>
                 </FilterRankNameContainer>
                 <FilterItemStatus>
-                  <MountainStatusImage
-                    src={
-                      filterItem.mountain_status === "up"
-                        ? mountainUp
-                        : filterItem.mountain_status === "down"
-                          ? mountainDown
-                          : mountainSame
-                    }
-                  />
+                  {/*  상태 api 구현 X 
+                  <MountainStatusImage src={
+              item.mountain_status === "up" ? mountainUp : item.mountain_status === "down" ? mountainDown : mountainSame
+            } /> */}
                 </FilterItemStatus>
               </DropdownItem>
             ))}
@@ -113,7 +124,6 @@ const FamousLabel = styled.div`
   border-radius: 0.4375rem;
   background: #a7d3c4;
   color: #349989;
-  font-family: Pretendard;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +135,6 @@ const MountainRank = styled.div`
   top: 0.5rem;
   left: 3.67rem;
   color: #a4a4a4;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -137,7 +146,6 @@ const MountainName = styled.div`
   top: 0.5rem;
   left: 4.56rem;
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
@@ -155,9 +163,9 @@ const MountainStatusImageContainer = styled.div`
   gap: 0.4rem;
 `;
 
-const MountainStatusImage = styled.img`
-  cursor: pointer;
-`;
+// const MountainStatusImage = styled.img`  .. 상태 api 구현 X
+//   cursor: pointer;
+// `;
 
 const FamousMountainFilter = styled.img`
   cursor: pointer;
@@ -193,7 +201,6 @@ const DropdownItem = styled.div`
   background: #fff;
 
   color: #a4a4a4;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 400;
   font-style: normal;
@@ -215,7 +222,6 @@ const FilterRankNameContainer = styled.div`
 
 // 필터 항목 내부 스타일 컴포넌트
 const FilterItemRank = styled.span`
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -224,7 +230,6 @@ const FilterItemRank = styled.span`
 
 const FilterItemName = styled.span`
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;

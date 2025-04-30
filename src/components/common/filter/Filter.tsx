@@ -5,36 +5,36 @@ import filterImg from "../../../assets/icons/filter.svg";
 interface FilterProps {
   filter: string;
   isReview?: boolean;
-  onFilterChange: (newFilter: string) => void;
+  onTypeChange: (newType: string) => void;
 }
 
-export const Filter = ({ filter, isReview = false, onFilterChange }: FilterProps) => {
-  const [selectedFilter, setSelectedFilter] = useState(filter);
+export const Filter = ({ filter, isReview = false, onTypeChange }: FilterProps) => {
+  const [selectedType, setSelectedType] = useState(filter);
   const [isOpen, setIsOpen] = useState(false);
 
-  const reviewFilters = ["최신순", "인기순"];
-  const courseFilters = ["가나다순", "난이도순", "리뷰순", "스크랩순"];
-  const currentFilters = isReview ? reviewFilters : courseFilters;
+  const reviewTypes = ["최신순", "인기순"];
+  const courseTypes = ["가나다순", "난이도순", "리뷰순", "스크랩순"];
+  const currentTypes = isReview ? reviewTypes : courseTypes;
 
   const handleFilterClick = () => {
     setIsOpen(!isOpen);
   };
 
   const handleItemClick = (newFilter: string) => {
-    setSelectedFilter(newFilter);
-    onFilterChange(newFilter);
+    setSelectedType(newFilter);
+    onTypeChange(newFilter);
     setIsOpen(false);
   };
 
   return (
     <Styled.Filter onClick={handleFilterClick}>
-      {selectedFilter}
-      <img src={filterImg} alt="filter" />
+      {selectedType}
+      <img src={filterImg} alt="types" />
       <Styled.DropdownWrapper $isOpen={isOpen}>
-        {currentFilters.map((item) => (
+        {currentTypes.map((item) => (
           <Styled.DropdownItem
             key={item}
-            $isSelected={selectedFilter === item}
+            $isSelected={selectedType === item}
             onClick={(e) => {
               e.stopPropagation();
               handleItemClick(item);

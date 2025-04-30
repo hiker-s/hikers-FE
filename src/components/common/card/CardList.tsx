@@ -15,10 +15,12 @@ interface CourseItem {
 
 interface CardListProps {
   items: CourseItem[];
+  type: string;
+  onTypeChange?: (type: string) => void;
   onItemClick?: (id: number) => void;
 }
 
-export const CardList = ({ items, onItemClick }: CardListProps) => {
+export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListProps) => {
   const [likedItems, setLikedItems] = useState<Set<number>>(
     new Set(items.filter((item) => item.isLiked).map((item) => item.id))
   );
@@ -44,11 +46,11 @@ export const CardList = ({ items, onItemClick }: CardListProps) => {
       <Styled.CardListTopWrapper>
         <Styled.CardListTitle>리뷰</Styled.CardListTitle>
         <Filter
-          filter="최신순"
+          filter={type}
           isReview={true}
-          onFilterChange={(newFilter) => {
-            console.log("Selected filter:", newFilter);
-            // 필터 값 업데이트 로직
+          onTypeChange={(newType) => {
+            // console.log("Selected Type:", newType);
+            onTypeChange?.(newType); // 상위로 전달
           }}
         />
       </Styled.CardListTopWrapper>

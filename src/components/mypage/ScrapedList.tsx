@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import CourseList from "../common/list/CourseList";
 import styled from "styled-components";
 import { mypageApi, ScrapedCourseListAPI } from "../../apis/mypage/MypageApi";
-import { courseListApi } from "../../apis/course/CourseListApi";
+import { courseListApi } from "../../apis/course/courseList/CourseListApi";
 
 export default function ScrapedList() {
   const [filter, setFilter] = useState<string>("가나다순");

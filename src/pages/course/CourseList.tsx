@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/common/header/Header";
 import MountainBanner from "../../components/course/courseList/MountainBanner";
 import CourseListComp from "../../components/course/courseList/CourseListComp";
-import CourseReview from "../../components/course/courseList/CourseReview";
+import MountainReview from "../../components/course/courseList/MountainReview";
 import { Layout } from "../../components/common/layout/Layout";
 import styled from "styled-components";
 
@@ -16,7 +16,7 @@ const CourseList = () => {
         <Header onClick={handleBackBtn}>코스</Header>
         <MountainBanner />
         <CourseListComp />
-        <CourseReview />
+        <MountainReview />
       </Wrapper>
     </Layout>
   );

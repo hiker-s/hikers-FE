@@ -1,7 +1,7 @@
 import * as Styled from "./CourseListComp.styled";
 import CourseList from "../../common/list/CourseList";
 import { useState } from "react";
-import { courseListApi } from "../../../apis/course/CourseListApi";
+import { courseListApi } from "../../../apis/course/courseList/CourseListApi";
 
 export default function CourseListComp() {
   const MOCK_COURSE = [
