@@ -10,7 +10,7 @@ const slideUp = keyframes`
 `;
 
 export const ModalOverlay = styled.div`
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
