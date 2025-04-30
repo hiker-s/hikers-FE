@@ -54,7 +54,7 @@ export const FamousMountain = () => {
       <FamousMountainContainer>
         <FamousLabel>인기</FamousLabel>
         {isLoading || mountainRank.length === 0 ? (
-          <div>로딩 중...</div>
+          <div> </div>
         ) : (
           <>
             <MountainRank>{item.rank}</MountainRank>
