@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { mntReviewApi, MntReviewItem } from "../../../apis/course/courseList/MountainReviewApi";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import styled from "styled-components";
 
 const CourseReview = () => {
   const [mntReview, setMntReview] = useState<MntReviewItem[]>([]);
@@ -35,11 +36,24 @@ const CourseReview = () => {
     <>
       {isLoading ? (
         <Skeleton width={"100%"} height={"11.100%"} />
-      ) : (
+      ) : mntReview.length > 0 ? (
         <CardList items={mntReview} type={type} onTypeChange={setType} />
+      ) : (
+        <NoneData>{"아직 산의 리뷰가 없습니다."}</NoneData>
       )}
     </>
   );
 };
 
 export default CourseReview;
+
+const NoneData = styled.div`
+  width: 21.875rem;
+  height: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #3b3b3b;
+`;
