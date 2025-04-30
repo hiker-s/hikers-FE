@@ -2,20 +2,19 @@ import axios from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
-// export type CourseListAPI = {
-//   scrap_id: number;
-//   is_scrapped: boolean;
-//   course: {
-//     id: number;
-//     course_file_path: string;
-//     course_name: string;
-//     start_name: string;
-//     end_name: string;
-//     level: string;
-//     time: string;
-//     mountain_id: number;
-//   };
-// };
+export type CourseListAPI = {
+  is_scrapped: boolean;
+  course: {
+    id: number;
+    course_file_path: string;
+    course_name: string;
+    start_name: string;
+    end_name: string;
+    level: string;
+    time: string;
+    mountain_id: number;
+  };
+};
 
 // 토큰 가져오기
 const getToken = () => {
@@ -35,38 +34,37 @@ const getAuthHeader = () => {
 };
 
 export const courseListApi = {
-  //   getCourseList: async (mnt_id: number, filter: string) => {
-  //     const sortMap: Record<string, string> = {
-  //       가나다순: "NAME",
-  //       난이도순: "LEVEL",
-  //       인기순: "REVIEW",
-  //       스크랩순: "SCRAP",
-  //     };
-  //     const sortType = sortMap[filter] || "NAME";
-  //     try {
-  //       const headers = getAuthHeader();
-  //       const response = await axios.get(`${baseURL}/api/course/${mnt_id}?sortType=${sortType}`, { headers });
-  //       console.log("코스 목록 데이터:", response.data.result);
+  getCourseList: async (mnt_id: number, filter: string) => {
+    const sortMap: Record<string, string> = {
+      가나다순: "abc",
+      난이도순: "level",
+      인기순: "review",
+      스크랩순: "scrap",
+    };
+    const sortType = sortMap[filter] || "NAME";
+    try {
+      const headers = getAuthHeader();
+      const response = await axios.get(`${baseURL}/api/course/${mnt_id}?sortType=${sortType}`, { headers });
+      // console.log("코스 목록 데이터:", response.data.result);
 
-  //       return response.data.result.scraps.map((item: CourseListAPI) => ({
-  //         scrap_id: item.scrap_id,
-  //         is_scrapped: item.is_scrapped,
-  //         course: {
-  //           id: item.course.id,
-  //           course_file_path: item.course.course_file_path,
-  //           course_name: item.course.course_name,
-  //           start_name: item.course.start_name,
-  //           end_name: item.course.end_name,
-  //           level: item.course.level,
-  //           time: item.course.time,
-  //           mountain_id: item.course.mountain_id,
-  //         },
-  //       }));
-  //     } catch (error) {
-  //       console.error("코스 목록 가져오기 실패:", error);
-  //       return [];
-  //     }
-  //   },
+      return response.data.result.map((item: CourseListAPI) => ({
+        is_scrapped: item.is_scrapped,
+        course: {
+          id: item.course.id,
+          course_file_path: item.course.course_file_path,
+          course_name: item.course.course_name,
+          start_name: item.course.start_name,
+          end_name: item.course.end_name,
+          level: item.course.level,
+          time: item.course.time,
+          mountain_id: item.course.mountain_id,
+        },
+      }));
+    } catch (error) {
+      console.error("코스 목록 가져오기 실패:", error);
+      return [];
+    }
+  },
 
   postCourseScrap: async (id: number) => {
     const headers = getAuthHeader();
