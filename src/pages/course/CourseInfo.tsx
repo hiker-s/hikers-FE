@@ -13,23 +13,6 @@ const CourseInfo = () => {
   const handleBackBtn = () => navigate(-1);
   const [activeCategory, setActiveCategory] = useState("약도");
 
-  const sections = [
-    {
-      path: [
-        { lat: 37.5821, lng: 126.9851 },
-        { lat: 37.5827, lng: 126.986 },
-      ],
-      color: "#8e44ad",
-    },
-    {
-      path: [
-        { lat: 37.5827, lng: 126.986 },
-        { lat: 37.5835, lng: 126.9875 },
-      ],
-      color: "#27ae60",
-    },
-  ];
-
   const categories = useMemo(
     () => [
       { text: "약도", keyword: "약도" },
@@ -88,7 +71,7 @@ const CourseInfo = () => {
           코스
         </Header>
         <ListCompWrapper id="약도">
-          <SketchMap sections={sections} />
+          <SketchMap />
         </ListCompWrapper>
         <ListCompWrapper id="상세 코스">
           <DetailCourseList />
