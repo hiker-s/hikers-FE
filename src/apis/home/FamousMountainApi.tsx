@@ -13,7 +13,7 @@ export type MountainRankItem = {
 export const famousMountainApi = {
   getMountainRank: async (): Promise<MountainRankItem[]> => {
     const response = await axios.get(`${baseURL}/api/mountain/rank`);
-    console.log("인기 산 조회 결과:", response.data);
+    // console.log("인기 산 조회 결과:", response.data);
     return response.data.result;
   },
 };
