@@ -48,7 +48,7 @@ const CourseReview = () => {
 export default CourseReview;
 
 const NoneData = styled.div`
-  width: 21.875rem;
+  width: 100%;
   height: 26rem;
   display: flex;
   align-items: center;
