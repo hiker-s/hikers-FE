@@ -39,7 +39,7 @@ const CourseReview = () => {
       ) : courseReview.length > 0 ? (
         <CardList items={courseReview} type={type} onTypeChange={setType} />
       ) : (
-        <NoneData>{"아직 산의 리뷰가 없습니다."}</NoneData>
+        <NoneData>{"아직 코스의 리뷰가 없습니다."}</NoneData>
       )}
     </>
   );
