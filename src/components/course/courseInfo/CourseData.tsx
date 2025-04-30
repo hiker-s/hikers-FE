@@ -11,11 +11,13 @@ import Skeleton from "react-loading-skeleton";
 
 const CourseData = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [mntData, setMntData] = useState<MountainData | null>(null);
+  const [courseData, setCourseData] = useState<MountainData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const { shareCourse } = useKakaoShare();
+
+  // 여기서부터 course_id로 course_ids.json에서 코스 데이터 경로 가져오기 시작
   const { course_id } = useParams();
   const id = parseInt(course_id ?? "", 10);
 
@@ -39,7 +41,7 @@ const CourseData = () => {
         // 직접적인 동적 import 방식
         try {
           const dataModule = await import(`../../../data/mnt/${mnt_course.courseFilePath}`);
-          setMntData(dataModule.default);
+          setCourseData(dataModule.default);
           setLoading(false);
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
@@ -54,7 +56,7 @@ const CourseData = () => {
           const data = modules[targetPath];
 
           if (data) {
-            setMntData(data.default);
+            setCourseData(data.default);
             setLoading(false);
           } else {
             setError(`코스 데이터를 찾을 수 없습니다: ${mnt_course.courseFilePath}`);
@@ -71,8 +73,8 @@ const CourseData = () => {
     loadMountainData();
   }, [id]);
 
-  if (error || !mntData) {
-    // mntData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
+  if (error || !courseData) {
+    // courseData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
     return (
       <Styled.Wrapper>
         <Styled.CourseTitleWrapper>
@@ -100,14 +102,15 @@ const CourseData = () => {
       </Styled.Wrapper>
     );
   }
+  // 여기까지 .. if (!courseData) {} 확인한 후에 courseData 확인하기
 
-  const totalDistance = mntData.total_length_km;
-  const totalElevation = `${mntData.max_ele}m`;
-  const totalDuration = mntData.total_time;
-  const courseName = mntData.course_name;
-  const courseStartEnd = `${mntData.start_name} ⟷ ${mntData.end_name}`;
-  const courseTitle = `${mntData.mnt_name} ${courseName}`;
-  const courseLevel = mntData.level;
+  const totalDistance = courseData.total_length_km;
+  const totalElevation = `${courseData.max_ele}m`;
+  const totalDuration = courseData.total_time;
+  const courseName = courseData.course_name;
+  const courseStartEnd = `${courseData.start_name} ⟷ ${courseData.end_name}`;
+  const courseTitle = `${courseData.mnt_name} ${courseName}`;
+  const courseLevel = courseData.level;
 
   const handleKakaoShare = () => {
     shareCourse({
