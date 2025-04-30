@@ -5,6 +5,7 @@ import crown from "../../assets/images/crown.svg";
 import { rankApi, Rankers } from "../../apis/rank/RankApi";
 import { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const Top3 = () => {
   const [rankers, setRankers] = useState<Rankers["result"] | null>(null);
