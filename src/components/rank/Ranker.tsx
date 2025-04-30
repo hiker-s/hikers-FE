@@ -1,19 +1,19 @@
 import * as Styled from "./Ranker.styled";
 import otherRankDefault from "../../assets/images/otherRankDefault.svg";
 import myRankDefault from "../../assets/images/myRankDefault.svg";
-import rankDown from "../../assets/images/rankDown.svg";
-import rankUp from "../../assets/images/rankUp.svg";
-import rankSame from "../../assets/images/rankSame.svg";
+// import rankDown from "../../assets/images/rankDown.svg";   .. 백엔드 구현 X
+// import rankUp from "../../assets/images/rankUp.svg";
+// import rankSame from "../../assets/images/rankSame.svg";
 
 interface RankerProps {
   $isMe?: boolean;
   rank: number;
   name: string;
   stamp: number;
-  status: "up" | "down" | "same";
+  // status: "up" | "down" | "same";  .. 백엔드 구현 X
 }
 
-const Ranker = ({ $isMe = false, rank, name, stamp, status }: RankerProps) => {
+const Ranker = ({ $isMe = false, rank, name, stamp }: RankerProps) => {
   return (
     <Styled.RankerContainer $isMe={$isMe}>
       <Styled.RankerInfoContainer>
@@ -27,7 +27,7 @@ const Ranker = ({ $isMe = false, rank, name, stamp, status }: RankerProps) => {
         </Styled.NameStampContainer>
       </Styled.RankerInfoContainer>
       <Styled.StatusContainer>
-        <Styled.StatusImage src={status === "up" ? rankUp : status === "down" ? rankDown : rankSame} />
+        {/* <Styled.StatusImage src={status === "up" ? rankUp : status === "down" ? rankDown : rankSame} /> */}
       </Styled.StatusContainer>
     </Styled.RankerContainer>
   );
