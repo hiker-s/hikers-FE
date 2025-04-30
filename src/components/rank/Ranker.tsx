@@ -7,9 +7,9 @@ import myRankDefault from "../../assets/images/myRankDefault.svg";
 
 interface RankerProps {
   $isMe?: boolean;
-  rank: number;
-  name: string;
-  stamp: number;
+  rank: number | undefined;
+  name: string | undefined;
+  stamp: number | undefined;
   // status: "up" | "down" | "same";  .. 백엔드 구현 X
 }
 
