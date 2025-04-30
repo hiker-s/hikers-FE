@@ -52,44 +52,50 @@ export default function ReviewList({ title, review_data, onLikeToggle, filter, o
         <Styled.Title>{title}</Styled.Title>
         <Filter isReview={true} filter={filter} onFilterChange={onFilterChange} />
       </Styled.TitleWrapper>
-      <div>
-        <Styled.ReviewWrapper>
-          {currentItems.map((item) => (
-            <ReviewItem
-              id={item.id}
-              key={item.id}
-              image_urls={item.image_urls}
-              title={item.title}
-              mountain_name={item.mountain_name}
-              course_name={item.course_name}
-              level={item.level}
-              liked_by_current_user={item.liked_by_current_user}
-              is_writer={item.is_writer}
-              like_count={item.like_count}
-              onReviewItemClick={() => onReviewItemClick(item.id)}
-              onLikeClick={(e) => onLikeClick(item.id, e)}
-            />
-          ))}
-        </Styled.ReviewWrapper>
-        <Styled.PaginationWrapper>
-          <Styled.PagingBtn
-            onClick={() => !isFirstPage && setCurrentPage((prev) => Math.max(prev - 1, 0))}
-            disabled={isFirstPage}
-          >
-            <IoIosArrowBack size="100%" />
-          </Styled.PagingBtn>
-          <Styled.PageNumber>{currentPage + 1}</Styled.PageNumber>
-          <Styled.PagingBtn
-            onClick={() =>
-              !isLastPage &&
-              setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(review_data.length / itemsPerPage) - 1))
-            }
-            disabled={isLastPage}
-          >
-            <IoIosArrowForward size="100%" />
-          </Styled.PagingBtn>
-        </Styled.PaginationWrapper>
-      </div>
+      {currentItems.length > 0 ? (
+        <div>
+          <Styled.ReviewWrapper>
+            {currentItems.map((item) => (
+              <ReviewItem
+                id={item.id}
+                key={item.id}
+                image_urls={item.image_urls}
+                title={item.title}
+                mountain_name={item.mountain_name}
+                course_name={item.course_name}
+                level={item.level}
+                liked_by_current_user={item.liked_by_current_user}
+                is_writer={item.is_writer}
+                like_count={item.like_count}
+                onReviewItemClick={() => onReviewItemClick(item.id)}
+                onLikeClick={(e) => onLikeClick(item.id, e)}
+              />
+            ))}
+          </Styled.ReviewWrapper>
+          <Styled.PaginationWrapper>
+            <Styled.PagingBtn
+              onClick={() => !isFirstPage && setCurrentPage((prev) => Math.max(prev - 1, 0))}
+              disabled={isFirstPage}
+            >
+              <IoIosArrowBack size="100%" />
+            </Styled.PagingBtn>
+            <Styled.PageNumber>{currentPage + 1}</Styled.PageNumber>
+            <Styled.PagingBtn
+              onClick={() =>
+                !isLastPage &&
+                setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(review_data.length / itemsPerPage) - 1))
+              }
+              disabled={isLastPage}
+            >
+              <IoIosArrowForward size="100%" />
+            </Styled.PagingBtn>
+          </Styled.PaginationWrapper>
+        </div>
+      ) : (
+        <Styled.NoneData>
+          {title === "좋아요한 리뷰" ? "아직 좋아요한 리뷰가 없습니다." : "아직 작성된 리뷰가 없습니다."}
+        </Styled.NoneData>
+      )}
     </Styled.ListWrapper>
   );
 }
