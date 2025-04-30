@@ -75,7 +75,7 @@ const CourseData = () => {
   }, [id]);
 
   // 4. courseData 불러오기 전에 return 될 내용 - 매번 되기 때문에 loading과 같은 스켈레톤으로 구상
-  if (error || !courseData) {
+  if (error || !courseData || loading) {
     return (
       <Styled.Wrapper>
         <Styled.CourseTitleWrapper>
@@ -142,58 +142,32 @@ const CourseData = () => {
           onLinkShare={handleLinkShare}
         />
       )}
-      {loading ? (
-        <Styled.Wrapper>
-          <Styled.CourseTitleWrapper>
-            <Skeleton width={"100%"} height={"100%"} />
-            <Styled.GreenBtnWrapper>
-              <GreenBtn onClick={() => setIsModalOpen(true)}>코스 공유하기</GreenBtn>
-            </Styled.GreenBtnWrapper>
-          </Styled.CourseTitleWrapper>
-          <Styled.CourseMeta>
-            <Styled.StartToEnd>
-              <Skeleton width={"100%"} height={"100%"} />
-            </Styled.StartToEnd>
-            <Styled.CourseStats>
-              <Styled.CourseStatsItem>
-                <Skeleton width={"100%"} height={"100%"} />
-              </Styled.CourseStatsItem>
-              <Styled.CourseStatsItem>
-                <Skeleton width={"100%"} height={"100%"} />
-              </Styled.CourseStatsItem>
-              <Styled.CourseStatsItem>
-                <Skeleton width={"100%"} height={"100%"} />
-              </Styled.CourseStatsItem>
-            </Styled.CourseStats>
-          </Styled.CourseMeta>
-        </Styled.Wrapper>
-      ) : (
-        <Styled.Wrapper>
-          <Styled.CourseTitleWrapper>
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <Styled.CourseTitle>{courseTitle}</Styled.CourseTitle>
-              <LevelComp $level={courseLevel}>{courseLevel}</LevelComp>
-            </div>
-            <Styled.GreenBtnWrapper>
-              <GreenBtn onClick={() => setIsModalOpen(true)}>코스 공유하기</GreenBtn>
-            </Styled.GreenBtnWrapper>
-          </Styled.CourseTitleWrapper>
-          <Styled.CourseMeta>
-            <Styled.StartToEnd>{courseStartEnd}</Styled.StartToEnd>
-            <Styled.CourseStats>
-              <Styled.CourseStatsItem>
-                <span style={{ color: "#A4A4A4" }}>소요시간</span> {totalDuration}
-              </Styled.CourseStatsItem>
-              <Styled.CourseStatsItem>
-                <span style={{ color: "#A4A4A4" }}>코스길이</span> {totalDistance}
-              </Styled.CourseStatsItem>
-              <Styled.CourseStatsItem>
-                <span style={{ color: "#A4A4A4" }}>고도</span> {totalElevation}
-              </Styled.CourseStatsItem>
-            </Styled.CourseStats>
-          </Styled.CourseMeta>
-        </Styled.Wrapper>
-      )}
+
+      <Styled.Wrapper>
+        <Styled.CourseTitleWrapper>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <Styled.CourseTitle>{courseTitle}</Styled.CourseTitle>
+            <LevelComp $level={courseLevel}>{courseLevel}</LevelComp>
+          </div>
+          <Styled.GreenBtnWrapper>
+            <GreenBtn onClick={() => setIsModalOpen(true)}>코스 공유하기</GreenBtn>
+          </Styled.GreenBtnWrapper>
+        </Styled.CourseTitleWrapper>
+        <Styled.CourseMeta>
+          <Styled.StartToEnd>{courseStartEnd}</Styled.StartToEnd>
+          <Styled.CourseStats>
+            <Styled.CourseStatsItem>
+              <span style={{ color: "#A4A4A4" }}>소요시간</span> {totalDuration}
+            </Styled.CourseStatsItem>
+            <Styled.CourseStatsItem>
+              <span style={{ color: "#A4A4A4" }}>코스길이</span> {totalDistance}
+            </Styled.CourseStatsItem>
+            <Styled.CourseStatsItem>
+              <span style={{ color: "#A4A4A4" }}>고도</span> {totalElevation}
+            </Styled.CourseStatsItem>
+          </Styled.CourseStats>
+        </Styled.CourseMeta>
+      </Styled.Wrapper>
     </>
   );
 };
