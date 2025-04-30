@@ -6,84 +6,97 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Filter } from "../filter/Filter";
 
 type CourseItemDataProps = {
-  course_id: number;
-  course_name: string;
-  course_len: string;
-  course_time: string;
-  level: string;
+  scrap_id: number;
   is_scrapped: boolean;
+  course: {
+    id: number;
+    course_file_path: string;
+    course_name: string;
+    start_name: string;
+    end_name: string;
+    level: string;
+    time: string;
+    mountain_id: number;
+  };
 };
 
 type CourseListProps = {
   title: string;
   course_data: CourseItemDataProps[];
+  filter: string;
+  onFilterChange: (newFilter: string) => void;
+  onScrapToggle: (itemId: number) => void;
 };
 
-export default function CourseList({ title, course_data }: CourseListProps) {
-  const [courseData, setCourseData] = useState<CourseItemDataProps[]>(course_data);
-
+export default function CourseList({ title, course_data, onScrapToggle, filter, onFilterChange }: CourseListProps) {
   const onCourseItemClock = (itemId: number) => {
     console.log(`${itemId} 아이템 조회로 이동`);
   };
 
   const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
     e.stopPropagation();
-    console.log(`${itemId} 스크랩 클릭`);
-    const updatedScrap = courseData.map((item) =>
-      item.course_id === itemId ? { ...item, is_scrapped: !item.is_scrapped } : item
-    );
-    setCourseData(updatedScrap);
+    onScrapToggle(itemId);
   };
 
   const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(0);
   const offset = currentPage * itemsPerPage;
-  const currentItems = courseData.slice(offset, offset + itemsPerPage);
+  const currentItems = course_data.slice(offset, offset + itemsPerPage);
 
   const isFirstPage = currentPage === 0;
-  const isLastPage = currentPage === Math.ceil(courseData.length / itemsPerPage) - 1;
+  const isLastPage = currentPage === Math.ceil(course_data.length / itemsPerPage) - 1;
 
   return (
     <Styled.ListWrapper>
       <Styled.TitleWrapper>
         <Styled.Title>{title}</Styled.Title>
-        <Filter isReview={false} filter={"가나다순"} onFilterChange={() => {}} />
+        <Filter isReview={false} filter={filter} onFilterChange={onFilterChange} />
       </Styled.TitleWrapper>
-      <div>
-        <Styled.CourseWrapper>
-          {currentItems.map((item) => (
-            <CourseItem
-              course_id={item.course_id}
-              key={item.course_id}
-              course_name={item.course_name}
-              course_len={item.course_len}
-              course_time={item.course_time}
-              level={item.level}
-              is_scrapped={item.is_scrapped}
-              onCourseItemClock={() => onCourseItemClock(item.course_id)}
-              onScrapClick={(e) => onScrapClick(item.course_id, e)}
-            />
-          ))}
-        </Styled.CourseWrapper>
-        <Styled.PaginationWrapper>
-          <Styled.PagingBtn
-            onClick={() => !isFirstPage && setCurrentPage((prev) => Math.max(prev - 1, 0))}
-            disabled={isFirstPage}
-          >
-            <IoIosArrowBack size="100%" />
-          </Styled.PagingBtn>
-          <Styled.PageNumber>{currentPage + 1}</Styled.PageNumber>
-          <Styled.PagingBtn
-            onClick={() =>
-              !isLastPage &&
-              setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(courseData.length / itemsPerPage) - 1))
-            }
-            disabled={isLastPage}
-          >
-            <IoIosArrowForward size="100%" />
-          </Styled.PagingBtn>
-        </Styled.PaginationWrapper>
-      </div>
+      {currentItems.length > 0 ? (
+        <div>
+          <Styled.CourseWrapper>
+            {currentItems.map((item) => {
+              if (!item.course) return null;
+              return (
+                <CourseItem
+                  key={item.course.id}
+                  course_id={item.course.id}
+                  course_name={item.course.course_name}
+                  start_name={item.course.start_name}
+                  end_name={item.course.end_name}
+                  time={item.course.time}
+                  level={item.course.level}
+                  is_scrapped={item.is_scrapped}
+                  onCourseItemClock={() => onCourseItemClock(item.course.id)}
+                  onScrapClick={(e) => onScrapClick(item.course.id, e)}
+                />
+              );
+            })}
+          </Styled.CourseWrapper>
+          <Styled.PaginationWrapper>
+            <Styled.PagingBtn
+              onClick={() => !isFirstPage && setCurrentPage((prev) => Math.max(prev - 1, 0))}
+              disabled={isFirstPage}
+            >
+              <IoIosArrowBack size="100%" />
+            </Styled.PagingBtn>
+            <Styled.PageNumber>{currentPage + 1}</Styled.PageNumber>
+            <Styled.PagingBtn
+              onClick={() =>
+                !isLastPage &&
+                setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(course_data.length / itemsPerPage) - 1))
+              }
+              disabled={isLastPage}
+            >
+              <IoIosArrowForward size="100%" />
+            </Styled.PagingBtn>
+          </Styled.PaginationWrapper>
+        </div>
+      ) : (
+        <Styled.NoneData>
+          {title === "스크랩한 코스" ? "아직 스크랩한 코스가 없습니다." : "아직 등록된 코스가 없습니다."}
+        </Styled.NoneData>
+      )}
     </Styled.ListWrapper>
   );
 }

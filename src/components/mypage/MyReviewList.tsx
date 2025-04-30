@@ -1,58 +1,55 @@
+import { useEffect, useState } from "react";
 import ReviewList from "../common/list/ReviewList";
 import { styled } from "styled-components";
+import { mypageApi, MyReviewListAPI } from "../../apis/mypage/MypageApi";
+import { reviewApi } from "../../apis/community/ReviewApi";
 
 export default function MyReviewList() {
-  const MOCK_MYPAGE_MYREVIEW = [
-    {
-      id: 1,
-      title: "인왕산 껌이네",
-      mountain_name: "인왕산",
-      course_name: "인왕산1코스인왕산1코스인왕산1코스",
-      level: "상",
-      is_writer: true,
-      like_count: 23,
-    },
-    {
-      id: 2,
-      title: "북한산 껌이네",
-      mountain_name: "북한산",
-      course_name: "북한산3코스",
-      level: "중",
-      is_writer: true,
-      like_count: 23,
-    },
-    {
-      id: 3,
-      title: "관악산 껌이네",
-      mountain_name: "관악산",
-      course_name: "관악산5코스",
-      level: "하",
-      is_writer: true,
-      like_count: 23,
-    },
-    {
-      id: 4,
-      title: "북한산 껌이네",
-      mountain_name: "북한산",
-      course_name: "북한산3코스",
-      level: "중",
-      is_writer: true,
-      like_count: 23,
-    },
-    {
-      id: 5,
-      title: "관악산 껌이네",
-      mountain_name: "관악산",
-      course_name: "관악산5코스",
-      level: "하",
-      is_writer: true,
-      like_count: 23,
-    },
-  ];
+  const [filter, setFilter] = useState<string>("최신순");
+  const [reviewData, setReviewData] = useState<MyReviewListAPI[]>([]);
+
+  const fetchReviewList = async (filter: string) => {
+    try {
+      const review = await mypageApi.getMyReviewList(filter);
+      setReviewData(review);
+    } catch (error) {
+      console.error("내가 쓴 리뷰 글 목록 데이터 가져오기 실패:", error);
+    }
+  };
+  useEffect(() => {
+    fetchReviewList(filter);
+  }, [filter]);
+
+  const handleLikeToggle = async (itemId: number) => {
+    setReviewData((prevData) =>
+      prevData.map((item) =>
+        item.id === itemId ? { ...item, liked_by_current_user: !item.liked_by_current_user } : item
+      )
+    );
+    const currentItem = reviewData.find((item) => item.id === itemId);
+
+    if (!currentItem) return;
+
+    try {
+      if (currentItem.liked_by_current_user) {
+        await reviewApi.deleteReviewHeart(itemId);
+      } else {
+        await reviewApi.postReviewHeart(itemId);
+      }
+    } catch (error) {
+      console.error("좋아요 실패:", error);
+    }
+  };
 
   return (
     <Wrapper>
-      <ReviewList title="내가 쓴 리뷰" review_data={MOCK_MYPAGE_MYREVIEW} />
+      <ReviewList
+        title="내가 쓴 리뷰"
+        review_data={reviewData}
+        onLikeToggle={handleLikeToggle}
+        filter={filter}
+        onFilterChange={setFilter}
+      />
     </Wrapper>
   );
 }

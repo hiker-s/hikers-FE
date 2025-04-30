@@ -38,7 +38,7 @@
     },
     {
       "mountain_name": "관악산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/gwanaksan.svg"
     },
     {
       "mountain_name": "구병산",
@@ -66,15 +66,15 @@
     },
     {
       "mountain_name": "남산",
-      "stampImg": "/assets/stamp/namsan.svg"
+      "stampImg": "/assets/stamp/stampImage.svg"
     },
     {
       "mountain_name": "내연산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/naeyeonsan.svg"
     },
     {
       "mountain_name": "내장산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/naejangsan.svg"
     },
     {
       "mountain_name": "대둔산",
@@ -114,7 +114,7 @@
     },
     {
       "mountain_name": "마니산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/manisan.svg"
     },
     {
       "mountain_name": "마이산",
@@ -182,7 +182,7 @@
     },
     {
       "mountain_name": "북한산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/bookhansan.svg"
     },
     {
       "mountain_name": "비슬산",
@@ -202,7 +202,7 @@
     },
     {
       "mountain_name": "설악산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/seolaksan.svg"
     },
     {
       "mountain_name": "성인봉",
@@ -270,7 +270,7 @@
     },
     {
       "mountain_name": "응봉산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/eunbongsan.svg"
     },
     {
       "mountain_name": "장안산",
@@ -294,11 +294,11 @@
     },
     {
       "mountain_name": "주왕산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/joowangsan.svg"
     },
     {
       "mountain_name": "주흘산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/jooheulsan.svg"
     },
     {
       "mountain_name": "지리산(천왕봉)",
@@ -354,7 +354,7 @@
     },
     {
       "mountain_name": "팔공산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/palgongsan.svg"
     },
     {
       "mountain_name": "팔봉산",
@@ -366,7 +366,7 @@
     },
     {
       "mountain_name": "한라산",
-      "stampImg": "/assets/stamp/stampImage.svg"
+      "stampImg": "/assets/stamp/hallasan.svg"
     },
     {
       "mountain_name": "화악산",
