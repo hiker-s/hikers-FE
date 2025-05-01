@@ -2,6 +2,22 @@ import axios from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
+type postValue = {
+  title: string;
+  content: string;
+  level: string;
+  courseId: number;
+  images: File[];
+};
+
+type putValue = {
+  title: string;
+  content: string;
+  level: string;
+  courseId: number;
+  images: (string | File)[];
+};
+
 export type ReviewListAPI = {
   id: number;
   image_urls?: string[];
@@ -47,6 +63,79 @@ const getAuthHeader = () => {
 };
 
 export const reviewApi = {
+  postReview: async (postValue: postValue) => {
+    try {
+      const formData = new FormData();
+      formData.append("title", postValue.title);
+      formData.append("content", postValue.content);
+      formData.append("level", postValue.level);
+      formData.append("courseId", postValue.courseId.toString());
+
+      postValue.images.forEach((image) => {
+        formData.append("images", image);
+      });
+
+      const headers = {
+        ...getAuthHeader(),
+        "Content-Type": "multipart/form-data",
+      };
+
+      const response = await axios.post(`${baseURL}/api/review`, formData, { headers });
+      console.log("리뷰 게시글 post 성공:", response);
+      return response;
+    } catch (error) {
+      console.error("리뷰 게시글 post 실패:", error);
+      throw error;
+    }
+  },
+
+  putReview: async (id: number, putValue: putValue) => {
+    try {
+      const formData = new FormData();
+      formData.append("title", putValue.title);
+      formData.append("content", putValue.content);
+      formData.append("level", putValue.level);
+      formData.append("courseId", putValue.courseId.toString());
+
+      // 이미지 URL을 File로 변환하여 추가하는 부분
+      const imagePromises = putValue.images.map(async (image) => {
+        if (typeof image === "string") {
+          // URL을 통해 Blob 객체를 가져옴
+          const response = await fetch(`${image}?not-from-cache-please`);
+          const blob = await response.blob();
+          // Blob을 File 객체로 변환
+          const file = new File([blob], "image.jpg", { type: blob.type });
+          return file;
+        } else {
+          // 이미 File 객체인 경우 그대로 사용
+          return image;
+        }
+      });
+
+      // 이미지 변환이 완료된 후 FormData에 추가
+      const imageFiles = await Promise.all(imagePromises);
+      imageFiles.forEach((file) => {
+        formData.append("images", file); // File 객체를 FormData에 추가
+      });
+
+      // FormData 내용 확인: entries() 메서드를 사용하여 출력
+      for (const pair of formData.entries()) {
+        console.log(pair[0] + ": " + pair[1]);
+      }
+
+      const headers = {
+        ...getAuthHeader(),
+        "Content-Type": "multipart/form-data",
+      };
+      const response = await axios.put(`${baseURL}/api/review/${id}`, formData, { headers });
+      console.log("리뷰 게시글 put 성공:", response);
+      return response;
+    } catch (error) {
+      console.error("리뷰 게시글 put 실패:", error);
+      throw error;
+    }
+  },
+
   getReviewList: async (filter: string) => {
     const sortType = filter === "최신순" ? "latest" : "likes";
     try {
