@@ -43,7 +43,7 @@ export default function CrewEdit() {
       try {
         const crew = await crewApi.getCrewDetail(id);
         setInitialData(crew);
-        console.log(crew);
+        // console.log(crew);
       } catch (error) {
         console.error("크루 글 상세 데이터 가져오기 실패:", error);
       }

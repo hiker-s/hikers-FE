@@ -147,16 +147,16 @@ export const crewApi = {
       });
 
       // FormData 내용 확인: entries() 메서드를 사용하여 출력
-      for (const pair of formData.entries()) {
-        console.log(pair[0] + ": " + pair[1]);
-      }
+      // for (const pair of formData.entries()) {
+      //   console.log(pair[0] + ": " + pair[1]);
+      // }
 
       const headers = {
         ...getAuthHeader(),
         "Content-Type": "multipart/form-data",
       };
       const response = await axios.put(`${baseURL}/api/crewpost/${id}`, formData, { headers });
-      console.log("크루 게시글 put 성공:", response);
+      // console.log("크루 게시글 put 성공:", response);
       return response;
     } catch (error) {
       console.error("크루 게시글 put 실패:", error);
@@ -166,7 +166,7 @@ export const crewApi = {
 
   deleteCrew: async (id: number) => {
     const headers = getAuthHeader();
-    const response = await axios.delete(`${baseURL}/api/crewpost/${id}`, { headers });
-    console.log(response);
+    await axios.delete(`${baseURL}/api/crewpost/${id}`, { headers });
+    // console.log(response);
   },
 };
