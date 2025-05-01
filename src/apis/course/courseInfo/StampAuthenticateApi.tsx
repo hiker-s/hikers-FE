@@ -52,7 +52,6 @@ export const stampApi = {
 
       const message = axiosError.response?.data?.message ?? "스탬프 인증에 실패했습니다. 다시 시도해주세요.";
 
-      console.error("스탬프 인증 API 요청 실패:", error);
       alert(message);
     }
   },
