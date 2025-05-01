@@ -25,6 +25,7 @@ export const InfoWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.25rem;
+  padding-left: 0.31rem;
 `;
 
 export const TitleWrapper = styled.div`
