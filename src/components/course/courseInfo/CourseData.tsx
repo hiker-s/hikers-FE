@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Modal } from "../../common/modal/Modal";
+import { Modal } from "../../common/modal/ShareModal";
 import { GreenBtn } from "../../common/button/GreenBtn";
 import { LevelComp } from "../../common/item/Level";
 import * as Styled from "./CourseData.styled";
