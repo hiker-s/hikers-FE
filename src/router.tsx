@@ -16,12 +16,14 @@ import ReviewRead from "./pages/community/review/ReviewRead";
 import Home from "./pages/home/Home";
 import CrewEdit from "./pages/community/crew/CrewEdit";
 import Loading from "./pages/loading/Loading";
+import NotFound from "./pages/error/NotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      { path: "*", element: <NotFound /> },
       { path: "/", element: <Onboarding /> },
       { path: "home", element: <Home /> },
       { path: "login", element: <Login /> },
