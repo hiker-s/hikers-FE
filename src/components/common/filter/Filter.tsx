@@ -1,5 +1,5 @@
 import { useState } from "react";
-import * as Styled from "./styled";
+import * as Styled from "./Filter.styled";
 import filterImg from "../../../assets/icons/filter.svg";
 
 interface FilterProps {
