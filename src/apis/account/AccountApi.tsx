@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, { AxiosError } from "axios";
 
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
 
@@ -28,12 +28,19 @@ const getAuthHeader = () => {
 
 export const accountApi = {
   postLogin: async (formValue: formValue) => {
-    const response = await axios.post(`${baseURL}/api/login`, formValue);
-    // console.log(response);
-    localStorage.clear();
-    const token = response.data["token"];
-    if (token) {
-      localStorage.setItem("token", token);
+    try {
+      const response = await axios.post(`${baseURL}/api/login`, formValue);
+      // console.log(response);
+      localStorage.clear();
+      const token = response.data["token"];
+      if (token) {
+        localStorage.setItem("token", token);
+      }
+    } catch (error) {
+      const axiosError = error as AxiosError<{ message: string }>;
+      const message = axiosError.response?.data?.message ?? "아이디 또는 비밀번호를 확인해주세요.";
+      alert(message);
+      throw error;
     }
   },
 
