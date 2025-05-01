@@ -5,6 +5,7 @@ import { GreenBtn } from "../../common/button/GreenBtn";
 import courseIds from "../../../data/course_ids.json";
 import { useParams } from "react-router-dom";
 import { MountainData } from "../../../types/mountainData";
+import { stampApi, StampAuthParams } from "../../../apis/course/courseInfo/StampAuthenticateApi";
 
 // course_ids.json의 데이터 구조를 명확히 정의하기 위한 타입
 interface CourseIdItem {
@@ -68,12 +69,24 @@ export default function DetailCourseList() {
   const COLORS = ["#3D8B7D", "#E69B4C", "#D97575"];
 
   const handleStamp = () => {
-    navigator.geolocation.getCurrentPosition(function (pos) {
-      console.log(pos);
-      const latitude = pos.coords.latitude;
-      const longitude = pos.coords.longitude;
-      alert("latitude: " + latitude + ", longitude:" + longitude);
-    });
+    if (!id) return;
+
+    navigator.geolocation.getCurrentPosition(
+      async function (pos) {
+        const latitude = pos.coords.latitude;
+        const longitude = pos.coords.longitude;
+
+        await stampApi.postStampAuth({
+          courseId: id,
+          latitude: latitude,
+          longitude: longitude,
+        } as StampAuthParams);
+      },
+      function (err) {
+        console.error("위치 정보 가져오기 실패:", err);
+        alert("위치 권한을 허용해주세요.");
+      }
+    );
   };
 
   if (!courseData) {
