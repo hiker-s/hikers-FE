@@ -22,34 +22,32 @@ const getAuthHeader = () => {
   const headers = {
     Authorization: `Bearer ${token}`,
   };
-  console.log("생성된 헤더:", headers);
+  // console.log("생성된 헤더:", headers);
   return headers;
 };
 
 export const accountApi = {
   postLogin: async (formValue: formValue) => {
     const response = await axios.post(`${baseURL}/api/login`, formValue);
-    console.log(response);
+    // console.log(response);
     localStorage.clear();
     const token = response.data["token"];
     if (token) {
       localStorage.setItem("token", token);
     }
   },
+
   postSignup: async (formValue: formValue) => {
-    const response = await axios.post(`${baseURL}/api/signup`, formValue);
-    console.log(response);
+    await axios.post(`${baseURL}/api/signup`, formValue);
   },
 
   postLogout: async () => {
-    const response = await axios.post(`${baseURL}/api/logout`);
-    console.log(response);
+    await axios.post(`${baseURL}/api/logout`);
     localStorage.clear();
   },
   postDeleteUser: async () => {
     const headers = getAuthHeader();
-    const response = await axios.delete(`${baseURL}/api/user`, { headers });
-    console.log(response);
+    await axios.delete(`${baseURL}/api/user`, { headers });
     localStorage.clear();
   },
 };
