@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import * as Styled from "./styled";
 import { Card } from "./Card";
 import { GreenBtn } from "../button/GreenBtn";
@@ -21,6 +22,7 @@ interface CardListProps {
 }
 
 export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListProps) => {
+  const navigate = useNavigate();
   const [likedItems, setLikedItems] = useState<Set<number>>(
     new Set(items.filter((item) => item.isLiked).map((item) => item.id))
   );
@@ -38,7 +40,7 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
   };
 
   const handleReviewClick = () => {
-    // 리뷰 작성 페이지로 이동
+    navigate("/community/review/write");
   };
 
   return (
