@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 // import mountainDown from "../../assets/icons/mountainRankDown.svg";    .. 상태 api 구현 X
 // import mountainUp from "../../assets/icons/mountainRankUp.svg";
 // import mountainSame from "../../assets/icons/mountainRankSame.svg";
+import mountainMove from "../../assets/icons/mountainMove.svg";
 import filter from "../../assets/icons/mountainRankFilter.svg";
 import closeFilter from "../../assets/icons/mountainRankFilterClose.svg";
 import { famousMountainApi } from "../../apis/home/FamousMountainApi";
 import { MountainRankItem } from "../../apis/home/FamousMountainApi";
 
 export const FamousMountain = () => {
+  const navigate = useNavigate();
+
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [isOpen, setIsOpen] = useState(false);
   const [mountainRank, setMountainRank] = useState<MountainRankItem[]>([]);
@@ -51,7 +55,7 @@ export const FamousMountain = () => {
 
   return (
     <FamousMountainWrapper>
-      <FamousMountainContainer>
+      <FamousMountainContainer onClick={handleFilterClick}>
         <FamousLabel>인기</FamousLabel>
         {isLoading || mountainRank.length === 0 ? (
           <div> </div>
@@ -66,7 +70,7 @@ export const FamousMountain = () => {
               item.mountain_status === "up" ? mountainUp : item.mountain_status === "down" ? mountainDown : mountainSame
             }
           /> */}
-              <FamousMountainFilter src={isOpen ? closeFilter : filter} onClick={handleFilterClick} />
+              <FamousMountainFilter src={isOpen ? closeFilter : filter} />
             </MountainStatusImageContainer>
           </>
         )}
@@ -76,7 +80,7 @@ export const FamousMountain = () => {
         <Filter>
           <DropdownWrapper $isOpen={isOpen}>
             {mountainRank.map((item) => (
-              <DropdownItem key={item.id}>
+              <DropdownItem key={item.id} onClick={() => navigate(`/courseList/${item.id}`)}>
                 <FilterRankNameContainer>
                   <FilterItemRank>{item.rank}</FilterItemRank>
                   <FilterItemName>{item.mountain_name}</FilterItemName>
@@ -86,6 +90,7 @@ export const FamousMountain = () => {
                   <MountainStatusImage src={
               item.mountain_status === "up" ? mountainUp : item.mountain_status === "down" ? mountainDown : mountainSame
             } /> */}
+                  <MountainStatusImage src={mountainMove} />
                 </FilterItemStatus>
               </DropdownItem>
             ))}
@@ -111,6 +116,7 @@ const FamousMountainContainer = styled.div`
   background: #eee;
 
   user-select: none;
+  cursor: pointer;
 `;
 
 const FamousLabel = styled.div`
@@ -163,10 +169,6 @@ const MountainStatusImageContainer = styled.div`
   gap: 0.4rem;
 `;
 
-// const MountainStatusImage = styled.img`  .. 상태 api 구현 X
-//   cursor: pointer;
-// `;
-
 const FamousMountainFilter = styled.img`
   cursor: pointer;
 `;
@@ -212,8 +214,16 @@ const DropdownItem = styled.div`
   }
 
   user-select: none;
+  cursor: pointer;
 `;
 
+const MountainStatusImage = styled.img`
+  cursor: pointer;
+
+  ${DropdownItem}:hover & {
+    filter: invert(48%) sepia(13%) saturate(2123%) hue-rotate(129deg) brightness(93%) contrast(87%);
+  }
+`;
 const FilterRankNameContainer = styled.div`
   display: flex;
   align-items: center;
