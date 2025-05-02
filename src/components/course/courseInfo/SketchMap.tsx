@@ -37,9 +37,9 @@ const SketchMap = () => {
 
         // 3-2-1) 직접적인 동적 import 방식
         try {
-          // const dataModule = await import(`../../../data/mnt/${mnt_course.courseFilePath}`);
-          // setCourseData(dataModule.default);
-          // setLoading(false);
+          const dataModule = await import(/* @vite-ignore */ `../../../data/mnt/${mnt_course.courseFilePath}`);
+          setCourseData(dataModule.default);
+          setLoading(false);
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
 
