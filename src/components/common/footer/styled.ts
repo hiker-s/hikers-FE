@@ -20,8 +20,8 @@ export const FooterWrapper = styled.section`
 
   z-index: 100;
 
-  @media (max-height: 800px) {
-    width: 75%;
+  @media (width <= 390px) {
+    width: 100%;
   }
 
   span {
