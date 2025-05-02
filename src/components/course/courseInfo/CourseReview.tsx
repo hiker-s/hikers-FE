@@ -1,12 +1,14 @@
 import { CardList } from "../../common/card/CardList";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { courseReviewApi, CourseReviewItem } from "../../../apis/course/courseInfo/CourseReviewApi";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import styled from "styled-components";
+import { GreenBtn } from "../../common/button/GreenBtn";
 
 const CourseReview = () => {
+  const navigate = useNavigate();
   const [courseReview, setCourseReview] = useState<CourseReviewItem[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [type, setType] = useState("최신순");
@@ -32,14 +34,28 @@ const CourseReview = () => {
     fetchMntReview();
   }, [id, type]);
 
+  const handleReviewClick = () => {
+    navigate("/community/review/write");
+  };
+
   return (
     <>
       {isLoading ? (
         <Skeleton width={"100%"} height={"100%"} />
       ) : courseReview.length > 0 ? (
-        <CardList items={courseReview} type={type} onTypeChange={setType} />
+        <>
+          <CardList items={courseReview} type={type} onTypeChange={setType} />
+          <CardListBottomWrapper>
+            <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
+          </CardListBottomWrapper>
+        </>
       ) : (
-        <NoneData>{"아직 코스의 리뷰가 없습니다."}</NoneData>
+        <>
+          <NoneData>{"아직 코스의 리뷰가 없습니다."}</NoneData>
+          <CardListBottomWrapper>
+            <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
+          </CardListBottomWrapper>
+        </>
       )}
     </>
   );
@@ -56,4 +72,12 @@ const NoneData = styled.div`
   font-weight: 600;
   font-size: 0.875rem;
   color: #3b3b3b;
+`;
+
+const CardListBottomWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 100%;
 `;

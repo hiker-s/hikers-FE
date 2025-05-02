@@ -159,11 +159,3 @@ export const CardsWrapper = styled.div`
     scroll-snap-align: start;
   }
 `;
-
-export const CardListBottomWrapper = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 0.5rem;
-  width: 100%;
-`;

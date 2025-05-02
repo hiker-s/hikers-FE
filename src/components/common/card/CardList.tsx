@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import * as Styled from "./styled";
 import { Card } from "./Card";
-import { GreenBtn } from "../button/GreenBtn";
 import { Filter } from "../filter/Filter";
 
 interface CourseItem {
@@ -22,7 +20,6 @@ interface CardListProps {
 }
 
 export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListProps) => {
-  const navigate = useNavigate();
   const [likedItems, setLikedItems] = useState<Set<number>>(
     new Set(items.filter((item) => item.isLiked).map((item) => item.id))
   );
@@ -37,10 +34,6 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
       }
       return newSet;
     });
-  };
-
-  const handleReviewClick = () => {
-    navigate("/community/review/write");
   };
 
   return (
@@ -71,9 +64,6 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
           />
         ))}
       </Styled.CardsWrapper>
-      <Styled.CardListBottomWrapper>
-        <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
-      </Styled.CardListBottomWrapper>
     </Styled.CardListWrapper>
   );
 };
