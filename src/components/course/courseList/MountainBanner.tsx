@@ -56,19 +56,22 @@ const MountainBanner = () => {
   // console.log("mntImg", mntImg);
 
   return (
-    <Styled.MountainBannerWrapper>
+    <>
       {isLoading ? (
-        <Skeleton width={"100%"} height={"11.875rem"} />
+        <Styled.MountainBannerWrapper>
+          <Skeleton width={"100%"} height={"11.875rem"} />
+        </Styled.MountainBannerWrapper>
       ) : (
         <>
-          {mntImg && <Styled.BackgroundImage $image={mntImg} />}
-          <Styled.TextWrapper>
-            <Styled.Title>{mntBanner.mnt_name}</Styled.Title>
-            <Styled.Content>{mntBanner.mnt_info}</Styled.Content>
-          </Styled.TextWrapper>
+          {mntImg && (
+            <Styled.MountainBannerWrapper $image={mntImg}>
+              <Styled.Title>{mntBanner.mnt_name}</Styled.Title>
+              <Styled.Content>{mntBanner.mnt_info}</Styled.Content>
+            </Styled.MountainBannerWrapper>
+          )}
         </>
       )}
-    </Styled.MountainBannerWrapper>
+    </>
   );
 };
 
