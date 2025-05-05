@@ -24,10 +24,8 @@ export const MountainFilter = ({ onSelectMountain }: MountainFilterProps) => {
 
     // 2. 상위 컴포넌트로 데이터 전달
     onSelectMountain(mountain, sortedCourses);
-    console.log("Selected Mountain:", mountain);
+    // console.log("Selected Mountain:", mountain);
   };
-
-  //  const [availableCourses, setAvailableCourses] = useState<Course[]>([]);
 
   useEffect(() => {
     const fetchMountains = async () => {
@@ -53,22 +51,6 @@ export const MountainFilter = ({ onSelectMountain }: MountainFilterProps) => {
     if (selectedMountain) setSelectedMountain(null);
     setIsOpen(true);
   };
-
-  //   const handleSelectMountain = (mountain: Mountain) => {
-  //     setSelectedMountain(mountain);
-  //     onSelectMountain(mountain);
-  //     setIsOpen(false);
-  //   };
-
-  //   const onSelectMountain = (mountain: Mountain) => {
-  //     const courses = mountain.courses || [];
-
-  //     // course_name 기준 오름차순 정렬
-  //     const sortedCourses = [...courses].sort((a, b) => a.course_name.localeCompare(b.course_name));
-
-  //     setAvailableCourses(sortedCourses); // 정렬된 배열 전달
-  //     console.log(sortedCourses);
-  //   };
 
   const filteredMountains = mountains.filter((mnt) => mnt.mnt_name.toLowerCase().includes(searchTerm.toLowerCase()));
 
