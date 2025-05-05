@@ -25,7 +25,7 @@ export interface MntCourseResponse {
 export const reviewSearchApi = {
   getMnt_course: async (): Promise<MntCourseResponse> => {
     const response = await axios.get(`${baseURL}/api/mountain/list`);
-    console.log("산/코스 전체 조회 결과:", response.data);
-    return response.data.result;
+    //  console.log("산/코스 전체 조회 결과:", response.data);
+    return response.data;
   },
 };
