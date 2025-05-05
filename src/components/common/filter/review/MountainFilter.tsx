@@ -4,27 +4,44 @@ import search from "../../../../assets/icons/search.svg";
 import { Mountain, Course, reviewSearchApi } from "../../../../apis/community/ReviewSearchApi";
 
 type MountainFilterProps = {
-  onSelectMountain: (mountain: Mountain, sortedCourses: Course[]) => void; // 추가된 부분
+  mountains: Mountain[];
+  initialMountainName?: string;
+  onSelectMountain: (mountain: Mountain, sortedCourses: Course[]) => void;
 };
 
-export const MountainFilter = ({ onSelectMountain }: MountainFilterProps) => {
+export const MountainFilter = ({ mountains, initialMountainName, onSelectMountain }: MountainFilterProps) => {
+  const [selectedMountain, setSelectedMountain] = useState<Mountain | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [mountains, setMountains] = useState<Mountain[]>([]);
-  const [selectedMountain, setSelectedMountain] = useState<Mountain | null>(null);
+
+  // 초기화 효과 최적화
+  useEffect(() => {
+    if (!initialMountainName || mountains.length === 0) return;
+
+    const initialMountain = mountains.find(
+      (m) =>
+        m.mnt_name === initialMountainName && (!selectedMountain || selectedMountain.mnt_name !== initialMountainName)
+    );
+
+    if (initialMountain) {
+      const sortedCourses = [...initialMountain.courses].sort((a, b) => a.course_name.localeCompare(b.course_name));
+
+      // 3. 상태 업데이트 일괄 처리
+      setSelectedMountain(initialMountain);
+      setSearchTerm(initialMountain.mnt_name);
+      onSelectMountain(initialMountain, sortedCourses);
+    }
+  }, [initialMountainName, mountains]); // onSelectMountain 제거
 
   const handleSelectMountain = (mountain: Mountain) => {
     const courses = mountain.courses || [];
     const sortedCourses = [...courses].sort((a, b) => a.course_name.localeCompare(b.course_name));
 
-    // 1. 상태 업데이트 누락
-    setSelectedMountain(mountain); // 추가
-    setIsOpen(false); // 드롭다운 닫기
-
-    // 2. 상위 컴포넌트로 데이터 전달
+    setSelectedMountain(mountain);
+    setIsOpen(false);
+    setSearchTerm(mountain.mnt_name);
     onSelectMountain(mountain, sortedCourses);
-    // console.log("Selected Mountain:", mountain);
   };
 
   useEffect(() => {
@@ -33,7 +50,7 @@ export const MountainFilter = ({ onSelectMountain }: MountainFilterProps) => {
         setIsLoading(true);
         const response = await reviewSearchApi.getMnt_course();
         if (response?.result) {
-          setMountains(response.result);
+          //setMountains(response.result);
         }
       } catch (error) {
         console.error("산/코스 전체 데이터 가져오기 실패:", error);
