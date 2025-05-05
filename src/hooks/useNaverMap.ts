@@ -112,7 +112,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
         // 실패 시 300ms 후 재시도
         setTimeout(() => retryInitialize(retryCount + 1, maxRetries), 300);
       } else {
-        console.log("지도 초기화 성공!");
+        // console.log("지도 초기화 성공!");
       }
     },
     [initializeMap]
