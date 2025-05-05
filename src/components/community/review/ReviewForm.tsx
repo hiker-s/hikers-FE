@@ -15,10 +15,10 @@ type ReviewFormProps = {
 };
 
 export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewFormProps) {
-  const [title, setTitle] = useState<string>("");
-  const [content, setContent] = useState<string>("");
-  const [level, setLevel] = useState<string>("");
-  const [courseId, setCourseId] = useState<number>(0);
+  const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
+  const [level, setLevel] = useState("");
+  const [courseId, setCourseId] = useState(0);
   const [mountains, setMountains] = useState<Mountain[]>([]);
   const [selectedMountainId, setSelectedMountainId] = useState<number | null>(null);
   const [availableCourses, setAvailableCourses] = useState<Course[]>([]);
@@ -66,12 +66,13 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
       const selectedMountain = mountains.find((m) => m.id === selectedMountainId);
       setAvailableCourses(selectedMountain?.courses || []);
     }
-  }, [selectedMountainId, mountains]);
+  }, [selectedMountainId, mountains]); // selectedMountainId 변경 시 courses 업데이트
 
   // 코스 선택 핸들러
   const handleSelectCourse = (courseId: number) => {
     setCourseId(courseId);
   };
+
   return (
     <Styled.Wrapper>
       <Styled.TitleInput
@@ -84,7 +85,12 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
       <Styled.MntCourseLevelWrapper>
         <Styled.Fieldset>
           <Styled.Label>등반한 산</Styled.Label>
-          <MountainFilter mountains={mountains} onSelectMountain={setSelectedMountainId} />
+          <MountainFilter
+            onSelectMountain={(mountain, sortedCourses) => {
+              setSelectedMountainId(mountain.id);
+              setAvailableCourses(sortedCourses); // 정렬된 코스 적용
+            }}
+          />
         </Styled.Fieldset>
         <Styled.Fieldset>
           <Styled.Label>등반한 코스</Styled.Label>
@@ -93,39 +99,39 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
         <Styled.Fieldset>
           <Styled.Label>난이도</Styled.Label>
           <div style={{ display: "flex", gap: "0.9375rem" }}>
-            <Styled.RadioItemContainer>
+            <Styled.RadioLabel htmlFor="radio1">
               <Styled.LevelRadio
                 type="radio"
                 name="level"
-                value="high"
+                value="상"
                 id="radio1"
-                checked={level === "high"}
+                checked={level === "상"}
                 onChange={(e) => setLevel(e.target.value)}
               />
-              <label htmlFor="radio1">상급</label>
-            </Styled.RadioItemContainer>
-            <Styled.RadioItemContainer>
+              <Styled.LabelSpan>상급</Styled.LabelSpan>
+            </Styled.RadioLabel>
+            <Styled.RadioLabel htmlFor="radio2">
               <Styled.LevelRadio
                 type="radio"
                 name="level"
-                value="middle"
+                value="중"
                 id="radio2"
-                checked={level === "middle"}
+                checked={level === "중"}
                 onChange={(e) => setLevel(e.target.value)}
               />
-              <label htmlFor="radio2">중급</label>
-            </Styled.RadioItemContainer>
-            <Styled.RadioItemContainer>
+              <Styled.LabelSpan>중급</Styled.LabelSpan>
+            </Styled.RadioLabel>
+            <Styled.RadioLabel htmlFor="radio3">
               <Styled.LevelRadio
                 type="radio"
                 name="level"
-                value="low"
+                value="하"
                 id="radio3"
-                checked={level === "low"}
+                checked={level === "하"}
                 onChange={(e) => setLevel(e.target.value)}
               />
-              <label htmlFor="radio3">하급</label>
-            </Styled.RadioItemContainer>
+              <Styled.LabelSpan>하급</Styled.LabelSpan>
+            </Styled.RadioLabel>
           </div>
         </Styled.Fieldset>
       </Styled.MntCourseLevelWrapper>
@@ -168,7 +174,6 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
           onChange={handleChangeContent}
           name="content"
           value={content}
-          $hasImages={previewUrls.length > 0}
         />
       </Styled.ContentWrapper>
 
