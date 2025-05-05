@@ -51,7 +51,7 @@ export const Label = styled.label`
 export const MntInput = styled.input``;
 export const CourseInput = styled.input``;
 
-export const RadioItemContainer = styled.div`
+export const RadioLabel = styled.label`
   display: flex;
   align-items: center;
   gap: 0.1875rem;
@@ -59,63 +59,25 @@ export const RadioItemContainer = styled.div`
 `;
 
 export const LevelRadio = styled.input.attrs({ type: "radio" })`
-  /* 기본 라디오 버튼 숨기기 */
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  /* 커스텀 디자인 */
+  accent-color: #349989;
   width: 0.625rem;
   height: 0.625rem;
-  aspect-ratio: 1/1;
-  border-radius: 0.625rem;
+
   border: 1px solid #c8c8c8;
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1) inset;
-  margin-right: 8px;
-  position: relative;
-  cursor: pointer;
+
   transition: all 0.2s ease;
-
-  /* 체크된 상태 */
-  &:checked {
-    border-color: #4caf50;
-    background-color: #4caf50;
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 10px;
-      height: 10px;
-      background: white;
-      border-radius: 50%;
-    }
-  }
-
-  /* 호버 효과 */
-  &:hover {
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
-  }
-
-  /* 포커스 효과 */
-  &:focus {
-    outline: 2px solid #4caf50;
-    outline-offset: 2px;
-  }
 `;
 
 // 레이블 스타일 추가
-export const RadioLabel = styled.label`
+export const LabelSpan = styled.span`
   color: #3b3b3b;
   font-family: Pretendard;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  transition: background 0.2s;
 
   &:hover {
     background: #f5f5f5;
@@ -152,10 +114,9 @@ export const ContentWrapper = styled.div`
   padding: 1.37rem 0;
 `;
 
-export const ContentInput = styled.textarea<{ $hasImages: boolean }>`
+export const ContentInput = styled.textarea`
   white-space: pre-line;
   width: 100%;
-  min-height: ${({ $hasImages }) => ($hasImages ? "calc(100vh - 32rem)" : "calc(100vh - 24rem)")};
   color: #3b3b3b;
   font-family: "Pretendard";
   font-size: 1rem;
