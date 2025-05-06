@@ -1,0 +1,21 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="44" height="44" fill="#323232"/>
+<g id="&#236;&#187;&#164;&#235;&#174;&#164;&#235;&#139;&#136;&#237;&#139;&#176;">
+<path d="M-179 -309C-179 -310.105 -178.105 -311 -177 -311H3479C3480.1 -311 3481 -310.105 3481 -309V2695C3481 2696.1 3480.1 2697 3479 2697H-177C-178.105 2697 -179 2696.1 -179 2695V-309Z" fill="#454545"/>
+<path d="M-177 -310H3479V-312H-177V-310ZM3480 -309V2695H3482V-309H3480ZM3479 2696H-177V2698H3479V2696ZM-178 2695V-309H-180V2695H-178ZM-177 2696C-177.552 2696 -178 2695.55 -178 2695H-180C-180 2696.66 -178.657 2698 -177 2698V2696ZM3480 2695C3480 2695.55 3479.55 2696 3479 2696V2698C3480.66 2698 3482 2696.66 3482 2695H3480ZM3479 -310C3479.55 -310 3480 -309.552 3480 -309H3482C3482 -310.657 3480.66 -312 3479 -312V-310ZM-177 -312C-178.657 -312 -180 -310.657 -180 -309H-178C-178 -309.552 -177.552 -310 -177 -310V-312Z" fill="white" fill-opacity="0.1"/>
+<g id="community" clip-path="url(#clip0_0_1)">
+<rect width="390" height="1594" transform="translate(-3 -45)" fill="white"/>
+<g id="Frame 585">
+<rect width="390" height="100" transform="translate(-3 -45)" fill="white"/>
+<g id="Frame 560">
+<path id="Vector" d="M26 33L17 24L26 15" stroke="#3B3B3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="390" height="1594" fill="white" transform="translate(-3 -45)"/>
+</clipPath>
+</defs>
+</svg>

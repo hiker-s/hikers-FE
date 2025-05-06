@@ -1,0 +1,400 @@
+{
+  "stamps": [
+    {
+      "mountain_name": "가리산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "가리왕산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "가야산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "가지산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "감악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "강천산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "계룡산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "계방산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "공작산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "관악산",
+      "stampImg": "/assets/stamp/gwanaksan.svg"
+    },
+    {
+      "mountain_name": "구병산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "금산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "금수산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "금오산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "금정산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "깃대봉",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "남산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "내연산",
+      "stampImg": "/assets/stamp/naeyeonsan.svg"
+    },
+    {
+      "mountain_name": "내장산",
+      "stampImg": "/assets/stamp/naejangsan.svg"
+    },
+    {
+      "mountain_name": "대둔산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "대야산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "덕숭산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "덕유산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "덕항산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "도락산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "도봉산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "두륜산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "두타산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "마니산",
+      "stampImg": "/assets/stamp/manisan.svg"
+    },
+    {
+      "mountain_name": "마이산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "명성산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "명지산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "모악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "무등산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "무학산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "미륵산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "민주지산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "방장산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "방태산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "백덕산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "백암산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "백운산(광양)",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "백운산(정선)",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "백운산(포천)",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "변산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "북한산",
+      "stampImg": "/assets/stamp/bookhansan.svg"
+    },
+    {
+      "mountain_name": "비슬산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "삼악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "서대산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "선운산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "설악산",
+      "stampImg": "/assets/stamp/seolaksan.svg"
+    },
+    {
+      "mountain_name": "성인봉",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "소백산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "소요산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "속리산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "신불산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "연화산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "오대산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "오봉산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "용문산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "용화산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "운문산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "운악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "운장산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "월악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "월출산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "유명산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "응봉산",
+      "stampImg": "/assets/stamp/eunbongsan.svg"
+    },
+    {
+      "mountain_name": "장안산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "재약산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "적상산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "점봉산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "조계산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "주왕산",
+      "stampImg": "/assets/stamp/joowangsan.svg"
+    },
+    {
+      "mountain_name": "주흘산",
+      "stampImg": "/assets/stamp/jooheulsan.svg"
+    },
+    {
+      "mountain_name": "지리산(천왕봉)",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "지리산(통영)",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "천관산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "천마산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "천성산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "천태산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "청량산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "추월산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "축령산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "치악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "칠갑산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "태백산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "태화산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "팔공산",
+      "stampImg": "/assets/stamp/palgongsan.svg"
+    },
+    {
+      "mountain_name": "팔봉산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "팔영산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "한라산",
+      "stampImg": "/assets/stamp/hallasan.svg"
+    },
+    {
+      "mountain_name": "화악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "화왕산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "황매산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "황석산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "황악산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "황장산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    },
+    {
+      "mountain_name": "희양산",
+      "stampImg": "/assets/stamp/stampImage.svg"
+    }
+  ]
+}
