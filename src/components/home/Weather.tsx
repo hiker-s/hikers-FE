@@ -69,7 +69,7 @@ export const Weather = () => {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [weatherData]);
+  }, [weatherData, weatherItems.length]);
 
   // XML 응답 파싱 함수
   const parseXmlResponse = async (res: Response): Promise<WeatherData> => {
