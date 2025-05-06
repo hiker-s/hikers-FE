@@ -86,9 +86,10 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
         <Styled.Fieldset>
           <Styled.Label>등반한 산</Styled.Label>
           <MountainFilter
+            mountains={mountains}
             onSelectMountain={(mountain, sortedCourses) => {
               setSelectedMountainId(mountain.id);
-              setAvailableCourses(sortedCourses); // 정렬된 코스 적용
+              setAvailableCourses(sortedCourses);
             }}
           />
         </Styled.Fieldset>
@@ -99,39 +100,19 @@ export default function ReviewForm({ date_info, nickname, onSubmit }: ReviewForm
         <Styled.Fieldset>
           <Styled.Label>난이도</Styled.Label>
           <div style={{ display: "flex", gap: "0.9375rem" }}>
-            <Styled.RadioLabel htmlFor="radio1">
-              <Styled.LevelRadio
-                type="radio"
-                name="level"
-                value="상"
-                id="radio1"
-                checked={level === "상"}
-                onChange={(e) => setLevel(e.target.value)}
-              />
-              <Styled.LabelSpan>상급</Styled.LabelSpan>
-            </Styled.RadioLabel>
-            <Styled.RadioLabel htmlFor="radio2">
-              <Styled.LevelRadio
-                type="radio"
-                name="level"
-                value="중"
-                id="radio2"
-                checked={level === "중"}
-                onChange={(e) => setLevel(e.target.value)}
-              />
-              <Styled.LabelSpan>중급</Styled.LabelSpan>
-            </Styled.RadioLabel>
-            <Styled.RadioLabel htmlFor="radio3">
-              <Styled.LevelRadio
-                type="radio"
-                name="level"
-                value="하"
-                id="radio3"
-                checked={level === "하"}
-                onChange={(e) => setLevel(e.target.value)}
-              />
-              <Styled.LabelSpan>하급</Styled.LabelSpan>
-            </Styled.RadioLabel>
+            {["상", "중", "하"].map((value, index) => (
+              <Styled.RadioLabel key={value} htmlFor={`radio${index + 1}`}>
+                <Styled.LevelRadio
+                  type="radio"
+                  name="level"
+                  value={value}
+                  id={`radio${index + 1}`}
+                  checked={level === value}
+                  onChange={(e) => setLevel(e.target.value)}
+                />
+                <Styled.LabelSpan>{["상급", "중급", "하급"][index]}</Styled.LabelSpan>
+              </Styled.RadioLabel>
+            ))}
           </div>
         </Styled.Fieldset>
       </Styled.MntCourseLevelWrapper>
