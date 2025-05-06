@@ -43,7 +43,7 @@ export const Weather = () => {
     const getWeather = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`http://openapi.seoul.go.kr:8088/${API_KEY}/xml/citydata/1/5/서울역`);
+        const res = await fetch(`https://openapi.seoul.go.kr:8088/${API_KEY}/xml/citydata/1/5/서울역`);
         if (!res.ok) throw new Error("API 요청 실패");
 
         const data = await parseXmlResponse(res);
@@ -69,7 +69,7 @@ export const Weather = () => {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [weatherData]);
+  }, [weatherData, weatherItems.length]);
 
   // XML 응답 파싱 함수
   const parseXmlResponse = async (res: Response): Promise<WeatherData> => {

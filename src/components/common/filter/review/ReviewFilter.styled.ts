@@ -21,7 +21,6 @@ export const Filter = styled.div`
 
 export const Input = styled.input`
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 400;
@@ -29,7 +28,6 @@ export const Input = styled.input`
   min-width: 9.6875rem;
   &::placeholder {
     color: #c4c4c4;
-    font-family: "Pretendard";
   }
   &:focus {
     outline: none;
@@ -83,7 +81,6 @@ export const DropdownItem = styled.div`
   align-self: stretch;
   border-radius: 1.25rem;
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;

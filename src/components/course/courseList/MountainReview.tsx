@@ -60,7 +60,6 @@ const CourseReview = () => {
           <CardListBottomWrapper>
             <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
           </CardListBottomWrapper>
-          s
         </>
       )}
     </>
