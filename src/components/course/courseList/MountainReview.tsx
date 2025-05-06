@@ -39,18 +39,28 @@ const CourseReview = () => {
     navigate("/community/review/write");
   };
 
+  const handleItemClick = (id: number) => {
+    navigate(`/community/review/${id}`);
+  };
+
   return (
     <>
       {isLoading ? (
         <Skeleton width={"100%"} height={"100%"} />
       ) : mntReview.length > 0 ? (
-        <CardList items={mntReview} type={type} onTypeChange={setType} />
+        <>
+          <CardList items={mntReview} type={type} onTypeChange={setType} onItemClick={handleItemClick} />
+          <CardListBottomWrapper>
+            <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
+          </CardListBottomWrapper>
+        </>
       ) : (
         <>
           <NoneData>{"아직 산의 리뷰가 없습니다."}</NoneData>
           <CardListBottomWrapper>
             <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
           </CardListBottomWrapper>
+          s
         </>
       )}
     </>
@@ -76,4 +86,5 @@ const CardListBottomWrapper = styled.div`
   align-items: center;
   margin-top: 0.5rem;
   width: 100%;
+  margin-bottom: 3rem;
 `;
