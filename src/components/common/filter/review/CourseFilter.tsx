@@ -4,31 +4,43 @@ import search from "../../../../assets/icons/search.svg";
 import { Course } from "../../../../apis/community/ReviewSearchApi";
 
 type CourseFilterProps = {
-  courses: Course[]; // ReviewForm에서 내려주는 필터된 코스 리스트
+  courses: Course[];
+  initialCourseName?: string;
   onSelectCourse: (courseId: number) => void;
 };
 
-export const CourseFilter = ({ courses, onSelectCourse }: CourseFilterProps) => {
+export const CourseFilter = ({ courses, initialCourseName, onSelectCourse }: CourseFilterProps) => {
+  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
 
-  // courses가 바뀌면 선택된 코스를 초기화 (산이 바뀌었을 때)
+  // CourseFilter.tsx
   useEffect(() => {
-    setSelectedCourse(null);
-    setSearchTerm(""); // 검색창도 초기화
-  }, [courses]);
+    if (!courses || courses.length === 0) return;
+
+    // 이름으로 초기 코스 찾기
+    const targetCourse = courses.find(
+      (c) =>
+        c.course_name === initialCourseName && (!selectedCourse || selectedCourse.course_name! == initialCourseName)
+    );
+
+    if (targetCourse) {
+      setSelectedCourse(targetCourse);
+      setSearchTerm(targetCourse.course_name);
+      onSelectCourse(targetCourse.id);
+    }
+  }, [courses, initialCourseName]);
 
   const handleChangeSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
     setIsOpen(true);
-    setSelectedCourse(null); // 검색 중일 때 선택 상태 제거
+    if (selectedCourse) setSelectedCourse(null);
   };
 
   const handleSelectCourse = (course: Course) => {
     setSelectedCourse(course);
-    setSearchTerm(""); // 검색어 초기화 (선택한 이름이 표시되므로)
+    setSearchTerm(course.course_name);
     setIsOpen(false);
     onSelectCourse(course.id);
   };
@@ -41,7 +53,7 @@ export const CourseFilter = ({ courses, onSelectCourse }: CourseFilterProps) => 
     <Styled.Filter>
       <Styled.Input
         placeholder="등반한 코스 이름을 입력해주세요"
-        value={selectedCourse ? selectedCourse.course_name : searchTerm}
+        value={searchTerm}
         onChange={handleChangeSearch}
         onFocus={() => setIsOpen(true)}
       />
@@ -50,7 +62,11 @@ export const CourseFilter = ({ courses, onSelectCourse }: CourseFilterProps) => 
       <Styled.DropdownWrapper $isOpen={isOpen}>
         {filteredCourses.length > 0 ? (
           filteredCourses.map((course) => (
-            <Styled.DropdownItem key={course.id} onClick={() => handleSelectCourse(course)}>
+            <Styled.DropdownItem
+              key={course.id}
+              onClick={() => handleSelectCourse(course)}
+              // $selected={course.id === selectedCourse?.id}
+            >
               {course.course_name}
             </Styled.DropdownItem>
           ))

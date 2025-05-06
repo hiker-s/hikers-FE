@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import * as Styled from "./ReviewFilter.styled";
 import search from "../../../../assets/icons/search.svg";
 import { Mountain, Course, reviewSearchApi } from "../../../../apis/community/ReviewSearchApi";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 type MountainFilterProps = {
   mountains: Mountain[];
@@ -73,18 +75,25 @@ export const MountainFilter = ({ mountains, initialMountainName, onSelectMountai
 
   return (
     <Styled.Filter>
-      <Styled.Input
-        placeholder="등반한 산 이름을 입력해주세요"
-        value={selectedMountain ? selectedMountain.mnt_name : searchTerm}
-        onChange={handleChangeMountain}
-        onFocus={() => setIsOpen(true)}
-      />
-      <Styled.SearchImg src={search} alt="search" />
+      {isLoading ? (
+        <>
+          <Skeleton width={"100%"} />
+        </>
+      ) : (
+        <>
+          <Styled.Input
+            placeholder="등반한 산 이름을 입력해주세요"
+            value={selectedMountain ? selectedMountain.mnt_name : searchTerm}
+            onChange={handleChangeMountain}
+            onFocus={() => setIsOpen(true)}
+          />
 
-      <Styled.DropdownWrapper $isOpen={isOpen || isLoading}>
-        {isLoading ? (
-          <Styled.DropdownItem>데이터를 불러오는 중...</Styled.DropdownItem>
-        ) : filteredMountains.length > 0 ? (
+          <Styled.SearchImg src={search} alt="search" />
+        </>
+      )}
+
+      <Styled.DropdownWrapper $isOpen={isOpen}>
+        {filteredMountains.length > 0 ? (
           filteredMountains.map((mnt) => (
             <Styled.DropdownItem key={mnt.id} onClick={() => handleSelectMountain(mnt)}>
               {mnt.mnt_name}
