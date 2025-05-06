@@ -81,7 +81,7 @@ export const reviewApi = {
       };
 
       const response = await axios.post(`${baseURL}/api/review`, formData, { headers });
-      console.log("리뷰 게시글 post 성공:", response);
+      // console.log("리뷰 게시글 post 성공:", response);
       return response;
     } catch (error) {
       console.error("리뷰 게시글 post 실패:", error);
@@ -119,16 +119,16 @@ export const reviewApi = {
       });
 
       // FormData 내용 확인: entries() 메서드를 사용하여 출력
-      for (const pair of formData.entries()) {
-        console.log(pair[0] + ": " + pair[1]);
-      }
+      // for (const pair of formData.entries()) {
+      //   console.log(pair[0] + ": " + pair[1]);
+      // }
 
       const headers = {
         ...getAuthHeader(),
         "Content-Type": "multipart/form-data",
       };
       const response = await axios.put(`${baseURL}/api/review/${id}`, formData, { headers });
-      console.log("리뷰 게시글 put 성공:", response);
+      // console.log("리뷰 게시글 put 성공:", response);
       return response;
     } catch (error) {
       console.error("리뷰 게시글 put 실패:", error);
