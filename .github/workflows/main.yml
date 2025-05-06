@@ -28,7 +28,7 @@ jobs:
 
       - name: S3 Deploy
         run: |
-          aws s3 sync ./dist s3://hikers.kr \
+          aws s3 sync ./dist s3://www.hikers.kr \
             --delete \
             --acl bucket-owner-full-control \
             --endpoint-url https://s3.ap-northeast-2.amazonaws.com
