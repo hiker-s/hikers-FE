@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import * as Styled from "./ReviewFilter.styled";
-import search from "../../../../assets/icons/search.svg";
+import search from "@/assets//icons/search.svg";
 import { Course } from "../../../../apis/community/ReviewSearchApi";
 
 type CourseFilterProps = {

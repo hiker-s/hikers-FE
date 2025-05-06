@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import * as Styled from "./styled";
-import backBtn from "../../../assets/icons/backBtn.svg";
+import backBtn from "@/assets/icons/backBtn.svg";
 import React from "react";
 import CourseData from "../../course/courseInfo/CourseData";
 

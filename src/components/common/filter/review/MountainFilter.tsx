@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import * as Styled from "./ReviewFilter.styled";
-import search from "../../../../assets/icons/search.svg";
+import search from "@/assets/icons/search.svg";
 import { Mountain, Course, reviewSearchApi } from "../../../../apis/community/ReviewSearchApi";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";

@@ -1,9 +1,9 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import * as Styled from "./styled";
-import Home from "../../../assets/icons/Home.svg";
+import Home from "@/assets/icons/Home.svg";
 import { CommunityIcon } from "../../../assets/icons/CommunityIcon";
-import Rank from "../../../assets/icons/Rank.svg";
-import My from "../../../assets/icons/My.svg";
+import Rank from "@/assets/icons/Rank.svg";
+import My from "@/assets/icons/My.svg";
 
 export const Footer = () => {
   const location = useLocation();
