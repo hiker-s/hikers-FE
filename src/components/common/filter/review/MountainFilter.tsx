@@ -29,12 +29,11 @@ export const MountainFilter = ({ mountains, initialMountainName, onSelectMountai
     if (initialMountain) {
       const sortedCourses = [...initialMountain.courses].sort((a, b) => a.course_name.localeCompare(b.course_name));
 
-      // 3. 상태 업데이트 일괄 처리
       setSelectedMountain(initialMountain);
       setSearchTerm(initialMountain.mnt_name);
       onSelectMountain(initialMountain, sortedCourses);
     }
-  }, [initialMountainName, mountains]); // onSelectMountain 제거
+  }, [initialMountainName, mountains, onSelectMountain, selectedMountain]); // onSelectMountain 제거
 
   const handleSelectMountain = (mountain: Mountain) => {
     const courses = mountain.courses || [];
@@ -92,7 +91,7 @@ export const MountainFilter = ({ mountains, initialMountainName, onSelectMountai
         </>
       )}
 
-      <Styled.DropdownWrapper $isOpen={isOpen}>
+      <Styled.DropdownWrapper $isOpen={isOpen} $isMountain={true}>
         {filteredMountains.length > 0 ? (
           filteredMountains.map((mnt) => (
             <Styled.DropdownItem key={mnt.id} onClick={() => handleSelectMountain(mnt)}>

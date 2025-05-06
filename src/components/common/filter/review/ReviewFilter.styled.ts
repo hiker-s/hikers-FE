@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Filter = styled.div`
   position: relative;
@@ -43,7 +43,7 @@ export const SearchImg = styled.img`
   aspect-ratio: 1/1;
 `;
 
-export const DropdownWrapper = styled.div<{ $isOpen: boolean }>`
+export const DropdownWrapper = styled.div<{ $isOpen: boolean; $isMountain: boolean }>`
   position: absolute;
   top: 1.5rem;
   right: 0;
@@ -58,8 +58,21 @@ export const DropdownWrapper = styled.div<{ $isOpen: boolean }>`
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1) inset;
   display: ${({ $isOpen }) => ($isOpen ? "block" : "none")};
-  z-index: 100;
   min-width: 7rem;
+  z-index: 100;
+
+  ${({ $isMountain }) =>
+    $isMountain &&
+    css`
+      max-height: 8rem;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+      z-index: 101;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    `}
 `;
 
 export const DropdownItem = styled.div`
