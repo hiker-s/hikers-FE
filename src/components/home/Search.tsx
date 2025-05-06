@@ -1,5 +1,5 @@
 import * as Styled from "./Search.styled";
-import search from "../../assets/icons/Search.svg";
+import search from "../../assets/icons/search.svg";
 import { SearchErrorModal } from "../common/modal/SearchErrorModal";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
