@@ -34,7 +34,7 @@ export default function CourseList({ title, course_data, onScrapToggle, filter, 
   const onCourseItemClick = (itemId: number) => {
     // console.log(`${itemId} 아이템 조회로 이동`);
     navigate(`/courseInfo/${itemId}`);
-    console.log(itemId);
+    // console.log(itemId);
   };
 
   const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
