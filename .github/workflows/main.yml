@@ -1,0 +1,44 @@
+name: build and deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create .env file
+        run: |
+          echo VITE_APP_BASE_URL=${{ secrets.VITE_APP_BASE_URL }} >> .env
+          echo VITE_APP_JAVASCRIPT_KEY=${{ secrets.VITE_APP_JAVASCRIPT_KEY }} >> .env
+          echo VITE_APP_NAVER_MAP_API_KEY=${{ secrets.VITE_APP_NAVER_MAP_API_KEY }} >> .env
+          echo VITE_APP_SEOUL_API_KEY=${{ secrets.VITE_APP_SEOUL_API_KEY }} >> .env
+
+      - name: Build
+        run: npm run build
+
+      - name: S3 Deploy
+        run: aws s3 sync ./dist s3://${{ secrets.AWS_S3_BUCKET }} --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          DISTRIBUTION: ${{ secrets.AWS_DISTRIBUTION_ID }}
+      - name: Invalidate CloudFront Cache # 새로 리소스를 업데이트할 때 기존 캐시 무효화
+        uses: chetan/invalidate-cloudfront-action@master
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          DISTRIBUTION: ${{ secrets.AWS_DISTRIBUTION_ID }}
+          PATHS: "/*"
+        continue-on-error: true
