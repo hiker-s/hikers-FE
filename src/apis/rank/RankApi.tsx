@@ -43,7 +43,7 @@ export const rankApi = {
   getRankers: async (): Promise<Rankers["result"]> => {
     const headers = getAuthHeader();
     const response = await axios.get(`${baseURL}/api/rank`, { headers });
-    console.log("랭킹 조회 결과:", response.data);
+    // console.log("랭킹 조회 결과:", response.data);
     return response.data.result;
   },
 };

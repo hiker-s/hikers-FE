@@ -86,6 +86,7 @@ export default function ReviewEditForm({ date_info, nickname, initialData, onSub
 
   // 산 선택
   const handleSelectMountain = useCallback((mountain: Mountain, sortedCourses: Course[]) => {
+    console.log(mountain);
     setAvailableCourses(sortedCourses);
     setCourseId(0);
   }, []);
@@ -110,7 +111,7 @@ export default function ReviewEditForm({ date_info, nickname, initialData, onSub
       imagesToSend.push(file);
     });
 
-    console.log(imagesToSend);
+    // console.log(imagesToSend);
 
     if (onSubmit) {
       onSubmit({

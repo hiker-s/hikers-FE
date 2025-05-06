@@ -35,7 +35,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
         initialCenter ||
         (sections.length > 0 && sections[0].path.length > 0 ? sections[0].path[0] : { lat: 37.5665, lng: 126.978 }); // 기본값은 서울 중심부
 
-      console.log("지도 중심점:", center);
+      // console.log("지도 중심점:", center);
 
       // 이미 지도가 있으면 제거
       if (mapInstance.current) {
@@ -59,7 +59,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
 
       // 각 경로 섹션별로 polyline 생성
       if (sections.length > 0) {
-        console.log(`${sections.length}개의 섹션 그리기 시작`);
+        // console.log(`${sections.length}개의 섹션 그리기 시작`);
 
         sections.forEach((section, index) => {
           if (!section.path || section.path.length < 2) {
@@ -82,7 +82,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
           polylines.current.push(polyline);
         });
 
-        console.log(`${polylines.current.length}개의 경로 그리기 완료`);
+        // console.log(`${polylines.current.length}개의 경로 그리기 완료`);
       } else {
         console.warn("그릴 경로 섹션이 없습니다.");
       }
@@ -106,7 +106,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
         return;
       }
 
-      console.log(`지도 초기화 시도 #${retryCount + 1}`);
+      // console.log(`지도 초기화 시도 #${retryCount + 1}`);
 
       if (!initializeMap()) {
         // 실패 시 300ms 후 재시도
@@ -120,11 +120,11 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
 
   // 컴포넌트 마운트/언마운트 및 속성 변경 시 지도 초기화
   useEffect(() => {
-    console.log("지도 초기화 시작");
+    // console.log("지도 초기화 시작");
 
     // 섹션이 비어있으면 초기화 하지 않음
     if (sections.length === 0) {
-      console.log("경로 섹션이 없어 지도 초기화 대기 중");
+      // console.log("경로 섹션이 없어 지도 초기화 대기 중");
       return;
     }
 
@@ -132,7 +132,7 @@ const useNaverMap = ({ sections, initialCenter, initialZoom = 14 }: UseNaverMapO
 
     // clean-up 함수
     return () => {
-      console.log("지도 정리 중");
+      // console.log("지도 정리 중");
       if (mapInstance.current) {
         polylines.current.forEach((polyline) => polyline.setMap(null));
         mapInstance.current.destroy();
