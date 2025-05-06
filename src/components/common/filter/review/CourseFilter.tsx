@@ -14,7 +14,6 @@ export const CourseFilter = ({ courses, initialCourseName, onSelectCourse }: Cou
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
-  // CourseFilter.tsx
   useEffect(() => {
     if (!courses || courses.length === 0) return;
 
@@ -29,7 +28,7 @@ export const CourseFilter = ({ courses, initialCourseName, onSelectCourse }: Cou
       setSearchTerm(targetCourse.course_name);
       onSelectCourse(targetCourse.id);
     }
-  }, [courses, initialCourseName]);
+  }, [courses, initialCourseName, onSelectCourse, selectedCourse]);
 
   const handleChangeSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -59,7 +58,7 @@ export const CourseFilter = ({ courses, initialCourseName, onSelectCourse }: Cou
       />
       <Styled.SearchImg src={search} alt="search" />
 
-      <Styled.DropdownWrapper $isOpen={isOpen}>
+      <Styled.DropdownWrapper $isOpen={isOpen} $isMountain={false}>
         {filteredCourses.length > 0 ? (
           filteredCourses.map((course) => (
             <Styled.DropdownItem
