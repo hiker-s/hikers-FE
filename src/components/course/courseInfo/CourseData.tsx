@@ -42,14 +42,14 @@ const CourseData = () => {
 
         // 3-2-1) 직접적인 동적 import 방식
         try {
-          const dataModule = await import(/* @vite-ignore */ `../../../data/mnt/${mnt_course.courseFilePath}`);
+          const dataModule = await import(/* @vite-ignore */ `@/data/mnt/${mnt_course.courseFilePath}`);
           setCourseData(dataModule.default);
           setLoading(false);
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
 
           // 3-2-1) 대체 방법: glob 방식 사용
-          const modules: Record<string, { default: MountainData }> = import.meta.glob("../../../data/mnt/**/*.json", {
+          const modules: Record<string, { default: MountainData }> = import.meta.glob("@/data/mnt/**/*.json", {
             eager: true,
           });
           // console.log("Available modules:", Object.keys(modules));
