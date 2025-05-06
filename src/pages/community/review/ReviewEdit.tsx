@@ -90,7 +90,6 @@ export default function ReviewEdit() {
             setInitialData(reviewData);
           } else {
             alert("해당 리뷰를 찾을 수 없습니다.");
-            navigate("/community/review");
             return;
           }
         }
