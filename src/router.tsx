@@ -15,6 +15,8 @@ import CrewRead from "./pages/community/crew/CrewRead";
 import ReviewRead from "./pages/community/review/ReviewRead";
 import Home from "./pages/home/Home";
 import CrewEdit from "./pages/community/crew/CrewEdit";
+import ReviewWrite from "./pages/community/review/ReviewWrite";
+import ReviewEdit from "./pages/community/review/ReviewEdit";
 import Loading from "./pages/loading/Loading";
 import NotFound from "./pages/error/NotFound";
 
@@ -37,6 +39,8 @@ const router = createBrowserRouter([
       { path: "community/crew/:crew_id/edit", element: <CrewEdit /> },
       { path: "community/crew/:crew_id", element: <CrewRead /> },
       { path: "community/review/:review_id", element: <ReviewRead /> },
+      { path: "community/review/write", element: <ReviewWrite /> },
+      { path: "community/review/:review_id/edit", element: <ReviewEdit /> },
       { path: "/rank", element: <Rank /> },
       { path: "/mypage", element: <Mypage /> },
       { path: "/loading", element: <Loading /> },

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import * as Styled from "./styled";
 import { Card } from "./Card";
-import { GreenBtn } from "../button/GreenBtn";
 import { Filter } from "../filter/Filter";
 
 interface CourseItem {
@@ -37,10 +36,6 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
     });
   };
 
-  const handleReviewClick = () => {
-    // 리뷰 작성 페이지로 이동
-  };
-
   return (
     <Styled.CardListWrapper>
       <Styled.CardListTopWrapper>
@@ -69,9 +64,6 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
           />
         ))}
       </Styled.CardsWrapper>
-      <Styled.CardListBottomWrapper>
-        <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
-      </Styled.CardListBottomWrapper>
     </Styled.CardListWrapper>
   );
 };
