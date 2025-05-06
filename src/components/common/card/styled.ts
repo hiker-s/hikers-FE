@@ -6,7 +6,6 @@ export const CardContainer = styled.div<{ $imgUrl?: string }>`
   border-radius: 0.625rem;
   overflow: hidden;
   position: relative;
-  cursor: pointer;
 
   ${({ $imgUrl }) =>
     $imgUrl
@@ -40,6 +39,10 @@ export const CardContent = styled.div<{ $hasImage?: boolean }>`
   padding: 1.25rem;
   color: ${({ $hasImage }) => ($hasImage ? "white" : "#333")};
   z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const CardTopWrapper = styled.div`
