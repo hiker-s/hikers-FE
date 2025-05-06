@@ -166,7 +166,8 @@ export const crewApi = {
 
   deleteCrew: async (id: number) => {
     const headers = getAuthHeader();
-    await axios.delete(`${baseURL}/api/crewpost/${id}`, { headers });
+    const response = await axios.delete(`${baseURL}/api/crewpost/${id}`, { headers });
+    alert(response.data.message);
     // console.log(response);
   },
 };

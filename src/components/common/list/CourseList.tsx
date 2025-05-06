@@ -31,9 +31,10 @@ type CourseListProps = {
 
 export default function CourseList({ title, course_data, onScrapToggle, filter, onTypeChange }: CourseListProps) {
   const navigate = useNavigate();
-  const onCourseItemClock = (itemId: number) => {
+  const onCourseItemClick = (itemId: number) => {
     // console.log(`${itemId} 아이템 조회로 이동`);
     navigate(`/courseInfo/${itemId}`);
+    // console.log(itemId);
   };
 
   const onScrapClick = (itemId: number, e: React.MouseEvent<SVGElement>) => {
@@ -70,7 +71,7 @@ export default function CourseList({ title, course_data, onScrapToggle, filter, 
                   time={item.course.time}
                   level={item.course.level}
                   is_scrapped={item.is_scrapped}
-                  onCourseItemClock={() => onCourseItemClock(item.course.id)}
+                  onCourseItemClock={() => onCourseItemClick(item.course.id)}
                   onScrapClick={(e) => onScrapClick(item.course.id, e)}
                 />
               );

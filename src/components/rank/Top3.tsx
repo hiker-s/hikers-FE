@@ -16,7 +16,7 @@ const Top3 = () => {
         const data = await rankApi.getRankers();
         setRankers(data);
 
-        console.log(data);
+        // console.log(data);
       } catch (error) {
         console.error("랭킹 가져오기 실패:", error);
       } finally {
