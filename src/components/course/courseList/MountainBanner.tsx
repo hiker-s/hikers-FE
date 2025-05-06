@@ -27,7 +27,7 @@ const MountainBanner = () => {
         const name = encodeURIComponent(data.mnt_name);
         const extensions = ["jpg", "jpeg", "JPG"];
         for (const ext of extensions) {
-          const imgPath = `/mntImg/${name}.${ext}`;
+          const imgPath = `/assets/mntImg/${name}.${ext}`;
           const res = await fetch(imgPath, { method: "HEAD" });
           if (res.ok) {
             setMntImg(imgPath);
