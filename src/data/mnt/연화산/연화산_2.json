@@ -1,0 +1,315 @@
+{
+  "mnt_id": 57,
+  "mnt_name": "연화산",
+  "course_id": 157,
+  "max_ele": 568.25,
+  "total_length_km": "7.9km",
+  "total_time": "1시간 39분",
+  "start_name": "옥천소류지 주차장",
+  "end_name": "옥천소류지 주차장",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 158.728,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.085262,
+          "lng": 128.260712,
+          "ele": 158.728
+        },
+        {
+          "lat": 35.085125,
+          "lng": 128.260452,
+          "ele": 159.131
+        }
+      ],
+      "color": "#94bb59",
+      "start_name": "옥천소류지 주차장 / 연화산 도립공원 등산안내도 / 옥천소류지",
+      "end_name": "연화1봉 가는길",
+      "length_meter": 62.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.085125,
+          "lng": 128.260452,
+          "ele": 159.131
+        },
+        {
+          "lat": 35.080399,
+          "lng": 128.256866,
+          "ele": 397.801
+        }
+      ],
+      "color": "#a2646b",
+      "start_name": "연화1봉 가는길",
+      "end_name": "갈림길",
+      "length_meter": 618.6,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.080399,
+          "lng": 128.256866,
+          "ele": 397.801
+        },
+        {
+          "lat": 35.078747,
+          "lng": 128.254959,
+          "ele": 519.486
+        }
+      ],
+      "color": "#5d7b25",
+      "start_name": "갈림길",
+      "end_name": "연화1봉",
+      "length_meter": 252.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.078747,
+          "lng": 128.254959,
+          "ele": 519.486
+        },
+        {
+          "lat": 35.078468,
+          "lng": 128.253891,
+          "ele": 477.15
+        }
+      ],
+      "color": "#7e7e39",
+      "start_name": "연화1봉 / 갈림길 / 평상1개",
+      "end_name": "연화2봉 가는길",
+      "length_meter": 107.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.078468,
+          "lng": 128.253891,
+          "ele": 477.15
+        },
+        {
+          "lat": 35.082298,
+          "lng": 128.238815,
+          "ele": 515.054
+        }
+      ],
+      "color": "#81bc03",
+      "start_name": "연화2봉 가는길",
+      "end_name": "연화2봉",
+      "length_meter": 1436.4,
+      "time_minute": 17
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.082298,
+          "lng": 128.238815,
+          "ele": 515.054
+        },
+        {
+          "lat": 35.081635,
+          "lng": 128.237167,
+          "ele": 514.945
+        }
+      ],
+      "color": "#2ea976",
+      "start_name": "연화2봉",
+      "end_name": "봉화대",
+      "length_meter": 167.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.081635,
+          "lng": 128.237167,
+          "ele": 514.945
+        },
+        {
+          "lat": 35.082298,
+          "lng": 128.238815,
+          "ele": 515.054
+        }
+      ],
+      "color": "#5823b6",
+      "start_name": "봉화대",
+      "end_name": "연화2봉",
+      "length_meter": 167.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.082298,
+          "lng": 128.238815,
+          "ele": 515.054
+        },
+        {
+          "lat": 35.078712,
+          "lng": 128.254929,
+          "ele": 521.591
+        }
+      ],
+      "color": "#8d2f08",
+      "start_name": "연화2봉",
+      "end_name": "갈림길",
+      "length_meter": 1519.6,
+      "time_minute": 18
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.078712,
+          "lng": 128.254929,
+          "ele": 521.591
+        },
+        {
+          "lat": 35.073162,
+          "lng": 128.259048,
+          "ele": 366.236
+        }
+      ],
+      "color": "#2815c5",
+      "start_name": "갈림길",
+      "end_name": "편백쉼터",
+      "length_meter": 722.0,
+      "time_minute": 9
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.073162,
+          "lng": 128.259048,
+          "ele": 366.236
+        },
+        {
+          "lat": 35.067818,
+          "lng": 128.260147,
+          "ele": 459.45
+        }
+      ],
+      "color": "#aba158",
+      "start_name": "편백쉼터",
+      "end_name": "갈림길",
+      "length_meter": 602.6,
+      "time_minute": 7
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.067818,
+          "lng": 128.260147,
+          "ele": 459.45
+        },
+        {
+          "lat": 35.070946,
+          "lng": 128.26503,
+          "ele": 564.766
+        }
+      ],
+      "color": "#c34a1b",
+      "start_name": "갈림길",
+      "end_name": "연화산",
+      "length_meter": 564.3,
+      "time_minute": 7
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.070946,
+          "lng": 128.26503,
+          "ele": 564.766
+        },
+        {
+          "lat": 35.073818,
+          "lng": 128.265625,
+          "ele": 411.7
+        }
+      ],
+      "color": "#879a69",
+      "start_name": "연화산",
+      "end_name": "갈림길",
+      "length_meter": 323.9,
+      "time_minute": 4
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.073818,
+          "lng": 128.265625,
+          "ele": 411.7
+        },
+        {
+          "lat": 35.079525,
+          "lng": 128.263931,
+          "ele": 285.307
+        }
+      ],
+      "color": "#9a4064",
+      "start_name": "갈림길",
+      "end_name": "백련암",
+      "length_meter": 653.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.079525,
+          "lng": 128.263931,
+          "ele": 285.307
+        },
+        {
+          "lat": 35.080982,
+          "lng": 128.262833,
+          "ele": 229.99
+        }
+      ],
+      "color": "#ad4cc5",
+      "start_name": "백련암",
+      "end_name": "옥천사",
+      "length_meter": 190.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.080982,
+          "lng": 128.262833,
+          "ele": 229.99
+        },
+        {
+          "lat": 35.085537,
+          "lng": 128.261108,
+          "ele": 174.071
+        }
+      ],
+      "color": "#c24d02",
+      "start_name": "옥천사 / 갈림길",
+      "end_name": "옥천소류지 주차장",
+      "length_meter": 532.6,
+      "time_minute": 8
+    }
+  ]
+}

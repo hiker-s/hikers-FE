@@ -1,0 +1,515 @@
+{
+  "mnt_id": 45,
+  "mnt_name": "변산",
+  "course_id": 118,
+  "max_ele": 311.816,
+  "total_length_km": "8.0km",
+  "total_time": "1시간 39분",
+  "start_name": "개암사주차장",
+  "end_name": "감불마을",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 76.046,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.660118,
+          "lng": 126.652946,
+          "ele": 80.331
+        },
+        {
+          "lat": 35.660576,
+          "lng": 126.652611,
+          "ele": 76.046
+        }
+      ],
+      "color": "#257e57",
+      "start_name": "개암사주차장 / 개암사입구 / 주차장옆",
+      "end_name": "개암사입구",
+      "length_meter": 111.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.660576,
+          "lng": 126.652611,
+          "ele": 76.046
+        },
+        {
+          "lat": 35.660954,
+          "lng": 126.651497,
+          "ele": 84.281
+        }
+      ],
+      "color": "#425282",
+      "start_name": "개암사입구 / 전나무숲",
+      "end_name": "전나무숲내",
+      "length_meter": 112.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.660954,
+          "lng": 126.651497,
+          "ele": 84.281
+        },
+        {
+          "lat": 35.661118,
+          "lng": 126.651093,
+          "ele": 77.867
+        }
+      ],
+      "color": "#58a49f",
+      "start_name": "전나무숲내",
+      "end_name": "전나무숲2",
+      "length_meter": 40.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.661118,
+          "lng": 126.651093,
+          "ele": 77.867
+        },
+        {
+          "lat": 35.661469,
+          "lng": 126.650146,
+          "ele": 84.628
+        }
+      ],
+      "color": "#c4b58f",
+      "start_name": "전나무숲2",
+      "end_name": "갈림길",
+      "length_meter": 94.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.661469,
+          "lng": 126.650146,
+          "ele": 84.628
+        },
+        {
+          "lat": 35.662357,
+          "lng": 126.64991,
+          "ele": 93.36
+        }
+      ],
+      "color": "#568300",
+      "start_name": "갈림길",
+      "end_name": "우금산 배경",
+      "length_meter": 101.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.662357,
+          "lng": 126.64991,
+          "ele": 93.36
+        },
+        {
+          "lat": 35.663128,
+          "lng": 126.650169,
+          "ele": 106.335
+        }
+      ],
+      "color": "#7b2833",
+      "start_name": "우금산 배경 / 개암사",
+      "end_name": "산행들머리",
+      "length_meter": 95.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.663128,
+          "lng": 126.650169,
+          "ele": 106.335
+        },
+        {
+          "lat": 35.667267,
+          "lng": 126.648903,
+          "ele": 311.816
+        }
+      ],
+      "color": "#0aaa8c",
+      "start_name": "산행들머리",
+      "end_name": "우금산성",
+      "length_meter": 474.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.667267,
+          "lng": 126.648903,
+          "ele": 311.816
+        },
+        {
+          "lat": 35.665314,
+          "lng": 126.643166,
+          "ele": 275.374
+        }
+      ],
+      "color": "#72ad30",
+      "start_name": "우금산성",
+      "end_name": "조망점 출입금지",
+      "length_meter": 561.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.665314,
+          "lng": 126.643166,
+          "ele": 275.374
+        },
+        {
+          "lat": 35.665058,
+          "lng": 126.641502,
+          "ele": 298.218
+        }
+      ],
+      "color": "#36273b",
+      "start_name": "조망점 출입금지",
+      "end_name": "내변산조망",
+      "length_meter": 153.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.665058,
+          "lng": 126.641502,
+          "ele": 298.218
+        },
+        {
+          "lat": 35.660988,
+          "lng": 126.64209,
+          "ele": 287.391
+        }
+      ],
+      "color": "#a7739d",
+      "start_name": "내변산조망",
+      "end_name": "갈림길",
+      "length_meter": 455.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.660988,
+          "lng": 126.64209,
+          "ele": 287.391
+        },
+        {
+          "lat": 35.656647,
+          "lng": 126.648018,
+          "ele": 217.112
+        }
+      ],
+      "color": "#2f6d52",
+      "start_name": "갈림길",
+      "end_name": "돌쉼터",
+      "length_meter": 721.0,
+      "time_minute": 9
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.656647,
+          "lng": 126.648018,
+          "ele": 217.112
+        },
+        {
+          "lat": 35.654072,
+          "lng": 126.650551,
+          "ele": 168.074
+        }
+      ],
+      "color": "#9c8e25",
+      "start_name": "돌쉼터 / 돌쉄터2",
+      "end_name": "돌쉄터3",
+      "length_meter": 366.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.654072,
+          "lng": 126.650551,
+          "ele": 168.074
+        },
+        {
+          "lat": 35.652615,
+          "lng": 126.651764,
+          "ele": 196.013
+        }
+      ],
+      "color": "#615591",
+      "start_name": "돌쉄터3 / 갈림길",
+      "end_name": "돌쉄터4",
+      "length_meter": 257.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.652615,
+          "lng": 126.651764,
+          "ele": 196.013
+        },
+        {
+          "lat": 35.650352,
+          "lng": 126.655899,
+          "ele": 243.791
+        }
+      ],
+      "color": "#82a633",
+      "start_name": "돌쉄터4 / 만석동방향",
+      "end_name": "만서동재",
+      "length_meter": 452.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.650352,
+          "lng": 126.655899,
+          "ele": 243.791
+        },
+        {
+          "lat": 35.647942,
+          "lng": 126.652573,
+          "ele": 222.376
+        }
+      ],
+      "color": "#be68a4",
+      "start_name": "만서동재",
+      "end_name": "쉄터",
+      "length_meter": 402.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.647942,
+          "lng": 126.652573,
+          "ele": 222.376
+        },
+        {
+          "lat": 35.644482,
+          "lng": 126.654564,
+          "ele": 115.301
+        }
+      ],
+      "color": "#6d217f",
+      "start_name": "쉄터",
+      "end_name": "만석동",
+      "length_meter": 424.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.644482,
+          "lng": 126.654564,
+          "ele": 115.301
+        },
+        {
+          "lat": 35.643192,
+          "lng": 126.657486,
+          "ele": 93.206
+        }
+      ],
+      "color": "#126b6e",
+      "start_name": "만석동",
+      "end_name": "감불마을입구",
+      "length_meter": 300.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.643192,
+          "lng": 126.657486,
+          "ele": 93.206
+        },
+        {
+          "lat": 35.639751,
+          "lng": 126.65834,
+          "ele": 111.244
+        }
+      ],
+      "color": "#b2ba69",
+      "start_name": "감불마을입구",
+      "end_name": "감불쉄터1",
+      "length_meter": 390.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.639751,
+          "lng": 126.65834,
+          "ele": 111.244
+        },
+        {
+          "lat": 35.637218,
+          "lng": 126.657791,
+          "ele": 129.006
+        }
+      ],
+      "color": "#7ab604",
+      "start_name": "감불쉄터1",
+      "end_name": "시내뷰",
+      "length_meter": 286.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.637218,
+          "lng": 126.657791,
+          "ele": 129.006
+        },
+        {
+          "lat": 35.635708,
+          "lng": 126.65625,
+          "ele": 138.759
+        }
+      ],
+      "color": "#287637",
+      "start_name": "시내뷰",
+      "end_name": "전망대",
+      "length_meter": 218.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.635708,
+          "lng": 126.65625,
+          "ele": 138.759
+        },
+        {
+          "lat": 35.635105,
+          "lng": 126.655144,
+          "ele": 152.175
+        }
+      ],
+      "color": "#552048",
+      "start_name": "전망대",
+      "end_name": "쉄터2",
+      "length_meter": 120.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.635105,
+          "lng": 126.655144,
+          "ele": 152.175
+        },
+        {
+          "lat": 35.631676,
+          "lng": 126.654678,
+          "ele": 195.317
+        }
+      ],
+      "color": "#57c0a4",
+      "start_name": "쉄터2",
+      "end_name": "쉄터4",
+      "length_meter": 383.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 35.631676,
+          "lng": 126.654678,
+          "ele": 195.317
+        },
+        {
+          "lat": 35.630478,
+          "lng": 126.651863,
+          "ele": 173.261
+        }
+      ],
+      "color": "#1a2a15",
+      "start_name": "쉄터4",
+      "end_name": "쉄터5",
+      "length_meter": 287.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 35.630478,
+          "lng": 126.651863,
+          "ele": 173.261
+        },
+        {
+          "lat": 35.629055,
+          "lng": 126.652161,
+          "ele": 163.745
+        }
+      ],
+      "color": "#47b93d",
+      "start_name": "쉄터5",
+      "end_name": "쉄터6",
+      "length_meter": 160.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 35.629055,
+          "lng": 126.652161,
+          "ele": 163.745
+        },
+        {
+          "lat": 35.620865,
+          "lng": 126.64772,
+          "ele": 77.385
+        }
+      ],
+      "color": "#969f94",
+      "start_name": "쉄터6",
+      "end_name": "감불마을",
+      "length_meter": 995.2,
+      "time_minute": 12
+    }
+  ]
+}

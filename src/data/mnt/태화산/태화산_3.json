@@ -1,0 +1,135 @@
+{
+  "mnt_id": 88,
+  "mnt_name": "태화산",
+  "course_id": 229,
+  "max_ele": 1044.541,
+  "total_length_km": "4.4km",
+  "total_time": "0시간 54분",
+  "start_name": "태화산 유아 숲 체험원",
+  "end_name": "태화산정상",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 238.523,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.146011,
+          "lng": 128.492233,
+          "ele": 238.523
+        },
+        {
+          "lat": 37.13168,
+          "lng": 128.503632,
+          "ele": 841.869
+        }
+      ],
+      "color": "#c7515b",
+      "start_name": "태화산 유아 숲 체험원",
+      "end_name": "갈림길",
+      "length_meter": 1886.9,
+      "time_minute": 23
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.13168,
+          "lng": 128.503632,
+          "ele": 841.869
+        },
+        {
+          "lat": 37.132839,
+          "lng": 128.503067,
+          "ele": 895.667
+        }
+      ],
+      "color": "#722678",
+      "start_name": "갈림길",
+      "end_name": "태화산성",
+      "length_meter": 138.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.132839,
+          "lng": 128.503067,
+          "ele": 895.667
+        },
+        {
+          "lat": 37.123077,
+          "lng": 128.490173,
+          "ele": 1035.431
+        }
+      ],
+      "color": "#ae4752",
+      "start_name": "태화산성",
+      "end_name": "쉼터",
+      "length_meter": 1576.4,
+      "time_minute": 19
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.123077,
+          "lng": 128.490173,
+          "ele": 1035.431
+        },
+        {
+          "lat": 37.121571,
+          "lng": 128.489334,
+          "ele": 1044.541
+        }
+      ],
+      "color": "#1d3c4c",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 183.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.121571,
+          "lng": 128.489334,
+          "ele": 1044.541
+        },
+        {
+          "lat": 37.117867,
+          "lng": 128.486526,
+          "ele": 1040.235
+        }
+      ],
+      "color": "#aa9a7e",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 481.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.117867,
+          "lng": 128.486526,
+          "ele": 1040.235
+        },
+        {
+          "lat": 37.117607,
+          "lng": 128.485626,
+          "ele": 1041.127
+        }
+      ],
+      "color": "#131980",
+      "start_name": "쉼터",
+      "end_name": "태화산정상",
+      "length_meter": 84.9,
+      "time_minute": 1
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "mnt_id": 58,
+  "mnt_name": "오대산",
+  "course_id": 162,
+  "max_ele": 1457.957,
+  "total_length_km": "1.6km",
+  "total_time": "0시간 19분",
+  "start_name": "진고개탐방지원센터",
+  "end_name": "동대산 정상",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 980.558,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.76638,
+          "lng": 128.611435,
+          "ele": 983.79
+        },
+        {
+          "lat": 37.765766,
+          "lng": 128.611771,
+          "ele": 980.558
+        }
+      ],
+      "color": "#2d768f",
+      "start_name": "진고개탐방지원센터 / 오대산 진고개훠게소 주차장",
+      "end_name": "진고개정상휴게소",
+      "length_meter": 76.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.765766,
+          "lng": 128.611771,
+          "ele": 980.558
+        },
+        {
+          "lat": 37.766354,
+          "lng": 128.61145,
+          "ele": 982.293
+        }
+      ],
+      "color": "#6dae93",
+      "start_name": "진고개정상휴게소",
+      "end_name": "진고개화장실",
+      "length_meter": 71.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.766354,
+          "lng": 128.61145,
+          "ele": 982.293
+        },
+        {
+          "lat": 37.773502,
+          "lng": 128.59903,
+          "ele": 1441.156
+        }
+      ],
+      "color": "#b98072",
+      "start_name": "진고개화장실",
+      "end_name": "갈림길",
+      "length_meter": 1350.4,
+      "time_minute": 16
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.773502,
+          "lng": 128.59903,
+          "ele": 1441.156
+        },
+        {
+          "lat": 37.774097,
+          "lng": 128.599045,
+          "ele": 1457.957
+        }
+      ],
+      "color": "#01450b",
+      "start_name": "갈림길",
+      "end_name": "동대산 정상",
+      "length_meter": 66.2,
+      "time_minute": 0
+    }
+  ]
+}

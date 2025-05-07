@@ -1,0 +1,195 @@
+{
+  "mnt_id": 92,
+  "mnt_name": "한라산",
+  "course_id": 238,
+  "max_ele": 829.559,
+  "total_length_km": "4.1km",
+  "total_time": "0시간 50분",
+  "start_name": "서귀포자연휴양림 정류장",
+  "end_name": "돌오름입구 쉼터",
+  "level": "하",
+  "course_name": "초록오름 코스",
+  "min_ele": 717.312,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 33.311928,
+          "lng": 126.457382,
+          "ele": 734.375
+        },
+        {
+          "lat": 33.31221,
+          "lng": 126.455849,
+          "ele": 717.312
+        }
+      ],
+      "color": "#85616b",
+      "start_name": "서귀포자연휴양림 정류장 / 돌오름길 입구",
+      "end_name": "돌오름길 입구 안내소",
+      "length_meter": 149.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 33.31221,
+          "lng": 126.455849,
+          "ele": 717.312
+        },
+        {
+          "lat": 33.325329,
+          "lng": 126.452011,
+          "ele": 820.581
+        }
+      ],
+      "color": "#8f97a5",
+      "start_name": "돌오름길 입구 안내소 / 돌오름길 입구 화징실 / 제주조릿대구간",
+      "end_name": "계곡",
+      "length_meter": 1507.9,
+      "time_minute": 25
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 33.325329,
+          "lng": 126.452011,
+          "ele": 820.581
+        },
+        {
+          "lat": 33.324928,
+          "lng": 126.449638,
+          "ele": 815.947
+        }
+      ],
+      "color": "#7d3d10",
+      "start_name": "계곡 / 판삼절리 하천 / 판상절리 하천",
+      "end_name": "용바위",
+      "length_meter": 227.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 33.324928,
+          "lng": 126.449638,
+          "ele": 815.947
+        },
+        {
+          "lat": 33.33176,
+          "lng": 126.442581,
+          "ele": 829.559
+        }
+      ],
+      "color": "#132b8d",
+      "start_name": "용바위",
+      "end_name": "표고버섯재배장",
+      "length_meter": 1003.5,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 33.33176,
+          "lng": 126.442581,
+          "ele": 829.559
+        },
+        {
+          "lat": 33.330288,
+          "lng": 126.440605,
+          "ele": 818.118
+        }
+      ],
+      "color": "#457c52",
+      "start_name": "표고버섯재배장",
+      "end_name": "갈림길",
+      "length_meter": 246.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 33.330288,
+          "lng": 126.440605,
+          "ele": 818.118
+        },
+        {
+          "lat": 33.331505,
+          "lng": 126.439354,
+          "ele": 809.329
+        }
+      ],
+      "color": "#96667d",
+      "start_name": "갈림길",
+      "end_name": "삼나무 군락치",
+      "length_meter": 178.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 33.331505,
+          "lng": 126.439354,
+          "ele": 809.329
+        },
+        {
+          "lat": 33.333439,
+          "lng": 126.435097,
+          "ele": 795.743
+        }
+      ],
+      "color": "#18a3c2",
+      "start_name": "삼나무 군락치",
+      "end_name": "계곡",
+      "length_meter": 450.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 33.333439,
+          "lng": 126.435097,
+          "ele": 795.743
+        },
+        {
+          "lat": 33.335209,
+          "lng": 126.432762,
+          "ele": 807.878
+        }
+      ],
+      "color": "#3d8b60",
+      "start_name": "계곡",
+      "end_name": "보림농장삼거리 쉼터",
+      "length_meter": 292.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 33.335209,
+          "lng": 126.432762,
+          "ele": 807.878
+        },
+        {
+          "lat": 33.335209,
+          "lng": 126.432762,
+          "ele": 807.878
+        }
+      ],
+      "color": "#45a6ba",
+      "start_name": "보림농장삼거리 쉼터",
+      "end_name": "돌오름입구 쉼터",
+      "length_meter": 0.0,
+      "time_minute": 0
+    }
+  ]
+}

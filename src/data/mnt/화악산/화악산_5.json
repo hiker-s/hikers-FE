@@ -1,0 +1,155 @@
+{
+  "mnt_id": 93,
+  "mnt_name": "화악산",
+  "course_id": 241,
+  "max_ele": 1198.242,
+  "total_length_km": "5.5km",
+  "total_time": "1시간 9분",
+  "start_name": "매봉(응봉)",
+  "end_name": "촉대봉",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 443.752,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.979198,
+          "lng": 127.52655,
+          "ele": 443.752
+        },
+        {
+          "lat": 37.981941,
+          "lng": 127.526886,
+          "ele": 481.471
+        }
+      ],
+      "color": "#72116d",
+      "start_name": "매봉(응봉)",
+      "end_name": "화악산 신선봉",
+      "length_meter": 306.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.981941,
+          "lng": 127.526886,
+          "ele": 481.471
+        },
+        {
+          "lat": 37.997108,
+          "lng": 127.525948,
+          "ele": 848.986
+        }
+      ],
+      "color": "#0e61a8",
+      "start_name": "화악산 신선봉",
+      "end_name": "쌈지공원",
+      "length_meter": 1688.5,
+      "time_minute": 21
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.997108,
+          "lng": 127.525948,
+          "ele": 848.986
+        },
+        {
+          "lat": 37.996887,
+          "lng": 127.526184,
+          "ele": 853.941
+        }
+      ],
+      "color": "#952424",
+      "start_name": "쌈지공원",
+      "end_name": "쌈지공원 팔각정",
+      "length_meter": 32.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.996887,
+          "lng": 127.526184,
+          "ele": 853.941
+        },
+        {
+          "lat": 37.998997,
+          "lng": 127.524376,
+          "ele": 965.052
+        }
+      ],
+      "color": "#6a7078",
+      "start_name": "쌈지공원 팔각정",
+      "end_name": "갈림길",
+      "length_meter": 283.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.998997,
+          "lng": 127.524376,
+          "ele": 965.052
+        },
+        {
+          "lat": 37.98658,
+          "lng": 127.544815,
+          "ele": 1198.242
+        }
+      ],
+      "color": "#504d47",
+      "start_name": "갈림길",
+      "end_name": "기암",
+      "length_meter": 2261.5,
+      "time_minute": 28
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.98658,
+          "lng": 127.544815,
+          "ele": 1198.242
+        },
+        {
+          "lat": 37.978379,
+          "lng": 127.547877,
+          "ele": 1187.358
+        }
+      ],
+      "color": "#5b102f",
+      "start_name": "기암",
+      "end_name": "웨이포인트 16",
+      "length_meter": 950.6,
+      "time_minute": 11
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.978379,
+          "lng": 127.547877,
+          "ele": 1187.358
+        },
+        {
+          "lat": 37.978458,
+          "lng": 127.547859,
+          "ele": 1181.303
+        }
+      ],
+      "color": "#002775",
+      "start_name": "웨이포인트 16 / 웨이포인트 17 / 웨이포인트 18",
+      "end_name": "촉대봉",
+      "length_meter": 8.9,
+      "time_minute": 0
+    }
+  ]
+}

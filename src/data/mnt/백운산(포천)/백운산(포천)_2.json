@@ -1,0 +1,355 @@
+{
+  "mnt_id": 44,
+  "mnt_name": "백운산(포천)",
+  "course_id": 112,
+  "max_ele": 969.865,
+  "total_length_km": "8.9km",
+  "total_time": "1시간 51분",
+  "start_name": "광덕고개",
+  "end_name": "백운산 계곡",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 277.863,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.099846,
+          "lng": 127.443733,
+          "ele": 647.258
+        },
+        {
+          "lat": 38.090691,
+          "lng": 127.445412,
+          "ele": 758.375
+        }
+      ],
+      "color": "#3b6c50",
+      "start_name": "광덕고개",
+      "end_name": "고개 쉼터",
+      "length_meter": 1028.5,
+      "time_minute": 12
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.090691,
+          "lng": 127.445412,
+          "ele": 758.375
+        },
+        {
+          "lat": 38.084938,
+          "lng": 127.446037,
+          "ele": 749.273
+        }
+      ],
+      "color": "#6428a9",
+      "start_name": "고개 쉼터",
+      "end_name": "헬기장",
+      "length_meter": 642.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.084938,
+          "lng": 127.446037,
+          "ele": 749.273
+        },
+        {
+          "lat": 38.082451,
+          "lng": 127.446648,
+          "ele": 801.421
+        }
+      ],
+      "color": "#b21cb6",
+      "start_name": "헬기장",
+      "end_name": "언덕",
+      "length_meter": 281.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.082451,
+          "lng": 127.446648,
+          "ele": 801.421
+        },
+        {
+          "lat": 38.080013,
+          "lng": 127.447182,
+          "ele": 882.054
+        }
+      ],
+      "color": "#723395",
+      "start_name": "언덕",
+      "end_name": "쉼터",
+      "length_meter": 275.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.080013,
+          "lng": 127.447182,
+          "ele": 882.054
+        },
+        {
+          "lat": 38.074852,
+          "lng": 127.444565,
+          "ele": 918.009
+        }
+      ],
+      "color": "#575217",
+      "start_name": "쉼터",
+      "end_name": "백운산",
+      "length_meter": 617.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.074852,
+          "lng": 127.444565,
+          "ele": 918.009
+        },
+        {
+          "lat": 38.067657,
+          "lng": 127.446724,
+          "ele": 938.901
+        }
+      ],
+      "color": "#99bd4e",
+      "start_name": "백운산",
+      "end_name": "삼각봉",
+      "length_meter": 822.1,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.067657,
+          "lng": 127.446724,
+          "ele": 938.901
+        },
+        {
+          "lat": 38.058552,
+          "lng": 127.44384,
+          "ele": 969.865
+        }
+      ],
+      "color": "#965042",
+      "start_name": "삼각봉 / 쉼터",
+      "end_name": "도마치봉",
+      "length_meter": 1044.8,
+      "time_minute": 17
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 38.058552,
+          "lng": 127.44384,
+          "ele": 969.865
+        },
+        {
+          "lat": 38.060486,
+          "lng": 127.434608,
+          "ele": 727.017
+        }
+      ],
+      "color": "#ac1886",
+      "start_name": "도마치봉",
+      "end_name": "황룡사 사거리",
+      "length_meter": 836.4,
+      "time_minute": 10
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 38.060486,
+          "lng": 127.434608,
+          "ele": 727.017
+        },
+        {
+          "lat": 38.060337,
+          "lng": 127.431488,
+          "ele": 804.338
+        }
+      ],
+      "color": "#87a94d",
+      "start_name": "황룡사 사거리",
+      "end_name": "향적봉",
+      "length_meter": 273.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 38.060337,
+          "lng": 127.431488,
+          "ele": 804.338
+        },
+        {
+          "lat": 38.05793,
+          "lng": 127.427666,
+          "ele": 776.302
+        }
+      ],
+      "color": "#74c53b",
+      "start_name": "향적봉",
+      "end_name": "쉼터",
+      "length_meter": 428.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 38.05793,
+          "lng": 127.427666,
+          "ele": 776.302
+        },
+        {
+          "lat": 38.057854,
+          "lng": 127.425377,
+          "ele": 711.786
+        }
+      ],
+      "color": "#4d1bc3",
+      "start_name": "쉼터",
+      "end_name": "흥룡사 가는길",
+      "length_meter": 200.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 38.057854,
+          "lng": 127.425377,
+          "ele": 711.786
+        },
+        {
+          "lat": 38.057812,
+          "lng": 127.424446,
+          "ele": 753.01
+        }
+      ],
+      "color": "#149209",
+      "start_name": "흥룡사 가는길",
+      "end_name": "흥룡봉",
+      "length_meter": 81.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 38.057812,
+          "lng": 127.424446,
+          "ele": 753.01
+        },
+        {
+          "lat": 38.060379,
+          "lng": 127.417709,
+          "ele": 607.945
+        }
+      ],
+      "color": "#b13917",
+      "start_name": "흥룡봉 / 헬기장",
+      "end_name": "649봉",
+      "length_meter": 657.1,
+      "time_minute": 10
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 38.060379,
+          "lng": 127.417709,
+          "ele": 607.945
+        },
+        {
+          "lat": 38.069088,
+          "lng": 127.414993,
+          "ele": 322.058
+        }
+      ],
+      "color": "#af13c3",
+      "start_name": "649봉",
+      "end_name": "계곡",
+      "length_meter": 997.2,
+      "time_minute": 12
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 38.069088,
+          "lng": 127.414993,
+          "ele": 322.058
+        },
+        {
+          "lat": 38.070938,
+          "lng": 127.410622,
+          "ele": 292.303
+        }
+      ],
+      "color": "#2f4051",
+      "start_name": "계곡 / 안내 표지판",
+      "end_name": "흥룡사 사찰",
+      "length_meter": 448.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 38.070938,
+          "lng": 127.410622,
+          "ele": 292.303
+        },
+        {
+          "lat": 38.072224,
+          "lng": 127.409714,
+          "ele": 281.298
+        }
+      ],
+      "color": "#a7556f",
+      "start_name": "흥룡사 사찰",
+      "end_name": "흥룡사 주차장",
+      "length_meter": 163.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 38.072224,
+          "lng": 127.409714,
+          "ele": 281.298
+        },
+        {
+          "lat": 38.073212,
+          "lng": 127.409058,
+          "ele": 277.863
+        }
+      ],
+      "color": "#ad458a",
+      "start_name": "흥룡사 주차장 / 주차장 안내",
+      "end_name": "백운산 계곡",
+      "length_meter": 125.7,
+      "time_minute": 1
+    }
+  ]
+}

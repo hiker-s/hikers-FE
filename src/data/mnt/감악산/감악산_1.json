@@ -1,0 +1,315 @@
+{
+  "mnt_id": 5,
+  "mnt_name": "감악산",
+  "course_id": 15,
+  "max_ele": 670.0,
+  "total_length_km": "3.3km",
+  "total_time": "0시간 41분",
+  "start_name": "보리암과 돌탑",
+  "end_name": "출렁다리",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.938065,
+          "lng": 126.963081,
+          "ele": 514.0
+        },
+        {
+          "lat": 37.93858,
+          "lng": 126.962601,
+          "ele": 512.0
+        }
+      ],
+      "color": "#b60096",
+      "start_name": "보리암과 돌탑",
+      "end_name": "보리암입구",
+      "length_meter": 71.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.93858,
+          "lng": 126.962601,
+          "ele": 512.0
+        },
+        {
+          "lat": 37.939396,
+          "lng": 126.963776,
+          "ele": 577.0
+        }
+      ],
+      "color": "#046717",
+      "start_name": "보리암입구",
+      "end_name": "갈림길",
+      "length_meter": 137.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.939396,
+          "lng": 126.963776,
+          "ele": 577.0
+        },
+        {
+          "lat": 37.938747,
+          "lng": 126.965866,
+          "ele": 638.0
+        }
+      ],
+      "color": "#05528f",
+      "start_name": "갈림길",
+      "end_name": "바위문",
+      "length_meter": 197.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.938747,
+          "lng": 126.965866,
+          "ele": 638.0
+        },
+        {
+          "lat": 37.939152,
+          "lng": 126.967239,
+          "ele": 670.0
+        }
+      ],
+      "color": "#b34916",
+      "start_name": "바위문 / 저수지경관 / 1",
+      "end_name": "장군봉",
+      "length_meter": 145.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.939152,
+          "lng": 126.967239,
+          "ele": 670.0
+        },
+        {
+          "lat": 37.939205,
+          "lng": 126.968262,
+          "ele": 670.0
+        }
+      ],
+      "color": "#2fc299",
+      "start_name": "장군봉",
+      "end_name": "갈림길",
+      "length_meter": 89.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.939205,
+          "lng": 126.968262,
+          "ele": 670.0
+        },
+        {
+          "lat": 37.942471,
+          "lng": 126.965034,
+          "ele": 584.0
+        }
+      ],
+      "color": "#6577c6",
+      "start_name": "갈림길",
+      "end_name": "까치봉",
+      "length_meter": 460.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.942471,
+          "lng": 126.965034,
+          "ele": 584.0
+        },
+        {
+          "lat": 37.93985,
+          "lng": 126.956825,
+          "ele": 340.0
+        }
+      ],
+      "color": "#aabb20",
+      "start_name": "까치봉 / 전망대",
+      "end_name": "쉼터",
+      "length_meter": 777.5,
+      "time_minute": 12
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.93985,
+          "lng": 126.956825,
+          "ele": 340.0
+        },
+        {
+          "lat": 37.939182,
+          "lng": 126.954933,
+          "ele": 284.0
+        }
+      ],
+      "color": "#5d5f4a",
+      "start_name": "쉼터",
+      "end_name": "사방댐",
+      "length_meter": 181.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.939182,
+          "lng": 126.954933,
+          "ele": 284.0
+        },
+        {
+          "lat": 37.939617,
+          "lng": 126.949608,
+          "ele": 247.0
+        }
+      ],
+      "color": "#b8263a",
+      "start_name": "사방댐 / 사방댐계곡",
+      "end_name": "쉼터",
+      "length_meter": 475.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.939617,
+          "lng": 126.949608,
+          "ele": 247.0
+        },
+        {
+          "lat": 37.939251,
+          "lng": 126.949394,
+          "ele": 232.0
+        }
+      ],
+      "color": "#0b5380",
+      "start_name": "쉼터 / 출렁다리 / 운계폭포",
+      "end_name": "전망대",
+      "length_meter": 96.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.939251,
+          "lng": 126.949394,
+          "ele": 232.0
+        },
+        {
+          "lat": 37.938309,
+          "lng": 126.952019,
+          "ele": 0.0
+        }
+      ],
+      "color": "#7568b2",
+      "start_name": "전망대",
+      "end_name": "범륜사",
+      "length_meter": 252.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.938309,
+          "lng": 126.952019,
+          "ele": 0.0
+        },
+        {
+          "lat": 37.93816,
+          "lng": 126.949959,
+          "ele": 230.0
+        }
+      ],
+      "color": "#6f8b39",
+      "start_name": "범륜사",
+      "end_name": "1",
+      "length_meter": 181.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.93816,
+          "lng": 126.949959,
+          "ele": 230.0
+        },
+        {
+          "lat": 37.938087,
+          "lng": 126.949471,
+          "ele": 209.0
+        }
+      ],
+      "color": "#c78a05",
+      "start_name": "1 / 운계폭포",
+      "end_name": "1",
+      "length_meter": 92.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.938087,
+          "lng": 126.949471,
+          "ele": 209.0
+        },
+        {
+          "lat": 37.93758,
+          "lng": 126.947983,
+          "ele": 205.0
+        }
+      ],
+      "color": "#9c6cc4",
+      "start_name": "1",
+      "end_name": "갈림길",
+      "length_meter": 142.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.93758,
+          "lng": 126.947983,
+          "ele": 205.0
+        },
+        {
+          "lat": 37.937672,
+          "lng": 126.94751,
+          "ele": 202.0
+        }
+      ],
+      "color": "#920714",
+      "start_name": "갈림길",
+      "end_name": "출렁다리",
+      "length_meter": 42.7,
+      "time_minute": 0
+    }
+  ]
+}

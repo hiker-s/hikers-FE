@@ -1,0 +1,75 @@
+{
+  "mnt_id": 95,
+  "mnt_name": "황매산",
+  "course_id": 252,
+  "max_ele": 904.379,
+  "total_length_km": "0.5km",
+  "total_time": "0시간 6분",
+  "start_name": "황매산 영화주제공원",
+  "end_name": "정자",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 789.579,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.487099,
+          "lng": 127.968697,
+          "ele": 793.358
+        },
+        {
+          "lat": 35.486969,
+          "lng": 127.969223,
+          "ele": 789.579
+        }
+      ],
+      "color": "#326993",
+      "start_name": "황매산 영화주제공원 / 황매산 군립공원",
+      "end_name": "신촌식당",
+      "length_meter": 51.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.486969,
+          "lng": 127.969223,
+          "ele": 789.579
+        },
+        {
+          "lat": 35.485504,
+          "lng": 127.971275,
+          "ele": 812.407
+        }
+      ],
+      "color": "#6e1005",
+      "start_name": "신촌식당",
+      "end_name": "갈림길",
+      "length_meter": 247.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.485504,
+          "lng": 127.971275,
+          "ele": 812.407
+        },
+        {
+          "lat": 35.487213,
+          "lng": 127.972328,
+          "ele": 851.22
+        }
+      ],
+      "color": "#518d96",
+      "start_name": "갈림길",
+      "end_name": "정자",
+      "length_meter": 212.6,
+      "time_minute": 2
+    }
+  ]
+}

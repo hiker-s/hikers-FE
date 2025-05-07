@@ -1,0 +1,195 @@
+{
+  "mnt_id": 97,
+  "mnt_name": "황악산",
+  "course_id": 256,
+  "max_ele": 960.445,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "극락전주차장",
+  "end_name": "내원계곡폭포",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 247.742,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.116108,
+          "lng": 128.001495,
+          "ele": 247.742
+        },
+        {
+          "lat": 36.11512,
+          "lng": 128.000046,
+          "ele": 268.154
+        }
+      ],
+      "color": "#098075",
+      "start_name": "극락전주차장",
+      "end_name": "황악산이정표",
+      "length_meter": 170.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.11512,
+          "lng": 128.000046,
+          "ele": 268.154
+        },
+        {
+          "lat": 36.110046,
+          "lng": 127.992935,
+          "ele": 586.501
+        }
+      ],
+      "color": "#538552",
+      "start_name": "황악산이정표",
+      "end_name": "망월봉",
+      "length_meter": 852.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.110046,
+          "lng": 127.992935,
+          "ele": 586.501
+        },
+        {
+          "lat": 36.110054,
+          "lng": 127.992912,
+          "ele": 592.861
+        }
+      ],
+      "color": "#124e48",
+      "start_name": "망월봉",
+      "end_name": "망월봉쉼터",
+      "length_meter": 2.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.110054,
+          "lng": 127.992912,
+          "ele": 592.861
+        },
+        {
+          "lat": 36.108749,
+          "lng": 127.989655,
+          "ele": 594.575
+        }
+      ],
+      "color": "#b49fb5",
+      "start_name": "망월봉쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 337.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.108749,
+          "lng": 127.989655,
+          "ele": 594.575
+        },
+        {
+          "lat": 36.103855,
+          "lng": 127.980324,
+          "ele": 952.408
+        }
+      ],
+      "color": "#7fb5bc",
+      "start_name": "쉼터",
+      "end_name": "신선봉",
+      "length_meter": 999.4,
+      "time_minute": 12
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.103855,
+          "lng": 127.980324,
+          "ele": 952.408
+        },
+        {
+          "lat": 36.104321,
+          "lng": 127.977654,
+          "ele": 920.704
+        }
+      ],
+      "color": "#754a7a",
+      "start_name": "신선봉 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 245.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.104321,
+          "lng": 127.977654,
+          "ele": 920.704
+        },
+        {
+          "lat": 36.105808,
+          "lng": 127.972198,
+          "ele": 935.832
+        }
+      ],
+      "color": "#349290",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 517.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.105808,
+          "lng": 127.972198,
+          "ele": 935.832
+        },
+        {
+          "lat": 36.109535,
+          "lng": 127.974953,
+          "ele": 693.085
+        }
+      ],
+      "color": "#720ab6",
+      "start_name": "갈림길",
+      "end_name": "내원계곡과 등산로합류점",
+      "length_meter": 482.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.109535,
+          "lng": 127.974953,
+          "ele": 693.085
+        },
+        {
+          "lat": 36.111649,
+          "lng": 127.980774,
+          "ele": 560.465
+        }
+      ],
+      "color": "#00b122",
+      "start_name": "내원계곡과 등산로합류점",
+      "end_name": "내원계곡폭포",
+      "length_meter": 573.3,
+      "time_minute": 7
+    }
+  ]
+}

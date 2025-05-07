@@ -1,0 +1,175 @@
+{
+  "mnt_id": 29,
+  "mnt_name": "마니산",
+  "course_id": 74,
+  "max_ele": 488.028,
+  "total_length_km": "2.3km",
+  "total_time": "0시간 29분",
+  "start_name": "마니산입구",
+  "end_name": "마니산정상",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 32.471,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.633873,
+          "lng": 126.423439,
+          "ele": 32.471
+        },
+        {
+          "lat": 37.633591,
+          "lng": 126.4235,
+          "ele": 41.359
+        }
+      ],
+      "color": "#a8866a",
+      "start_name": "마니산입구 / 단골식당 / 마니산관광지 무료주차장",
+      "end_name": "GS25",
+      "length_meter": 69.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.633591,
+          "lng": 126.4235,
+          "ele": 41.359
+        },
+        {
+          "lat": 37.632526,
+          "lng": 126.423889,
+          "ele": 47.571
+        }
+      ],
+      "color": "#8c5e1d",
+      "start_name": "GS25 / 마니산국민관광지 입구",
+      "end_name": "마니산입구  매표소",
+      "length_meter": 130.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.632526,
+          "lng": 126.423889,
+          "ele": 47.571
+        },
+        {
+          "lat": 37.631157,
+          "lng": 126.424095,
+          "ele": 69.116
+        }
+      ],
+      "color": "#21428c",
+      "start_name": "마니산입구  매표소",
+      "end_name": "갈림길",
+      "length_meter": 153.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.631157,
+          "lng": 126.424095,
+          "ele": 69.116
+        },
+        {
+          "lat": 37.623241,
+          "lng": 126.42617,
+          "ele": 166.526
+        }
+      ],
+      "color": "#1fb313",
+      "start_name": "갈림길",
+      "end_name": "마니산약수터",
+      "length_meter": 899.0,
+      "time_minute": 11
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.623241,
+          "lng": 126.42617,
+          "ele": 166.526
+        },
+        {
+          "lat": 37.623604,
+          "lng": 126.426567,
+          "ele": 171.098
+        }
+      ],
+      "color": "#ab10c6",
+      "start_name": "마니산약수터",
+      "end_name": "쉼터",
+      "length_meter": 53.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.623604,
+          "lng": 126.426567,
+          "ele": 171.098
+        },
+        {
+          "lat": 37.615932,
+          "lng": 126.429649,
+          "ele": 476.434
+        }
+      ],
+      "color": "#661e61",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 895.2,
+      "time_minute": 11
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.615932,
+          "lng": 126.429649,
+          "ele": 476.434
+        },
+        {
+          "lat": 37.615543,
+          "lng": 126.430779,
+          "ele": 487.589
+        }
+      ],
+      "color": "#344a88",
+      "start_name": "갈림길 / 참성단",
+      "end_name": "정상",
+      "length_meter": 112.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.615543,
+          "lng": 126.430779,
+          "ele": 487.589
+        },
+        {
+          "lat": 37.615639,
+          "lng": 126.430664,
+          "ele": 488.028
+        }
+      ],
+      "color": "#76477a",
+      "start_name": "정상",
+      "end_name": "마니산정상",
+      "length_meter": 14.7,
+      "time_minute": 0
+    }
+  ]
+}

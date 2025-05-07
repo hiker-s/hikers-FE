@@ -1,0 +1,175 @@
+{
+  "mnt_id": 30,
+  "mnt_name": "마이산",
+  "course_id": 76,
+  "max_ele": 514.111,
+  "total_length_km": "1.5km",
+  "total_time": "0시간 18분",
+  "start_name": "가위박물관",
+  "end_name": "마이산 조망점",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 366.111,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.767159,
+          "lng": 127.413429,
+          "ele": 366.111
+        },
+        {
+          "lat": 35.765533,
+          "lng": 127.414917,
+          "ele": 394.249
+        }
+      ],
+      "color": "#5b530a",
+      "start_name": "가위박물관",
+      "end_name": "마이사 쉼터",
+      "length_meter": 225.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.765533,
+          "lng": 127.414917,
+          "ele": 394.249
+        },
+        {
+          "lat": 35.763306,
+          "lng": 127.415161,
+          "ele": 439.105
+        }
+      ],
+      "color": "#1c12ab",
+      "start_name": "마이사 쉼터 / 마이산안내판",
+      "end_name": "계단중간쉼터",
+      "length_meter": 250.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.763306,
+          "lng": 127.415161,
+          "ele": 439.105
+        },
+        {
+          "lat": 35.761501,
+          "lng": 127.414497,
+          "ele": 502.449
+        }
+      ],
+      "color": "#144bb0",
+      "start_name": "계단중간쉼터",
+      "end_name": "천왕문",
+      "length_meter": 209.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.761501,
+          "lng": 127.414497,
+          "ele": 502.449
+        },
+        {
+          "lat": 35.761505,
+          "lng": 127.414459,
+          "ele": 514.111
+        }
+      ],
+      "color": "#175a33",
+      "start_name": "천왕문",
+      "end_name": "천왕문 분수령 쉼터",
+      "length_meter": 3.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.761505,
+          "lng": 127.414459,
+          "ele": 514.111
+        },
+        {
+          "lat": 35.762917,
+          "lng": 127.415665,
+          "ele": 487.073
+        }
+      ],
+      "color": "#8286bc",
+      "start_name": "천왕문 분수령 쉼터 / 갈림길",
+      "end_name": "연인의길시작 쉼터",
+      "length_meter": 195.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.762917,
+          "lng": 127.415665,
+          "ele": 487.073
+        },
+        {
+          "lat": 35.76593,
+          "lng": 127.417419,
+          "ele": 450.035
+        }
+      ],
+      "color": "#62abb2",
+      "start_name": "연인의길시작 쉼터",
+      "end_name": "쉼터",
+      "length_meter": 370.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.76593,
+          "lng": 127.417419,
+          "ele": 450.035
+        },
+        {
+          "lat": 35.767784,
+          "lng": 127.416008,
+          "ele": 463.911
+        }
+      ],
+      "color": "#8db24e",
+      "start_name": "쉼터",
+      "end_name": "마이산조망점 쉼터",
+      "length_meter": 242.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.767784,
+          "lng": 127.416008,
+          "ele": 463.911
+        },
+        {
+          "lat": 35.767788,
+          "lng": 127.416061,
+          "ele": 462.718
+        }
+      ],
+      "color": "#9e9f37",
+      "start_name": "마이산조망점 쉼터",
+      "end_name": "마이산 조망점",
+      "length_meter": 4.8,
+      "time_minute": 0
+    }
+  ]
+}

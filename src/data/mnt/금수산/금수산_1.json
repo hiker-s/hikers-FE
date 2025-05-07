@@ -1,0 +1,315 @@
+{
+  "mnt_id": 13,
+  "mnt_name": "금수산",
+  "course_id": 33,
+  "max_ele": 1043.833,
+  "total_length_km": "6.7km",
+  "total_time": "1시간 23분",
+  "start_name": "상천휴게소 주차장",
+  "end_name": "보문정사",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.964703,
+          "lng": 128.240112,
+          "ele": 221.892
+        },
+        {
+          "lat": 36.964947,
+          "lng": 128.239716,
+          "ele": 218.487
+        }
+      ],
+      "color": "#578275",
+      "start_name": "상천휴게소 주차장 / 금수산순두부",
+      "end_name": "매점",
+      "length_meter": 99.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.964947,
+          "lng": 128.239716,
+          "ele": 218.487
+        },
+        {
+          "lat": 36.970646,
+          "lng": 128.241531,
+          "ele": 299.781
+        }
+      ],
+      "color": "#83a6be",
+      "start_name": "매점 / 상천주차장 버스 정류장",
+      "end_name": "금슈산 상천코스 들머리",
+      "length_meter": 673.2,
+      "time_minute": 11
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.970646,
+          "lng": 128.241531,
+          "ele": 299.781
+        },
+        {
+          "lat": 36.972004,
+          "lng": 128.240967,
+          "ele": 290.2
+        }
+      ],
+      "color": "#a57f43",
+      "start_name": "금슈산 상천코스 들머리 / 갈림길",
+      "end_name": "계곡",
+      "length_meter": 159.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.972004,
+          "lng": 128.240967,
+          "ele": 290.2
+        },
+        {
+          "lat": 36.972702,
+          "lng": 128.240356,
+          "ele": 341.563
+        }
+      ],
+      "color": "#172368",
+      "start_name": "계곡",
+      "end_name": "용담폭포",
+      "length_meter": 94.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.972702,
+          "lng": 128.240356,
+          "ele": 341.563
+        },
+        {
+          "lat": 36.978508,
+          "lng": 128.240204,
+          "ele": 629.589
+        }
+      ],
+      "color": "#548a61",
+      "start_name": "용담폭포",
+      "end_name": "조망지점",
+      "length_meter": 645.7,
+      "time_minute": 8
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.978508,
+          "lng": 128.240204,
+          "ele": 629.589
+        },
+        {
+          "lat": 36.978512,
+          "lng": 128.240158,
+          "ele": 635.753
+        }
+      ],
+      "color": "#a1ac4a",
+      "start_name": "조망지점",
+      "end_name": "독수리바위",
+      "length_meter": 4.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.978512,
+          "lng": 128.240158,
+          "ele": 635.753
+        },
+        {
+          "lat": 36.986458,
+          "lng": 128.241318,
+          "ele": 950.289
+        }
+      ],
+      "color": "#2b486f",
+      "start_name": "독수리바위",
+      "end_name": "갈림길",
+      "length_meter": 889.5,
+      "time_minute": 11
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.986458,
+          "lng": 128.241318,
+          "ele": 950.289
+        },
+        {
+          "lat": 36.986404,
+          "lng": 128.240936,
+          "ele": 949.833
+        }
+      ],
+      "color": "#603c4b",
+      "start_name": "갈림길",
+      "end_name": "망덕봉",
+      "length_meter": 34.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.986404,
+          "lng": 128.240936,
+          "ele": 949.833
+        },
+        {
+          "lat": 36.986595,
+          "lng": 128.255814,
+          "ele": 974.136
+        }
+      ],
+      "color": "#5f5832",
+      "start_name": "망덕봉",
+      "end_name": "갈림길",
+      "length_meter": 1321.6,
+      "time_minute": 16
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.986595,
+          "lng": 128.255814,
+          "ele": 974.136
+        },
+        {
+          "lat": 36.985031,
+          "lng": 128.256729,
+          "ele": 1043.833
+        }
+      ],
+      "color": "#b63642",
+      "start_name": "갈림길 / 조망지점",
+      "end_name": "금수산정상",
+      "length_meter": 198.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.985031,
+          "lng": 128.256729,
+          "ele": 1043.833
+        },
+        {
+          "lat": 36.982075,
+          "lng": 128.256958,
+          "ele": 923.248
+        }
+      ],
+      "color": "#21c64d",
+      "start_name": "금수산정상",
+      "end_name": "갈림길",
+      "length_meter": 329.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.982075,
+          "lng": 128.256958,
+          "ele": 923.248
+        },
+        {
+          "lat": 36.977463,
+          "lng": 128.254242,
+          "ele": 658.855
+        }
+      ],
+      "color": "#afa94e",
+      "start_name": "갈림길",
+      "end_name": "낙석주의지점",
+      "length_meter": 566.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.977463,
+          "lng": 128.254242,
+          "ele": 658.855
+        },
+        {
+          "lat": 36.977245,
+          "lng": 128.253189,
+          "ele": 607.531
+        }
+      ],
+      "color": "#be5857",
+      "start_name": "낙석주의지점",
+      "end_name": "주의지점",
+      "length_meter": 96.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.977245,
+          "lng": 128.253189,
+          "ele": 607.531
+        },
+        {
+          "lat": 36.974777,
+          "lng": 128.247787,
+          "ele": 465.91
+        }
+      ],
+      "color": "#512885",
+      "start_name": "주의지점",
+      "end_name": "계곡",
+      "length_meter": 552.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.974777,
+          "lng": 128.247787,
+          "ele": 465.91
+        },
+        {
+          "lat": 36.968594,
+          "lng": 128.239517,
+          "ele": 0.0
+        }
+      ],
+      "color": "#062b59",
+      "start_name": "계곡",
+      "end_name": "보문정사",
+      "length_meter": 1006.2,
+      "time_minute": 12
+    }
+  ]
+}

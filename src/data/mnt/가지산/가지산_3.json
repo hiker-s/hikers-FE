@@ -1,0 +1,375 @@
+{
+  "mnt_id": 4,
+  "mnt_name": "가지산",
+  "course_id": 10,
+  "max_ele": 1152.106,
+  "total_length_km": "9.9km",
+  "total_time": "2시간 3분",
+  "start_name": "호박소 입구",
+  "end_name": "호박소 계곡",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 382.977,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.585705,
+          "lng": 128.995636,
+          "ele": 382.977
+        },
+        {
+          "lat": 35.586189,
+          "lng": 128.996597,
+          "ele": 388.398
+        }
+      ],
+      "color": "#65ae70",
+      "start_name": "호박소 입구 / 호박소 주차장",
+      "end_name": "백운산 백련사",
+      "length_meter": 105.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.586189,
+          "lng": 128.996597,
+          "ele": 388.398
+        },
+        {
+          "lat": 35.588387,
+          "lng": 128.991165,
+          "ele": 613.237
+        }
+      ],
+      "color": "#51219a",
+      "start_name": "백운산 백련사",
+      "end_name": "갈림길",
+      "length_meter": 548.6,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.588387,
+          "lng": 128.991165,
+          "ele": 613.237
+        },
+        {
+          "lat": 35.588879,
+          "lng": 128.990814,
+          "ele": 654.288
+        }
+      ],
+      "color": "#528e68",
+      "start_name": "갈림길 / 구조목 / 자연경관 / 얼음골 케이블카",
+      "end_name": "백호바위",
+      "length_meter": 69.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.588879,
+          "lng": 128.990814,
+          "ele": 654.288
+        },
+        {
+          "lat": 35.589619,
+          "lng": 128.990372,
+          "ele": 692.354
+        }
+      ],
+      "color": "#58b90a",
+      "start_name": "백호바위 / 자연경관",
+      "end_name": "릿지구간",
+      "length_meter": 94.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.589619,
+          "lng": 128.990372,
+          "ele": 692.354
+        },
+        {
+          "lat": 35.590343,
+          "lng": 128.987579,
+          "ele": 754.796
+        }
+      ],
+      "color": "#8c6a17",
+      "start_name": "릿지구간 / 웨이포인트 14 / 자연경관",
+      "end_name": "암릉구간",
+      "length_meter": 277.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.590343,
+          "lng": 128.987579,
+          "ele": 754.796
+        },
+        {
+          "lat": 35.590771,
+          "lng": 128.986282,
+          "ele": 782.8
+        }
+      ],
+      "color": "#7ab8b8",
+      "start_name": "암릉구간",
+      "end_name": "돌탑",
+      "length_meter": 126.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.590771,
+          "lng": 128.986282,
+          "ele": 782.8
+        },
+        {
+          "lat": 35.593288,
+          "lng": 128.98497,
+          "ele": 870.872
+        }
+      ],
+      "color": "#3d3e82",
+      "start_name": "돌탑",
+      "end_name": "표지석",
+      "length_meter": 304.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.593288,
+          "lng": 128.98497,
+          "ele": 870.872
+        },
+        {
+          "lat": 35.594078,
+          "lng": 128.984802,
+          "ele": 921.842
+        }
+      ],
+      "color": "#7482a8",
+      "start_name": "표지석 / 백운산 885m / 백운산 정상에서",
+      "end_name": "자연경관",
+      "length_meter": 96.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.594078,
+          "lng": 128.984802,
+          "ele": 921.842
+        },
+        {
+          "lat": 35.595219,
+          "lng": 128.984924,
+          "ele": 917.186
+        }
+      ],
+      "color": "#21afb6",
+      "start_name": "자연경관",
+      "end_name": "갈림길",
+      "length_meter": 127.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.595219,
+          "lng": 128.984924,
+          "ele": 917.186
+        },
+        {
+          "lat": 35.607796,
+          "lng": 128.983978,
+          "ele": 1084.647
+        }
+      ],
+      "color": "#99c365",
+      "start_name": "갈림길",
+      "end_name": "백운산 재약산 천황산",
+      "length_meter": 1401.1,
+      "time_minute": 17
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.607796,
+          "lng": 128.983978,
+          "ele": 1084.647
+        },
+        {
+          "lat": 35.607891,
+          "lng": 128.986008,
+          "ele": 1094.415
+        }
+      ],
+      "color": "#843985",
+      "start_name": "백운산 재약산 천황산",
+      "end_name": "구조목",
+      "length_meter": 183.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.607891,
+          "lng": 128.986008,
+          "ele": 1094.415
+        },
+        {
+          "lat": 35.608456,
+          "lng": 128.986923,
+          "ele": 1099.432
+        }
+      ],
+      "color": "#3a0380",
+      "start_name": "구조목",
+      "end_name": "가지산",
+      "length_meter": 103.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.608456,
+          "lng": 128.986923,
+          "ele": 1099.432
+        },
+        {
+          "lat": 35.609173,
+          "lng": 129.019745,
+          "ele": 733.703
+        }
+      ],
+      "color": "#300439",
+      "start_name": "가지산 / 자연경관",
+      "end_name": "석남터널",
+      "length_meter": 2977.3,
+      "time_minute": 49
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.609173,
+          "lng": 129.019745,
+          "ele": 733.703
+        },
+        {
+          "lat": 35.606586,
+          "lng": 129.017868,
+          "ele": 689.361
+        }
+      ],
+      "color": "#232707",
+      "start_name": "석남터널 / 쉼터",
+      "end_name": "쇠점골",
+      "length_meter": 334.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.606586,
+          "lng": 129.017868,
+          "ele": 689.361
+        },
+        {
+          "lat": 35.591038,
+          "lng": 129.005798,
+          "ele": 489.401
+        }
+      ],
+      "color": "#519e79",
+      "start_name": "쇠점골",
+      "end_name": "오천평반석",
+      "length_meter": 2044.5,
+      "time_minute": 25
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.591038,
+          "lng": 129.005798,
+          "ele": 489.401
+        },
+        {
+          "lat": 35.586765,
+          "lng": 128.997345,
+          "ele": 432.765
+        }
+      ],
+      "color": "#aba13b",
+      "start_name": "오천평반석",
+      "end_name": "쉼터",
+      "length_meter": 900.0,
+      "time_minute": 11
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.586765,
+          "lng": 128.997345,
+          "ele": 432.765
+        },
+        {
+          "lat": 35.587776,
+          "lng": 128.996536,
+          "ele": 408.453
+        }
+      ],
+      "color": "#9f1074",
+      "start_name": "쉼터",
+      "end_name": "호박소",
+      "length_meter": 134.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.587776,
+          "lng": 128.996536,
+          "ele": 408.453
+        },
+        {
+          "lat": 35.587475,
+          "lng": 128.996719,
+          "ele": 408.27
+        }
+      ],
+      "color": "#160259",
+      "start_name": "호박소",
+      "end_name": "호박소 계곡",
+      "length_meter": 37.3,
+      "time_minute": 0
+    }
+  ]
+}

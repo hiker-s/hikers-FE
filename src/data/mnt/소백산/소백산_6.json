@@ -1,0 +1,615 @@
+{
+  "mnt_id": 53,
+  "mnt_name": "소백산",
+  "course_id": 146,
+  "max_ele": 1460.108,
+  "total_length_km": "13.3km",
+  "total_time": "2시간 46분",
+  "start_name": "죽령휴게소 버스정류장",
+  "end_name": "천동계곡",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 728.58,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.898983,
+          "lng": 128.435394,
+          "ele": 783.198
+        },
+        {
+          "lat": 36.900116,
+          "lng": 128.434845,
+          "ele": 728.58
+        }
+      ],
+      "color": "#b66fbd",
+      "start_name": "죽령휴게소 버스정류장 / 소백산국립공원 죽령분소 / 죽령탐방로",
+      "end_name": "죽령탐방지원센터",
+      "length_meter": 142.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.900116,
+          "lng": 128.434845,
+          "ele": 728.58
+        },
+        {
+          "lat": 36.901875,
+          "lng": 128.437454,
+          "ele": 795.071
+        }
+      ],
+      "color": "#38b317",
+      "start_name": "죽령탐방지원센터",
+      "end_name": "이야기 쉼터",
+      "length_meter": 303.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.901875,
+          "lng": 128.437454,
+          "ele": 795.071
+        },
+        {
+          "lat": 36.904926,
+          "lng": 128.439331,
+          "ele": 875.59
+        }
+      ],
+      "color": "#06b861",
+      "start_name": "이야기 쉼터",
+      "end_name": "잣나무 쉼터",
+      "length_meter": 378.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.904926,
+          "lng": 128.439331,
+          "ele": 875.59
+        },
+        {
+          "lat": 36.908825,
+          "lng": 128.442307,
+          "ele": 929.22
+        }
+      ],
+      "color": "#368076",
+      "start_name": "잣나무 쉼터",
+      "end_name": "혜성쉼터",
+      "length_meter": 507.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.908825,
+          "lng": 128.442307,
+          "ele": 929.22
+        },
+        {
+          "lat": 36.912952,
+          "lng": 128.443787,
+          "ele": 1019.109
+        }
+      ],
+      "color": "#72aebc",
+      "start_name": "혜성쉼터",
+      "end_name": "천왕성 바람고개 전망대",
+      "length_meter": 477.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.912952,
+          "lng": 128.443787,
+          "ele": 1019.109
+        },
+        {
+          "lat": 36.926086,
+          "lng": 128.44162,
+          "ele": 1280.115
+        }
+      ],
+      "color": "#611204",
+      "start_name": "천왕성 바람고개 전망대",
+      "end_name": "갈림길",
+      "length_meter": 1473.1,
+      "time_minute": 18
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.926086,
+          "lng": 128.44162,
+          "ele": 1280.115
+        },
+        {
+          "lat": 36.929768,
+          "lng": 128.440277,
+          "ele": 1323.695
+        }
+      ],
+      "color": "#a36c56",
+      "start_name": "갈림길 / 백두대간 제2연화봉",
+      "end_name": "토성전망대",
+      "length_meter": 427.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.929768,
+          "lng": 128.440277,
+          "ele": 1323.695
+        },
+        {
+          "lat": 36.929573,
+          "lng": 128.447067,
+          "ele": 1317.603
+        }
+      ],
+      "color": "#b8957d",
+      "start_name": "토성전망대",
+      "end_name": "목성숲 쉼터",
+      "length_meter": 603.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.929573,
+          "lng": 128.447067,
+          "ele": 1317.603
+        },
+        {
+          "lat": 36.931541,
+          "lng": 128.453232,
+          "ele": 1294.972
+        }
+      ],
+      "color": "#be835c",
+      "start_name": "목성숲 쉼터",
+      "end_name": "소행성 남무쉼터",
+      "length_meter": 590.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.931541,
+          "lng": 128.453232,
+          "ele": 1294.972
+        },
+        {
+          "lat": 36.934555,
+          "lng": 128.455917,
+          "ele": 1327.603
+        }
+      ],
+      "color": "#657ca0",
+      "start_name": "소행성 남무쉼터",
+      "end_name": "화성 별동산 쉼터",
+      "length_meter": 411.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.934555,
+          "lng": 128.455917,
+          "ele": 1327.603
+        },
+        {
+          "lat": 36.934486,
+          "lng": 128.457764,
+          "ele": 1354.397
+        }
+      ],
+      "color": "#28b2af",
+      "start_name": "화성 별동산 쉼터 / 소백산 천문대",
+      "end_name": "지구마을 쉼터",
+      "length_meter": 166.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.934486,
+          "lng": 128.457764,
+          "ele": 1354.397
+        },
+        {
+          "lat": 36.934502,
+          "lng": 128.458557,
+          "ele": 1357.207
+        }
+      ],
+      "color": "#636f69",
+      "start_name": "지구마을 쉼터",
+      "end_name": "마지막 화장실",
+      "length_meter": 70.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.934502,
+          "lng": 128.458557,
+          "ele": 1357.207
+        },
+        {
+          "lat": 36.934189,
+          "lng": 128.46051,
+          "ele": 1369.679
+        }
+      ],
+      "color": "#aaa232",
+      "start_name": "마지막 화장실 / 갈림길",
+      "end_name": "연화봉",
+      "length_meter": 177.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.934189,
+          "lng": 128.46051,
+          "ele": 1369.679
+        },
+        {
+          "lat": 36.934208,
+          "lng": 128.460739,
+          "ele": 1376.78
+        }
+      ],
+      "color": "#28c69d",
+      "start_name": "연화봉 / 갈림길",
+      "end_name": "태양 해맞이전망대",
+      "length_meter": 30.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.934208,
+          "lng": 128.460739,
+          "ele": 1376.78
+        },
+        {
+          "lat": 36.935368,
+          "lng": 128.460373,
+          "ele": 1393.319
+        }
+      ],
+      "color": "#7b0358",
+      "start_name": "태양 해맞이전망대",
+      "end_name": "갈림길",
+      "length_meter": 133.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.935368,
+          "lng": 128.460373,
+          "ele": 1393.319
+        },
+        {
+          "lat": 36.946728,
+          "lng": 128.46347,
+          "ele": 1345.943
+        }
+      ],
+      "color": "#1a45b2",
+      "start_name": "갈림길",
+      "end_name": "제1연화봉 전망대",
+      "length_meter": 1292.8,
+      "time_minute": 16
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.946728,
+          "lng": 128.46347,
+          "ele": 1345.943
+        },
+        {
+          "lat": 36.951809,
+          "lng": 128.467865,
+          "ele": 1389.235
+        }
+      ],
+      "color": "#76a552",
+      "start_name": "제1연화봉 전망대 / 제1연화봉",
+      "end_name": "철쭉군락",
+      "length_meter": 713.1,
+      "time_minute": 11
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.951809,
+          "lng": 128.467865,
+          "ele": 1389.235
+        },
+        {
+          "lat": 36.953011,
+          "lng": 128.470016,
+          "ele": 1388.183
+        }
+      ],
+      "color": "#17a885",
+      "start_name": "철쭉군락",
+      "end_name": "독수리바위?",
+      "length_meter": 233.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.953011,
+          "lng": 128.470016,
+          "ele": 1388.183
+        },
+        {
+          "lat": 36.954567,
+          "lng": 128.472534,
+          "ele": 1385.803
+        }
+      ],
+      "color": "#71a580",
+      "start_name": "독수리바위?",
+      "end_name": "전망대",
+      "length_meter": 282.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 36.954567,
+          "lng": 128.472534,
+          "ele": 1385.803
+        },
+        {
+          "lat": 36.957741,
+          "lng": 128.478668,
+          "ele": 1410.867
+        }
+      ],
+      "color": "#275ba0",
+      "start_name": "전망대",
+      "end_name": "갈림길",
+      "length_meter": 649.3,
+      "time_minute": 8
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 36.957741,
+          "lng": 128.478668,
+          "ele": 1410.867
+        },
+        {
+          "lat": 36.957451,
+          "lng": 128.484924,
+          "ele": 1439.549
+        }
+      ],
+      "color": "#7a2c0f",
+      "start_name": "갈림길 / 전망대",
+      "end_name": "비로봉",
+      "length_meter": 557.1,
+      "time_minute": 9
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 36.957451,
+          "lng": 128.484924,
+          "ele": 1439.549
+        },
+        {
+          "lat": 36.958065,
+          "lng": 128.483139,
+          "ele": 1415.573
+        }
+      ],
+      "color": "#a3451c",
+      "start_name": "비로봉 / 갈림길",
+      "end_name": "전망대",
+      "length_meter": 172.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 36.958065,
+          "lng": 128.483139,
+          "ele": 1415.573
+        },
+        {
+          "lat": 36.957932,
+          "lng": 128.478745,
+          "ele": 1460.108
+        }
+      ],
+      "color": "#b52577",
+      "start_name": "전망대",
+      "end_name": "갈림길",
+      "length_meter": 390.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 36.957932,
+          "lng": 128.478745,
+          "ele": 1460.108
+        },
+        {
+          "lat": 36.959026,
+          "lng": 128.476364,
+          "ele": 1447.156
+        }
+      ],
+      "color": "#4f6852",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 244.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 36.959026,
+          "lng": 128.476364,
+          "ele": 1447.156
+        },
+        {
+          "lat": 36.959576,
+          "lng": 128.474869,
+          "ele": 1413.629
+        }
+      ],
+      "color": "#30ab03",
+      "start_name": "쉼터 / 고사목",
+      "end_name": "전나무숲",
+      "length_meter": 155.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 25,
+      "path": [
+        {
+          "lat": 36.959576,
+          "lng": 128.474869,
+          "ele": 1413.629
+        },
+        {
+          "lat": 36.960022,
+          "lng": 128.467331,
+          "ele": 1244.597
+        }
+      ],
+      "color": "#687da6",
+      "start_name": "전나무숲",
+      "end_name": "쉼터",
+      "length_meter": 671.6,
+      "time_minute": 8
+    },
+    {
+      "path_id": 26,
+      "path": [
+        {
+          "lat": 36.960022,
+          "lng": 128.467331,
+          "ele": 1244.597
+        },
+        {
+          "lat": 36.96011,
+          "lng": 128.46347,
+          "ele": 1160.993
+        }
+      ],
+      "color": "#64b50b",
+      "start_name": "쉼터 / 샘터",
+      "end_name": "민백이 대궐터",
+      "length_meter": 343.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 27,
+      "path": [
+        {
+          "lat": 36.96011,
+          "lng": 128.46347,
+          "ele": 1160.993
+        },
+        {
+          "lat": 36.959618,
+          "lng": 128.462189,
+          "ele": 1122.848
+        }
+      ],
+      "color": "#86a1ad",
+      "start_name": "민백이 대궐터 / 쉼터",
+      "end_name": "천동쉼터",
+      "length_meter": 126.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 28,
+      "path": [
+        {
+          "lat": 36.959618,
+          "lng": 128.462189,
+          "ele": 1122.848
+        },
+        {
+          "lat": 36.959808,
+          "lng": 128.45723,
+          "ele": 1032.09
+        }
+      ],
+      "color": "#9abc44",
+      "start_name": "천동쉼터",
+      "end_name": "쉼터",
+      "length_meter": 441.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 29,
+      "path": [
+        {
+          "lat": 36.959808,
+          "lng": 128.45723,
+          "ele": 1032.09
+        },
+        {
+          "lat": 36.959999,
+          "lng": 128.444,
+          "ele": 760.096
+        }
+      ],
+      "color": "#c62f94",
+      "start_name": "쉼터",
+      "end_name": "천동계곡",
+      "length_meter": 1175.7,
+      "time_minute": 14
+    }
+  ]
+}

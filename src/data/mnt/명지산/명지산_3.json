@@ -1,0 +1,75 @@
+{
+  "mnt_id": 32,
+  "mnt_name": "명지산",
+  "course_id": 83,
+  "max_ele": 988.029,
+  "total_length_km": "2.6km",
+  "total_time": "0시간 31분",
+  "start_name": "백둔봉 입구",
+  "end_name": "백둔봉",
+  "level": "상",
+  "course_name": "상급등산 코스",
+  "min_ele": 298.126,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.904221,
+          "lng": 127.454338,
+          "ele": 298.126
+        },
+        {
+          "lat": 37.914268,
+          "lng": 127.457283,
+          "ele": 718.023
+        }
+      ],
+      "color": "#330b6b",
+      "start_name": "백둔봉 입구 / 갈림길",
+      "end_name": "능선 위에 멋진 소나무",
+      "length_meter": 1216.2,
+      "time_minute": 19
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.914268,
+          "lng": 127.457283,
+          "ele": 718.023
+        },
+        {
+          "lat": 37.919418,
+          "lng": 127.45768,
+          "ele": 907.698
+        }
+      ],
+      "color": "#a25b2f",
+      "start_name": "능선 위에 멋진 소나무",
+      "end_name": "갈림길",
+      "length_meter": 573.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.919418,
+          "lng": 127.45768,
+          "ele": 907.698
+        },
+        {
+          "lat": 37.924049,
+          "lng": 127.451256,
+          "ele": 972.801
+        }
+      ],
+      "color": "#5a936f",
+      "start_name": "갈림길",
+      "end_name": "백둔봉",
+      "length_meter": 763.3,
+      "time_minute": 9
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "mnt_id": 96,
+  "mnt_name": "황석산",
+  "course_id": 255,
+  "max_ele": 1343.5,
+  "total_length_km": "8.4km",
+  "total_time": "1시간 45분",
+  "start_name": "금원산 관리사무소",
+  "end_name": "금원산 산림자원관리소",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 505.072,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.731609,
+          "lng": 127.798271,
+          "ele": 505.072
+        },
+        {
+          "lat": 35.732967,
+          "lng": 127.793686,
+          "ele": 546.148
+        }
+      ],
+      "color": "#716246",
+      "start_name": "금원산 관리사무소 / 금원산 자연휴양림 매점",
+      "end_name": "문바위",
+      "length_meter": 440.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.732967,
+          "lng": 127.793686,
+          "ele": 546.148
+        },
+        {
+          "lat": 35.736801,
+          "lng": 127.7892,
+          "ele": 629.175
+        }
+      ],
+      "color": "#9956c2",
+      "start_name": "문바위",
+      "end_name": "갈림길",
+      "length_meter": 588.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.736801,
+          "lng": 127.7892,
+          "ele": 629.175
+        },
+        {
+          "lat": 35.736931,
+          "lng": 127.787613,
+          "ele": 652.548
+        }
+      ],
+      "color": "#c229aa",
+      "start_name": "갈림길",
+      "end_name": "지재미쉼터",
+      "length_meter": 144.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.736931,
+          "lng": 127.787613,
+          "ele": 652.548
+        },
+        {
+          "lat": 35.737804,
+          "lng": 127.784622,
+          "ele": 723.192
+        }
+      ],
+      "color": "#1a8eaa",
+      "start_name": "지재미쉼터",
+      "end_name": "갈림길",
+      "length_meter": 286.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.737804,
+          "lng": 127.784622,
+          "ele": 723.192
+        },
+        {
+          "lat": 35.738781,
+          "lng": 127.778976,
+          "ele": 794.476
+        }
+      ],
+      "color": "#97211a",
+      "start_name": "갈림길",
+      "end_name": "금원산 등산안내도",
+      "length_meter": 521.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.738781,
+          "lng": 127.778976,
+          "ele": 794.476
+        },
+        {
+          "lat": 35.740639,
+          "lng": 127.770348,
+          "ele": 1099.91
+        }
+      ],
+      "color": "#283e84",
+      "start_name": "금원산 등산안내도",
+      "end_name": "갈림길",
+      "length_meter": 805.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.740639,
+          "lng": 127.770348,
+          "ele": 1099.91
+        },
+        {
+          "lat": 35.728199,
+          "lng": 127.76207,
+          "ele": 1343.5
+        }
+      ],
+      "color": "#bf883b",
+      "start_name": "갈림길",
+      "end_name": "정자",
+      "length_meter": 1572.2,
+      "time_minute": 19
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.728199,
+          "lng": 127.76207,
+          "ele": 1343.5
+        },
+        {
+          "lat": 35.727455,
+          "lng": 127.762695,
+          "ele": 1303.427
+        }
+      ],
+      "color": "#172248",
+      "start_name": "정자 / 갈림길",
+      "end_name": "샘터",
+      "length_meter": 105.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.727455,
+          "lng": 127.762695,
+          "ele": 1303.427
+        },
+        {
+          "lat": 35.722622,
+          "lng": 127.778526,
+          "ele": 880.751
+        }
+      ],
+      "color": "#987373",
+      "start_name": "샘터",
+      "end_name": "금원산 등산안내도",
+      "length_meter": 1526.8,
+      "time_minute": 19
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.722622,
+          "lng": 127.778526,
+          "ele": 880.751
+        },
+        {
+          "lat": 35.722439,
+          "lng": 127.782265,
+          "ele": 848.4
+        }
+      ],
+      "color": "#70ac44",
+      "start_name": "금원산 등산안내도 / 갈림길",
+      "end_name": "금원산 생태수목원",
+      "length_meter": 342.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.722439,
+          "lng": 127.782265,
+          "ele": 848.4
+        },
+        {
+          "lat": 35.722599,
+          "lng": 127.782791,
+          "ele": 840.479
+        }
+      ],
+      "color": "#b08b3c",
+      "start_name": "금원산 생태수목원 / 금원산 생태수목원 안내도",
+      "end_name": "수목원 화장실",
+      "length_meter": 50.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.722599,
+          "lng": 127.782791,
+          "ele": 840.479
+        },
+        {
+          "lat": 35.722672,
+          "lng": 127.78421,
+          "ele": 824.915
+        }
+      ],
+      "color": "#450620",
+      "start_name": "수목원 화장실 / 갈림길",
+      "end_name": "만병초테마정원",
+      "length_meter": 129.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.722672,
+          "lng": 127.78421,
+          "ele": 824.915
+        },
+        {
+          "lat": 35.728695,
+          "lng": 127.790291,
+          "ele": 649.904
+        }
+      ],
+      "color": "#b06466",
+      "start_name": "만병초테마정원 / 갈림길",
+      "end_name": "숲속의집",
+      "length_meter": 874.9,
+      "time_minute": 14
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.728695,
+          "lng": 127.790291,
+          "ele": 649.904
+        },
+        {
+          "lat": 35.727524,
+          "lng": 127.792305,
+          "ele": 608.347
+        }
+      ],
+      "color": "#8668b5",
+      "start_name": "숲속의집",
+      "end_name": "자운폭포",
+      "length_meter": 223.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.727524,
+          "lng": 127.792305,
+          "ele": 608.347
+        },
+        {
+          "lat": 35.727207,
+          "lng": 127.795494,
+          "ele": 577.114
+        }
+      ],
+      "color": "#5a5891",
+      "start_name": "자운폭포",
+      "end_name": "갈림길",
+      "length_meter": 290.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.727207,
+          "lng": 127.795494,
+          "ele": 577.114
+        },
+        {
+          "lat": 35.731361,
+          "lng": 127.798225,
+          "ele": 511.466
+        }
+      ],
+      "color": "#0c6fa7",
+      "start_name": "갈림길",
+      "end_name": "금원산 산림자원관리소",
+      "length_meter": 523.6,
+      "time_minute": 6
+    }
+  ]
+}

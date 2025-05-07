@@ -1,0 +1,375 @@
+{
+  "mnt_id": 15,
+  "mnt_name": "금정산",
+  "course_id": 37,
+  "max_ele": 824.0,
+  "total_length_km": "5.9km",
+  "total_time": "1시간 13분",
+  "start_name": "범어사 주차장",
+  "end_name": "계명봉 중봉",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.281986,
+          "lng": 129.072952,
+          "ele": 277.0
+        },
+        {
+          "lat": 35.281723,
+          "lng": 129.073486,
+          "ele": 0.0
+        }
+      ],
+      "color": "#7f6a37",
+      "start_name": "범어사 주차장 / 금정산성",
+      "end_name": "범어사 선문화교육관",
+      "length_meter": 174.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.281723,
+          "lng": 129.073486,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.283894,
+          "lng": 129.071762,
+          "ele": 0.0
+        }
+      ],
+      "color": "#74263e",
+      "start_name": "범어사 선문화교육관",
+      "end_name": "경비실",
+      "length_meter": 287.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.283894,
+          "lng": 129.071762,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.283684,
+          "lng": 129.070572,
+          "ele": 336.0
+        }
+      ],
+      "color": "#a64b56",
+      "start_name": "경비실 / 갈림길",
+      "end_name": "당간지주",
+      "length_meter": 112.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.283684,
+          "lng": 129.070572,
+          "ele": 336.0
+        },
+        {
+          "lat": 35.283859,
+          "lng": 129.070328,
+          "ele": 0.0
+        }
+      ],
+      "color": "#425049",
+      "start_name": "당간지주",
+      "end_name": "주차장 2곳 80대수용",
+      "length_meter": 29.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.283859,
+          "lng": 129.070328,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.280888,
+          "lng": 129.065796,
+          "ele": 426.0
+        }
+      ],
+      "color": "#41792c",
+      "start_name": "주차장 2곳 80대수용 / 갈림길",
+      "end_name": "단풍나무",
+      "length_meter": 528.2,
+      "time_minute": 8
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.280888,
+          "lng": 129.065796,
+          "ele": 426.0
+        },
+        {
+          "lat": 35.27866,
+          "lng": 129.063049,
+          "ele": 540.0
+        }
+      ],
+      "color": "#9d3052",
+      "start_name": "단풍나무",
+      "end_name": "이동통신탑",
+      "length_meter": 351.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.27866,
+          "lng": 129.063049,
+          "ele": 540.0
+        },
+        {
+          "lat": 35.277515,
+          "lng": 129.062683,
+          "ele": 553.0
+        }
+      ],
+      "color": "#6bb877",
+      "start_name": "이동통신탑",
+      "end_name": "구조목",
+      "length_meter": 131.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.277515,
+          "lng": 129.062683,
+          "ele": 553.0
+        },
+        {
+          "lat": 35.276264,
+          "lng": 129.059189,
+          "ele": 613.0
+        }
+      ],
+      "color": "#3c7274",
+      "start_name": "구조목",
+      "end_name": "이동통신 탑",
+      "length_meter": 346.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.276264,
+          "lng": 129.059189,
+          "ele": 613.0
+        },
+        {
+          "lat": 35.275543,
+          "lng": 129.056381,
+          "ele": 0.0
+        }
+      ],
+      "color": "#bc5617",
+      "start_name": "이동통신 탑",
+      "end_name": "등산문화탐방지원센터",
+      "length_meter": 267.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.275543,
+          "lng": 129.056381,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.275658,
+          "lng": 129.056335,
+          "ele": 614.0
+        }
+      ],
+      "color": "#4c341a",
+      "start_name": "등산문화탐방지원센터 / 세심정",
+      "end_name": "고당봉 낙뢰표석비",
+      "length_meter": 39.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.275658,
+          "lng": 129.056335,
+          "ele": 614.0
+        },
+        {
+          "lat": 35.279224,
+          "lng": 129.051514,
+          "ele": 745.0
+        }
+      ],
+      "color": "#801002",
+      "start_name": "고당봉 낙뢰표석비 / 갈림길",
+      "end_name": "고당샘",
+      "length_meter": 590.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.279224,
+          "lng": 129.051514,
+          "ele": 745.0
+        },
+        {
+          "lat": 35.280174,
+          "lng": 129.050659,
+          "ele": 817.0
+        }
+      ],
+      "color": "#c60da5",
+      "start_name": "고당샘",
+      "end_name": "고당봉",
+      "length_meter": 131.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.280174,
+          "lng": 129.050659,
+          "ele": 817.0
+        },
+        {
+          "lat": 35.280411,
+          "lng": 129.05101,
+          "ele": 816.0
+        }
+      ],
+      "color": "#3c1c6c",
+      "start_name": "고당봉 / 갈림길",
+      "end_name": "철계단",
+      "length_meter": 41.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.280411,
+          "lng": 129.05101,
+          "ele": 816.0
+        },
+        {
+          "lat": 35.2812,
+          "lng": 129.051071,
+          "ele": 759.0
+        }
+      ],
+      "color": "#032400",
+      "start_name": "철계단",
+      "end_name": "갈림길",
+      "length_meter": 87.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.2812,
+          "lng": 129.051071,
+          "ele": 759.0
+        },
+        {
+          "lat": 35.281357,
+          "lng": 129.050903,
+          "ele": 756.0
+        }
+      ],
+      "color": "#be62bf",
+      "start_name": "갈림길",
+      "end_name": "안내도.이정표",
+      "length_meter": 23.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.281357,
+          "lng": 129.050903,
+          "ele": 756.0
+        },
+        {
+          "lat": 35.280174,
+          "lng": 129.050659,
+          "ele": 817.0
+        }
+      ],
+      "color": "#72c7b2",
+      "start_name": "안내도.이정표 / 갈림길",
+      "end_name": "고당봉",
+      "length_meter": 242.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.280174,
+          "lng": 129.050659,
+          "ele": 817.0
+        },
+        {
+          "lat": 35.290047,
+          "lng": 129.073639,
+          "ele": 624.0
+        }
+      ],
+      "color": "#9dadaf",
+      "start_name": "고당봉",
+      "end_name": "계명봉",
+      "length_meter": 2357.1,
+      "time_minute": 29
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.290047,
+          "lng": 129.073639,
+          "ele": 624.0
+        },
+        {
+          "lat": 35.288677,
+          "lng": 129.07457,
+          "ele": 583.0
+        }
+      ],
+      "color": "#a12255",
+      "start_name": "계명봉",
+      "end_name": "계명봉 중봉",
+      "length_meter": 174.2,
+      "time_minute": 2
+    }
+  ]
+}

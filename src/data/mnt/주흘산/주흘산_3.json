@@ -1,0 +1,295 @@
+{
+  "mnt_id": 75,
+  "mnt_name": "주흘산",
+  "course_id": 197,
+  "max_ele": 1064.649,
+  "total_length_km": "4.7km",
+  "total_time": "0시간 58분",
+  "start_name": "문경관광호텔 들머리",
+  "end_name": "불상탑",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 256.213,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.761253,
+          "lng": 128.077713,
+          "ele": 256.213
+        },
+        {
+          "lat": 36.762238,
+          "lng": 128.079788,
+          "ele": 321.836
+        }
+      ],
+      "color": "#2033b3",
+      "start_name": "문경관광호텔 들머리 / 소나무지대",
+      "end_name": "등로상태",
+      "length_meter": 215.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.762238,
+          "lng": 128.079788,
+          "ele": 321.836
+        },
+        {
+          "lat": 36.763241,
+          "lng": 128.083801,
+          "ele": 461.996
+        }
+      ],
+      "color": "#b59920",
+      "start_name": "등로상태",
+      "end_name": "갈림길",
+      "length_meter": 374.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.763241,
+          "lng": 128.083801,
+          "ele": 461.996
+        },
+        {
+          "lat": 36.766006,
+          "lng": 128.089874,
+          "ele": 698.638
+        }
+      ],
+      "color": "#803fa0",
+      "start_name": "갈림길 / 참나무 서식지",
+      "end_name": "소나무 바위지대",
+      "length_meter": 635.5,
+      "time_minute": 10
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.766006,
+          "lng": 128.089874,
+          "ele": 698.638
+        },
+        {
+          "lat": 36.766891,
+          "lng": 128.091034,
+          "ele": 750.852
+        }
+      ],
+      "color": "#1d224c",
+      "start_name": "소나무 바위지대",
+      "end_name": "멧돼지 흔적",
+      "length_meter": 142.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.766891,
+          "lng": 128.091034,
+          "ele": 750.852
+        },
+        {
+          "lat": 36.766602,
+          "lng": 128.093872,
+          "ele": 880.554
+        }
+      ],
+      "color": "#4c3862",
+      "start_name": "멧돼지 흔적",
+      "end_name": "짧은 너덜",
+      "length_meter": 254.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.766602,
+          "lng": 128.093872,
+          "ele": 880.554
+        },
+        {
+          "lat": 36.766399,
+          "lng": 128.09494,
+          "ele": 935.035
+        }
+      ],
+      "color": "#20b8b7",
+      "start_name": "짧은 너덜",
+      "end_name": "너덜길",
+      "length_meter": 97.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.766399,
+          "lng": 128.09494,
+          "ele": 935.035
+        },
+        {
+          "lat": 36.766418,
+          "lng": 128.095154,
+          "ele": 956.35
+        }
+      ],
+      "color": "#102789",
+      "start_name": "너덜길",
+      "end_name": "바위 넘어감",
+      "length_meter": 19.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.766418,
+          "lng": 128.095154,
+          "ele": 956.35
+        },
+        {
+          "lat": 36.768196,
+          "lng": 128.096268,
+          "ele": 995.963
+        }
+      ],
+      "color": "#2a8c71",
+      "start_name": "바위 넘어감",
+      "end_name": "갈림길",
+      "length_meter": 221.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.768196,
+          "lng": 128.096268,
+          "ele": 995.963
+        },
+        {
+          "lat": 36.768002,
+          "lng": 128.097412,
+          "ele": 1038.175
+        }
+      ],
+      "color": "#3cc4b7",
+      "start_name": "갈림길",
+      "end_name": "문경 조망바위",
+      "length_meter": 104.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.768002,
+          "lng": 128.097412,
+          "ele": 1038.175
+        },
+        {
+          "lat": 36.768513,
+          "lng": 128.09816,
+          "ele": 1056.89
+        }
+      ],
+      "color": "#53b606",
+      "start_name": "문경 조망바위 / 주흘관봉",
+      "end_name": "주흘산 조망처",
+      "length_meter": 102.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.768513,
+          "lng": 128.09816,
+          "ele": 1056.89
+        },
+        {
+          "lat": 36.773773,
+          "lng": 128.100296,
+          "ele": 1011.425
+        }
+      ],
+      "color": "#a74b08",
+      "start_name": "주흘산 조망처",
+      "end_name": "부봉조망처",
+      "length_meter": 615.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.773773,
+          "lng": 128.100296,
+          "ele": 1011.425
+        },
+        {
+          "lat": 36.776123,
+          "lng": 128.10173,
+          "ele": 1021.163
+        }
+      ],
+      "color": "#bfb75c",
+      "start_name": "부봉조망처 / 낡은밧줄",
+      "end_name": "위험주의 표지판",
+      "length_meter": 300.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.776123,
+          "lng": 128.10173,
+          "ele": 1021.163
+        },
+        {
+          "lat": 36.774963,
+          "lng": 128.084045,
+          "ele": 560.676
+        }
+      ],
+      "color": "#b89835",
+      "start_name": "위험주의 표지판",
+      "end_name": "혜국사 나가는길",
+      "length_meter": 1580.4,
+      "time_minute": 19
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.774963,
+          "lng": 128.084045,
+          "ele": 560.676
+        },
+        {
+          "lat": 36.774708,
+          "lng": 128.083603,
+          "ele": 552.113
+        }
+      ],
+      "color": "#70256f",
+      "start_name": "혜국사 나가는길",
+      "end_name": "불상탑",
+      "length_meter": 48.5,
+      "time_minute": 0
+    }
+  ]
+}

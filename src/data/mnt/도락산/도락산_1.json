@@ -1,0 +1,355 @@
+{
+  "mnt_id": 25,
+  "mnt_name": "도락산",
+  "course_id": 63,
+  "max_ele": 986.726,
+  "total_length_km": "5.2km",
+  "total_time": "1시간 4분",
+  "start_name": "상선암주차장",
+  "end_name": "작은선바위",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.87352,
+          "lng": 128.292786,
+          "ele": 301.11
+        },
+        {
+          "lat": 36.872387,
+          "lng": 128.291046,
+          "ele": 304.353
+        }
+      ],
+      "color": "#2315b1",
+      "start_name": "상선암주차장",
+      "end_name": "갈림길",
+      "length_meter": 199.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.872387,
+          "lng": 128.291046,
+          "ele": 304.353
+        },
+        {
+          "lat": 36.872456,
+          "lng": 128.29097,
+          "ele": 301.985
+        }
+      ],
+      "color": "#096787",
+      "start_name": "갈림길",
+      "end_name": "상선암",
+      "length_meter": 10.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.872456,
+          "lng": 128.29097,
+          "ele": 301.985
+        },
+        {
+          "lat": 36.872227,
+          "lng": 128.295044,
+          "ele": 337.058
+        }
+      ],
+      "color": "#8dc43e",
+      "start_name": "상선암",
+      "end_name": "갈림길",
+      "length_meter": 363.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.872227,
+          "lng": 128.295044,
+          "ele": 337.058
+        },
+        {
+          "lat": 36.871727,
+          "lng": 128.295883,
+          "ele": 0.0
+        }
+      ],
+      "color": "#5a8d7a",
+      "start_name": "갈림길 / 선암가든식당",
+      "end_name": "상선암",
+      "length_meter": 98.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.871727,
+          "lng": 128.295883,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.868103,
+          "lng": 128.300476,
+          "ele": 659.042
+        }
+      ],
+      "color": "#4d621c",
+      "start_name": "상선암",
+      "end_name": "상선암봉",
+      "length_meter": 573.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.868103,
+          "lng": 128.300476,
+          "ele": 659.042
+        },
+        {
+          "lat": 36.865906,
+          "lng": 128.304047,
+          "ele": 784.15
+        }
+      ],
+      "color": "#b52bc6",
+      "start_name": "상선암봉 / 경관",
+      "end_name": "바위",
+      "length_meter": 400.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.865906,
+          "lng": 128.304047,
+          "ele": 784.15
+        },
+        {
+          "lat": 36.865643,
+          "lng": 128.306122,
+          "ele": 842.56
+        }
+      ],
+      "color": "#677d63",
+      "start_name": "바위",
+      "end_name": "제봉",
+      "length_meter": 186.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.865643,
+          "lng": 128.306122,
+          "ele": 842.56
+        },
+        {
+          "lat": 36.859772,
+          "lng": 128.305679,
+          "ele": 909.461
+        }
+      ],
+      "color": "#757ba4",
+      "start_name": "제봉",
+      "end_name": "바위",
+      "length_meter": 654.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.859772,
+          "lng": 128.305679,
+          "ele": 909.461
+        },
+        {
+          "lat": 36.85965,
+          "lng": 128.305695,
+          "ele": 910.897
+        }
+      ],
+      "color": "#667b1d",
+      "start_name": "바위",
+      "end_name": "형봉",
+      "length_meter": 13.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.85965,
+          "lng": 128.305695,
+          "ele": 910.897
+        },
+        {
+          "lat": 36.856316,
+          "lng": 128.311111,
+          "ele": 986.726
+        }
+      ],
+      "color": "#9b86a2",
+      "start_name": "형봉 / 갈림길",
+      "end_name": "도락산",
+      "length_meter": 608.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.856316,
+          "lng": 128.311111,
+          "ele": 986.726
+        },
+        {
+          "lat": 36.857658,
+          "lng": 128.308853,
+          "ele": 935.954
+        }
+      ],
+      "color": "#a552a8",
+      "start_name": "도락산",
+      "end_name": "낙뢰위험지역",
+      "length_meter": 250.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.857658,
+          "lng": 128.308853,
+          "ele": 935.954
+        },
+        {
+          "lat": 36.858883,
+          "lng": 128.307755,
+          "ele": 938.013
+        }
+      ],
+      "color": "#6a8295",
+      "start_name": "낙뢰위험지역",
+      "end_name": "신선봉",
+      "length_meter": 167.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.858883,
+          "lng": 128.307755,
+          "ele": 938.013
+        },
+        {
+          "lat": 36.858276,
+          "lng": 128.303558,
+          "ele": 891.792
+        }
+      ],
+      "color": "#18c694",
+      "start_name": "신선봉",
+      "end_name": "채운봉",
+      "length_meter": 379.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.858276,
+          "lng": 128.303558,
+          "ele": 891.792
+        },
+        {
+          "lat": 36.858673,
+          "lng": 128.301468,
+          "ele": 797.849
+        }
+      ],
+      "color": "#511e3c",
+      "start_name": "채운봉",
+      "end_name": "추락위험주의",
+      "length_meter": 191.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.858673,
+          "lng": 128.301468,
+          "ele": 797.849
+        },
+        {
+          "lat": 36.859051,
+          "lng": 128.300522,
+          "ele": 816.57
+        }
+      ],
+      "color": "#4f9681",
+      "start_name": "추락위험주의 / 조망",
+      "end_name": "바위",
+      "length_meter": 94.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.859051,
+          "lng": 128.300522,
+          "ele": 816.57
+        },
+        {
+          "lat": 36.859146,
+          "lng": 128.299622,
+          "ele": 847.607
+        }
+      ],
+      "color": "#3839ba",
+      "start_name": "바위",
+      "end_name": "검봉",
+      "length_meter": 80.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.859146,
+          "lng": 128.299622,
+          "ele": 847.607
+        },
+        {
+          "lat": 36.86655,
+          "lng": 128.295273,
+          "ele": 492.583
+        }
+      ],
+      "color": "#278862",
+      "start_name": "검봉",
+      "end_name": "작은선바위",
+      "length_meter": 909.7,
+      "time_minute": 11
+    }
+  ]
+}

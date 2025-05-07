@@ -1,0 +1,395 @@
+{
+  "mnt_id": 87,
+  "mnt_name": "태백산",
+  "course_id": 225,
+  "max_ele": 1579.992,
+  "total_length_km": "3.3km",
+  "total_time": "0시간 41분",
+  "start_name": "등산로입구안내소",
+  "end_name": "태백산천제단",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 923.323,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.120205,
+          "lng": 128.908386,
+          "ele": 923.323
+        },
+        {
+          "lat": 37.120373,
+          "lng": 128.907898,
+          "ele": 923.39
+        }
+      ],
+      "color": "#854d72",
+      "start_name": "등산로입구안내소",
+      "end_name": "미니슈퍼",
+      "length_meter": 47.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.120373,
+          "lng": 128.907898,
+          "ele": 923.39
+        },
+        {
+          "lat": 37.115952,
+          "lng": 128.908615,
+          "ele": 967.384
+        }
+      ],
+      "color": "#8c7f4e",
+      "start_name": "미니슈퍼 / 갈림길",
+      "end_name": "매점",
+      "length_meter": 496.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.115952,
+          "lng": 128.908615,
+          "ele": 967.384
+        },
+        {
+          "lat": 37.115196,
+          "lng": 128.908844,
+          "ele": 980.586
+        }
+      ],
+      "color": "#ac0210",
+      "start_name": "매점",
+      "end_name": "갈림길",
+      "length_meter": 86.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.115196,
+          "lng": 128.908844,
+          "ele": 980.586
+        },
+        {
+          "lat": 37.114769,
+          "lng": 128.909454,
+          "ele": 995.308
+        }
+      ],
+      "color": "#2f365d",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 72.0,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.114769,
+          "lng": 128.909454,
+          "ele": 995.308
+        },
+        {
+          "lat": 37.112183,
+          "lng": 128.910782,
+          "ele": 1057.189
+        }
+      ],
+      "color": "#1c348b",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 310.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.112183,
+          "lng": 128.910782,
+          "ele": 1057.189
+        },
+        {
+          "lat": 37.112679,
+          "lng": 128.912277,
+          "ele": 1109.895
+        }
+      ],
+      "color": "#96a132",
+      "start_name": "갈림길",
+      "end_name": "출입금지 안내",
+      "length_meter": 143.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.112679,
+          "lng": 128.912277,
+          "ele": 1109.895
+        },
+        {
+          "lat": 37.112061,
+          "lng": 128.913391,
+          "ele": 1138.036
+        }
+      ],
+      "color": "#a5671d",
+      "start_name": "출입금지 안내",
+      "end_name": "쉼터",
+      "length_meter": 120.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.112061,
+          "lng": 128.913391,
+          "ele": 1138.036
+        },
+        {
+          "lat": 37.111389,
+          "lng": 128.914261,
+          "ele": 1172.249
+        }
+      ],
+      "color": "#19beb0",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "등산로",
+      "length_meter": 113.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.111389,
+          "lng": 128.914261,
+          "ele": 1172.249
+        },
+        {
+          "lat": 37.109268,
+          "lng": 128.911575,
+          "ele": 1233.069
+        }
+      ],
+      "color": "#535a50",
+      "start_name": "등산로",
+      "end_name": "쉼터",
+      "length_meter": 335.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.109268,
+          "lng": 128.911575,
+          "ele": 1233.069
+        },
+        {
+          "lat": 37.105587,
+          "lng": 128.914337,
+          "ele": 1404.729
+        }
+      ],
+      "color": "#567c9b",
+      "start_name": "쉼터",
+      "end_name": "불법안내",
+      "length_meter": 477.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.105587,
+          "lng": 128.914337,
+          "ele": 1404.729
+        },
+        {
+          "lat": 37.10495,
+          "lng": 128.915009,
+          "ele": 1424.92
+        }
+      ],
+      "color": "#c1b607",
+      "start_name": "불법안내",
+      "end_name": "조망~",
+      "length_meter": 92.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.10495,
+          "lng": 128.915009,
+          "ele": 1424.92
+        },
+        {
+          "lat": 37.104099,
+          "lng": 128.91507,
+          "ele": 1440.745
+        }
+      ],
+      "color": "#812f6c",
+      "start_name": "조망~ / 쉼텨",
+      "end_name": "불법안내",
+      "length_meter": 95.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.104099,
+          "lng": 128.91507,
+          "ele": 1440.745
+        },
+        {
+          "lat": 37.101959,
+          "lng": 128.915619,
+          "ele": 1497.531
+        }
+      ],
+      "color": "#c58786",
+      "start_name": "불법안내",
+      "end_name": "조망",
+      "length_meter": 242.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.101959,
+          "lng": 128.915619,
+          "ele": 1497.531
+        },
+        {
+          "lat": 37.100185,
+          "lng": 128.916122,
+          "ele": 1535.961
+        }
+      ],
+      "color": "#969583",
+      "start_name": "조망",
+      "end_name": "포토",
+      "length_meter": 202.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.100185,
+          "lng": 128.916122,
+          "ele": 1535.961
+        },
+        {
+          "lat": 37.100037,
+          "lng": 128.916107,
+          "ele": 1540.041
+        }
+      ],
+      "color": "#381b63",
+      "start_name": "포토",
+      "end_name": "장군봉에서 바라본 전망",
+      "length_meter": 16.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.100037,
+          "lng": 128.916107,
+          "ele": 1540.041
+        },
+        {
+          "lat": 37.098999,
+          "lng": 128.915848,
+          "ele": 1562.567
+        }
+      ],
+      "color": "#615c76",
+      "start_name": "장군봉에서 바라본 전망",
+      "end_name": "갈림길",
+      "length_meter": 117.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.098999,
+          "lng": 128.915848,
+          "ele": 1562.567
+        },
+        {
+          "lat": 37.098309,
+          "lng": 128.916168,
+          "ele": 1571.09
+        }
+      ],
+      "color": "#36be29",
+      "start_name": "갈림길 / 태백산천제단 / 장군봉정상석",
+      "end_name": "정상경관",
+      "length_meter": 82.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.098309,
+          "lng": 128.916168,
+          "ele": 1571.09
+        },
+        {
+          "lat": 37.096657,
+          "lng": 128.916565,
+          "ele": 1576.314
+        }
+      ],
+      "color": "#348c51",
+      "start_name": "정상경관",
+      "end_name": "천제단에서 바라본 전망",
+      "length_meter": 187.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.096657,
+          "lng": 128.916565,
+          "ele": 1576.314
+        },
+        {
+          "lat": 37.096367,
+          "lng": 128.91655,
+          "ele": 1579.992
+        }
+      ],
+      "color": "#125479",
+      "start_name": "천제단에서 바라본 전망 / 태백산 / 정상경관",
+      "end_name": "태백산천제단",
+      "length_meter": 68.9,
+      "time_minute": 1
+    }
+  ]
+}

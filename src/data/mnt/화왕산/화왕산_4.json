@@ -1,0 +1,355 @@
+{
+  "mnt_id": 94,
+  "mnt_name": "화왕산",
+  "course_id": 247,
+  "max_ele": 775.0,
+  "total_length_km": "4.6km",
+  "total_time": "0시간 57분",
+  "start_name": "자하곡매표소",
+  "end_name": "화왕지맥",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.540413,
+          "lng": 128.506729,
+          "ele": 158.0
+        },
+        {
+          "lat": 35.540462,
+          "lng": 128.507614,
+          "ele": 161.0
+        }
+      ],
+      "color": "#08a46e",
+      "start_name": "자하곡매표소 / 체육공원겸 쉼터",
+      "end_name": "창녕군관광안내센터",
+      "length_meter": 87.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.540462,
+          "lng": 128.507614,
+          "ele": 161.0
+        },
+        {
+          "lat": 35.540638,
+          "lng": 128.509247,
+          "ele": 177.0
+        }
+      ],
+      "color": "#315331",
+      "start_name": "창녕군관광안내센터 / 화왕산 안내도",
+      "end_name": "산과구름아래",
+      "length_meter": 160.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.540638,
+          "lng": 128.509247,
+          "ele": 177.0
+        },
+        {
+          "lat": 35.542439,
+          "lng": 128.519363,
+          "ele": 302.0
+        }
+      ],
+      "color": "#713f3d",
+      "start_name": "산과구름아래",
+      "end_name": "갈림길",
+      "length_meter": 936.9,
+      "time_minute": 11
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.542439,
+          "lng": 128.519363,
+          "ele": 302.0
+        },
+        {
+          "lat": 35.543491,
+          "lng": 128.52005,
+          "ele": 0.0
+        }
+      ],
+      "color": "#2f34c5",
+      "start_name": "갈림길",
+      "end_name": "도성암",
+      "length_meter": 132.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.543491,
+          "lng": 128.52005,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.543457,
+          "lng": 128.521103,
+          "ele": 343.0
+        }
+      ],
+      "color": "#6c4404",
+      "start_name": "도성암",
+      "end_name": "쉼터",
+      "length_meter": 95.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.543457,
+          "lng": 128.521103,
+          "ele": 343.0
+        },
+        {
+          "lat": 35.544838,
+          "lng": 128.524887,
+          "ele": 458.0
+        }
+      ],
+      "color": "#778c14",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 375.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.544838,
+          "lng": 128.524887,
+          "ele": 458.0
+        },
+        {
+          "lat": 35.544823,
+          "lng": 128.524963,
+          "ele": 461.0
+        }
+      ],
+      "color": "#221572",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 7.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.544823,
+          "lng": 128.524963,
+          "ele": 461.0
+        },
+        {
+          "lat": 35.54818,
+          "lng": 128.527191,
+          "ele": 643.0
+        }
+      ],
+      "color": "#592d1d",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 424.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.54818,
+          "lng": 128.527191,
+          "ele": 643.0
+        },
+        {
+          "lat": 35.548309,
+          "lng": 128.527222,
+          "ele": 649.0
+        }
+      ],
+      "color": "#547f3c",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 14.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.548309,
+          "lng": 128.527222,
+          "ele": 649.0
+        },
+        {
+          "lat": 35.548153,
+          "lng": 128.529678,
+          "ele": 721.0
+        }
+      ],
+      "color": "#77324f",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 222.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.548153,
+          "lng": 128.529678,
+          "ele": 721.0
+        },
+        {
+          "lat": 35.547092,
+          "lng": 128.531754,
+          "ele": 0.0
+        }
+      ],
+      "color": "#533361",
+      "start_name": "갈림길",
+      "end_name": "화왕산 정상",
+      "length_meter": 221.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.547092,
+          "lng": 128.531754,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.544914,
+          "lng": 128.533401,
+          "ele": 706.0
+        }
+      ],
+      "color": "#0b8e4b",
+      "start_name": "화왕산 정상",
+      "end_name": "갈림길",
+      "length_meter": 284.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.544914,
+          "lng": 128.533401,
+          "ele": 706.0
+        },
+        {
+          "lat": 35.541824,
+          "lng": 128.534943,
+          "ele": 0.0
+        }
+      ],
+      "color": "#a22e94",
+      "start_name": "갈림길",
+      "end_name": "배봉 정상",
+      "length_meter": 370.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.541824,
+          "lng": 128.534943,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.539814,
+          "lng": 128.533295,
+          "ele": 774.0
+        }
+      ],
+      "color": "#604880",
+      "start_name": "배봉 정상",
+      "end_name": "쉼터",
+      "length_meter": 268.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.539814,
+          "lng": 128.533295,
+          "ele": 774.0
+        },
+        {
+          "lat": 35.5369,
+          "lng": 128.533295,
+          "ele": 756.0
+        }
+      ],
+      "color": "#6eb225",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "병풍바위",
+      "length_meter": 324.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.5369,
+          "lng": 128.533295,
+          "ele": 756.0
+        },
+        {
+          "lat": 35.535477,
+          "lng": 128.532425,
+          "ele": 770.0
+        }
+      ],
+      "color": "#846405",
+      "start_name": "병풍바위",
+      "end_name": "갈림길",
+      "length_meter": 176.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.535477,
+          "lng": 128.532425,
+          "ele": 770.0
+        },
+        {
+          "lat": 35.53112,
+          "lng": 128.533127,
+          "ele": 745.0
+        }
+      ],
+      "color": "#0e132e",
+      "start_name": "갈림길",
+      "end_name": "화왕지맥",
+      "length_meter": 488.6,
+      "time_minute": 6
+    }
+  ]
+}

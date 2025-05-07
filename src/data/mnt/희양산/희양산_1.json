@@ -1,0 +1,235 @@
+{
+  "mnt_id": 99,
+  "mnt_name": "희양산",
+  "course_id": 261,
+  "max_ele": 994.5,
+  "total_length_km": "4.8km",
+  "total_time": "0시간 59분",
+  "start_name": "쉼터",
+  "end_name": "희양폭포",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 512.8,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.724445,
+          "lng": 127.984917,
+          "ele": 512.8
+        },
+        {
+          "lat": 36.721817,
+          "lng": 127.978661,
+          "ele": 610.4
+        }
+      ],
+      "color": "#af3738",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 629.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.721817,
+          "lng": 127.978661,
+          "ele": 610.4
+        },
+        {
+          "lat": 36.717083,
+          "lng": 127.990512,
+          "ele": 884.3
+        }
+      ],
+      "color": "#54497f",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 16",
+      "length_meter": 1180.2,
+      "time_minute": 14
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.717083,
+          "lng": 127.990512,
+          "ele": 884.3
+        },
+        {
+          "lat": 36.716975,
+          "lng": 127.993245,
+          "ele": 762.1
+        }
+      ],
+      "color": "#613945",
+      "start_name": "웨이포인트 16 / 백두대간 구왕봉 / 희양산조망",
+      "end_name": "웨이포인트 19",
+      "length_meter": 253.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.716975,
+          "lng": 127.993245,
+          "ele": 762.1
+        },
+        {
+          "lat": 36.717926,
+          "lng": 127.9953,
+          "ele": 643.2
+        }
+      ],
+      "color": "#656c75",
+      "start_name": "웨이포인트 19",
+      "end_name": "갈림길",
+      "length_meter": 211.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.717926,
+          "lng": 127.9953,
+          "ele": 643.2
+        },
+        {
+          "lat": 36.718124,
+          "lng": 127.997849,
+          "ele": 744.5
+        }
+      ],
+      "color": "#105b5d",
+      "start_name": "갈림길 / 웨이포인트 21",
+      "end_name": "노송",
+      "length_meter": 228.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.718124,
+          "lng": 127.997849,
+          "ele": 744.5
+        },
+        {
+          "lat": 36.71773,
+          "lng": 128.00221,
+          "ele": 902.9
+        }
+      ],
+      "color": "#9b1f9b",
+      "start_name": "노송",
+      "end_name": "웨이포인트 24",
+      "length_meter": 391.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.71773,
+          "lng": 128.00221,
+          "ele": 902.9
+        },
+        {
+          "lat": 36.716831,
+          "lng": 128.002594,
+          "ele": 985.5
+        }
+      ],
+      "color": "#b16d50",
+      "start_name": "웨이포인트 24 / 갈림길",
+      "end_name": "능선조망점",
+      "length_meter": 143.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.716831,
+          "lng": 128.002594,
+          "ele": 985.5
+        },
+        {
+          "lat": 36.714661,
+          "lng": 128.005096,
+          "ele": 994.5
+        }
+      ],
+      "color": "#a7c52f",
+      "start_name": "능선조망점",
+      "end_name": "희양산정상",
+      "length_meter": 328.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.714661,
+          "lng": 128.005096,
+          "ele": 994.5
+        },
+        {
+          "lat": 36.715824,
+          "lng": 128.003403,
+          "ele": 976.6
+        }
+      ],
+      "color": "#74a099",
+      "start_name": "희양산정상",
+      "end_name": "바위정상 간이조망",
+      "length_meter": 198.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.715824,
+          "lng": 128.003403,
+          "ele": 976.6
+        },
+        {
+          "lat": 36.720165,
+          "lng": 128.004379,
+          "ele": 861.9
+        }
+      ],
+      "color": "#496dbe",
+      "start_name": "바위정상 간이조망",
+      "end_name": "갈림길",
+      "length_meter": 490.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.720165,
+          "lng": 128.004379,
+          "ele": 861.9
+        },
+        {
+          "lat": 36.724167,
+          "lng": 127.998085,
+          "ele": 556.5
+        }
+      ],
+      "color": "#9c7998",
+      "start_name": "갈림길 / 산성터",
+      "end_name": "희양폭포",
+      "length_meter": 722.9,
+      "time_minute": 12
+    }
+  ]
+}

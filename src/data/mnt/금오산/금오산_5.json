@@ -1,0 +1,435 @@
+{
+  "mnt_id": 14,
+  "mnt_name": "금오산",
+  "course_id": 34,
+  "max_ele": 270.515,
+  "total_length_km": "5.1km",
+  "total_time": "1시간 3분",
+  "start_name": "평상 쉼터",
+  "end_name": "금오산 정상 조망점",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.120472,
+          "lng": 128.337616,
+          "ele": 110.95
+        },
+        {
+          "lat": 36.120464,
+          "lng": 128.337006,
+          "ele": 111.414
+        }
+      ],
+      "color": "#2e08a7",
+      "start_name": "평상 쉼터 / 쉼터 및 소규모 공연장 / 야생멧돼지 출몰 주의 구간",
+      "end_name": "나무의자 쉼터 및 돌탑",
+      "length_meter": 55.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.120464,
+          "lng": 128.337006,
+          "ele": 111.414
+        },
+        {
+          "lat": 36.120224,
+          "lng": 128.335236,
+          "ele": 116.872
+        }
+      ],
+      "color": "#5f2009",
+      "start_name": "나무의자 쉼터 및 돌탑 / 갈림길",
+      "end_name": "나무의자 쉼터 및 운동시설",
+      "length_meter": 161.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.120224,
+          "lng": 128.335236,
+          "ele": 116.872
+        },
+        {
+          "lat": 36.120583,
+          "lng": 128.333008,
+          "ele": 121.525
+        }
+      ],
+      "color": "#93bdc6",
+      "start_name": "나무의자 쉼터 및 운동시설 / 갈림길",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 205.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.120583,
+          "lng": 128.333008,
+          "ele": 121.525
+        },
+        {
+          "lat": 36.119732,
+          "lng": 128.331665,
+          "ele": 134.655
+        }
+      ],
+      "color": "#498d9d",
+      "start_name": "나무의자 쉼터 / 갈림길",
+      "end_name": "정자 쉼터",
+      "length_meter": 157.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.119732,
+          "lng": 128.331665,
+          "ele": 134.655
+        },
+        {
+          "lat": 36.120003,
+          "lng": 128.328217,
+          "ele": 148.566
+        }
+      ],
+      "color": "#40b94b",
+      "start_name": "정자 쉼터 / 갈림길",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 312.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.120003,
+          "lng": 128.328217,
+          "ele": 148.566
+        },
+        {
+          "lat": 36.11895,
+          "lng": 128.325821,
+          "ele": 151.709
+        }
+      ],
+      "color": "#91bcb5",
+      "start_name": "나무의자 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 245.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.11895,
+          "lng": 128.325821,
+          "ele": 151.709
+        },
+        {
+          "lat": 36.118362,
+          "lng": 128.323105,
+          "ele": 159.939
+        }
+      ],
+      "color": "#3f5a8f",
+      "start_name": "갈림길",
+      "end_name": "정자쉼터",
+      "length_meter": 252.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.118362,
+          "lng": 128.323105,
+          "ele": 159.939
+        },
+        {
+          "lat": 36.117664,
+          "lng": 128.322876,
+          "ele": 165.418
+        }
+      ],
+      "color": "#3bacb4",
+      "start_name": "정자쉼터 / 간이화장실",
+      "end_name": "나무의자 쉼터 및 운동시설",
+      "length_meter": 83.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.117664,
+          "lng": 128.322876,
+          "ele": 165.418
+        },
+        {
+          "lat": 36.115776,
+          "lng": 128.323196,
+          "ele": 183.897
+        }
+      ],
+      "color": "#2f966b",
+      "start_name": "나무의자 쉼터 및 운동시설 / 갈림길",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 240.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.115776,
+          "lng": 128.323196,
+          "ele": 183.897
+        },
+        {
+          "lat": 36.114502,
+          "lng": 128.3228,
+          "ele": 216.321
+        }
+      ],
+      "color": "#669f86",
+      "start_name": "나무의자 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 146.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.114502,
+          "lng": 128.3228,
+          "ele": 216.321
+        },
+        {
+          "lat": 36.114319,
+          "lng": 128.322662,
+          "ele": 249.024
+        }
+      ],
+      "color": "#473188",
+      "start_name": "갈림길 / 감은산",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 27.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.114319,
+          "lng": 128.322662,
+          "ele": 249.024
+        },
+        {
+          "lat": 36.111103,
+          "lng": 128.322144,
+          "ele": 269.562
+        }
+      ],
+      "color": "#829d20",
+      "start_name": "나무의자 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 360.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.111103,
+          "lng": 128.322144,
+          "ele": 269.562
+        },
+        {
+          "lat": 36.105656,
+          "lng": 128.321793,
+          "ele": 267.909
+        }
+      ],
+      "color": "#97189a",
+      "start_name": "갈림길",
+      "end_name": "나무의자 쉼터 및 운동시설",
+      "length_meter": 606.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.105656,
+          "lng": 128.321793,
+          "ele": 267.909
+        },
+        {
+          "lat": 36.105583,
+          "lng": 128.321976,
+          "ele": 267.951
+        }
+      ],
+      "color": "#2c0f55",
+      "start_name": "나무의자 쉼터 및 운동시설",
+      "end_name": "정자 쉼터",
+      "length_meter": 18.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.105583,
+          "lng": 128.321976,
+          "ele": 267.951
+        },
+        {
+          "lat": 36.104218,
+          "lng": 128.322571,
+          "ele": 268.096
+        }
+      ],
+      "color": "#335969",
+      "start_name": "정자 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 160.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.104218,
+          "lng": 128.322571,
+          "ele": 268.096
+        },
+        {
+          "lat": 36.103184,
+          "lng": 128.323471,
+          "ele": 267.721
+        }
+      ],
+      "color": "#a0a85f",
+      "start_name": "갈림길",
+      "end_name": "호령봉",
+      "length_meter": 140.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.103184,
+          "lng": 128.323471,
+          "ele": 267.721
+        },
+        {
+          "lat": 36.098446,
+          "lng": 128.324585,
+          "ele": 265.247
+        }
+      ],
+      "color": "#68364c",
+      "start_name": "호령봉",
+      "end_name": "갈림길",
+      "length_meter": 536.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.098446,
+          "lng": 128.324585,
+          "ele": 265.247
+        },
+        {
+          "lat": 36.105087,
+          "lng": 128.316757,
+          "ele": 0.0
+        }
+      ],
+      "color": "#728d98",
+      "start_name": "갈림길",
+      "end_name": "공영주차장",
+      "length_meter": 1019.8,
+      "time_minute": 12
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.105087,
+          "lng": 128.316757,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.105919,
+          "lng": 128.317078,
+          "ele": 185.967
+        }
+      ],
+      "color": "#b784aa",
+      "start_name": "공영주차장",
+      "end_name": "금오산도립공원 야영장",
+      "length_meter": 96.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 36.105919,
+          "lng": 128.317078,
+          "ele": 185.967
+        },
+        {
+          "lat": 36.107086,
+          "lng": 128.31665,
+          "ele": 173.427
+        }
+      ],
+      "color": "#8e5344",
+      "start_name": "금오산도립공원 야영장",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 135.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 36.107086,
+          "lng": 128.31665,
+          "ele": 173.427
+        },
+        {
+          "lat": 36.108128,
+          "lng": 128.316422,
+          "ele": 167.922
+        }
+      ],
+      "color": "#3bbd9a",
+      "start_name": "나무의자 쉼터",
+      "end_name": "금오산 정상 조망점",
+      "length_meter": 117.7,
+      "time_minute": 1
+    }
+  ]
+}

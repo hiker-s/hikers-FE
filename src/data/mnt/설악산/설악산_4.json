@@ -1,0 +1,295 @@
+{
+  "mnt_id": 51,
+  "mnt_name": "설악산",
+  "course_id": 138,
+  "max_ele": 815.729,
+  "total_length_km": "6.6km",
+  "total_time": "1시간 22분",
+  "start_name": "설악산 매표소",
+  "end_name": "금강소나무",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 221.396,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.172756,
+          "lng": 128.494171,
+          "ele": 221.396
+        },
+        {
+          "lat": 38.17308,
+          "lng": 128.490662,
+          "ele": 228.716
+        }
+      ],
+      "color": "#001041",
+      "start_name": "설악산 매표소",
+      "end_name": "통일염원 사리탑",
+      "length_meter": 308.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.17308,
+          "lng": 128.490662,
+          "ele": 228.716
+        },
+        {
+          "lat": 38.173813,
+          "lng": 128.487274,
+          "ele": 235.459
+        }
+      ],
+      "color": "#95b837",
+      "start_name": "통일염원 사리탑 / 갈림길",
+      "end_name": "통일대불 법당",
+      "length_meter": 316.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.173813,
+          "lng": 128.487274,
+          "ele": 235.459
+        },
+        {
+          "lat": 38.177551,
+          "lng": 128.483459,
+          "ele": 267.097
+        }
+      ],
+      "color": "#8e5162",
+      "start_name": "통일대불 법당",
+      "end_name": "태풍피해",
+      "length_meter": 532.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.177551,
+          "lng": 128.483459,
+          "ele": 267.097
+        },
+        {
+          "lat": 38.18433,
+          "lng": 128.476181,
+          "ele": 347.849
+        }
+      ],
+      "color": "#1ea3aa",
+      "start_name": "태풍피해",
+      "end_name": "갈림길",
+      "length_meter": 986.3,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.18433,
+          "lng": 128.476181,
+          "ele": 347.849
+        },
+        {
+          "lat": 38.18504,
+          "lng": 128.474487,
+          "ele": 371.753
+        }
+      ],
+      "color": "#743d15",
+      "start_name": "갈림길",
+      "end_name": "울산바위",
+      "length_meter": 167.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.18504,
+          "lng": 128.474487,
+          "ele": 371.753
+        },
+        {
+          "lat": 38.189693,
+          "lng": 128.475296,
+          "ele": 461.551
+        }
+      ],
+      "color": "#1da772",
+      "start_name": "울산바위",
+      "end_name": "계조암석굴",
+      "length_meter": 522.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.189693,
+          "lng": 128.475296,
+          "ele": 461.551
+        },
+        {
+          "lat": 38.192024,
+          "lng": 128.472855,
+          "ele": 565.798
+        }
+      ],
+      "color": "#419264",
+      "start_name": "계조암석굴 / 흔들바위",
+      "end_name": "울산바위 전망대",
+      "length_meter": 341.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 38.192024,
+          "lng": 128.472855,
+          "ele": 565.798
+        },
+        {
+          "lat": 38.19421,
+          "lng": 128.474091,
+          "ele": 773.654
+        }
+      ],
+      "color": "#14ab29",
+      "start_name": "울산바위 전망대",
+      "end_name": "울산바위 계단",
+      "length_meter": 266.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 38.19421,
+          "lng": 128.474091,
+          "ele": 773.654
+        },
+        {
+          "lat": 38.193916,
+          "lng": 128.475021,
+          "ele": 814.24
+        }
+      ],
+      "color": "#460b20",
+      "start_name": "울산바위 계단 / 의자",
+      "end_name": "전망대",
+      "length_meter": 88.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 38.193916,
+          "lng": 128.475021,
+          "ele": 814.24
+        },
+        {
+          "lat": 38.18961,
+          "lng": 128.474945,
+          "ele": 471.92
+        }
+      ],
+      "color": "#7ac50e",
+      "start_name": "전망대 / 병아리 바위 / 전망대",
+      "end_name": "계조암",
+      "length_meter": 550.1,
+      "time_minute": 9
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 38.18961,
+          "lng": 128.474945,
+          "ele": 471.92
+        },
+        {
+          "lat": 38.188213,
+          "lng": 128.475662,
+          "ele": 428.706
+        }
+      ],
+      "color": "#509791",
+      "start_name": "계조암 / 흔들바위",
+      "end_name": "울산바위",
+      "length_meter": 177.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 38.188213,
+          "lng": 128.475662,
+          "ele": 428.706
+        },
+        {
+          "lat": 38.185314,
+          "lng": 128.474274,
+          "ele": 375.233
+        }
+      ],
+      "color": "#b23370",
+      "start_name": "울산바위 / 울산바위 화장실",
+      "end_name": "내원암",
+      "length_meter": 346.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 38.185314,
+          "lng": 128.474274,
+          "ele": 375.233
+        },
+        {
+          "lat": 38.176006,
+          "lng": 128.484451,
+          "ele": 273.613
+        }
+      ],
+      "color": "#1b7c16",
+      "start_name": "내원암",
+      "end_name": "신흥사 극락보전",
+      "length_meter": 1364.7,
+      "time_minute": 17
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 38.176006,
+          "lng": 128.484451,
+          "ele": 273.613
+        },
+        {
+          "lat": 38.17337,
+          "lng": 128.490326,
+          "ele": 243.754
+        }
+      ],
+      "color": "#569b50",
+      "start_name": "신흥사 극락보전 / 신흥사 보제루 / 신흥사 해우소",
+      "end_name": "금강소나무",
+      "length_meter": 593.4,
+      "time_minute": 9
+    }
+  ]
+}

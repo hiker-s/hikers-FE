@@ -1,0 +1,415 @@
+{
+  "mnt_id": 14,
+  "mnt_name": "금오산",
+  "course_id": 35,
+  "max_ele": 991.779,
+  "total_length_km": "4.5km",
+  "total_time": "0시간 56분",
+  "start_name": "계곡",
+  "end_name": "잔디광장",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 165.267,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.097561,
+          "lng": 128.316803,
+          "ele": 242.109
+        },
+        {
+          "lat": 36.097317,
+          "lng": 128.31575,
+          "ele": 266.098
+        }
+      ],
+      "color": "#548ca2",
+      "start_name": "계곡 / 바위",
+      "end_name": "현위치번호",
+      "length_meter": 98.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.097317,
+          "lng": 128.31575,
+          "ele": 266.098
+        },
+        {
+          "lat": 36.09668,
+          "lng": 128.313293,
+          "ele": 317.393
+        }
+      ],
+      "color": "#a5489f",
+      "start_name": "현위치번호",
+      "end_name": "암릉 위 조망점",
+      "length_meter": 231.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.09668,
+          "lng": 128.313293,
+          "ele": 317.393
+        },
+        {
+          "lat": 36.095924,
+          "lng": 128.311554,
+          "ele": 361.887
+        }
+      ],
+      "color": "#242eaa",
+      "start_name": "암릉 위 조망점 / 현위치번호",
+      "end_name": "정상방향 안내판",
+      "length_meter": 178.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.095924,
+          "lng": 128.311554,
+          "ele": 361.887
+        },
+        {
+          "lat": 36.096443,
+          "lng": 128.310272,
+          "ele": 439.037
+        }
+      ],
+      "color": "#a55727",
+      "start_name": "정상방향 안내판",
+      "end_name": "현위치번호",
+      "length_meter": 128.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.096443,
+          "lng": 128.310272,
+          "ele": 439.037
+        },
+        {
+          "lat": 36.096222,
+          "lng": 128.30954,
+          "ele": 465.267
+        }
+      ],
+      "color": "#b94331",
+      "start_name": "현위치번호 / 조망바위",
+      "end_name": "현위치번호",
+      "length_meter": 71.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.096222,
+          "lng": 128.30954,
+          "ele": 465.267
+        },
+        {
+          "lat": 36.09618,
+          "lng": 128.308594,
+          "ele": 494.291
+        }
+      ],
+      "color": "#2c9006",
+      "start_name": "현위치번호 / 정상방향 안내판",
+      "end_name": "현위치번호",
+      "length_meter": 85.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.09618,
+          "lng": 128.308594,
+          "ele": 494.291
+        },
+        {
+          "lat": 36.095348,
+          "lng": 128.30484,
+          "ele": 639.071
+        }
+      ],
+      "color": "#5b6776",
+      "start_name": "현위치번호",
+      "end_name": "조망바위",
+      "length_meter": 349.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.095348,
+          "lng": 128.30484,
+          "ele": 639.071
+        },
+        {
+          "lat": 36.094604,
+          "lng": 128.30307,
+          "ele": 720.283
+        }
+      ],
+      "color": "#057362",
+      "start_name": "조망바위 / 조망바위와 소나무 / 현위치번호 / 조망바위",
+      "end_name": "현위치번호",
+      "length_meter": 181.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.094604,
+          "lng": 128.30307,
+          "ele": 720.283
+        },
+        {
+          "lat": 36.094479,
+          "lng": 128.302719,
+          "ele": 752.445
+        }
+      ],
+      "color": "#06349f",
+      "start_name": "현위치번호",
+      "end_name": "암벽",
+      "length_meter": 34.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.094479,
+          "lng": 128.302719,
+          "ele": 752.445
+        },
+        {
+          "lat": 36.093952,
+          "lng": 128.301865,
+          "ele": 807.912
+        }
+      ],
+      "color": "#00140e",
+      "start_name": "암벽 / 갈림길",
+      "end_name": "현위치번호",
+      "length_meter": 96.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.093952,
+          "lng": 128.301865,
+          "ele": 807.912
+        },
+        {
+          "lat": 36.094704,
+          "lng": 128.298126,
+          "ele": 947.125
+        }
+      ],
+      "color": "#bd817d",
+      "start_name": "현위치번호",
+      "end_name": "계곡",
+      "length_meter": 346.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.094704,
+          "lng": 128.298126,
+          "ele": 947.125
+        },
+        {
+          "lat": 36.103951,
+          "lng": 128.298904,
+          "ele": 513.233
+        }
+      ],
+      "color": "#675caa",
+      "start_name": "계곡 / 현위치번호",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 1115.8,
+      "time_minute": 18
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.103951,
+          "lng": 128.298904,
+          "ele": 513.233
+        },
+        {
+          "lat": 36.106709,
+          "lng": 128.301178,
+          "ele": 363.778
+        }
+      ],
+      "color": "#ae3e68",
+      "start_name": "나무의자 쉼터",
+      "end_name": "금오산성",
+      "length_meter": 368.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.106709,
+          "lng": 128.301178,
+          "ele": 363.778
+        },
+        {
+          "lat": 36.106968,
+          "lng": 128.302078,
+          "ele": 336.201
+        }
+      ],
+      "color": "#a0039d",
+      "start_name": "금오산성",
+      "end_name": "현위치번호",
+      "length_meter": 85.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.106968,
+          "lng": 128.302078,
+          "ele": 336.201
+        },
+        {
+          "lat": 36.107533,
+          "lng": 128.303284,
+          "ele": 315.407
+        }
+      ],
+      "color": "#b095c4",
+      "start_name": "현위치번호 / 돌탑",
+      "end_name": "나무의자 쉼터",
+      "length_meter": 126.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.107533,
+          "lng": 128.303284,
+          "ele": 315.407
+        },
+        {
+          "lat": 36.108143,
+          "lng": 128.304932,
+          "ele": 282.617
+        }
+      ],
+      "color": "#740e49",
+      "start_name": "나무의자 쉼터",
+      "end_name": "현위치번호",
+      "length_meter": 162.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.108143,
+          "lng": 128.304932,
+          "ele": 282.617
+        },
+        {
+          "lat": 36.108265,
+          "lng": 128.305939,
+          "ele": 258.235
+        }
+      ],
+      "color": "#5c4071",
+      "start_name": "현위치번호 / 나무의자 쉼터",
+      "end_name": "돌탑",
+      "length_meter": 91.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.108265,
+          "lng": 128.305939,
+          "ele": 258.235
+        },
+        {
+          "lat": 36.108425,
+          "lng": 128.306976,
+          "ele": 245.794
+        }
+      ],
+      "color": "#028460",
+      "start_name": "돌탑",
+      "end_name": "사계절 식당",
+      "length_meter": 94.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.108425,
+          "lng": 128.306976,
+          "ele": 245.794
+        },
+        {
+          "lat": 36.109688,
+          "lng": 128.310837,
+          "ele": 197.49
+        }
+      ],
+      "color": "#58065b",
+      "start_name": "사계절 식당",
+      "end_name": "호텔 금오산 입구",
+      "length_meter": 374.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 36.109688,
+          "lng": 128.310837,
+          "ele": 197.49
+        },
+        {
+          "lat": 36.111465,
+          "lng": 128.313354,
+          "ele": 165.267
+        }
+      ],
+      "color": "#53279d",
+      "start_name": "호텔 금오산 입구",
+      "end_name": "잔디광장",
+      "length_meter": 300.3,
+      "time_minute": 3
+    }
+  ]
+}

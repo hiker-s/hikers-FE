@@ -1,0 +1,215 @@
+{
+  "mnt_id": 61,
+  "mnt_name": "용화산",
+  "course_id": 171,
+  "max_ele": 893.898,
+  "total_length_km": "4.6km",
+  "total_time": "0시간 57분",
+  "start_name": "곰바위",
+  "end_name": "양통종점 버스정류장",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 206.092,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.040009,
+          "lng": 127.749527,
+          "ele": 801.71
+        },
+        {
+          "lat": 38.039837,
+          "lng": 127.749405,
+          "ele": 801.383
+        }
+      ],
+      "color": "#a8c070",
+      "start_name": "곰바위",
+      "end_name": "추락주의구간",
+      "length_meter": 21.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.039837,
+          "lng": 127.749405,
+          "ele": 801.383
+        },
+        {
+          "lat": 38.038589,
+          "lng": 127.747963,
+          "ele": 891.453
+        }
+      ],
+      "color": "#542653",
+      "start_name": "추락주의구간",
+      "end_name": "갈림길",
+      "length_meter": 187.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.038589,
+          "lng": 127.747963,
+          "ele": 891.453
+        },
+        {
+          "lat": 38.038239,
+          "lng": 127.74807,
+          "ele": 893.898
+        }
+      ],
+      "color": "#371d05",
+      "start_name": "갈림길 / 쉼터",
+      "end_name": "용화산 정상",
+      "length_meter": 41.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.038239,
+          "lng": 127.74807,
+          "ele": 893.898
+        },
+        {
+          "lat": 38.036697,
+          "lng": 127.748695,
+          "ele": 851.735
+        }
+      ],
+      "color": "#be0abf",
+      "start_name": "용화산 정상",
+      "end_name": "갈림길",
+      "length_meter": 180.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.036697,
+          "lng": 127.748695,
+          "ele": 851.735
+        },
+        {
+          "lat": 38.0327,
+          "lng": 127.750854,
+          "ele": 808.014
+        }
+      ],
+      "color": "#a9c7a9",
+      "start_name": "갈림길 / 입석대 조망점",
+      "end_name": "득남바위",
+      "length_meter": 483.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.0327,
+          "lng": 127.750854,
+          "ele": 808.014
+        },
+        {
+          "lat": 38.02692,
+          "lng": 127.748886,
+          "ele": 567.651
+        }
+      ],
+      "color": "#49708e",
+      "start_name": "득남바위",
+      "end_name": "추락주의구간",
+      "length_meter": 665.4,
+      "time_minute": 8
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.02692,
+          "lng": 127.748886,
+          "ele": 567.651
+        },
+        {
+          "lat": 38.024323,
+          "lng": 127.74826,
+          "ele": 486.996
+        }
+      ],
+      "color": "#0b1143",
+      "start_name": "추락주의구간 / 겨울철 상습결빙구간",
+      "end_name": "소",
+      "length_meter": 294.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 38.024323,
+          "lng": 127.74826,
+          "ele": 486.996
+        },
+        {
+          "lat": 38.0233,
+          "lng": 127.748383,
+          "ele": 466.384
+        }
+      ],
+      "color": "#bf8c2a",
+      "start_name": "소",
+      "end_name": "폭포, 너른 바위",
+      "length_meter": 114.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 38.0233,
+          "lng": 127.748383,
+          "ele": 466.384
+        },
+        {
+          "lat": 38.008556,
+          "lng": 127.74263,
+          "ele": 236.717
+        }
+      ],
+      "color": "#a64b17",
+      "start_name": "폭포, 너른 바위 / 추락주의구간 / 폭포",
+      "end_name": "프라임캠핑장",
+      "length_meter": 1732.9,
+      "time_minute": 28
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 38.008556,
+          "lng": 127.74263,
+          "ele": 236.717
+        },
+        {
+          "lat": 38.001747,
+          "lng": 127.737816,
+          "ele": 206.092
+        }
+      ],
+      "color": "#1c9fa9",
+      "start_name": "프라임캠핑장",
+      "end_name": "양통종점 버스정류장",
+      "length_meter": 866.7,
+      "time_minute": 10
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "mnt_id": 27,
+  "mnt_name": "두륜산",
+  "course_id": 68,
+  "max_ele": 654.0,
+  "total_length_km": "3.3km",
+  "total_time": "0시간 40분",
+  "start_name": "마전밭 주차장",
+  "end_name": "고계봉",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 124.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.483768,
+          "lng": 126.614609,
+          "ele": 125.0
+        },
+        {
+          "lat": 34.483143,
+          "lng": 126.614166,
+          "ele": 124.0
+        }
+      ],
+      "color": "#6d3c27",
+      "start_name": "마전밭 주차장 / 주차장내 쉼터",
+      "end_name": "마전밭화장실",
+      "length_meter": 81.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.483143,
+          "lng": 126.614166,
+          "ele": 124.0
+        },
+        {
+          "lat": 34.479847,
+          "lng": 126.612045,
+          "ele": 155.0
+        }
+      ],
+      "color": "#b3847e",
+      "start_name": "마전밭화장실",
+      "end_name": "갈림길",
+      "length_meter": 414.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.479847,
+          "lng": 126.612045,
+          "ele": 155.0
+        },
+        {
+          "lat": 34.474621,
+          "lng": 126.631439,
+          "ele": 437.0
+        }
+      ],
+      "color": "#08738e",
+      "start_name": "갈림길",
+      "end_name": "북미륵암 마애여래좌상",
+      "length_meter": 1870.3,
+      "time_minute": 23
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.474621,
+          "lng": 126.631439,
+          "ele": 437.0
+        },
+        {
+          "lat": 34.477646,
+          "lng": 126.634613,
+          "ele": 466.0
+        }
+      ],
+      "color": "#c65744",
+      "start_name": "북미륵암 마애여래좌상",
+      "end_name": "갈림길",
+      "length_meter": 444.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.477646,
+          "lng": 126.634613,
+          "ele": 466.0
+        },
+        {
+          "lat": 34.481663,
+          "lng": 126.633682,
+          "ele": 654.0
+        }
+      ],
+      "color": "#68323b",
+      "start_name": "갈림길",
+      "end_name": "고계봉",
+      "length_meter": 454.7,
+      "time_minute": 5
+    }
+  ]
+}

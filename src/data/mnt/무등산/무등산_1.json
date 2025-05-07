@@ -1,0 +1,415 @@
+{
+  "mnt_id": 34,
+  "mnt_name": "무등산",
+  "course_id": 89,
+  "max_ele": 614.471,
+  "total_length_km": "5.0km",
+  "total_time": "1시간 2분",
+  "start_name": "증심사 상가지구식당",
+  "end_name": "덕산너덜",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 148.437,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.133133,
+          "lng": 126.957947,
+          "ele": 148.437
+        },
+        {
+          "lat": 35.128712,
+          "lng": 126.959854,
+          "ele": 258.905
+        }
+      ],
+      "color": "#1f9ac3",
+      "start_name": "증심사 상가지구식당 / 갈림길",
+      "end_name": "무등 06-01 벤치",
+      "length_meter": 521.4,
+      "time_minute": 8
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.128712,
+          "lng": 126.959854,
+          "ele": 258.905
+        },
+        {
+          "lat": 35.127136,
+          "lng": 126.961823,
+          "ele": 329.052
+        }
+      ],
+      "color": "#5e5e25",
+      "start_name": "무등 06-01 벤치",
+      "end_name": "위치번호 무등 06-02 쉼터",
+      "length_meter": 250.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.127136,
+          "lng": 126.961823,
+          "ele": 329.052
+        },
+        {
+          "lat": 35.123341,
+          "lng": 126.964325,
+          "ele": 431.889
+        }
+      ],
+      "color": "#738bc4",
+      "start_name": "위치번호 무등 06-02 쉼터",
+      "end_name": "새인봉 방면 공사중",
+      "length_meter": 479.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.123341,
+          "lng": 126.964325,
+          "ele": 431.889
+        },
+        {
+          "lat": 35.121895,
+          "lng": 126.965652,
+          "ele": 497.274
+        }
+      ],
+      "color": "#7914c0",
+      "start_name": "새인봉 방면 공사중",
+      "end_name": "새인봉 진행중 조망점",
+      "length_meter": 201.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.121895,
+          "lng": 126.965652,
+          "ele": 497.274
+        },
+        {
+          "lat": 35.121807,
+          "lng": 126.966827,
+          "ele": 520.853
+        }
+      ],
+      "color": "#337f9a",
+      "start_name": "새인봉 진행중 조망점",
+      "end_name": "새인봉 일원 사고위험 지구",
+      "length_meter": 107.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.121807,
+          "lng": 126.966827,
+          "ele": 520.853
+        },
+        {
+          "lat": 35.120663,
+          "lng": 126.968338,
+          "ele": 513.648
+        }
+      ],
+      "color": "#3420bb",
+      "start_name": "새인봉 일원 사고위험 지구",
+      "end_name": "새인봉 진행중 조망점",
+      "length_meter": 187.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.120663,
+          "lng": 126.968338,
+          "ele": 513.648
+        },
+        {
+          "lat": 35.120663,
+          "lng": 126.969086,
+          "ele": 514.354
+        }
+      ],
+      "color": "#5880a6",
+      "start_name": "새인봉 진행중 조망점 / 새인봉 추락위험",
+      "end_name": "새인봉",
+      "length_meter": 68.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.120663,
+          "lng": 126.969086,
+          "ele": 514.354
+        },
+        {
+          "lat": 35.11937,
+          "lng": 126.97229,
+          "ele": 444.357
+        }
+      ],
+      "color": "#7ba9b0",
+      "start_name": "새인봉 / 새인봉 조망점",
+      "end_name": "새인봉 하산구간 쉼터",
+      "length_meter": 325.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.11937,
+          "lng": 126.97229,
+          "ele": 444.357
+        },
+        {
+          "lat": 35.119671,
+          "lng": 126.976196,
+          "ele": 518.641
+        }
+      ],
+      "color": "#995a9f",
+      "start_name": "새인봉 하산구간 쉼터",
+      "end_name": "새인봉-중머리재 구간 쉼터",
+      "length_meter": 356.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.119671,
+          "lng": 126.976196,
+          "ele": 518.641
+        },
+        {
+          "lat": 35.119061,
+          "lng": 126.977272,
+          "ele": 538.589
+        }
+      ],
+      "color": "#85b133",
+      "start_name": "새인봉-중머리재 구간 쉼터",
+      "end_name": "벤치 쉼터",
+      "length_meter": 119.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.119061,
+          "lng": 126.977272,
+          "ele": 538.589
+        },
+        {
+          "lat": 35.118877,
+          "lng": 126.978676,
+          "ele": 584.156
+        }
+      ],
+      "color": "#a15b21",
+      "start_name": "벤치 쉼터",
+      "end_name": "멧돼지 주의",
+      "length_meter": 129.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.118877,
+          "lng": 126.978676,
+          "ele": 584.156
+        },
+        {
+          "lat": 35.118118,
+          "lng": 126.980171,
+          "ele": 604.62
+        }
+      ],
+      "color": "#28339a",
+      "start_name": "멧돼지 주의",
+      "end_name": "벤치 쉼터",
+      "length_meter": 160.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.118118,
+          "lng": 126.980171,
+          "ele": 604.62
+        },
+        {
+          "lat": 35.12278,
+          "lng": 126.983475,
+          "ele": 570.593
+        }
+      ],
+      "color": "#774f7f",
+      "start_name": "벤치 쉼터 / 갈림길",
+      "end_name": "너덜지대",
+      "length_meter": 680.6,
+      "time_minute": 11
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.12278,
+          "lng": 126.983475,
+          "ele": 570.593
+        },
+        {
+          "lat": 35.123936,
+          "lng": 126.982841,
+          "ele": 576.59
+        }
+      ],
+      "color": "#279e37",
+      "start_name": "너덜지대",
+      "end_name": "갈림길",
+      "length_meter": 140.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.123936,
+          "lng": 126.982841,
+          "ele": 576.59
+        },
+        {
+          "lat": 35.126778,
+          "lng": 126.978493,
+          "ele": 486.181
+        }
+      ],
+      "color": "#309633",
+      "start_name": "갈림길",
+      "end_name": "봉황대",
+      "length_meter": 506.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.126778,
+          "lng": 126.978493,
+          "ele": 486.181
+        },
+        {
+          "lat": 35.126884,
+          "lng": 126.978416,
+          "ele": 487.598
+        }
+      ],
+      "color": "#86a04a",
+      "start_name": "봉황대",
+      "end_name": "봉황대 쉼터",
+      "length_meter": 13.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.126884,
+          "lng": 126.978416,
+          "ele": 487.598
+        },
+        {
+          "lat": 35.129681,
+          "lng": 126.978775,
+          "ele": 489.55
+        }
+      ],
+      "color": "#853cbf",
+      "start_name": "봉황대 쉼터 / 갈림길",
+      "end_name": "토끼등 전방 쉼터",
+      "length_meter": 313.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.129681,
+          "lng": 126.978775,
+          "ele": 489.55
+        },
+        {
+          "lat": 35.131008,
+          "lng": 126.978081,
+          "ele": 493.698
+        }
+      ],
+      "color": "#3bc6ac",
+      "start_name": "토끼등 전방 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 160.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.131008,
+          "lng": 126.978081,
+          "ele": 493.698
+        },
+        {
+          "lat": 35.131683,
+          "lng": 126.978592,
+          "ele": 486.737
+        }
+      ],
+      "color": "#1ac5c1",
+      "start_name": "갈림길 / 토끼등 편백숲",
+      "end_name": "너덜겅 약수터",
+      "length_meter": 96.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.131683,
+          "lng": 126.978592,
+          "ele": 486.737
+        },
+        {
+          "lat": 35.132969,
+          "lng": 126.978691,
+          "ele": 479.76
+        }
+      ],
+      "color": "#38a933",
+      "start_name": "너덜겅 약수터",
+      "end_name": "덕산너덜",
+      "length_meter": 143.3,
+      "time_minute": 1
+    }
+  ]
+}

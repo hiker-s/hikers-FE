@@ -1,0 +1,235 @@
+{
+  "mnt_id": 27,
+  "mnt_name": "두륜산",
+  "course_id": 66,
+  "max_ele": 415.0,
+  "total_length_km": "6.4km",
+  "total_time": "1시간 20분",
+  "start_name": "목구조목",
+  "end_name": "케이블카 승강장",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 113.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.468201,
+          "lng": 126.624176,
+          "ele": 304.0
+        },
+        {
+          "lat": 34.472305,
+          "lng": 126.620041,
+          "ele": 228.0
+        }
+      ],
+      "color": "#bfa310",
+      "start_name": "목구조목",
+      "end_name": "갈림길",
+      "length_meter": 593.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.472305,
+          "lng": 126.620041,
+          "ele": 228.0
+        },
+        {
+          "lat": 34.473625,
+          "lng": 126.617775,
+          "ele": 197.0
+        }
+      ],
+      "color": "#646a6a",
+      "start_name": "갈림길",
+      "end_name": "목구조목",
+      "length_meter": 254.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.473625,
+          "lng": 126.617775,
+          "ele": 197.0
+        },
+        {
+          "lat": 34.475555,
+          "lng": 126.616676,
+          "ele": 166.0
+        }
+      ],
+      "color": "#36b945",
+      "start_name": "목구조목",
+      "end_name": "갈림길",
+      "length_meter": 237.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.475555,
+          "lng": 126.616676,
+          "ele": 166.0
+        },
+        {
+          "lat": 34.475281,
+          "lng": 126.621445,
+          "ele": 209.0
+        }
+      ],
+      "color": "#794d3a",
+      "start_name": "갈림길",
+      "end_name": "목구조목",
+      "length_meter": 438.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.475281,
+          "lng": 126.621445,
+          "ele": 209.0
+        },
+        {
+          "lat": 34.475792,
+          "lng": 126.627739,
+          "ele": 345.0
+        }
+      ],
+      "color": "#81a1c1",
+      "start_name": "목구조목 / 갈림길",
+      "end_name": "목구조목",
+      "length_meter": 583.3,
+      "time_minute": 9
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.475792,
+          "lng": 126.627739,
+          "ele": 345.0
+        },
+        {
+          "lat": 34.475552,
+          "lng": 126.6297,
+          "ele": 415.0
+        }
+      ],
+      "color": "#188a5a",
+      "start_name": "목구조목",
+      "end_name": "갈림길",
+      "length_meter": 181.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.475552,
+          "lng": 126.6297,
+          "ele": 415.0
+        },
+        {
+          "lat": 34.476391,
+          "lng": 126.625473,
+          "ele": 272.0
+        }
+      ],
+      "color": "#114fa9",
+      "start_name": "갈림길",
+      "end_name": "목구조목",
+      "length_meter": 398.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.476391,
+          "lng": 126.625473,
+          "ele": 272.0
+        },
+        {
+          "lat": 34.477238,
+          "lng": 126.61348,
+          "ele": 149.0
+        }
+      ],
+      "color": "#856513",
+      "start_name": "목구조목",
+      "end_name": "대흥사  일주문",
+      "length_meter": 1103.4,
+      "time_minute": 13
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.477238,
+          "lng": 126.61348,
+          "ele": 149.0
+        },
+        {
+          "lat": 34.480877,
+          "lng": 126.61425,
+          "ele": 131.0
+        }
+      ],
+      "color": "#c55eb7",
+      "start_name": "대흥사  일주문 / 대흥사  입구",
+      "end_name": "웨이포인트 41",
+      "length_meter": 438.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.480877,
+          "lng": 126.61425,
+          "ele": 131.0
+        },
+        {
+          "lat": 34.489361,
+          "lng": 126.6147,
+          "ele": 113.0
+        }
+      ],
+      "color": "#7c1d59",
+      "start_name": "웨이포인트 41",
+      "end_name": "산책로 화장실",
+      "length_meter": 944.3,
+      "time_minute": 11
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.489361,
+          "lng": 126.6147,
+          "ele": 113.0
+        },
+        {
+          "lat": 34.496521,
+          "lng": 126.625259,
+          "ele": 127.0
+        }
+      ],
+      "color": "#363372",
+      "start_name": "산책로 화장실",
+      "end_name": "케이블카 승강장",
+      "length_meter": 1253.1,
+      "time_minute": 15
+    }
+  ]
+}

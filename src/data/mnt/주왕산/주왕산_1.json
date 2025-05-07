@@ -1,0 +1,275 @@
+{
+  "mnt_id": 74,
+  "mnt_name": "주왕산",
+  "course_id": 196,
+  "max_ele": 754.423,
+  "total_length_km": "5.5km",
+  "total_time": "1시간 8분",
+  "start_name": "전망대",
+  "end_name": "급수대 주상절리",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 315.962,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.395039,
+          "lng": 129.14978,
+          "ele": 408.038
+        },
+        {
+          "lat": 36.393234,
+          "lng": 129.154404,
+          "ele": 513.201
+        }
+      ],
+      "color": "#5a5144",
+      "start_name": "전망대",
+      "end_name": "제2전망대",
+      "length_meter": 460.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.393234,
+          "lng": 129.154404,
+          "ele": 513.201
+        },
+        {
+          "lat": 36.392048,
+          "lng": 129.157425,
+          "ele": 611.527
+        }
+      ],
+      "color": "#530e7a",
+      "start_name": "제2전망대",
+      "end_name": "제3전망대",
+      "length_meter": 300.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.392048,
+          "lng": 129.157425,
+          "ele": 611.527
+        },
+        {
+          "lat": 36.38942,
+          "lng": 129.162216,
+          "ele": 740.488
+        }
+      ],
+      "color": "#1a299f",
+      "start_name": "제3전망대",
+      "end_name": "정상",
+      "length_meter": 518.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.38942,
+          "lng": 129.162216,
+          "ele": 740.488
+        },
+        {
+          "lat": 36.397209,
+          "lng": 129.148331,
+          "ele": 315.962
+        }
+      ],
+      "color": "#03bc08",
+      "start_name": "정상",
+      "end_name": "아들바위",
+      "length_meter": 1514.8,
+      "time_minute": 18
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.397209,
+          "lng": 129.148331,
+          "ele": 315.962
+        },
+        {
+          "lat": 36.397419,
+          "lng": 129.150528,
+          "ele": 323.298
+        }
+      ],
+      "color": "#bc8b79",
+      "start_name": "아들바위",
+      "end_name": "계곡 쉼터",
+      "length_meter": 198.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.397419,
+          "lng": 129.150528,
+          "ele": 323.298
+        },
+        {
+          "lat": 36.396461,
+          "lng": 129.155899,
+          "ele": 331.809
+        }
+      ],
+      "color": "#561a81",
+      "start_name": "계곡 쉼터",
+      "end_name": "자화교 화장실",
+      "length_meter": 492.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.396461,
+          "lng": 129.155899,
+          "ele": 331.809
+        },
+        {
+          "lat": 36.396442,
+          "lng": 129.156433,
+          "ele": 333.931
+        }
+      ],
+      "color": "#41876c",
+      "start_name": "자화교 화장실",
+      "end_name": "자판기",
+      "length_meter": 47.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.396442,
+          "lng": 129.156433,
+          "ele": 333.931
+        },
+        {
+          "lat": 36.395447,
+          "lng": 129.159286,
+          "ele": 367.95
+        }
+      ],
+      "color": "#2a7f04",
+      "start_name": "자판기 / 갈림길",
+      "end_name": "주왕암  화장실",
+      "length_meter": 284.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.395447,
+          "lng": 129.159286,
+          "ele": 367.95
+        },
+        {
+          "lat": 36.395634,
+          "lng": 129.157303,
+          "ele": 393.775
+        }
+      ],
+      "color": "#6bba6b",
+      "start_name": "주왕암  화장실",
+      "end_name": "무장굴",
+      "length_meter": 178.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.395634,
+          "lng": 129.157303,
+          "ele": 393.775
+        },
+        {
+          "lat": 36.394665,
+          "lng": 129.160355,
+          "ele": 396.642
+        }
+      ],
+      "color": "#918f1a",
+      "start_name": "무장굴 / 무명폭포",
+      "end_name": "주왕굴",
+      "length_meter": 297.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.394665,
+          "lng": 129.160355,
+          "ele": 396.642
+        },
+        {
+          "lat": 36.397243,
+          "lng": 129.158325,
+          "ele": 381.523
+        }
+      ],
+      "color": "#680700",
+      "start_name": "주왕굴 / 주왕암",
+      "end_name": "전망대",
+      "length_meter": 350.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.397243,
+          "lng": 129.158325,
+          "ele": 381.523
+        },
+        {
+          "lat": 36.399445,
+          "lng": 129.162247,
+          "ele": 349.234
+        }
+      ],
+      "color": "#b51532",
+      "start_name": "전망대",
+      "end_name": "ㅅ삭소교  화장실",
+      "length_meter": 428.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.399445,
+          "lng": 129.162247,
+          "ele": 349.234
+        },
+        {
+          "lat": 36.398209,
+          "lng": 129.158829,
+          "ele": 338.428
+        }
+      ],
+      "color": "#075791",
+      "start_name": "ㅅ삭소교  화장실 / 쉼터 / 학소교",
+      "end_name": "급수대 주상절리",
+      "length_meter": 447.0,
+      "time_minute": 7
+    }
+  ]
+}

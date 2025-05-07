@@ -1,0 +1,235 @@
+{
+  "mnt_id": 49,
+  "mnt_name": "서대산",
+  "course_id": 131,
+  "max_ele": 575.091,
+  "total_length_km": "4.7km",
+  "total_time": "0시간 58분",
+  "start_name": "들머리 버스정류장",
+  "end_name": "성당2리 복지회관",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 190.905,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.250347,
+          "lng": 127.550224,
+          "ele": 196.907
+        },
+        {
+          "lat": 36.24971,
+          "lng": 127.550751,
+          "ele": 190.905
+        }
+      ],
+      "color": "#19675a",
+      "start_name": "들머리 버스정류장 / 정류장화장실",
+      "end_name": "금천마을 녹색관광센터",
+      "length_meter": 88.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.24971,
+          "lng": 127.550751,
+          "ele": 190.905
+        },
+        {
+          "lat": 36.248947,
+          "lng": 127.55127,
+          "ele": 201.261
+        }
+      ],
+      "color": "#521b39",
+      "start_name": "금천마을 녹색관광센터 / 장령산 힐링팬션",
+      "end_name": "산들바람",
+      "length_meter": 96.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.248947,
+          "lng": 127.55127,
+          "ele": 201.261
+        },
+        {
+          "lat": 36.246025,
+          "lng": 127.550812,
+          "ele": 324.871
+        }
+      ],
+      "color": "#94ac5b",
+      "start_name": "산들바람 / 등산로입구",
+      "end_name": "조망바위",
+      "length_meter": 338.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.246025,
+          "lng": 127.550812,
+          "ele": 324.871
+        },
+        {
+          "lat": 36.239174,
+          "lng": 127.5495,
+          "ele": 575.091
+        }
+      ],
+      "color": "#a13318",
+      "start_name": "조망바위",
+      "end_name": "제비봉 정상",
+      "length_meter": 770.8,
+      "time_minute": 9
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.239174,
+          "lng": 127.5495,
+          "ele": 575.091
+        },
+        {
+          "lat": 36.236046,
+          "lng": 127.546974,
+          "ele": 524.99
+        }
+      ],
+      "color": "#650b8a",
+      "start_name": "제비봉 정상",
+      "end_name": "쉼터",
+      "length_meter": 415.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.236046,
+          "lng": 127.546974,
+          "ele": 524.99
+        },
+        {
+          "lat": 36.238686,
+          "lng": 127.542229,
+          "ele": 351.728
+        }
+      ],
+      "color": "#98c00b",
+      "start_name": "쉼터",
+      "end_name": "자연경관",
+      "length_meter": 517.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.238686,
+          "lng": 127.542229,
+          "ele": 351.728
+        },
+        {
+          "lat": 36.237843,
+          "lng": 127.544769,
+          "ele": 408.33
+        }
+      ],
+      "color": "#6f4957",
+      "start_name": "자연경관",
+      "end_name": "쉼터",
+      "length_meter": 246.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.237843,
+          "lng": 127.544769,
+          "ele": 408.33
+        },
+        {
+          "lat": 36.240547,
+          "lng": 127.545647,
+          "ele": 550.264
+        }
+      ],
+      "color": "#b81c92",
+      "start_name": "쉼터",
+      "end_name": "봉우리정상",
+      "length_meter": 310.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.240547,
+          "lng": 127.545647,
+          "ele": 550.264
+        },
+        {
+          "lat": 36.245258,
+          "lng": 127.536568,
+          "ele": 330.993
+        }
+      ],
+      "color": "#94974f",
+      "start_name": "봉우리정상",
+      "end_name": "재말재 팽나무",
+      "length_meter": 968.2,
+      "time_minute": 12
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.245258,
+          "lng": 127.536568,
+          "ele": 330.993
+        },
+        {
+          "lat": 36.240501,
+          "lng": 127.529007,
+          "ele": 226.791
+        }
+      ],
+      "color": "#351b02",
+      "start_name": "재말재 팽나무 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 868.0,
+      "time_minute": 14
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.240501,
+          "lng": 127.529007,
+          "ele": 226.791
+        },
+        {
+          "lat": 36.240211,
+          "lng": 127.528809,
+          "ele": 223.693
+        }
+      ],
+      "color": "#16bb5d",
+      "start_name": "쉼터",
+      "end_name": "성당2리 복지회관",
+      "length_meter": 36.8,
+      "time_minute": 0
+    }
+  ]
+}

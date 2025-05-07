@@ -1,0 +1,235 @@
+{
+  "mnt_id": 53,
+  "mnt_name": "소백산",
+  "course_id": 145,
+  "max_ele": 867.36,
+  "total_length_km": "2.0km",
+  "total_time": "0시간 24분",
+  "start_name": "희방 탐방로입구",
+  "end_name": "희방 버스정류소",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 538.218,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.919472,
+          "lng": 128.457626,
+          "ele": 822.78
+        },
+        {
+          "lat": 36.919216,
+          "lng": 128.457108,
+          "ele": 814.257
+        }
+      ],
+      "color": "#99bb72",
+      "start_name": "희방 탐방로입구 / 갈림길",
+      "end_name": "희방계곡",
+      "length_meter": 87.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.919216,
+          "lng": 128.457108,
+          "ele": 814.257
+        },
+        {
+          "lat": 36.917618,
+          "lng": 128.458054,
+          "ele": 796.439
+        }
+      ],
+      "color": "#7f1a69",
+      "start_name": "희방계곡",
+      "end_name": "폭포쉼터",
+      "length_meter": 196.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.917618,
+          "lng": 128.458054,
+          "ele": 796.439
+        },
+        {
+          "lat": 36.916924,
+          "lng": 128.457092,
+          "ele": 768.667
+        }
+      ],
+      "color": "#a66a36",
+      "start_name": "폭포쉼터 / 희방폭포",
+      "end_name": "쉼터",
+      "length_meter": 171.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.916924,
+          "lng": 128.457092,
+          "ele": 768.667
+        },
+        {
+          "lat": 36.916183,
+          "lng": 128.456207,
+          "ele": 744.702
+        }
+      ],
+      "color": "#286423",
+      "start_name": "쉼터",
+      "end_name": "희방매표소",
+      "length_meter": 113.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.916183,
+          "lng": 128.456207,
+          "ele": 744.702
+        },
+        {
+          "lat": 36.915157,
+          "lng": 128.456879,
+          "ele": 730.851
+        }
+      ],
+      "color": "#a77b88",
+      "start_name": "희방매표소 / 매표소 화장실 / 희방제2주차장",
+      "end_name": "희방계곡",
+      "length_meter": 131.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.915157,
+          "lng": 128.456879,
+          "ele": 730.851
+        },
+        {
+          "lat": 36.909546,
+          "lng": 128.459381,
+          "ele": 625.948
+        }
+      ],
+      "color": "#63a57e",
+      "start_name": "희방계곡 / 쉼터",
+      "end_name": "희방 제1주차장",
+      "length_meter": 662.5,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.909546,
+          "lng": 128.459381,
+          "ele": 625.948
+        },
+        {
+          "lat": 36.908791,
+          "lng": 128.459503,
+          "ele": 602.89
+        }
+      ],
+      "color": "#6e7726",
+      "start_name": "희방 제1주차장",
+      "end_name": "주차장 화장실",
+      "length_meter": 84.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.908791,
+          "lng": 128.459503,
+          "ele": 602.89
+        },
+        {
+          "lat": 36.90741,
+          "lng": 128.45961,
+          "ele": 569.557
+        }
+      ],
+      "color": "#aeb940",
+      "start_name": "주차장 화장실",
+      "end_name": "희방탐방지원센터",
+      "length_meter": 153.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.90741,
+          "lng": 128.45961,
+          "ele": 569.557
+        },
+        {
+          "lat": 36.906567,
+          "lng": 128.45932,
+          "ele": 555.94
+        }
+      ],
+      "color": "#9d4e6f",
+      "start_name": "희방탐방지원센터",
+      "end_name": "희방파크식당",
+      "length_meter": 97.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.906567,
+          "lng": 128.45932,
+          "ele": 555.94
+        },
+        {
+          "lat": 36.905651,
+          "lng": 128.458786,
+          "ele": 548.427
+        }
+      ],
+      "color": "#82881a",
+      "start_name": "희방파크식당",
+      "end_name": "쉼터",
+      "length_meter": 112.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.905651,
+          "lng": 128.458786,
+          "ele": 548.427
+        },
+        {
+          "lat": 36.904175,
+          "lng": 128.45932,
+          "ele": 538.218
+        }
+      ],
+      "color": "#6a9cb2",
+      "start_name": "쉼터",
+      "end_name": "희방 버스정류소",
+      "length_meter": 170.9,
+      "time_minute": 2
+    }
+  ]
+}

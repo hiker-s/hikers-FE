@@ -1,0 +1,75 @@
+{
+  "mnt_id": 7,
+  "mnt_name": "계룡산",
+  "course_id": 21,
+  "max_ele": 325.0,
+  "total_length_km": "0.2km",
+  "total_time": "0시간 2분",
+  "start_name": "천정탐방로 입구",
+  "end_name": "천정탐방지원센터  계곡",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 196.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.358551,
+          "lng": 127.236076,
+          "ele": 196.0
+        },
+        {
+          "lat": 36.358692,
+          "lng": 127.234749,
+          "ele": 204.0
+        }
+      ],
+      "color": "#4b0343",
+      "start_name": "천정탐방로 입구 / 천정탐방지원센터 / 천정탐방지원센터  입구",
+      "end_name": "천정탐방지원센터",
+      "length_meter": 125.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.358692,
+          "lng": 127.234749,
+          "ele": 204.0
+        },
+        {
+          "lat": 36.3587,
+          "lng": 127.233795,
+          "ele": 216.0
+        }
+      ],
+      "color": "#26c1b7",
+      "start_name": "천정탐방지원센터",
+      "end_name": "천정탐방지원센터  코스",
+      "length_meter": 85.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.3587,
+          "lng": 127.233795,
+          "ele": 216.0
+        },
+        {
+          "lat": 36.358727,
+          "lng": 127.233582,
+          "ele": 213.0
+        }
+      ],
+      "color": "#0d7910",
+      "start_name": "천정탐방지원센터  코스",
+      "end_name": "천정탐방지원센터  계곡",
+      "length_meter": 19.3,
+      "time_minute": 0
+    }
+  ]
+}

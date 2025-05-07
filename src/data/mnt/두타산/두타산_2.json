@@ -1,0 +1,115 @@
+{
+  "mnt_id": 28,
+  "mnt_name": "두타산",
+  "course_id": 71,
+  "max_ele": 698.944,
+  "total_length_km": "1.8km",
+  "total_time": "0시간 22분",
+  "start_name": "천은사주차장화장실",
+  "end_name": "오십정",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 217.933,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.444748,
+          "lng": 129.045547,
+          "ele": 217.933
+        },
+        {
+          "lat": 37.44482,
+          "lng": 129.043854,
+          "ele": 230.72
+        }
+      ],
+      "color": "#312358",
+      "start_name": "천은사주차장화장실 / 천은사주차장",
+      "end_name": "동안사",
+      "length_meter": 161.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.44482,
+          "lng": 129.043854,
+          "ele": 230.72
+        },
+        {
+          "lat": 37.444267,
+          "lng": 129.043488,
+          "ele": 238.04
+        }
+      ],
+      "color": "#a8b832",
+      "start_name": "동안사 / 보호수",
+      "end_name": "간이주차장",
+      "length_meter": 113.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.444267,
+          "lng": 129.043488,
+          "ele": 238.04
+        },
+        {
+          "lat": 37.444355,
+          "lng": 129.042557,
+          "ele": 249.594
+        }
+      ],
+      "color": "#332aa4",
+      "start_name": "간이주차장 / 소형화장실",
+      "end_name": "천은사",
+      "length_meter": 87.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.444355,
+          "lng": 129.042557,
+          "ele": 249.594
+        },
+        {
+          "lat": 37.44479,
+          "lng": 129.026642,
+          "ele": 671.818
+        }
+      ],
+      "color": "#447424",
+      "start_name": "천은사 / 갈림길",
+      "end_name": "급경사지",
+      "length_meter": 1413.4,
+      "time_minute": 23
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.44479,
+          "lng": 129.026642,
+          "ele": 671.818
+        },
+        {
+          "lat": 37.444485,
+          "lng": 129.02623,
+          "ele": 688.063
+        }
+      ],
+      "color": "#168467",
+      "start_name": "급경사지 / 쉰음산",
+      "end_name": "오십정",
+      "length_meter": 50.9,
+      "time_minute": 0
+    }
+  ]
+}

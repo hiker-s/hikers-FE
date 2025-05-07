@@ -1,0 +1,195 @@
+{
+  "mnt_id": 61,
+  "mnt_name": "용화산",
+  "course_id": 169,
+  "max_ele": 798.432,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "용화산 양통 주차장",
+  "end_name": "샘터",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 219.077,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.008465,
+          "lng": 127.739914,
+          "ele": 219.077
+        },
+        {
+          "lat": 38.024818,
+          "lng": 127.740166,
+          "ele": 336.859
+        }
+      ],
+      "color": "#95c120",
+      "start_name": "용화산 양통 주차장",
+      "end_name": "갈림길",
+      "length_meter": 1818.5,
+      "time_minute": 22
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.024818,
+          "lng": 127.740166,
+          "ele": 336.859
+        },
+        {
+          "lat": 38.03484,
+          "lng": 127.74054,
+          "ele": 469.371
+        }
+      ],
+      "color": "#771463",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 1114.9,
+      "time_minute": 13
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.03484,
+          "lng": 127.74054,
+          "ele": 469.371
+        },
+        {
+          "lat": 38.037216,
+          "lng": 127.740669,
+          "ele": 566.518
+        }
+      ],
+      "color": "#0717b8",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 277.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.037216,
+          "lng": 127.740669,
+          "ele": 566.518
+        },
+        {
+          "lat": 38.037708,
+          "lng": 127.739876,
+          "ele": 631.471
+        }
+      ],
+      "color": "#6dba88",
+      "start_name": "쉼터",
+      "end_name": "정자",
+      "length_meter": 88.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.037708,
+          "lng": 127.739876,
+          "ele": 631.471
+        },
+        {
+          "lat": 38.0392,
+          "lng": 127.739876,
+          "ele": 626.504
+        }
+      ],
+      "color": "#b02c03",
+      "start_name": "정자",
+      "end_name": "큰고개 주차장",
+      "length_meter": 165.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.0392,
+          "lng": 127.739876,
+          "ele": 626.504
+        },
+        {
+          "lat": 38.0383,
+          "lng": 127.741394,
+          "ele": 704.93
+        }
+      ],
+      "color": "#28715e",
+      "start_name": "큰고개 주차장 / 갈림길",
+      "end_name": "추락주의구간",
+      "length_meter": 168.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.0383,
+          "lng": 127.741394,
+          "ele": 704.93
+        },
+        {
+          "lat": 38.038109,
+          "lng": 127.743858,
+          "ele": 798.432
+        }
+      ],
+      "color": "#7a299d",
+      "start_name": "추락주의구간",
+      "end_name": "하늘벽 촛대바위 포토존",
+      "length_meter": 216.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 38.038109,
+          "lng": 127.743858,
+          "ele": 798.432
+        },
+        {
+          "lat": 38.038269,
+          "lng": 127.742073,
+          "ele": 697.357
+        }
+      ],
+      "color": "#808e39",
+      "start_name": "하늘벽 촛대바위 포토존",
+      "end_name": "갈림길",
+      "length_meter": 157.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 38.038269,
+          "lng": 127.742073,
+          "ele": 697.357
+        },
+        {
+          "lat": 38.037239,
+          "lng": 127.740921,
+          "ele": 599.765
+        }
+      ],
+      "color": "#6a5084",
+      "start_name": "갈림길",
+      "end_name": "샘터",
+      "length_meter": 152.6,
+      "time_minute": 1
+    }
+  ]
+}

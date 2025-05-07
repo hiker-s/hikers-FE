@@ -1,0 +1,155 @@
+{
+  "mnt_id": 95,
+  "mnt_name": "황매산",
+  "course_id": 253,
+  "max_ele": 1133.978,
+  "total_length_km": "3.9km",
+  "total_time": "0시간 48분",
+  "start_name": "황매산 군립공원 매표소",
+  "end_name": "중봉",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 483.772,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.481964,
+          "lng": 128.003632,
+          "ele": 483.772
+        },
+        {
+          "lat": 35.486824,
+          "lng": 127.998726,
+          "ele": 629.221
+        }
+      ],
+      "color": "#607694",
+      "start_name": "황매산 군립공원 매표소",
+      "end_name": "등산로 이정표",
+      "length_meter": 699.5,
+      "time_minute": 8
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.486824,
+          "lng": 127.998726,
+          "ele": 629.221
+        },
+        {
+          "lat": 35.488781,
+          "lng": 128.002518,
+          "ele": 739.674
+        }
+      ],
+      "color": "#0f2c45",
+      "start_name": "등산로 이정표",
+      "end_name": "갈림길",
+      "length_meter": 406.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.488781,
+          "lng": 128.002518,
+          "ele": 739.674
+        },
+        {
+          "lat": 35.491451,
+          "lng": 128.00267,
+          "ele": 783.211
+        }
+      ],
+      "color": "#99463d",
+      "start_name": "갈림길",
+      "end_name": "안내표지",
+      "length_meter": 297.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.491451,
+          "lng": 128.00267,
+          "ele": 783.211
+        },
+        {
+          "lat": 35.499065,
+          "lng": 127.990326,
+          "ele": 985.918
+        }
+      ],
+      "color": "#40c53e",
+      "start_name": "안내표지",
+      "end_name": "할미산성과 치마덤",
+      "length_meter": 1402.0,
+      "time_minute": 17
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.499065,
+          "lng": 127.990326,
+          "ele": 985.918
+        },
+        {
+          "lat": 35.501156,
+          "lng": 127.987671,
+          "ele": 1010.735
+        }
+      ],
+      "color": "#a8be52",
+      "start_name": "할미산성과 치마덤",
+      "end_name": "갈림길",
+      "length_meter": 334.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.501156,
+          "lng": 127.987671,
+          "ele": 1010.735
+        },
+        {
+          "lat": 35.499241,
+          "lng": 127.981514,
+          "ele": 1126.134
+        }
+      ],
+      "color": "#959c50",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 596.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.499241,
+          "lng": 127.981514,
+          "ele": 1126.134
+        },
+        {
+          "lat": 35.498871,
+          "lng": 127.979813,
+          "ele": 1122.068
+        }
+      ],
+      "color": "#011c01",
+      "start_name": "쉼터 / 정자 쉼터",
+      "end_name": "중봉",
+      "length_meter": 159.5,
+      "time_minute": 2
+    }
+  ]
+}

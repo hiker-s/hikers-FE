@@ -1,0 +1,115 @@
+{
+  "mnt_id": 55,
+  "mnt_name": "속리산",
+  "course_id": 152,
+  "max_ele": 882.037,
+  "total_length_km": "3.1km",
+  "total_time": "0시간 38분",
+  "start_name": "묘봉두부마을",
+  "end_name": "묘봉(암릉)",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 309.681,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.59544,
+          "lng": 127.815231,
+          "ele": 309.681
+        },
+        {
+          "lat": 36.594322,
+          "lng": 127.815048,
+          "ele": 312.089
+        }
+      ],
+      "color": "#457921",
+      "start_name": "묘봉두부마을",
+      "end_name": "운흥1리마을지도",
+      "length_meter": 125.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.594322,
+          "lng": 127.815048,
+          "ele": 312.089
+        },
+        {
+          "lat": 36.579685,
+          "lng": 127.817337,
+          "ele": 732.652
+        }
+      ],
+      "color": "#94792f",
+      "start_name": "운흥1리마을지도 / 탐방예약제",
+      "end_name": "토끼굴",
+      "length_meter": 1645.4,
+      "time_minute": 27
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.579685,
+          "lng": 127.817337,
+          "ele": 732.652
+        },
+        {
+          "lat": 36.578064,
+          "lng": 127.816383,
+          "ele": 774.136
+        }
+      ],
+      "color": "#111600",
+      "start_name": "토끼굴 / 토끼봉",
+      "end_name": "통천문",
+      "length_meter": 201.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.578064,
+          "lng": 127.816383,
+          "ele": 774.136
+        },
+        {
+          "lat": 36.574059,
+          "lng": 127.820961,
+          "ele": 882.037
+        }
+      ],
+      "color": "#6467a1",
+      "start_name": "통천문",
+      "end_name": "상학봉",
+      "length_meter": 604.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.574059,
+          "lng": 127.820961,
+          "ele": 882.037
+        },
+        {
+          "lat": 36.570675,
+          "lng": 127.824394,
+          "ele": 878.502
+        }
+      ],
+      "color": "#a2c35d",
+      "start_name": "상학봉",
+      "end_name": "묘봉(암릉)",
+      "length_meter": 485.4,
+      "time_minute": 6
+    }
+  ]
+}

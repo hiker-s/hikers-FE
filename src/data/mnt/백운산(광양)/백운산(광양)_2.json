@@ -1,0 +1,115 @@
+{
+  "mnt_id": 42,
+  "mnt_name": "백운산(광양)",
+  "course_id": 107,
+  "max_ele": 1028.789,
+  "total_length_km": "3.2km",
+  "total_time": "0시간 39분",
+  "start_name": "목재데크",
+  "end_name": "포스코 백운산 수련원",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 445.401,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.068092,
+          "lng": 127.64724,
+          "ele": 784.301
+        },
+        {
+          "lat": 35.073948,
+          "lng": 127.648872,
+          "ele": 940.274
+        }
+      ],
+      "color": "#afb155",
+      "start_name": "목재데크 / 갈림길",
+      "end_name": "목재데크 2개",
+      "length_meter": 668.5,
+      "time_minute": 11
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.073948,
+          "lng": 127.648872,
+          "ele": 940.274
+        },
+        {
+          "lat": 35.072525,
+          "lng": 127.6548,
+          "ele": 1028.789
+        }
+      ],
+      "color": "#337a0d",
+      "start_name": "목재데크 2개",
+      "end_name": "억불봉",
+      "length_meter": 562.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.072525,
+          "lng": 127.6548,
+          "ele": 1028.789
+        },
+        {
+          "lat": 35.069138,
+          "lng": 127.638008,
+          "ele": 512.997
+        }
+      ],
+      "color": "#1c491f",
+      "start_name": "억불봉",
+      "end_name": "갈림길",
+      "length_meter": 1573.9,
+      "time_minute": 19
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.069138,
+          "lng": 127.638008,
+          "ele": 512.997
+        },
+        {
+          "lat": 35.068737,
+          "lng": 127.634521,
+          "ele": 463.016
+        }
+      ],
+      "color": "#59a042",
+      "start_name": "갈림길 / 벤치 2개",
+      "end_name": "야생멧돼지 출몰지역 시민 주의사항 알림",
+      "length_meter": 323.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.068737,
+          "lng": 127.634521,
+          "ele": 463.016
+        },
+        {
+          "lat": 35.06926,
+          "lng": 127.634514,
+          "ele": 445.401
+        }
+      ],
+      "color": "#2d3e04",
+      "start_name": "야생멧돼지 출몰지역 시민 주의사항 알림",
+      "end_name": "포스코 백운산 수련원",
+      "length_meter": 58.2,
+      "time_minute": 0
+    }
+  ]
+}

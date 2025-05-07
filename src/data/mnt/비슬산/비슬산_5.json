@@ -1,0 +1,275 @@
+{
+  "mnt_id": 47,
+  "mnt_name": "비슬산",
+  "course_id": 122,
+  "max_ele": 1009.786,
+  "total_length_km": "6.1km",
+  "total_time": "1시간 16분",
+  "start_name": "유치곤기념관 주차장",
+  "end_name": "돌산",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 315.874,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.700035,
+          "lng": 128.499146,
+          "ele": 315.874
+        },
+        {
+          "lat": 35.700184,
+          "lng": 128.505188,
+          "ele": 354.551
+        }
+      ],
+      "color": "#1c6b45",
+      "start_name": "유치곤기념관 주차장 / 유치곤기념관 화장실 / 유치곤장군 기념관",
+      "end_name": "쉼터",
+      "length_meter": 592.9,
+      "time_minute": 9
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.700184,
+          "lng": 128.505188,
+          "ele": 354.551
+        },
+        {
+          "lat": 35.703827,
+          "lng": 128.513931,
+          "ele": 513.873
+        }
+      ],
+      "color": "#6db100",
+      "start_name": "쉼터",
+      "end_name": "돌산",
+      "length_meter": 887.3,
+      "time_minute": 11
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.703827,
+          "lng": 128.513931,
+          "ele": 513.873
+        },
+        {
+          "lat": 35.706524,
+          "lng": 128.519241,
+          "ele": 706.338
+        }
+      ],
+      "color": "#640095",
+      "start_name": "돌산",
+      "end_name": "쉼터2",
+      "length_meter": 565.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.706524,
+          "lng": 128.519241,
+          "ele": 706.338
+        },
+        {
+          "lat": 35.702488,
+          "lng": 128.522903,
+          "ele": 909.852
+        }
+      ],
+      "color": "#561374",
+      "start_name": "쉼터2",
+      "end_name": "쉼터",
+      "length_meter": 557.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.702488,
+          "lng": 128.522903,
+          "ele": 909.852
+        },
+        {
+          "lat": 35.702518,
+          "lng": 128.522903,
+          "ele": 908.093
+        }
+      ],
+      "color": "#838068",
+      "start_name": "쉼터",
+      "end_name": "멋진뷰",
+      "length_meter": 3.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.702518,
+          "lng": 128.522903,
+          "ele": 908.093
+        },
+        {
+          "lat": 35.700886,
+          "lng": 128.530334,
+          "ele": 974.426
+        }
+      ],
+      "color": "#b63241",
+      "start_name": "멋진뷰",
+      "end_name": "갈림길",
+      "length_meter": 695.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.700886,
+          "lng": 128.530334,
+          "ele": 974.426
+        },
+        {
+          "lat": 35.700874,
+          "lng": 128.531982,
+          "ele": 972.535
+        }
+      ],
+      "color": "#2977b1",
+      "start_name": "갈림길 / 참꽃군락지 쉼터",
+      "end_name": "참꽃군락지",
+      "length_meter": 150.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.700874,
+          "lng": 128.531982,
+          "ele": 972.535
+        },
+        {
+          "lat": 35.703686,
+          "lng": 128.533173,
+          "ele": 981.814
+        }
+      ],
+      "color": "#184e30",
+      "start_name": "참꽃군락지",
+      "end_name": "갈림길",
+      "length_meter": 330.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.703686,
+          "lng": 128.533173,
+          "ele": 981.814
+        },
+        {
+          "lat": 35.704231,
+          "lng": 128.533615,
+          "ele": 1009.786
+        }
+      ],
+      "color": "#3fc649",
+      "start_name": "갈림길",
+      "end_name": "청도비슬산 둘레길 안내도",
+      "length_meter": 72.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.704231,
+          "lng": 128.533615,
+          "ele": 1009.786
+        },
+        {
+          "lat": 35.700871,
+          "lng": 128.531998,
+          "ele": 972.557
+        }
+      ],
+      "color": "#04677c",
+      "start_name": "청도비슬산 둘레길 안내도 / 갈림길 / 월광봉 뷰 / 월광봉",
+      "end_name": "참꽃군락지 포토존",
+      "length_meter": 416.1,
+      "time_minute": 6
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.700871,
+          "lng": 128.531998,
+          "ele": 972.557
+        },
+        {
+          "lat": 35.696854,
+          "lng": 128.529526,
+          "ele": 1001.785
+        }
+      ],
+      "color": "#460b31",
+      "start_name": "참꽃군락지 포토존",
+      "end_name": "갈림길",
+      "length_meter": 499.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.696854,
+          "lng": 128.529526,
+          "ele": 1001.785
+        },
+        {
+          "lat": 35.69342,
+          "lng": 128.519608,
+          "ele": 850.268
+        }
+      ],
+      "color": "#1a8487",
+      "start_name": "갈림길",
+      "end_name": "용리사지2",
+      "length_meter": 973.6,
+      "time_minute": 12
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.69342,
+          "lng": 128.519608,
+          "ele": 850.268
+        },
+        {
+          "lat": 35.690536,
+          "lng": 128.517944,
+          "ele": 691.165
+        }
+      ],
+      "color": "#946608",
+      "start_name": "용리사지2",
+      "end_name": "돌산",
+      "length_meter": 354.1,
+      "time_minute": 4
+    }
+  ]
+}

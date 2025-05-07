@@ -1,0 +1,75 @@
+{
+  "mnt_id": 88,
+  "mnt_name": "태화산",
+  "course_id": 230,
+  "max_ele": 1044.946,
+  "total_length_km": "6.7km",
+  "total_time": "1시간 23분",
+  "start_name": "등산로안내도",
+  "end_name": "고씨굴",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 284.603,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.111843,
+          "lng": 128.4646,
+          "ele": 583.353
+        },
+        {
+          "lat": 37.12524,
+          "lng": 128.4953,
+          "ele": 1044.946
+        }
+      ],
+      "color": "#7daaa2",
+      "start_name": "등산로안내도",
+      "end_name": "전망대",
+      "length_meter": 3103.0,
+      "time_minute": 38
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.12524,
+          "lng": 128.4953,
+          "ele": 1044.946
+        },
+        {
+          "lat": 37.130585,
+          "lng": 128.503769,
+          "ele": 953.982
+        }
+      ],
+      "color": "#61244d",
+      "start_name": "전망대",
+      "end_name": "갈림길",
+      "length_meter": 957.6,
+      "time_minute": 11
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.130585,
+          "lng": 128.503769,
+          "ele": 953.982
+        },
+        {
+          "lat": 37.12965,
+          "lng": 128.533112,
+          "ele": 284.603
+        }
+      ],
+      "color": "#24c47a",
+      "start_name": "갈림길",
+      "end_name": "고씨굴",
+      "length_meter": 2603.4,
+      "time_minute": 32
+    }
+  ]
+}

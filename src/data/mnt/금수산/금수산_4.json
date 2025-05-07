@@ -1,0 +1,415 @@
+{
+  "mnt_id": 13,
+  "mnt_name": "금수산",
+  "course_id": 30,
+  "max_ele": 611.526,
+  "total_length_km": "5.7km",
+  "total_time": "1시간 11분",
+  "start_name": "옥순대교 주차장",
+  "end_name": "옥순대교",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 193.307,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.949116,
+          "lng": 128.231979,
+          "ele": 193.307
+        },
+        {
+          "lat": 36.948921,
+          "lng": 128.232712,
+          "ele": 193.453
+        }
+      ],
+      "color": "#3e109c",
+      "start_name": "옥순대교 주차장 / 입산시간 / 입구 / 자연경관",
+      "end_name": "충주호와 옥순대교",
+      "length_meter": 79.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.948921,
+          "lng": 128.232712,
+          "ele": 193.453
+        },
+        {
+          "lat": 36.949379,
+          "lng": 128.2332,
+          "ele": 219.191
+        }
+      ],
+      "color": "#67a614",
+      "start_name": "충주호와 옥순대교 / 정자 / 옥순봉 / 옥순대교 / 자연경관",
+      "end_name": "충주호",
+      "length_meter": 77.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.949379,
+          "lng": 128.2332,
+          "ele": 219.191
+        },
+        {
+          "lat": 36.95142,
+          "lng": 128.234528,
+          "ele": 263.688
+        }
+      ],
+      "color": "#0c805b",
+      "start_name": "충주호",
+      "end_name": "자연경관",
+      "length_meter": 255.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.95142,
+          "lng": 128.234528,
+          "ele": 263.688
+        },
+        {
+          "lat": 36.953285,
+          "lng": 128.236694,
+          "ele": 321.396
+        }
+      ],
+      "color": "#331f5d",
+      "start_name": "자연경관",
+      "end_name": "충주호",
+      "length_meter": 282.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.953285,
+          "lng": 128.236694,
+          "ele": 321.396
+        },
+        {
+          "lat": 36.950665,
+          "lng": 128.249405,
+          "ele": 300.349
+        }
+      ],
+      "color": "#45c100",
+      "start_name": "충주호 / 자연경관",
+      "end_name": "너덜길",
+      "length_meter": 1184.7,
+      "time_minute": 19
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.950665,
+          "lng": 128.249405,
+          "ele": 300.349
+        },
+        {
+          "lat": 36.950222,
+          "lng": 128.25061,
+          "ele": 330.117
+        }
+      ],
+      "color": "#b015b0",
+      "start_name": "너덜길",
+      "end_name": "자연경관",
+      "length_meter": 117.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.950222,
+          "lng": 128.25061,
+          "ele": 330.117
+        },
+        {
+          "lat": 36.949688,
+          "lng": 128.251755,
+          "ele": 357.515
+        }
+      ],
+      "color": "#1fb12f",
+      "start_name": "자연경관",
+      "end_name": "웨이포인트 35",
+      "length_meter": 117.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.949688,
+          "lng": 128.251755,
+          "ele": 357.515
+        },
+        {
+          "lat": 36.951138,
+          "lng": 128.252716,
+          "ele": 467.821
+        }
+      ],
+      "color": "#04b253",
+      "start_name": "웨이포인트 35 / 자연경관",
+      "end_name": "안내소",
+      "length_meter": 182.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.951138,
+          "lng": 128.252716,
+          "ele": 467.821
+        },
+        {
+          "lat": 36.952381,
+          "lng": 128.253418,
+          "ele": 517.291
+        }
+      ],
+      "color": "#96b5bc",
+      "start_name": "안내소",
+      "end_name": "자연경관",
+      "length_meter": 151.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.952381,
+          "lng": 128.253418,
+          "ele": 517.291
+        },
+        {
+          "lat": 36.953163,
+          "lng": 128.254074,
+          "ele": 575.905
+        }
+      ],
+      "color": "#113b94",
+      "start_name": "자연경관",
+      "end_name": "충주호",
+      "length_meter": 104.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.953163,
+          "lng": 128.254074,
+          "ele": 575.905
+        },
+        {
+          "lat": 36.954338,
+          "lng": 128.254959,
+          "ele": 600.864
+        }
+      ],
+      "color": "#a84d00",
+      "start_name": "충주호",
+      "end_name": "갈림길",
+      "length_meter": 152.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.954338,
+          "lng": 128.254959,
+          "ele": 600.864
+        },
+        {
+          "lat": 36.954521,
+          "lng": 128.256622,
+          "ele": 608.443
+        }
+      ],
+      "color": "#a503c4",
+      "start_name": "갈림길 / 자연경관",
+      "end_name": "오솔길",
+      "length_meter": 159.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.954521,
+          "lng": 128.256622,
+          "ele": 608.443
+        },
+        {
+          "lat": 36.949707,
+          "lng": 128.25177,
+          "ele": 363.079
+        }
+      ],
+      "color": "#4b4080",
+      "start_name": "오솔길 / 가은산 정상 / 자연경관",
+      "end_name": "웨이포인트 69",
+      "length_meter": 785.3,
+      "time_minute": 12
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.949707,
+          "lng": 128.25177,
+          "ele": 363.079
+        },
+        {
+          "lat": 36.95076,
+          "lng": 128.249359,
+          "ele": 306.775
+        }
+      ],
+      "color": "#461900",
+      "start_name": "웨이포인트 69",
+      "end_name": "자연경관",
+      "length_meter": 244.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.95076,
+          "lng": 128.249359,
+          "ele": 306.775
+        },
+        {
+          "lat": 36.953224,
+          "lng": 128.241669,
+          "ele": 314.175
+        }
+      ],
+      "color": "#79a7a3",
+      "start_name": "자연경관",
+      "end_name": "안내소",
+      "length_meter": 736.2,
+      "time_minute": 9
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.953224,
+          "lng": 128.241669,
+          "ele": 314.175
+        },
+        {
+          "lat": 36.953903,
+          "lng": 128.238007,
+          "ele": 302.937
+        }
+      ],
+      "color": "#988653",
+      "start_name": "안내소",
+      "end_name": "멧돼지 주의",
+      "length_meter": 334.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.953903,
+          "lng": 128.238007,
+          "ele": 302.937
+        },
+        {
+          "lat": 36.953259,
+          "lng": 128.23671,
+          "ele": 324.264
+        }
+      ],
+      "color": "#3c6046",
+      "start_name": "멧돼지 주의",
+      "end_name": "웨이포인트 21",
+      "length_meter": 135.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.953259,
+          "lng": 128.23671,
+          "ele": 324.264
+        },
+        {
+          "lat": 36.949589,
+          "lng": 128.233246,
+          "ele": 225.097
+        }
+      ],
+      "color": "#17c077",
+      "start_name": "웨이포인트 21",
+      "end_name": "자연경관",
+      "length_meter": 511.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.949589,
+          "lng": 128.233246,
+          "ele": 225.097
+        },
+        {
+          "lat": 36.948868,
+          "lng": 128.232468,
+          "ele": 203.188
+        }
+      ],
+      "color": "#6f05ba",
+      "start_name": "자연경관",
+      "end_name": "옥순대교,충주호",
+      "length_meter": 105.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 36.948868,
+          "lng": 128.232468,
+          "ele": 203.188
+        },
+        {
+          "lat": 36.948853,
+          "lng": 128.232376,
+          "ele": 198.951
+        }
+      ],
+      "color": "#6c4269",
+      "start_name": "옥순대교,충주호",
+      "end_name": "옥순대교",
+      "length_meter": 8.3,
+      "time_minute": 0
+    }
+  ]
+}

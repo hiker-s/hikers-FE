@@ -1,0 +1,395 @@
+{
+  "mnt_id": 34,
+  "mnt_name": "무등산",
+  "course_id": 87,
+  "max_ele": 893.106,
+  "total_length_km": "6.9km",
+  "total_time": "1시간 26분",
+  "start_name": "증심사 입구",
+  "end_name": "증심교",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 141.2,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.134121,
+          "lng": 126.955742,
+          "ele": 141.2
+        },
+        {
+          "lat": 35.133877,
+          "lng": 126.956558,
+          "ele": 143.837
+        }
+      ],
+      "color": "#4b26af",
+      "start_name": "증심사 입구",
+      "end_name": "무등산 안내도",
+      "length_meter": 79.0,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.133877,
+          "lng": 126.956558,
+          "ele": 143.837
+        },
+        {
+          "lat": 35.133457,
+          "lng": 126.957748,
+          "ele": 149.83
+        }
+      ],
+      "color": "#883358",
+      "start_name": "무등산 안내도",
+      "end_name": "갈림길",
+      "length_meter": 117.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.133457,
+          "lng": 126.957748,
+          "ele": 149.83
+        },
+        {
+          "lat": 35.133369,
+          "lng": 126.958725,
+          "ele": 152.704
+        }
+      ],
+      "color": "#b3320f",
+      "start_name": "갈림길",
+      "end_name": "증심사 입구 계곡",
+      "length_meter": 89.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.133369,
+          "lng": 126.958725,
+          "ele": 152.704
+        },
+        {
+          "lat": 35.133022,
+          "lng": 126.960114,
+          "ele": 153.817
+        }
+      ],
+      "color": "#6e9a1f",
+      "start_name": "증심사 입구 계곡",
+      "end_name": "무등산권 세계지질공원센터",
+      "length_meter": 132.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.133022,
+          "lng": 126.960114,
+          "ele": 153.817
+        },
+        {
+          "lat": 35.132748,
+          "lng": 126.960915,
+          "ele": 159.989
+        }
+      ],
+      "color": "#975184",
+      "start_name": "무등산권 세계지질공원센터 / 증심사지구 탐방지원센터",
+      "end_name": "무등산 노무현길 비석",
+      "length_meter": 80.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.132748,
+          "lng": 126.960915,
+          "ele": 159.989
+        },
+        {
+          "lat": 35.131718,
+          "lng": 126.962776,
+          "ele": 172.986
+        }
+      ],
+      "color": "#0c188d",
+      "start_name": "무등산 노무현길 비석 / 문빈정사 / 문빈정사 앞 공중화장실",
+      "end_name": "증심교 앞 쉼터",
+      "length_meter": 204.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.131718,
+          "lng": 126.962776,
+          "ele": 172.986
+        },
+        {
+          "lat": 35.129234,
+          "lng": 126.967171,
+          "ele": 216.219
+        }
+      ],
+      "color": "#3fb9b6",
+      "start_name": "증심교 앞 쉼터 / 갈림길 / 증심교 계곡",
+      "end_name": "의재 허백련 문화유적",
+      "length_meter": 485.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.129234,
+          "lng": 126.967171,
+          "ele": 216.219
+        },
+        {
+          "lat": 35.128559,
+          "lng": 126.967705,
+          "ele": 223.73
+        }
+      ],
+      "color": "#2926a1",
+      "start_name": "의재 허백련 문화유적 / 갈림길",
+      "end_name": "약사사 오름길 옆 계곡",
+      "length_meter": 89.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.128559,
+          "lng": 126.967705,
+          "ele": 223.73
+        },
+        {
+          "lat": 35.12516,
+          "lng": 126.970177,
+          "ele": 277.896
+        }
+      ],
+      "color": "#5791bc",
+      "start_name": "약사사 오름길 옆 계곡",
+      "end_name": "갈림길",
+      "length_meter": 439.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.12516,
+          "lng": 126.970177,
+          "ele": 277.896
+        },
+        {
+          "lat": 35.124195,
+          "lng": 126.970467,
+          "ele": 286.157
+        }
+      ],
+      "color": "#aa7f60",
+      "start_name": "갈림길",
+      "end_name": "약사사 입구 쉼터",
+      "length_meter": 110.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.124195,
+          "lng": 126.970467,
+          "ele": 286.157
+        },
+        {
+          "lat": 35.12249,
+          "lng": 126.971344,
+          "ele": 322.977
+        }
+      ],
+      "color": "#a93f27",
+      "start_name": "약사사 입구 쉼터",
+      "end_name": "약사사",
+      "length_meter": 205.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.12249,
+          "lng": 126.971344,
+          "ele": 322.977
+        },
+        {
+          "lat": 35.119583,
+          "lng": 126.9729,
+          "ele": 427.229
+        }
+      ],
+      "color": "#75249c",
+      "start_name": "약사사 / 갈림길",
+      "end_name": "서인봉 사거리 쉼터",
+      "length_meter": 352.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.119583,
+          "lng": 126.9729,
+          "ele": 427.229
+        },
+        {
+          "lat": 35.118584,
+          "lng": 126.983604,
+          "ele": 610.241
+        }
+      ],
+      "color": "#992f2f",
+      "start_name": "서인봉 사거리 쉼터 / 갈림길",
+      "end_name": "중머리재 화장실",
+      "length_meter": 981.5,
+      "time_minute": 16
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.118584,
+          "lng": 126.983604,
+          "ele": 610.241
+        },
+        {
+          "lat": 35.120728,
+          "lng": 126.988831,
+          "ele": 794.325
+        }
+      ],
+      "color": "#9a489a",
+      "start_name": "중머리재 화장실 / 갈림길",
+      "end_name": "중봉 오름길 조망점",
+      "length_meter": 531.9,
+      "time_minute": 8
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.120728,
+          "lng": 126.988831,
+          "ele": 794.325
+        },
+        {
+          "lat": 35.120689,
+          "lng": 126.990005,
+          "ele": 832.597
+        }
+      ],
+      "color": "#800ab6",
+      "start_name": "중봉 오름길 조망점",
+      "end_name": "중봉 암석군",
+      "length_meter": 106.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.120689,
+          "lng": 126.990005,
+          "ele": 832.597
+        },
+        {
+          "lat": 35.130943,
+          "lng": 126.97747,
+          "ele": 479.796
+        }
+      ],
+      "color": "#b425a2",
+      "start_name": "중봉 암석군 / 갈림길",
+      "end_name": "토끼등 화장실",
+      "length_meter": 1655.5,
+      "time_minute": 27
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.130943,
+          "lng": 126.97747,
+          "ele": 479.796
+        },
+        {
+          "lat": 35.130653,
+          "lng": 126.971962,
+          "ele": 379.95
+        }
+      ],
+      "color": "#15c319",
+      "start_name": "토끼등 화장실",
+      "end_name": "토끼등 하산길 쉼터",
+      "length_meter": 501.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.130653,
+          "lng": 126.971962,
+          "ele": 379.95
+        },
+        {
+          "lat": 35.131588,
+          "lng": 126.96431,
+          "ele": 182.705
+        }
+      ],
+      "color": "#72776c",
+      "start_name": "토끼등 하산길 쉼터",
+      "end_name": "덕산계곡",
+      "length_meter": 703.6,
+      "time_minute": 8
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.131588,
+          "lng": 126.96431,
+          "ele": 182.705
+        },
+        {
+          "lat": 35.131485,
+          "lng": 126.963516,
+          "ele": 169.515
+        }
+      ],
+      "color": "#9d3b3a",
+      "start_name": "덕산계곡",
+      "end_name": "증심교",
+      "length_meter": 73.1,
+      "time_minute": 0
+    }
+  ]
+}

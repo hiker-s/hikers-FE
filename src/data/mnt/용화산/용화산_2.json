@@ -1,0 +1,115 @@
+{
+  "mnt_id": 61,
+  "mnt_name": "용화산",
+  "course_id": 170,
+  "max_ele": 772.095,
+  "total_length_km": "2.7km",
+  "total_time": "0시간 33분",
+  "start_name": "산촌생태단지",
+  "end_name": "수불무산 전위봉",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 256.886,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.052364,
+          "lng": 127.780136,
+          "ele": 256.886
+        },
+        {
+          "lat": 38.048912,
+          "lng": 127.780739,
+          "ele": 293.459
+        }
+      ],
+      "color": "#9ab374",
+      "start_name": "산촌생태단지",
+      "end_name": "쉼터",
+      "length_meter": 387.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.048912,
+          "lng": 127.780739,
+          "ele": 293.459
+        },
+        {
+          "lat": 38.03495,
+          "lng": 127.777168,
+          "ele": 704.699
+        }
+      ],
+      "color": "#4c66b8",
+      "start_name": "쉼터",
+      "end_name": "수불무산 정상",
+      "length_meter": 1583.7,
+      "time_minute": 19
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.03495,
+          "lng": 127.777168,
+          "ele": 704.699
+        },
+        {
+          "lat": 38.034523,
+          "lng": 127.777138,
+          "ele": 722.415
+        }
+      ],
+      "color": "#527436",
+      "start_name": "수불무산 정상 / 수불무산 정상 바위 조망점",
+      "end_name": "수불무산 정상바위",
+      "length_meter": 47.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.034523,
+          "lng": 127.777138,
+          "ele": 722.415
+        },
+        {
+          "lat": 38.038391,
+          "lng": 127.779823,
+          "ele": 651.396
+        }
+      ],
+      "color": "#703fbf",
+      "start_name": "수불무산 정상바위 / 갈림길",
+      "end_name": "자연경관",
+      "length_meter": 514.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.038391,
+          "lng": 127.779823,
+          "ele": 651.396
+        },
+        {
+          "lat": 38.03952,
+          "lng": 127.780937,
+          "ele": 612.388
+        }
+      ],
+      "color": "#c46a42",
+      "start_name": "자연경관",
+      "end_name": "수불무산 전위봉",
+      "length_meter": 159.0,
+      "time_minute": 1
+    }
+  ]
+}

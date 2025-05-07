@@ -1,0 +1,195 @@
+{
+  "mnt_id": 84,
+  "mnt_name": "축령산",
+  "course_id": 215,
+  "max_ele": 910.832,
+  "total_length_km": "2.9km",
+  "total_time": "0시간 36분",
+  "start_name": "시내버스 축령산자연휴양림",
+  "end_name": "남이바위",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 293.866,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.752541,
+          "lng": 127.30883,
+          "ele": 297.386
+        },
+        {
+          "lat": 37.752563,
+          "lng": 127.308884,
+          "ele": 298.422
+        }
+      ],
+      "color": "#60af8e",
+      "start_name": "시내버스 축령산자연휴양림",
+      "end_name": "슈퍼",
+      "length_meter": 5.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.752563,
+          "lng": 127.308884,
+          "ele": 298.422
+        },
+        {
+          "lat": 37.75267,
+          "lng": 127.30883,
+          "ele": 293.866
+        }
+      ],
+      "color": "#5b60be",
+      "start_name": "슈퍼",
+      "end_name": "축령산 계곡가든",
+      "length_meter": 12.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.75267,
+          "lng": 127.30883,
+          "ele": 293.866
+        },
+        {
+          "lat": 37.752728,
+          "lng": 127.308914,
+          "ele": 294.271
+        }
+      ],
+      "color": "#121a55",
+      "start_name": "축령산 계곡가든",
+      "end_name": "축령산 자연휴양림",
+      "length_meter": 9.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.752728,
+          "lng": 127.308914,
+          "ele": 294.271
+        },
+        {
+          "lat": 37.754208,
+          "lng": 127.31398,
+          "ele": 370.874
+        }
+      ],
+      "color": "#391f70",
+      "start_name": "축령산 자연휴양림",
+      "end_name": "나무벤치",
+      "length_meter": 474.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.754208,
+          "lng": 127.31398,
+          "ele": 370.874
+        },
+        {
+          "lat": 37.752773,
+          "lng": 127.334007,
+          "ele": 904.963
+        }
+      ],
+      "color": "#5742b6",
+      "start_name": "나무벤치",
+      "end_name": "갈림길",
+      "length_meter": 1767.9,
+      "time_minute": 22
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.752773,
+          "lng": 127.334007,
+          "ele": 904.963
+        },
+        {
+          "lat": 37.752712,
+          "lng": 127.334023,
+          "ele": 910.832
+        }
+      ],
+      "color": "#1437c3",
+      "start_name": "갈림길",
+      "end_name": "축령산 정상 886.2m",
+      "length_meter": 6.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.752712,
+          "lng": 127.334023,
+          "ele": 910.832
+        },
+        {
+          "lat": 37.751217,
+          "lng": 127.332024,
+          "ele": 885.365
+        }
+      ],
+      "color": "#20adbe",
+      "start_name": "축령산 정상 886.2m",
+      "end_name": "헬기장",
+      "length_meter": 241.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.751217,
+          "lng": 127.332024,
+          "ele": 885.365
+        },
+        {
+          "lat": 37.749367,
+          "lng": 127.330093,
+          "ele": 868.921
+        }
+      ],
+      "color": "#30ac49",
+      "start_name": "헬기장",
+      "end_name": "갈림길",
+      "length_meter": 266.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.749367,
+          "lng": 127.330093,
+          "ele": 868.921
+        },
+        {
+          "lat": 37.748859,
+          "lng": 127.328583,
+          "ele": 860.926
+        }
+      ],
+      "color": "#2fa05e",
+      "start_name": "갈림길",
+      "end_name": "남이바위",
+      "length_meter": 144.3,
+      "time_minute": 1
+    }
+  ]
+}

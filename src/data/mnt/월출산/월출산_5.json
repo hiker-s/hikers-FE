@@ -1,0 +1,275 @@
+{
+  "mnt_id": 66,
+  "mnt_name": "월출산",
+  "course_id": 181,
+  "max_ele": 741.482,
+  "total_length_km": "5.2km",
+  "total_time": "1시간 4분",
+  "start_name": "계곡내 바위",
+  "end_name": "천황사",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 152.742,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.753448,
+          "lng": 126.671829,
+          "ele": 152.742
+        },
+        {
+          "lat": 34.754593,
+          "lng": 126.681305,
+          "ele": 369.656
+        }
+      ],
+      "color": "#1e2f7a",
+      "start_name": "계곡내 바위",
+      "end_name": "동백군락지 끝지점",
+      "length_meter": 875.0,
+      "time_minute": 10
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.754593,
+          "lng": 126.681305,
+          "ele": 369.656
+        },
+        {
+          "lat": 34.753769,
+          "lng": 126.685226,
+          "ele": 521.165
+        }
+      ],
+      "color": "#00a01c",
+      "start_name": "동백군락지 끝지점",
+      "end_name": "소국",
+      "length_meter": 369.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.753769,
+          "lng": 126.685226,
+          "ele": 521.165
+        },
+        {
+          "lat": 34.765816,
+          "lng": 126.70845,
+          "ele": 741.482
+        }
+      ],
+      "color": "#8392c6",
+      "start_name": "소국",
+      "end_name": "추락사고위험지역",
+      "length_meter": 2509.1,
+      "time_minute": 31
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.765816,
+          "lng": 126.70845,
+          "ele": 741.482
+        },
+        {
+          "lat": 34.765259,
+          "lng": 126.709816,
+          "ele": 709.135
+        }
+      ],
+      "color": "#3e7b86",
+      "start_name": "추락사고위험지역 / 천황봉",
+      "end_name": "구름다리",
+      "length_meter": 139.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.765259,
+          "lng": 126.709816,
+          "ele": 709.135
+        },
+        {
+          "lat": 34.76585,
+          "lng": 126.710709,
+          "ele": 701.669
+        }
+      ],
+      "color": "#a13d22",
+      "start_name": "구름다리 / 기암바위 뒤로 활성산 풍력",
+      "end_name": "급경사지 붕괴위험지역",
+      "length_meter": 106.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.76585,
+          "lng": 126.710709,
+          "ele": 701.669
+        },
+        {
+          "lat": 34.766102,
+          "lng": 126.711906,
+          "ele": 676.245
+        }
+      ],
+      "color": "#948260",
+      "start_name": "급경사지 붕괴위험지역 / 책바위",
+      "end_name": "심장마비 사망 사고지역",
+      "length_meter": 129.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.766102,
+          "lng": 126.711906,
+          "ele": 676.245
+        },
+        {
+          "lat": 34.767044,
+          "lng": 126.712433,
+          "ele": 617.106
+        }
+      ],
+      "color": "#51078b",
+      "start_name": "심장마비 사망 사고지역",
+      "end_name": "뱀딸기꽃",
+      "length_meter": 115.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.767044,
+          "lng": 126.712433,
+          "ele": 617.106
+        },
+        {
+          "lat": 34.768505,
+          "lng": 126.711967,
+          "ele": 602.631
+        }
+      ],
+      "color": "#aec282",
+      "start_name": "뱀딸기꽃 / 재난감시용cctv",
+      "end_name": "사자봉",
+      "length_meter": 173.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.768505,
+          "lng": 126.711967,
+          "ele": 602.631
+        },
+        {
+          "lat": 34.768913,
+          "lng": 126.712395,
+          "ele": 519.587
+        }
+      ],
+      "color": "#9d991e",
+      "start_name": "사자봉 / 바람폭포 / 구름다리 / 구름다리 쉼터",
+      "end_name": "구름다리",
+      "length_meter": 108.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.768913,
+          "lng": 126.712395,
+          "ele": 519.587
+        },
+        {
+          "lat": 34.76873,
+          "lng": 126.712502,
+          "ele": 518.174
+        }
+      ],
+      "color": "#606764",
+      "start_name": "구름다리 / 구름다리안내",
+      "end_name": "사고위험지역",
+      "length_meter": 22.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.76873,
+          "lng": 126.712502,
+          "ele": 518.174
+        },
+        {
+          "lat": 34.769539,
+          "lng": 126.713928,
+          "ele": 432.053
+        }
+      ],
+      "color": "#07a71d",
+      "start_name": "사고위험지역 / 갈림길 / 탐방로안내 / 쉼터정자 / 비상구급함 / 급경사로 붕괴 위험지역",
+      "end_name": "바위",
+      "length_meter": 241.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 34.769539,
+          "lng": 126.713928,
+          "ele": 432.053
+        },
+        {
+          "lat": 34.771194,
+          "lng": 126.716743,
+          "ele": 291.105
+        }
+      ],
+      "color": "#c54923",
+      "start_name": "바위",
+      "end_name": "벌쏘임주의",
+      "length_meter": 316.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 34.771194,
+          "lng": 126.716743,
+          "ele": 291.105
+        },
+        {
+          "lat": 34.771564,
+          "lng": 126.716606,
+          "ele": 250.146
+        }
+      ],
+      "color": "#5692a0",
+      "start_name": "벌쏘임주의 / 천황사터",
+      "end_name": "천황사",
+      "length_meter": 71.9,
+      "time_minute": 1
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "mnt_id": 52,
+  "mnt_name": "성인봉",
+  "course_id": 142,
+  "max_ele": 636.241,
+  "total_length_km": "1.8km",
+  "total_time": "0시간 22분",
+  "start_name": "갈림길",
+  "end_name": "송곳산(깃대봉)",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 476.204,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.509937,
+          "lng": 130.859589,
+          "ele": 476.204
+        },
+        {
+          "lat": 37.520512,
+          "lng": 130.849686,
+          "ele": 540.779
+        }
+      ],
+      "color": "#395156",
+      "start_name": "갈림길",
+      "end_name": "깃대봉아래쉼터",
+      "length_meter": 1464.8,
+      "time_minute": 18
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.520512,
+          "lng": 130.849686,
+          "ele": 540.779
+        },
+        {
+          "lat": 37.523117,
+          "lng": 130.850525,
+          "ele": 636.241
+        }
+      ],
+      "color": "#7c6353",
+      "start_name": "깃대봉아래쉼터",
+      "end_name": "송곳산(깃대봉)",
+      "length_meter": 299.0,
+      "time_minute": 3
+    }
+  ]
+}

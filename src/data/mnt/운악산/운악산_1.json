@@ -1,0 +1,255 @@
+{
+  "mnt_id": 63,
+  "mnt_name": "운악산",
+  "course_id": 176,
+  "max_ele": 929.138,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "운악산 하판리",
+  "end_name": "현등사 샘터",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 191.673,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.865135,
+          "lng": 127.349464,
+          "ele": 191.673
+        },
+        {
+          "lat": 37.865318,
+          "lng": 127.349609,
+          "ele": 196.163
+        }
+      ],
+      "color": "#91ad8e",
+      "start_name": "운악산 하판리 / 공중화장실",
+      "end_name": "현등사입구",
+      "length_meter": 25.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.865318,
+          "lng": 127.349609,
+          "ele": 196.163
+        },
+        {
+          "lat": 37.865162,
+          "lng": 127.348694,
+          "ele": 199.196
+        }
+      ],
+      "color": "#17ad22",
+      "start_name": "현등사입구 / 갈림길",
+      "end_name": "유경냉면",
+      "length_meter": 83.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.865162,
+          "lng": 127.348694,
+          "ele": 199.196
+        },
+        {
+          "lat": 37.865387,
+          "lng": 127.346024,
+          "ele": 218.254
+        }
+      ],
+      "color": "#34aa0d",
+      "start_name": "유경냉면",
+      "end_name": "현등사 관광안내",
+      "length_meter": 235.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.865387,
+          "lng": 127.346024,
+          "ele": 218.254
+        },
+        {
+          "lat": 37.865383,
+          "lng": 127.343201,
+          "ele": 252.952
+        }
+      ],
+      "color": "#a0255f",
+      "start_name": "현등사 관광안내",
+      "end_name": "간이화장실",
+      "length_meter": 247.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.865383,
+          "lng": 127.343201,
+          "ele": 252.952
+        },
+        {
+          "lat": 37.865227,
+          "lng": 127.341255,
+          "ele": 282.375
+        }
+      ],
+      "color": "#438810",
+      "start_name": "간이화장실",
+      "end_name": "갈림길",
+      "length_meter": 171.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.865227,
+          "lng": 127.341255,
+          "ele": 282.375
+        },
+        {
+          "lat": 37.871273,
+          "lng": 127.337608,
+          "ele": 515.839
+        }
+      ],
+      "color": "#86697e",
+      "start_name": "갈림길",
+      "end_name": "눈썹바위",
+      "length_meter": 744.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.871273,
+          "lng": 127.337608,
+          "ele": 515.839
+        },
+        {
+          "lat": 37.872551,
+          "lng": 127.336365,
+          "ele": 613.875
+        }
+      ],
+      "color": "#49105b",
+      "start_name": "눈썹바위",
+      "end_name": "이정표앞 쉼터",
+      "length_meter": 179.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.872551,
+          "lng": 127.336365,
+          "ele": 613.875
+        },
+        {
+          "lat": 37.876038,
+          "lng": 127.331947,
+          "ele": 710.275
+        }
+      ],
+      "color": "#2a1122",
+      "start_name": "이정표앞 쉼터",
+      "end_name": "병풍바위 전망대",
+      "length_meter": 548.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.876038,
+          "lng": 127.331947,
+          "ele": 710.275
+        },
+        {
+          "lat": 37.876785,
+          "lng": 127.325218,
+          "ele": 929.138
+        }
+      ],
+      "color": "#4abd1f",
+      "start_name": "병풍바위 전망대",
+      "end_name": "운악산비로봉(937.5m)",
+      "length_meter": 596.4,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.876785,
+          "lng": 127.325218,
+          "ele": 929.138
+        },
+        {
+          "lat": 37.876507,
+          "lng": 127.324478,
+          "ele": 910.95
+        }
+      ],
+      "color": "#43aa25",
+      "start_name": "운악산비로봉(937.5m) / 갈림길",
+      "end_name": "정상아래 쉼터",
+      "length_meter": 88.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.876507,
+          "lng": 127.324478,
+          "ele": 910.95
+        },
+        {
+          "lat": 37.872154,
+          "lng": 127.322685,
+          "ele": 799.276
+        }
+      ],
+      "color": "#20899a",
+      "start_name": "정상아래 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 509.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.872154,
+          "lng": 127.322685,
+          "ele": 799.276
+        },
+        {
+          "lat": 37.870552,
+          "lng": 127.330818,
+          "ele": 503.112
+        }
+      ],
+      "color": "#6b78b6",
+      "start_name": "갈림길",
+      "end_name": "현등사 샘터",
+      "length_meter": 735.8,
+      "time_minute": 9
+    }
+  ]
+}

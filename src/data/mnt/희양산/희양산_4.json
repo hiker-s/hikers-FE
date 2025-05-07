@@ -1,0 +1,195 @@
+{
+  "mnt_id": 99,
+  "mnt_name": "희양산",
+  "course_id": 259,
+  "max_ele": 821.9,
+  "total_length_km": "4.8km",
+  "total_time": "0시간 59분",
+  "start_name": "주치봉",
+  "end_name": "들머리",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 292.3,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.724079,
+          "lng": 127.976753,
+          "ele": 702.8
+        },
+        {
+          "lat": 36.724888,
+          "lng": 127.974861,
+          "ele": 597.8
+        }
+      ],
+      "color": "#328827",
+      "start_name": "주치봉 / 갈림길",
+      "end_name": "적송군락",
+      "length_meter": 192.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.724888,
+          "lng": 127.974861,
+          "ele": 597.8
+        },
+        {
+          "lat": 36.725864,
+          "lng": 127.973732,
+          "ele": 556.7
+        }
+      ],
+      "color": "#ab2147",
+      "start_name": "적송군락",
+      "end_name": "갈림길",
+      "length_meter": 148.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.725864,
+          "lng": 127.973732,
+          "ele": 556.7
+        },
+        {
+          "lat": 36.728561,
+          "lng": 127.971947,
+          "ele": 684.2
+        }
+      ],
+      "color": "#be10b7",
+      "start_name": "갈림길 / 산산제 장소 / 산림유전자원보호구역안내판",
+      "end_name": "조망바위",
+      "length_meter": 348.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.728561,
+          "lng": 127.971947,
+          "ele": 684.2
+        },
+        {
+          "lat": 36.730888,
+          "lng": 127.970482,
+          "ele": 712.4
+        }
+      ],
+      "color": "#14254a",
+      "start_name": "조망바위",
+      "end_name": "마분봉배경",
+      "length_meter": 289.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.730888,
+          "lng": 127.970482,
+          "ele": 712.4
+        },
+        {
+          "lat": 36.73407,
+          "lng": 127.96373,
+          "ele": 815.0
+        }
+      ],
+      "color": "#3f5c45",
+      "start_name": "마분봉배경",
+      "end_name": "갈림길",
+      "length_meter": 698.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.73407,
+          "lng": 127.96373,
+          "ele": 815.0
+        },
+        {
+          "lat": 36.739513,
+          "lng": 127.963158,
+          "ele": 688.7
+        }
+      ],
+      "color": "#1c9b90",
+      "start_name": "갈림길",
+      "end_name": "간이쉼터",
+      "length_meter": 607.4,
+      "time_minute": 7
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.739513,
+          "lng": 127.963158,
+          "ele": 688.7
+        },
+        {
+          "lat": 36.735992,
+          "lng": 127.980141,
+          "ele": 370.5
+        }
+      ],
+      "color": "#6435ae",
+      "start_name": "간이쉼터",
+      "end_name": "갈림길",
+      "length_meter": 1563.2,
+      "time_minute": 19
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.735992,
+          "lng": 127.980141,
+          "ele": 370.5
+        },
+        {
+          "lat": 36.734627,
+          "lng": 127.983803,
+          "ele": 316.3
+        }
+      ],
+      "color": "#60195c",
+      "start_name": "갈림길",
+      "end_name": "날머리",
+      "length_meter": 359.9,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.734627,
+          "lng": 127.983803,
+          "ele": 316.3
+        },
+        {
+          "lat": 36.737457,
+          "lng": 127.989098,
+          "ele": 292.3
+        }
+      ],
+      "color": "#2f9d9a",
+      "start_name": "날머리",
+      "end_name": "들머리",
+      "length_meter": 567.2,
+      "time_minute": 7
+    }
+  ]
+}

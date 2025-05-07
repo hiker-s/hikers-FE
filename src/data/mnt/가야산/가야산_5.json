@@ -1,0 +1,175 @@
+{
+  "mnt_id": 3,
+  "mnt_name": "가야산",
+  "course_id": 7,
+  "max_ele": 1453.214,
+  "total_length_km": "5.3km",
+  "total_time": "1시간 6분",
+  "start_name": "가야산성",
+  "end_name": "가야산 역사신화 공원",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 537.135,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.811111,
+          "lng": 128.138702,
+          "ele": 720.628
+        },
+        {
+          "lat": 35.814873,
+          "lng": 128.135468,
+          "ele": 813.627
+        }
+      ],
+      "color": "#755d69",
+      "start_name": "가야산성",
+      "end_name": "나무의자",
+      "length_meter": 509.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.814873,
+          "lng": 128.135468,
+          "ele": 813.627
+        },
+        {
+          "lat": 35.820721,
+          "lng": 128.124359,
+          "ele": 1329.566
+        }
+      ],
+      "color": "#04216a",
+      "start_name": "나무의자 / 쉼터옆 계곡",
+      "end_name": "자연경관",
+      "length_meter": 1194.4,
+      "time_minute": 19
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.820721,
+          "lng": 128.124359,
+          "ele": 1329.566
+        },
+        {
+          "lat": 35.82111,
+          "lng": 128.12381,
+          "ele": 1351.917
+        }
+      ],
+      "color": "#b889b7",
+      "start_name": "자연경관 / 조망",
+      "end_name": "자연경관",
+      "length_meter": 69.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.82111,
+          "lng": 128.12381,
+          "ele": 1351.917
+        },
+        {
+          "lat": 35.82254,
+          "lng": 128.122681,
+          "ele": 1448.252
+        }
+      ],
+      "color": "#38c486",
+      "start_name": "자연경관",
+      "end_name": "갈림길",
+      "length_meter": 188.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.82254,
+          "lng": 128.122681,
+          "ele": 1448.252
+        },
+        {
+          "lat": 35.822544,
+          "lng": 128.122849,
+          "ele": 1453.214
+        }
+      ],
+      "color": "#181370",
+      "start_name": "갈림길",
+      "end_name": "칠불봉",
+      "length_meter": 15.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.822544,
+          "lng": 128.122849,
+          "ele": 1453.214
+        },
+        {
+          "lat": 35.823132,
+          "lng": 128.12059,
+          "ele": 1421.992
+        }
+      ],
+      "color": "#4906a8",
+      "start_name": "칠불봉",
+      "end_name": "갈림길",
+      "length_meter": 213.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.823132,
+          "lng": 128.12059,
+          "ele": 1421.992
+        },
+        {
+          "lat": 35.814987,
+          "lng": 128.128616,
+          "ele": 988.33
+        }
+      ],
+      "color": "#23c257",
+      "start_name": "갈림길",
+      "end_name": "백운암지",
+      "length_meter": 1159.3,
+      "time_minute": 14
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.814987,
+          "lng": 128.128616,
+          "ele": 988.33
+        },
+        {
+          "lat": 35.800888,
+          "lng": 128.141891,
+          "ele": 537.135
+        }
+      ],
+      "color": "#7b3a38",
+      "start_name": "백운암지",
+      "end_name": "가야산 역사신화 공원",
+      "length_meter": 1972.5,
+      "time_minute": 24
+    }
+  ]
+}

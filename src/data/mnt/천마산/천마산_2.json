@@ -1,0 +1,275 @@
+{
+  "mnt_id": 79,
+  "mnt_name": "천마산",
+  "course_id": 205,
+  "max_ele": 834.631,
+  "total_length_km": "2.7km",
+  "total_time": "0시간 33분",
+  "start_name": "천마산 호평코스",
+  "end_name": "천마산정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 214.068,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.670872,
+          "lng": 127.251617,
+          "ele": 214.068
+        },
+        {
+          "lat": 37.671513,
+          "lng": 127.252411,
+          "ele": 221.106
+        }
+      ],
+      "color": "#17985b",
+      "start_name": "천마산 호평코스",
+      "end_name": "갈림길",
+      "length_meter": 99.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.671513,
+          "lng": 127.252411,
+          "ele": 221.106
+        },
+        {
+          "lat": 37.672028,
+          "lng": 127.253456,
+          "ele": 223.932
+        }
+      ],
+      "color": "#4f8e5d",
+      "start_name": "갈림길 / 은행나무 군락지",
+      "end_name": "쉼터",
+      "length_meter": 112.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.672028,
+          "lng": 127.253456,
+          "ele": 223.932
+        },
+        {
+          "lat": 37.672871,
+          "lng": 127.254944,
+          "ele": 231.869
+        }
+      ],
+      "color": "#176a94",
+      "start_name": "쉼터",
+      "end_name": "계곡",
+      "length_meter": 161.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.672871,
+          "lng": 127.254944,
+          "ele": 231.869
+        },
+        {
+          "lat": 37.674599,
+          "lng": 127.256454,
+          "ele": 264.502
+        }
+      ],
+      "color": "#87970d",
+      "start_name": "계곡 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 235.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.674599,
+          "lng": 127.256454,
+          "ele": 264.502
+        },
+        {
+          "lat": 37.675747,
+          "lng": 127.258102,
+          "ele": 312.698
+        }
+      ],
+      "color": "#2b165e",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 193.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.675747,
+          "lng": 127.258102,
+          "ele": 312.698
+        },
+        {
+          "lat": 37.677132,
+          "lng": 127.259674,
+          "ele": 323.543
+        }
+      ],
+      "color": "#8bbf2f",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 207.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.677132,
+          "lng": 127.259674,
+          "ele": 323.543
+        },
+        {
+          "lat": 37.680157,
+          "lng": 127.262398,
+          "ele": 402.938
+        }
+      ],
+      "color": "#704d33",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 413.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.680157,
+          "lng": 127.262398,
+          "ele": 402.938
+        },
+        {
+          "lat": 37.681068,
+          "lng": 127.262131,
+          "ele": 435.126
+        }
+      ],
+      "color": "#b6389a",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 104.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.681068,
+          "lng": 127.262131,
+          "ele": 435.126
+        },
+        {
+          "lat": 37.681156,
+          "lng": 127.268448,
+          "ele": 661.708
+        }
+      ],
+      "color": "#732b54",
+      "start_name": "쉼터",
+      "end_name": "헬기장",
+      "length_meter": 556.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.681156,
+          "lng": 127.268448,
+          "ele": 661.708
+        },
+        {
+          "lat": 37.680817,
+          "lng": 127.269592,
+          "ele": 695.776
+        }
+      ],
+      "color": "#4617a2",
+      "start_name": "헬기장",
+      "end_name": "쉼터",
+      "length_meter": 107.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.680817,
+          "lng": 127.269592,
+          "ele": 695.776
+        },
+        {
+          "lat": 37.679619,
+          "lng": 127.270966,
+          "ele": 748.688
+        }
+      ],
+      "color": "#6532a7",
+      "start_name": "쉼터",
+      "end_name": "꺽정바위",
+      "length_meter": 179.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.679619,
+          "lng": 127.270966,
+          "ele": 748.688
+        },
+        {
+          "lat": 37.679718,
+          "lng": 127.271599,
+          "ele": 794.92
+        }
+      ],
+      "color": "#4b0424",
+      "start_name": "꺽정바위",
+      "end_name": "쉼터",
+      "length_meter": 56.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.679718,
+          "lng": 127.271599,
+          "ele": 794.92
+        },
+        {
+          "lat": 37.680229,
+          "lng": 127.273285,
+          "ele": 834.631
+        }
+      ],
+      "color": "#233e9f",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "천마산정상",
+      "length_meter": 224.9,
+      "time_minute": 3
+    }
+  ]
+}

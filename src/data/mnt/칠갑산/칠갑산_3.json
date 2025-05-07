@@ -1,0 +1,95 @@
+{
+  "mnt_id": 86,
+  "mnt_name": "칠갑산",
+  "course_id": 222,
+  "max_ele": 404.503,
+  "total_length_km": "5.1km",
+  "total_time": "1시간 3분",
+  "start_name": "칠갑산자연휴양림 안내소",
+  "end_name": "칠갑산자연휴양림 야영장",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.432442,
+          "lng": 126.844139,
+          "ele": 172.36
+        },
+        {
+          "lat": 36.429398,
+          "lng": 126.843361,
+          "ele": 192.464
+        }
+      ],
+      "color": "#538141",
+      "start_name": "칠갑산자연휴양림 안내소 / 휴양림내 주차장",
+      "end_name": "칠갑산도립공원안내도",
+      "length_meter": 361.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.429398,
+          "lng": 126.843361,
+          "ele": 192.464
+        },
+        {
+          "lat": 36.422974,
+          "lng": 126.842072,
+          "ele": 329.22
+        }
+      ],
+      "color": "#58433e",
+      "start_name": "칠갑산도립공원안내도",
+      "end_name": "벤취 4개소",
+      "length_meter": 723.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.422974,
+          "lng": 126.842072,
+          "ele": 329.22
+        },
+        {
+          "lat": 36.419651,
+          "lng": 126.862831,
+          "ele": 315.893
+        }
+      ],
+      "color": "#3fa95c",
+      "start_name": "벤취 4개소",
+      "end_name": "갈림길",
+      "length_meter": 1893.8,
+      "time_minute": 23
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.419651,
+          "lng": 126.862831,
+          "ele": 315.893
+        },
+        {
+          "lat": 36.430328,
+          "lng": 126.843117,
+          "ele": 0.0
+        }
+      ],
+      "color": "#63bc4f",
+      "start_name": "갈림길",
+      "end_name": "칠갑산자연휴양림 야영장",
+      "length_meter": 2126.2,
+      "time_minute": 26
+    }
+  ]
+}

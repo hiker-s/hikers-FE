@@ -1,0 +1,135 @@
+{
+  "mnt_id": 23,
+  "mnt_name": "덕유산",
+  "course_id": 58,
+  "max_ele": 1524.697,
+  "total_length_km": "2.2km",
+  "total_time": "0시간 27분",
+  "start_name": "통안 시내버스 정류장",
+  "end_name": "칠연폭포",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.839451,
+          "lng": 127.690979,
+          "ele": 573.109
+        },
+        {
+          "lat": 35.838905,
+          "lng": 127.691902,
+          "ele": 565.047
+        }
+      ],
+      "color": "#4c0e49",
+      "start_name": "통안 시내버스 정류장 / 윤식당",
+      "end_name": "늘푸른식당",
+      "length_meter": 103.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.838905,
+          "lng": 127.691902,
+          "ele": 565.047
+        },
+        {
+          "lat": 35.838058,
+          "lng": 127.699928,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3d8408",
+      "start_name": "늘푸른식당",
+      "end_name": "안성탐방지원센터 주차장",
+      "length_meter": 729.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.838058,
+          "lng": 127.699928,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.837887,
+          "lng": 127.700172,
+          "ele": 619.605
+        }
+      ],
+      "color": "#186d2d",
+      "start_name": "안성탐방지원센터 주차장 / 안성탐방지원센터 화장실",
+      "end_name": "안성탐방지원센터",
+      "length_meter": 29.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.837887,
+          "lng": 127.700172,
+          "ele": 619.605
+        },
+        {
+          "lat": 35.835529,
+          "lng": 127.709389,
+          "ele": 681.2
+        }
+      ],
+      "color": "#1b412a",
+      "start_name": "안성탐방지원센터 / 갈림길",
+      "end_name": "벤취",
+      "length_meter": 882.6,
+      "time_minute": 14
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.835529,
+          "lng": 127.709389,
+          "ele": 681.2
+        },
+        {
+          "lat": 35.833458,
+          "lng": 127.710632,
+          "ele": 707.414
+        }
+      ],
+      "color": "#c32c55",
+      "start_name": "벤취",
+      "end_name": "갈림길",
+      "length_meter": 256.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.833458,
+          "lng": 127.710632,
+          "ele": 707.414
+        },
+        {
+          "lat": 35.831696,
+          "lng": 127.711433,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3b120b",
+      "start_name": "갈림길 / 간이화장실",
+      "end_name": "칠연폭포",
+      "length_meter": 210.7,
+      "time_minute": 3
+    }
+  ]
+}

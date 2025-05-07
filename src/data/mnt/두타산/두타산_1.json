@@ -1,0 +1,175 @@
+{
+  "mnt_id": 28,
+  "mnt_name": "두타산",
+  "course_id": 72,
+  "max_ele": 1066.031,
+  "total_length_km": "5.2km",
+  "total_time": "1시간 4분",
+  "start_name": "댓재주차장",
+  "end_name": "삼각점",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 832.463,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.384903,
+          "lng": 129.012466,
+          "ele": 832.463
+        },
+        {
+          "lat": 37.385078,
+          "lng": 129.012589,
+          "ele": 838.037
+        }
+      ],
+      "color": "#345415",
+      "start_name": "댓재주차장 / 댓재조망대 / 댓재조형물",
+      "end_name": "댓재휴게소",
+      "length_meter": 110.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.385078,
+          "lng": 129.012589,
+          "ele": 838.037
+        },
+        {
+          "lat": 37.384998,
+          "lng": 129.012146,
+          "ele": 834.199
+        }
+      ],
+      "color": "#185c5b",
+      "start_name": "댓재휴게소",
+      "end_name": "댓재화장실",
+      "length_meter": 40.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.384998,
+          "lng": 129.012146,
+          "ele": 834.199
+        },
+        {
+          "lat": 37.38868,
+          "lng": 129.014954,
+          "ele": 902.706
+        }
+      ],
+      "color": "#b62c6c",
+      "start_name": "댓재화장실 / 갈림길",
+      "end_name": "간이쉼터",
+      "length_meter": 496.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.38868,
+          "lng": 129.014954,
+          "ele": 902.706
+        },
+        {
+          "lat": 37.390862,
+          "lng": 129.016495,
+          "ele": 988.045
+        }
+      ],
+      "color": "#c06154",
+      "start_name": "간이쉼터",
+      "end_name": "햇댓등",
+      "length_meter": 278.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.390862,
+          "lng": 129.016495,
+          "ele": 988.045
+        },
+        {
+          "lat": 37.391541,
+          "lng": 129.011749,
+          "ele": 902.786
+        }
+      ],
+      "color": "#a45255",
+      "start_name": "햇댓등",
+      "end_name": "갈림길",
+      "length_meter": 426.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.391541,
+          "lng": 129.011749,
+          "ele": 902.786
+        },
+        {
+          "lat": 37.391323,
+          "lng": 129.009369,
+          "ele": 938.017
+        }
+      ],
+      "color": "#8b1638",
+      "start_name": "갈림길",
+      "end_name": "급경사지",
+      "length_meter": 211.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.391323,
+          "lng": 129.009369,
+          "ele": 938.017
+        },
+        {
+          "lat": 37.412277,
+          "lng": 129.008575,
+          "ele": 998.478
+        }
+      ],
+      "color": "#12a061",
+      "start_name": "급경사지",
+      "end_name": "갈림길",
+      "length_meter": 2331.0,
+      "time_minute": 29
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.412277,
+          "lng": 129.008575,
+          "ele": 998.478
+        },
+        {
+          "lat": 37.401035,
+          "lng": 129.004639,
+          "ele": 1066.031
+        }
+      ],
+      "color": "#87a285",
+      "start_name": "갈림길",
+      "end_name": "삼각점",
+      "length_meter": 1297.5,
+      "time_minute": 16
+    }
+  ]
+}

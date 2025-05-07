@@ -1,0 +1,115 @@
+{
+  "mnt_id": 9,
+  "mnt_name": "공작산",
+  "course_id": 25,
+  "max_ele": 865.439,
+  "total_length_km": "3.7km",
+  "total_time": "0시간 45분",
+  "start_name": "공작교",
+  "end_name": "낙엽송식재지역",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 322.82,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.685078,
+          "lng": 128.02623,
+          "ele": 322.82
+        },
+        {
+          "lat": 37.697605,
+          "lng": 128.023834,
+          "ele": 354.473
+        }
+      ],
+      "color": "#a02d35",
+      "start_name": "공작교",
+      "end_name": "정자 쉼터",
+      "length_meter": 1408.8,
+      "time_minute": 17
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.697605,
+          "lng": 128.023834,
+          "ele": 354.473
+        },
+        {
+          "lat": 37.698345,
+          "lng": 128.023499,
+          "ele": 357.939
+        }
+      ],
+      "color": "#a62019",
+      "start_name": "정자 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 87.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.698345,
+          "lng": 128.023499,
+          "ele": 357.939
+        },
+        {
+          "lat": 37.708534,
+          "lng": 128.024292,
+          "ele": 476.485
+        }
+      ],
+      "color": "#987173",
+      "start_name": "갈림길",
+      "end_name": "노송군락지",
+      "length_meter": 1135.1,
+      "time_minute": 14
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.708534,
+          "lng": 128.024292,
+          "ele": 476.485
+        },
+        {
+          "lat": 37.710758,
+          "lng": 128.024124,
+          "ele": 600.748
+        }
+      ],
+      "color": "#43198d",
+      "start_name": "노송군락지",
+      "end_name": "갈림길",
+      "length_meter": 247.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.710758,
+          "lng": 128.024124,
+          "ele": 600.748
+        },
+        {
+          "lat": 37.714119,
+          "lng": 128.016541,
+          "ele": 760.372
+        }
+      ],
+      "color": "#6551bf",
+      "start_name": "갈림길 / 노송군락지 끝",
+      "end_name": "낙엽송식재지역",
+      "length_meter": 771.2,
+      "time_minute": 12
+    }
+  ]
+}

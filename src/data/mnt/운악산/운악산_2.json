@@ -1,0 +1,515 @@
+{
+  "mnt_id": 63,
+  "mnt_name": "운악산",
+  "course_id": 174,
+  "max_ele": 923.42,
+  "total_length_km": "5.4km",
+  "total_time": "1시간 7분",
+  "start_name": "운악산휴게소정류장",
+  "end_name": "대원사 입구계곡",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 234.185,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.88308,
+          "lng": 127.302254,
+          "ele": 234.185
+        },
+        {
+          "lat": 37.883331,
+          "lng": 127.302582,
+          "ele": 237.685
+        }
+      ],
+      "color": "#a59217",
+      "start_name": "운악산휴게소정류장 / 운악산캠핑장",
+      "end_name": "운악산주차장",
+      "length_meter": 110.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.883331,
+          "lng": 127.302582,
+          "ele": 237.685
+        },
+        {
+          "lat": 37.883991,
+          "lng": 127.302612,
+          "ele": 238.757
+        }
+      ],
+      "color": "#165108",
+      "start_name": "운악산주차장 / 운악산휴게소",
+      "end_name": "등산안내도",
+      "length_meter": 79.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.883991,
+          "lng": 127.302612,
+          "ele": 238.757
+        },
+        {
+          "lat": 37.884464,
+          "lng": 127.304626,
+          "ele": 254.58
+        }
+      ],
+      "color": "#4f886e",
+      "start_name": "등산안내도 / 모범화장실 / 등산로입구",
+      "end_name": "커피및 식당",
+      "length_meter": 222.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.884464,
+          "lng": 127.304626,
+          "ele": 254.58
+        },
+        {
+          "lat": 37.883663,
+          "lng": 127.30574,
+          "ele": 262.604
+        }
+      ],
+      "color": "#613bab",
+      "start_name": "커피및 식당 / 갈림길",
+      "end_name": "운악산휴양림",
+      "length_meter": 135.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.883663,
+          "lng": 127.30574,
+          "ele": 262.604
+        },
+        {
+          "lat": 37.882153,
+          "lng": 127.313255,
+          "ele": 442.285
+        }
+      ],
+      "color": "#96624f",
+      "start_name": "운악산휴양림 / 커피숍.",
+      "end_name": "해우소",
+      "length_meter": 683.4,
+      "time_minute": 11
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.882153,
+          "lng": 127.313255,
+          "ele": 442.285
+        },
+        {
+          "lat": 37.881958,
+          "lng": 127.313385,
+          "ele": 448.181
+        }
+      ],
+      "color": "#222918",
+      "start_name": "해우소",
+      "end_name": "운악사",
+      "length_meter": 24.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.881958,
+          "lng": 127.313385,
+          "ele": 448.181
+        },
+        {
+          "lat": 37.880634,
+          "lng": 127.313873,
+          "ele": 532.068
+        }
+      ],
+      "color": "#12c386",
+      "start_name": "운악사 / 갈림길",
+      "end_name": "암릉구간",
+      "length_meter": 156.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.880634,
+          "lng": 127.313873,
+          "ele": 532.068
+        },
+        {
+          "lat": 37.879646,
+          "lng": 127.314819,
+          "ele": 586.572
+        }
+      ],
+      "color": "#9c0f08",
+      "start_name": "암릉구간 / 국가지정번호",
+      "end_name": "암벽",
+      "length_meter": 139.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.879646,
+          "lng": 127.314819,
+          "ele": 586.572
+        },
+        {
+          "lat": 37.879372,
+          "lng": 127.315544,
+          "ele": 640.823
+        }
+      ],
+      "color": "#6c2e05",
+      "start_name": "암벽 / 능선조망 / 안부쉼터",
+      "end_name": "궁예성터",
+      "length_meter": 73.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.879372,
+          "lng": 127.315544,
+          "ele": 640.823
+        },
+        {
+          "lat": 37.878609,
+          "lng": 127.316505,
+          "ele": 684.951
+        }
+      ],
+      "color": "#44b989",
+      "start_name": "궁예성터",
+      "end_name": "암릉",
+      "length_meter": 119.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.878609,
+          "lng": 127.316505,
+          "ele": 684.951
+        },
+        {
+          "lat": 37.878181,
+          "lng": 127.317108,
+          "ele": 744.27
+        }
+      ],
+      "color": "#b348a0",
+      "start_name": "암릉 / 갈림길",
+      "end_name": "바위와 소나무",
+      "length_meter": 89.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.878181,
+          "lng": 127.317108,
+          "ele": 744.27
+        },
+        {
+          "lat": 37.878357,
+          "lng": 127.317818,
+          "ele": 743.31
+        }
+      ],
+      "color": "#511e42",
+      "start_name": "바위와 소나무 / 애기봉 / 철사다리",
+      "end_name": "자연은 위대",
+      "length_meter": 78.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.878357,
+          "lng": 127.317818,
+          "ele": 743.31
+        },
+        {
+          "lat": 37.878109,
+          "lng": 127.318686,
+          "ele": 791.516
+        }
+      ],
+      "color": "#323334",
+      "start_name": "자연은 위대 / 멋진풍광",
+      "end_name": "웨이포인트 30",
+      "length_meter": 81.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.878109,
+          "lng": 127.318686,
+          "ele": 791.516
+        },
+        {
+          "lat": 37.878353,
+          "lng": 127.319584,
+          "ele": 789.713
+        }
+      ],
+      "color": "#1c276c",
+      "start_name": "웨이포인트 30 / 웨이포인트 31 / 자연풍경 / 국가지정번호",
+      "end_name": "웨이포인트 34",
+      "length_meter": 86.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.878353,
+          "lng": 127.319584,
+          "ele": 789.713
+        },
+        {
+          "lat": 37.878418,
+          "lng": 127.320175,
+          "ele": 826.321
+        }
+      ],
+      "color": "#221439",
+      "start_name": "웨이포인트 34 / 웨이포인트 35 / 암릉",
+      "end_name": "자연쉼터",
+      "length_meter": 52.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.878418,
+          "lng": 127.320175,
+          "ele": 826.321
+        },
+        {
+          "lat": 37.878628,
+          "lng": 127.321846,
+          "ele": 870.164
+        }
+      ],
+      "color": "#c76d3b",
+      "start_name": "자연쉼터",
+      "end_name": "갈림길",
+      "length_meter": 148.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.878628,
+          "lng": 127.321846,
+          "ele": 870.164
+        },
+        {
+          "lat": 37.878654,
+          "lng": 127.322609,
+          "ele": 915.174
+        }
+      ],
+      "color": "#3b9b7c",
+      "start_name": "갈림길 / 철계단 / 쉼터",
+      "end_name": "119 구급표지",
+      "length_meter": 75.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.878654,
+          "lng": 127.322609,
+          "ele": 915.174
+        },
+        {
+          "lat": 37.875996,
+          "lng": 127.32399,
+          "ele": 889.837
+        }
+      ],
+      "color": "#bf00ba",
+      "start_name": "119 구급표지 / 쉼터 / 서봉 / 한북정맥 안내도",
+      "end_name": "쉼터",
+      "length_meter": 354.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.875996,
+          "lng": 127.32399,
+          "ele": 889.837
+        },
+        {
+          "lat": 37.871677,
+          "lng": 127.319901,
+          "ele": 738.938
+        }
+      ],
+      "color": "#a35537",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "바람통로",
+      "length_meter": 599.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.871677,
+          "lng": 127.319901,
+          "ele": 738.938
+        },
+        {
+          "lat": 37.868389,
+          "lng": 127.31665,
+          "ele": 629.553
+        }
+      ],
+      "color": "#71744b",
+      "start_name": "바람통로",
+      "end_name": "갈림길",
+      "length_meter": 463.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 37.868389,
+          "lng": 127.31665,
+          "ele": 629.553
+        },
+        {
+          "lat": 37.87067,
+          "lng": 127.313972,
+          "ele": 503.392
+        }
+      ],
+      "color": "#690278",
+      "start_name": "갈림길",
+      "end_name": "모시대",
+      "length_meter": 345.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 37.87067,
+          "lng": 127.313972,
+          "ele": 503.392
+        },
+        {
+          "lat": 37.874687,
+          "lng": 127.308731,
+          "ele": 370.427
+        }
+      ],
+      "color": "#197396",
+      "start_name": "모시대 / 단풍취",
+      "end_name": "대원사계곡",
+      "length_meter": 645.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 37.874687,
+          "lng": 127.308731,
+          "ele": 370.427
+        },
+        {
+          "lat": 37.875019,
+          "lng": 127.307907,
+          "ele": 380.912
+        }
+      ],
+      "color": "#c18e0f",
+      "start_name": "대원사계곡 / 쉼터",
+      "end_name": "참취",
+      "length_meter": 81.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 37.875019,
+          "lng": 127.307907,
+          "ele": 380.912
+        },
+        {
+          "lat": 37.877239,
+          "lng": 127.303848,
+          "ele": 327.026
+        }
+      ],
+      "color": "#ad465f",
+      "start_name": "참취",
+      "end_name": "산사태취약지구",
+      "length_meter": 433.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 37.877239,
+          "lng": 127.303848,
+          "ele": 327.026
+        },
+        {
+          "lat": 37.877819,
+          "lng": 127.302719,
+          "ele": 304.845
+        }
+      ],
+      "color": "#61635b",
+      "start_name": "산사태취약지구 / 대원사",
+      "end_name": "대원사 입구계곡",
+      "length_meter": 122.5,
+      "time_minute": 1
+    }
+  ]
+}

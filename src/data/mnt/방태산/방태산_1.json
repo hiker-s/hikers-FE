@@ -1,0 +1,175 @@
+{
+  "mnt_id": 39,
+  "mnt_name": "방태산",
+  "course_id": 99,
+  "max_ele": 1444.011,
+  "total_length_km": "5.8km",
+  "total_time": "1시간 13분",
+  "start_name": "방태산등산로입구출발",
+  "end_name": "방태산주억봉",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 633.63,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.914307,
+          "lng": 128.406982,
+          "ele": 633.63
+        },
+        {
+          "lat": 37.910717,
+          "lng": 128.406952,
+          "ele": 664.687
+        }
+      ],
+      "color": "#a28a37",
+      "start_name": "방태산등산로입구출발",
+      "end_name": "매봉령",
+      "length_meter": 399.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.910717,
+          "lng": 128.406952,
+          "ele": 664.687
+        },
+        {
+          "lat": 37.905819,
+          "lng": 128.409714,
+          "ele": 728.334
+        }
+      ],
+      "color": "#a39f48",
+      "start_name": "매봉령",
+      "end_name": "갈림길",
+      "length_meter": 596.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.905819,
+          "lng": 128.409714,
+          "ele": 728.334
+        },
+        {
+          "lat": 37.891502,
+          "lng": 128.419159,
+          "ele": 1206.683
+        }
+      ],
+      "color": "#724e5c",
+      "start_name": "갈림길",
+      "end_name": "매봉령",
+      "length_meter": 1794.8,
+      "time_minute": 22
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.891502,
+          "lng": 128.419159,
+          "ele": 1206.683
+        },
+        {
+          "lat": 37.886528,
+          "lng": 128.415115,
+          "ele": 1355.418
+        }
+      ],
+      "color": "#bc0078",
+      "start_name": "매봉령",
+      "end_name": "갈림길",
+      "length_meter": 657.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.886528,
+          "lng": 128.415115,
+          "ele": 1355.418
+        },
+        {
+          "lat": 37.88369,
+          "lng": 128.408966,
+          "ele": 1388.34
+        }
+      ],
+      "color": "#39223b",
+      "start_name": "갈림길",
+      "end_name": "구룡덕봉가는길",
+      "length_meter": 625.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.88369,
+          "lng": 128.408966,
+          "ele": 1388.34
+        },
+        {
+          "lat": 37.88377,
+          "lng": 128.407944,
+          "ele": 1401.997
+        }
+      ],
+      "color": "#6cc5a3",
+      "start_name": "구룡덕봉가는길 / 구룡덕봉도착전 헬기장",
+      "end_name": "구룡덕봉전망대",
+      "length_meter": 90.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.88377,
+          "lng": 128.407944,
+          "ele": 1401.997
+        },
+        {
+          "lat": 37.888905,
+          "lng": 128.394241,
+          "ele": 1379.476
+        }
+      ],
+      "color": "#aea39e",
+      "start_name": "구룡덕봉전망대",
+      "end_name": "삼거리",
+      "length_meter": 1331.2,
+      "time_minute": 16
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.888905,
+          "lng": 128.394241,
+          "ele": 1379.476
+        },
+        {
+          "lat": 37.888145,
+          "lng": 128.39032,
+          "ele": 1444.011
+        }
+      ],
+      "color": "#184d5c",
+      "start_name": "삼거리",
+      "end_name": "방태산주억봉",
+      "length_meter": 354.3,
+      "time_minute": 4
+    }
+  ]
+}

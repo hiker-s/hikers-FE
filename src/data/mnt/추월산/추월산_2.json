@@ -1,0 +1,55 @@
+{
+  "mnt_id": 83,
+  "mnt_name": "추월산",
+  "course_id": 214,
+  "max_ele": 633.802,
+  "total_length_km": "0.6km",
+  "total_time": "0시간 7분",
+  "start_name": "쉼터",
+  "end_name": "추월산 구상암",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 285.545,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.39798,
+          "lng": 126.995819,
+          "ele": 285.545
+        },
+        {
+          "lat": 35.395111,
+          "lng": 126.990364,
+          "ele": 499.59
+        }
+      ],
+      "color": "#416239",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 588.4,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.395111,
+          "lng": 126.990364,
+          "ele": 499.59
+        },
+        {
+          "lat": 35.395195,
+          "lng": 126.990364,
+          "ele": 494.064
+        }
+      ],
+      "color": "#93a067",
+      "start_name": "갈림길",
+      "end_name": "추월산 구상암",
+      "length_meter": 9.3,
+      "time_minute": 0
+    }
+  ]
+}

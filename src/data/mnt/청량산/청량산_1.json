@@ -1,0 +1,275 @@
+{
+  "mnt_id": 82,
+  "mnt_name": "청량산",
+  "course_id": 210,
+  "max_ele": 868.811,
+  "total_length_km": "2.8km",
+  "total_time": "0시간 34분",
+  "start_name": "솟대와 시인",
+  "end_name": "삼부자송",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 362.269,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.787636,
+          "lng": 128.919632,
+          "ele": 514.887
+        },
+        {
+          "lat": 36.788799,
+          "lng": 128.919907,
+          "ele": 524.117
+        }
+      ],
+      "color": "#9e8c47",
+      "start_name": "솟대와 시인 / 봉화 청량정사",
+      "end_name": "해우소",
+      "length_meter": 132.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.788799,
+          "lng": 128.919907,
+          "ele": 524.117
+        },
+        {
+          "lat": 36.788868,
+          "lng": 128.919342,
+          "ele": 527.992
+        }
+      ],
+      "color": "#0e11a0",
+      "start_name": "해우소 / 약수터(청량사 해우소)",
+      "end_name": "청량사",
+      "length_meter": 53.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.788868,
+          "lng": 128.919342,
+          "ele": 527.992
+        },
+        {
+          "lat": 36.789307,
+          "lng": 128.918808,
+          "ele": 533.766
+        }
+      ],
+      "color": "#344c11",
+      "start_name": "청량사 / 갈림길 / 청량사 약수터",
+      "end_name": "청량사 정원",
+      "length_meter": 77.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.789307,
+          "lng": 128.918808,
+          "ele": 533.766
+        },
+        {
+          "lat": 36.789169,
+          "lng": 128.918594,
+          "ele": 540.074
+        }
+      ],
+      "color": "#092da9",
+      "start_name": "청량사 정원 / 청량사 5층석탑",
+      "end_name": "청량사",
+      "length_meter": 28.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.789169,
+          "lng": 128.918594,
+          "ele": 540.074
+        },
+        {
+          "lat": 36.790466,
+          "lng": 128.917557,
+          "ele": 568.257
+        }
+      ],
+      "color": "#906503",
+      "start_name": "청량사",
+      "end_name": "갈림길",
+      "length_meter": 171.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.790466,
+          "lng": 128.917557,
+          "ele": 568.257
+        },
+        {
+          "lat": 36.793053,
+          "lng": 128.915649,
+          "ele": 715.257
+        }
+      ],
+      "color": "#9f4254",
+      "start_name": "갈림길",
+      "end_name": "봉우리 조망",
+      "length_meter": 334.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.793053,
+          "lng": 128.915649,
+          "ele": 715.257
+        },
+        {
+          "lat": 36.7929,
+          "lng": 128.913376,
+          "ele": 798.818
+        }
+      ],
+      "color": "#c3b145",
+      "start_name": "봉우리 조망",
+      "end_name": "하늘다리 입구",
+      "length_meter": 203.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.7929,
+          "lng": 128.913376,
+          "ele": 798.818
+        },
+        {
+          "lat": 36.794415,
+          "lng": 128.908844,
+          "ele": 868.811
+        }
+      ],
+      "color": "#069273",
+      "start_name": "하늘다리 입구 / 청량산 하늘다리 / 하늘다리 경관 / 하늘다리",
+      "end_name": "장인봉",
+      "length_meter": 446.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.794415,
+          "lng": 128.908844,
+          "ele": 868.811
+        },
+        {
+          "lat": 36.793034,
+          "lng": 128.904816,
+          "ele": 734.6
+        }
+      ],
+      "color": "#5ac367",
+      "start_name": "장인봉 / 낙동강 조망",
+      "end_name": "전망대쉼터",
+      "length_meter": 390.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.793034,
+          "lng": 128.904816,
+          "ele": 734.6
+        },
+        {
+          "lat": 36.793045,
+          "lng": 128.904877,
+          "ele": 740.902
+        }
+      ],
+      "color": "#a7ab68",
+      "start_name": "전망대쉼터 / 장인봉 전경",
+      "end_name": "청량산 전상 전경",
+      "length_meter": 16.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.793045,
+          "lng": 128.904877,
+          "ele": 740.902
+        },
+        {
+          "lat": 36.793304,
+          "lng": 128.897751,
+          "ele": 433.332
+        }
+      ],
+      "color": "#625761",
+      "start_name": "청량산 전상 전경 / 갈림길",
+      "end_name": "금강대 할배할매송",
+      "length_meter": 638.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.793304,
+          "lng": 128.897751,
+          "ele": 433.332
+        },
+        {
+          "lat": 36.79166,
+          "lng": 128.898453,
+          "ele": 414.139
+        }
+      ],
+      "color": "#271260",
+      "start_name": "금강대 할배할매송 / 낙동강 뷰 / 금강대",
+      "end_name": "청량산 금강굴",
+      "length_meter": 194.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.79166,
+          "lng": 128.898453,
+          "ele": 414.139
+        },
+        {
+          "lat": 36.790833,
+          "lng": 128.897934,
+          "ele": 362.269
+        }
+      ],
+      "color": "#1e1a63",
+      "start_name": "청량산 금강굴 / 낙동강뷰",
+      "end_name": "삼부자송",
+      "length_meter": 103.1,
+      "time_minute": 1
+    }
+  ]
+}

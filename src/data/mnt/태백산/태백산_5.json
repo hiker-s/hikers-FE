@@ -1,0 +1,355 @@
+{
+  "mnt_id": 87,
+  "mnt_name": "태백산",
+  "course_id": 226,
+  "max_ele": 1553.688,
+  "total_length_km": "7.2km",
+  "total_time": "1시간 29분",
+  "start_name": "어평재휴게소주차장",
+  "end_name": "사길령표지석",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 991.676,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.122456,
+          "lng": 128.89978,
+          "ele": 998.48
+        },
+        {
+          "lat": 37.122925,
+          "lng": 128.899078,
+          "ele": 991.676
+        }
+      ],
+      "color": "#b66f05",
+      "start_name": "어평재휴게소주차장 / 주차장화장실 / 휴게소음식점",
+      "end_name": "태백산관광안내도",
+      "length_meter": 85.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.122925,
+          "lng": 128.899078,
+          "ele": 991.676
+        },
+        {
+          "lat": 37.119949,
+          "lng": 128.896515,
+          "ele": 1013.107
+        }
+      ],
+      "color": "#053d16",
+      "start_name": "태백산관광안내도",
+      "end_name": "갈림길",
+      "length_meter": 401.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.119949,
+          "lng": 128.896515,
+          "ele": 1013.107
+        },
+        {
+          "lat": 37.116325,
+          "lng": 128.894226,
+          "ele": 1143.701
+        }
+      ],
+      "color": "#be43aa",
+      "start_name": "갈림길 / 쉼터 / 입구안내도 / 상습조난사고구간",
+      "end_name": "산령각유래",
+      "length_meter": 454.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.116325,
+          "lng": 128.894226,
+          "ele": 1143.701
+        },
+        {
+          "lat": 37.116291,
+          "lng": 128.894165,
+          "ele": 1145.673
+        }
+      ],
+      "color": "#0fa667",
+      "start_name": "산령각유래",
+      "end_name": "산령각",
+      "length_meter": 6.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.116291,
+          "lng": 128.894165,
+          "ele": 1145.673
+        },
+        {
+          "lat": 37.113873,
+          "lng": 128.895676,
+          "ele": 1197.548
+        }
+      ],
+      "color": "#84ada6",
+      "start_name": "산령각 / 갈림길",
+      "end_name": "위험안내",
+      "length_meter": 300.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.113873,
+          "lng": 128.895676,
+          "ele": 1197.548
+        },
+        {
+          "lat": 37.113445,
+          "lng": 128.897079,
+          "ele": 1200.766
+        }
+      ],
+      "color": "#aa2003",
+      "start_name": "위험안내",
+      "end_name": "출입금지",
+      "length_meter": 133.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.113445,
+          "lng": 128.897079,
+          "ele": 1200.766
+        },
+        {
+          "lat": 37.113338,
+          "lng": 128.899826,
+          "ele": 1203.335
+        }
+      ],
+      "color": "#3bb167",
+      "start_name": "출입금지",
+      "end_name": "고추나무",
+      "length_meter": 243.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.113338,
+          "lng": 128.899826,
+          "ele": 1203.335
+        },
+        {
+          "lat": 37.113003,
+          "lng": 128.902451,
+          "ele": 1197.389
+        }
+      ],
+      "color": "#843729",
+      "start_name": "고추나무 / 산개벚지나무",
+      "end_name": "까치박달나무",
+      "length_meter": 236.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.113003,
+          "lng": 128.902451,
+          "ele": 1197.389
+        },
+        {
+          "lat": 37.111717,
+          "lng": 128.906082,
+          "ele": 1196.358
+        }
+      ],
+      "color": "#878477",
+      "start_name": "까치박달나무",
+      "end_name": "출입금지",
+      "length_meter": 352.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.111717,
+          "lng": 128.906082,
+          "ele": 1196.358
+        },
+        {
+          "lat": 37.110474,
+          "lng": 128.907333,
+          "ele": 1207.041
+        }
+      ],
+      "color": "#a6bdc2",
+      "start_name": "출입금지",
+      "end_name": "갈림길",
+      "length_meter": 177.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.110474,
+          "lng": 128.907333,
+          "ele": 1207.041
+        },
+        {
+          "lat": 37.108837,
+          "lng": 128.910446,
+          "ele": 1262.326
+        }
+      ],
+      "color": "#b7aaa3",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 330.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.108837,
+          "lng": 128.910446,
+          "ele": 1262.326
+        },
+        {
+          "lat": 37.108425,
+          "lng": 128.911392,
+          "ele": 1275.111
+        }
+      ],
+      "color": "#bc3622",
+      "start_name": "쉼터 / 갈림길 / 멧돼지만났을때",
+      "end_name": "고로쇠나무",
+      "length_meter": 103.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.108425,
+          "lng": 128.911392,
+          "ele": 1275.111
+        },
+        {
+          "lat": 37.107357,
+          "lng": 128.912613,
+          "ele": 1303.996
+        }
+      ],
+      "color": "#368b5f",
+      "start_name": "고로쇠나무",
+      "end_name": "갈림길",
+      "length_meter": 160.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.107357,
+          "lng": 128.912613,
+          "ele": 1303.996
+        },
+        {
+          "lat": 37.099167,
+          "lng": 128.919434,
+          "ele": 1553.688
+        }
+      ],
+      "color": "#c4bb48",
+      "start_name": "갈림길",
+      "end_name": "망경사화장실",
+      "length_meter": 1093.3,
+      "time_minute": 13
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.099167,
+          "lng": 128.919434,
+          "ele": 1553.688
+        },
+        {
+          "lat": 37.108856,
+          "lng": 128.910492,
+          "ele": 1262.878
+        }
+      ],
+      "color": "#6374b3",
+      "start_name": "망경사화장실 / 갈림길",
+      "end_name": "유일사",
+      "length_meter": 1337.8,
+      "time_minute": 22
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.108856,
+          "lng": 128.910492,
+          "ele": 1262.878
+        },
+        {
+          "lat": 37.111706,
+          "lng": 128.906006,
+          "ele": 1196.029
+        }
+      ],
+      "color": "#8eb237",
+      "start_name": "유일사",
+      "end_name": "갈림길",
+      "length_meter": 508.6,
+      "time_minute": 6
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.111706,
+          "lng": 128.906006,
+          "ele": 1196.029
+        },
+        {
+          "lat": 37.119865,
+          "lng": 128.896606,
+          "ele": 1060.238
+        }
+      ],
+      "color": "#af173b",
+      "start_name": "갈림길",
+      "end_name": "사길령표지석",
+      "length_meter": 1232.0,
+      "time_minute": 15
+    }
+  ]
+}

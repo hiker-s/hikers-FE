@@ -1,0 +1,95 @@
+{
+  "mnt_id": 9,
+  "mnt_name": "공작산",
+  "course_id": 24,
+  "max_ele": 884.163,
+  "total_length_km": "10.5km",
+  "total_time": "2시간 11분",
+  "start_name": "굴운저수지 버스정류장",
+  "end_name": "나분들 정류장(군업2리)",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 181.398,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.732494,
+          "lng": 127.954338,
+          "ele": 181.398
+        },
+        {
+          "lat": 37.725674,
+          "lng": 127.965446,
+          "ele": 214.872
+        }
+      ],
+      "color": "#1e888d",
+      "start_name": "굴운저수지 버스정류장",
+      "end_name": "갈림길",
+      "length_meter": 1236.7,
+      "time_minute": 15
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.725674,
+          "lng": 127.965446,
+          "ele": 214.872
+        },
+        {
+          "lat": 37.714115,
+          "lng": 128.015747,
+          "ele": 798.903
+        }
+      ],
+      "color": "#114a42",
+      "start_name": "갈림길",
+      "end_name": "낙엽송지대",
+      "length_meter": 4607.2,
+      "time_minute": 57
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.714115,
+          "lng": 128.015747,
+          "ele": 798.903
+        },
+        {
+          "lat": 37.727818,
+          "lng": 128.015427,
+          "ele": 373.004
+        }
+      ],
+      "color": "#312765",
+      "start_name": "낙엽송지대 / 갈림길",
+      "end_name": "공작폭포",
+      "length_meter": 1541.9,
+      "time_minute": 25
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.727818,
+          "lng": 128.015427,
+          "ele": 373.004
+        },
+        {
+          "lat": 37.753815,
+          "lng": 128.000839,
+          "ele": 215.201
+        }
+      ],
+      "color": "#959885",
+      "start_name": "공작폭포",
+      "end_name": "나분들 정류장(군업2리)",
+      "length_meter": 3162.6,
+      "time_minute": 39
+    }
+  ]
+}

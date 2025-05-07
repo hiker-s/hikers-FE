@@ -1,0 +1,195 @@
+{
+  "mnt_id": 81,
+  "mnt_name": "천태산",
+  "course_id": 209,
+  "max_ele": 744.983,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 43분",
+  "start_name": "신안리 마을회관",
+  "end_name": "신음폭포",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 261.831,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.16153,
+          "lng": 127.581795,
+          "ele": 266.352
+        },
+        {
+          "lat": 36.162209,
+          "lng": 127.583557,
+          "ele": 261.831
+        }
+      ],
+      "color": "#2a209f",
+      "start_name": "신안리 마을회관",
+      "end_name": "갈림길",
+      "length_meter": 175.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.162209,
+          "lng": 127.583557,
+          "ele": 261.831
+        },
+        {
+          "lat": 36.163364,
+          "lng": 127.585739,
+          "ele": 289.166
+        }
+      ],
+      "color": "#31418a",
+      "start_name": "갈림길",
+      "end_name": "등산로 입구",
+      "length_meter": 234.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.163364,
+          "lng": 127.585739,
+          "ele": 289.166
+        },
+        {
+          "lat": 36.164833,
+          "lng": 127.589645,
+          "ele": 350.665
+        }
+      ],
+      "color": "#ab3931",
+      "start_name": "등산로 입구",
+      "end_name": "정자",
+      "length_meter": 386.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.164833,
+          "lng": 127.589645,
+          "ele": 350.665
+        },
+        {
+          "lat": 36.165379,
+          "lng": 127.593719,
+          "ele": 371.905
+        }
+      ],
+      "color": "#719d9a",
+      "start_name": "정자",
+      "end_name": "갈림길",
+      "length_meter": 370.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.165379,
+          "lng": 127.593719,
+          "ele": 371.905
+        },
+        {
+          "lat": 36.165901,
+          "lng": 127.600143,
+          "ele": 527.324
+        }
+      ],
+      "color": "#4111a2",
+      "start_name": "갈림길",
+      "end_name": "기도터",
+      "length_meter": 579.6,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.165901,
+          "lng": 127.600143,
+          "ele": 527.324
+        },
+        {
+          "lat": 36.164867,
+          "lng": 127.600861,
+          "ele": 584.391
+        }
+      ],
+      "color": "#0e647e",
+      "start_name": "기도터",
+      "end_name": "거북바위",
+      "length_meter": 131.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.164867,
+          "lng": 127.600861,
+          "ele": 584.391
+        },
+        {
+          "lat": 36.163795,
+          "lng": 127.601463,
+          "ele": 656.439
+        }
+      ],
+      "color": "#58933f",
+      "start_name": "거북바위",
+      "end_name": "갈림길",
+      "length_meter": 130.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.163795,
+          "lng": 127.601463,
+          "ele": 656.439
+        },
+        {
+          "lat": 36.159138,
+          "lng": 127.600037,
+          "ele": 742.772
+        }
+      ],
+      "color": "#0a085d",
+      "start_name": "갈림길",
+      "end_name": "천태산 정상",
+      "length_meter": 533.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.159138,
+          "lng": 127.600037,
+          "ele": 742.772
+        },
+        {
+          "lat": 36.166424,
+          "lng": 127.596771,
+          "ele": 426.925
+        }
+      ],
+      "color": "#09bdb9",
+      "start_name": "천태산 정상 / 화원동 하산 알림판",
+      "end_name": "신음폭포",
+      "length_meter": 898.2,
+      "time_minute": 14
+    }
+  ]
+}

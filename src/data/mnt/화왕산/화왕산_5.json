@@ -1,0 +1,315 @@
+{
+  "mnt_id": 94,
+  "mnt_name": "화왕산",
+  "course_id": 246,
+  "max_ele": 778.0,
+  "total_length_km": "6.3km",
+  "total_time": "1시간 19분",
+  "start_name": "상월마을회관",
+  "end_name": "상월마을회관",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 121.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.569134,
+          "lng": 128.528687,
+          "ele": 121.0
+        },
+        {
+          "lat": 35.56813,
+          "lng": 128.528854,
+          "ele": 125.0
+        }
+      ],
+      "color": "#7e0198",
+      "start_name": "상월마을회관",
+      "end_name": "쉼터",
+      "length_meter": 112.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.56813,
+          "lng": 128.528854,
+          "ele": 125.0
+        },
+        {
+          "lat": 35.567997,
+          "lng": 128.529266,
+          "ele": 131.0
+        }
+      ],
+      "color": "#9dbfb5",
+      "start_name": "쉼터 / 반곡고택",
+      "end_name": "간이주차장",
+      "length_meter": 102.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.567997,
+          "lng": 128.529266,
+          "ele": 131.0
+        },
+        {
+          "lat": 35.567436,
+          "lng": 128.529968,
+          "ele": 133.0
+        }
+      ],
+      "color": "#944886",
+      "start_name": "간이주차장",
+      "end_name": "갈림길",
+      "length_meter": 89.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.567436,
+          "lng": 128.529968,
+          "ele": 133.0
+        },
+        {
+          "lat": 35.567852,
+          "lng": 128.531113,
+          "ele": 137.0
+        }
+      ],
+      "color": "#3f9f6f",
+      "start_name": "갈림길",
+      "end_name": "화왕산 스토리길 안내도",
+      "length_meter": 113.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.567852,
+          "lng": 128.531113,
+          "ele": 137.0
+        },
+        {
+          "lat": 35.564495,
+          "lng": 128.534225,
+          "ele": 179.0
+        }
+      ],
+      "color": "#670191",
+      "start_name": "화왕산 스토리길 안내도",
+      "end_name": "갈림길",
+      "length_meter": 467.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.564495,
+          "lng": 128.534225,
+          "ele": 179.0
+        },
+        {
+          "lat": 35.556885,
+          "lng": 128.53714,
+          "ele": 434.0
+        }
+      ],
+      "color": "#2ebe3a",
+      "start_name": "갈림길",
+      "end_name": "소나무숲",
+      "length_meter": 886.3,
+      "time_minute": 11
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.556885,
+          "lng": 128.53714,
+          "ele": 434.0
+        },
+        {
+          "lat": 35.551147,
+          "lng": 128.536057,
+          "ele": 631.0
+        }
+      ],
+      "color": "#1a4026",
+      "start_name": "소나무숲",
+      "end_name": "화왕산",
+      "length_meter": 645.5,
+      "time_minute": 8
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.551147,
+          "lng": 128.536057,
+          "ele": 631.0
+        },
+        {
+          "lat": 35.55003,
+          "lng": 128.536377,
+          "ele": 672.0
+        }
+      ],
+      "color": "#71bea6",
+      "start_name": "화왕산",
+      "end_name": "화왕산 정상",
+      "length_meter": 127.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.55003,
+          "lng": 128.536377,
+          "ele": 672.0
+        },
+        {
+          "lat": 35.548386,
+          "lng": 128.537247,
+          "ele": 752.0
+        }
+      ],
+      "color": "#2aaa79",
+      "start_name": "화왕산 정상",
+      "end_name": "갈림길",
+      "length_meter": 199.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.548386,
+          "lng": 128.537247,
+          "ele": 752.0
+        },
+        {
+          "lat": 35.547386,
+          "lng": 128.53653,
+          "ele": 776.0
+        }
+      ],
+      "color": "#00a9c3",
+      "start_name": "갈림길 / 쉼터",
+      "end_name": "화왕산성 및 억새밭",
+      "length_meter": 129.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.547386,
+          "lng": 128.53653,
+          "ele": 776.0
+        },
+        {
+          "lat": 35.548603,
+          "lng": 128.529312,
+          "ele": 729.0
+        }
+      ],
+      "color": "#23c446",
+      "start_name": "화왕산성 및 억새밭 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 667.0,
+      "time_minute": 11
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.548603,
+          "lng": 128.529312,
+          "ele": 729.0
+        },
+        {
+          "lat": 35.556602,
+          "lng": 128.522797,
+          "ele": 372.0
+        }
+      ],
+      "color": "#1fab09",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 1067.8,
+      "time_minute": 17
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.556602,
+          "lng": 128.522797,
+          "ele": 372.0
+        },
+        {
+          "lat": 35.556938,
+          "lng": 128.520615,
+          "ele": 319.0
+        }
+      ],
+      "color": "#31af73",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 200.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.556938,
+          "lng": 128.520615,
+          "ele": 319.0
+        },
+        {
+          "lat": 35.569054,
+          "lng": 128.528503,
+          "ele": 127.0
+        }
+      ],
+      "color": "#ad6dbe",
+      "start_name": "갈림길",
+      "end_name": "보호수",
+      "length_meter": 1524.5,
+      "time_minute": 19
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.569054,
+          "lng": 128.528503,
+          "ele": 127.0
+        },
+        {
+          "lat": 35.569061,
+          "lng": 128.528503,
+          "ele": 125.0
+        }
+      ],
+      "color": "#c35194",
+      "start_name": "보호수",
+      "end_name": "상월마을회관",
+      "length_meter": 0.8,
+      "time_minute": 0
+    }
+  ]
+}

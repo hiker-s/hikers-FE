@@ -1,0 +1,155 @@
+{
+  "mnt_id": 47,
+  "mnt_name": "비슬산",
+  "course_id": 123,
+  "max_ele": 1027.406,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "헐티재 주차장",
+  "end_name": "비슬산 용천사",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 421.553,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.729458,
+          "lng": 128.561035,
+          "ele": 555.518
+        },
+        {
+          "lat": 35.729282,
+          "lng": 128.559998,
+          "ele": 554.624
+        }
+      ],
+      "color": "#973680",
+      "start_name": "헐티재 주차장 / 헐티재 / 청도  문화재 정보",
+      "end_name": "헐티재 등산로 입구",
+      "length_meter": 97.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.729282,
+          "lng": 128.559998,
+          "ele": 554.624
+        },
+        {
+          "lat": 35.72731,
+          "lng": 128.555389,
+          "ele": 676.357
+        }
+      ],
+      "color": "#a9bc93",
+      "start_name": "헐티재 등산로 입구",
+      "end_name": "뷰 맛집",
+      "length_meter": 470.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.72731,
+          "lng": 128.555389,
+          "ele": 676.357
+        },
+        {
+          "lat": 35.723644,
+          "lng": 128.548477,
+          "ele": 735.697
+        }
+      ],
+      "color": "#2e7a21",
+      "start_name": "뷰 맛집",
+      "end_name": "뷰 맛집2",
+      "length_meter": 745.3,
+      "time_minute": 9
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.723644,
+          "lng": 128.548477,
+          "ele": 735.697
+        },
+        {
+          "lat": 35.722122,
+          "lng": 128.546112,
+          "ele": 780.57
+        }
+      ],
+      "color": "#bc28a5",
+      "start_name": "뷰 맛집2 / 포토존1",
+      "end_name": "용천봉",
+      "length_meter": 272.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.722122,
+          "lng": 128.546112,
+          "ele": 780.57
+        },
+        {
+          "lat": 35.71767,
+          "lng": 128.538422,
+          "ele": 873.145
+        }
+      ],
+      "color": "#1bbcae",
+      "start_name": "용천봉",
+      "end_name": "갈림길",
+      "length_meter": 852.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.71767,
+          "lng": 128.538422,
+          "ele": 873.145
+        },
+        {
+          "lat": 35.71711,
+          "lng": 128.555634,
+          "ele": 457.617
+        }
+      ],
+      "color": "#2584a9",
+      "start_name": "갈림길",
+      "end_name": "오산 주차장",
+      "length_meter": 1555.1,
+      "time_minute": 19
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.71711,
+          "lng": 128.555634,
+          "ele": 457.617
+        },
+        {
+          "lat": 35.718559,
+          "lng": 128.556503,
+          "ele": 421.553
+        }
+      ],
+      "color": "#416e06",
+      "start_name": "오산 주차장 / 남여 화장실",
+      "end_name": "비슬산 용천사",
+      "length_meter": 179.5,
+      "time_minute": 2
+    }
+  ]
+}

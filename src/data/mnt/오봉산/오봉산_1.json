@@ -1,0 +1,315 @@
+{
+  "mnt_id": 59,
+  "mnt_name": "오봉산",
+  "course_id": 164,
+  "max_ele": 787.913,
+  "total_length_km": "3.7km",
+  "total_time": "0시간 46분",
+  "start_name": "부용계곡 등산 들머리",
+  "end_name": "기우단터",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 249.606,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.983452,
+          "lng": 127.818153,
+          "ele": 249.606
+        },
+        {
+          "lat": 37.982937,
+          "lng": 127.816826,
+          "ele": 259.001
+        }
+      ],
+      "color": "#b90b92",
+      "start_name": "부용계곡 등산 들머리",
+      "end_name": "쉼터",
+      "length_meter": 129.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.982937,
+          "lng": 127.816826,
+          "ele": 259.001
+        },
+        {
+          "lat": 37.982815,
+          "lng": 127.814827,
+          "ele": 338.02
+        }
+      ],
+      "color": "#ac4614",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 175.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.982815,
+          "lng": 127.814827,
+          "ele": 338.02
+        },
+        {
+          "lat": 37.986347,
+          "lng": 127.813515,
+          "ele": 437.39
+        }
+      ],
+      "color": "#5f7e46",
+      "start_name": "갈림길 / 소양강호",
+      "end_name": "굴",
+      "length_meter": 412.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.986347,
+          "lng": 127.813515,
+          "ele": 437.39
+        },
+        {
+          "lat": 37.989635,
+          "lng": 127.811897,
+          "ele": 533.906
+        }
+      ],
+      "color": "#7eb049",
+      "start_name": "굴 / 갈림길",
+      "end_name": "소양강호",
+      "length_meter": 397.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.989635,
+          "lng": 127.811897,
+          "ele": 533.906
+        },
+        {
+          "lat": 37.992146,
+          "lng": 127.811104,
+          "ele": 653.14
+        }
+      ],
+      "color": "#6f5951",
+      "start_name": "소양강호",
+      "end_name": "갈림길",
+      "length_meter": 287.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.992146,
+          "lng": 127.811104,
+          "ele": 653.14
+        },
+        {
+          "lat": 37.993412,
+          "lng": 127.810402,
+          "ele": 697.035
+        }
+      ],
+      "color": "#87187f",
+      "start_name": "갈림길 / 오봉산 5지점",
+      "end_name": "소요대",
+      "length_meter": 155.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.993412,
+          "lng": 127.810402,
+          "ele": 697.035
+        },
+        {
+          "lat": 37.993317,
+          "lng": 127.810303,
+          "ele": 704.264
+        }
+      ],
+      "color": "#b42378",
+      "start_name": "소요대 / 소요대 전망",
+      "end_name": "백꼽봉 688.4m",
+      "length_meter": 19.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.993317,
+          "lng": 127.810303,
+          "ele": 704.264
+        },
+        {
+          "lat": 37.994434,
+          "lng": 127.809753,
+          "ele": 658.997
+        }
+      ],
+      "color": "#10c788",
+      "start_name": "백꼽봉 688.4m",
+      "end_name": "갈림길",
+      "length_meter": 133.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.994434,
+          "lng": 127.809753,
+          "ele": 658.997
+        },
+        {
+          "lat": 37.996037,
+          "lng": 127.808098,
+          "ele": 725.039
+        }
+      ],
+      "color": "#50005a",
+      "start_name": "갈림길",
+      "end_name": "홈통바위",
+      "length_meter": 229.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.996037,
+          "lng": 127.808098,
+          "ele": 725.039
+        },
+        {
+          "lat": 37.998444,
+          "lng": 127.808456,
+          "ele": 787.913
+        }
+      ],
+      "color": "#76632d",
+      "start_name": "홈통바위",
+      "end_name": "오봉산 3지점",
+      "length_meter": 269.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.998444,
+          "lng": 127.808456,
+          "ele": 787.913
+        },
+        {
+          "lat": 37.994011,
+          "lng": 127.80928,
+          "ele": 605.962
+        }
+      ],
+      "color": "#4ea221",
+      "start_name": "오봉산 3지점",
+      "end_name": "오봉산 4지점",
+      "length_meter": 498.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.994011,
+          "lng": 127.80928,
+          "ele": 605.962
+        },
+        {
+          "lat": 37.991402,
+          "lng": 127.805405,
+          "ele": 448.651
+        }
+      ],
+      "color": "#730d74",
+      "start_name": "오봉산 4지점",
+      "end_name": "갈림길",
+      "length_meter": 446.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.991402,
+          "lng": 127.805405,
+          "ele": 448.651
+        },
+        {
+          "lat": 37.990425,
+          "lng": 127.805817,
+          "ele": 412.751
+        }
+      ],
+      "color": "#b87965",
+      "start_name": "갈림길 / 진락공 세수터 / 식암폭포",
+      "end_name": "척번대",
+      "length_meter": 119.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.990425,
+          "lng": 127.805817,
+          "ele": 412.751
+        },
+        {
+          "lat": 37.987309,
+          "lng": 127.806267,
+          "ele": 351.802
+        }
+      ],
+      "color": "#2152a4",
+      "start_name": "척번대",
+      "end_name": "환적당과 설화당 부도",
+      "length_meter": 348.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.987309,
+          "lng": 127.806267,
+          "ele": 351.802
+        },
+        {
+          "lat": 37.986664,
+          "lng": 127.807022,
+          "ele": 336.567
+        }
+      ],
+      "color": "#11b526",
+      "start_name": "환적당과 설화당 부도",
+      "end_name": "기우단터",
+      "length_meter": 97.6,
+      "time_minute": 1
+    }
+  ]
+}

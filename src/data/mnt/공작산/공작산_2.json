@@ -1,0 +1,155 @@
+{
+  "mnt_id": 9,
+  "mnt_name": "공작산",
+  "course_id": 23,
+  "max_ele": 716.387,
+  "total_length_km": "7.9km",
+  "total_time": "1시간 38분",
+  "start_name": "굴운저수지 정류장",
+  "end_name": "사설 공작산 휴양림",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 192.886,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.73259,
+          "lng": 127.95433,
+          "ele": 192.886
+        },
+        {
+          "lat": 37.72567,
+          "lng": 127.965538,
+          "ele": 210.351
+        }
+      ],
+      "color": "#057082",
+      "start_name": "굴운저수지 정류장",
+      "end_name": "갈림길",
+      "length_meter": 1250.5,
+      "time_minute": 15
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.72567,
+          "lng": 127.965538,
+          "ele": 210.351
+        },
+        {
+          "lat": 37.723492,
+          "lng": 127.967117,
+          "ele": 214.621
+        }
+      ],
+      "color": "#a52f91",
+      "start_name": "갈림길",
+      "end_name": "햇살팬션가든",
+      "length_meter": 279.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.723492,
+          "lng": 127.967117,
+          "ele": 214.621
+        },
+        {
+          "lat": 37.712879,
+          "lng": 127.971436,
+          "ele": 256.84
+        }
+      ],
+      "color": "#14c268",
+      "start_name": "햇살팬션가든",
+      "end_name": "갈림길",
+      "length_meter": 1239.8,
+      "time_minute": 15
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.712879,
+          "lng": 127.971436,
+          "ele": 256.84
+        },
+        {
+          "lat": 37.706551,
+          "lng": 128.015366,
+          "ele": 609.218
+        }
+      ],
+      "color": "#0a1b1d",
+      "start_name": "갈림길",
+      "end_name": "소나무 군락지",
+      "length_meter": 3928.0,
+      "time_minute": 49
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.706551,
+          "lng": 128.015366,
+          "ele": 609.218
+        },
+        {
+          "lat": 37.705032,
+          "lng": 128.017242,
+          "ele": 584.196
+        }
+      ],
+      "color": "#926405",
+      "start_name": "소나무 군락지",
+      "end_name": "노송군락지",
+      "length_meter": 236.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.705032,
+          "lng": 128.017242,
+          "ele": 584.196
+        },
+        {
+          "lat": 37.701141,
+          "lng": 128.022583,
+          "ele": 460.777
+        }
+      ],
+      "color": "#060552",
+      "start_name": "노송군락지",
+      "end_name": "잣나무 단지",
+      "length_meter": 638.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.701141,
+          "lng": 128.022583,
+          "ele": 460.777
+        },
+        {
+          "lat": 37.698631,
+          "lng": 128.022034,
+          "ele": 398.702
+        }
+      ],
+      "color": "#183808",
+      "start_name": "잣나무 단지 / 갈림길",
+      "end_name": "사설 공작산 휴양림",
+      "length_meter": 301.7,
+      "time_minute": 4
+    }
+  ]
+}

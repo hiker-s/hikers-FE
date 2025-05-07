@@ -1,0 +1,135 @@
+{
+  "mnt_id": 27,
+  "mnt_name": "두륜산",
+  "course_id": 67,
+  "max_ele": 631.0,
+  "total_length_km": "4.8km",
+  "total_time": "0시간 59분",
+  "start_name": "케이블카 승강장",
+  "end_name": "연화봉 정상",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 83.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.496376,
+          "lng": 126.625214,
+          "ele": 136.0
+        },
+        {
+          "lat": 34.49754,
+          "lng": 126.617058,
+          "ele": 83.0
+        }
+      ],
+      "color": "#121c03",
+      "start_name": "케이블카 승강장",
+      "end_name": "대중교통 승강장",
+      "length_meter": 758.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.49754,
+          "lng": 126.617058,
+          "ele": 83.0
+        },
+        {
+          "lat": 34.496735,
+          "lng": 126.616959,
+          "ele": 93.0
+        }
+      ],
+      "color": "#bb0716",
+      "start_name": "대중교통 승강장",
+      "end_name": "두륜산 상가촌",
+      "length_meter": 90.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.496735,
+          "lng": 126.616959,
+          "ele": 93.0
+        },
+        {
+          "lat": 34.495186,
+          "lng": 126.617012,
+          "ele": 95.0
+        }
+      ],
+      "color": "#b83147",
+      "start_name": "두륜산 상가촌 / 상가촌 쉼터",
+      "end_name": "상가촌 주차장",
+      "length_meter": 173.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.495186,
+          "lng": 126.617012,
+          "ele": 95.0
+        },
+        {
+          "lat": 34.494164,
+          "lng": 126.617279,
+          "ele": 92.0
+        }
+      ],
+      "color": "#42c460",
+      "start_name": "상가촌 주차장 / 두륜산 입구 화장실 / 대흥사 매표소",
+      "end_name": "대흥사 입구 건축물",
+      "length_meter": 124.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.494164,
+          "lng": 126.617279,
+          "ele": 92.0
+        },
+        {
+          "lat": 34.489563,
+          "lng": 126.614784,
+          "ele": 121.0
+        }
+      ],
+      "color": "#630d57",
+      "start_name": "대흥사 입구 건축물",
+      "end_name": "산책로화장실",
+      "length_meter": 560.4,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.489563,
+          "lng": 126.614784,
+          "ele": 121.0
+        },
+        {
+          "lat": 34.462109,
+          "lng": 126.613495,
+          "ele": 631.0
+        }
+      ],
+      "color": "#84767e",
+      "start_name": "산책로화장실",
+      "end_name": "연화봉 정상",
+      "length_meter": 3055.0,
+      "time_minute": 38
+    }
+  ]
+}

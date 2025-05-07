@@ -1,0 +1,315 @@
+{
+  "mnt_id": 34,
+  "mnt_name": "무등산",
+  "course_id": 88,
+  "max_ele": 933.728,
+  "total_length_km": "5.2km",
+  "total_time": "1시간 4분",
+  "start_name": "무등산 증심사",
+  "end_name": "덕산계곡",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 244.845,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.128494,
+          "lng": 126.969276,
+          "ele": 244.845
+        },
+        {
+          "lat": 35.126949,
+          "lng": 126.971138,
+          "ele": 292.455
+        }
+      ],
+      "color": "#1a8a94",
+      "start_name": "무등산 증심사 / 갈림길",
+      "end_name": "오방수련원",
+      "length_meter": 265.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.126949,
+          "lng": 126.971138,
+          "ele": 292.455
+        },
+        {
+          "lat": 35.12627,
+          "lng": 126.971695,
+          "ele": 320.885
+        }
+      ],
+      "color": "#89b42b",
+      "start_name": "오방수련원",
+      "end_name": "갈림길",
+      "length_meter": 90.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.12627,
+          "lng": 126.971695,
+          "ele": 320.885
+        },
+        {
+          "lat": 35.125439,
+          "lng": 126.97229,
+          "ele": 328.391
+        }
+      ],
+      "color": "#46673d",
+      "start_name": "갈림길 / 당산나무 송풍정 쉼터 / 당산나무",
+      "end_name": "당산나무 화장실",
+      "length_meter": 110.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.125439,
+          "lng": 126.97229,
+          "ele": 328.391
+        },
+        {
+          "lat": 35.124218,
+          "lng": 126.973007,
+          "ele": 350.185
+        }
+      ],
+      "color": "#5759ac",
+      "start_name": "당산나무 화장실",
+      "end_name": "멧돼지 주의",
+      "length_meter": 150.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.124218,
+          "lng": 126.973007,
+          "ele": 350.185
+        },
+        {
+          "lat": 35.121433,
+          "lng": 126.979813,
+          "ele": 480.728
+        }
+      ],
+      "color": "#b59c9f",
+      "start_name": "멧돼지 주의",
+      "end_name": "중머리재 오름길 쉼터",
+      "length_meter": 692.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.121433,
+          "lng": 126.979813,
+          "ele": 480.728
+        },
+        {
+          "lat": 35.122494,
+          "lng": 126.992172,
+          "ele": 925.075
+        }
+      ],
+      "color": "#5e797e",
+      "start_name": "중머리재 오름길 쉼터",
+      "end_name": "낙뢰 다발지역",
+      "length_meter": 1130.2,
+      "time_minute": 14
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.122494,
+          "lng": 126.992172,
+          "ele": 925.075
+        },
+        {
+          "lat": 35.12328,
+          "lng": 126.991951,
+          "ele": 917.998
+        }
+      ],
+      "color": "#055981",
+      "start_name": "낙뢰 다발지역 / 갈림길 / 중봉",
+      "end_name": "중봉 헬리포트",
+      "length_meter": 126.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.12328,
+          "lng": 126.991951,
+          "ele": 917.998
+        },
+        {
+          "lat": 35.125187,
+          "lng": 126.990662,
+          "ele": 919.717
+        }
+      ],
+      "color": "#371aad",
+      "start_name": "중봉 헬리포트",
+      "end_name": "kbc 송신소",
+      "length_meter": 242.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.125187,
+          "lng": 126.990662,
+          "ele": 919.717
+        },
+        {
+          "lat": 35.132755,
+          "lng": 126.98568,
+          "ele": 820.084
+        }
+      ],
+      "color": "#6e69a7",
+      "start_name": "kbc 송신소",
+      "end_name": "갈림길",
+      "length_meter": 955.7,
+      "time_minute": 11
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.132755,
+          "lng": 126.98568,
+          "ele": 820.084
+        },
+        {
+          "lat": 35.132801,
+          "lng": 126.985603,
+          "ele": 819.504
+        }
+      ],
+      "color": "#5b3d8e",
+      "start_name": "갈림길",
+      "end_name": "동화사터 싐터",
+      "length_meter": 8.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.132801,
+          "lng": 126.985603,
+          "ele": 819.504
+        },
+        {
+          "lat": 35.136364,
+          "lng": 126.983475,
+          "ele": 729.964
+        }
+      ],
+      "color": "#2b2c19",
+      "start_name": "동화사터 싐터",
+      "end_name": "갈림길",
+      "length_meter": 440.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.136364,
+          "lng": 126.983475,
+          "ele": 729.964
+        },
+        {
+          "lat": 35.136887,
+          "lng": 126.982277,
+          "ele": 671.587
+        }
+      ],
+      "color": "#7dba36",
+      "start_name": "갈림길",
+      "end_name": "늦재 전망대",
+      "length_meter": 123.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.136887,
+          "lng": 126.982277,
+          "ele": 671.587
+        },
+        {
+          "lat": 35.135769,
+          "lng": 126.975967,
+          "ele": 406.689
+        }
+      ],
+      "color": "#aa7c12",
+      "start_name": "늦재 전망대 / 갈림길",
+      "end_name": "등로 유실구간",
+      "length_meter": 594.2,
+      "time_minute": 9
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.135769,
+          "lng": 126.975967,
+          "ele": 406.689
+        },
+        {
+          "lat": 35.134659,
+          "lng": 126.97393,
+          "ele": 339.809
+        }
+      ],
+      "color": "#3c799d",
+      "start_name": "등로 유실구간 / 덕산계곡",
+      "end_name": "등로 유실 구간",
+      "length_meter": 230.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.134659,
+          "lng": 126.97393,
+          "ele": 339.809
+        },
+        {
+          "lat": 35.134594,
+          "lng": 126.973724,
+          "ele": 319.064
+        }
+      ],
+      "color": "#1a5273",
+      "start_name": "등로 유실 구간",
+      "end_name": "덕산계곡",
+      "length_meter": 20.1,
+      "time_minute": 0
+    }
+  ]
+}

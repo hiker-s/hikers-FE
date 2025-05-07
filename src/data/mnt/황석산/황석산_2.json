@@ -1,0 +1,155 @@
+{
+  "mnt_id": 96,
+  "mnt_name": "황석산",
+  "course_id": 254,
+  "max_ele": 1002.374,
+  "total_length_km": "5.6km",
+  "total_time": "1시간 9분",
+  "start_name": "우전마을",
+  "end_name": "황석산 관광안내",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 396.197,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.636925,
+          "lng": 127.735756,
+          "ele": 396.197
+        },
+        {
+          "lat": 35.650478,
+          "lng": 127.738022,
+          "ele": 576.554
+        }
+      ],
+      "color": "#5f8697",
+      "start_name": "우전마을",
+      "end_name": "진석사방댐2호",
+      "length_meter": 1520.9,
+      "time_minute": 19
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.650478,
+          "lng": 127.738022,
+          "ele": 576.554
+        },
+        {
+          "lat": 35.650642,
+          "lng": 127.738937,
+          "ele": 582.441
+        }
+      ],
+      "color": "#b7b963",
+      "start_name": "진석사방댐2호 / 함양군 종합안내판",
+      "end_name": "황석산 등산 안내도",
+      "length_meter": 102.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.650642,
+          "lng": 127.738937,
+          "ele": 582.441
+        },
+        {
+          "lat": 35.651279,
+          "lng": 127.745163,
+          "ele": 739.352
+        }
+      ],
+      "color": "#716f9d",
+      "start_name": "황석산 등산 안내도 / 갈림길",
+      "end_name": "피바위",
+      "length_meter": 568.9,
+      "time_minute": 9
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.651279,
+          "lng": 127.745163,
+          "ele": 739.352
+        },
+        {
+          "lat": 35.649403,
+          "lng": 127.745216,
+          "ele": 810.69
+        }
+      ],
+      "color": "#16c748",
+      "start_name": "피바위",
+      "end_name": "황석산 정상가는길",
+      "length_meter": 208.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.649403,
+          "lng": 127.745216,
+          "ele": 810.69
+        },
+        {
+          "lat": 35.650417,
+          "lng": 127.747963,
+          "ele": 924.825
+        }
+      ],
+      "color": "#58ab82",
+      "start_name": "황석산 정상가는길",
+      "end_name": "황석산성",
+      "length_meter": 272.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.650417,
+          "lng": 127.747963,
+          "ele": 924.825
+        },
+        {
+          "lat": 35.65366,
+          "lng": 127.7519,
+          "ele": 1002.374
+        }
+      ],
+      "color": "#0b3ea8",
+      "start_name": "황석산성",
+      "end_name": "갈림길",
+      "length_meter": 506.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.65366,
+          "lng": 127.7519,
+          "ele": 1002.374
+        },
+        {
+          "lat": 35.636818,
+          "lng": 127.73568,
+          "ele": 414.962
+        }
+      ],
+      "color": "#7e0e17",
+      "start_name": "갈림길",
+      "end_name": "황석산 관광안내",
+      "length_meter": 2378.1,
+      "time_minute": 29
+    }
+  ]
+}
