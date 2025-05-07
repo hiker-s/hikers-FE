@@ -1,5 +1,5 @@
-import WhiteHeart from "../../../assets/icons/WhiteHeart.svg";
-import greenHeart from "../../../assets/icons/greenHeart.svg";
+import WhiteHeart from "@/assets/icons/WhiteHeart.svg";
+import greenHeart from "@/assets/icons/GreenHeart.svg";
 import * as Styled from "./styled";
 import { LevelComp } from "../item/Level";
 import { GreenBtn } from "../button/GreenBtn";

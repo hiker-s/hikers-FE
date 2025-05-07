@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import squareBaseImg from "../../../assets/images/squareBaseImg.svg";
+import squareBaseImg from "@/assets/images/squareBaseImg.svg";
 
 type CrewItemProps = {
   id: number;
