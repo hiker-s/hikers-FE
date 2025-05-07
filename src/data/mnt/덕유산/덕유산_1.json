@@ -1,0 +1,835 @@
+{
+  "mnt_id": 23,
+  "mnt_name": "덕유산",
+  "course_id": 60,
+  "max_ele": 925.615,
+  "total_length_km": "11.8km",
+  "total_time": "2시간 27분",
+  "start_name": "구천동주차장",
+  "end_name": "팔각정",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.901928,
+          "lng": 127.776405,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.901375,
+          "lng": 127.775406,
+          "ele": 0.0
+        }
+      ],
+      "color": "#9c2c79",
+      "start_name": "구천동주차장",
+      "end_name": "공중화장실",
+      "length_meter": 109.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.901375,
+          "lng": 127.775406,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.900707,
+          "lng": 127.776024,
+          "ele": 625.737
+        }
+      ],
+      "color": "#910f84",
+      "start_name": "공중화장실",
+      "end_name": "버스운행표",
+      "length_meter": 92.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.900707,
+          "lng": 127.776024,
+          "ele": 625.737
+        },
+        {
+          "lat": 35.899227,
+          "lng": 127.776527,
+          "ele": 0.0
+        }
+      ],
+      "color": "#0fc759",
+      "start_name": "버스운행표 / 구천동버스승강장",
+      "end_name": "식당가",
+      "length_meter": 196.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.899227,
+          "lng": 127.776527,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.898594,
+          "lng": 127.776886,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3a82c4",
+      "start_name": "식당가 / GS25",
+      "end_name": "식당가",
+      "length_meter": 77.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.898594,
+          "lng": 127.776886,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.896893,
+          "lng": 127.775894,
+          "ele": 0.0
+        }
+      ],
+      "color": "#647841",
+      "start_name": "식당가",
+      "end_name": "덕유대야영장 매표소",
+      "length_meter": 209.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.896893,
+          "lng": 127.775894,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.895649,
+          "lng": 127.775826,
+          "ele": 0.0
+        }
+      ],
+      "color": "#1a7559",
+      "start_name": "덕유대야영장 매표소",
+      "end_name": "마트. 음료",
+      "length_meter": 138.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.895649,
+          "lng": 127.775826,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.89497,
+          "lng": 127.776222,
+          "ele": 0.0
+        }
+      ],
+      "color": "#8d3525",
+      "start_name": "마트. 음료",
+      "end_name": "구천동주차장 등산로 입구",
+      "length_meter": 83.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.89497,
+          "lng": 127.776222,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.890739,
+          "lng": 127.778534,
+          "ele": 0.0
+        }
+      ],
+      "color": "#07ad4b",
+      "start_name": "구천동주차장 등산로 입구",
+      "end_name": "월하탄전망대",
+      "length_meter": 514.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.890739,
+          "lng": 127.778534,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.890461,
+          "lng": 127.778282,
+          "ele": 0.0
+        }
+      ],
+      "color": "#489057",
+      "start_name": "월하탄전망대",
+      "end_name": "월하탄",
+      "length_meter": 38.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.890461,
+          "lng": 127.778282,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.88942,
+          "lng": 127.778191,
+          "ele": 669.836
+        }
+      ],
+      "color": "#466006",
+      "start_name": "월하탄",
+      "end_name": "갈림길",
+      "length_meter": 116.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.88942,
+          "lng": 127.778191,
+          "ele": 669.836
+        },
+        {
+          "lat": 35.881916,
+          "lng": 127.777954,
+          "ele": 0.0
+        }
+      ],
+      "color": "#45275e",
+      "start_name": "갈림길",
+      "end_name": "벤취 2개소",
+      "length_meter": 834.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.881916,
+          "lng": 127.777954,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.880653,
+          "lng": 127.779602,
+          "ele": 0.0
+        }
+      ],
+      "color": "#027a7f",
+      "start_name": "벤취 2개소",
+      "end_name": "청류동",
+      "length_meter": 204.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.880653,
+          "lng": 127.779602,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.87775,
+          "lng": 127.78083,
+          "ele": 0.0
+        }
+      ],
+      "color": "#96a580",
+      "start_name": "청류동",
+      "end_name": "덕유산휴게소",
+      "length_meter": 341.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.87775,
+          "lng": 127.78083,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.876144,
+          "lng": 127.776604,
+          "ele": 0.0
+        }
+      ],
+      "color": "#817083",
+      "start_name": "덕유산휴게소",
+      "end_name": "벤취 2개소",
+      "length_meter": 420.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.876144,
+          "lng": 127.776604,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.876858,
+          "lng": 127.775383,
+          "ele": 0.0
+        }
+      ],
+      "color": "#6c77c4",
+      "start_name": "벤취 2개소 / 벤취",
+      "end_name": "금포탄",
+      "length_meter": 158.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.876858,
+          "lng": 127.775383,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.876041,
+          "lng": 127.776482,
+          "ele": 765.373
+        }
+      ],
+      "color": "#461d81",
+      "start_name": "금포탄",
+      "end_name": "갈림길",
+      "length_meter": 134.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.876041,
+          "lng": 127.776482,
+          "ele": 765.373
+        },
+        {
+          "lat": 35.868073,
+          "lng": 127.772888,
+          "ele": 0.0
+        }
+      ],
+      "color": "#636d16",
+      "start_name": "갈림길",
+      "end_name": "벤취 2개소",
+      "length_meter": 943.3,
+      "time_minute": 11
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.868073,
+          "lng": 127.772888,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.867653,
+          "lng": 127.771637,
+          "ele": 0.0
+        }
+      ],
+      "color": "#5676b9",
+      "start_name": "벤취 2개소 / 갈림길",
+      "end_name": "간이화장실",
+      "length_meter": 132.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.867653,
+          "lng": 127.771637,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.864117,
+          "lng": 127.772324,
+          "ele": 0.0
+        }
+      ],
+      "color": "#465f67",
+      "start_name": "간이화장실 / 결빙지역",
+      "end_name": "명경담",
+      "length_meter": 430.4,
+      "time_minute": 7
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.864117,
+          "lng": 127.772324,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.86132,
+          "lng": 127.772614,
+          "ele": 0.0
+        }
+      ],
+      "color": "#0d7936",
+      "start_name": "명경담",
+      "end_name": "백련담",
+      "length_meter": 312.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.86132,
+          "lng": 127.772614,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.86079,
+          "lng": 127.770767,
+          "ele": 0.0
+        }
+      ],
+      "color": "#c5ac3d",
+      "start_name": "백련담",
+      "end_name": "연화폭",
+      "length_meter": 176.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.86079,
+          "lng": 127.770767,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.860909,
+          "lng": 127.76841,
+          "ele": 0.0
+        }
+      ],
+      "color": "#358112",
+      "start_name": "연화폭",
+      "end_name": "매월당 부도",
+      "length_meter": 212.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 35.860909,
+          "lng": 127.76841,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.860512,
+          "lng": 127.768082,
+          "ele": 910.348
+        }
+      ],
+      "color": "#972a52",
+      "start_name": "매월당 부도",
+      "end_name": "낙석위험",
+      "length_meter": 53.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 35.860512,
+          "lng": 127.768082,
+          "ele": 910.348
+        },
+        {
+          "lat": 35.85902,
+          "lng": 127.767372,
+          "ele": 0.0
+        }
+      ],
+      "color": "#b39540",
+      "start_name": "낙석위험",
+      "end_name": "갈림길",
+      "length_meter": 177.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 35.85902,
+          "lng": 127.767372,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.860355,
+          "lng": 127.767731,
+          "ele": 0.0
+        }
+      ],
+      "color": "#1c6775",
+      "start_name": "갈림길",
+      "end_name": "이속대",
+      "length_meter": 151.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 25,
+      "path": [
+        {
+          "lat": 35.860355,
+          "lng": 127.767731,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.860981,
+          "lng": 127.768524,
+          "ele": 0.0
+        }
+      ],
+      "color": "#bfb276",
+      "start_name": "이속대",
+      "end_name": "백련사 일주문",
+      "length_meter": 99.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 26,
+      "path": [
+        {
+          "lat": 35.860981,
+          "lng": 127.768524,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.86731,
+          "lng": 127.771378,
+          "ele": 0.0
+        }
+      ],
+      "color": "#afbcb5",
+      "start_name": "백련사 일주문",
+      "end_name": "신양담",
+      "length_meter": 749.3,
+      "time_minute": 9
+    },
+    {
+      "path_id": 27,
+      "path": [
+        {
+          "lat": 35.86731,
+          "lng": 127.771378,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.868202,
+          "lng": 127.772575,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3e96b3",
+      "start_name": "신양담",
+      "end_name": "안심대",
+      "length_meter": 146.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 28,
+      "path": [
+        {
+          "lat": 35.868202,
+          "lng": 127.772575,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.869987,
+          "lng": 127.774185,
+          "ele": 797.692
+        }
+      ],
+      "color": "#188a21",
+      "start_name": "안심대 / 청류계",
+      "end_name": "낙석위험",
+      "length_meter": 256.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 29,
+      "path": [
+        {
+          "lat": 35.869987,
+          "lng": 127.774185,
+          "ele": 797.692
+        },
+        {
+          "lat": 35.872204,
+          "lng": 127.775581,
+          "ele": 0.0
+        }
+      ],
+      "color": "#56bec4",
+      "start_name": "낙석위험",
+      "end_name": "호탄암",
+      "length_meter": 276.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 30,
+      "path": [
+        {
+          "lat": 35.872204,
+          "lng": 127.775581,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.878948,
+          "lng": 127.781357,
+          "ele": 0.0
+        }
+      ],
+      "color": "#826b17",
+      "start_name": "호탄암",
+      "end_name": "구월담",
+      "length_meter": 912.8,
+      "time_minute": 11
+    },
+    {
+      "path_id": 31,
+      "path": [
+        {
+          "lat": 35.878948,
+          "lng": 127.781357,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.88023,
+          "lng": 127.780624,
+          "ele": 0.0
+        }
+      ],
+      "color": "#22312b",
+      "start_name": "구월담",
+      "end_name": "비파담",
+      "length_meter": 157.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 32,
+      "path": [
+        {
+          "lat": 35.88023,
+          "lng": 127.780624,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.881462,
+          "lng": 127.777153,
+          "ele": 0.0
+        }
+      ],
+      "color": "#904300",
+      "start_name": "비파담 / 낙석위험",
+      "end_name": "사자담",
+      "length_meter": 345.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 33,
+      "path": [
+        {
+          "lat": 35.881462,
+          "lng": 127.777153,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.88884,
+          "lng": 127.77803,
+          "ele": 0.0
+        }
+      ],
+      "color": "#28c279",
+      "start_name": "사자담",
+      "end_name": "갈림길",
+      "length_meter": 824.2,
+      "time_minute": 10
+    },
+    {
+      "path_id": 34,
+      "path": [
+        {
+          "lat": 35.88884,
+          "lng": 127.77803,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.890129,
+          "lng": 127.773552,
+          "ele": 0.0
+        }
+      ],
+      "color": "#0da96a",
+      "start_name": "갈림길 / 구조대사무실",
+      "end_name": "덕유대야영장",
+      "length_meter": 428.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 35,
+      "path": [
+        {
+          "lat": 35.890129,
+          "lng": 127.773552,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.89204,
+          "lng": 127.777069,
+          "ele": 0.0
+        }
+      ],
+      "color": "#6c8f00",
+      "start_name": "덕유대야영장",
+      "end_name": "덕유대오토캠핑장",
+      "length_meter": 381.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 36,
+      "path": [
+        {
+          "lat": 35.89204,
+          "lng": 127.777069,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.895222,
+          "lng": 127.776276,
+          "ele": 0.0
+        }
+      ],
+      "color": "#c2303f",
+      "start_name": "덕유대오토캠핑장",
+      "end_name": "구천동탐방지원센터",
+      "length_meter": 361.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 37,
+      "path": [
+        {
+          "lat": 35.895222,
+          "lng": 127.776276,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.896297,
+          "lng": 127.775871,
+          "ele": 0.0
+        }
+      ],
+      "color": "#9d8e0b",
+      "start_name": "구천동탐방지원센터 / 공중화장실",
+      "end_name": "식수대",
+      "length_meter": 134.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 38,
+      "path": [
+        {
+          "lat": 35.896297,
+          "lng": 127.775871,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.897152,
+          "lng": 127.776176,
+          "ele": 0.0
+        }
+      ],
+      "color": "#b84626",
+      "start_name": "식수대",
+      "end_name": "갈림길",
+      "length_meter": 99.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 39,
+      "path": [
+        {
+          "lat": 35.897152,
+          "lng": 127.776176,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.899738,
+          "lng": 127.776497,
+          "ele": 625.144
+        }
+      ],
+      "color": "#7d73c7",
+      "start_name": "갈림길",
+      "end_name": "공중화장실",
+      "length_meter": 289.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 40,
+      "path": [
+        {
+          "lat": 35.899738,
+          "lng": 127.776497,
+          "ele": 625.144
+        },
+        {
+          "lat": 35.900135,
+          "lng": 127.776398,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3ec2a6",
+      "start_name": "공중화장실",
+      "end_name": "팔각정",
+      "length_meter": 45.0,
+      "time_minute": 0
+    }
+  ]
+}

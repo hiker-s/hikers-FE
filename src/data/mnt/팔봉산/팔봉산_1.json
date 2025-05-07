@@ -1,0 +1,455 @@
+{
+  "mnt_id": 90,
+  "mnt_name": "팔봉산",
+  "course_id": 233,
+  "max_ele": 361.165,
+  "total_length_km": "4.0km",
+  "total_time": "0시간 50분",
+  "start_name": "팔봉산관광지",
+  "end_name": "팔봉산유원지",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 113.172,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.701714,
+          "lng": 127.695595,
+          "ele": 145.53
+        },
+        {
+          "lat": 37.701214,
+          "lng": 127.694717,
+          "ele": 122.874
+        }
+      ],
+      "color": "#a4c7c0",
+      "start_name": "팔봉산관광지 / 주차장화장실 / 식당",
+      "end_name": "팔봉산등산안내도",
+      "length_meter": 121.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.701214,
+          "lng": 127.694717,
+          "ele": 122.874
+        },
+        {
+          "lat": 37.700661,
+          "lng": 127.695938,
+          "ele": 118.398
+        }
+      ],
+      "color": "#469700",
+      "start_name": "팔봉산등산안내도 / 팔봉산둘레",
+      "end_name": "홍천강",
+      "length_meter": 123.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.700661,
+          "lng": 127.695938,
+          "ele": 118.398
+        },
+        {
+          "lat": 37.699402,
+          "lng": 127.698975,
+          "ele": 114.484
+        }
+      ],
+      "color": "#917988",
+      "start_name": "홍천강",
+      "end_name": "팔봉산등산안내센터",
+      "length_meter": 301.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.699402,
+          "lng": 127.698975,
+          "ele": 114.484
+        },
+        {
+          "lat": 37.697334,
+          "lng": 127.700493,
+          "ele": 118.378
+        }
+      ],
+      "color": "#54c183",
+      "start_name": "팔봉산등산안내센터",
+      "end_name": "간이쉼터",
+      "length_meter": 265.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.697334,
+          "lng": 127.700493,
+          "ele": 118.378
+        },
+        {
+          "lat": 37.696106,
+          "lng": 127.699295,
+          "ele": 260.608
+        }
+      ],
+      "color": "#52290f",
+      "start_name": "간이쉼터 / 갈림길",
+      "end_name": "팔봉산",
+      "length_meter": 177.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.696106,
+          "lng": 127.699295,
+          "ele": 260.608
+        },
+        {
+          "lat": 37.695827,
+          "lng": 127.697975,
+          "ele": 293.428
+        }
+      ],
+      "color": "#20a212",
+      "start_name": "팔봉산",
+      "end_name": "갈림길",
+      "length_meter": 120.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.695827,
+          "lng": 127.697975,
+          "ele": 293.428
+        },
+        {
+          "lat": 37.695999,
+          "lng": 127.696915,
+          "ele": 330.081
+        }
+      ],
+      "color": "#17bba0",
+      "start_name": "갈림길 / 팔봉산",
+      "end_name": "삼부인당",
+      "length_meter": 102.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.695999,
+          "lng": 127.696915,
+          "ele": 330.081
+        },
+        {
+          "lat": 37.696304,
+          "lng": 127.696213,
+          "ele": 355.611
+        }
+      ],
+      "color": "#429c6f",
+      "start_name": "삼부인당 / 전망대 / 팔봉산 / 간이쉼터 / 쉼터",
+      "end_name": "팔봉산",
+      "length_meter": 91.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.696304,
+          "lng": 127.696213,
+          "ele": 355.611
+        },
+        {
+          "lat": 37.696529,
+          "lng": 127.696022,
+          "ele": 360.023
+        }
+      ],
+      "color": "#1fc71f",
+      "start_name": "팔봉산 / 갈림길 / 해산굴",
+      "end_name": "팔봉산",
+      "length_meter": 32.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.696529,
+          "lng": 127.696022,
+          "ele": 360.023
+        },
+        {
+          "lat": 37.696526,
+          "lng": 127.695526,
+          "ele": 361.165
+        }
+      ],
+      "color": "#4c709e",
+      "start_name": "팔봉산 / 갈림길",
+      "end_name": "팔봉산",
+      "length_meter": 43.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.696526,
+          "lng": 127.695526,
+          "ele": 361.165
+        },
+        {
+          "lat": 37.697369,
+          "lng": 127.694283,
+          "ele": 351.24
+        }
+      ],
+      "color": "#85ba73",
+      "start_name": "팔봉산",
+      "end_name": "갈림길",
+      "length_meter": 144.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.697369,
+          "lng": 127.694283,
+          "ele": 351.24
+        },
+        {
+          "lat": 37.698048,
+          "lng": 127.693962,
+          "ele": 341.955
+        }
+      ],
+      "color": "#9e8ac0",
+      "start_name": "갈림길",
+      "end_name": "팔봉산",
+      "length_meter": 80.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.698048,
+          "lng": 127.693962,
+          "ele": 341.955
+        },
+        {
+          "lat": 37.698784,
+          "lng": 127.692574,
+          "ele": 316.093
+        }
+      ],
+      "color": "#2c417c",
+      "start_name": "팔봉산",
+      "end_name": "갈림길",
+      "length_meter": 147.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.698784,
+          "lng": 127.692574,
+          "ele": 316.093
+        },
+        {
+          "lat": 37.700771,
+          "lng": 127.691956,
+          "ele": 166.682
+        }
+      ],
+      "color": "#4f361c",
+      "start_name": "갈림길 / 8봉오르는길",
+      "end_name": "등산로",
+      "length_meter": 228.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.700771,
+          "lng": 127.691956,
+          "ele": 166.682
+        },
+        {
+          "lat": 37.6991,
+          "lng": 127.691971,
+          "ele": 267.509
+        }
+      ],
+      "color": "#921d63",
+      "start_name": "등산로",
+      "end_name": "팔봉산",
+      "length_meter": 185.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.6991,
+          "lng": 127.691971,
+          "ele": 267.509
+        },
+        {
+          "lat": 37.69611,
+          "lng": 127.696342,
+          "ele": 323.427
+        }
+      ],
+      "color": "#399143",
+      "start_name": "팔봉산",
+      "end_name": "갈림길",
+      "length_meter": 508.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.69611,
+          "lng": 127.696342,
+          "ele": 323.427
+        },
+        {
+          "lat": 37.697456,
+          "lng": 127.696815,
+          "ele": 306.459
+        }
+      ],
+      "color": "#2e3b04",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 155.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.697456,
+          "lng": 127.696815,
+          "ele": 306.459
+        },
+        {
+          "lat": 37.699455,
+          "lng": 127.696022,
+          "ele": 139.324
+        }
+      ],
+      "color": "#2186b8",
+      "start_name": "쉼터",
+      "end_name": "팔봉산8봉하산둘레길",
+      "length_meter": 233.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.699455,
+          "lng": 127.696022,
+          "ele": 139.324
+        },
+        {
+          "lat": 37.698925,
+          "lng": 127.697411,
+          "ele": 120.488
+        }
+      ],
+      "color": "#258867",
+      "start_name": "팔봉산8봉하산둘레길",
+      "end_name": "갈림길",
+      "length_meter": 135.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.698925,
+          "lng": 127.697411,
+          "ele": 120.488
+        },
+        {
+          "lat": 37.698444,
+          "lng": 127.699043,
+          "ele": 113.172
+        }
+      ],
+      "color": "#3fa714",
+      "start_name": "갈림길",
+      "end_name": "매표소옆에 화장실이 있네요",
+      "length_meter": 153.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 37.698444,
+          "lng": 127.699043,
+          "ele": 113.172
+        },
+        {
+          "lat": 37.69849,
+          "lng": 127.700645,
+          "ele": 118.9
+        }
+      ],
+      "color": "#803278",
+      "start_name": "매표소옆에 화장실이 있네요 / 노르웨이의 숲",
+      "end_name": "청담김밥",
+      "length_meter": 141.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 37.69849,
+          "lng": 127.700645,
+          "ele": 118.9
+        },
+        {
+          "lat": 37.700779,
+          "lng": 127.695557,
+          "ele": 120.991
+        }
+      ],
+      "color": "#b1770e",
+      "start_name": "청담김밥",
+      "end_name": "팔봉산유원지",
+      "length_meter": 514.9,
+      "time_minute": 6
+    }
+  ]
+}

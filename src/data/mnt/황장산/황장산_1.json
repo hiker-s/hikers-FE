@@ -1,0 +1,315 @@
+{
+  "mnt_id": 98,
+  "mnt_name": "황장산",
+  "course_id": 258,
+  "max_ele": 1108.644,
+  "total_length_km": "5.3km",
+  "total_time": "1시간 6분",
+  "start_name": "월악산 황장산 생달 공영주차장",
+  "end_name": "남선농원",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 501.68,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.807194,
+          "lng": 128.254593,
+          "ele": 501.68
+        },
+        {
+          "lat": 36.808388,
+          "lng": 128.254501,
+          "ele": 505.399
+        }
+      ],
+      "color": "#570177",
+      "start_name": "월악산 황장산 생달 공영주차장",
+      "end_name": "생달2리 마을회관 화장실",
+      "length_meter": 133.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.808388,
+          "lng": 128.254501,
+          "ele": 505.399
+        },
+        {
+          "lat": 36.80986,
+          "lng": 128.255859,
+          "ele": 521.064
+        }
+      ],
+      "color": "#320a74",
+      "start_name": "생달2리 마을회관 화장실",
+      "end_name": "갈림길",
+      "length_meter": 203.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.80986,
+          "lng": 128.255859,
+          "ele": 521.064
+        },
+        {
+          "lat": 36.812168,
+          "lng": 128.257813,
+          "ele": 553.62
+        }
+      ],
+      "color": "#ac820f",
+      "start_name": "갈림길",
+      "end_name": "황장산 공원지킴터",
+      "length_meter": 310.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.812168,
+          "lng": 128.257813,
+          "ele": 553.62
+        },
+        {
+          "lat": 36.810276,
+          "lng": 128.271713,
+          "ele": 774.157
+        }
+      ],
+      "color": "#7c7bb8",
+      "start_name": "황장산 공원지킴터 / 갈림길",
+      "end_name": "누운폭포",
+      "length_meter": 1258.1,
+      "time_minute": 20
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.810276,
+          "lng": 128.271713,
+          "ele": 774.157
+        },
+        {
+          "lat": 36.811016,
+          "lng": 128.27771,
+          "ele": 1017.837
+        }
+      ],
+      "color": "#6627bd",
+      "start_name": "누운폭포",
+      "end_name": "갈림길",
+      "length_meter": 540.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.811016,
+          "lng": 128.27771,
+          "ele": 1017.837
+        },
+        {
+          "lat": 36.812843,
+          "lng": 128.278122,
+          "ele": 1108.644
+        }
+      ],
+      "color": "#b7194e",
+      "start_name": "갈림길 / 정상부근 그늘쉼터",
+      "end_name": "정상쉼터",
+      "length_meter": 220.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.812843,
+          "lng": 128.278122,
+          "ele": 1108.644
+        },
+        {
+          "lat": 36.814388,
+          "lng": 128.277374,
+          "ele": 1063.287
+        }
+      ],
+      "color": "#25427b",
+      "start_name": "정상쉼터 / 황장산",
+      "end_name": "도락산 조망점",
+      "length_meter": 202.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.814388,
+          "lng": 128.277374,
+          "ele": 1063.287
+        },
+        {
+          "lat": 36.815277,
+          "lng": 128.276505,
+          "ele": 1035.253
+        }
+      ],
+      "color": "#0d4ca1",
+      "start_name": "도락산 조망점 / 데크전망대 / 정상부 데크길",
+      "end_name": "천국의 계단",
+      "length_meter": 133.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.815277,
+          "lng": 128.276505,
+          "ele": 1035.253
+        },
+        {
+          "lat": 36.819187,
+          "lng": 128.270615,
+          "ele": 863.397
+        }
+      ],
+      "color": "#189494",
+      "start_name": "천국의 계단",
+      "end_name": "안생달조망점",
+      "length_meter": 681.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.819187,
+          "lng": 128.270615,
+          "ele": 863.397
+        },
+        {
+          "lat": 36.820347,
+          "lng": 128.266785,
+          "ele": 759.08
+        }
+      ],
+      "color": "#092039",
+      "start_name": "안생달조망점",
+      "end_name": "갈림길",
+      "length_meter": 364.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.820347,
+          "lng": 128.266785,
+          "ele": 759.08
+        },
+        {
+          "lat": 36.820502,
+          "lng": 128.266739,
+          "ele": 766.633
+        }
+      ],
+      "color": "#b94560",
+      "start_name": "갈림길 / 웨이포인트 22",
+      "end_name": "웨이포인트 23",
+      "length_meter": 18.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.820502,
+          "lng": 128.266739,
+          "ele": 766.633
+        },
+        {
+          "lat": 36.815823,
+          "lng": 128.26355,
+          "ele": 635.388
+        }
+      ],
+      "color": "#747f4f",
+      "start_name": "웨이포인트 23 / 갈림길",
+      "end_name": "동굴카페 <카브>",
+      "length_meter": 630.0,
+      "time_minute": 10
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.815823,
+          "lng": 128.26355,
+          "ele": 635.388
+        },
+        {
+          "lat": 36.813515,
+          "lng": 128.260147,
+          "ele": 583.872
+        }
+      ],
+      "color": "#724c99",
+      "start_name": "동굴카페 <카브>",
+      "end_name": "황장산 민박",
+      "length_meter": 397.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.813515,
+          "lng": 128.260147,
+          "ele": 583.872
+        },
+        {
+          "lat": 36.812759,
+          "lng": 128.258881,
+          "ele": 566.536
+        }
+      ],
+      "color": "#43269a",
+      "start_name": "황장산 민박",
+      "end_name": "갈림길",
+      "length_meter": 140.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.812759,
+          "lng": 128.258881,
+          "ele": 566.536
+        },
+        {
+          "lat": 36.812363,
+          "lng": 128.258179,
+          "ele": 559.941
+        }
+      ],
+      "color": "#42502c",
+      "start_name": "갈림길 / 생달버스종점 화장실 / 안생달 버스종점",
+      "end_name": "남선농원",
+      "length_meter": 78.0,
+      "time_minute": 1
+    }
+  ]
+}

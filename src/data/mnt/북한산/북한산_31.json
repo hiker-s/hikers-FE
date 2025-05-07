@@ -1,0 +1,315 @@
+{
+  "mnt_id": 46,
+  "mnt_name": "북한산",
+  "course_id": 121,
+  "max_ele": 599.724,
+  "total_length_km": "4.7km",
+  "total_time": "0시간 59분",
+  "start_name": "청수폭포",
+  "end_name": "연화정사",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 169.382,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.621552,
+          "lng": 126.993279,
+          "ele": 169.382
+        },
+        {
+          "lat": 37.622589,
+          "lng": 126.992645,
+          "ele": 190.157
+        }
+      ],
+      "color": "#90a3c4",
+      "start_name": "청수폭포",
+      "end_name": "청수화장실",
+      "length_meter": 128.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.622589,
+          "lng": 126.992645,
+          "ele": 190.157
+        },
+        {
+          "lat": 37.626163,
+          "lng": 126.989594,
+          "ele": 281.857
+        }
+      ],
+      "color": "#b9c07d",
+      "start_name": "청수화장실",
+      "end_name": "소화기 쉼터",
+      "length_meter": 479.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.626163,
+          "lng": 126.989594,
+          "ele": 281.857
+        },
+        {
+          "lat": 37.628429,
+          "lng": 126.988686,
+          "ele": 289.19
+        }
+      ],
+      "color": "#6e7616",
+      "start_name": "소화기 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 264.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.628429,
+          "lng": 126.988686,
+          "ele": 289.19
+        },
+        {
+          "lat": 37.628853,
+          "lng": 126.987389,
+          "ele": 315.692
+        }
+      ],
+      "color": "#5b1a21",
+      "start_name": "갈림길",
+      "end_name": "영천 약수터",
+      "length_meter": 123.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.628853,
+          "lng": 126.987389,
+          "ele": 315.692
+        },
+        {
+          "lat": 37.631142,
+          "lng": 126.985565,
+          "ele": 362.41
+        }
+      ],
+      "color": "#9fab98",
+      "start_name": "영천 약수터",
+      "end_name": "쌍줄기 약수터",
+      "length_meter": 301.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.631142,
+          "lng": 126.985565,
+          "ele": 362.41
+        },
+        {
+          "lat": 37.63599,
+          "lng": 126.981819,
+          "ele": 582.53
+        }
+      ],
+      "color": "#1c9e7e",
+      "start_name": "쌍줄기 약수터 / 보국문 쉼터",
+      "end_name": "겨울철 상습결빙구간",
+      "length_meter": 632.1,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.63599,
+          "lng": 126.981819,
+          "ele": 582.53
+        },
+        {
+          "lat": 37.631733,
+          "lng": 126.977631,
+          "ele": 599.724
+        }
+      ],
+      "color": "#267e97",
+      "start_name": "겨울철 상습결빙구간",
+      "end_name": "인두암",
+      "length_meter": 600.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.631733,
+          "lng": 126.977631,
+          "ele": 599.724
+        },
+        {
+          "lat": 37.629517,
+          "lng": 126.977303,
+          "ele": 575.628
+        }
+      ],
+      "color": "#c1040f",
+      "start_name": "인두암",
+      "end_name": "갈림길",
+      "length_meter": 248.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.629517,
+          "lng": 126.977303,
+          "ele": 575.628
+        },
+        {
+          "lat": 37.621056,
+          "lng": 126.97718,
+          "ele": 346.756
+        }
+      ],
+      "color": "#0e466b",
+      "start_name": "갈림길",
+      "end_name": "형제봉 조망점",
+      "length_meter": 940.9,
+      "time_minute": 11
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.621056,
+          "lng": 126.97718,
+          "ele": 346.756
+        },
+        {
+          "lat": 37.61948,
+          "lng": 126.975998,
+          "ele": 342.219
+        }
+      ],
+      "color": "#7e657c",
+      "start_name": "형제봉 조망점 / 동령폭포",
+      "end_name": "무명 쉼터",
+      "length_meter": 209.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.61948,
+          "lng": 126.975998,
+          "ele": 342.219
+        },
+        {
+          "lat": 37.617569,
+          "lng": 126.975746,
+          "ele": 291.878
+        }
+      ],
+      "color": "#7cc576",
+      "start_name": "무명 쉼터",
+      "end_name": "평창공원 지킴터 화장실",
+      "length_meter": 213.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.617569,
+          "lng": 126.975746,
+          "ele": 291.878
+        },
+        {
+          "lat": 37.617283,
+          "lng": 126.975754,
+          "ele": 287.492
+        }
+      ],
+      "color": "#0b1809",
+      "start_name": "평창공원 지킴터 화장실",
+      "end_name": "평창공원지킴터",
+      "length_meter": 31.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.617283,
+          "lng": 126.975754,
+          "ele": 287.492
+        },
+        {
+          "lat": 37.61591,
+          "lng": 126.980049,
+          "ele": 253.385
+        }
+      ],
+      "color": "#368498",
+      "start_name": "평창공원지킴터 / 갈림길",
+      "end_name": "감람산기도원",
+      "length_meter": 408.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.61591,
+          "lng": 126.980049,
+          "ele": 253.385
+        },
+        {
+          "lat": 37.61488,
+          "lng": 126.979622,
+          "ele": 277.444
+        }
+      ],
+      "color": "#0f0a36",
+      "start_name": "감람산기도원",
+      "end_name": "선원사",
+      "length_meter": 120.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.61488,
+          "lng": 126.979622,
+          "ele": 277.444
+        },
+        {
+          "lat": 37.614704,
+          "lng": 126.979568,
+          "ele": 249.499
+        }
+      ],
+      "color": "#bc962e",
+      "start_name": "선원사",
+      "end_name": "연화정사",
+      "length_meter": 20.1,
+      "time_minute": 0
+    }
+  ]
+}

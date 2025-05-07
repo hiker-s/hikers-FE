@@ -1,0 +1,195 @@
+{
+  "mnt_id": 43,
+  "mnt_name": "백운산(정선)",
+  "course_id": 110,
+  "max_ele": 988.364,
+  "total_length_km": "6.0km",
+  "total_time": "1시간 14분",
+  "start_name": "마하(백룡동굴)",
+  "end_name": "백운산",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 266.663,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.278713,
+          "lng": 128.57634,
+          "ele": 266.663
+        },
+        {
+          "lat": 37.278931,
+          "lng": 128.576447,
+          "ele": 267.306
+        }
+      ],
+      "color": "#4b4da2",
+      "start_name": "마하(백룡동굴) / 백룡동굴탐방센터 야외 화장실 / 백룡동굴탐방센터 / 백운산 등산안내도",
+      "end_name": "문희마을",
+      "length_meter": 116.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.278931,
+          "lng": 128.576447,
+          "ele": 267.306
+        },
+        {
+          "lat": 37.279968,
+          "lng": 128.579514,
+          "ele": 320.682
+        }
+      ],
+      "color": "#9c39ae",
+      "start_name": "문희마을",
+      "end_name": "백운산 등산코스 안내도",
+      "length_meter": 294.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.279968,
+          "lng": 128.579514,
+          "ele": 320.682
+        },
+        {
+          "lat": 37.285625,
+          "lng": 128.584976,
+          "ele": 515.063
+        }
+      ],
+      "color": "#9f80c2",
+      "start_name": "백운산 등산코스 안내도",
+      "end_name": "사각돌",
+      "length_meter": 793.2,
+      "time_minute": 9
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.285625,
+          "lng": 128.584976,
+          "ele": 515.063
+        },
+        {
+          "lat": 37.289768,
+          "lng": 128.586365,
+          "ele": 644.278
+        }
+      ],
+      "color": "#9bbfb7",
+      "start_name": "사각돌",
+      "end_name": "이정목",
+      "length_meter": 476.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.289768,
+          "lng": 128.586365,
+          "ele": 644.278
+        },
+        {
+          "lat": 37.289295,
+          "lng": 128.589523,
+          "ele": 765.276
+        }
+      ],
+      "color": "#b4209b",
+      "start_name": "이정목",
+      "end_name": "갈림길",
+      "length_meter": 284.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.289295,
+          "lng": 128.589523,
+          "ele": 765.276
+        },
+        {
+          "lat": 37.298729,
+          "lng": 128.579163,
+          "ele": 986.299
+        }
+      ],
+      "color": "#9a668a",
+      "start_name": "갈림길",
+      "end_name": "푯대봉 삼각점",
+      "length_meter": 1392.9,
+      "time_minute": 17
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.298729,
+          "lng": 128.579163,
+          "ele": 986.299
+        },
+        {
+          "lat": 37.291172,
+          "lng": 128.588837,
+          "ele": 775.532
+        }
+      ],
+      "color": "#504f79",
+      "start_name": "푯대봉 삼각점 / 푯대봉",
+      "end_name": "소나무 군락",
+      "length_meter": 1200.0,
+      "time_minute": 19
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.291172,
+          "lng": 128.588837,
+          "ele": 775.532
+        },
+        {
+          "lat": 37.288483,
+          "lng": 128.590073,
+          "ele": 768.589
+        }
+      ],
+      "color": "#172c0d",
+      "start_name": "소나무 군락",
+      "end_name": "잣나무 식립지",
+      "length_meter": 318.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.288483,
+          "lng": 128.590073,
+          "ele": 768.589
+        },
+        {
+          "lat": 37.280018,
+          "lng": 128.596085,
+          "ele": 907.841
+        }
+      ],
+      "color": "#4e4f18",
+      "start_name": "잣나무 식립지",
+      "end_name": "백운산",
+      "length_meter": 1081.1,
+      "time_minute": 13
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "mnt_id": 93,
+  "mnt_name": "화악산",
+  "course_id": 244,
+  "max_ele": 1399.14,
+  "total_length_km": "8.2km",
+  "total_time": "1시간 42분",
+  "start_name": "무지개다리",
+  "end_name": "관청큰골길 등산로",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 283.767,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.959782,
+          "lng": 127.477493,
+          "ele": 290.509
+        },
+        {
+          "lat": 37.960197,
+          "lng": 127.477715,
+          "ele": 298.638
+        }
+      ],
+      "color": "#c261ad",
+      "start_name": "무지개다리 / 띠아모펜션앞",
+      "end_name": "가마소 아우라지",
+      "length_meter": 51.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.960197,
+          "lng": 127.477715,
+          "ele": 298.638
+        },
+        {
+          "lat": 37.963528,
+          "lng": 127.480927,
+          "ele": 364.868
+        }
+      ],
+      "color": "#9356ab",
+      "start_name": "가마소 아우라지",
+      "end_name": "갈림길",
+      "length_meter": 465.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.963528,
+          "lng": 127.480927,
+          "ele": 364.868
+        },
+        {
+          "lat": 37.964611,
+          "lng": 127.481461,
+          "ele": 378.213
+        }
+      ],
+      "color": "#9d8a65",
+      "start_name": "갈림길",
+      "end_name": "포토존 가마소 폭포",
+      "length_meter": 129.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.964611,
+          "lng": 127.481461,
+          "ele": 378.213
+        },
+        {
+          "lat": 37.964764,
+          "lng": 127.48175,
+          "ele": 382.097
+        }
+      ],
+      "color": "#3f5f89",
+      "start_name": "포토존 가마소 폭포 / 가마소폭포 / 웨이포인트 12",
+      "end_name": "무지개다리",
+      "length_meter": 32.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.964764,
+          "lng": 127.48175,
+          "ele": 382.097
+        },
+        {
+          "lat": 37.971378,
+          "lng": 127.482124,
+          "ele": 475.775
+        }
+      ],
+      "color": "#4d8433",
+      "start_name": "무지개다리",
+      "end_name": "갈림길",
+      "length_meter": 736.2,
+      "time_minute": 9
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.971378,
+          "lng": 127.482124,
+          "ele": 475.775
+        },
+        {
+          "lat": 37.972286,
+          "lng": 127.481773,
+          "ele": 496.027
+        }
+      ],
+      "color": "#94bc7a",
+      "start_name": "갈림길",
+      "end_name": "단풍경관",
+      "length_meter": 105.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.972286,
+          "lng": 127.481773,
+          "ele": 496.027
+        },
+        {
+          "lat": 37.985313,
+          "lng": 127.482582,
+          "ele": 1065.9
+        }
+      ],
+      "color": "#2119c2",
+      "start_name": "단풍경관",
+      "end_name": "갈림길",
+      "length_meter": 1450.3,
+      "time_minute": 18
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.985313,
+          "lng": 127.482582,
+          "ele": 1065.9
+        },
+        {
+          "lat": 37.987682,
+          "lng": 127.487289,
+          "ele": 1124.742
+        }
+      ],
+      "color": "#1046b5",
+      "start_name": "갈림길",
+      "end_name": "바위",
+      "length_meter": 489.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.987682,
+          "lng": 127.487289,
+          "ele": 1124.742
+        },
+        {
+          "lat": 37.987949,
+          "lng": 127.488167,
+          "ele": 1147.723
+        }
+      ],
+      "color": "#056e8e",
+      "start_name": "바위 / 사자바위",
+      "end_name": "바위3",
+      "length_meter": 82.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.987949,
+          "lng": 127.488167,
+          "ele": 1147.723
+        },
+        {
+          "lat": 37.988262,
+          "lng": 127.48967,
+          "ele": 1211.484
+        }
+      ],
+      "color": "#4870af",
+      "start_name": "바위3 / 바위4 / 바위",
+      "end_name": "전망암",
+      "length_meter": 138.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.988262,
+          "lng": 127.48967,
+          "ele": 1211.484
+        },
+        {
+          "lat": 37.988579,
+          "lng": 127.490608,
+          "ele": 1234.095
+        }
+      ],
+      "color": "#427e5a",
+      "start_name": "전망암",
+      "end_name": "바위",
+      "length_meter": 89.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.988579,
+          "lng": 127.490608,
+          "ele": 1234.095
+        },
+        {
+          "lat": 37.988697,
+          "lng": 127.491737,
+          "ele": 1271.539
+        }
+      ],
+      "color": "#2f9746",
+      "start_name": "바위 / 웨이포인트 31 / 바위",
+      "end_name": "진짜 전망바위에서",
+      "length_meter": 100.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.988697,
+          "lng": 127.491737,
+          "ele": 1271.539
+        },
+        {
+          "lat": 37.988682,
+          "lng": 127.491959,
+          "ele": 1291.479
+        }
+      ],
+      "color": "#575f1b",
+      "start_name": "진짜 전망바위에서 / 웨이포인트 38 / 웨이포인트 34 / 웨이포인트 35 / 웨이포인트 36 / 웨이포인트 37 / 웨이포인트 39",
+      "end_name": "형제바위",
+      "length_meter": 37.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.988682,
+          "lng": 127.491959,
+          "ele": 1291.479
+        },
+        {
+          "lat": 37.98909,
+          "lng": 127.492935,
+          "ele": 1298.656
+        }
+      ],
+      "color": "#1c26c2",
+      "start_name": "형제바위",
+      "end_name": "갈림길",
+      "length_meter": 96.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.98909,
+          "lng": 127.492935,
+          "ele": 1298.656
+        },
+        {
+          "lat": 37.988979,
+          "lng": 127.493126,
+          "ele": 1314.765
+        }
+      ],
+      "color": "#bd0f08",
+      "start_name": "갈림길 / 스테플러 계단",
+      "end_name": "중봉정상 뷰",
+      "length_meter": 23.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.988979,
+          "lng": 127.493126,
+          "ele": 1314.765
+        },
+        {
+          "lat": 37.98798,
+          "lng": 127.496048,
+          "ele": 1399.14
+        }
+      ],
+      "color": "#9d4f30",
+      "start_name": "중봉정상 뷰",
+      "end_name": "갈림길",
+      "length_meter": 279.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.98798,
+          "lng": 127.496048,
+          "ele": 1399.14
+        },
+        {
+          "lat": 37.976933,
+          "lng": 127.496635,
+          "ele": 1167.905
+        }
+      ],
+      "color": "#3ab064",
+      "start_name": "갈림길",
+      "end_name": "바위",
+      "length_meter": 1229.4,
+      "time_minute": 15
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.976933,
+          "lng": 127.496635,
+          "ele": 1167.905
+        },
+        {
+          "lat": 37.966328,
+          "lng": 127.483284,
+          "ele": 403.068
+        }
+      ],
+      "color": "#481e7d",
+      "start_name": "바위",
+      "end_name": "갈림길",
+      "length_meter": 1661.4,
+      "time_minute": 20
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.966328,
+          "lng": 127.483284,
+          "ele": 403.068
+        },
+        {
+          "lat": 37.964682,
+          "lng": 127.481732,
+          "ele": 381.945
+        }
+      ],
+      "color": "#643ca0",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 13",
+      "length_meter": 228.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.964682,
+          "lng": 127.481732,
+          "ele": 381.945
+        },
+        {
+          "lat": 37.959103,
+          "lng": 127.476639,
+          "ele": 283.767
+        }
+      ],
+      "color": "#21278a",
+      "start_name": "웨이포인트 13 / 웨이포인트 14",
+      "end_name": "관청큰골길 등산로",
+      "length_meter": 764.3,
+      "time_minute": 12
+    }
+  ]
+}

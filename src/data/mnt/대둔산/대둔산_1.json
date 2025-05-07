@@ -1,0 +1,495 @@
+{
+  "mnt_id": 20,
+  "mnt_name": "대둔산",
+  "course_id": 53,
+  "max_ele": 860.983,
+  "total_length_km": "5.9km",
+  "total_time": "1시간 14분",
+  "start_name": "수락리정류장",
+  "end_name": "대둔산승전탑",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.145107,
+          "lng": 127.305603,
+          "ele": 260.478
+        },
+        {
+          "lat": 36.144611,
+          "lng": 127.305252,
+          "ele": 260.174
+        }
+      ],
+      "color": "#31c641",
+      "start_name": "수락리정류장 / 수락리종점 화장실 / 대둔산식당 매점",
+      "end_name": "금강식당",
+      "length_meter": 72.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.144611,
+          "lng": 127.305252,
+          "ele": 260.174
+        },
+        {
+          "lat": 36.143913,
+          "lng": 127.304939,
+          "ele": 262.251
+        }
+      ],
+      "color": "#02096a",
+      "start_name": "금강식당 / 수락계곡",
+      "end_name": "수락계곡주차장",
+      "length_meter": 82.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.143913,
+          "lng": 127.304939,
+          "ele": 262.251
+        },
+        {
+          "lat": 36.142536,
+          "lng": 127.304199,
+          "ele": 264.451
+        }
+      ],
+      "color": "#a28b36",
+      "start_name": "수락계곡주차장 / 수락계곡주차장 화장실",
+      "end_name": "등산안내도",
+      "length_meter": 167.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.142536,
+          "lng": 127.304199,
+          "ele": 264.451
+        },
+        {
+          "lat": 36.14246,
+          "lng": 127.304298,
+          "ele": 266.225
+        }
+      ],
+      "color": "#6541b9",
+      "start_name": "등산안내도",
+      "end_name": "주차장위 정자",
+      "length_meter": 12.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.14246,
+          "lng": 127.304298,
+          "ele": 266.225
+        },
+        {
+          "lat": 36.1394,
+          "lng": 127.303299,
+          "ele": 277.306
+        }
+      ],
+      "color": "#a57c79",
+      "start_name": "주차장위 정자 / 갈림길",
+      "end_name": "대둔산도립공원 탐방지원센터",
+      "length_meter": 352.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.1394,
+          "lng": 127.303299,
+          "ele": 277.306
+        },
+        {
+          "lat": 36.137108,
+          "lng": 127.304451,
+          "ele": 300.708
+        }
+      ],
+      "color": "#ad1647",
+      "start_name": "대둔산도립공원 탐방지원센터 / 갈림길 / 승전교",
+      "end_name": "중간 쉼터",
+      "length_meter": 275.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.137108,
+          "lng": 127.304451,
+          "ele": 300.708
+        },
+        {
+          "lat": 36.136227,
+          "lng": 127.305824,
+          "ele": 315.247
+        }
+      ],
+      "color": "#414b56",
+      "start_name": "중간 쉼터 / 반딧불서식지?",
+      "end_name": "대둔산승전탑 주차장",
+      "length_meter": 157.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.136227,
+          "lng": 127.305824,
+          "ele": 315.247
+        },
+        {
+          "lat": 36.135323,
+          "lng": 127.306465,
+          "ele": 314.904
+        }
+      ],
+      "color": "#432083",
+      "start_name": "대둔산승전탑 주차장",
+      "end_name": "갈림길",
+      "length_meter": 115.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.135323,
+          "lng": 127.306465,
+          "ele": 314.904
+        },
+        {
+          "lat": 36.131798,
+          "lng": 127.307579,
+          "ele": 362.462
+        }
+      ],
+      "color": "#8553a9",
+      "start_name": "갈림길",
+      "end_name": "꼬깔바위",
+      "length_meter": 404.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.131798,
+          "lng": 127.307579,
+          "ele": 362.462
+        },
+        {
+          "lat": 36.131126,
+          "lng": 127.307709,
+          "ele": 368.115
+        }
+      ],
+      "color": "#25a254",
+      "start_name": "꼬깔바위",
+      "end_name": "수락폭포",
+      "length_meter": 75.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.131126,
+          "lng": 127.307709,
+          "ele": 368.115
+        },
+        {
+          "lat": 36.127419,
+          "lng": 127.313568,
+          "ele": 635.833
+        }
+      ],
+      "color": "#316c4c",
+      "start_name": "수락폭포 / 갈림길",
+      "end_name": "낙조대  능선배경",
+      "length_meter": 671.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.127419,
+          "lng": 127.313568,
+          "ele": 635.833
+        },
+        {
+          "lat": 36.124512,
+          "lng": 127.317604,
+          "ele": 808.243
+        }
+      ],
+      "color": "#bb953a",
+      "start_name": "낙조대  능선배경",
+      "end_name": "갈림길",
+      "length_meter": 485.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.124512,
+          "lng": 127.317604,
+          "ele": 808.243
+        },
+        {
+          "lat": 36.124691,
+          "lng": 127.320518,
+          "ele": 860.983
+        }
+      ],
+      "color": "#482864",
+      "start_name": "갈림길",
+      "end_name": "정상",
+      "length_meter": 262.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.124691,
+          "lng": 127.320518,
+          "ele": 860.983
+        },
+        {
+          "lat": 36.125149,
+          "lng": 127.321243,
+          "ele": 825.743
+        }
+      ],
+      "color": "#a0631c",
+      "start_name": "정상 / 갈림길",
+      "end_name": "사거리쉼터",
+      "length_meter": 82.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.125149,
+          "lng": 127.321243,
+          "ele": 825.743
+        },
+        {
+          "lat": 36.12635,
+          "lng": 127.323105,
+          "ele": 847.845
+        }
+      ],
+      "color": "#873eaf",
+      "start_name": "사거리쉼터",
+      "end_name": "칠성봉",
+      "length_meter": 214.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.12635,
+          "lng": 127.323105,
+          "ele": 847.845
+        },
+        {
+          "lat": 36.127831,
+          "lng": 127.323326,
+          "ele": 814.569
+        }
+      ],
+      "color": "#80746b",
+      "start_name": "칠성봉",
+      "end_name": "갈림길",
+      "length_meter": 165.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.127831,
+          "lng": 127.323326,
+          "ele": 814.569
+        },
+        {
+          "lat": 36.129463,
+          "lng": 127.32296,
+          "ele": 792.431
+        }
+      ],
+      "color": "#2c08c1",
+      "start_name": "갈림길",
+      "end_name": "간이화장실",
+      "length_meter": 184.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.129463,
+          "lng": 127.32296,
+          "ele": 792.431
+        },
+        {
+          "lat": 36.129871,
+          "lng": 127.322403,
+          "ele": 791.311
+        }
+      ],
+      "color": "#8ebfa8",
+      "start_name": "간이화장실 / 낙조산장 / 논산 수락리 마애불",
+      "end_name": "낙조산장 앞 데크",
+      "length_meter": 70.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.129871,
+          "lng": 127.322403,
+          "ele": 791.311
+        },
+        {
+          "lat": 36.12838,
+          "lng": 127.319916,
+          "ele": 672.846
+        }
+      ],
+      "color": "#ac1fac",
+      "start_name": "낙조산장 앞 데크",
+      "end_name": "허둔장군절터 벤치",
+      "length_meter": 278.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 36.12838,
+          "lng": 127.319916,
+          "ele": 672.846
+        },
+        {
+          "lat": 36.128342,
+          "lng": 127.319733,
+          "ele": 668.348
+        }
+      ],
+      "color": "#7aa46e",
+      "start_name": "허둔장군절터 벤치",
+      "end_name": "허둔장군절터",
+      "length_meter": 17.0,
+      "time_minute": 0
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 36.128342,
+          "lng": 127.319733,
+          "ele": 668.348
+        },
+        {
+          "lat": 36.128742,
+          "lng": 127.312065,
+          "ele": 475.407
+        }
+      ],
+      "color": "#5e755e",
+      "start_name": "허둔장군절터",
+      "end_name": "갈림길",
+      "length_meter": 690.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 36.128742,
+          "lng": 127.312065,
+          "ele": 475.407
+        },
+        {
+          "lat": 36.129566,
+          "lng": 127.311356,
+          "ele": 0.0
+        }
+      ],
+      "color": "#c1bac5",
+      "start_name": "갈림길",
+      "end_name": "석천암",
+      "length_meter": 111.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 36.129566,
+          "lng": 127.311356,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.135429,
+          "lng": 127.306496,
+          "ele": 318.18
+        }
+      ],
+      "color": "#463f7d",
+      "start_name": "석천암",
+      "end_name": "선녀폭포",
+      "length_meter": 784.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 36.135429,
+          "lng": 127.306496,
+          "ele": 318.18
+        },
+        {
+          "lat": 36.137062,
+          "lng": 127.307167,
+          "ele": 0.0
+        }
+      ],
+      "color": "#8c3f8a",
+      "start_name": "선녀폭포",
+      "end_name": "대둔산승전탑",
+      "length_meter": 191.3,
+      "time_minute": 2
+    }
+  ]
+}

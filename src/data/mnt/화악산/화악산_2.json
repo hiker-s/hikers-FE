@@ -1,0 +1,255 @@
+{
+  "mnt_id": 93,
+  "mnt_name": "화악산",
+  "course_id": 242,
+  "max_ele": 1473.956,
+  "total_length_km": "5.8km",
+  "total_time": "1시간 12분",
+  "start_name": "화악산로 등산로입구",
+  "end_name": "참나무 고목",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 360.169,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.963505,
+          "lng": 127.52636,
+          "ele": 360.169
+        },
+        {
+          "lat": 37.967888,
+          "lng": 127.520905,
+          "ele": 398.342
+        }
+      ],
+      "color": "#6011b8",
+      "start_name": "화악산로 등산로입구",
+      "end_name": "갈림길",
+      "length_meter": 682.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.967888,
+          "lng": 127.520905,
+          "ele": 398.342
+        },
+        {
+          "lat": 37.969962,
+          "lng": 127.518193,
+          "ele": 468.319
+        }
+      ],
+      "color": "#a31875",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 4",
+      "length_meter": 331.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.969962,
+          "lng": 127.518193,
+          "ele": 468.319
+        },
+        {
+          "lat": 37.972263,
+          "lng": 127.515717,
+          "ele": 505.073
+        }
+      ],
+      "color": "#19909f",
+      "start_name": "웨이포인트 4",
+      "end_name": "갈림길",
+      "length_meter": 335.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.972263,
+          "lng": 127.515717,
+          "ele": 505.073
+        },
+        {
+          "lat": 37.971876,
+          "lng": 127.512697,
+          "ele": 592.854
+        }
+      ],
+      "color": "#7b2240",
+      "start_name": "갈림길 / 웨이포인트 6",
+      "end_name": "웨이포인트 7",
+      "length_meter": 273.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.971876,
+          "lng": 127.512697,
+          "ele": 592.854
+        },
+        {
+          "lat": 37.971878,
+          "lng": 127.512695,
+          "ele": 592.854
+        }
+      ],
+      "color": "#0058a5",
+      "start_name": "웨이포인트 7",
+      "end_name": "천도교 화악산수도원 쉼터",
+      "length_meter": 0.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.971878,
+          "lng": 127.512695,
+          "ele": 592.854
+        },
+        {
+          "lat": 37.972939,
+          "lng": 127.511108,
+          "ele": 623.801
+        }
+      ],
+      "color": "#19b66f",
+      "start_name": "천도교 화악산수도원 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 182.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.972939,
+          "lng": 127.511108,
+          "ele": 623.801
+        },
+        {
+          "lat": 37.973396,
+          "lng": 127.508125,
+          "ele": 643.266
+        }
+      ],
+      "color": "#1d8aa2",
+      "start_name": "갈림길",
+      "end_name": "옥녀탕",
+      "length_meter": 266.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.973396,
+          "lng": 127.508125,
+          "ele": 643.266
+        },
+        {
+          "lat": 37.97337,
+          "lng": 127.508046,
+          "ele": 642.046
+        }
+      ],
+      "color": "#b1c384",
+      "start_name": "옥녀탕",
+      "end_name": "웨이포인트 12",
+      "length_meter": 7.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.97337,
+          "lng": 127.508046,
+          "ele": 642.046
+        },
+        {
+          "lat": 37.991814,
+          "lng": 127.503448,
+          "ele": 1325.031
+        }
+      ],
+      "color": "#c4a657",
+      "start_name": "웨이포인트 12",
+      "end_name": "갈림길",
+      "length_meter": 2090.1,
+      "time_minute": 26
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.991814,
+          "lng": 127.503448,
+          "ele": 1325.031
+        },
+        {
+          "lat": 37.989342,
+          "lng": 127.498138,
+          "ele": 1470.496
+        }
+      ],
+      "color": "#9378b0",
+      "start_name": "갈림길 / 웨이포인트 14",
+      "end_name": "화악산 중봉",
+      "length_meter": 555.7,
+      "time_minute": 9
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.989342,
+          "lng": 127.498138,
+          "ele": 1470.496
+        },
+        {
+          "lat": 37.988716,
+          "lng": 127.498886,
+          "ele": 1458.453
+        }
+      ],
+      "color": "#44491e",
+      "start_name": "화악산 중봉 / 갈림길",
+      "end_name": "주목군락지",
+      "length_meter": 96.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.988716,
+          "lng": 127.498886,
+          "ele": 1458.453
+        },
+        {
+          "lat": 37.980679,
+          "lng": 127.50322,
+          "ele": 1120.379
+        }
+      ],
+      "color": "#554d64",
+      "start_name": "주목군락지",
+      "end_name": "참나무 고목",
+      "length_meter": 971.0,
+      "time_minute": 12
+    }
+  ]
+}

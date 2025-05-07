@@ -1,0 +1,75 @@
+{
+  "mnt_id": 54,
+  "mnt_name": "소요산",
+  "course_id": 150,
+  "max_ele": 254.97,
+  "total_length_km": "0.6km",
+  "total_time": "0시간 6분",
+  "start_name": "소요산역",
+  "end_name": "팔각정",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 91.323,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.947498,
+          "lng": 127.061539,
+          "ele": 99.247
+        },
+        {
+          "lat": 37.946659,
+          "lng": 127.062561,
+          "ele": 91.927
+        }
+      ],
+      "color": "#7d1887",
+      "start_name": "소요산역 / 서요산 맛거리",
+      "end_name": "소요산 산림욕장",
+      "length_meter": 133.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.946659,
+          "lng": 127.062561,
+          "ele": 91.927
+        },
+        {
+          "lat": 37.946545,
+          "lng": 127.06395,
+          "ele": 91.323
+        }
+      ],
+      "color": "#c76814",
+      "start_name": "소요산 산림욕장",
+      "end_name": "축산육타운주차장",
+      "length_meter": 122.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.946545,
+          "lng": 127.06395,
+          "ele": 91.323
+        },
+        {
+          "lat": 37.947235,
+          "lng": 127.067192,
+          "ele": 125.284
+        }
+      ],
+      "color": "#8a2f70",
+      "start_name": "축산육타운주차장",
+      "end_name": "팔각정",
+      "length_meter": 294.5,
+      "time_minute": 3
+    }
+  ]
+}

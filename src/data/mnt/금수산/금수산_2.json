@@ -1,0 +1,355 @@
+{
+  "mnt_id": 13,
+  "mnt_name": "금수산",
+  "course_id": 32,
+  "max_ele": 1037.417,
+  "total_length_km": "4.7km",
+  "total_time": "0시간 59분",
+  "start_name": "금수산 상학주차장 버스정류장",
+  "end_name": "금수산 들머리앞 주차장",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.975719,
+          "lng": 128.274933,
+          "ele": 433.665
+        },
+        {
+          "lat": 36.97728,
+          "lng": 128.273529,
+          "ele": 434.529
+        }
+      ],
+      "color": "#162846",
+      "start_name": "금수산 상학주차장 버스정류장 / 상학주차장",
+      "end_name": "대추나무집",
+      "length_meter": 259.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.97728,
+          "lng": 128.273529,
+          "ele": 434.529
+        },
+        {
+          "lat": 36.978851,
+          "lng": 128.269379,
+          "ele": 499.659
+        }
+      ],
+      "color": "#519017",
+      "start_name": "대추나무집",
+      "end_name": "들머리",
+      "length_meter": 407.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.978851,
+          "lng": 128.269379,
+          "ele": 499.659
+        },
+        {
+          "lat": 36.980644,
+          "lng": 128.265945,
+          "ele": 0.0
+        }
+      ],
+      "color": "#69ae0a",
+      "start_name": "들머리 / 갈림길",
+      "end_name": "대비사",
+      "length_meter": 368.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.980644,
+          "lng": 128.265945,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.983791,
+          "lng": 128.266388,
+          "ele": 581.783
+        }
+      ],
+      "color": "#11801d",
+      "start_name": "대비사",
+      "end_name": "쉼터",
+      "length_meter": 352.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.983791,
+          "lng": 128.266388,
+          "ele": 581.783
+        },
+        {
+          "lat": 36.985901,
+          "lng": 128.267044,
+          "ele": 628.013
+        }
+      ],
+      "color": "#c34a55",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 241.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.985901,
+          "lng": 128.267044,
+          "ele": 628.013
+        },
+        {
+          "lat": 36.985897,
+          "lng": 128.266693,
+          "ele": 633.58
+        }
+      ],
+      "color": "#a30462",
+      "start_name": "갈림길 / 쉼터 / 남근석공원",
+      "end_name": "쉼터",
+      "length_meter": 31.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.985897,
+          "lng": 128.266693,
+          "ele": 633.58
+        },
+        {
+          "lat": 36.986027,
+          "lng": 128.263458,
+          "ele": 682.477
+        }
+      ],
+      "color": "#a66548",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "옹달샘",
+      "length_meter": 288.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.986027,
+          "lng": 128.263458,
+          "ele": 682.477
+        },
+        {
+          "lat": 36.98613,
+          "lng": 128.263046,
+          "ele": 679.24
+        }
+      ],
+      "color": "#248f7b",
+      "start_name": "옹달샘",
+      "end_name": "왕제비꽃 서식지",
+      "length_meter": 38.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.98613,
+          "lng": 128.263046,
+          "ele": 679.24
+        },
+        {
+          "lat": 36.986786,
+          "lng": 128.263672,
+          "ele": 708.174
+        }
+      ],
+      "color": "#6e610d",
+      "start_name": "왕제비꽃 서식지 / 갈림길",
+      "end_name": "설금전망대",
+      "length_meter": 149.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.986786,
+          "lng": 128.263672,
+          "ele": 708.174
+        },
+        {
+          "lat": 36.985992,
+          "lng": 128.258774,
+          "ele": 819.654
+        }
+      ],
+      "color": "#35bc10",
+      "start_name": "설금전망대",
+      "end_name": "낙석주의지점",
+      "length_meter": 443.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.985992,
+          "lng": 128.258774,
+          "ele": 819.654
+        },
+        {
+          "lat": 36.986458,
+          "lng": 128.257004,
+          "ele": 909.609
+        }
+      ],
+      "color": "#c06507",
+      "start_name": "낙석주의지점",
+      "end_name": "낙석주의구간",
+      "length_meter": 165.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.986458,
+          "lng": 128.257004,
+          "ele": 909.609
+        },
+        {
+          "lat": 36.986546,
+          "lng": 128.25589,
+          "ele": 973.403
+        }
+      ],
+      "color": "#2e419a",
+      "start_name": "낙석주의구간",
+      "end_name": "갈림길",
+      "length_meter": 99.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.986546,
+          "lng": 128.25589,
+          "ele": 973.403
+        },
+        {
+          "lat": 36.985016,
+          "lng": 128.256775,
+          "ele": 1037.417
+        }
+      ],
+      "color": "#9f613b",
+      "start_name": "갈림길 / 전망대",
+      "end_name": "금수산정상",
+      "length_meter": 193.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.985016,
+          "lng": 128.256775,
+          "ele": 1037.417
+        },
+        {
+          "lat": 36.98204,
+          "lng": 128.257004,
+          "ele": 928.701
+        }
+      ],
+      "color": "#342d70",
+      "start_name": "금수산정상",
+      "end_name": "갈림길",
+      "length_meter": 331.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.98204,
+          "lng": 128.257004,
+          "ele": 928.701
+        },
+        {
+          "lat": 36.981266,
+          "lng": 128.258682,
+          "ele": 903.286
+        }
+      ],
+      "color": "#bd8743",
+      "start_name": "갈림길",
+      "end_name": "전망대",
+      "length_meter": 172.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.981266,
+          "lng": 128.258682,
+          "ele": 903.286
+        },
+        {
+          "lat": 36.97739,
+          "lng": 128.264038,
+          "ele": 630.287
+        }
+      ],
+      "color": "#ada874",
+      "start_name": "전망대",
+      "end_name": "갈림길",
+      "length_meter": 642.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.97739,
+          "lng": 128.264038,
+          "ele": 630.287
+        },
+        {
+          "lat": 36.978764,
+          "lng": 128.269806,
+          "ele": 470.102
+        }
+      ],
+      "color": "#a74b97",
+      "start_name": "갈림길",
+      "end_name": "금수산 들머리앞 주차장",
+      "length_meter": 534.7,
+      "time_minute": 6
+    }
+  ]
+}

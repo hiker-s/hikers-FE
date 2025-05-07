@@ -1,0 +1,415 @@
+{
+  "mnt_id": 71,
+  "mnt_name": "적상산",
+  "course_id": 192,
+  "max_ele": 1004.278,
+  "total_length_km": "5.4km",
+  "total_time": "1시간 7분",
+  "start_name": "버스터미널",
+  "end_name": "장도바위",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.930077,
+          "lng": 127.709969,
+          "ele": 336.808
+        },
+        {
+          "lat": 35.93042,
+          "lng": 127.708794,
+          "ele": 329.786
+        }
+      ],
+      "color": "#764049",
+      "start_name": "버스터미널",
+      "end_name": "치목마을주차장",
+      "length_meter": 112.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.93042,
+          "lng": 127.708794,
+          "ele": 329.786
+        },
+        {
+          "lat": 35.936878,
+          "lng": 127.701195,
+          "ele": 536.988
+        }
+      ],
+      "color": "#8a934a",
+      "start_name": "치목마을주차장 / 갈림길",
+      "end_name": "곰출현주의",
+      "length_meter": 1027.5,
+      "time_minute": 16
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.936878,
+          "lng": 127.701195,
+          "ele": 536.988
+        },
+        {
+          "lat": 35.939781,
+          "lng": 127.699707,
+          "ele": 606.866
+        }
+      ],
+      "color": "#6f5e26",
+      "start_name": "곰출현주의",
+      "end_name": "급경사지 낙석지역",
+      "length_meter": 349.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.939781,
+          "lng": 127.699707,
+          "ele": 606.866
+        },
+        {
+          "lat": 35.941414,
+          "lng": 127.698456,
+          "ele": 614.264
+        }
+      ],
+      "color": "#a81e84",
+      "start_name": "급경사지 낙석지역",
+      "end_name": "송대폭포",
+      "length_meter": 213.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.941414,
+          "lng": 127.698456,
+          "ele": 614.264
+        },
+        {
+          "lat": 35.944462,
+          "lng": 127.697342,
+          "ele": 789.416
+        }
+      ],
+      "color": "#550f71",
+      "start_name": "송대폭포",
+      "end_name": "급경사지 낙석지역",
+      "length_meter": 353.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.944462,
+          "lng": 127.697342,
+          "ele": 789.416
+        },
+        {
+          "lat": 35.94503,
+          "lng": 127.696465,
+          "ele": 792.435
+        }
+      ],
+      "color": "#432775",
+      "start_name": "급경사지 낙석지역",
+      "end_name": "낙석주의 추락주의",
+      "length_meter": 101.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.94503,
+          "lng": 127.696465,
+          "ele": 792.435
+        },
+        {
+          "lat": 35.945305,
+          "lng": 127.696152,
+          "ele": 798.635
+        }
+      ],
+      "color": "#454a26",
+      "start_name": "낙석주의 추락주의",
+      "end_name": "산사태주의",
+      "length_meter": 41.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.945305,
+          "lng": 127.696152,
+          "ele": 798.635
+        },
+        {
+          "lat": 35.947701,
+          "lng": 127.694954,
+          "ele": 863.222
+        }
+      ],
+      "color": "#86b81e",
+      "start_name": "산사태주의",
+      "end_name": "갈림길",
+      "length_meter": 287.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.947701,
+          "lng": 127.694954,
+          "ele": 863.222
+        },
+        {
+          "lat": 35.948723,
+          "lng": 127.693619,
+          "ele": 901.747
+        }
+      ],
+      "color": "#09bf45",
+      "start_name": "갈림길",
+      "end_name": "대형주차장",
+      "length_meter": 165.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.948723,
+          "lng": 127.693619,
+          "ele": 901.747
+        },
+        {
+          "lat": 35.949223,
+          "lng": 127.693253,
+          "ele": 896.637
+        }
+      ],
+      "color": "#383193",
+      "start_name": "대형주차장 / 갈림길",
+      "end_name": "뱀 진드기 벌 주의",
+      "length_meter": 84.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.949223,
+          "lng": 127.693253,
+          "ele": 896.637
+        },
+        {
+          "lat": 35.948673,
+          "lng": 127.693581,
+          "ele": 893.631
+        }
+      ],
+      "color": "#830635",
+      "start_name": "뱀 진드기 벌 주의",
+      "end_name": "매표소",
+      "length_meter": 67.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.948673,
+          "lng": 127.693581,
+          "ele": 893.631
+        },
+        {
+          "lat": 35.945885,
+          "lng": 127.693161,
+          "ele": 926.512
+        }
+      ],
+      "color": "#4b0090",
+      "start_name": "매표소",
+      "end_name": "갈림길",
+      "length_meter": 312.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.945885,
+          "lng": 127.693161,
+          "ele": 926.512
+        },
+        {
+          "lat": 35.944103,
+          "lng": 127.691887,
+          "ele": 935.343
+        }
+      ],
+      "color": "#8ec631",
+      "start_name": "갈림길",
+      "end_name": "적상산성 호국사비",
+      "length_meter": 228.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.944103,
+          "lng": 127.691887,
+          "ele": 935.343
+        },
+        {
+          "lat": 35.94508,
+          "lng": 127.691689,
+          "ele": 0.0
+        }
+      ],
+      "color": "#030189",
+      "start_name": "적상산성 호국사비 / 안국사 화장실",
+      "end_name": "극락전",
+      "length_meter": 117.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.94508,
+          "lng": 127.691689,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.944599,
+          "lng": 127.691704,
+          "ele": 0.0
+        }
+      ],
+      "color": "#773919",
+      "start_name": "극락전 / 갈림길",
+      "end_name": "안국사",
+      "length_meter": 73.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.944599,
+          "lng": 127.691704,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.944767,
+          "lng": 127.69146,
+          "ele": 0.0
+        }
+      ],
+      "color": "#a00e65",
+      "start_name": "안국사",
+      "end_name": "성보박물관 전통찻집",
+      "length_meter": 28.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.944767,
+          "lng": 127.69146,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.945831,
+          "lng": 127.689941,
+          "ele": 995.499
+        }
+      ],
+      "color": "#273773",
+      "start_name": "성보박물관 전통찻집",
+      "end_name": "갈림길",
+      "length_meter": 180.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.945831,
+          "lng": 127.689941,
+          "ele": 995.499
+        },
+        {
+          "lat": 35.95668,
+          "lng": 127.687225,
+          "ele": 1002.747
+        }
+      ],
+      "color": "#00ad5c",
+      "start_name": "갈림길",
+      "end_name": "향로봉",
+      "length_meter": 1230.9,
+      "time_minute": 15
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.95668,
+          "lng": 127.687225,
+          "ele": 1002.747
+        },
+        {
+          "lat": 35.953888,
+          "lng": 127.684708,
+          "ele": 856.5
+        }
+      ],
+      "color": "#0a9b37",
+      "start_name": "향로봉 / 향로봉 조망",
+      "end_name": "무주 적상산성 서문지",
+      "length_meter": 385.6,
+      "time_minute": 6
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.953888,
+          "lng": 127.684708,
+          "ele": 856.5
+        },
+        {
+          "lat": 35.953648,
+          "lng": 127.684547,
+          "ele": 830.752
+        }
+      ],
+      "color": "#198a1f",
+      "start_name": "무주 적상산성 서문지 / 바위",
+      "end_name": "장도바위",
+      "length_meter": 41.5,
+      "time_minute": 0
+    }
+  ]
+}

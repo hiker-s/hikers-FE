@@ -1,0 +1,155 @@
+{
+  "mnt_id": 78,
+  "mnt_name": "천관산",
+  "course_id": 203,
+  "max_ele": 741.615,
+  "total_length_km": "2.5km",
+  "total_time": "0시간 31분",
+  "start_name": "반야굴",
+  "end_name": "불영봉",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 478.226,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.529282,
+          "lng": 126.909882,
+          "ele": 478.226
+        },
+        {
+          "lat": 34.530777,
+          "lng": 126.909462,
+          "ele": 556.657
+        }
+      ],
+      "color": "#ba2e3e",
+      "start_name": "반야굴",
+      "end_name": "갈림길",
+      "length_meter": 170.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.530777,
+          "lng": 126.909462,
+          "ele": 556.657
+        },
+        {
+          "lat": 34.530952,
+          "lng": 126.909363,
+          "ele": 567.437
+        }
+      ],
+      "color": "#517050",
+      "start_name": "갈림길",
+      "end_name": "탑산사",
+      "length_meter": 21.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.530952,
+          "lng": 126.909363,
+          "ele": 567.437
+        },
+        {
+          "lat": 34.53109,
+          "lng": 126.908546,
+          "ele": 587.143
+        }
+      ],
+      "color": "#813f5b",
+      "start_name": "탑산사 / 갈림길",
+      "end_name": "아육왕탑",
+      "length_meter": 76.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.53109,
+          "lng": 126.908546,
+          "ele": 587.143
+        },
+        {
+          "lat": 34.531815,
+          "lng": 126.907005,
+          "ele": 677.286
+        }
+      ],
+      "color": "#c03c92",
+      "start_name": "아육왕탑",
+      "end_name": "구룡봉",
+      "length_meter": 162.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.531815,
+          "lng": 126.907005,
+          "ele": 677.286
+        },
+        {
+          "lat": 34.534435,
+          "lng": 126.91066,
+          "ele": 722.028
+        }
+      ],
+      "color": "#b3429c",
+      "start_name": "구룡봉",
+      "end_name": "진죽봉",
+      "length_meter": 443.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.534435,
+          "lng": 126.91066,
+          "ele": 722.028
+        },
+        {
+          "lat": 34.535439,
+          "lng": 126.911171,
+          "ele": 741.196
+        }
+      ],
+      "color": "#057e4a",
+      "start_name": "진죽봉",
+      "end_name": "갈림길",
+      "length_meter": 121.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.535439,
+          "lng": 126.911171,
+          "ele": 741.196
+        },
+        {
+          "lat": 34.521946,
+          "lng": 126.912842,
+          "ele": 550.571
+        }
+      ],
+      "color": "#56a34d",
+      "start_name": "갈림길",
+      "end_name": "불영봉",
+      "length_meter": 1508.1,
+      "time_minute": 18
+    }
+  ]
+}

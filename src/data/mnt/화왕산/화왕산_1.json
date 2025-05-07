@@ -1,0 +1,275 @@
+{
+  "mnt_id": 94,
+  "mnt_name": "화왕산",
+  "course_id": 245,
+  "max_ele": 777.0,
+  "total_length_km": "6.4km",
+  "total_time": "1시간 20분",
+  "start_name": "창화사",
+  "end_name": "창녕송현동고분군",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.541355,
+          "lng": 128.507431,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.546135,
+          "lng": 128.504929,
+          "ele": 0.0
+        }
+      ],
+      "color": "#b97db4",
+      "start_name": "창화사",
+      "end_name": "교동고분군(들머리)",
+      "length_meter": 577.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.546135,
+          "lng": 128.504929,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.546677,
+          "lng": 128.504395,
+          "ele": 0.0
+        }
+      ],
+      "color": "#536caa",
+      "start_name": "교동고분군(들머리) / 창녕박물관 주차장",
+      "end_name": "창녕교동고분군",
+      "length_meter": 127.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.546677,
+          "lng": 128.504395,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.54797,
+          "lng": 128.512253,
+          "ele": 340.0
+        }
+      ],
+      "color": "#0d0224",
+      "start_name": "창녕교동고분군",
+      "end_name": "목마산성",
+      "length_meter": 725.3,
+      "time_minute": 9
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.54797,
+          "lng": 128.512253,
+          "ele": 340.0
+        },
+        {
+          "lat": 35.546444,
+          "lng": 128.516891,
+          "ele": 484.0
+        }
+      ],
+      "color": "#2491c3",
+      "start_name": "목마산성",
+      "end_name": "돌탑",
+      "length_meter": 452.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.546444,
+          "lng": 128.516891,
+          "ele": 484.0
+        },
+        {
+          "lat": 35.545677,
+          "lng": 128.537704,
+          "ele": 703.0
+        }
+      ],
+      "color": "#8cc2ac",
+      "start_name": "돌탑",
+      "end_name": "갈림길",
+      "length_meter": 1885.0,
+      "time_minute": 23
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.545677,
+          "lng": 128.537704,
+          "ele": 703.0
+        },
+        {
+          "lat": 35.545742,
+          "lng": 128.533798,
+          "ele": 0.0
+        }
+      ],
+      "color": "#848b66",
+      "start_name": "갈림길",
+      "end_name": "화왕산성",
+      "length_meter": 353.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.545742,
+          "lng": 128.533798,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.544117,
+          "lng": 128.530533,
+          "ele": 559.0
+        }
+      ],
+      "color": "#46bebe",
+      "start_name": "화왕산성",
+      "end_name": "쉼터",
+      "length_meter": 346.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.544117,
+          "lng": 128.530533,
+          "ele": 559.0
+        },
+        {
+          "lat": 35.543381,
+          "lng": 128.525787,
+          "ele": 427.0
+        }
+      ],
+      "color": "#32c671",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 437.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.543381,
+          "lng": 128.525787,
+          "ele": 427.0
+        },
+        {
+          "lat": 35.543362,
+          "lng": 128.525757,
+          "ele": 424.0
+        }
+      ],
+      "color": "#70af39",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 3.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.543362,
+          "lng": 128.525757,
+          "ele": 424.0
+        },
+        {
+          "lat": 35.542778,
+          "lng": 128.52388,
+          "ele": 391.0
+        }
+      ],
+      "color": "#0a6e04",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 181.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.542778,
+          "lng": 128.52388,
+          "ele": 391.0
+        },
+        {
+          "lat": 35.542454,
+          "lng": 128.522552,
+          "ele": 366.0
+        }
+      ],
+      "color": "#978492",
+      "start_name": "갈림길 / 쉼터 / 체육공원겸 쉼터",
+      "end_name": "쉼터",
+      "length_meter": 127.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.542454,
+          "lng": 128.522552,
+          "ele": 366.0
+        },
+        {
+          "lat": 35.542191,
+          "lng": 128.519577,
+          "ele": 308.0
+        }
+      ],
+      "color": "#2b8519",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 272.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.542191,
+          "lng": 128.519577,
+          "ele": 308.0
+        },
+        {
+          "lat": 35.541599,
+          "lng": 128.509338,
+          "ele": 0.0
+        }
+      ],
+      "color": "#08bc8b",
+      "start_name": "쉼터",
+      "end_name": "창녕송현동고분군",
+      "length_meter": 928.7,
+      "time_minute": 11
+    }
+  ]
+}

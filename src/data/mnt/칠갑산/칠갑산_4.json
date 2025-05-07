@@ -1,0 +1,75 @@
+{
+  "mnt_id": 86,
+  "mnt_name": "칠갑산",
+  "course_id": 224,
+  "max_ele": 482.628,
+  "total_length_km": "1.7km",
+  "total_time": "0시간 21분",
+  "start_name": "도림사지 입구",
+  "end_name": "칠갑산용못고을가든",
+  "level": "중",
+  "course_name": "탄력등산 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.399448,
+          "lng": 126.891533,
+          "ele": 188.279
+        },
+        {
+          "lat": 36.404629,
+          "lng": 126.892441,
+          "ele": 354.076
+        }
+      ],
+      "color": "#8a110f",
+      "start_name": "도림사지 입구",
+      "end_name": "도림사지 삼층석탑",
+      "length_meter": 581.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.404629,
+          "lng": 126.892441,
+          "ele": 354.076
+        },
+        {
+          "lat": 36.401699,
+          "lng": 126.89167,
+          "ele": 246.058
+        }
+      ],
+      "color": "#c3093e",
+      "start_name": "도림사지 삼층석탑",
+      "end_name": "공부를",
+      "length_meter": 333.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.401699,
+          "lng": 126.89167,
+          "ele": 246.058
+        },
+        {
+          "lat": 36.394878,
+          "lng": 126.894066,
+          "ele": 0.0
+        }
+      ],
+      "color": "#716408",
+      "start_name": "공부를",
+      "end_name": "칠갑산용못고을가든",
+      "length_meter": 788.2,
+      "time_minute": 9
+    }
+  ]
+}

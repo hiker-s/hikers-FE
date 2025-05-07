@@ -1,0 +1,275 @@
+{
+  "mnt_id": 3,
+  "mnt_name": "가야산",
+  "course_id": 8,
+  "max_ele": 1446.64,
+  "total_length_km": "7.9km",
+  "total_time": "1시간 38분",
+  "start_name": "해인사주차장",
+  "end_name": "해인사관광안내소",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 569.354,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.793415,
+          "lng": 128.094452,
+          "ele": 569.354
+        },
+        {
+          "lat": 35.795212,
+          "lng": 128.094147,
+          "ele": 590.61
+        }
+      ],
+      "color": "#adc67f",
+      "start_name": "해인사주차장",
+      "end_name": "허덕교 화장실",
+      "length_meter": 201.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.795212,
+          "lng": 128.094147,
+          "ele": 590.61
+        },
+        {
+          "lat": 35.796276,
+          "lng": 128.09494,
+          "ele": 592.086
+        }
+      ],
+      "color": "#54064d",
+      "start_name": "허덕교 화장실",
+      "end_name": "갈림길",
+      "length_meter": 138.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.796276,
+          "lng": 128.09494,
+          "ele": 592.086
+        },
+        {
+          "lat": 35.79628,
+          "lng": 128.094955,
+          "ele": 593.15
+        }
+      ],
+      "color": "#8409c1",
+      "start_name": "갈림길",
+      "end_name": "카페",
+      "length_meter": 1.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.79628,
+          "lng": 128.094955,
+          "ele": 593.15
+        },
+        {
+          "lat": 35.796978,
+          "lng": 128.09549,
+          "ele": 589.224
+        }
+      ],
+      "color": "#976e0d",
+      "start_name": "카페",
+      "end_name": "갈림길",
+      "length_meter": 91.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.796978,
+          "lng": 128.09549,
+          "ele": 589.224
+        },
+        {
+          "lat": 35.799023,
+          "lng": 128.096451,
+          "ele": 630.492
+        }
+      ],
+      "color": "#522c90",
+      "start_name": "갈림길",
+      "end_name": "일주문주차장",
+      "length_meter": 243.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.799023,
+          "lng": 128.096451,
+          "ele": 630.492
+        },
+        {
+          "lat": 35.802166,
+          "lng": 128.097092,
+          "ele": 652.526
+        }
+      ],
+      "color": "#0c747c",
+      "start_name": "일주문주차장 / 갈림길",
+      "end_name": "토신골탐방로입구",
+      "length_meter": 364.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.802166,
+          "lng": 128.097092,
+          "ele": 652.526
+        },
+        {
+          "lat": 35.821159,
+          "lng": 128.116852,
+          "ele": 1257.268
+        }
+      ],
+      "color": "#2b6767",
+      "start_name": "토신골탐방로입구",
+      "end_name": "갈림길",
+      "length_meter": 2763.2,
+      "time_minute": 34
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.821159,
+          "lng": 128.116852,
+          "ele": 1257.268
+        },
+        {
+          "lat": 35.821861,
+          "lng": 128.117126,
+          "ele": 1293.726
+        }
+      ],
+      "color": "#c0a032",
+      "start_name": "갈림길",
+      "end_name": "자연경관",
+      "length_meter": 81.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.821861,
+          "lng": 128.117126,
+          "ele": 1293.726
+        },
+        {
+          "lat": 35.823547,
+          "lng": 128.120499,
+          "ele": 1446.64
+        }
+      ],
+      "color": "#458f92",
+      "start_name": "자연경관 / 너럭바위 조망 / 암벽",
+      "end_name": "가야산 우두봉(상왕봉)",
+      "length_meter": 367.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.823547,
+          "lng": 128.120499,
+          "ele": 1446.64
+        },
+        {
+          "lat": 35.822807,
+          "lng": 128.11998,
+          "ele": 1418.529
+        }
+      ],
+      "color": "#00447c",
+      "start_name": "가야산 우두봉(상왕봉) / 갈림길",
+      "end_name": "봉천대",
+      "length_meter": 98.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.822807,
+          "lng": 128.11998,
+          "ele": 1418.529
+        },
+        {
+          "lat": 35.808575,
+          "lng": 128.102707,
+          "ele": 756.016
+        }
+      ],
+      "color": "#5d4d20",
+      "start_name": "봉천대",
+      "end_name": "밴치",
+      "length_meter": 2220.4,
+      "time_minute": 27
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.808575,
+          "lng": 128.102707,
+          "ele": 756.016
+        },
+        {
+          "lat": 35.800396,
+          "lng": 128.095917,
+          "ele": 634.449
+        }
+      ],
+      "color": "#84b261",
+      "start_name": "밴치",
+      "end_name": "수다라카페",
+      "length_meter": 1096.4,
+      "time_minute": 13
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.800396,
+          "lng": 128.095917,
+          "ele": 634.449
+        },
+        {
+          "lat": 35.798485,
+          "lng": 128.096466,
+          "ele": 622.382
+        }
+      ],
+      "color": "#076381",
+      "start_name": "수다라카페",
+      "end_name": "해인사관광안내소",
+      "length_meter": 218.2,
+      "time_minute": 2
+    }
+  ]
+}

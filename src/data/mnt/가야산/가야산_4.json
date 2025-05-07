@@ -1,0 +1,95 @@
+{
+  "mnt_id": 3,
+  "mnt_name": "가야산",
+  "course_id": 6,
+  "max_ele": 1061.516,
+  "total_length_km": "2.2km",
+  "total_time": "0시간 27분",
+  "start_name": "돼지골탐방지원센터주차장",
+  "end_name": "정상부",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 617.441,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.789528,
+          "lng": 128.086868,
+          "ele": 617.441
+        },
+        {
+          "lat": 35.781429,
+          "lng": 128.08754,
+          "ele": 750.899
+        }
+      ],
+      "color": "#ad7a95",
+      "start_name": "돼지골탐방지원센터주차장 / 해인관광호텔 / 돼지골 탐방지원센터",
+      "end_name": "멧돼지 주의",
+      "length_meter": 906.8,
+      "time_minute": 15
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.781429,
+          "lng": 128.08754,
+          "ele": 750.899
+        },
+        {
+          "lat": 35.776581,
+          "lng": 128.089294,
+          "ele": 847.993
+        }
+      ],
+      "color": "#0e4f27",
+      "start_name": "멧돼지 주의",
+      "end_name": "안전사고 다발구간",
+      "length_meter": 561.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.776581,
+          "lng": 128.089294,
+          "ele": 847.993
+        },
+        {
+          "lat": 35.773438,
+          "lng": 128.094711,
+          "ele": 1014.795
+        }
+      ],
+      "color": "#855702",
+      "start_name": "안전사고 다발구간",
+      "end_name": "자연경관",
+      "length_meter": 600.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.773438,
+          "lng": 128.094711,
+          "ele": 1014.795
+        },
+        {
+          "lat": 35.772648,
+          "lng": 128.095154,
+          "ele": 1061.516
+        }
+      ],
+      "color": "#7352bf",
+      "start_name": "자연경관",
+      "end_name": "정상부",
+      "length_meter": 96.5,
+      "time_minute": 1
+    }
+  ]
+}

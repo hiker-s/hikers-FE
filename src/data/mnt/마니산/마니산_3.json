@@ -1,0 +1,95 @@
+{
+  "mnt_id": 29,
+  "mnt_name": "마니산",
+  "course_id": 73,
+  "max_ele": 452.277,
+  "total_length_km": "1.5km",
+  "total_time": "0시간 19분",
+  "start_name": "사랑의하트석",
+  "end_name": "야영장쉼터",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 120.798,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.608868,
+          "lng": 126.443642,
+          "ele": 257.78
+        },
+        {
+          "lat": 37.612125,
+          "lng": 126.438034,
+          "ele": 441.039
+        }
+      ],
+      "color": "#5d8d39",
+      "start_name": "사랑의하트석 / 갈림길",
+      "end_name": "추락사고위험구간",
+      "length_meter": 647.6,
+      "time_minute": 10
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.612125,
+          "lng": 126.438034,
+          "ele": 441.039
+        },
+        {
+          "lat": 37.612679,
+          "lng": 126.44519,
+          "ele": 181.278
+        }
+      ],
+      "color": "#4a0b2f",
+      "start_name": "추락사고위험구간 / 갈림길",
+      "end_name": "추락사고위험",
+      "length_meter": 640.5,
+      "time_minute": 10
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.612679,
+          "lng": 126.44519,
+          "ele": 181.278
+        },
+        {
+          "lat": 37.613148,
+          "lng": 126.446472,
+          "ele": 139.11
+        }
+      ],
+      "color": "#26883f",
+      "start_name": "추락사고위험 / 함허동천계곡",
+      "end_name": "야영장쉼터",
+      "length_meter": 130.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.613148,
+          "lng": 126.446472,
+          "ele": 139.11
+        },
+        {
+          "lat": 37.61272,
+          "lng": 126.447533,
+          "ele": 120.798
+        }
+      ],
+      "color": "#353728",
+      "start_name": "야영장쉼터 / 야영장 쉼터",
+      "end_name": "야영장쉼터",
+      "length_meter": 106.4,
+      "time_minute": 1
+    }
+  ]
+}

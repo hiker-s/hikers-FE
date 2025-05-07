@@ -1,0 +1,135 @@
+{
+  "mnt_id": 99,
+  "mnt_name": "희양산",
+  "course_id": 260,
+  "max_ele": 910.9,
+  "total_length_km": "4.3km",
+  "total_time": "0시간 53분",
+  "start_name": "간이쉼터",
+  "end_name": "시루봉쉼터",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 333.1,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.72438,
+          "lng": 127.993889,
+          "ele": 475.5
+        },
+        {
+          "lat": 36.723392,
+          "lng": 127.994225,
+          "ele": 501.1
+        }
+      ],
+      "color": "#67c77a",
+      "start_name": "간이쉼터 / 갈림길 / 해골바위",
+      "end_name": "간이쉼터",
+      "length_meter": 117.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.723392,
+          "lng": 127.994225,
+          "ele": 501.1
+        },
+        {
+          "lat": 36.720402,
+          "lng": 128.005203,
+          "ele": 865.6
+        }
+      ],
+      "color": "#8ec576",
+      "start_name": "간이쉼터",
+      "end_name": "산죽나무서식지",
+      "length_meter": 1033.4,
+      "time_minute": 12
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.720402,
+          "lng": 128.005203,
+          "ele": 865.6
+        },
+        {
+          "lat": 36.729496,
+          "lng": 128.010864,
+          "ele": 792.4
+        }
+      ],
+      "color": "#79380f",
+      "start_name": "산죽나무서식지",
+      "end_name": "갈림길",
+      "length_meter": 1130.1,
+      "time_minute": 14
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.729496,
+          "lng": 128.010864,
+          "ele": 792.4
+        },
+        {
+          "lat": 36.732178,
+          "lng": 128.010773,
+          "ele": 910.9
+        }
+      ],
+      "color": "#8f3f00",
+      "start_name": "갈림길",
+      "end_name": "시루봉 정상석",
+      "length_meter": 298.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.732178,
+          "lng": 128.010773,
+          "ele": 910.9
+        },
+        {
+          "lat": 36.73093,
+          "lng": 128.007355,
+          "ele": 681.8
+        }
+      ],
+      "color": "#348cc3",
+      "start_name": "시루봉 정상석",
+      "end_name": "갈림길",
+      "length_meter": 334.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.73093,
+          "lng": 128.007355,
+          "ele": 681.8
+        },
+        {
+          "lat": 36.734287,
+          "lng": 127.992325,
+          "ele": 333.1
+        }
+      ],
+      "color": "#657585",
+      "start_name": "갈림길",
+      "end_name": "시루봉쉼터",
+      "length_meter": 1390.4,
+      "time_minute": 17
+    }
+  ]
+}

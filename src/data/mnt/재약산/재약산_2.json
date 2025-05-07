@@ -1,0 +1,495 @@
+{
+  "mnt_id": 70,
+  "mnt_name": "재약산",
+  "course_id": 191,
+  "max_ele": 1130.748,
+  "total_length_km": "11.0km",
+  "total_time": "2시간 17분",
+  "start_name": "얼음골제1주차장",
+  "end_name": "백연사",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 316.485,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.580444,
+          "lng": 128.980545,
+          "ele": 316.485
+        },
+        {
+          "lat": 35.580177,
+          "lng": 128.981934,
+          "ele": 318.486
+        }
+      ],
+      "color": "#73b85a",
+      "start_name": "얼음골제1주차장 / 얼음골 관리사무소",
+      "end_name": "얼음골제2주차장",
+      "length_meter": 162.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.580177,
+          "lng": 128.981934,
+          "ele": 318.486
+        },
+        {
+          "lat": 35.580227,
+          "lng": 128.983658,
+          "ele": 320.684
+        }
+      ],
+      "color": "#aa9180",
+      "start_name": "얼음골제2주차장 / 얼음골화장실 / 얼음골 휴게소 매점",
+      "end_name": "얼음골제3주차장",
+      "length_meter": 205.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.580227,
+          "lng": 128.983658,
+          "ele": 320.684
+        },
+        {
+          "lat": 35.580029,
+          "lng": 128.984558,
+          "ele": 321.974
+        }
+      ],
+      "color": "#3a5990",
+      "start_name": "얼음골제3주차장 / 수민가",
+      "end_name": "들머리 얼음골종점",
+      "length_meter": 87.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.580029,
+          "lng": 128.984558,
+          "ele": 321.974
+        },
+        {
+          "lat": 35.580002,
+          "lng": 128.984512,
+          "ele": 320.703
+        }
+      ],
+      "color": "#24709b",
+      "start_name": "들머리 얼음골종점 / 종점편의점",
+      "end_name": "버스시간표",
+      "length_meter": 7.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.580002,
+          "lng": 128.984512,
+          "ele": 320.703
+        },
+        {
+          "lat": 35.580933,
+          "lng": 128.985947,
+          "ele": 338.107
+        }
+      ],
+      "color": "#26391f",
+      "start_name": "버스시간표 / 갈림길 / 구연마을쉼터",
+      "end_name": "압구정무지개풀장",
+      "length_meter": 175.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.580933,
+          "lng": 128.985947,
+          "ele": 338.107
+        },
+        {
+          "lat": 35.582661,
+          "lng": 128.987381,
+          "ele": 353.34
+        }
+      ],
+      "color": "#7d489f",
+      "start_name": "압구정무지개풀장",
+      "end_name": "호박소폭포 입간판",
+      "length_meter": 231.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.582661,
+          "lng": 128.987381,
+          "ele": 353.34
+        },
+        {
+          "lat": 35.582302,
+          "lng": 128.98671,
+          "ele": 359.763
+        }
+      ],
+      "color": "#052a29",
+      "start_name": "호박소폭포 입간판 / 들머리",
+      "end_name": "영남알프스 얼음골 케이블카",
+      "length_meter": 73.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.582302,
+          "lng": 128.98671,
+          "ele": 359.763
+        },
+        {
+          "lat": 35.582619,
+          "lng": 128.986908,
+          "ele": 362.257
+        }
+      ],
+      "color": "#a767ac",
+      "start_name": "영남알프스 얼음골 케이블카",
+      "end_name": "얼음골케이블카 매표소",
+      "length_meter": 39.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.582619,
+          "lng": 128.986908,
+          "ele": 362.257
+        },
+        {
+          "lat": 35.567677,
+          "lng": 128.989899,
+          "ele": 1025.552
+        }
+      ],
+      "color": "#2b0871",
+      "start_name": "얼음골케이블카 매표소",
+      "end_name": "갈림길",
+      "length_meter": 1683.4,
+      "time_minute": 21
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.567677,
+          "lng": 128.989899,
+          "ele": 1025.552
+        },
+        {
+          "lat": 35.567818,
+          "lng": 128.989746,
+          "ele": 1024.909
+        }
+      ],
+      "color": "#316c4d",
+      "start_name": "갈림길",
+      "end_name": "하늘정원",
+      "length_meter": 20.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.567818,
+          "lng": 128.989746,
+          "ele": 1024.909
+        },
+        {
+          "lat": 35.565712,
+          "lng": 128.986359,
+          "ele": 978.638
+        }
+      ],
+      "color": "#231837",
+      "start_name": "하늘정원",
+      "end_name": "갈림길",
+      "length_meter": 385.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.565712,
+          "lng": 128.986359,
+          "ele": 978.638
+        },
+        {
+          "lat": 35.565617,
+          "lng": 128.986359,
+          "ele": 978.006
+        }
+      ],
+      "color": "#ad05be",
+      "start_name": "갈림길",
+      "end_name": "샘물상회",
+      "length_meter": 10.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.565617,
+          "lng": 128.986359,
+          "ele": 978.006
+        },
+        {
+          "lat": 35.565063,
+          "lng": 128.981644,
+          "ele": 1028.023
+        }
+      ],
+      "color": "#1a4eae",
+      "start_name": "샘물상회",
+      "end_name": "갈림길",
+      "length_meter": 430.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.565063,
+          "lng": 128.981644,
+          "ele": 1028.023
+        },
+        {
+          "lat": 35.564476,
+          "lng": 128.980728,
+          "ele": 1036.766
+        }
+      ],
+      "color": "#9a7250",
+      "start_name": "갈림길",
+      "end_name": "진달래군락지",
+      "length_meter": 105.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.564476,
+          "lng": 128.980728,
+          "ele": 1036.766
+        },
+        {
+          "lat": 35.551266,
+          "lng": 128.977539,
+          "ele": 958.256
+        }
+      ],
+      "color": "#549b31",
+      "start_name": "진달래군락지",
+      "end_name": "등산로 폐쇠",
+      "length_meter": 1496.9,
+      "time_minute": 18
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.551266,
+          "lng": 128.977539,
+          "ele": 958.256
+        },
+        {
+          "lat": 35.547157,
+          "lng": 128.980957,
+          "ele": 1067.39
+        }
+      ],
+      "color": "#ac255d",
+      "start_name": "등산로 폐쇠",
+      "end_name": "갈림길",
+      "length_meter": 551.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.547157,
+          "lng": 128.980957,
+          "ele": 1067.39
+        },
+        {
+          "lat": 35.582443,
+          "lng": 128.986496,
+          "ele": 365.135
+        }
+      ],
+      "color": "#681c83",
+      "start_name": "갈림길",
+      "end_name": "시례정 식당",
+      "length_meter": 3955.5,
+      "time_minute": 49
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.582443,
+          "lng": 128.986496,
+          "ele": 365.135
+        },
+        {
+          "lat": 35.584881,
+          "lng": 128.994141,
+          "ele": 369.166
+        }
+      ],
+      "color": "#74c1b6",
+      "start_name": "시례정 식당",
+      "end_name": "호박소 주차장",
+      "length_meter": 742.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.584881,
+          "lng": 128.994141,
+          "ele": 369.166
+        },
+        {
+          "lat": 35.58569,
+          "lng": 128.995453,
+          "ele": 375.99
+        }
+      ],
+      "color": "#5e1520",
+      "start_name": "호박소 주차장",
+      "end_name": "호박소여름파출소",
+      "length_meter": 148.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.58569,
+          "lng": 128.995453,
+          "ele": 375.99
+        },
+        {
+          "lat": 35.585724,
+          "lng": 128.995544,
+          "ele": 374.501
+        }
+      ],
+      "color": "#360968",
+      "start_name": "호박소여름파출소",
+      "end_name": "호박소 화장실",
+      "length_meter": 9.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.585724,
+          "lng": 128.995544,
+          "ele": 374.501
+        },
+        {
+          "lat": 35.58667,
+          "lng": 128.996796,
+          "ele": 377.567
+        }
+      ],
+      "color": "#8f1d5b",
+      "start_name": "호박소 화장실",
+      "end_name": "갈림길",
+      "length_meter": 154.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.58667,
+          "lng": 128.996796,
+          "ele": 377.567
+        },
+        {
+          "lat": 35.58778,
+          "lng": 128.99649,
+          "ele": 391.239
+        }
+      ],
+      "color": "#0eaf3a",
+      "start_name": "갈림길",
+      "end_name": "호박소",
+      "length_meter": 126.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 35.58778,
+          "lng": 128.99649,
+          "ele": 391.239
+        },
+        {
+          "lat": 35.586868,
+          "lng": 128.996796,
+          "ele": 375.988
+        }
+      ],
+      "color": "#340b74",
+      "start_name": "호박소",
+      "end_name": "호박소쉼터",
+      "length_meter": 105.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 35.586868,
+          "lng": 128.996796,
+          "ele": 375.988
+        },
+        {
+          "lat": 35.586239,
+          "lng": 128.996658,
+          "ele": 376.075
+        }
+      ],
+      "color": "#7b945f",
+      "start_name": "호박소쉼터 / 금지 / 쉼터",
+      "end_name": "백연사",
+      "length_meter": 113.5,
+      "time_minute": 1
+    }
+  ]
+}

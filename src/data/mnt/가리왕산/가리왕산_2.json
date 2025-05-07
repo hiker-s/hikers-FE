@@ -1,0 +1,275 @@
+{
+  "mnt_id": 2,
+  "mnt_name": "가리왕산",
+  "course_id": 2,
+  "max_ele": 1489.762,
+  "total_length_km": "8.9km",
+  "total_time": "1시간 51분",
+  "start_name": "발심사 입구",
+  "end_name": "정선 강릉부 삼산봉표",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 900.048,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.466591,
+          "lng": 128.538345,
+          "ele": 908.749
+        },
+        {
+          "lat": 37.464901,
+          "lng": 128.537537,
+          "ele": 900.048
+        }
+      ],
+      "color": "#68bb36",
+      "start_name": "발심사 입구",
+      "end_name": "이끼계곡",
+      "length_meter": 201.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.464901,
+          "lng": 128.537537,
+          "ele": 900.048
+        },
+        {
+          "lat": 37.462776,
+          "lng": 128.536255,
+          "ele": 943.896
+        }
+      ],
+      "color": "#59625b",
+      "start_name": "이끼계곡",
+      "end_name": "양치류",
+      "length_meter": 262.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.462776,
+          "lng": 128.536255,
+          "ele": 943.896
+        },
+        {
+          "lat": 37.461731,
+          "lng": 128.535599,
+          "ele": 1007.32
+        }
+      ],
+      "color": "#9e71bd",
+      "start_name": "양치류",
+      "end_name": "갈림길",
+      "length_meter": 129.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.461731,
+          "lng": 128.535599,
+          "ele": 1007.32
+        },
+        {
+          "lat": 37.460075,
+          "lng": 128.542313,
+          "ele": 1212.077
+        }
+      ],
+      "color": "#164a8a",
+      "start_name": "갈림길",
+      "end_name": "참나무",
+      "length_meter": 620.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.460075,
+          "lng": 128.542313,
+          "ele": 1212.077
+        },
+        {
+          "lat": 37.459953,
+          "lng": 128.545715,
+          "ele": 1282.967
+        }
+      ],
+      "color": "#22657b",
+      "start_name": "참나무",
+      "end_name": "쓰러진 고목",
+      "length_meter": 300.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.459953,
+          "lng": 128.545715,
+          "ele": 1282.967
+        },
+        {
+          "lat": 37.459774,
+          "lng": 128.546722,
+          "ele": 1285.72
+        }
+      ],
+      "color": "#b949a0",
+      "start_name": "쓰러진 고목",
+      "end_name": "헬기장",
+      "length_meter": 91.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.459774,
+          "lng": 128.546722,
+          "ele": 1285.72
+        },
+        {
+          "lat": 37.457943,
+          "lng": 128.550613,
+          "ele": 1311.387
+        }
+      ],
+      "color": "#551e09",
+      "start_name": "헬기장",
+      "end_name": "단풍",
+      "length_meter": 399.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.457943,
+          "lng": 128.550613,
+          "ele": 1311.387
+        },
+        {
+          "lat": 37.45718,
+          "lng": 128.554352,
+          "ele": 1422.435
+        }
+      ],
+      "color": "#1f0b8f",
+      "start_name": "단풍",
+      "end_name": "간이쉼터",
+      "length_meter": 340.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.45718,
+          "lng": 128.554352,
+          "ele": 1422.435
+        },
+        {
+          "lat": 37.452644,
+          "lng": 128.577957,
+          "ele": 1489.762
+        }
+      ],
+      "color": "#44a4c0",
+      "start_name": "간이쉼터",
+      "end_name": "잣나무",
+      "length_meter": 2143.8,
+      "time_minute": 26
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.452644,
+          "lng": 128.577957,
+          "ele": 1489.762
+        },
+        {
+          "lat": 37.451599,
+          "lng": 128.580841,
+          "ele": 1483.397
+        }
+      ],
+      "color": "#c79952",
+      "start_name": "잣나무",
+      "end_name": "갈림길",
+      "length_meter": 279.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.451599,
+          "lng": 128.580841,
+          "ele": 1483.397
+        },
+        {
+          "lat": 37.457104,
+          "lng": 128.552689,
+          "ele": 1385.421
+        }
+      ],
+      "color": "#8fa176",
+      "start_name": "갈림길",
+      "end_name": "구멍뚫린 고목",
+      "length_meter": 2559.3,
+      "time_minute": 31
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.457104,
+          "lng": 128.552689,
+          "ele": 1385.421
+        },
+        {
+          "lat": 37.457344,
+          "lng": 128.551514,
+          "ele": 1355.72
+        }
+      ],
+      "color": "#6d6895",
+      "start_name": "구멍뚫린 고목",
+      "end_name": "갈림길",
+      "length_meter": 107.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.457344,
+          "lng": 128.551514,
+          "ele": 1355.72
+        },
+        {
+          "lat": 37.46162,
+          "lng": 128.535828,
+          "ele": 1046.625
+        }
+      ],
+      "color": "#a80a73",
+      "start_name": "갈림길",
+      "end_name": "정선 강릉부 삼산봉표",
+      "length_meter": 1463.9,
+      "time_minute": 18
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "mnt_id": 56,
+  "mnt_name": "신불산",
+  "course_id": 155,
+  "max_ele": 936.059,
+  "total_length_km": "1.2km",
+  "total_time": "0시간 14분",
+  "start_name": "식당",
+  "end_name": "쉼터",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 606.121,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.569218,
+          "lng": 129.023926,
+          "ele": 622.066
+        },
+        {
+          "lat": 35.567806,
+          "lng": 129.023132,
+          "ele": 614.977
+        }
+      ],
+      "color": "#5ec04b",
+      "start_name": "식당 / 사계절식당 메뉴판 / 간판",
+      "end_name": "배내2주차장",
+      "length_meter": 175.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.567806,
+          "lng": 129.023132,
+          "ele": 614.977
+        },
+        {
+          "lat": 35.566948,
+          "lng": 129.022781,
+          "ele": 606.121
+        }
+      ],
+      "color": "#b8299e",
+      "start_name": "배내2주차장 / 소문난김치집",
+      "end_name": "식당",
+      "length_meter": 101.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.566948,
+          "lng": 129.022781,
+          "ele": 606.121
+        },
+        {
+          "lat": 35.56802,
+          "lng": 129.023376,
+          "ele": 618.999
+        }
+      ],
+      "color": "#015a90",
+      "start_name": "식당 / 버스",
+      "end_name": "식당간판",
+      "length_meter": 253.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.56802,
+          "lng": 129.023376,
+          "ele": 618.999
+        },
+        {
+          "lat": 35.564747,
+          "lng": 129.029022,
+          "ele": 694.596
+        }
+      ],
+      "color": "#1c0419",
+      "start_name": "식당간판 / 신불산들머리 / 공터",
+      "end_name": "쉼터",
+      "length_meter": 655.3,
+      "time_minute": 10
+    }
+  ]
+}

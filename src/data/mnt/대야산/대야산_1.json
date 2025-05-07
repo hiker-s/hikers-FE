@@ -1,0 +1,175 @@
+{
+  "mnt_id": 21,
+  "mnt_name": "대야산",
+  "course_id": 54,
+  "max_ele": 944.449,
+  "total_length_km": "1.4km",
+  "total_time": "0시간 17분",
+  "start_name": "안내이정표",
+  "end_name": "대야산정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 587.432,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.660374,
+          "lng": 127.936661,
+          "ele": 587.432
+        },
+        {
+          "lat": 36.661232,
+          "lng": 127.931664,
+          "ele": 675.37
+        }
+      ],
+      "color": "#29a19c",
+      "start_name": "안내이정표",
+      "end_name": "밀재",
+      "length_meter": 455.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.661232,
+          "lng": 127.931664,
+          "ele": 675.37
+        },
+        {
+          "lat": 36.664288,
+          "lng": 127.931717,
+          "ele": 827.379
+        }
+      ],
+      "color": "#45a50c",
+      "start_name": "밀재 / 갈림길 / 밀재",
+      "end_name": "코끼리바위",
+      "length_meter": 342.4,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.664288,
+          "lng": 127.931717,
+          "ele": 827.379
+        },
+        {
+          "lat": 36.6656,
+          "lng": 127.93161,
+          "ele": 838.317
+        }
+      ],
+      "color": "#6e944e",
+      "start_name": "코끼리바위",
+      "end_name": "구조표시목",
+      "length_meter": 146.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.6656,
+          "lng": 127.93161,
+          "ele": 838.317
+        },
+        {
+          "lat": 36.666168,
+          "lng": 127.930954,
+          "ele": 862.494
+        }
+      ],
+      "color": "#a40b98",
+      "start_name": "구조표시목 / 농바위 / 대야산정상인근 조망터",
+      "end_name": "대문바위(앞)",
+      "length_meter": 90.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.666168,
+          "lng": 127.930954,
+          "ele": 862.494
+        },
+        {
+          "lat": 36.668282,
+          "lng": 127.929054,
+          "ele": 938.749
+        }
+      ],
+      "color": "#a1249b",
+      "start_name": "대문바위(앞) / 대문바위(뒤) / 추락주의표지목",
+      "end_name": "대야산인근조망터",
+      "length_meter": 290.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.668282,
+          "lng": 127.929054,
+          "ele": 938.749
+        },
+        {
+          "lat": 36.668278,
+          "lng": 127.929054,
+          "ele": 938.333
+        }
+      ],
+      "color": "#b1ae5e",
+      "start_name": "대야산인근조망터 / 대야산정상",
+      "end_name": "웨이포인트 40",
+      "length_meter": 0.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.668278,
+          "lng": 127.929054,
+          "ele": 938.333
+        },
+        {
+          "lat": 36.668793,
+          "lng": 127.929276,
+          "ele": 944.449
+        }
+      ],
+      "color": "#bc42ae",
+      "start_name": "웨이포인트 40 / 갈림길",
+      "end_name": "중대봉조망터",
+      "length_meter": 60.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.668793,
+          "lng": 127.929276,
+          "ele": 944.449
+        },
+        {
+          "lat": 36.668777,
+          "lng": 127.92926,
+          "ele": 943.982
+        }
+      ],
+      "color": "#c1bf6e",
+      "start_name": "중대봉조망터",
+      "end_name": "대야산정상",
+      "length_meter": 2.3,
+      "time_minute": 0
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "mnt_id": 67,
+  "mnt_name": "유명산",
+  "course_id": 188,
+  "max_ele": 851.876,
+  "total_length_km": "6.2km",
+  "total_time": "1시간 17분",
+  "start_name": "유명산종점",
+  "end_name": "어비계곡",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 299.999,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.596073,
+          "lng": 127.491005,
+          "ele": 299.999
+        },
+        {
+          "lat": 37.597321,
+          "lng": 127.505936,
+          "ele": 311.774
+        }
+      ],
+      "color": "#633967",
+      "start_name": "유명산종점",
+      "end_name": "들꽃여울",
+      "length_meter": 1322.8,
+      "time_minute": 16
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.597321,
+          "lng": 127.505936,
+          "ele": 311.774
+        },
+        {
+          "lat": 37.59045,
+          "lng": 127.51062,
+          "ele": 353.393
+        }
+      ],
+      "color": "#518750",
+      "start_name": "들꽃여울",
+      "end_name": "어비산안내도",
+      "length_meter": 868.4,
+      "time_minute": 10
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.59045,
+          "lng": 127.51062,
+          "ele": 353.393
+        },
+        {
+          "lat": 37.584229,
+          "lng": 127.503082,
+          "ele": 680.541
+        }
+      ],
+      "color": "#1d900e",
+      "start_name": "어비산안내도 / 갈림길",
+      "end_name": "능선등산로",
+      "length_meter": 966.7,
+      "time_minute": 15
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.584229,
+          "lng": 127.503082,
+          "ele": 680.541
+        },
+        {
+          "lat": 37.582394,
+          "lng": 127.503349,
+          "ele": 749.195
+        }
+      ],
+      "color": "#5e6d68",
+      "start_name": "능선등산로 / 등산로",
+      "end_name": "조망쉼터",
+      "length_meter": 206.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.582394,
+          "lng": 127.503349,
+          "ele": 749.195
+        },
+        {
+          "lat": 37.577847,
+          "lng": 127.506325,
+          "ele": 794.83
+        }
+      ],
+      "color": "#136a2a",
+      "start_name": "조망쉼터",
+      "end_name": "어비산 인근",
+      "length_meter": 569.6,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.577847,
+          "lng": 127.506325,
+          "ele": 794.83
+        },
+        {
+          "lat": 37.57526,
+          "lng": 127.506462,
+          "ele": 846.378
+        }
+      ],
+      "color": "#b31a3b",
+      "start_name": "어비산 인근 / 조망쉼터",
+      "end_name": "어비산",
+      "length_meter": 289.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.57526,
+          "lng": 127.506462,
+          "ele": 846.378
+        },
+        {
+          "lat": 37.571224,
+          "lng": 127.498482,
+          "ele": 515.32
+        }
+      ],
+      "color": "#21082a",
+      "start_name": "어비산",
+      "end_name": "갈림길",
+      "length_meter": 834.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.571224,
+          "lng": 127.498482,
+          "ele": 515.32
+        },
+        {
+          "lat": 37.576553,
+          "lng": 127.50972,
+          "ele": 733.185
+        }
+      ],
+      "color": "#9f4177",
+      "start_name": "갈림길",
+      "end_name": "어비계곡",
+      "length_meter": 1154.1,
+      "time_minute": 14
+    }
+  ]
+}

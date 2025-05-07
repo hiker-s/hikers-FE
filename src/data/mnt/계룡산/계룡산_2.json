@@ -1,0 +1,315 @@
+{
+  "mnt_id": 7,
+  "mnt_name": "계룡산",
+  "course_id": 20,
+  "max_ele": 799.099,
+  "total_length_km": "3.6km",
+  "total_time": "0시간 45분",
+  "start_name": "계룡산 삼불봉",
+  "end_name": "동학사 매표소",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.361523,
+          "lng": 127.210403,
+          "ele": 790.019
+        },
+        {
+          "lat": 36.36158,
+          "lng": 127.210022,
+          "ele": 772.703
+        }
+      ],
+      "color": "#3b0316",
+      "start_name": "계룡산 삼불봉 / 삼불봉 / 삼불봉 조망",
+      "end_name": "자연경관",
+      "length_meter": 38.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.36158,
+          "lng": 127.210022,
+          "ele": 772.703
+        },
+        {
+          "lat": 36.360435,
+          "lng": 127.208046,
+          "ele": 786.668
+        }
+      ],
+      "color": "#573478",
+      "start_name": "자연경관 / 갈림길",
+      "end_name": "자연경관",
+      "length_meter": 222.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.360435,
+          "lng": 127.208046,
+          "ele": 786.668
+        },
+        {
+          "lat": 36.359627,
+          "lng": 127.207649,
+          "ele": 756.16
+        }
+      ],
+      "color": "#9d6266",
+      "start_name": "자연경관 / 자연성릉 자연경관 / 자연성릉 조망점",
+      "end_name": "암벽",
+      "length_meter": 98.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.359627,
+          "lng": 127.207649,
+          "ele": 756.16
+        },
+        {
+          "lat": 36.352859,
+          "lng": 127.207756,
+          "ele": 462.45
+        }
+      ],
+      "color": "#644d01",
+      "start_name": "암벽",
+      "end_name": "은선폭포상단 안전쉼터",
+      "length_meter": 752.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.352859,
+          "lng": 127.207756,
+          "ele": 462.45
+        },
+        {
+          "lat": 36.352432,
+          "lng": 127.209068,
+          "ele": 443.059
+        }
+      ],
+      "color": "#98051e",
+      "start_name": "은선폭포상단 안전쉼터",
+      "end_name": "은선폭포",
+      "length_meter": 126.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.352432,
+          "lng": 127.209068,
+          "ele": 443.059
+        },
+        {
+          "lat": 36.35215,
+          "lng": 127.209595,
+          "ele": 432.653
+        }
+      ],
+      "color": "#a058a2",
+      "start_name": "은선폭포 / 갈림길",
+      "end_name": "쌀개봉 조망점",
+      "length_meter": 69.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.35215,
+          "lng": 127.209595,
+          "ele": 432.653
+        },
+        {
+          "lat": 36.351288,
+          "lng": 127.210587,
+          "ele": 370.021
+        }
+      ],
+      "color": "#8c3029",
+      "start_name": "쌀개봉 조망점",
+      "end_name": "은선폭포 하단 계곡",
+      "length_meter": 130.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.351288,
+          "lng": 127.210587,
+          "ele": 370.021
+        },
+        {
+          "lat": 36.35334,
+          "lng": 127.219627,
+          "ele": 0.0
+        }
+      ],
+      "color": "#5d8b0e",
+      "start_name": "은선폭포 하단 계곡",
+      "end_name": "공주 청량사지 칠층석탑",
+      "length_meter": 841.1,
+      "time_minute": 10
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.35334,
+          "lng": 127.219627,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.353027,
+          "lng": 127.221054,
+          "ele": 277.685
+        }
+      ],
+      "color": "#aa0f7c",
+      "start_name": "공주 청량사지 칠층석탑 / 대웅전 / 동학사",
+      "end_name": "정자",
+      "length_meter": 135.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.353027,
+          "lng": 127.221054,
+          "ele": 277.685
+        },
+        {
+          "lat": 36.352982,
+          "lng": 127.222473,
+          "ele": 267.491
+        }
+      ],
+      "color": "#ae4075",
+      "start_name": "정자 / 갈림길",
+      "end_name": "미타암",
+      "length_meter": 131.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.352982,
+          "lng": 127.222473,
+          "ele": 267.491
+        },
+        {
+          "lat": 36.355724,
+          "lng": 127.229103,
+          "ele": 241.271
+        }
+      ],
+      "color": "#2d1b0b",
+      "start_name": "미타암 / 길상암",
+      "end_name": "기념품샵",
+      "length_meter": 670.2,
+      "time_minute": 11
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.355724,
+          "lng": 127.229103,
+          "ele": 241.271
+        },
+        {
+          "lat": 36.356571,
+          "lng": 127.231804,
+          "ele": 229.061
+        }
+      ],
+      "color": "#7088b4",
+      "start_name": "기념품샵",
+      "end_name": "동학계곡 신록",
+      "length_meter": 259.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.356571,
+          "lng": 127.231804,
+          "ele": 229.061
+        },
+        {
+          "lat": 36.356468,
+          "lng": 127.232735,
+          "ele": 0.0
+        }
+      ],
+      "color": "#0da404",
+      "start_name": "동학계곡 신록",
+      "end_name": "계룡산탐방안내소",
+      "length_meter": 84.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.356468,
+          "lng": 127.232735,
+          "ele": 0.0
+        },
+        {
+          "lat": 36.357143,
+          "lng": 127.232948,
+          "ele": 225.629
+        }
+      ],
+      "color": "#7c4553",
+      "start_name": "계룡산탐방안내소 / 계룡산국립공원사무소",
+      "end_name": "동학사 입구",
+      "length_meter": 77.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.357143,
+          "lng": 127.232948,
+          "ele": 225.629
+        },
+        {
+          "lat": 36.357109,
+          "lng": 127.233002,
+          "ele": 224.242
+        }
+      ],
+      "color": "#672c0d",
+      "start_name": "동학사 입구",
+      "end_name": "동학사 매표소",
+      "length_meter": 6.1,
+      "time_minute": 0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "mnt_id": 6,
+  "mnt_name": "강천산",
+  "course_id": 16,
+  "max_ele": 647.592,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 42분",
+  "start_name": "강천산 왕자봉",
+  "end_name": "북바위",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 542.655,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.401871,
+          "lng": 127.048424,
+          "ele": 619.652
+        },
+        {
+          "lat": 35.390133,
+          "lng": 127.030273,
+          "ele": 542.655
+        }
+      ],
+      "color": "#759937",
+      "start_name": "강천산 왕자봉 / 쉼터 / 자연경관",
+      "end_name": "금성산성터",
+      "length_meter": 2110.4,
+      "time_minute": 35
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.390133,
+          "lng": 127.030273,
+          "ele": 542.655
+        },
+        {
+          "lat": 35.389809,
+          "lng": 127.030212,
+          "ele": 555.479
+        }
+      ],
+      "color": "#2c3505",
+      "start_name": "금성산성터",
+      "end_name": "금성산성 북문",
+      "length_meter": 36.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.389809,
+          "lng": 127.030212,
+          "ele": 555.479
+        },
+        {
+          "lat": 35.390068,
+          "lng": 127.035034,
+          "ele": 608.79
+        }
+      ],
+      "color": "#46a424",
+      "start_name": "금성산성 북문 / 갈림길 / 북문터",
+      "end_name": "쉼터",
+      "length_meter": 443.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.390068,
+          "lng": 127.035034,
+          "ele": 608.79
+        },
+        {
+          "lat": 35.390274,
+          "lng": 127.035278,
+          "ele": 595.687
+        }
+      ],
+      "color": "#28b24b",
+      "start_name": "쉼터",
+      "end_name": "송낙바위",
+      "length_meter": 31.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.390274,
+          "lng": 127.035278,
+          "ele": 595.687
+        },
+        {
+          "lat": 35.389183,
+          "lng": 127.034561,
+          "ele": 633.04
+        }
+      ],
+      "color": "#2a6751",
+      "start_name": "송낙바위 / 갈림길",
+      "end_name": "자연경관",
+      "length_meter": 139.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.389183,
+          "lng": 127.034561,
+          "ele": 633.04
+        },
+        {
+          "lat": 35.388397,
+          "lng": 127.034355,
+          "ele": 645.421
+        }
+      ],
+      "color": "#61233b",
+      "start_name": "자연경관 / 관광자원",
+      "end_name": "금성산성 산성산(연대봉)",
+      "length_meter": 93.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.388397,
+          "lng": 127.034355,
+          "ele": 645.421
+        },
+        {
+          "lat": 35.385895,
+          "lng": 127.036362,
+          "ele": 616.226
+        }
+      ],
+      "color": "#591699",
+      "start_name": "금성산성 산성산(연대봉)",
+      "end_name": "자연경관",
+      "length_meter": 332.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.385895,
+          "lng": 127.036362,
+          "ele": 616.226
+        },
+        {
+          "lat": 35.385159,
+          "lng": 127.038368,
+          "ele": 609.693
+        }
+      ],
+      "color": "#66bb14",
+      "start_name": "자연경관",
+      "end_name": "운대봉(북바위)",
+      "length_meter": 199.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.385159,
+          "lng": 127.038368,
+          "ele": 609.693
+        },
+        {
+          "lat": 35.38504,
+          "lng": 127.038643,
+          "ele": 586.94
+        }
+      ],
+      "color": "#b60941",
+      "start_name": "운대봉(북바위) / 갈림길",
+      "end_name": "북바위",
+      "length_meter": 35.4,
+      "time_minute": 0
+    }
+  ]
+}

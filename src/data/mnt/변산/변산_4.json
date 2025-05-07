@@ -1,0 +1,255 @@
+{
+  "mnt_id": 45,
+  "mnt_name": "변산",
+  "course_id": 117,
+  "max_ele": 479.13,
+  "total_length_km": "4.3km",
+  "total_time": "0시간 53분",
+  "start_name": "입구",
+  "end_name": "청림마을",
+  "level": "중",
+  "course_name": "탄력등산 코스",
+  "min_ele": 93.945,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.683605,
+          "lng": 126.631755,
+          "ele": 128.656
+        },
+        {
+          "lat": 35.686436,
+          "lng": 126.631469,
+          "ele": 202.07
+        }
+      ],
+      "color": "#00b72c",
+      "start_name": "입구",
+      "end_name": "계단",
+      "length_meter": 315.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.686436,
+          "lng": 126.631469,
+          "ele": 202.07
+        },
+        {
+          "lat": 35.68722,
+          "lng": 126.632151,
+          "ele": 231.983
+        }
+      ],
+      "color": "#012aa2",
+      "start_name": "계단",
+      "end_name": "갈림길",
+      "length_meter": 106.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.68722,
+          "lng": 126.632151,
+          "ele": 231.983
+        },
+        {
+          "lat": 35.687836,
+          "lng": 126.628074,
+          "ele": 369.201
+        }
+      ],
+      "color": "#2c3364",
+      "start_name": "갈림길",
+      "end_name": "비룡상천봉",
+      "length_meter": 374.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.687836,
+          "lng": 126.628074,
+          "ele": 369.201
+        },
+        {
+          "lat": 35.686341,
+          "lng": 126.624392,
+          "ele": 452.268
+        }
+      ],
+      "color": "#14a269",
+      "start_name": "비룡상천봉",
+      "end_name": "변산조망",
+      "length_meter": 371.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.686341,
+          "lng": 126.624392,
+          "ele": 452.268
+        },
+        {
+          "lat": 35.676872,
+          "lng": 126.619151,
+          "ele": 479.13
+        }
+      ],
+      "color": "#b31d5c",
+      "start_name": "변산조망",
+      "end_name": "포토죤",
+      "length_meter": 1154.4,
+      "time_minute": 14
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.676872,
+          "lng": 126.619151,
+          "ele": 479.13
+        },
+        {
+          "lat": 35.675494,
+          "lng": 126.618981,
+          "ele": 461.198
+        }
+      ],
+      "color": "#a9b2bf",
+      "start_name": "포토죤",
+      "end_name": "쇠뿔바위봉",
+      "length_meter": 154.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.675494,
+          "lng": 126.618981,
+          "ele": 461.198
+        },
+        {
+          "lat": 35.676163,
+          "lng": 126.61894,
+          "ele": 454.099
+        }
+      ],
+      "color": "#1b9b5b",
+      "start_name": "쇠뿔바위봉 / 쇠뿔바위전망대",
+      "end_name": "계단.데크",
+      "length_meter": 97.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.676163,
+          "lng": 126.61894,
+          "ele": 454.099
+        },
+        {
+          "lat": 35.675615,
+          "lng": 126.617491,
+          "ele": 363.556
+        }
+      ],
+      "color": "#23891e",
+      "start_name": "계단.데크",
+      "end_name": "너덜계단",
+      "length_meter": 144.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.675615,
+          "lng": 126.617491,
+          "ele": 363.556
+        },
+        {
+          "lat": 35.674788,
+          "lng": 126.617201,
+          "ele": 342.005
+        }
+      ],
+      "color": "#8d3c92",
+      "start_name": "너덜계단",
+      "end_name": "청림마을 조망",
+      "length_meter": 95.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.674788,
+          "lng": 126.617201,
+          "ele": 342.005
+        },
+        {
+          "lat": 35.672178,
+          "lng": 126.61069,
+          "ele": 234.275
+        }
+      ],
+      "color": "#89485d",
+      "start_name": "청림마을 조망",
+      "end_name": "밧줄 및 암반",
+      "length_meter": 655.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.672178,
+          "lng": 126.61069,
+          "ele": 234.275
+        },
+        {
+          "lat": 35.667787,
+          "lng": 126.609743,
+          "ele": 168.565
+        }
+      ],
+      "color": "#30909e",
+      "start_name": "밧줄 및 암반 / 쇠뿔바위봉조망",
+      "end_name": "새재삼거리",
+      "length_meter": 495.7,
+      "time_minute": 8
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.667787,
+          "lng": 126.609743,
+          "ele": 168.565
+        },
+        {
+          "lat": 35.666973,
+          "lng": 126.612947,
+          "ele": 93.945
+        }
+      ],
+      "color": "#bfc2b1",
+      "start_name": "새재삼거리",
+      "end_name": "청림마을",
+      "length_meter": 303.3,
+      "time_minute": 3
+    }
+  ]
+}

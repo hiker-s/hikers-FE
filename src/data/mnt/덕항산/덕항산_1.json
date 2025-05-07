@@ -1,0 +1,195 @@
+{
+  "mnt_id": 24,
+  "mnt_name": "덕항산",
+  "course_id": 62,
+  "max_ele": 1099.423,
+  "total_length_km": "5.0km",
+  "total_time": "1시간 2분",
+  "start_name": "예수원정류장",
+  "end_name": "나무다리",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 736.322,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.304321,
+          "lng": 128.991989,
+          "ele": 736.322
+        },
+        {
+          "lat": 37.304699,
+          "lng": 129.003616,
+          "ele": 779.989
+        }
+      ],
+      "color": "#5e4656",
+      "start_name": "예수원정류장",
+      "end_name": "덕항산 등산로입구, 외나무골",
+      "length_meter": 1029.2,
+      "time_minute": 12
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.304699,
+          "lng": 129.003616,
+          "ele": 779.989
+        },
+        {
+          "lat": 37.304607,
+          "lng": 129.004608,
+          "ele": 795.581
+        }
+      ],
+      "color": "#c521c2",
+      "start_name": "덕항산 등산로입구, 외나무골",
+      "end_name": "갈림길",
+      "length_meter": 88.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.304607,
+          "lng": 129.004608,
+          "ele": 795.581
+        },
+        {
+          "lat": 37.303388,
+          "lng": 129.018327,
+          "ele": 991.733
+        }
+      ],
+      "color": "#6f476f",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 10",
+      "length_meter": 1221.0,
+      "time_minute": 15
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.303388,
+          "lng": 129.018327,
+          "ele": 991.733
+        },
+        {
+          "lat": 37.304821,
+          "lng": 129.017838,
+          "ele": 1004.54
+        }
+      ],
+      "color": "#06c344",
+      "start_name": "웨이포인트 10",
+      "end_name": "갈림길",
+      "length_meter": 165.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.304821,
+          "lng": 129.017838,
+          "ele": 1004.54
+        },
+        {
+          "lat": 37.304924,
+          "lng": 129.016636,
+          "ele": 1030.209
+        }
+      ],
+      "color": "#3ba67e",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 13",
+      "length_meter": 106.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.304924,
+          "lng": 129.016636,
+          "ele": 1030.209
+        },
+        {
+          "lat": 37.305382,
+          "lng": 129.0159,
+          "ele": 1028.956
+        }
+      ],
+      "color": "#ac9b8c",
+      "start_name": "웨이포인트 13",
+      "end_name": "전망좋은곳",
+      "length_meter": 82.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.305382,
+          "lng": 129.0159,
+          "ele": 1028.956
+        },
+        {
+          "lat": 37.308937,
+          "lng": 129.012405,
+          "ele": 1059.078
+        }
+      ],
+      "color": "#963519",
+      "start_name": "전망좋은곳",
+      "end_name": "덕항산 정상",
+      "length_meter": 501.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.308937,
+          "lng": 129.012405,
+          "ele": 1059.078
+        },
+        {
+          "lat": 37.310471,
+          "lng": 129.011871,
+          "ele": 1099.423
+        }
+      ],
+      "color": "#017aa0",
+      "start_name": "덕항산 정상",
+      "end_name": "쉼터 가기전",
+      "length_meter": 177.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.310471,
+          "lng": 129.011871,
+          "ele": 1099.423
+        },
+        {
+          "lat": 37.306412,
+          "lng": 128.993835,
+          "ele": 759.603
+        }
+      ],
+      "color": "#8271bc",
+      "start_name": "쉼터 가기전",
+      "end_name": "나무다리",
+      "length_meter": 1657.8,
+      "time_minute": 20
+    }
+  ]
+}

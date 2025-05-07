@@ -1,0 +1,195 @@
+{
+  "mnt_id": 19,
+  "mnt_name": "내장산",
+  "course_id": 49,
+  "max_ele": 734.941,
+  "total_length_km": "5.1km",
+  "total_time": "1시간 4분",
+  "start_name": "향토 자유수호 기념비",
+  "end_name": "간이쉼터",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 183.209,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.487495,
+          "lng": 126.923782,
+          "ele": 183.209
+        },
+        {
+          "lat": 35.48793,
+          "lng": 126.922691,
+          "ele": 187.745
+        }
+      ],
+      "color": "#0ab59b",
+      "start_name": "향토 자유수호 기념비",
+      "end_name": "낙석위험",
+      "length_meter": 110.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.48793,
+          "lng": 126.922691,
+          "ele": 187.745
+        },
+        {
+          "lat": 35.486645,
+          "lng": 126.918106,
+          "ele": 196.413
+        }
+      ],
+      "color": "#7c6ca7",
+      "start_name": "낙석위험",
+      "end_name": "자연사랑길 간이쉼터",
+      "length_meter": 439.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.486645,
+          "lng": 126.918106,
+          "ele": 196.413
+        },
+        {
+          "lat": 35.485764,
+          "lng": 126.917854,
+          "ele": 197.801
+        }
+      ],
+      "color": "#5c1f27",
+      "start_name": "자연사랑길 간이쉼터",
+      "end_name": "굴거리 나무",
+      "length_meter": 100.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.485764,
+          "lng": 126.917854,
+          "ele": 197.801
+        },
+        {
+          "lat": 35.485443,
+          "lng": 126.914314,
+          "ele": 207.915
+        }
+      ],
+      "color": "#a73767",
+      "start_name": "굴거리 나무",
+      "end_name": "매점",
+      "length_meter": 322.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.485443,
+          "lng": 126.914314,
+          "ele": 207.915
+        },
+        {
+          "lat": 35.488647,
+          "lng": 126.901314,
+          "ele": 236.365
+        }
+      ],
+      "color": "#870570",
+      "start_name": "매점",
+      "end_name": "갈림길",
+      "length_meter": 1229.8,
+      "time_minute": 15
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.488647,
+          "lng": 126.901314,
+          "ele": 236.365
+        },
+        {
+          "lat": 35.488148,
+          "lng": 126.897987,
+          "ele": 246.095
+        }
+      ],
+      "color": "#6d789c",
+      "start_name": "갈림길",
+      "end_name": "실록원",
+      "length_meter": 306.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.488148,
+          "lng": 126.897987,
+          "ele": 246.095
+        },
+        {
+          "lat": 35.485325,
+          "lng": 126.889481,
+          "ele": 301.122
+        }
+      ],
+      "color": "#9ebe3e",
+      "start_name": "실록원",
+      "end_name": "갈림길",
+      "length_meter": 831.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.485325,
+          "lng": 126.889481,
+          "ele": 301.122
+        },
+        {
+          "lat": 35.479378,
+          "lng": 126.890945,
+          "ele": 697.388
+        }
+      ],
+      "color": "#5c1723",
+      "start_name": "갈림길",
+      "end_name": "미끄럼 주의",
+      "length_meter": 674.4,
+      "time_minute": 8
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.479378,
+          "lng": 126.890945,
+          "ele": 697.388
+        },
+        {
+          "lat": 35.487247,
+          "lng": 126.883438,
+          "ele": 671.588
+        }
+      ],
+      "color": "#397293",
+      "start_name": "미끄럼 주의",
+      "end_name": "간이쉼터",
+      "length_meter": 1108.0,
+      "time_minute": 13
+    }
+  ]
+}

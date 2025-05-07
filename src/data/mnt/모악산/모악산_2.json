@@ -1,0 +1,275 @@
+{
+  "mnt_id": 33,
+  "mnt_name": "모악산",
+  "course_id": 84,
+  "max_ele": 683.192,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 43분",
+  "start_name": "염불암삼거리",
+  "end_name": "모악산 닭지붕",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 273.798,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.739677,
+          "lng": 127.071915,
+          "ele": 683.192
+        },
+        {
+          "lat": 35.740543,
+          "lng": 127.070923,
+          "ele": 678.348
+        }
+      ],
+      "color": "#3e2c54",
+      "start_name": "염불암삼거리 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 141.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.740543,
+          "lng": 127.070923,
+          "ele": 678.348
+        },
+        {
+          "lat": 35.740376,
+          "lng": 127.070679,
+          "ele": 675.743
+        }
+      ],
+      "color": "#8fc39b",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "조망터",
+      "length_meter": 36.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.740376,
+          "lng": 127.070679,
+          "ele": 675.743
+        },
+        {
+          "lat": 35.739662,
+          "lng": 127.069878,
+          "ele": 673.804
+        }
+      ],
+      "color": "#1c7595",
+      "start_name": "조망터",
+      "end_name": "갈림길",
+      "length_meter": 107.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.739662,
+          "lng": 127.069878,
+          "ele": 673.804
+        },
+        {
+          "lat": 35.738838,
+          "lng": 127.066628,
+          "ele": 637.385
+        }
+      ],
+      "color": "#8640b4",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 9",
+      "length_meter": 307.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.738838,
+          "lng": 127.066628,
+          "ele": 637.385
+        },
+        {
+          "lat": 35.738098,
+          "lng": 127.064323,
+          "ele": 586.223
+        }
+      ],
+      "color": "#3c0f08",
+      "start_name": "웨이포인트 9",
+      "end_name": "쉼터",
+      "length_meter": 223.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.738098,
+          "lng": 127.064323,
+          "ele": 586.223
+        },
+        {
+          "lat": 35.736668,
+          "lng": 127.062805,
+          "ele": 556.786
+        }
+      ],
+      "color": "#c4ac79",
+      "start_name": "쉼터 / 웨이포인트 11",
+      "end_name": "웨이포인트 12",
+      "length_meter": 210.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.736668,
+          "lng": 127.062805,
+          "ele": 556.786
+        },
+        {
+          "lat": 35.735992,
+          "lng": 127.060806,
+          "ele": 518.261
+        }
+      ],
+      "color": "#190187",
+      "start_name": "웨이포인트 12",
+      "end_name": "웨이포인트 13",
+      "length_meter": 195.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.735992,
+          "lng": 127.060806,
+          "ele": 518.261
+        },
+        {
+          "lat": 35.734615,
+          "lng": 127.058823,
+          "ele": 487.12
+        }
+      ],
+      "color": "#9dc2bb",
+      "start_name": "웨이포인트 13",
+      "end_name": "웨이포인트 14",
+      "length_meter": 235.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.734615,
+          "lng": 127.058823,
+          "ele": 487.12
+        },
+        {
+          "lat": 35.733524,
+          "lng": 127.05706,
+          "ele": 460.193
+        }
+      ],
+      "color": "#4b2e3a",
+      "start_name": "웨이포인트 14",
+      "end_name": "쉼터",
+      "length_meter": 200.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.733524,
+          "lng": 127.05706,
+          "ele": 460.193
+        },
+        {
+          "lat": 35.732857,
+          "lng": 127.055992,
+          "ele": 427.722
+        }
+      ],
+      "color": "#15896d",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "웨이포인트 18",
+      "length_meter": 122.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.732857,
+          "lng": 127.055992,
+          "ele": 427.722
+        },
+        {
+          "lat": 35.732647,
+          "lng": 127.054741,
+          "ele": 419.453
+        }
+      ],
+      "color": "#12c02d",
+      "start_name": "웨이포인트 18",
+      "end_name": "갈림길",
+      "length_meter": 115.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.732647,
+          "lng": 127.054741,
+          "ele": 419.453
+        },
+        {
+          "lat": 35.731953,
+          "lng": 127.053192,
+          "ele": 411.362
+        }
+      ],
+      "color": "#9c5735",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 159.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.731953,
+          "lng": 127.053192,
+          "ele": 411.362
+        },
+        {
+          "lat": 35.721958,
+          "lng": 127.043922,
+          "ele": 273.798
+        }
+      ],
+      "color": "#6798c3",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "모악산 닭지붕",
+      "length_meter": 1391.2,
+      "time_minute": 22
+    }
+  ]
+}

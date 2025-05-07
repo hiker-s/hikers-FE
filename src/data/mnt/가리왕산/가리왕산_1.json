@@ -1,0 +1,435 @@
+{
+  "mnt_id": 2,
+  "mnt_name": "가리왕산",
+  "course_id": 3,
+  "max_ele": 1568.833,
+  "total_length_km": "8.6km",
+  "total_time": "1시간 47분",
+  "start_name": "들머리 장구목이",
+  "end_name": "날머리 휴양림 매표소",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 437.767,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.487324,
+          "lng": 128.583252,
+          "ele": 439.396
+        },
+        {
+          "lat": 37.480881,
+          "lng": 128.580353,
+          "ele": 538.662
+        }
+      ],
+      "color": "#094418",
+      "start_name": "들머리 장구목이",
+      "end_name": "이끼계곡 1폭",
+      "length_meter": 760.7,
+      "time_minute": 9
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.480881,
+          "lng": 128.580353,
+          "ele": 538.662
+        },
+        {
+          "lat": 37.477718,
+          "lng": 128.575272,
+          "ele": 610.965
+        }
+      ],
+      "color": "#6cc45e",
+      "start_name": "이끼계곡 1폭",
+      "end_name": "이정목",
+      "length_meter": 569.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.477718,
+          "lng": 128.575272,
+          "ele": 610.965
+        },
+        {
+          "lat": 37.473373,
+          "lng": 128.570724,
+          "ele": 853.018
+        }
+      ],
+      "color": "#2f3b0c",
+      "start_name": "이정목 / 이끼계곡6폭",
+      "end_name": "이끼계곡9폭",
+      "length_meter": 629.4,
+      "time_minute": 10
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.473373,
+          "lng": 128.570724,
+          "ele": 853.018
+        },
+        {
+          "lat": 37.472496,
+          "lng": 128.570999,
+          "ele": 880.096
+        }
+      ],
+      "color": "#a0863d",
+      "start_name": "이끼계곡9폭",
+      "end_name": "간이 자연 쉄터",
+      "length_meter": 100.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.472496,
+          "lng": 128.570999,
+          "ele": 880.096
+        },
+        {
+          "lat": 37.470013,
+          "lng": 128.569992,
+          "ele": 982.762
+        }
+      ],
+      "color": "#3b1223",
+      "start_name": "간이 자연 쉄터",
+      "end_name": "갈림길",
+      "length_meter": 290.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.470013,
+          "lng": 128.569992,
+          "ele": 982.762
+        },
+        {
+          "lat": 37.467827,
+          "lng": 128.568863,
+          "ele": 1155.66
+        }
+      ],
+      "color": "#375614",
+      "start_name": "갈림길",
+      "end_name": "이끼바위",
+      "length_meter": 262.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.467827,
+          "lng": 128.568863,
+          "ele": 1155.66
+        },
+        {
+          "lat": 37.462852,
+          "lng": 128.566818,
+          "ele": 1407.916
+        }
+      ],
+      "color": "#666d21",
+      "start_name": "이끼바위",
+      "end_name": "주목",
+      "length_meter": 581.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.462852,
+          "lng": 128.566818,
+          "ele": 1407.916
+        },
+        {
+          "lat": 37.460354,
+          "lng": 128.565598,
+          "ele": 1503.732
+        }
+      ],
+      "color": "#473900",
+      "start_name": "주목",
+      "end_name": "갈림길",
+      "length_meter": 297.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.460354,
+          "lng": 128.565598,
+          "ele": 1503.732
+        },
+        {
+          "lat": 37.461342,
+          "lng": 128.563492,
+          "ele": 1558.029
+        }
+      ],
+      "color": "#2e6c58",
+      "start_name": "갈림길",
+      "end_name": "정상 이정목",
+      "length_meter": 215.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.461342,
+          "lng": 128.563492,
+          "ele": 1558.029
+        },
+        {
+          "lat": 37.461403,
+          "lng": 128.563385,
+          "ele": 1568.833
+        }
+      ],
+      "color": "#07a175",
+      "start_name": "정상 이정목",
+      "end_name": "정상",
+      "length_meter": 11.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.461403,
+          "lng": 128.563385,
+          "ele": 1568.833
+        },
+        {
+          "lat": 37.458313,
+          "lng": 128.557022,
+          "ele": 1518.91
+        }
+      ],
+      "color": "#4d2aa6",
+      "start_name": "정상",
+      "end_name": "갈림길",
+      "length_meter": 658.4,
+      "time_minute": 8
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.458313,
+          "lng": 128.557022,
+          "ele": 1518.91
+        },
+        {
+          "lat": 37.452164,
+          "lng": 128.559204,
+          "ele": 1322.132
+        }
+      ],
+      "color": "#a04d71",
+      "start_name": "갈림길",
+      "end_name": "이정목",
+      "length_meter": 710.3,
+      "time_minute": 8
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.452164,
+          "lng": 128.559204,
+          "ele": 1322.132
+        },
+        {
+          "lat": 37.4464,
+          "lng": 128.558807,
+          "ele": 996.564
+        }
+      ],
+      "color": "#436f16",
+      "start_name": "이정목",
+      "end_name": "갈림길",
+      "length_meter": 641.9,
+      "time_minute": 8
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.4464,
+          "lng": 128.558807,
+          "ele": 996.564
+        },
+        {
+          "lat": 37.44384,
+          "lng": 128.558899,
+          "ele": 866.067
+        }
+      ],
+      "color": "#83805b",
+      "start_name": "갈림길",
+      "end_name": "어은골",
+      "length_meter": 284.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.44384,
+          "lng": 128.558899,
+          "ele": 866.067
+        },
+        {
+          "lat": 37.441086,
+          "lng": 128.560242,
+          "ele": 785.829
+        }
+      ],
+      "color": "#98c584",
+      "start_name": "어은골",
+      "end_name": "어은골 폭포",
+      "length_meter": 328.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.441086,
+          "lng": 128.560242,
+          "ele": 785.829
+        },
+        {
+          "lat": 37.43008,
+          "lng": 128.563446,
+          "ele": 556.112
+        }
+      ],
+      "color": "#acb614",
+      "start_name": "어은골 폭포",
+      "end_name": "어든골 폭포줄기",
+      "length_meter": 1256.1,
+      "time_minute": 15
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.43008,
+          "lng": 128.563446,
+          "ele": 556.112
+        },
+        {
+          "lat": 37.427216,
+          "lng": 128.563614,
+          "ele": 501.061
+        }
+      ],
+      "color": "#9b4cb4",
+      "start_name": "어든골 폭포줄기",
+      "end_name": "천일굴 모습",
+      "length_meter": 318.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.427216,
+          "lng": 128.563614,
+          "ele": 501.061
+        },
+        {
+          "lat": 37.42662,
+          "lng": 128.564026,
+          "ele": 472.597
+        }
+      ],
+      "color": "#b4afb1",
+      "start_name": "천일굴 모습 / 천일굴 알림판",
+      "end_name": "어은골 유래 알림판",
+      "length_meter": 78.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.42662,
+          "lng": 128.564026,
+          "ele": 472.597
+        },
+        {
+          "lat": 37.426262,
+          "lng": 128.564285,
+          "ele": 467.714
+        }
+      ],
+      "color": "#460f0c",
+      "start_name": "어은골 유래 알림판",
+      "end_name": "가리왕산 휴양림",
+      "length_meter": 45.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.426262,
+          "lng": 128.564285,
+          "ele": 467.714
+        },
+        {
+          "lat": 37.426868,
+          "lng": 128.569687,
+          "ele": 450.721
+        }
+      ],
+      "color": "#8a494b",
+      "start_name": "가리왕산 휴양림 / 갈림길",
+      "end_name": "가리왕산 자연 휴양림 시설판",
+      "length_meter": 512.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 37.426868,
+          "lng": 128.569687,
+          "ele": 450.721
+        },
+        {
+          "lat": 37.426346,
+          "lng": 128.570343,
+          "ele": 437.767
+        }
+      ],
+      "color": "#5c7671",
+      "start_name": "가리왕산 자연 휴양림 시설판",
+      "end_name": "날머리 휴양림 매표소",
+      "length_meter": 82.0,
+      "time_minute": 1
+    }
+  ]
+}

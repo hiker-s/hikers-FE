@@ -1,0 +1,395 @@
+{
+  "mnt_id": 81,
+  "mnt_name": "천태산",
+  "course_id": 208,
+  "max_ele": 696.148,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "천태산 들머리",
+  "end_name": "망탑봉",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 202.701,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.157501,
+          "lng": 127.620232,
+          "ele": 202.701
+        },
+        {
+          "lat": 36.15744,
+          "lng": 127.619019,
+          "ele": 209.994
+        }
+      ],
+      "color": "#1d4c8a",
+      "start_name": "천태산 들머리 / 영국사 주차장 / 천태산 쉬어가는집",
+      "end_name": "안내  표지판",
+      "length_meter": 113.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.15744,
+          "lng": 127.619019,
+          "ele": 209.994
+        },
+        {
+          "lat": 36.156723,
+          "lng": 127.616425,
+          "ele": 223.335
+        }
+      ],
+      "color": "#403e74",
+      "start_name": "안내  표지판 / 식당",
+      "end_name": "천태산 들머리",
+      "length_meter": 247.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.156723,
+          "lng": 127.616425,
+          "ele": 223.335
+        },
+        {
+          "lat": 36.157581,
+          "lng": 127.614159,
+          "ele": 242.275
+        }
+      ],
+      "color": "#928122",
+      "start_name": "천태산 들머리",
+      "end_name": "삼신할멈바위",
+      "length_meter": 224.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.157581,
+          "lng": 127.614159,
+          "ele": 242.275
+        },
+        {
+          "lat": 36.159317,
+          "lng": 127.612808,
+          "ele": 290.396
+        }
+      ],
+      "color": "#2192b1",
+      "start_name": "삼신할멈바위",
+      "end_name": "영국사 일주문",
+      "length_meter": 228.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.159317,
+          "lng": 127.612808,
+          "ele": 290.396
+        },
+        {
+          "lat": 36.158924,
+          "lng": 127.611626,
+          "ele": 293.209
+        }
+      ],
+      "color": "#2274bd",
+      "start_name": "영국사 일주문 / 매표소",
+      "end_name": "영국사 샘물",
+      "length_meter": 115.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.158924,
+          "lng": 127.611626,
+          "ele": 293.209
+        },
+        {
+          "lat": 36.159359,
+          "lng": 127.610405,
+          "ele": 307.95
+        }
+      ],
+      "color": "#a7735c",
+      "start_name": "영국사 샘물 / 영국사 은행나무 / 영국사",
+      "end_name": "간이화장실",
+      "length_meter": 132.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.159359,
+          "lng": 127.610405,
+          "ele": 307.95
+        },
+        {
+          "lat": 36.159611,
+          "lng": 127.61042,
+          "ele": 310.329
+        }
+      ],
+      "color": "#a31134",
+      "start_name": "간이화장실",
+      "end_name": "산행들머리",
+      "length_meter": 28.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.159611,
+          "lng": 127.61042,
+          "ele": 310.329
+        },
+        {
+          "lat": 36.1604,
+          "lng": 127.607338,
+          "ele": 400.526
+        }
+      ],
+      "color": "#442647",
+      "start_name": "산행들머리",
+      "end_name": "갈림길",
+      "length_meter": 290.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.1604,
+          "lng": 127.607338,
+          "ele": 400.526
+        },
+        {
+          "lat": 36.159573,
+          "lng": 127.605843,
+          "ele": 477.884
+        }
+      ],
+      "color": "#248298",
+      "start_name": "갈림길 / 암릉위 영국사 조망",
+      "end_name": "암릉 위험",
+      "length_meter": 165.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.159573,
+          "lng": 127.605843,
+          "ele": 477.884
+        },
+        {
+          "lat": 36.15971,
+          "lng": 127.605743,
+          "ele": 489.003
+        }
+      ],
+      "color": "#aa1614",
+      "start_name": "암릉 위험",
+      "end_name": "암릉2 조망",
+      "length_meter": 17.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.15971,
+          "lng": 127.605743,
+          "ele": 489.003
+        },
+        {
+          "lat": 36.159641,
+          "lng": 127.604012,
+          "ele": 592.145
+        }
+      ],
+      "color": "#8c3d28",
+      "start_name": "암릉2 조망 / 갈림길 / 암릉3",
+      "end_name": "암벽3 조망",
+      "length_meter": 164.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.159641,
+          "lng": 127.604012,
+          "ele": 592.145
+        },
+        {
+          "lat": 36.158375,
+          "lng": 127.601791,
+          "ele": 696.148
+        }
+      ],
+      "color": "#410e97",
+      "start_name": "암벽3 조망",
+      "end_name": "갈림길",
+      "length_meter": 244.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.158375,
+          "lng": 127.601791,
+          "ele": 696.148
+        },
+        {
+          "lat": 36.153378,
+          "lng": 127.605446,
+          "ele": 564.75
+        }
+      ],
+      "color": "#14959a",
+      "start_name": "갈림길",
+      "end_name": "조망",
+      "length_meter": 645.3,
+      "time_minute": 8
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.153378,
+          "lng": 127.605446,
+          "ele": 564.75
+        },
+        {
+          "lat": 36.150723,
+          "lng": 127.606392,
+          "ele": 460.653
+        }
+      ],
+      "color": "#9e867d",
+      "start_name": "조망",
+      "end_name": "전망석",
+      "length_meter": 307.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.150723,
+          "lng": 127.606392,
+          "ele": 460.653
+        },
+        {
+          "lat": 36.151649,
+          "lng": 127.609512,
+          "ele": 384.119
+        }
+      ],
+      "color": "#97c49b",
+      "start_name": "전망석",
+      "end_name": "갈림길",
+      "length_meter": 298.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.151649,
+          "lng": 127.609512,
+          "ele": 384.119
+        },
+        {
+          "lat": 36.157642,
+          "lng": 127.610558,
+          "ele": 318.033
+        }
+      ],
+      "color": "#7e1554",
+      "start_name": "갈림길",
+      "end_name": "영국사 대웅전",
+      "length_meter": 673.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 36.157642,
+          "lng": 127.610558,
+          "ele": 318.033
+        },
+        {
+          "lat": 36.158253,
+          "lng": 127.611183,
+          "ele": 317.922
+        }
+      ],
+      "color": "#b98e9a",
+      "start_name": "영국사 대웅전",
+      "end_name": "영국사 화장실",
+      "length_meter": 88.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 36.158253,
+          "lng": 127.611183,
+          "ele": 317.922
+        },
+        {
+          "lat": 36.157276,
+          "lng": 127.613106,
+          "ele": 326.728
+        }
+      ],
+      "color": "#190112",
+      "start_name": "영국사 화장실",
+      "end_name": "상어흔들바위",
+      "length_meter": 204.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 36.157276,
+          "lng": 127.613106,
+          "ele": 326.728
+        },
+        {
+          "lat": 36.157192,
+          "lng": 127.613136,
+          "ele": 331.098
+        }
+      ],
+      "color": "#367601",
+      "start_name": "상어흔들바위",
+      "end_name": "망탑봉",
+      "length_meter": 9.7,
+      "time_minute": 0
+    }
+  ]
+}

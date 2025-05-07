@@ -1,0 +1,115 @@
+{
+  "mnt_id": 52,
+  "mnt_name": "성인봉",
+  "course_id": 144,
+  "max_ele": 545.15,
+  "total_length_km": "1.4km",
+  "total_time": "0시간 17분",
+  "start_name": "원시림관리안내소",
+  "end_name": "알봉분화구전망대",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 325.091,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.525398,
+          "lng": 130.856339,
+          "ele": 325.091
+        },
+        {
+          "lat": 37.524406,
+          "lng": 130.857437,
+          "ele": 328.279
+        }
+      ],
+      "color": "#4d9a55",
+      "start_name": "원시림관리안내소",
+      "end_name": "갈림길",
+      "length_meter": 146.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.524406,
+          "lng": 130.857437,
+          "ele": 328.279
+        },
+        {
+          "lat": 37.52272,
+          "lng": 130.858032,
+          "ele": 347.679
+        }
+      ],
+      "color": "#74b10b",
+      "start_name": "갈림길 / 용출소",
+      "end_name": "쉼터",
+      "length_meter": 195.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.52272,
+          "lng": 130.858032,
+          "ele": 347.679
+        },
+        {
+          "lat": 37.521832,
+          "lng": 130.863998,
+          "ele": 379.988
+        }
+      ],
+      "color": "#170813",
+      "start_name": "쉼터",
+      "end_name": "섬말나리동산",
+      "length_meter": 535.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.521832,
+          "lng": 130.863998,
+          "ele": 379.988
+        },
+        {
+          "lat": 37.519684,
+          "lng": 130.861389,
+          "ele": 456.557
+        }
+      ],
+      "color": "#0e44c2",
+      "start_name": "섬말나리동산 / 갈림길",
+      "end_name": "알봉아래쉼터",
+      "length_meter": 382.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.519684,
+          "lng": 130.861389,
+          "ele": 456.557
+        },
+        {
+          "lat": 37.51936,
+          "lng": 130.859589,
+          "ele": 545.15
+        }
+      ],
+      "color": "#664587",
+      "start_name": "알봉아래쉼터",
+      "end_name": "알봉분화구전망대",
+      "length_meter": 162.8,
+      "time_minute": 2
+    }
+  ]
+}

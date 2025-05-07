@@ -1,0 +1,255 @@
+{
+  "mnt_id": 32,
+  "mnt_name": "명지산",
+  "course_id": 82,
+  "max_ele": 1265.378,
+  "total_length_km": "5.5km",
+  "total_time": "1시간 8분",
+  "start_name": "백둔리 종점 버스 정류장",
+  "end_name": "명지천 폭포",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 333.903,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.908817,
+          "lng": 127.444054,
+          "ele": 333.903
+        },
+        {
+          "lat": 37.908916,
+          "lng": 127.443939,
+          "ele": 352.013
+        }
+      ],
+      "color": "#910eae",
+      "start_name": "백둔리 종점 버스 정류장",
+      "end_name": "출구 백둔리 버스종점",
+      "length_meter": 14.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.908916,
+          "lng": 127.443939,
+          "ele": 352.013
+        },
+        {
+          "lat": 37.911175,
+          "lng": 127.440178,
+          "ele": 347.427
+        }
+      ],
+      "color": "#6581a6",
+      "start_name": "출구 백둔리 버스종점",
+      "end_name": "갈림길",
+      "length_meter": 414.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.911175,
+          "lng": 127.440178,
+          "ele": 347.427
+        },
+        {
+          "lat": 37.913586,
+          "lng": 127.434898,
+          "ele": 399.217
+        }
+      ],
+      "color": "#3f9853",
+      "start_name": "갈림길",
+      "end_name": "생태보호 안내판",
+      "length_meter": 535.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.913586,
+          "lng": 127.434898,
+          "ele": 399.217
+        },
+        {
+          "lat": 37.914944,
+          "lng": 127.429611,
+          "ele": 466.317
+        }
+      ],
+      "color": "#6409c1",
+      "start_name": "생태보호 안내판 / 갈림길",
+      "end_name": "명지천",
+      "length_meter": 488.3,
+      "time_minute": 8
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.914944,
+          "lng": 127.429611,
+          "ele": 466.317
+        },
+        {
+          "lat": 37.915489,
+          "lng": 127.429214,
+          "ele": 476.176
+        }
+      ],
+      "color": "#32391c",
+      "start_name": "명지천 / 개울",
+      "end_name": "명지천",
+      "length_meter": 69.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.915489,
+          "lng": 127.429214,
+          "ele": 476.176
+        },
+        {
+          "lat": 37.926346,
+          "lng": 127.421005,
+          "ele": 1048.18
+        }
+      ],
+      "color": "#324e07",
+      "start_name": "명지천",
+      "end_name": "갈림길",
+      "length_meter": 1405.7,
+      "time_minute": 17
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.926346,
+          "lng": 127.421005,
+          "ele": 1048.18
+        },
+        {
+          "lat": 37.929039,
+          "lng": 127.42215,
+          "ele": 1177.528
+        }
+      ],
+      "color": "#ac225b",
+      "start_name": "갈림길",
+      "end_name": "강우량 자동측정기",
+      "length_meter": 315.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.929039,
+          "lng": 127.42215,
+          "ele": 1177.528
+        },
+        {
+          "lat": 37.929451,
+          "lng": 127.422935,
+          "ele": 1206.953
+        }
+      ],
+      "color": "#b59e40",
+      "start_name": "강우량 자동측정기 / 갈림길",
+      "end_name": "명지3봉",
+      "length_meter": 95.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.929451,
+          "lng": 127.422935,
+          "ele": 1206.953
+        },
+        {
+          "lat": 37.929783,
+          "lng": 127.425888,
+          "ele": 1228.886
+        }
+      ],
+      "color": "#39362b",
+      "start_name": "명지3봉",
+      "end_name": "야생화",
+      "length_meter": 261.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.929783,
+          "lng": 127.425888,
+          "ele": 1228.886
+        },
+        {
+          "lat": 37.931629,
+          "lng": 127.430817,
+          "ele": 1230.849
+        }
+      ],
+      "color": "#741d50",
+      "start_name": "야생화",
+      "end_name": "명지2봉",
+      "length_meter": 478.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.931629,
+          "lng": 127.430817,
+          "ele": 1230.849
+        },
+        {
+          "lat": 37.931759,
+          "lng": 127.432259,
+          "ele": 1265.378
+        }
+      ],
+      "color": "#1ea505",
+      "start_name": "명지2봉",
+      "end_name": "갈림길",
+      "length_meter": 127.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.931759,
+          "lng": 127.432259,
+          "ele": 1265.378
+        },
+        {
+          "lat": 37.921608,
+          "lng": 127.43853,
+          "ele": 654.25
+        }
+      ],
+      "color": "#080a85",
+      "start_name": "갈림길",
+      "end_name": "명지천 폭포",
+      "length_meter": 1255.6,
+      "time_minute": 15
+    }
+  ]
+}

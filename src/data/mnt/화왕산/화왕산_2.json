@@ -1,0 +1,95 @@
+{
+  "mnt_id": 94,
+  "mnt_name": "화왕산",
+  "course_id": 249,
+  "max_ele": 780.0,
+  "total_length_km": "2.5km",
+  "total_time": "0시간 30분",
+  "start_name": "지웅산장",
+  "end_name": "돌고래바위",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.5424,
+          "lng": 128.518784,
+          "ele": 292.0
+        },
+        {
+          "lat": 35.544994,
+          "lng": 128.536606,
+          "ele": 678.0
+        }
+      ],
+      "color": "#0926a0",
+      "start_name": "지웅산장",
+      "end_name": "갈림길",
+      "length_meter": 1638.1,
+      "time_minute": 20
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.544994,
+          "lng": 128.536606,
+          "ele": 678.0
+        },
+        {
+          "lat": 35.541821,
+          "lng": 128.534943,
+          "ele": 0.0
+        }
+      ],
+      "color": "#2e1058",
+      "start_name": "갈림길",
+      "end_name": "배봉 정상",
+      "length_meter": 383.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.541821,
+          "lng": 128.534943,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.539856,
+          "lng": 128.531418,
+          "ele": 699.0
+        }
+      ],
+      "color": "#2e841f",
+      "start_name": "배봉 정상 / 갈림길",
+      "end_name": "기암괴석",
+      "length_meter": 387.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.539856,
+          "lng": 128.531418,
+          "ele": 699.0
+        },
+        {
+          "lat": 35.539963,
+          "lng": 128.530899,
+          "ele": 0.0
+        }
+      ],
+      "color": "#428f0a",
+      "start_name": "기암괴석",
+      "end_name": "돌고래바위",
+      "length_meter": 48.4,
+      "time_minute": 0
+    }
+  ]
+}

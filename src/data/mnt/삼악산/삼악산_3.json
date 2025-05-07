@@ -1,0 +1,195 @@
+{
+  "mnt_id": 48,
+  "mnt_name": "삼악산",
+  "course_id": 127,
+  "max_ele": 657.24,
+  "total_length_km": "2.1km",
+  "total_time": "0시간 26분",
+  "start_name": "의암매표소",
+  "end_name": "흥국사",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 103.21,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.841179,
+          "lng": 127.674217,
+          "ele": 103.21
+        },
+        {
+          "lat": 37.841908,
+          "lng": 127.673637,
+          "ele": 116.259
+        }
+      ],
+      "color": "#69a60c",
+      "start_name": "의암매표소 / 매표소 화장실 / 삼악산삼악산장매표소등산로입구 / 의암매표소 유료주차장 / 상원사 정류장 (ID2156)",
+      "end_name": "붕어섬",
+      "length_meter": 127.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.841908,
+          "lng": 127.673637,
+          "ele": 116.259
+        },
+        {
+          "lat": 37.841381,
+          "lng": 127.670349,
+          "ele": 208.964
+        }
+      ],
+      "color": "#970444",
+      "start_name": "붕어섬",
+      "end_name": "작은폭포",
+      "length_meter": 294.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.841381,
+          "lng": 127.670349,
+          "ele": 208.964
+        },
+        {
+          "lat": 37.841183,
+          "lng": 127.669777,
+          "ele": 250.232
+        }
+      ],
+      "color": "#9c1100",
+      "start_name": "작은폭포 / 상원사",
+      "end_name": "상원사 약수",
+      "length_meter": 58.1,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.841183,
+          "lng": 127.669777,
+          "ele": 250.232
+        },
+        {
+          "lat": 37.83971,
+          "lng": 127.668022,
+          "ele": 373.763
+        }
+      ],
+      "color": "#970d55",
+      "start_name": "상원사 약수 / 갈림길",
+      "end_name": "실족사고, 낙석주의",
+      "length_meter": 227.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.83971,
+          "lng": 127.668022,
+          "ele": 373.763
+        },
+        {
+          "lat": 37.839252,
+          "lng": 127.665596,
+          "ele": 485.793
+        }
+      ],
+      "color": "#ae6381",
+      "start_name": "실족사고, 낙석주의",
+      "end_name": "붕어섬2",
+      "length_meter": 219.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.839252,
+          "lng": 127.665596,
+          "ele": 485.793
+        },
+        {
+          "lat": 37.840061,
+          "lng": 127.662811,
+          "ele": 605.977
+        }
+      ],
+      "color": "#a42174",
+      "start_name": "붕어섬2 / 소양강 조망",
+      "end_name": "붕어섬과 함께 포토존",
+      "length_meter": 283.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.840061,
+          "lng": 127.662811,
+          "ele": 605.977
+        },
+        {
+          "lat": 37.840157,
+          "lng": 127.661453,
+          "ele": 656.303
+        }
+      ],
+      "color": "#634ac3",
+      "start_name": "붕어섬과 함께 포토존 / 삼악산 전망대 / 소양강과 붕어섬",
+      "end_name": "실족사고, 낙석주의",
+      "length_meter": 121.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.840157,
+          "lng": 127.661453,
+          "ele": 656.303
+        },
+        {
+          "lat": 37.839725,
+          "lng": 127.660408,
+          "ele": 657.24
+        }
+      ],
+      "color": "#0d2f26",
+      "start_name": "실족사고, 낙석주의",
+      "end_name": "갈림길",
+      "length_meter": 103.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.839725,
+          "lng": 127.660408,
+          "ele": 657.24
+        },
+        {
+          "lat": 37.837372,
+          "lng": 127.653679,
+          "ele": 429.243
+        }
+      ],
+      "color": "#8f0421",
+      "start_name": "갈림길",
+      "end_name": "흥국사",
+      "length_meter": 646.2,
+      "time_minute": 8
+    }
+  ]
+}

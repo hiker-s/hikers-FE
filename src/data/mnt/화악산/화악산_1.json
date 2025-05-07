@@ -1,0 +1,95 @@
+{
+  "mnt_id": 93,
+  "mnt_name": "화악산",
+  "course_id": 243,
+  "max_ele": 1392.945,
+  "total_length_km": "3.1km",
+  "total_time": "0시간 38분",
+  "start_name": "화악터널앞",
+  "end_name": "전망대",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 897.37,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.005432,
+          "lng": 127.525414,
+          "ele": 897.37
+        },
+        {
+          "lat": 38.001575,
+          "lng": 127.525581,
+          "ele": 1073.545
+        }
+      ],
+      "color": "#8fa859",
+      "start_name": "화악터널앞 / 터널입구",
+      "end_name": "입구주차장",
+      "length_meter": 450.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.001575,
+          "lng": 127.525581,
+          "ele": 1073.545
+        },
+        {
+          "lat": 38.001366,
+          "lng": 127.524635,
+          "ele": 1083.205
+        }
+      ],
+      "color": "#31c447",
+      "start_name": "입구주차장",
+      "end_name": "헬기장",
+      "length_meter": 86.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.001366,
+          "lng": 127.524635,
+          "ele": 1083.205
+        },
+        {
+          "lat": 37.989193,
+          "lng": 127.500259,
+          "ele": 1390.468
+        }
+      ],
+      "color": "#1d15a7",
+      "start_name": "헬기장",
+      "end_name": "갈림길",
+      "length_meter": 2528.8,
+      "time_minute": 31
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.989193,
+          "lng": 127.500259,
+          "ele": 1390.468
+        },
+        {
+          "lat": 37.989189,
+          "lng": 127.500229,
+          "ele": 1392.945
+        }
+      ],
+      "color": "#289700",
+      "start_name": "갈림길",
+      "end_name": "전망대",
+      "length_meter": 2.7,
+      "time_minute": 0
+    }
+  ]
+}

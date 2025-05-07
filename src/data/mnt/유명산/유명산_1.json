@@ -1,0 +1,115 @@
+{
+  "mnt_id": 67,
+  "mnt_name": "유명산",
+  "course_id": 186,
+  "max_ele": 858.715,
+  "total_length_km": "2.3km",
+  "total_time": "0시간 28분",
+  "start_name": "유명산 제2주차장",
+  "end_name": "유명산 정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 314.157,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.592281,
+          "lng": 127.488586,
+          "ele": 315.98
+        },
+        {
+          "lat": 37.592922,
+          "lng": 127.489189,
+          "ele": 314.157
+        }
+      ],
+      "color": "#b5540f",
+      "start_name": "유명산 제2주차장",
+      "end_name": "솔가든,산장가든,황토마당등",
+      "length_meter": 88.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.592922,
+          "lng": 127.489189,
+          "ele": 314.157
+        },
+        {
+          "lat": 37.592255,
+          "lng": 127.490898,
+          "ele": 316.847
+        }
+      ],
+      "color": "#94b60a",
+      "start_name": "솔가든,산장가든,황토마당등 / 등산로,계곡입구",
+      "end_name": "제1주차장",
+      "length_meter": 223.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.592255,
+          "lng": 127.490898,
+          "ele": 316.847
+        },
+        {
+          "lat": 37.591637,
+          "lng": 127.491882,
+          "ele": 322.463
+        }
+      ],
+      "color": "#4e1e22",
+      "start_name": "제1주차장",
+      "end_name": "유명산 자연  휴양림  캠핑장",
+      "length_meter": 110.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.591637,
+          "lng": 127.491882,
+          "ele": 322.463
+        },
+        {
+          "lat": 37.589355,
+          "lng": 127.490517,
+          "ele": 334.23
+        }
+      ],
+      "color": "#8f110d",
+      "start_name": "유명산 자연  휴양림  캠핑장",
+      "end_name": "갈림길",
+      "length_meter": 280.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.589355,
+          "lng": 127.490517,
+          "ele": 334.23
+        },
+        {
+          "lat": 37.575397,
+          "lng": 127.486855,
+          "ele": 858.715
+        }
+      ],
+      "color": "#6ea302",
+      "start_name": "갈림길",
+      "end_name": "유명산 정상",
+      "length_meter": 1585.2,
+      "time_minute": 19
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "mnt_id": 26,
+  "mnt_name": "도봉산",
+  "course_id": 65,
+  "max_ele": 671.33,
+  "total_length_km": "4.1km",
+  "total_time": "0시간 51분",
+  "start_name": "북한산국립공원송추계곡",
+  "end_name": "오봉샘터",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 147.51,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.718884,
+          "lng": 126.975357,
+          "ele": 151.235
+        },
+        {
+          "lat": 37.717312,
+          "lng": 126.97686,
+          "ele": 147.51
+        }
+      ],
+      "color": "#260894",
+      "start_name": "북한산국립공원송추계곡 / 부일부대찌개",
+      "end_name": "커피 차",
+      "length_meter": 249.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.717312,
+          "lng": 126.97686,
+          "ele": 147.51
+        },
+        {
+          "lat": 37.715012,
+          "lng": 126.980515,
+          "ele": 150.877
+        }
+      ],
+      "color": "#30991d",
+      "start_name": "커피 차",
+      "end_name": "매점",
+      "length_meter": 410.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.715012,
+          "lng": 126.980515,
+          "ele": 150.877
+        },
+        {
+          "lat": 37.714336,
+          "lng": 126.98156,
+          "ele": 154.136
+        }
+      ],
+      "color": "#b127a1",
+      "start_name": "매점",
+      "end_name": "편의점",
+      "length_meter": 118.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.714336,
+          "lng": 126.98156,
+          "ele": 154.136
+        },
+        {
+          "lat": 37.71339,
+          "lng": 126.983238,
+          "ele": 152.974
+        }
+      ],
+      "color": "#20be89",
+      "start_name": "편의점 / 매점",
+      "end_name": "차량통제소",
+      "length_meter": 182.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.71339,
+          "lng": 126.983238,
+          "ele": 152.974
+        },
+        {
+          "lat": 37.712509,
+          "lng": 126.982033,
+          "ele": 159.935
+        }
+      ],
+      "color": "#bd1e51",
+      "start_name": "차량통제소 / 북한산 국립공원 도봉사무소 송추분소",
+      "end_name": "들머리",
+      "length_meter": 167.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.712509,
+          "lng": 126.982033,
+          "ele": 159.935
+        },
+        {
+          "lat": 37.706852,
+          "lng": 126.98745,
+          "ele": 301.772
+        }
+      ],
+      "color": "#a11f17",
+      "start_name": "들머리 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 791.5,
+      "time_minute": 13
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.706852,
+          "lng": 126.98745,
+          "ele": 301.772
+        },
+        {
+          "lat": 37.705811,
+          "lng": 126.988503,
+          "ele": 334.884
+        }
+      ],
+      "color": "#3b3d99",
+      "start_name": "쉼터",
+      "end_name": "조망터",
+      "length_meter": 148.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.705811,
+          "lng": 126.988503,
+          "ele": 334.884
+        },
+        {
+          "lat": 37.705219,
+          "lng": 126.990456,
+          "ele": 354.663
+        }
+      ],
+      "color": "#994a3b",
+      "start_name": "조망터",
+      "end_name": "산불진화장비 보관함",
+      "length_meter": 184.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.705219,
+          "lng": 126.990456,
+          "ele": 354.663
+        },
+        {
+          "lat": 37.704132,
+          "lng": 126.992126,
+          "ele": 403.378
+        }
+      ],
+      "color": "#be795e",
+      "start_name": "산불진화장비 보관함",
+      "end_name": "조망터",
+      "length_meter": 190.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.704132,
+          "lng": 126.992126,
+          "ele": 403.378
+        },
+        {
+          "lat": 37.703423,
+          "lng": 126.992569,
+          "ele": 443.162
+        }
+      ],
+      "color": "#bb0bb0",
+      "start_name": "조망터",
+      "end_name": "추락 위험",
+      "length_meter": 87.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.703423,
+          "lng": 126.992569,
+          "ele": 443.162
+        },
+        {
+          "lat": 37.702259,
+          "lng": 126.992752,
+          "ele": 510.339
+        }
+      ],
+      "color": "#b55022",
+      "start_name": "추락 위험",
+      "end_name": "여성봉 위",
+      "length_meter": 130.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.702259,
+          "lng": 126.992752,
+          "ele": 510.339
+        },
+        {
+          "lat": 37.702206,
+          "lng": 126.993195,
+          "ele": 507.25
+        }
+      ],
+      "color": "#3a1478",
+      "start_name": "여성봉 위 / 여성봉 정상 / 추락 위험",
+      "end_name": "119 구급함",
+      "length_meter": 40.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.702206,
+          "lng": 126.993195,
+          "ele": 507.25
+        },
+        {
+          "lat": 37.702274,
+          "lng": 126.996696,
+          "ele": 504.992
+        }
+      ],
+      "color": "#3e5b80",
+      "start_name": "119 구급함 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 308.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.702274,
+          "lng": 126.996696,
+          "ele": 504.992
+        },
+        {
+          "lat": 37.698639,
+          "lng": 127.000755,
+          "ele": 597.248
+        }
+      ],
+      "color": "#931b54",
+      "start_name": "쉼터",
+      "end_name": "조망터",
+      "length_meter": 539.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.698639,
+          "lng": 127.000755,
+          "ele": 597.248
+        },
+        {
+          "lat": 37.697067,
+          "lng": 127.001465,
+          "ele": 657.426
+        }
+      ],
+      "color": "#448630",
+      "start_name": "조망터 / 전망대 / 추락 위험",
+      "end_name": "국립공원 안전구급함",
+      "length_meter": 188.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.697067,
+          "lng": 127.001465,
+          "ele": 657.426
+        },
+        {
+          "lat": 37.697071,
+          "lng": 127.001472,
+          "ele": 660.014
+        }
+      ],
+      "color": "#80349f",
+      "start_name": "국립공원 안전구급함 / 오봉초소",
+      "end_name": "낙뢰위험지역",
+      "length_meter": 15.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.697071,
+          "lng": 127.001472,
+          "ele": 660.014
+        },
+        {
+          "lat": 37.696777,
+          "lng": 127.001274,
+          "ele": 671.33
+        }
+      ],
+      "color": "#297d1f",
+      "start_name": "낙뢰위험지역 / 갈림길 / 오봉정상",
+      "end_name": "오봉",
+      "length_meter": 38.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.696777,
+          "lng": 127.001274,
+          "ele": 671.33
+        },
+        {
+          "lat": 37.696102,
+          "lng": 127.001984,
+          "ele": 644.734
+        }
+      ],
+      "color": "#b479a2",
+      "start_name": "오봉 / 갈림길",
+      "end_name": "멋진 바위",
+      "length_meter": 126.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.696102,
+          "lng": 127.001984,
+          "ele": 644.734
+        },
+        {
+          "lat": 37.694839,
+          "lng": 127.003464,
+          "ele": 534.624
+        }
+      ],
+      "color": "#3c5421",
+      "start_name": "멋진 바위 / 조망터",
+      "end_name": "오봉샘터",
+      "length_meter": 200.7,
+      "time_minute": 3
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "mnt_id": 57,
+  "mnt_name": "연화산",
+  "course_id": 158,
+  "max_ele": 575.76,
+  "total_length_km": "6.0km",
+  "total_time": "1시간 14분",
+  "start_name": "연화산 도립공원 주차장",
+  "end_name": "장군봉",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 129.045,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.089771,
+          "lng": 128.262146,
+          "ele": 129.227
+        },
+        {
+          "lat": 35.089634,
+          "lng": 128.261536,
+          "ele": 129.045
+        }
+      ],
+      "color": "#1382a8",
+      "start_name": "연화산 도립공원 주차장 / 주차장 내 화장실",
+      "end_name": "옥천사 계곡의공룡발자국",
+      "length_meter": 129.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.089634,
+          "lng": 128.261536,
+          "ele": 129.045
+        },
+        {
+          "lat": 35.087574,
+          "lng": 128.255295,
+          "ele": 379.424
+        }
+      ],
+      "color": "#5e0d43",
+      "start_name": "옥천사 계곡의공룡발자국 / 매봉 가는길",
+      "end_name": "연화1봉 가는길",
+      "length_meter": 612.5,
+      "time_minute": 10
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.087574,
+          "lng": 128.255295,
+          "ele": 379.424
+        },
+        {
+          "lat": 35.064724,
+          "lng": 128.259628,
+          "ele": 517.381
+        }
+      ],
+      "color": "#2d239a",
+      "start_name": "연화1봉 가는길",
+      "end_name": "평상1개",
+      "length_meter": 2571.2,
+      "time_minute": 32
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.064724,
+          "lng": 128.259628,
+          "ele": 517.381
+        },
+        {
+          "lat": 35.063026,
+          "lng": 128.262146,
+          "ele": 575.76
+        }
+      ],
+      "color": "#607e7d",
+      "start_name": "평상1개",
+      "end_name": "시루봉",
+      "length_meter": 296.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.063026,
+          "lng": 128.262146,
+          "ele": 575.76
+        },
+        {
+          "lat": 35.067493,
+          "lng": 128.262238,
+          "ele": 422.376
+        }
+      ],
+      "color": "#995978",
+      "start_name": "시루봉 / 시루봉 전망대",
+      "end_name": "적멸보궁",
+      "length_meter": 500.5,
+      "time_minute": 8
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.067493,
+          "lng": 128.262238,
+          "ele": 422.376
+        },
+        {
+          "lat": 35.083759,
+          "lng": 128.266174,
+          "ele": 399.828
+        }
+      ],
+      "color": "#9c9364",
+      "start_name": "적멸보궁",
+      "end_name": "장군봉",
+      "length_meter": 1843.8,
+      "time_minute": 23
+    }
+  ]
+}

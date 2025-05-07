@@ -1,0 +1,115 @@
+{
+  "mnt_id": 42,
+  "mnt_name": "백운산(광양)",
+  "course_id": 108,
+  "max_ele": 1168.763,
+  "total_length_km": "2.7km",
+  "total_time": "0시간 33분",
+  "start_name": "진틀휴게소 주차장",
+  "end_name": "신선대",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 426.913,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.093365,
+          "lng": 127.596336,
+          "ele": 426.913
+        },
+        {
+          "lat": 35.094315,
+          "lng": 127.596619,
+          "ele": 435.526
+        }
+      ],
+      "color": "#6a6aa0",
+      "start_name": "진틀휴게소 주차장 / 진틀휴게소",
+      "end_name": "진틀마을 버스정류장",
+      "length_meter": 108.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.094315,
+          "lng": 127.596619,
+          "ele": 435.526
+        },
+        {
+          "lat": 35.096924,
+          "lng": 127.601662,
+          "ele": 503.228
+        }
+      ],
+      "color": "#aca092",
+      "start_name": "진틀마을 버스정류장",
+      "end_name": "광양 진틀 펜션 캠핑장",
+      "length_meter": 542.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.096924,
+          "lng": 127.601662,
+          "ele": 503.228
+        },
+        {
+          "lat": 35.09687,
+          "lng": 127.603745,
+          "ele": 531.309
+        }
+      ],
+      "color": "#bd4666",
+      "start_name": "광양 진틀 펜션 캠핑장",
+      "end_name": "병암산장",
+      "length_meter": 189.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.09687,
+          "lng": 127.603745,
+          "ele": 531.309
+        },
+        {
+          "lat": 35.101505,
+          "lng": 127.612984,
+          "ele": 767.568
+        }
+      ],
+      "color": "#a23372",
+      "start_name": "병암산장",
+      "end_name": "숯가마터",
+      "length_meter": 985.9,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.101505,
+          "lng": 127.612984,
+          "ele": 767.568
+        },
+        {
+          "lat": 35.108418,
+          "lng": 127.617889,
+          "ele": 1168.763
+        }
+      ],
+      "color": "#a26977",
+      "start_name": "숯가마터 / 갈림길",
+      "end_name": "신선대",
+      "length_meter": 889.9,
+      "time_minute": 14
+    }
+  ]
+}

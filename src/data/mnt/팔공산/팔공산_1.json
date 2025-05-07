@@ -1,0 +1,415 @@
+{
+  "mnt_id": 89,
+  "mnt_name": "팔공산",
+  "course_id": 232,
+  "max_ele": 1203.36,
+  "total_length_km": "6.9km",
+  "total_time": "1시간 25분",
+  "start_name": "버스정류장",
+  "end_name": "통일약사대불",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 483.172,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.988995,
+          "lng": 128.697372,
+          "ele": 483.172
+        },
+        {
+          "lat": 35.996235,
+          "lng": 128.698669,
+          "ele": 548.839
+        }
+      ],
+      "color": "#6ba54d",
+      "start_name": "버스정류장 / 갈림길",
+      "end_name": "깔딱고개 정상 쉼터",
+      "length_meter": 831.7,
+      "time_minute": 13
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.996235,
+          "lng": 128.698669,
+          "ele": 548.839
+        },
+        {
+          "lat": 35.998459,
+          "lng": 128.697586,
+          "ele": 621.464
+        }
+      ],
+      "color": "#105726",
+      "start_name": "깔딱고개 정상 쉼터 / 갈림길",
+      "end_name": "암석",
+      "length_meter": 280.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.998459,
+          "lng": 128.697586,
+          "ele": 621.464
+        },
+        {
+          "lat": 36.000217,
+          "lng": 128.695328,
+          "ele": 742.375
+        }
+      ],
+      "color": "#3b7376",
+      "start_name": "암석 / 추락 낙석 위험지역",
+      "end_name": "바위 위 조망점",
+      "length_meter": 282.9,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.000217,
+          "lng": 128.695328,
+          "ele": 742.375
+        },
+        {
+          "lat": 36.000736,
+          "lng": 128.694931,
+          "ele": 787.351
+        }
+      ],
+      "color": "#8cc064",
+      "start_name": "바위 위 조망점 / 암석",
+      "end_name": "신림정",
+      "length_meter": 68.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.000736,
+          "lng": 128.694931,
+          "ele": 787.351
+        },
+        {
+          "lat": 36.005436,
+          "lng": 128.694763,
+          "ele": 870.042
+        }
+      ],
+      "color": "#3946a1",
+      "start_name": "신림정",
+      "end_name": "낙타봉",
+      "length_meter": 522.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.005436,
+          "lng": 128.694763,
+          "ele": 870.042
+        },
+        {
+          "lat": 36.010983,
+          "lng": 128.69455,
+          "ele": 949.821
+        }
+      ],
+      "color": "#060ea5",
+      "start_name": "낙타봉",
+      "end_name": "갈림길",
+      "length_meter": 617.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.010983,
+          "lng": 128.69455,
+          "ele": 949.821
+        },
+        {
+          "lat": 36.01519,
+          "lng": 128.692947,
+          "ele": 1092.356
+        }
+      ],
+      "color": "#928216",
+      "start_name": "갈림길",
+      "end_name": "마애약사여래좌상 진입로",
+      "length_meter": 489.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.01519,
+          "lng": 128.692947,
+          "ele": 1092.356
+        },
+        {
+          "lat": 36.015331,
+          "lng": 128.692001,
+          "ele": 1157.649
+        }
+      ],
+      "color": "#b02bc7",
+      "start_name": "마애약사여래좌상 진입로",
+      "end_name": "갈림길",
+      "length_meter": 86.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.015331,
+          "lng": 128.692001,
+          "ele": 1157.649
+        },
+        {
+          "lat": 36.016289,
+          "lng": 128.694778,
+          "ele": 1161.836
+        }
+      ],
+      "color": "#114f4b",
+      "start_name": "갈림길 / 팔공산 마애약사여래좌상",
+      "end_name": "바위 틈 나무",
+      "length_meter": 275.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.016289,
+          "lng": 128.694778,
+          "ele": 1161.836
+        },
+        {
+          "lat": 36.01313,
+          "lng": 128.69722,
+          "ele": 1192.789
+        }
+      ],
+      "color": "#b805ab",
+      "start_name": "바위 틈 나무 / 갈림길",
+      "end_name": "데크계단 위 조망점",
+      "length_meter": 414.6,
+      "time_minute": 6
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.01313,
+          "lng": 128.69722,
+          "ele": 1192.789
+        },
+        {
+          "lat": 36.012188,
+          "lng": 128.6987,
+          "ele": 1188.862
+        }
+      ],
+      "color": "#a560c3",
+      "start_name": "데크계단 위 조망점 / 위험 주의구간",
+      "end_name": "하트바위와 소나무",
+      "length_meter": 169.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.012188,
+          "lng": 128.6987,
+          "ele": 1188.862
+        },
+        {
+          "lat": 36.011639,
+          "lng": 128.7005,
+          "ele": 1122.899
+        }
+      ],
+      "color": "#835203",
+      "start_name": "하트바위와 소나무",
+      "end_name": "갈림길",
+      "length_meter": 173.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.011639,
+          "lng": 128.7005,
+          "ele": 1122.899
+        },
+        {
+          "lat": 36.011269,
+          "lng": 128.701416,
+          "ele": 1116.735
+        }
+      ],
+      "color": "#b1954a",
+      "start_name": "갈림길",
+      "end_name": "조망바위",
+      "length_meter": 92.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.011269,
+          "lng": 128.701416,
+          "ele": 1116.735
+        },
+        {
+          "lat": 36.01104,
+          "lng": 128.702606,
+          "ele": 1103.339
+        }
+      ],
+      "color": "#77b53b",
+      "start_name": "조망바위",
+      "end_name": "갈림길",
+      "length_meter": 110.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 36.01104,
+          "lng": 128.702606,
+          "ele": 1103.339
+        },
+        {
+          "lat": 36.002136,
+          "lng": 128.699081,
+          "ele": 749.399
+        }
+      ],
+      "color": "#59a811",
+      "start_name": "갈림길",
+      "end_name": "동화사 계곡",
+      "length_meter": 1039.6,
+      "time_minute": 12
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 36.002136,
+          "lng": 128.699081,
+          "ele": 749.399
+        },
+        {
+          "lat": 35.997658,
+          "lng": 128.702881,
+          "ele": 670.134
+        }
+      ],
+      "color": "#839f7a",
+      "start_name": "동화사 계곡",
+      "end_name": "갈림길",
+      "length_meter": 604.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.997658,
+          "lng": 128.702881,
+          "ele": 670.134
+        },
+        {
+          "lat": 35.996666,
+          "lng": 128.702759,
+          "ele": 642.099
+        }
+      ],
+      "color": "#818e13",
+      "start_name": "갈림길",
+      "end_name": "부도암",
+      "length_meter": 110.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.996666,
+          "lng": 128.702759,
+          "ele": 642.099
+        },
+        {
+          "lat": 35.995926,
+          "lng": 128.702972,
+          "ele": 629.639
+        }
+      ],
+      "color": "#0e8a34",
+      "start_name": "부도암",
+      "end_name": "갈림길",
+      "length_meter": 84.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.995926,
+          "lng": 128.702972,
+          "ele": 629.639
+        },
+        {
+          "lat": 35.992214,
+          "lng": 128.703766,
+          "ele": 569.623
+        }
+      ],
+      "color": "#651c8e",
+      "start_name": "갈림길",
+      "end_name": "동화사",
+      "length_meter": 418.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.992214,
+          "lng": 128.703766,
+          "ele": 569.623
+        },
+        {
+          "lat": 35.990726,
+          "lng": 128.70488,
+          "ele": 539.657
+        }
+      ],
+      "color": "#a09d90",
+      "start_name": "동화사",
+      "end_name": "통일약사대불",
+      "length_meter": 193.4,
+      "time_minute": 2
+    }
+  ]
+}

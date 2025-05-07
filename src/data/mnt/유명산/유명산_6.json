@@ -1,0 +1,295 @@
+{
+  "mnt_id": 67,
+  "mnt_name": "유명산",
+  "course_id": 187,
+  "max_ele": 873.33,
+  "total_length_km": "6.0km",
+  "total_time": "1시간 14분",
+  "start_name": "동막골",
+  "end_name": "날머리",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 142.206,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.555901,
+          "lng": 127.461044,
+          "ele": 142.206
+        },
+        {
+          "lat": 37.558403,
+          "lng": 127.462601,
+          "ele": 168.989
+        }
+      ],
+      "color": "#c5188e",
+      "start_name": "동막골",
+      "end_name": "패러글라이딩파크",
+      "length_meter": 310.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.558403,
+          "lng": 127.462601,
+          "ele": 168.989
+        },
+        {
+          "lat": 37.558701,
+          "lng": 127.462906,
+          "ele": 171.06
+        }
+      ],
+      "color": "#094369",
+      "start_name": "패러글라이딩파크",
+      "end_name": "패러글라이딩",
+      "length_meter": 42.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.558701,
+          "lng": 127.462906,
+          "ele": 171.06
+        },
+        {
+          "lat": 37.561031,
+          "lng": 127.469078,
+          "ele": 247.792
+        }
+      ],
+      "color": "#876c59",
+      "start_name": "패러글라이딩 / 갈림길",
+      "end_name": "양평청산",
+      "length_meter": 602.8,
+      "time_minute": 9
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.561031,
+          "lng": 127.469078,
+          "ele": 247.792
+        },
+        {
+          "lat": 37.561672,
+          "lng": 127.469559,
+          "ele": 261.274
+        }
+      ],
+      "color": "#5f5079",
+      "start_name": "양평청산",
+      "end_name": "갈림길",
+      "length_meter": 82.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.561672,
+          "lng": 127.469559,
+          "ele": 261.274
+        },
+        {
+          "lat": 37.566925,
+          "lng": 127.471542,
+          "ele": 386.017
+        }
+      ],
+      "color": "#5656a2",
+      "start_name": "갈림길 / 유명산 임도",
+      "end_name": "벌채작업",
+      "length_meter": 620.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.566925,
+          "lng": 127.471542,
+          "ele": 386.017
+        },
+        {
+          "lat": 37.56987,
+          "lng": 127.480095,
+          "ele": 690.941
+        }
+      ],
+      "color": "#7719a7",
+      "start_name": "벌채작업",
+      "end_name": "등로",
+      "length_meter": 821.9,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.56987,
+          "lng": 127.480095,
+          "ele": 690.941
+        },
+        {
+          "lat": 37.568363,
+          "lng": 127.482071,
+          "ele": 713.619
+        }
+      ],
+      "color": "#1078b2",
+      "start_name": "등로",
+      "end_name": "패라글라이딩1",
+      "length_meter": 241.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.568363,
+          "lng": 127.482071,
+          "ele": 713.619
+        },
+        {
+          "lat": 37.571301,
+          "lng": 127.484322,
+          "ele": 829.96
+        }
+      ],
+      "color": "#92c274",
+      "start_name": "패라글라이딩1",
+      "end_name": "패러글라이딩2",
+      "length_meter": 382.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.571301,
+          "lng": 127.484322,
+          "ele": 829.96
+        },
+        {
+          "lat": 37.576271,
+          "lng": 127.4869,
+          "ele": 873.33
+        }
+      ],
+      "color": "#9e17bf",
+      "start_name": "패러글라이딩2",
+      "end_name": "사형제소나무",
+      "length_meter": 597.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.576271,
+          "lng": 127.4869,
+          "ele": 873.33
+        },
+        {
+          "lat": 37.587017,
+          "lng": 127.486725,
+          "ele": 455.592
+        }
+      ],
+      "color": "#c361bd",
+      "start_name": "사형제소나무",
+      "end_name": "갈림길",
+      "length_meter": 1195.0,
+      "time_minute": 14
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.587017,
+          "lng": 127.486725,
+          "ele": 455.592
+        },
+        {
+          "lat": 37.589119,
+          "lng": 127.490685,
+          "ele": 356.339
+        }
+      ],
+      "color": "#2d1593",
+      "start_name": "갈림길",
+      "end_name": "혼인목",
+      "length_meter": 420.0,
+      "time_minute": 5
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.589119,
+          "lng": 127.490685,
+          "ele": 356.339
+        },
+        {
+          "lat": 37.590389,
+          "lng": 127.490578,
+          "ele": 320.767
+        }
+      ],
+      "color": "#12c745",
+      "start_name": "혼인목 / 갈림길",
+      "end_name": "제2매표소입구",
+      "length_meter": 151.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.590389,
+          "lng": 127.490578,
+          "ele": 320.767
+        },
+        {
+          "lat": 37.591629,
+          "lng": 127.489777,
+          "ele": 319.818
+        }
+      ],
+      "color": "#078c19",
+      "start_name": "제2매표소입구",
+      "end_name": "2매표소",
+      "length_meter": 154.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.591629,
+          "lng": 127.489777,
+          "ele": 319.818
+        },
+        {
+          "lat": 37.594837,
+          "lng": 127.490425,
+          "ele": 309.248
+        }
+      ],
+      "color": "#ab623a",
+      "start_name": "2매표소",
+      "end_name": "날머리",
+      "length_meter": 361.3,
+      "time_minute": 4
+    }
+  ]
+}

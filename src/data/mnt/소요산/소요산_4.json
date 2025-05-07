@@ -1,0 +1,95 @@
+{
+  "mnt_id": 54,
+  "mnt_name": "소요산",
+  "course_id": 149,
+  "max_ele": 551.938,
+  "total_length_km": "6.2km",
+  "total_time": "1시간 17분",
+  "start_name": "하봉암동",
+  "end_name": "소요별&테마파크",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 79.003,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.957684,
+          "lng": 127.062531,
+          "ele": 79.003
+        },
+        {
+          "lat": 37.957569,
+          "lng": 127.067123,
+          "ele": 83.192
+        }
+      ],
+      "color": "#4e2e1e",
+      "start_name": "하봉암동",
+      "end_name": "갈림길",
+      "length_meter": 402.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.957569,
+          "lng": 127.067123,
+          "ele": 83.192
+        },
+        {
+          "lat": 37.953491,
+          "lng": 127.099411,
+          "ele": 523.285
+        }
+      ],
+      "color": "#23b7b0",
+      "start_name": "갈림길",
+      "end_name": "덕일봉(감투봉)",
+      "length_meter": 2867.0,
+      "time_minute": 35
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.953491,
+          "lng": 127.099411,
+          "ele": 523.285
+        },
+        {
+          "lat": 37.950756,
+          "lng": 127.097122,
+          "ele": 551.938
+        }
+      ],
+      "color": "#1c6505",
+      "start_name": "덕일봉(감투봉)",
+      "end_name": "갈림길",
+      "length_meter": 364.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.950756,
+          "lng": 127.097122,
+          "ele": 551.938
+        },
+        {
+          "lat": 37.952103,
+          "lng": 127.067657,
+          "ele": 148.063
+        }
+      ],
+      "color": "#74b8c1",
+      "start_name": "갈림길",
+      "end_name": "소요별&테마파크",
+      "length_meter": 2587.9,
+      "time_minute": 32
+    }
+  ]
+}

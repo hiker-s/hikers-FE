@@ -1,0 +1,175 @@
+{
+  "mnt_id": 85,
+  "mnt_name": "치악산",
+  "course_id": 219,
+  "max_ele": 659.38,
+  "total_length_km": "4.5km",
+  "total_time": "0시간 56분",
+  "start_name": "치악산계곡, 흥양텐트촌",
+  "end_name": "학곡리 황장외금표",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 234.175,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.380661,
+          "lng": 128.008575,
+          "ele": 234.175
+        },
+        {
+          "lat": 37.383068,
+          "lng": 128.016129,
+          "ele": 287.982
+        }
+      ],
+      "color": "#342698",
+      "start_name": "치악산계곡, 흥양텐트촌",
+      "end_name": "둘레길카페",
+      "length_meter": 719.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.383068,
+          "lng": 128.016129,
+          "ele": 287.982
+        },
+        {
+          "lat": 37.387779,
+          "lng": 128.022446,
+          "ele": 367.165
+        }
+      ],
+      "color": "#21ada1",
+      "start_name": "둘레길카페 / 구룡길화장실 / 구룡길아치",
+      "end_name": "쉼터",
+      "length_meter": 797.5,
+      "time_minute": 13
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.387779,
+          "lng": 128.022446,
+          "ele": 367.165
+        },
+        {
+          "lat": 37.392021,
+          "lng": 128.026962,
+          "ele": 479.797
+        }
+      ],
+      "color": "#c12aa6",
+      "start_name": "쉼터",
+      "end_name": "숯가마터",
+      "length_meter": 617.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.392021,
+          "lng": 128.026962,
+          "ele": 479.797
+        },
+        {
+          "lat": 37.397186,
+          "lng": 128.030441,
+          "ele": 659.38
+        }
+      ],
+      "color": "#a09012",
+      "start_name": "숯가마터",
+      "end_name": "새재정상쉼터",
+      "length_meter": 651.4,
+      "time_minute": 8
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.397186,
+          "lng": 128.030441,
+          "ele": 659.38
+        },
+        {
+          "lat": 37.401093,
+          "lng": 128.035065,
+          "ele": 659.282
+        }
+      ],
+      "color": "#3a9589",
+      "start_name": "새재정상쉼터",
+      "end_name": "쉼터",
+      "length_meter": 596.3,
+      "time_minute": 7
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.401093,
+          "lng": 128.035065,
+          "ele": 659.282
+        },
+        {
+          "lat": 37.406025,
+          "lng": 128.044373,
+          "ele": 437.784
+        }
+      ],
+      "color": "#9e49b5",
+      "start_name": "쉼터",
+      "end_name": "화전민터",
+      "length_meter": 988.3,
+      "time_minute": 12
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.406025,
+          "lng": 128.044373,
+          "ele": 437.784
+        },
+        {
+          "lat": 37.406048,
+          "lng": 128.045303,
+          "ele": 413.397
+        }
+      ],
+      "color": "#b40a6b",
+      "start_name": "화전민터 / 쉼터",
+      "end_name": "구룡길아치",
+      "length_meter": 100.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.406048,
+          "lng": 128.045303,
+          "ele": 413.397
+        },
+        {
+          "lat": 37.40654,
+          "lng": 128.045364,
+          "ele": 405.652
+        }
+      ],
+      "color": "#b93680",
+      "start_name": "구룡길아치",
+      "end_name": "학곡리 황장외금표",
+      "length_meter": 55.0,
+      "time_minute": 0
+    }
+  ]
+}

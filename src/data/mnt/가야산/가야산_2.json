@@ -1,0 +1,235 @@
+{
+  "mnt_id": 3,
+  "mnt_name": "가야산",
+  "course_id": 4,
+  "max_ele": 1071.043,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 42분",
+  "start_name": "청량동탐방안내소",
+  "end_name": "청량사",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 513.571,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.769905,
+          "lng": 128.114075,
+          "ele": 513.571
+        },
+        {
+          "lat": 35.771469,
+          "lng": 128.110565,
+          "ele": 587.721
+        }
+      ],
+      "color": "#172104",
+      "start_name": "청량동탐방안내소",
+      "end_name": "청량사입구에서 바라본 모습",
+      "length_meter": 361.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.771469,
+          "lng": 128.110565,
+          "ele": 587.721
+        },
+        {
+          "lat": 35.771698,
+          "lng": 128.10965,
+          "ele": 604.929
+        }
+      ],
+      "color": "#3a2c75",
+      "start_name": "청량사입구에서 바라본 모습 / 갈림길",
+      "end_name": "청량동 탐방로",
+      "length_meter": 98.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.771698,
+          "lng": 128.10965,
+          "ele": 604.929
+        },
+        {
+          "lat": 35.774258,
+          "lng": 128.103287,
+          "ele": 881.06
+        }
+      ],
+      "color": "#579380",
+      "start_name": "청량동 탐방로",
+      "end_name": "전망대",
+      "length_meter": 640.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.774258,
+          "lng": 128.103287,
+          "ele": 881.06
+        },
+        {
+          "lat": 35.773418,
+          "lng": 128.100555,
+          "ele": 939.068
+        }
+      ],
+      "color": "#a80f4a",
+      "start_name": "전망대 / 자연경관",
+      "end_name": "가위바위보 바위 뒷모습",
+      "length_meter": 269.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.773418,
+          "lng": 128.100555,
+          "ele": 939.068
+        },
+        {
+          "lat": 35.773563,
+          "lng": 128.09935,
+          "ele": 976.802
+        }
+      ],
+      "color": "#7b07c3",
+      "start_name": "가위바위보 바위 뒷모습 / 가위바위보 바위",
+      "end_name": "매화산방향",
+      "length_meter": 113.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.773563,
+          "lng": 128.09935,
+          "ele": 976.802
+        },
+        {
+          "lat": 35.77282,
+          "lng": 128.095734,
+          "ele": 1071.043
+        }
+      ],
+      "color": "#614468",
+      "start_name": "매화산방향 / 자연경관",
+      "end_name": "남산제일봉",
+      "length_meter": 354.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.77282,
+          "lng": 128.095734,
+          "ele": 1071.043
+        },
+        {
+          "lat": 35.773979,
+          "lng": 128.097275,
+          "ele": 1020.71
+        }
+      ],
+      "color": "#1ba40a",
+      "start_name": "남산제일봉",
+      "end_name": "정상부 철계단 조망",
+      "length_meter": 189.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.773979,
+          "lng": 128.097275,
+          "ele": 1020.71
+        },
+        {
+          "lat": 35.774223,
+          "lng": 128.103256,
+          "ele": 879.624
+        }
+      ],
+      "color": "#61c058",
+      "start_name": "정상부 철계단 조망",
+      "end_name": "전망대",
+      "length_meter": 540.3,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.774223,
+          "lng": 128.103256,
+          "ele": 879.624
+        },
+        {
+          "lat": 35.771614,
+          "lng": 128.10965,
+          "ele": 616.24
+        }
+      ],
+      "color": "#520140",
+      "start_name": "전망대",
+      "end_name": "청량동 탐방안내소와 화장실",
+      "length_meter": 645.7,
+      "time_minute": 8
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.771614,
+          "lng": 128.10965,
+          "ele": 616.24
+        },
+        {
+          "lat": 35.772488,
+          "lng": 128.109436,
+          "ele": 626.264
+        }
+      ],
+      "color": "#7ea971",
+      "start_name": "청량동 탐방안내소와 화장실",
+      "end_name": "청량사 석등",
+      "length_meter": 99.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.772488,
+          "lng": 128.109436,
+          "ele": 626.264
+        },
+        {
+          "lat": 35.772491,
+          "lng": 128.109467,
+          "ele": 628.729
+        }
+      ],
+      "color": "#6a4257",
+      "start_name": "청량사 석등 / 청량사 삼층석탑 / 청량사 석조석가여래좌상",
+      "end_name": "청량사",
+      "length_meter": 52.9,
+      "time_minute": 0
+    }
+  ]
+}

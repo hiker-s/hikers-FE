@@ -1,0 +1,315 @@
+{
+  "mnt_id": 3,
+  "mnt_name": "가야산",
+  "course_id": 5,
+  "max_ele": 1164.477,
+  "total_length_km": "5.0km",
+  "total_time": "1시간 2분",
+  "start_name": "백운동주차장",
+  "end_name": "성주가든",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 555.094,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.801517,
+          "lng": 128.142136,
+          "ele": 555.094
+        },
+        {
+          "lat": 35.802654,
+          "lng": 128.142136,
+          "ele": 569.568
+        }
+      ],
+      "color": "#56b4ba",
+      "start_name": "백운동주차장 / 식당",
+      "end_name": "야생화식물원",
+      "length_meter": 134.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.802654,
+          "lng": 128.142136,
+          "ele": 569.568
+        },
+        {
+          "lat": 35.803757,
+          "lng": 128.141998,
+          "ele": 567.183
+        }
+      ],
+      "color": "#763c02",
+      "start_name": "야생화식물원",
+      "end_name": "쉼터",
+      "length_meter": 123.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.803757,
+          "lng": 128.141998,
+          "ele": 567.183
+        },
+        {
+          "lat": 35.803925,
+          "lng": 128.141769,
+          "ele": 577.303
+        }
+      ],
+      "color": "#619a95",
+      "start_name": "쉼터",
+      "end_name": "백운동 탐방지원센터",
+      "length_meter": 27.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.803925,
+          "lng": 128.141769,
+          "ele": 577.303
+        },
+        {
+          "lat": 35.803833,
+          "lng": 128.13887,
+          "ele": 684.019
+        }
+      ],
+      "color": "#bfb900",
+      "start_name": "백운동 탐방지원센터 / 갈림길",
+      "end_name": "심장안전쉼터",
+      "length_meter": 272.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.803833,
+          "lng": 128.13887,
+          "ele": 684.019
+        },
+        {
+          "lat": 35.805626,
+          "lng": 128.13559,
+          "ele": 857.15
+        }
+      ],
+      "color": "#0917b5",
+      "start_name": "심장안전쉼터",
+      "end_name": "자연경관",
+      "length_meter": 356.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.805626,
+          "lng": 128.13559,
+          "ele": 857.15
+        },
+        {
+          "lat": 35.807278,
+          "lng": 128.133667,
+          "ele": 942.616
+        }
+      ],
+      "color": "#9c2867",
+      "start_name": "자연경관",
+      "end_name": "심장안전쉼터",
+      "length_meter": 252.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.807278,
+          "lng": 128.133667,
+          "ele": 942.616
+        },
+        {
+          "lat": 35.808475,
+          "lng": 128.133423,
+          "ele": 961.301
+        }
+      ],
+      "color": "#99880c",
+      "start_name": "심장안전쉼터 / 양송이? 바위 / 자연경관",
+      "end_name": "소나무",
+      "length_meter": 136.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.808475,
+          "lng": 128.133423,
+          "ele": 961.301
+        },
+        {
+          "lat": 35.81007,
+          "lng": 128.132828,
+          "ele": 977.198
+        }
+      ],
+      "color": "#5c0965",
+      "start_name": "소나무",
+      "end_name": "낙석주위",
+      "length_meter": 185.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.81007,
+          "lng": 128.132828,
+          "ele": 977.198
+        },
+        {
+          "lat": 35.811848,
+          "lng": 128.131012,
+          "ele": 1105.641
+        }
+      ],
+      "color": "#4e5601",
+      "start_name": "낙석주위",
+      "end_name": "소나무가 아파요",
+      "length_meter": 256.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.811848,
+          "lng": 128.131012,
+          "ele": 1105.641
+        },
+        {
+          "lat": 35.812504,
+          "lng": 128.129211,
+          "ele": 1073.054
+        }
+      ],
+      "color": "#1d22c1",
+      "start_name": "소나무가 아파요 / 삿갓바위 / 자연경관",
+      "end_name": "근육맨과 자연경관",
+      "length_meter": 180.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.812504,
+          "lng": 128.129211,
+          "ele": 1073.054
+        },
+        {
+          "lat": 35.813107,
+          "lng": 128.123871,
+          "ele": 1164.477
+        }
+      ],
+      "color": "#51c5a3",
+      "start_name": "근육맨과 자연경관 / 자연경관",
+      "end_name": "상아덤(서장대)",
+      "length_meter": 486.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.813107,
+          "lng": 128.123871,
+          "ele": 1164.477
+        },
+        {
+          "lat": 35.815052,
+          "lng": 128.122803,
+          "ele": 1138.686
+        }
+      ],
+      "color": "#4bbba4",
+      "start_name": "상아덤(서장대)",
+      "end_name": "갈림길",
+      "length_meter": 236.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.815052,
+          "lng": 128.122803,
+          "ele": 1138.686
+        },
+        {
+          "lat": 35.804012,
+          "lng": 128.141693,
+          "ele": 580.795
+        }
+      ],
+      "color": "#6f719d",
+      "start_name": "갈림길 / 서성재",
+      "end_name": "만물상 탐방로 예약제",
+      "length_meter": 2101.1,
+      "time_minute": 35
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.804012,
+          "lng": 128.141693,
+          "ele": 580.795
+        },
+        {
+          "lat": 35.802822,
+          "lng": 128.142151,
+          "ele": 571.752
+        }
+      ],
+      "color": "#79be1a",
+      "start_name": "만물상 탐방로 예약제",
+      "end_name": "가야호텔사우나",
+      "length_meter": 138.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.802822,
+          "lng": 128.142151,
+          "ele": 571.752
+        },
+        {
+          "lat": 35.802288,
+          "lng": 128.141663,
+          "ele": 563.709
+        }
+      ],
+      "color": "#3157b7",
+      "start_name": "가야호텔사우나",
+      "end_name": "성주가든",
+      "length_meter": 73.9,
+      "time_minute": 0
+    }
+  ]
+}

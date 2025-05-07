@@ -1,0 +1,295 @@
+{
+  "mnt_id": 29,
+  "mnt_name": "마니산",
+  "course_id": 75,
+  "max_ele": 473.217,
+  "total_length_km": "5.2km",
+  "total_time": "1시간 5분",
+  "start_name": "함허동천",
+  "end_name": "정수사입구",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 28.863,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.609451,
+          "lng": 126.456833,
+          "ele": 35.474
+        },
+        {
+          "lat": 37.609673,
+          "lng": 126.456306,
+          "ele": 34.483
+        }
+      ],
+      "color": "#b75521",
+      "start_name": "함허동천 / 함허동천 주차장 / 함허동천 2,  3주차장",
+      "end_name": "야영장 만남 슈퍼",
+      "length_meter": 66.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.609673,
+          "lng": 126.456306,
+          "ele": 34.483
+        },
+        {
+          "lat": 37.610088,
+          "lng": 126.45536,
+          "ele": 38.217
+        }
+      ],
+      "color": "#363784",
+      "start_name": "야영장 만남 슈퍼 / 입구 화장실",
+      "end_name": "1주차장",
+      "length_meter": 96.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.610088,
+          "lng": 126.45536,
+          "ele": 38.217
+        },
+        {
+          "lat": 37.610992,
+          "lng": 126.454086,
+          "ele": 48.779
+        }
+      ],
+      "color": "#337d97",
+      "start_name": "1주차장 / 이레가든 / 구름계곡 슈퍼",
+      "end_name": "쉼터",
+      "length_meter": 152.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.610992,
+          "lng": 126.454086,
+          "ele": 48.779
+        },
+        {
+          "lat": 37.611355,
+          "lng": 126.45314,
+          "ele": 60.868
+        }
+      ],
+      "color": "#2ab81c",
+      "start_name": "쉼터 / 입구 매표소",
+      "end_name": "매점",
+      "length_meter": 164.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.611355,
+          "lng": 126.45314,
+          "ele": 60.868
+        },
+        {
+          "lat": 37.612072,
+          "lng": 126.452118,
+          "ele": 77.418
+        }
+      ],
+      "color": "#bcc610",
+      "start_name": "매점",
+      "end_name": "2야영장",
+      "length_meter": 120.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.612072,
+          "lng": 126.452118,
+          "ele": 77.418
+        },
+        {
+          "lat": 37.611843,
+          "lng": 126.451057,
+          "ele": 99.793
+        }
+      ],
+      "color": "#347d20",
+      "start_name": "2야영장 / 갈림길",
+      "end_name": "함허정",
+      "length_meter": 114.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.611843,
+          "lng": 126.451057,
+          "ele": 99.793
+        },
+        {
+          "lat": 37.612972,
+          "lng": 126.435555,
+          "ele": 473.217
+        }
+      ],
+      "color": "#45c17a",
+      "start_name": "함허정 / 갈림길",
+      "end_name": "능선길2",
+      "length_meter": 1394.8,
+      "time_minute": 23
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.612972,
+          "lng": 126.435555,
+          "ele": 473.217
+        },
+        {
+          "lat": 37.615139,
+          "lng": 126.431122,
+          "ele": 469.235
+        }
+      ],
+      "color": "#23acba",
+      "start_name": "능선길2",
+      "end_name": "참성단 중수비",
+      "length_meter": 458.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.615139,
+          "lng": 126.431122,
+          "ele": 469.235
+        },
+        {
+          "lat": 37.614395,
+          "lng": 126.432266,
+          "ele": 445.93
+        }
+      ],
+      "color": "#90968d",
+      "start_name": "참성단 중수비",
+      "end_name": "능선길 바다경관",
+      "length_meter": 130.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.614395,
+          "lng": 126.432266,
+          "ele": 445.93
+        },
+        {
+          "lat": 37.607464,
+          "lng": 126.443993,
+          "ele": 202.248
+        }
+      ],
+      "color": "#65723d",
+      "start_name": "능선길 바다경관",
+      "end_name": "정수사로 매표소",
+      "length_meter": 1288.8,
+      "time_minute": 16
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.607464,
+          "lng": 126.443993,
+          "ele": 202.248
+        },
+        {
+          "lat": 37.607349,
+          "lng": 126.443855,
+          "ele": 205.431
+        }
+      ],
+      "color": "#848119",
+      "start_name": "정수사로 매표소",
+      "end_name": "간이화장실",
+      "length_meter": 17.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.607349,
+          "lng": 126.443855,
+          "ele": 205.431
+        },
+        {
+          "lat": 37.60738,
+          "lng": 126.445091,
+          "ele": 204.108
+        }
+      ],
+      "color": "#8b5335",
+      "start_name": "간이화장실 / 갈림길",
+      "end_name": "정수사",
+      "length_meter": 112.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.60738,
+          "lng": 126.445091,
+          "ele": 204.108
+        },
+        {
+          "lat": 37.605957,
+          "lng": 126.448982,
+          "ele": 145.56
+        }
+      ],
+      "color": "#a2ab74",
+      "start_name": "정수사",
+      "end_name": "갈림길",
+      "length_meter": 377.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.605957,
+          "lng": 126.448982,
+          "ele": 145.56
+        },
+        {
+          "lat": 37.604019,
+          "lng": 126.457169,
+          "ele": 28.863
+        }
+      ],
+      "color": "#ad3caa",
+      "start_name": "갈림길",
+      "end_name": "정수사입구",
+      "length_meter": 752.7,
+      "time_minute": 9
+    }
+  ]
+}

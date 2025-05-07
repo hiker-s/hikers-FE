@@ -1,0 +1,155 @@
+{
+  "mnt_id": 48,
+  "mnt_name": "삼악산",
+  "course_id": 129,
+  "max_ele": 584.818,
+  "total_length_km": "5.9km",
+  "total_time": "1시간 14분",
+  "start_name": "의암교차로",
+  "end_name": "봉덕사 입구",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.828083,
+          "lng": 127.671196,
+          "ele": 98.994
+        },
+        {
+          "lat": 37.828091,
+          "lng": 127.671112,
+          "ele": 105.451
+        }
+      ],
+      "color": "#91aa71",
+      "start_name": "의암교차로",
+      "end_name": "의암닭갈비",
+      "length_meter": 7.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.828091,
+          "lng": 127.671112,
+          "ele": 105.451
+        },
+        {
+          "lat": 37.826801,
+          "lng": 127.668716,
+          "ele": 0.0
+        }
+      ],
+      "color": "#2fc038",
+      "start_name": "의암닭갈비",
+      "end_name": "갈림길",
+      "length_meter": 254.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.826801,
+          "lng": 127.668716,
+          "ele": 0.0
+        },
+        {
+          "lat": 37.828175,
+          "lng": 127.667244,
+          "ele": 118.613
+        }
+      ],
+      "color": "#43c562",
+      "start_name": "갈림길",
+      "end_name": "삼악산 신흥사 입구 주차장",
+      "length_meter": 200.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.828175,
+          "lng": 127.667244,
+          "ele": 118.613
+        },
+        {
+          "lat": 37.831322,
+          "lng": 127.666664,
+          "ele": 261.5
+        }
+      ],
+      "color": "#a7a791",
+      "start_name": "삼악산 신흥사 입구 주차장 / 갈림길 / 삼악산 신흥사 등산로 입구",
+      "end_name": "쉼터",
+      "length_meter": 376.1,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.831322,
+          "lng": 127.666664,
+          "ele": 261.5
+        },
+        {
+          "lat": 37.833977,
+          "lng": 127.669044,
+          "ele": 380.418
+        }
+      ],
+      "color": "#a3a623",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 361.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.833977,
+          "lng": 127.669044,
+          "ele": 380.418
+        },
+        {
+          "lat": 37.844296,
+          "lng": 127.641663,
+          "ele": 412.636
+        }
+      ],
+      "color": "#433a7a",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 2664.2,
+      "time_minute": 33
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.844296,
+          "lng": 127.641663,
+          "ele": 412.636
+        },
+        {
+          "lat": 37.853615,
+          "lng": 127.662079,
+          "ele": 105.497
+        }
+      ],
+      "color": "#302e07",
+      "start_name": "쉼터",
+      "end_name": "봉덕사 입구",
+      "length_meter": 2070.5,
+      "time_minute": 25
+    }
+  ]
+}

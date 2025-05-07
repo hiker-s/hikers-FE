@@ -1,0 +1,1015 @@
+{
+  "mnt_id": 64,
+  "mnt_name": "운장산",
+  "course_id": 177,
+  "max_ele": 1129.687,
+  "total_length_km": "12.0km",
+  "total_time": "2시간 30분",
+  "start_name": "운장산휴계소(피암목재)",
+  "end_name": "날머리",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 377.508,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.929142,
+          "lng": 127.349442,
+          "ele": 579.715
+        },
+        {
+          "lat": 35.925083,
+          "lng": 127.348381,
+          "ele": 705.051
+        }
+      ],
+      "color": "#2708a2",
+      "start_name": "운장산휴계소(피암목재) / 운장산 휴계소주차장",
+      "end_name": "국가지점건호",
+      "length_meter": 462.5,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.925083,
+          "lng": 127.348381,
+          "ele": 705.051
+        },
+        {
+          "lat": 35.921352,
+          "lng": 127.349846,
+          "ele": 828.979
+        }
+      ],
+      "color": "#678e40",
+      "start_name": "국가지점건호",
+      "end_name": "국가지점",
+      "length_meter": 435.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.921352,
+          "lng": 127.349846,
+          "ele": 828.979
+        },
+        {
+          "lat": 35.917683,
+          "lng": 127.350258,
+          "ele": 873.331
+        }
+      ],
+      "color": "#481dc3",
+      "start_name": "국가지점",
+      "end_name": "갈림길",
+      "length_meter": 409.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.917683,
+          "lng": 127.350258,
+          "ele": 873.331
+        },
+        {
+          "lat": 35.913528,
+          "lng": 127.352753,
+          "ele": 1094.205
+        }
+      ],
+      "color": "#6824c4",
+      "start_name": "갈림길",
+      "end_name": "운장산  서봉",
+      "length_meter": 513.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.913528,
+          "lng": 127.352753,
+          "ele": 1094.205
+        },
+        {
+          "lat": 35.911255,
+          "lng": 127.357498,
+          "ele": 1116.446
+        }
+      ],
+      "color": "#a52500",
+      "start_name": "운장산  서봉",
+      "end_name": "운장산",
+      "length_meter": 496.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.911255,
+          "lng": 127.357498,
+          "ele": 1116.446
+        },
+        {
+          "lat": 35.911335,
+          "lng": 127.357567,
+          "ele": 1123.126
+        }
+      ],
+      "color": "#373721",
+      "start_name": "운장산",
+      "end_name": "운장산정상",
+      "length_meter": 10.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.911335,
+          "lng": 127.357567,
+          "ele": 1123.126
+        },
+        {
+          "lat": 35.914288,
+          "lng": 127.362022,
+          "ele": 1125.21
+        }
+      ],
+      "color": "#32643e",
+      "start_name": "운장산정상",
+      "end_name": "갈림길",
+      "length_meter": 518.4,
+      "time_minute": 6
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.914288,
+          "lng": 127.362022,
+          "ele": 1125.21
+        },
+        {
+          "lat": 35.91753,
+          "lng": 127.367058,
+          "ele": 1055.413
+        }
+      ],
+      "color": "#809f1c",
+      "start_name": "갈림길",
+      "end_name": "싐터",
+      "length_meter": 579.3,
+      "time_minute": 7
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.91753,
+          "lng": 127.367058,
+          "ele": 1055.413
+        },
+        {
+          "lat": 35.920124,
+          "lng": 127.37281,
+          "ele": 914.524
+        }
+      ],
+      "color": "#83a71c",
+      "start_name": "싐터",
+      "end_name": "갈림길",
+      "length_meter": 592.9,
+      "time_minute": 7
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.920124,
+          "lng": 127.37281,
+          "ele": 914.524
+        },
+        {
+          "lat": 35.920063,
+          "lng": 127.373558,
+          "ele": 860.565
+        }
+      ],
+      "color": "#970a37",
+      "start_name": "갈림길 / 갈크미재",
+      "end_name": "웨이포인트 32",
+      "length_meter": 68.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.920063,
+          "lng": 127.373558,
+          "ele": 860.565
+        },
+        {
+          "lat": 35.918457,
+          "lng": 127.376015,
+          "ele": 882.596
+        }
+      ],
+      "color": "#ac7da1",
+      "start_name": "웨이포인트 32",
+      "end_name": "웨이포인트 33",
+      "length_meter": 284.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.918457,
+          "lng": 127.376015,
+          "ele": 882.596
+        },
+        {
+          "lat": 35.918198,
+          "lng": 127.378883,
+          "ele": 970.595
+        }
+      ],
+      "color": "#b38f44",
+      "start_name": "웨이포인트 33",
+      "end_name": "웨이포인트 35",
+      "length_meter": 259.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.918198,
+          "lng": 127.378883,
+          "ele": 970.595
+        },
+        {
+          "lat": 35.919708,
+          "lng": 127.381035,
+          "ele": 1056.397
+        }
+      ],
+      "color": "#4ec2c2",
+      "start_name": "웨이포인트 35",
+      "end_name": "웨이포인트 36",
+      "length_meter": 256.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.919708,
+          "lng": 127.381035,
+          "ele": 1056.397
+        },
+        {
+          "lat": 35.921856,
+          "lng": 127.381256,
+          "ele": 1087.479
+        }
+      ],
+      "color": "#7c6b79",
+      "start_name": "웨이포인트 36",
+      "end_name": "곰직이산",
+      "length_meter": 239.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.921856,
+          "lng": 127.381256,
+          "ele": 1087.479
+        },
+        {
+          "lat": 35.921879,
+          "lng": 127.38121,
+          "ele": 1086.264
+        }
+      ],
+      "color": "#bfb080",
+      "start_name": "곰직이산",
+      "end_name": "웨이포인트 37",
+      "length_meter": 4.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.921879,
+          "lng": 127.38121,
+          "ele": 1086.264
+        },
+        {
+          "lat": 35.922588,
+          "lng": 127.380997,
+          "ele": 1108.241
+        }
+      ],
+      "color": "#bb90b5",
+      "start_name": "웨이포인트 37",
+      "end_name": "갈림길",
+      "length_meter": 81.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.922588,
+          "lng": 127.380997,
+          "ele": 1108.241
+        },
+        {
+          "lat": 35.923962,
+          "lng": 127.38269,
+          "ele": 1109.032
+        }
+      ],
+      "color": "#b7535d",
+      "start_name": "갈림길",
+      "end_name": "웨이포인트 40",
+      "length_meter": 215.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.923962,
+          "lng": 127.38269,
+          "ele": 1109.032
+        },
+        {
+          "lat": 35.925293,
+          "lng": 127.385666,
+          "ele": 1059.18
+        }
+      ],
+      "color": "#6a034c",
+      "start_name": "웨이포인트 40",
+      "end_name": "웨이포인트 41",
+      "length_meter": 306.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.925293,
+          "lng": 127.385666,
+          "ele": 1059.18
+        },
+        {
+          "lat": 35.925812,
+          "lng": 127.386703,
+          "ele": 1043.266
+        }
+      ],
+      "color": "#6a9e5c",
+      "start_name": "웨이포인트 41",
+      "end_name": "갈림길",
+      "length_meter": 109.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.925812,
+          "lng": 127.386703,
+          "ele": 1043.266
+        },
+        {
+          "lat": 35.927364,
+          "lng": 127.386467,
+          "ele": 1043.001
+        }
+      ],
+      "color": "#42225c",
+      "start_name": "갈림길 / 쉼터",
+      "end_name": "웨이포인트 44",
+      "length_meter": 176.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.927364,
+          "lng": 127.386467,
+          "ele": 1043.001
+        },
+        {
+          "lat": 35.929958,
+          "lng": 127.387978,
+          "ele": 1038.997
+        }
+      ],
+      "color": "#1aae2e",
+      "start_name": "웨이포인트 44",
+      "end_name": "웨이포인트 45",
+      "length_meter": 318.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.929958,
+          "lng": 127.387978,
+          "ele": 1038.997
+        },
+        {
+          "lat": 35.931313,
+          "lng": 127.389915,
+          "ele": 1023.828
+        }
+      ],
+      "color": "#0c3c37",
+      "start_name": "웨이포인트 45",
+      "end_name": "웨이포인트 46",
+      "length_meter": 230.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 35.931313,
+          "lng": 127.389915,
+          "ele": 1023.828
+        },
+        {
+          "lat": 35.931343,
+          "lng": 127.390022,
+          "ele": 1020.738
+        }
+      ],
+      "color": "#6f57bf",
+      "start_name": "웨이포인트 46",
+      "end_name": "쉼터",
+      "length_meter": 10.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 35.931343,
+          "lng": 127.390022,
+          "ele": 1020.738
+        },
+        {
+          "lat": 35.931816,
+          "lng": 127.392807,
+          "ele": 995.353
+        }
+      ],
+      "color": "#887947",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "웨이포인트 49",
+      "length_meter": 256.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 35.931816,
+          "lng": 127.392807,
+          "ele": 995.353
+        },
+        {
+          "lat": 35.931503,
+          "lng": 127.395309,
+          "ele": 995.075
+        }
+      ],
+      "color": "#9e2984",
+      "start_name": "웨이포인트 49",
+      "end_name": "웨이포인트 50",
+      "length_meter": 227.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 25,
+      "path": [
+        {
+          "lat": 35.931503,
+          "lng": 127.395309,
+          "ele": 995.075
+        },
+        {
+          "lat": 35.931316,
+          "lng": 127.396317,
+          "ele": 1006.288
+        }
+      ],
+      "color": "#4ab46a",
+      "start_name": "웨이포인트 50 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 93.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 26,
+      "path": [
+        {
+          "lat": 35.931316,
+          "lng": 127.396317,
+          "ele": 1006.288
+        },
+        {
+          "lat": 35.929947,
+          "lng": 127.39753,
+          "ele": 1025.372
+        }
+      ],
+      "color": "#410a97",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "웨이포인트 54",
+      "length_meter": 187.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 27,
+      "path": [
+        {
+          "lat": 35.929947,
+          "lng": 127.39753,
+          "ele": 1025.372
+        },
+        {
+          "lat": 35.928001,
+          "lng": 127.399902,
+          "ele": 1025.746
+        }
+      ],
+      "color": "#1d3b86",
+      "start_name": "웨이포인트 54",
+      "end_name": "웨이포인트 55",
+      "length_meter": 304.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 28,
+      "path": [
+        {
+          "lat": 35.928001,
+          "lng": 127.399902,
+          "ele": 1025.746
+        },
+        {
+          "lat": 35.926243,
+          "lng": 127.401138,
+          "ele": 1022.514
+        }
+      ],
+      "color": "#a59f46",
+      "start_name": "웨이포인트 55",
+      "end_name": "웨이포인트 56",
+      "length_meter": 224.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 29,
+      "path": [
+        {
+          "lat": 35.926243,
+          "lng": 127.401138,
+          "ele": 1022.514
+        },
+        {
+          "lat": 35.924351,
+          "lng": 127.402756,
+          "ele": 1009.369
+        }
+      ],
+      "color": "#a71740",
+      "start_name": "웨이포인트 56",
+      "end_name": "웨이포인트 57",
+      "length_meter": 255.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 30,
+      "path": [
+        {
+          "lat": 35.924351,
+          "lng": 127.402756,
+          "ele": 1009.369
+        },
+        {
+          "lat": 35.92271,
+          "lng": 127.405029,
+          "ele": 967.076
+        }
+      ],
+      "color": "#646203",
+      "start_name": "웨이포인트 57",
+      "end_name": "웨이포인트 58",
+      "length_meter": 274.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 31,
+      "path": [
+        {
+          "lat": 35.92271,
+          "lng": 127.405029,
+          "ele": 967.076
+        },
+        {
+          "lat": 35.921497,
+          "lng": 127.407425,
+          "ele": 969.829
+        }
+      ],
+      "color": "#742f83",
+      "start_name": "웨이포인트 58",
+      "end_name": "갈림길",
+      "length_meter": 254.4,
+      "time_minute": 3
+    },
+    {
+      "path_id": 32,
+      "path": [
+        {
+          "lat": 35.921497,
+          "lng": 127.407425,
+          "ele": 969.829
+        },
+        {
+          "lat": 35.922783,
+          "lng": 127.410194,
+          "ele": 969.751
+        }
+      ],
+      "color": "#4cc244",
+      "start_name": "갈림길 / 웨이포인트 60",
+      "end_name": "웨이포인트 61",
+      "length_meter": 292.6,
+      "time_minute": 4
+    },
+    {
+      "path_id": 33,
+      "path": [
+        {
+          "lat": 35.922783,
+          "lng": 127.410194,
+          "ele": 969.751
+        },
+        {
+          "lat": 35.923809,
+          "lng": 127.412628,
+          "ele": 914.72
+        }
+      ],
+      "color": "#481108",
+      "start_name": "웨이포인트 61 / 표지판",
+      "end_name": "웨이포인트 63",
+      "length_meter": 250.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 34,
+      "path": [
+        {
+          "lat": 35.923809,
+          "lng": 127.412628,
+          "ele": 914.72
+        },
+        {
+          "lat": 35.924454,
+          "lng": 127.413879,
+          "ele": 915.854
+        }
+      ],
+      "color": "#a73f58",
+      "start_name": "웨이포인트 63",
+      "end_name": "표지판",
+      "length_meter": 133.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 35,
+      "path": [
+        {
+          "lat": 35.924454,
+          "lng": 127.413879,
+          "ele": 915.854
+        },
+        {
+          "lat": 35.924049,
+          "lng": 127.414932,
+          "ele": 922.923
+        }
+      ],
+      "color": "#21b694",
+      "start_name": "표지판",
+      "end_name": "웨이포인트 65",
+      "length_meter": 105.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 36,
+      "path": [
+        {
+          "lat": 35.924049,
+          "lng": 127.414932,
+          "ele": 922.923
+        },
+        {
+          "lat": 35.923615,
+          "lng": 127.416649,
+          "ele": 969.202
+        }
+      ],
+      "color": "#5ab901",
+      "start_name": "웨이포인트 65",
+      "end_name": "갈림길",
+      "length_meter": 162.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 37,
+      "path": [
+        {
+          "lat": 35.923615,
+          "lng": 127.416649,
+          "ele": 969.202
+        },
+        {
+          "lat": 35.923115,
+          "lng": 127.416733,
+          "ele": 1006.586
+        }
+      ],
+      "color": "#045aa4",
+      "start_name": "갈림길 / 표지판",
+      "end_name": "구봉산",
+      "length_meter": 64.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 38,
+      "path": [
+        {
+          "lat": 35.923115,
+          "lng": 127.416733,
+          "ele": 1006.586
+        },
+        {
+          "lat": 35.925625,
+          "lng": 127.420578,
+          "ele": 799.56
+        }
+      ],
+      "color": "#8b2b6e",
+      "start_name": "구봉산",
+      "end_name": "갈림길",
+      "length_meter": 444.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 39,
+      "path": [
+        {
+          "lat": 35.925625,
+          "lng": 127.420578,
+          "ele": 799.56
+        },
+        {
+          "lat": 35.927521,
+          "lng": 127.423943,
+          "ele": 770.961
+        }
+      ],
+      "color": "#8fb64c",
+      "start_name": "갈림길 / 웨이포인트 72",
+      "end_name": "구봉산5봉",
+      "length_meter": 369.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 40,
+      "path": [
+        {
+          "lat": 35.927521,
+          "lng": 127.423943,
+          "ele": 770.961
+        },
+        {
+          "lat": 35.927906,
+          "lng": 127.425209,
+          "ele": 771.088
+        }
+      ],
+      "color": "#c1555b",
+      "start_name": "구봉산5봉 / 출렁다리 / 웨이포인트 75",
+      "end_name": "표지판",
+      "length_meter": 123.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 41,
+      "path": [
+        {
+          "lat": 35.927906,
+          "lng": 127.425209,
+          "ele": 771.088
+        },
+        {
+          "lat": 35.928066,
+          "lng": 127.426559,
+          "ele": 769.219
+        }
+      ],
+      "color": "#066c60",
+      "start_name": "표지판 / 쉼터",
+      "end_name": "3봉",
+      "length_meter": 124.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 42,
+      "path": [
+        {
+          "lat": 35.928066,
+          "lng": 127.426559,
+          "ele": 769.219
+        },
+        {
+          "lat": 35.927521,
+          "lng": 127.42804,
+          "ele": 756.056
+        }
+      ],
+      "color": "#c6820a",
+      "start_name": "3봉 / 웨이포인트 79",
+      "end_name": "ㅣ봉",
+      "length_meter": 150.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 43,
+      "path": [
+        {
+          "lat": 35.927521,
+          "lng": 127.42804,
+          "ele": 756.056
+        },
+        {
+          "lat": 35.927601,
+          "lng": 127.428101,
+          "ele": 752.069
+        }
+      ],
+      "color": "#4098b5",
+      "start_name": "ㅣ봉",
+      "end_name": "2봉가는길",
+      "length_meter": 10.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 44,
+      "path": [
+        {
+          "lat": 35.927601,
+          "lng": 127.428101,
+          "ele": 752.069
+        },
+        {
+          "lat": 35.926762,
+          "lng": 127.42749,
+          "ele": 727.529
+        }
+      ],
+      "color": "#ab0fc7",
+      "start_name": "2봉가는길 / 갈림길",
+      "end_name": "웨이포인트 84",
+      "length_meter": 175.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 45,
+      "path": [
+        {
+          "lat": 35.926762,
+          "lng": 127.42749,
+          "ele": 727.529
+        },
+        {
+          "lat": 35.925739,
+          "lng": 127.428299,
+          "ele": 686.376
+        }
+      ],
+      "color": "#31238d",
+      "start_name": "웨이포인트 84",
+      "end_name": "슆터",
+      "length_meter": 135.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 46,
+      "path": [
+        {
+          "lat": 35.925739,
+          "lng": 127.428299,
+          "ele": 686.376
+        },
+        {
+          "lat": 35.924458,
+          "lng": 127.428986,
+          "ele": 608.206
+        }
+      ],
+      "color": "#740656",
+      "start_name": "슆터",
+      "end_name": "쉼터",
+      "length_meter": 155.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 47,
+      "path": [
+        {
+          "lat": 35.924458,
+          "lng": 127.428986,
+          "ele": 608.206
+        },
+        {
+          "lat": 35.922768,
+          "lng": 127.432884,
+          "ele": 442.357
+        }
+      ],
+      "color": "#c73d70",
+      "start_name": "쉼터 / 표지판",
+      "end_name": "웨이포인트 89",
+      "length_meter": 401.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 48,
+      "path": [
+        {
+          "lat": 35.922768,
+          "lng": 127.432884,
+          "ele": 442.357
+        },
+        {
+          "lat": 35.922462,
+          "lng": 127.433784,
+          "ele": 415.628
+        }
+      ],
+      "color": "#4f8b7d",
+      "start_name": "웨이포인트 89",
+      "end_name": "갈림길",
+      "length_meter": 87.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 49,
+      "path": [
+        {
+          "lat": 35.922462,
+          "lng": 127.433784,
+          "ele": 415.628
+        },
+        {
+          "lat": 35.923447,
+          "lng": 127.435623,
+          "ele": 377.508
+        }
+      ],
+      "color": "#9835c5",
+      "start_name": "갈림길",
+      "end_name": "날머리",
+      "length_meter": 198.5,
+      "time_minute": 2
+    }
+  ]
+}

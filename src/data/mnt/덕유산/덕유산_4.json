@@ -1,0 +1,195 @@
+{
+  "mnt_id": 23,
+  "mnt_name": "덕유산",
+  "course_id": 59,
+  "max_ele": 1615.841,
+  "total_length_km": "6.1km",
+  "total_time": "1시간 15분",
+  "start_name": "송계사 입구",
+  "end_name": "중봉",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.832733,
+          "lng": 127.799553,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.834129,
+          "lng": 127.795052,
+          "ele": 611.901
+        }
+      ],
+      "color": "#04347a",
+      "start_name": "송계사 입구 / 거창시내버스 / 덕유산국립공원 남덕유분소",
+      "end_name": "휴게 데크",
+      "length_meter": 435.8,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.834129,
+          "lng": 127.795052,
+          "ele": 611.901
+        },
+        {
+          "lat": 35.835388,
+          "lng": 127.791313,
+          "ele": 678.904
+        }
+      ],
+      "color": "#682cb3",
+      "start_name": "휴게 데크 / 갈림길",
+      "end_name": "낙석위험",
+      "length_meter": 365.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.835388,
+          "lng": 127.791313,
+          "ele": 678.904
+        },
+        {
+          "lat": 35.834606,
+          "lng": 127.789024,
+          "ele": 714.749
+        }
+      ],
+      "color": "#36051a",
+      "start_name": "낙석위험",
+      "end_name": "갈림길",
+      "length_meter": 223.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.834606,
+          "lng": 127.789024,
+          "ele": 714.749
+        },
+        {
+          "lat": 35.837074,
+          "lng": 127.780899,
+          "ele": 973.29
+        }
+      ],
+      "color": "#7674b2",
+      "start_name": "갈림길 / 낙석위험",
+      "end_name": "송계쉼터",
+      "length_meter": 785.4,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.837074,
+          "lng": 127.780899,
+          "ele": 973.29
+        },
+        {
+          "lat": 35.839741,
+          "lng": 127.752899,
+          "ele": 1400.601
+        }
+      ],
+      "color": "#68090b",
+      "start_name": "송계쉼터",
+      "end_name": "이동통신 통화불능지역",
+      "length_meter": 2541.4,
+      "time_minute": 31
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.839741,
+          "lng": 127.752899,
+          "ele": 1400.601
+        },
+        {
+          "lat": 35.84383,
+          "lng": 127.745125,
+          "ele": 1518.288
+        }
+      ],
+      "color": "#073f8c",
+      "start_name": "이동통신 통화불능지역",
+      "end_name": "갈림길",
+      "length_meter": 835.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.84383,
+          "lng": 127.745125,
+          "ele": 1518.288
+        },
+        {
+          "lat": 35.843872,
+          "lng": 127.745079,
+          "ele": 1510.818
+        }
+      ],
+      "color": "#b97085",
+      "start_name": "갈림길",
+      "end_name": "백암봉",
+      "length_meter": 6.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.843872,
+          "lng": 127.745079,
+          "ele": 1510.818
+        },
+        {
+          "lat": 35.851479,
+          "lng": 127.747429,
+          "ele": 1607.273
+        }
+      ],
+      "color": "#622c76",
+      "start_name": "백암봉",
+      "end_name": "갈림길",
+      "length_meter": 872.0,
+      "time_minute": 10
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.851479,
+          "lng": 127.747429,
+          "ele": 1607.273
+        },
+        {
+          "lat": 35.851547,
+          "lng": 127.747353,
+          "ele": 1615.841
+        }
+      ],
+      "color": "#c0944b",
+      "start_name": "갈림길",
+      "end_name": "중봉",
+      "length_meter": 10.2,
+      "time_minute": 0
+    }
+  ]
+}

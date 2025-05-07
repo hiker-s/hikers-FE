@@ -1,0 +1,435 @@
+{
+  "mnt_id": 17,
+  "mnt_name": "남산",
+  "course_id": 43,
+  "max_ele": 498.526,
+  "total_length_km": "6.9km",
+  "total_time": "1시간 25분",
+  "start_name": "남산유적안내소",
+  "end_name": "용장휴게소",
+  "level": "중",
+  "course_name": "탄력등산 코스",
+  "min_ele": 75.548,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.798897,
+          "lng": 129.206741,
+          "ele": 75.548
+        },
+        {
+          "lat": 35.802559,
+          "lng": 129.208572,
+          "ele": 81.66
+        }
+      ],
+      "color": "#73633b",
+      "start_name": "남산유적안내소 / 서남산주차장",
+      "end_name": "삼불사",
+      "length_meter": 447.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.802559,
+          "lng": 129.208572,
+          "ele": 81.66
+        },
+        {
+          "lat": 35.802261,
+          "lng": 129.209778,
+          "ele": 81.709
+        }
+      ],
+      "color": "#8c8cbe",
+      "start_name": "삼불사",
+      "end_name": "삼불사주차장",
+      "length_meter": 113.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.802261,
+          "lng": 129.209778,
+          "ele": 81.709
+        },
+        {
+          "lat": 35.801697,
+          "lng": 129.210938,
+          "ele": 83.591
+        }
+      ],
+      "color": "#aa45b9",
+      "start_name": "삼불사주차장 / 경주 배동석조여래삼존입상",
+      "end_name": "배리석불입상",
+      "length_meter": 138.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.801697,
+          "lng": 129.210938,
+          "ele": 83.591
+        },
+        {
+          "lat": 35.801582,
+          "lng": 129.212555,
+          "ele": 89.742
+        }
+      ],
+      "color": "#a93fbd",
+      "start_name": "배리석불입상",
+      "end_name": "선방곡석불입상",
+      "length_meter": 146.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.801582,
+          "lng": 129.212555,
+          "ele": 89.742
+        },
+        {
+          "lat": 35.801865,
+          "lng": 129.21077,
+          "ele": 95.68
+        }
+      ],
+      "color": "#4a402f",
+      "start_name": "선방곡석불입상 / 갈림길",
+      "end_name": "단풍나무",
+      "length_meter": 166.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.801865,
+          "lng": 129.21077,
+          "ele": 95.68
+        },
+        {
+          "lat": 35.798859,
+          "lng": 129.209839,
+          "ele": 93.187
+        }
+      ],
+      "color": "#5c4e04",
+      "start_name": "단풍나무 / 망월사",
+      "end_name": "공동묘지",
+      "length_meter": 354.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.798859,
+          "lng": 129.209839,
+          "ele": 93.187
+        },
+        {
+          "lat": 35.797394,
+          "lng": 129.208435,
+          "ele": 94.304
+        }
+      ],
+      "color": "#22a108",
+      "start_name": "공동묘지 / 갈림길",
+      "end_name": "경주배동 삼릉",
+      "length_meter": 214.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.797394,
+          "lng": 129.208435,
+          "ele": 94.304
+        },
+        {
+          "lat": 35.796936,
+          "lng": 129.214905,
+          "ele": 114.948
+        }
+      ],
+      "color": "#9f2e55",
+      "start_name": "경주배동 삼릉 / 삼릉숲 / 배동 삼릉",
+      "end_name": "삼릉곡 제사지 석조여래좌상",
+      "length_meter": 599.4,
+      "time_minute": 9
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.796936,
+          "lng": 129.214905,
+          "ele": 114.948
+        },
+        {
+          "lat": 35.796246,
+          "lng": 129.21582,
+          "ele": 145.478
+        }
+      ],
+      "color": "#928a6e",
+      "start_name": "삼릉곡 제사지 석조여래좌상",
+      "end_name": "삼릉계곡육존불",
+      "length_meter": 112.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.796246,
+          "lng": 129.21582,
+          "ele": 145.478
+        },
+        {
+          "lat": 35.795177,
+          "lng": 129.217163,
+          "ele": 164.628
+        }
+      ],
+      "color": "#9d925f",
+      "start_name": "삼릉계곡육존불",
+      "end_name": "삼릉계 삼층석탑",
+      "length_meter": 169.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.795177,
+          "lng": 129.217163,
+          "ele": 164.628
+        },
+        {
+          "lat": 35.795074,
+          "lng": 129.218384,
+          "ele": 188.214
+        }
+      ],
+      "color": "#854938",
+      "start_name": "삼릉계 삼층석탑",
+      "end_name": "갈림길",
+      "length_meter": 110.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.795074,
+          "lng": 129.218384,
+          "ele": 188.214
+        },
+        {
+          "lat": 35.795021,
+          "lng": 129.221741,
+          "ele": 294.255
+        }
+      ],
+      "color": "#431551",
+      "start_name": "갈림길 / 삼릉계 석조여래좌상 / 삼릉곡 제6사지 석탑터",
+      "end_name": "상선암",
+      "length_meter": 378.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.795021,
+          "lng": 129.221741,
+          "ele": 294.255
+        },
+        {
+          "lat": 35.795708,
+          "lng": 129.221832,
+          "ele": 361.98
+        }
+      ],
+      "color": "#440aa4",
+      "start_name": "상선암 / 갈림길",
+      "end_name": "마애석가여래좌상",
+      "length_meter": 122.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.795708,
+          "lng": 129.221832,
+          "ele": 361.98
+        },
+        {
+          "lat": 35.79583,
+          "lng": 129.22197,
+          "ele": 396.791
+        }
+      ],
+      "color": "#af7825",
+      "start_name": "마애석가여래좌상 / 바둑바위",
+      "end_name": "금송정터",
+      "length_meter": 116.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.79583,
+          "lng": 129.22197,
+          "ele": 396.791
+        },
+        {
+          "lat": 35.787678,
+          "lng": 129.222763,
+          "ele": 498.526
+        }
+      ],
+      "color": "#823fb6",
+      "start_name": "금송정터 / 냉골바위산 / 자연경관",
+      "end_name": "비파골의 전설",
+      "length_meter": 931.2,
+      "time_minute": 15
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.787678,
+          "lng": 129.222763,
+          "ele": 498.526
+        },
+        {
+          "lat": 35.781605,
+          "lng": 129.222931,
+          "ele": 464.16
+        }
+      ],
+      "color": "#06b2a5",
+      "start_name": "비파골의 전설",
+      "end_name": "자연경관",
+      "length_meter": 675.5,
+      "time_minute": 8
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.781605,
+          "lng": 129.222931,
+          "ele": 464.16
+        },
+        {
+          "lat": 35.780891,
+          "lng": 129.223221,
+          "ele": 424.281
+        }
+      ],
+      "color": "#954b43",
+      "start_name": "자연경관 / 고위봉 / 용장사곡 삼층석탑",
+      "end_name": "고위봉",
+      "length_meter": 83.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.780891,
+          "lng": 129.223221,
+          "ele": 424.281
+        },
+        {
+          "lat": 35.777596,
+          "lng": 129.221603,
+          "ele": 264.275
+        }
+      ],
+      "color": "#81594d",
+      "start_name": "고위봉 / 용장사지 석조여래좌상 / 용장사지 마애여래좌상",
+      "end_name": "자연경관",
+      "length_meter": 425.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.777596,
+          "lng": 129.221603,
+          "ele": 264.275
+        },
+        {
+          "lat": 35.774857,
+          "lng": 129.210693,
+          "ele": 160.252
+        }
+      ],
+      "color": "#0d1761",
+      "start_name": "자연경관",
+      "end_name": "남산 안내도",
+      "length_meter": 1030.3,
+      "time_minute": 12
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.774857,
+          "lng": 129.210693,
+          "ele": 160.252
+        },
+        {
+          "lat": 35.775043,
+          "lng": 129.209763,
+          "ele": 149.788
+        }
+      ],
+      "color": "#996c20",
+      "start_name": "남산 안내도",
+      "end_name": "달작",
+      "length_meter": 86.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.775043,
+          "lng": 129.209763,
+          "ele": 149.788
+        },
+        {
+          "lat": 35.775208,
+          "lng": 129.205032,
+          "ele": 131.653
+        }
+      ],
+      "color": "#1fb267",
+      "start_name": "달작",
+      "end_name": "용장휴게소",
+      "length_meter": 427.2,
+      "time_minute": 5
+    }
+  ]
+}

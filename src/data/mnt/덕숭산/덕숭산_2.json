@@ -1,0 +1,115 @@
+{
+  "mnt_id": 22,
+  "mnt_name": "덕숭산",
+  "course_id": 57,
+  "max_ele": 510.0,
+  "total_length_km": "2.3km",
+  "total_time": "0시간 29분",
+  "start_name": "수덕사주차장",
+  "end_name": "덕숭산정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 118.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.656025,
+          "lng": 126.621315,
+          "ele": 118.0
+        },
+        {
+          "lat": 36.656517,
+          "lng": 126.621284,
+          "ele": 118.0
+        }
+      ],
+      "color": "#911a25",
+      "start_name": "수덕사주차장",
+      "end_name": "갈림길",
+      "length_meter": 54.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.656517,
+          "lng": 126.621284,
+          "ele": 118.0
+        },
+        {
+          "lat": 36.662495,
+          "lng": 126.619438,
+          "ele": 182.0
+        }
+      ],
+      "color": "#72143b",
+      "start_name": "갈림길",
+      "end_name": "관광자원",
+      "length_meter": 684.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.662495,
+          "lng": 126.619438,
+          "ele": 182.0
+        },
+        {
+          "lat": 36.662708,
+          "lng": 126.615768,
+          "ele": 258.0
+        }
+      ],
+      "color": "#3d5680",
+      "start_name": "관광자원",
+      "end_name": "쉼터",
+      "length_meter": 328.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.662708,
+          "lng": 126.615768,
+          "ele": 258.0
+        },
+        {
+          "lat": 36.666767,
+          "lng": 126.620583,
+          "ele": 317.0
+        }
+      ],
+      "color": "#567f5a",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 623.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.666767,
+          "lng": 126.620583,
+          "ele": 317.0
+        },
+        {
+          "lat": 36.671715,
+          "lng": 126.624367,
+          "ele": 510.0
+        }
+      ],
+      "color": "#33ad90",
+      "start_name": "갈림길",
+      "end_name": "덕숭산정상",
+      "length_meter": 645.5,
+      "time_minute": 8
+    }
+  ]
+}

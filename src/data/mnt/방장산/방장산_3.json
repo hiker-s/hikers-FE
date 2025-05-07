@@ -1,0 +1,495 @@
+{
+  "mnt_id": 38,
+  "mnt_name": "방장산",
+  "course_id": 98,
+  "max_ele": 764.82,
+  "total_length_km": "6.1km",
+  "total_time": "1시간 16분",
+  "start_name": "갈림길",
+  "end_name": "쓰리봉",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.434914,
+          "lng": 126.751534,
+          "ele": 325.971
+        },
+        {
+          "lat": 35.435982,
+          "lng": 126.751472,
+          "ele": 329.575
+        }
+      ],
+      "color": "#3aa611",
+      "start_name": "갈림길",
+      "end_name": "원격제어자동염수분사장치",
+      "length_meter": 118.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.435982,
+          "lng": 126.751472,
+          "ele": 329.575
+        },
+        {
+          "lat": 35.437088,
+          "lng": 126.750931,
+          "ele": 371.318
+        }
+      ],
+      "color": "#6f3344",
+      "start_name": "원격제어자동염수분사장치 / 양고살재 / 쉼터",
+      "end_name": "자연경관",
+      "length_meter": 132.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.437088,
+          "lng": 126.750931,
+          "ele": 371.318
+        },
+        {
+          "lat": 35.437195,
+          "lng": 126.750038,
+          "ele": 389.792
+        }
+      ],
+      "color": "#98433d",
+      "start_name": "자연경관",
+      "end_name": "쉼터",
+      "length_meter": 81.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.437195,
+          "lng": 126.750038,
+          "ele": 389.792
+        },
+        {
+          "lat": 35.437889,
+          "lng": 126.74881,
+          "ele": 432.474
+        }
+      ],
+      "color": "#2a637e",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 135.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.437889,
+          "lng": 126.74881,
+          "ele": 432.474
+        },
+        {
+          "lat": 35.43914,
+          "lng": 126.748062,
+          "ele": 0.0
+        }
+      ],
+      "color": "#241063",
+      "start_name": "갈림길",
+      "end_name": "방장사",
+      "length_meter": 154.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.43914,
+          "lng": 126.748062,
+          "ele": 0.0
+        },
+        {
+          "lat": 35.44054,
+          "lng": 126.746407,
+          "ele": 545.393
+        }
+      ],
+      "color": "#42780c",
+      "start_name": "방장사",
+      "end_name": "갈림길",
+      "length_meter": 216.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.44054,
+          "lng": 126.746407,
+          "ele": 545.393
+        },
+        {
+          "lat": 35.440529,
+          "lng": 126.746155,
+          "ele": 547.049
+        }
+      ],
+      "color": "#99ad09",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 22.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.440529,
+          "lng": 126.746155,
+          "ele": 547.049
+        },
+        {
+          "lat": 35.440708,
+          "lng": 126.744438,
+          "ele": 584.757
+        }
+      ],
+      "color": "#93684c",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 156.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.440708,
+          "lng": 126.744438,
+          "ele": 584.757
+        },
+        {
+          "lat": 35.44289,
+          "lng": 126.742599,
+          "ele": 561.628
+        }
+      ],
+      "color": "#32a967",
+      "start_name": "갈림길 / 갈미봉 / 자연경관",
+      "end_name": "쉼터",
+      "length_meter": 299.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.44289,
+          "lng": 126.742599,
+          "ele": 561.628
+        },
+        {
+          "lat": 35.447117,
+          "lng": 126.739883,
+          "ele": 617.669
+        }
+      ],
+      "color": "#484548",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "교차지점",
+      "length_meter": 530.7,
+      "time_minute": 8
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.447117,
+          "lng": 126.739883,
+          "ele": 617.669
+        },
+        {
+          "lat": 35.448017,
+          "lng": 126.738533,
+          "ele": 650.565
+        }
+      ],
+      "color": "#9c4c15",
+      "start_name": "교차지점",
+      "end_name": "방문산 벽오봉",
+      "length_meter": 158.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.448017,
+          "lng": 126.738533,
+          "ele": 650.565
+        },
+        {
+          "lat": 35.448631,
+          "lng": 126.738235,
+          "ele": 644.712
+        }
+      ],
+      "color": "#bc099c",
+      "start_name": "방문산 벽오봉 / 자연경관",
+      "end_name": "방장산 시산제제단,방등산가비,산악자전거 종합안내도",
+      "length_meter": 73.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.448631,
+          "lng": 126.738235,
+          "ele": 644.712
+        },
+        {
+          "lat": 35.448689,
+          "lng": 126.738251,
+          "ele": 642.557
+        }
+      ],
+      "color": "#a78340",
+      "start_name": "방장산 시산제제단,방등산가비,산악자전거 종합안내도",
+      "end_name": "산악자전거종합안내도",
+      "length_meter": 6.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.448689,
+          "lng": 126.738251,
+          "ele": 642.557
+        },
+        {
+          "lat": 35.449165,
+          "lng": 126.738106,
+          "ele": 646.524
+        }
+      ],
+      "color": "#1f3781",
+      "start_name": "산악자전거종합안내도 / 갈림길 / 쉼터 / 억새봉 / 큰솔봉 방장산",
+      "end_name": "신림저수지",
+      "length_meter": 61.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.449165,
+          "lng": 126.738106,
+          "ele": 646.524
+        },
+        {
+          "lat": 35.450783,
+          "lng": 126.739838,
+          "ele": 580.42
+        }
+      ],
+      "color": "#b85ca1",
+      "start_name": "신림저수지 / 패러글라이딩 활공장",
+      "end_name": "임도와 등산로",
+      "length_meter": 239.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.450783,
+          "lng": 126.739838,
+          "ele": 580.42
+        },
+        {
+          "lat": 35.45256,
+          "lng": 126.741158,
+          "ele": 637.348
+        }
+      ],
+      "color": "#69812f",
+      "start_name": "임도와 등산로 / 갈림길 / 쉼터",
+      "end_name": "신선봉 (큰솔봉)",
+      "length_meter": 231.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.45256,
+          "lng": 126.741158,
+          "ele": 637.348
+        },
+        {
+          "lat": 35.452488,
+          "lng": 126.741402,
+          "ele": 630.279
+        }
+      ],
+      "color": "#10370d",
+      "start_name": "신선봉 (큰솔봉)",
+      "end_name": "자연경관",
+      "length_meter": 23.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.452488,
+          "lng": 126.741402,
+          "ele": 630.279
+        },
+        {
+          "lat": 35.450954,
+          "lng": 126.745972,
+          "ele": 550.648
+        }
+      ],
+      "color": "#7e35a2",
+      "start_name": "자연경관",
+      "end_name": "갈림길",
+      "length_meter": 447.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.450954,
+          "lng": 126.745972,
+          "ele": 550.648
+        },
+        {
+          "lat": 35.462021,
+          "lng": 126.758575,
+          "ele": 673.641
+        }
+      ],
+      "color": "#3e3678",
+      "start_name": "갈림길",
+      "end_name": "자연경관",
+      "length_meter": 1678.5,
+      "time_minute": 20
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.462021,
+          "lng": 126.758575,
+          "ele": 673.641
+        },
+        {
+          "lat": 35.464394,
+          "lng": 126.761177,
+          "ele": 698.011
+        }
+      ],
+      "color": "#7d854c",
+      "start_name": "자연경관",
+      "end_name": "서대봉 큰바위",
+      "length_meter": 353.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.464394,
+          "lng": 126.761177,
+          "ele": 698.011
+        },
+        {
+          "lat": 35.465961,
+          "lng": 126.765953,
+          "ele": 678.236
+        }
+      ],
+      "color": "#8252a6",
+      "start_name": "서대봉 큰바위",
+      "end_name": "자연경관",
+      "length_meter": 466.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.465961,
+          "lng": 126.765953,
+          "ele": 678.236
+        },
+        {
+          "lat": 35.466587,
+          "lng": 126.770592,
+          "ele": 741.543
+        }
+      ],
+      "color": "#448627",
+      "start_name": "자연경관",
+      "end_name": "산초",
+      "length_meter": 425.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 35.466587,
+          "lng": 126.770592,
+          "ele": 741.543
+        },
+        {
+          "lat": 35.467342,
+          "lng": 126.77137,
+          "ele": 757.107
+        }
+      ],
+      "color": "#c2b06c",
+      "start_name": "산초",
+      "end_name": "갈림길",
+      "length_meter": 109.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 35.467342,
+          "lng": 126.77137,
+          "ele": 757.107
+        },
+        {
+          "lat": 35.467354,
+          "lng": 126.771538,
+          "ele": 758.574
+        }
+      ],
+      "color": "#144fa1",
+      "start_name": "갈림길 / 자연경관",
+      "end_name": "쓰리봉",
+      "length_meter": 16.1,
+      "time_minute": 0
+    }
+  ]
+}

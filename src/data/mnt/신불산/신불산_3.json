@@ -1,0 +1,195 @@
+{
+  "mnt_id": 56,
+  "mnt_name": "신불산",
+  "course_id": 156,
+  "max_ele": 910.283,
+  "total_length_km": "1.4km",
+  "total_time": "0시간 17분",
+  "start_name": "안전구족목",
+  "end_name": "자연경과",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 433.231,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.556694,
+          "lng": 129.060852,
+          "ele": 433.231
+        },
+        {
+          "lat": 35.555706,
+          "lng": 129.058289,
+          "ele": 521.21
+        }
+      ],
+      "color": "#a71980",
+      "start_name": "안전구족목",
+      "end_name": "갈림길",
+      "length_meter": 256.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.555706,
+          "lng": 129.058289,
+          "ele": 521.21
+        },
+        {
+          "lat": 35.555176,
+          "lng": 129.057205,
+          "ele": 557.696
+        }
+      ],
+      "color": "#356353",
+      "start_name": "갈림길 / 위험",
+      "end_name": "안전구조목과구급함",
+      "length_meter": 114.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.555176,
+          "lng": 129.057205,
+          "ele": 557.696
+        },
+        {
+          "lat": 35.554943,
+          "lng": 129.054504,
+          "ele": 621.442
+        }
+      ],
+      "color": "#6b8e53",
+      "start_name": "안전구조목과구급함",
+      "end_name": "자연경관",
+      "length_meter": 245.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.554943,
+          "lng": 129.054504,
+          "ele": 621.442
+        },
+        {
+          "lat": 35.55442,
+          "lng": 129.052795,
+          "ele": 653.461
+        }
+      ],
+      "color": "#bd3741",
+      "start_name": "자연경관",
+      "end_name": "갈림길",
+      "length_meter": 165.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.55442,
+          "lng": 129.052795,
+          "ele": 653.461
+        },
+        {
+          "lat": 35.553596,
+          "lng": 129.05217,
+          "ele": 713.223
+        }
+      ],
+      "color": "#30161a",
+      "start_name": "갈림길",
+      "end_name": "위험",
+      "length_meter": 107.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.553596,
+          "lng": 129.05217,
+          "ele": 713.223
+        },
+        {
+          "lat": 35.552349,
+          "lng": 129.049622,
+          "ele": 821.446
+        }
+      ],
+      "color": "#6a1312",
+      "start_name": "위험 / 갈림길 / 자연경관",
+      "end_name": "안전구조목",
+      "length_meter": 277.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.552349,
+          "lng": 129.049622,
+          "ele": 821.446
+        },
+        {
+          "lat": 35.552048,
+          "lng": 129.049042,
+          "ele": 877.2
+        }
+      ],
+      "color": "#4d1f0e",
+      "start_name": "안전구조목 / 위험 / 험로",
+      "end_name": "자연경관",
+      "length_meter": 62.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.552048,
+          "lng": 129.049042,
+          "ele": 877.2
+        },
+        {
+          "lat": 35.551338,
+          "lng": 129.047836,
+          "ele": 908.938
+        }
+      ],
+      "color": "#24882a",
+      "start_name": "자연경관 / 위험 / 자연경관",
+      "end_name": "안전구조목과구급함",
+      "length_meter": 135.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.551338,
+          "lng": 129.047836,
+          "ele": 908.938
+        },
+        {
+          "lat": 35.551334,
+          "lng": 129.047836,
+          "ele": 910.283
+        }
+      ],
+      "color": "#92a44e",
+      "start_name": "안전구조목과구급함",
+      "end_name": "자연경과",
+      "length_meter": 0.4,
+      "time_minute": 0
+    }
+  ]
+}

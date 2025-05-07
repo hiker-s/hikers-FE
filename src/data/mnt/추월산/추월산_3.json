@@ -1,0 +1,335 @@
+{
+  "mnt_id": 83,
+  "mnt_name": "추월산",
+  "course_id": 213,
+  "max_ele": 750.925,
+  "total_length_km": "4.1km",
+  "total_time": "0시간 51분",
+  "start_name": "들머리",
+  "end_name": "수리봉 정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 160.564,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.401367,
+          "lng": 126.998718,
+          "ele": 160.564
+        },
+        {
+          "lat": 35.401196,
+          "lng": 126.998215,
+          "ele": 178.245
+        }
+      ],
+      "color": "#04970f",
+      "start_name": "들머리",
+      "end_name": "쉼터",
+      "length_meter": 49.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.401196,
+          "lng": 126.998215,
+          "ele": 178.245
+        },
+        {
+          "lat": 35.400036,
+          "lng": 126.996132,
+          "ele": 217.524
+        }
+      ],
+      "color": "#312b12",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 228.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.400036,
+          "lng": 126.996132,
+          "ele": 217.524
+        },
+        {
+          "lat": 35.399216,
+          "lng": 126.994888,
+          "ele": 249.061
+        }
+      ],
+      "color": "#39674a",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "돌탑",
+      "length_meter": 145.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.399216,
+          "lng": 126.994888,
+          "ele": 249.061
+        },
+        {
+          "lat": 35.398613,
+          "lng": 126.993111,
+          "ele": 314.192
+        }
+      ],
+      "color": "#417a4a",
+      "start_name": "돌탑",
+      "end_name": "쉼터",
+      "length_meter": 174.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.398613,
+          "lng": 126.993111,
+          "ele": 314.192
+        },
+        {
+          "lat": 35.397884,
+          "lng": 126.991959,
+          "ele": 379.178
+        }
+      ],
+      "color": "#a19a30",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 132.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.397884,
+          "lng": 126.991959,
+          "ele": 379.178
+        },
+        {
+          "lat": 35.397949,
+          "lng": 126.990723,
+          "ele": 463.337
+        }
+      ],
+      "color": "#910b2a",
+      "start_name": "갈림길 / 쉼터 / 동굴",
+      "end_name": "전망대",
+      "length_meter": 118.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.397949,
+          "lng": 126.990723,
+          "ele": 463.337
+        },
+        {
+          "lat": 35.397835,
+          "lng": 126.989548,
+          "ele": 560.729
+        }
+      ],
+      "color": "#4c7ab1",
+      "start_name": "전망대",
+      "end_name": "갈림길",
+      "length_meter": 107.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.397835,
+          "lng": 126.989548,
+          "ele": 560.729
+        },
+        {
+          "lat": 35.397118,
+          "lng": 126.9897,
+          "ele": 558.433
+        }
+      ],
+      "color": "#a75466",
+      "start_name": "갈림길",
+      "end_name": "약수터",
+      "length_meter": 80.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.397118,
+          "lng": 126.9897,
+          "ele": 558.433
+        },
+        {
+          "lat": 35.395859,
+          "lng": 126.987854,
+          "ele": 714.231
+        }
+      ],
+      "color": "#b5b697",
+      "start_name": "약수터 / 보리암",
+      "end_name": "전망대",
+      "length_meter": 234.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.395859,
+          "lng": 126.987854,
+          "ele": 714.231
+        },
+        {
+          "lat": 35.395744,
+          "lng": 126.987823,
+          "ele": 722.929
+        }
+      ],
+      "color": "#96a214",
+      "start_name": "전망대 / 갈림길",
+      "end_name": "보리암정상",
+      "length_meter": 14.2,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.395744,
+          "lng": 126.987823,
+          "ele": 722.929
+        },
+        {
+          "lat": 35.398449,
+          "lng": 126.981689,
+          "ele": 684.93
+        }
+      ],
+      "color": "#91bc9b",
+      "start_name": "보리암정상",
+      "end_name": "갈림길",
+      "length_meter": 632.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.398449,
+          "lng": 126.981689,
+          "ele": 684.93
+        },
+        {
+          "lat": 35.398281,
+          "lng": 126.981354,
+          "ele": 685.146
+        }
+      ],
+      "color": "#4ac54f",
+      "start_name": "갈림길",
+      "end_name": "헬기장",
+      "length_meter": 35.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.398281,
+          "lng": 126.981354,
+          "ele": 685.146
+        },
+        {
+          "lat": 35.400036,
+          "lng": 126.976639,
+          "ele": 742.165
+        }
+      ],
+      "color": "#4d9488",
+      "start_name": "헬기장",
+      "end_name": "갈림길",
+      "length_meter": 469.8,
+      "time_minute": 5
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.400036,
+          "lng": 126.976639,
+          "ele": 742.165
+        },
+        {
+          "lat": 35.399929,
+          "lng": 126.976128,
+          "ele": 750.925
+        }
+      ],
+      "color": "#7528a9",
+      "start_name": "갈림길",
+      "end_name": "추월산정상",
+      "length_meter": 47.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.399929,
+          "lng": 126.976128,
+          "ele": 750.925
+        },
+        {
+          "lat": 35.403183,
+          "lng": 126.97702,
+          "ele": 684.52
+        }
+      ],
+      "color": "#585802",
+      "start_name": "추월산정상",
+      "end_name": "갈림길",
+      "length_meter": 370.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.403183,
+          "lng": 126.97702,
+          "ele": 684.52
+        },
+        {
+          "lat": 35.413807,
+          "lng": 126.971672,
+          "ele": 749.304
+        }
+      ],
+      "color": "#71284f",
+      "start_name": "갈림길",
+      "end_name": "수리봉 정상",
+      "length_meter": 1276.9,
+      "time_minute": 15
+    }
+  ]
+}

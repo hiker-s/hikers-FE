@@ -1,0 +1,295 @@
+{
+  "mnt_id": 82,
+  "mnt_name": "청량산",
+  "course_id": 211,
+  "max_ele": 875.107,
+  "total_length_km": "4.7km",
+  "total_time": "0시간 58분",
+  "start_name": "산성입구",
+  "end_name": "청량산 휴게소",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 426.876,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.780079,
+          "lng": 128.927841,
+          "ele": 440.727
+        },
+        {
+          "lat": 36.780067,
+          "lng": 128.927643,
+          "ele": 439.826
+        }
+      ],
+      "color": "#bf3fc3",
+      "start_name": "산성입구 / 산성입구 화장실 / 들머리 산성입구",
+      "end_name": "산성입구 쉼터",
+      "length_meter": 35.0,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.780067,
+          "lng": 128.927643,
+          "ele": 439.826
+        },
+        {
+          "lat": 36.777374,
+          "lng": 128.927246,
+          "ele": 496.382
+        }
+      ],
+      "color": "#520ca8",
+      "start_name": "산성입구 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 301.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.777374,
+          "lng": 128.927246,
+          "ele": 496.382
+        },
+        {
+          "lat": 36.778534,
+          "lng": 128.925018,
+          "ele": 615.471
+        }
+      ],
+      "color": "#8a5565",
+      "start_name": "갈림길",
+      "end_name": "밀성대 조망",
+      "length_meter": 236.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.778534,
+          "lng": 128.925018,
+          "ele": 615.471
+        },
+        {
+          "lat": 36.777328,
+          "lng": 128.91983,
+          "ele": 688.77
+        }
+      ],
+      "color": "#0a1f5b",
+      "start_name": "밀성대 조망",
+      "end_name": "청량사,응전전 조망",
+      "length_meter": 481.1,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.777328,
+          "lng": 128.91983,
+          "ele": 688.77
+        },
+        {
+          "lat": 36.77618,
+          "lng": 128.917709,
+          "ele": 789.001
+        }
+      ],
+      "color": "#616c83",
+      "start_name": "청량사,응전전 조망",
+      "end_name": "북문지 전망대",
+      "length_meter": 228.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.77618,
+          "lng": 128.917709,
+          "ele": 789.001
+        },
+        {
+          "lat": 36.776089,
+          "lng": 128.917618,
+          "ele": 788.834
+        }
+      ],
+      "color": "#6f7e16",
+      "start_name": "북문지 전망대",
+      "end_name": "위치정보",
+      "length_meter": 13.0,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.776089,
+          "lng": 128.917618,
+          "ele": 788.834
+        },
+        {
+          "lat": 36.774254,
+          "lng": 128.914886,
+          "ele": 823.213
+        }
+      ],
+      "color": "#919652",
+      "start_name": "위치정보",
+      "end_name": "갈림길",
+      "length_meter": 317.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.774254,
+          "lng": 128.914886,
+          "ele": 823.213
+        },
+        {
+          "lat": 36.77433,
+          "lng": 128.912964,
+          "ele": 875.107
+        }
+      ],
+      "color": "#320c6d",
+      "start_name": "갈림길 / 위치정보",
+      "end_name": "축융봉 해발 845.2m",
+      "length_meter": 172.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.77433,
+          "lng": 128.912964,
+          "ele": 875.107
+        },
+        {
+          "lat": 36.77618,
+          "lng": 128.924393,
+          "ele": 607.669
+        }
+      ],
+      "color": "#41b850",
+      "start_name": "축융봉 해발 845.2m / 갈림길",
+      "end_name": "위치정보",
+      "length_meter": 1076.9,
+      "time_minute": 17
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 36.77618,
+          "lng": 128.924393,
+          "ele": 607.669
+        },
+        {
+          "lat": 36.779991,
+          "lng": 128.927597,
+          "ele": 445.874
+        }
+      ],
+      "color": "#a864ab",
+      "start_name": "위치정보",
+      "end_name": "날머리 산성입구",
+      "length_meter": 510.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 36.779991,
+          "lng": 128.927597,
+          "ele": 445.874
+        },
+        {
+          "lat": 36.781143,
+          "lng": 128.924622,
+          "ele": 437.109
+        }
+      ],
+      "color": "#17c298",
+      "start_name": "날머리 산성입구",
+      "end_name": "갈림길",
+      "length_meter": 294.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 36.781143,
+          "lng": 128.924622,
+          "ele": 437.109
+        },
+        {
+          "lat": 36.781727,
+          "lng": 128.920486,
+          "ele": 426.876
+        }
+      ],
+      "color": "#301b37",
+      "start_name": "갈림길",
+      "end_name": "금탕봉,연화봉",
+      "length_meter": 374.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 36.781727,
+          "lng": 128.920486,
+          "ele": 426.876
+        },
+        {
+          "lat": 36.781391,
+          "lng": 128.924393,
+          "ele": 435.681
+        }
+      ],
+      "color": "#058e48",
+      "start_name": "금탕봉,연화봉",
+      "end_name": "입석쉼터",
+      "length_meter": 350.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 36.781391,
+          "lng": 128.924393,
+          "ele": 435.681
+        },
+        {
+          "lat": 36.780197,
+          "lng": 128.927643,
+          "ele": 437.475
+        }
+      ],
+      "color": "#04b773",
+      "start_name": "입석쉼터",
+      "end_name": "청량산 휴게소",
+      "length_meter": 318.4,
+      "time_minute": 3
+    }
+  ]
+}

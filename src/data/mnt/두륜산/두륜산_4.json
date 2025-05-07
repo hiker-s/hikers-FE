@@ -1,0 +1,295 @@
+{
+  "mnt_id": 27,
+  "mnt_name": "두륜산",
+  "course_id": 69,
+  "max_ele": 720.0,
+  "total_length_km": "3.5km",
+  "total_time": "0시간 43분",
+  "start_name": "오소재 약수터",
+  "end_name": "천년수",
+  "level": "중",
+  "course_name": "탄력등산 코스",
+  "min_ele": 183.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.484581,
+          "lng": 126.648979,
+          "ele": 192.0
+        },
+        {
+          "lat": 34.485252,
+          "lng": 126.649017,
+          "ele": 183.0
+        }
+      ],
+      "color": "#26b752",
+      "start_name": "오소재 약수터 / 오소재 주차장 / 오소재 탐방로",
+      "end_name": "두륜산  아내도",
+      "length_meter": 75.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.485252,
+          "lng": 126.649017,
+          "ele": 183.0
+        },
+        {
+          "lat": 34.479668,
+          "lng": 126.639015,
+          "ele": 381.0
+        }
+      ],
+      "color": "#c59955",
+      "start_name": "두륜산  아내도 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 1108.4,
+      "time_minute": 18
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.479668,
+          "lng": 126.639015,
+          "ele": 381.0
+        },
+        {
+          "lat": 34.477665,
+          "lng": 126.634781,
+          "ele": 478.0
+        }
+      ],
+      "color": "#91c331",
+      "start_name": "쉼터",
+      "end_name": "오심재 쉼터",
+      "length_meter": 447.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.477665,
+          "lng": 126.634781,
+          "ele": 478.0
+        },
+        {
+          "lat": 34.477669,
+          "lng": 126.634819,
+          "ele": 476.0
+        }
+      ],
+      "color": "#39be07",
+      "start_name": "오심재 쉼터",
+      "end_name": "오심재두륜산 도립공원 안내도",
+      "length_meter": 3.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.477669,
+          "lng": 126.634819,
+          "ele": 476.0
+        },
+        {
+          "lat": 34.475281,
+          "lng": 126.634651,
+          "ele": 564.0
+        }
+      ],
+      "color": "#ae9a78",
+      "start_name": "오심재두륜산 도립공원 안내도 / 갈림길",
+      "end_name": "흔들바위",
+      "length_meter": 267.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.475281,
+          "lng": 126.634651,
+          "ele": 564.0
+        },
+        {
+          "lat": 34.475296,
+          "lng": 126.634659,
+          "ele": 564.0
+        }
+      ],
+      "color": "#405b8f",
+      "start_name": "흔들바위",
+      "end_name": "흔들바위 바위",
+      "length_meter": 1.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.475296,
+          "lng": 126.634659,
+          "ele": 564.0
+        },
+        {
+          "lat": 34.474136,
+          "lng": 126.635544,
+          "ele": 579.0
+        }
+      ],
+      "color": "#0e2a98",
+      "start_name": "흔들바위 바위",
+      "end_name": "갈림길",
+      "length_meter": 152.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.474136,
+          "lng": 126.635544,
+          "ele": 579.0
+        },
+        {
+          "lat": 34.473335,
+          "lng": 126.636726,
+          "ele": 707.0
+        }
+      ],
+      "color": "#a9b725",
+      "start_name": "갈림길",
+      "end_name": "노승봉",
+      "length_meter": 140.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.473335,
+          "lng": 126.636726,
+          "ele": 707.0
+        },
+        {
+          "lat": 34.471867,
+          "lng": 126.637566,
+          "ele": 720.0
+        }
+      ],
+      "color": "#400a97",
+      "start_name": "노승봉 / 노승봉 조망점",
+      "end_name": "두륜산 (가련봉)",
+      "length_meter": 183.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.471867,
+          "lng": 126.637566,
+          "ele": 720.0
+        },
+        {
+          "lat": 34.469303,
+          "lng": 126.63533,
+          "ele": 562.0
+        }
+      ],
+      "color": "#0e9c16",
+      "start_name": "두륜산 (가련봉)",
+      "end_name": "만일재",
+      "length_meter": 351.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.469303,
+          "lng": 126.63533,
+          "ele": 562.0
+        },
+        {
+          "lat": 34.467426,
+          "lng": 126.634521,
+          "ele": 636.0
+        }
+      ],
+      "color": "#a2494f",
+      "start_name": "만일재 / 갈림길 / 웨이포인트 22",
+      "end_name": "구름다리",
+      "length_meter": 226.5,
+      "time_minute": 3
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 34.467426,
+          "lng": 126.634521,
+          "ele": 636.0
+        },
+        {
+          "lat": 34.467565,
+          "lng": 126.634301,
+          "ele": 645.0
+        }
+      ],
+      "color": "#a89e54",
+      "start_name": "구름다리 / 두륜봉",
+      "end_name": "웨이포인트 25",
+      "length_meter": 151.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 34.467565,
+          "lng": 126.634301,
+          "ele": 645.0
+        },
+        {
+          "lat": 34.470875,
+          "lng": 126.633972,
+          "ele": 506.0
+        }
+      ],
+      "color": "#52598b",
+      "start_name": "웨이포인트 25 / 갈림길",
+      "end_name": "만일암지 오층석탑",
+      "length_meter": 369.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 34.470875,
+          "lng": 126.633972,
+          "ele": 506.0
+        },
+        {
+          "lat": 34.471046,
+          "lng": 126.633659,
+          "ele": 495.0
+        }
+      ],
+      "color": "#3e5d6d",
+      "start_name": "만일암지 오층석탑",
+      "end_name": "천년수",
+      "length_meter": 34.4,
+      "time_minute": 0
+    }
+  ]
+}

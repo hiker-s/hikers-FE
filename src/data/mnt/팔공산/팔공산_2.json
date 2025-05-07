@@ -1,0 +1,195 @@
+{
+  "mnt_id": 89,
+  "mnt_name": "팔공산",
+  "course_id": 231,
+  "max_ele": 1147.49,
+  "total_length_km": "3.8km",
+  "total_time": "0시간 47분",
+  "start_name": "수릉봉산계 표석",
+  "end_name": "가마바위봉",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 576.479,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 36.000095,
+          "lng": 128.686066,
+          "ele": 576.479
+        },
+        {
+          "lat": 36.003117,
+          "lng": 128.689087,
+          "ele": 656.592
+        }
+      ],
+      "color": "#1e695f",
+      "start_name": "수릉봉산계 표석",
+      "end_name": "쉼터",
+      "length_meter": 432.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 36.003117,
+          "lng": 128.689087,
+          "ele": 656.592
+        },
+        {
+          "lat": 36.004898,
+          "lng": 128.690155,
+          "ele": 717.996
+        }
+      ],
+      "color": "#1e604c",
+      "start_name": "쉼터",
+      "end_name": "암벽",
+      "length_meter": 220.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 36.004898,
+          "lng": 128.690155,
+          "ele": 717.996
+        },
+        {
+          "lat": 36.005848,
+          "lng": 128.690628,
+          "ele": 733.164
+        }
+      ],
+      "color": "#2f7927",
+      "start_name": "암벽",
+      "end_name": "암벽등반 사고 위험지역",
+      "length_meter": 113.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 36.005848,
+          "lng": 128.690628,
+          "ele": 733.164
+        },
+        {
+          "lat": 36.007866,
+          "lng": 128.690186,
+          "ele": 795.604
+        }
+      ],
+      "color": "#2251c0",
+      "start_name": "암벽등반 사고 위험지역 / 갈림길 / 폭포 / 절벽 위험 주의",
+      "end_name": "고목나무 의자",
+      "length_meter": 235.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 36.007866,
+          "lng": 128.690186,
+          "ele": 795.604
+        },
+        {
+          "lat": 36.011555,
+          "lng": 128.692841,
+          "ele": 928.749
+        }
+      ],
+      "color": "#7a9021",
+      "start_name": "고목나무 의자",
+      "end_name": "갈림길",
+      "length_meter": 474.7,
+      "time_minute": 5
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 36.011555,
+          "lng": 128.692841,
+          "ele": 928.749
+        },
+        {
+          "lat": 36.014374,
+          "lng": 128.68869,
+          "ele": 1147.49
+        }
+      ],
+      "color": "#9f58a8",
+      "start_name": "갈림길",
+      "end_name": "정상이 보이는 곳",
+      "length_meter": 487.5,
+      "time_minute": 6
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 36.014374,
+          "lng": 128.68869,
+          "ele": 1147.49
+        },
+        {
+          "lat": 36.013855,
+          "lng": 128.672836,
+          "ele": 1035.677
+        }
+      ],
+      "color": "#6823a1",
+      "start_name": "정상이 보이는 곳",
+      "end_name": "정상이 보이는 자리",
+      "length_meter": 1427.1,
+      "time_minute": 17
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 36.013855,
+          "lng": 128.672836,
+          "ele": 1035.677
+        },
+        {
+          "lat": 36.014133,
+          "lng": 128.668472,
+          "ele": 1037.084
+        }
+      ],
+      "color": "#a93351",
+      "start_name": "정상이 보이는 자리 / 팔공산 능선",
+      "end_name": "마을 풍경",
+      "length_meter": 394.1,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 36.014133,
+          "lng": 128.668472,
+          "ele": 1037.084
+        },
+        {
+          "lat": 36.014145,
+          "lng": 128.667938,
+          "ele": 1056.656
+        }
+      ],
+      "color": "#26a2a4",
+      "start_name": "마을 풍경 / 기이암석",
+      "end_name": "가마바위봉",
+      "length_meter": 48.1,
+      "time_minute": 0
+    }
+  ]
+}

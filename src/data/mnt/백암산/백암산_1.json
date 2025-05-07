@@ -1,0 +1,455 @@
+{
+  "mnt_id": 41,
+  "mnt_name": "백암산",
+  "course_id": 106,
+  "max_ele": 670.345,
+  "total_length_km": "5.5km",
+  "total_time": "1시간 8분",
+  "start_name": "삼나무",
+  "end_name": "입암산성 남문",
+  "level": "중",
+  "course_name": "탄력등산 코스",
+  "min_ele": 238.683,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.464283,
+          "lng": 126.833061,
+          "ele": 238.683
+        },
+        {
+          "lat": 35.465233,
+          "lng": 126.83094,
+          "ele": 263.264
+        }
+      ],
+      "color": "#9b7eaf",
+      "start_name": "삼나무",
+      "end_name": "공원자연보존지구",
+      "length_meter": 219.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.465233,
+          "lng": 126.83094,
+          "ele": 263.264
+        },
+        {
+          "lat": 35.466843,
+          "lng": 126.826187,
+          "ele": 322.523
+        }
+      ],
+      "color": "#58862b",
+      "start_name": "공원자연보존지구",
+      "end_name": "갈림길",
+      "length_meter": 466.2,
+      "time_minute": 5
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.466843,
+          "lng": 126.826187,
+          "ele": 322.523
+        },
+        {
+          "lat": 35.468903,
+          "lng": 126.822388,
+          "ele": 404.672
+        }
+      ],
+      "color": "#935f89",
+      "start_name": "갈림길",
+      "end_name": "삼나무 생육,생장 모니터링장",
+      "length_meter": 413.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.468903,
+          "lng": 126.822388,
+          "ele": 404.672
+        },
+        {
+          "lat": 35.477497,
+          "lng": 126.817513,
+          "ele": 452.325
+        }
+      ],
+      "color": "#621085",
+      "start_name": "삼나무 생육,생장 모니터링장",
+      "end_name": "리기다 소나무",
+      "length_meter": 1052.7,
+      "time_minute": 13
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.477497,
+          "lng": 126.817513,
+          "ele": 452.325
+        },
+        {
+          "lat": 35.478279,
+          "lng": 126.813858,
+          "ele": 493.499
+        }
+      ],
+      "color": "#8ac398",
+      "start_name": "리기다 소나무",
+      "end_name": "간이쉼터",
+      "length_meter": 342.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.478279,
+          "lng": 126.813858,
+          "ele": 493.499
+        },
+        {
+          "lat": 35.478359,
+          "lng": 126.813866,
+          "ele": 495.768
+        }
+      ],
+      "color": "#656269",
+      "start_name": "간이쉼터",
+      "end_name": "구조 구급함",
+      "length_meter": 8.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.478359,
+          "lng": 126.813866,
+          "ele": 495.768
+        },
+        {
+          "lat": 35.479321,
+          "lng": 126.814079,
+          "ele": 507.66
+        }
+      ],
+      "color": "#83a56d",
+      "start_name": "구조 구급함",
+      "end_name": "갈림길",
+      "length_meter": 108.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.479321,
+          "lng": 126.814079,
+          "ele": 507.66
+        },
+        {
+          "lat": 35.483837,
+          "lng": 126.81469,
+          "ele": 595.504
+        }
+      ],
+      "color": "#781e95",
+      "start_name": "갈림길",
+      "end_name": "갓바위 앞 조망",
+      "length_meter": 505.2,
+      "time_minute": 6
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.483837,
+          "lng": 126.81469,
+          "ele": 595.504
+        },
+        {
+          "lat": 35.484726,
+          "lng": 126.816559,
+          "ele": 660.569
+        }
+      ],
+      "color": "#8e0f1f",
+      "start_name": "갓바위 앞 조망",
+      "end_name": "갈림길",
+      "length_meter": 196.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.484726,
+          "lng": 126.816559,
+          "ele": 660.569
+        },
+        {
+          "lat": 35.484742,
+          "lng": 126.81644,
+          "ele": 666.515
+        }
+      ],
+      "color": "#663b64",
+      "start_name": "갈림길 / 갓바위 / 갓바위 정상석 / 갓바위 전망대 조망",
+      "end_name": "갓바위",
+      "length_meter": 74.4,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.484742,
+          "lng": 126.81644,
+          "ele": 666.515
+        },
+        {
+          "lat": 35.484905,
+          "lng": 126.817337,
+          "ele": 636.597
+        }
+      ],
+      "color": "#7f59ac",
+      "start_name": "갓바위",
+      "end_name": "거북바위",
+      "length_meter": 83.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.484905,
+          "lng": 126.817337,
+          "ele": 636.597
+        },
+        {
+          "lat": 35.48558,
+          "lng": 126.819786,
+          "ele": 619.075
+        }
+      ],
+      "color": "#ac4e3e",
+      "start_name": "거북바위",
+      "end_name": "야생화",
+      "length_meter": 234.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.48558,
+          "lng": 126.819786,
+          "ele": 619.075
+        },
+        {
+          "lat": 35.485996,
+          "lng": 126.823135,
+          "ele": 571.92
+        }
+      ],
+      "color": "#2eaeb2",
+      "start_name": "야생화",
+      "end_name": "갈림길",
+      "length_meter": 306.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.485996,
+          "lng": 126.823135,
+          "ele": 571.92
+        },
+        {
+          "lat": 35.484818,
+          "lng": 126.823669,
+          "ele": 557.728
+        }
+      ],
+      "color": "#4d360f",
+      "start_name": "갈림길 / 입암산성의 역사",
+      "end_name": "일본잎갈나무",
+      "length_meter": 147.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.484818,
+          "lng": 126.823669,
+          "ele": 557.728
+        },
+        {
+          "lat": 35.483895,
+          "lng": 126.82348,
+          "ele": 551.78
+        }
+      ],
+      "color": "#0ba89e",
+      "start_name": "일본잎갈나무 / 입암산성 능선길 산행",
+      "end_name": "입암산성과 전봉준 장군",
+      "length_meter": 104.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.483895,
+          "lng": 126.82348,
+          "ele": 551.78
+        },
+        {
+          "lat": 35.481325,
+          "lng": 126.825311,
+          "ele": 541.762
+        }
+      ],
+      "color": "#743c1f",
+      "start_name": "입암산성과 전봉준 장군 / 입암산성 성내시설과 해자",
+      "end_name": "입암산성 능선길 조망",
+      "length_meter": 330.5,
+      "time_minute": 5
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.481325,
+          "lng": 126.825311,
+          "ele": 541.762
+        },
+        {
+          "lat": 35.4804,
+          "lng": 126.825966,
+          "ele": 538.941
+        }
+      ],
+      "color": "#9b2525",
+      "start_name": "입암산성 능선길 조망 / 야생화",
+      "end_name": "입암산성 습지",
+      "length_meter": 119.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.4804,
+          "lng": 126.825966,
+          "ele": 538.941
+        },
+        {
+          "lat": 35.478165,
+          "lng": 126.827728,
+          "ele": 526.773
+        }
+      ],
+      "color": "#154f8e",
+      "start_name": "입암산성 습지 / 갈림길 / 진헌지 / 입암산성 산행길",
+      "end_name": "성내마을 터",
+      "length_meter": 297.9,
+      "time_minute": 4
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.478165,
+          "lng": 126.827728,
+          "ele": 526.773
+        },
+        {
+          "lat": 35.47734,
+          "lng": 126.8282,
+          "ele": 525.804
+        }
+      ],
+      "color": "#4704af",
+      "start_name": "성내마을 터",
+      "end_name": "산행길 넝쿨식물",
+      "length_meter": 101.2,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.47734,
+          "lng": 126.8282,
+          "ele": 525.804
+        },
+        {
+          "lat": 35.476837,
+          "lng": 126.828957,
+          "ele": 522.639
+        }
+      ],
+      "color": "#6d1e7a",
+      "start_name": "산행길 넝쿨식물 / 입암산성 산행길 / 산행길 조망",
+      "end_name": "입암산성을 지키는 해자(저수보)",
+      "length_meter": 88.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 35.476837,
+          "lng": 126.828957,
+          "ele": 522.639
+        },
+        {
+          "lat": 35.474754,
+          "lng": 126.829269,
+          "ele": 491.749
+        }
+      ],
+      "color": "#c0838c",
+      "start_name": "입암산성을 지키는 해자(저수보)",
+      "end_name": "입암산성 쉼터",
+      "length_meter": 233.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 35.474754,
+          "lng": 126.829269,
+          "ele": 491.749
+        },
+        {
+          "lat": 35.474388,
+          "lng": 126.828865,
+          "ele": 489.472
+        }
+      ],
+      "color": "#942162",
+      "start_name": "입암산성 쉼터 / 황룡강 발원지 / 장성 입암산성 / 구조 구급함 / 입암산성 성벽",
+      "end_name": "입암산성 남문",
+      "length_meter": 72.3,
+      "time_minute": 1
+    }
+  ]
+}

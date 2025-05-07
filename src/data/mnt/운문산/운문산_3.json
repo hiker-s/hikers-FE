@@ -1,0 +1,295 @@
+{
+  "mnt_id": 62,
+  "mnt_name": "운문산",
+  "course_id": 172,
+  "max_ele": 981.29,
+  "total_length_km": "7.4km",
+  "total_time": "1시간 33분",
+  "start_name": "원서 버스정류장",
+  "end_name": "대비계곡",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 208.037,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.603634,
+          "lng": 128.921097,
+          "ele": 210.628
+        },
+        {
+          "lat": 35.605946,
+          "lng": 128.923553,
+          "ele": 208.037
+        }
+      ],
+      "color": "#68c3b5",
+      "start_name": "원서 버스정류장",
+      "end_name": "갈림길",
+      "length_meter": 339.7,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.605946,
+          "lng": 128.923553,
+          "ele": 208.037
+        },
+        {
+          "lat": 35.613319,
+          "lng": 128.92717,
+          "ele": 263.609
+        }
+      ],
+      "color": "#03b28a",
+      "start_name": "갈림길",
+      "end_name": "자연경관",
+      "length_meter": 882.6,
+      "time_minute": 11
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.613319,
+          "lng": 128.92717,
+          "ele": 263.609
+        },
+        {
+          "lat": 35.615494,
+          "lng": 128.927383,
+          "ele": 281.599
+        }
+      ],
+      "color": "#a94d76",
+      "start_name": "자연경관 / 석골폭포",
+      "end_name": "석골사",
+      "length_meter": 242.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.615494,
+          "lng": 128.927383,
+          "ele": 281.599
+        },
+        {
+          "lat": 35.605946,
+          "lng": 128.923553,
+          "ele": 208.037
+        }
+      ],
+      "color": "#1d8000",
+      "start_name": "석골사",
+      "end_name": "갈림길",
+      "length_meter": 1116.7,
+      "time_minute": 13
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.605946,
+          "lng": 128.923553,
+          "ele": 208.037
+        },
+        {
+          "lat": 35.61834,
+          "lng": 128.936447,
+          "ele": 456.51
+        }
+      ],
+      "color": "#9c1a1f",
+      "start_name": "갈림길",
+      "end_name": "큰바위",
+      "length_meter": 1805.0,
+      "time_minute": 22
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.61834,
+          "lng": 128.936447,
+          "ele": 456.51
+        },
+        {
+          "lat": 35.619473,
+          "lng": 128.936569,
+          "ele": 494.398
+        }
+      ],
+      "color": "#066125",
+      "start_name": "큰바위 / 갈림길",
+      "end_name": "제1  전망대",
+      "length_meter": 126.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.619473,
+          "lng": 128.936569,
+          "ele": 494.398
+        },
+        {
+          "lat": 35.620571,
+          "lng": 128.937744,
+          "ele": 585.753
+        }
+      ],
+      "color": "#90970b",
+      "start_name": "제1  전망대",
+      "end_name": "제2   전망대",
+      "length_meter": 161.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.620571,
+          "lng": 128.937744,
+          "ele": 585.753
+        },
+        {
+          "lat": 35.622433,
+          "lng": 128.93895,
+          "ele": 707.387
+        }
+      ],
+      "color": "#2c98c6",
+      "start_name": "제2   전망대",
+      "end_name": "제3   전망대",
+      "length_meter": 234.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.622433,
+          "lng": 128.93895,
+          "ele": 707.387
+        },
+        {
+          "lat": 35.628197,
+          "lng": 128.941177,
+          "ele": 878.114
+        }
+      ],
+      "color": "#4f49a6",
+      "start_name": "제3   전망대",
+      "end_name": "갈림길",
+      "length_meter": 671.8,
+      "time_minute": 8
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.628197,
+          "lng": 128.941177,
+          "ele": 878.114
+        },
+        {
+          "lat": 35.630707,
+          "lng": 128.944931,
+          "ele": 981.29
+        }
+      ],
+      "color": "#168519",
+      "start_name": "갈림길",
+      "end_name": "운문산  범봉(962m)",
+      "length_meter": 439.3,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.630707,
+          "lng": 128.944931,
+          "ele": 981.29
+        },
+        {
+          "lat": 35.632839,
+          "lng": 128.941208,
+          "ele": 918.745
+        }
+      ],
+      "color": "#824c9f",
+      "start_name": "운문산  범봉(962m)",
+      "end_name": "삼지봉",
+      "length_meter": 411.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.632839,
+          "lng": 128.941208,
+          "ele": 918.745
+        },
+        {
+          "lat": 35.634193,
+          "lng": 128.93605,
+          "ele": 789.682
+        }
+      ],
+      "color": "#6065a6",
+      "start_name": "삼지봉",
+      "end_name": "갈림길",
+      "length_meter": 489.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.634193,
+          "lng": 128.93605,
+          "ele": 789.682
+        },
+        {
+          "lat": 35.630337,
+          "lng": 128.935577,
+          "ele": 656.565
+        }
+      ],
+      "color": "#54680c",
+      "start_name": "갈림길",
+      "end_name": "산죽 군락지",
+      "length_meter": 430.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.630337,
+          "lng": 128.935577,
+          "ele": 656.565
+        },
+        {
+          "lat": 35.629536,
+          "lng": 128.935349,
+          "ele": 634.122
+        }
+      ],
+      "color": "#6f2434",
+      "start_name": "산죽 군락지",
+      "end_name": "대비계곡",
+      "length_meter": 91.4,
+      "time_minute": 1
+    }
+  ]
+}

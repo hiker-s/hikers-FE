@@ -1,0 +1,55 @@
+{
+  "mnt_id": 15,
+  "mnt_name": "금정산",
+  "course_id": 38,
+  "max_ele": 814.0,
+  "total_length_km": "0.1km",
+  "total_time": "0시간 1분",
+  "start_name": "고당샘",
+  "end_name": "고당봉",
+  "level": "상",
+  "course_name": "극한오름 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.279121,
+          "lng": 129.051544,
+          "ele": 744.0
+        },
+        {
+          "lat": 35.279884,
+          "lng": 129.050827,
+          "ele": 814.0
+        }
+      ],
+      "color": "#507605",
+      "start_name": "고당샘 / 갈림길",
+      "end_name": "고당봉전망대",
+      "length_meter": 108.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.279884,
+          "lng": 129.050827,
+          "ele": 814.0
+        },
+        {
+          "lat": 35.280159,
+          "lng": 129.050583,
+          "ele": 0.0
+        }
+      ],
+      "color": "#5e607e",
+      "start_name": "고당봉전망대",
+      "end_name": "고당봉",
+      "length_meter": 37.8,
+      "time_minute": 0
+    }
+  ]
+}

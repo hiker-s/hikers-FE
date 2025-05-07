@@ -1,0 +1,415 @@
+{
+  "mnt_id": 43,
+  "mnt_name": "백운산(정선)",
+  "course_id": 109,
+  "max_ele": 910.949,
+  "total_length_km": "8.2km",
+  "total_time": "1시간 42분",
+  "start_name": "나리소 전망대 입구",
+  "end_name": "날머리 제장마을 입구",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 264.115,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.262501,
+          "lng": 128.596848,
+          "ele": 316.645
+        },
+        {
+          "lat": 37.263485,
+          "lng": 128.594803,
+          "ele": 354.238
+        }
+      ],
+      "color": "#9d715a",
+      "start_name": "나리소 전망대 입구",
+      "end_name": "전망대 조망",
+      "length_meter": 211.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.263485,
+          "lng": 128.594803,
+          "ele": 354.238
+        },
+        {
+          "lat": 37.264374,
+          "lng": 128.598755,
+          "ele": 305.941
+        }
+      ],
+      "color": "#214e9e",
+      "start_name": "전망대 조망 / 전망대",
+      "end_name": "나리소전망대",
+      "length_meter": 369.9,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.264374,
+          "lng": 128.598755,
+          "ele": 305.941
+        },
+        {
+          "lat": 37.267586,
+          "lng": 128.601044,
+          "ele": 290.722
+        }
+      ],
+      "color": "#51c339",
+      "start_name": "나리소전망대",
+      "end_name": "의자",
+      "length_meter": 410.6,
+      "time_minute": 5
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.267586,
+          "lng": 128.601044,
+          "ele": 290.722
+        },
+        {
+          "lat": 37.27549,
+          "lng": 128.612137,
+          "ele": 274.56
+        }
+      ],
+      "color": "#457f71",
+      "start_name": "의자",
+      "end_name": "점재교 다리",
+      "length_meter": 1317.5,
+      "time_minute": 16
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.27549,
+          "lng": 128.612137,
+          "ele": 274.56
+        },
+        {
+          "lat": 37.275337,
+          "lng": 128.607742,
+          "ele": 294.872
+        }
+      ],
+      "color": "#7321a0",
+      "start_name": "점재교 다리",
+      "end_name": "갈림길",
+      "length_meter": 389.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.275337,
+          "lng": 128.607742,
+          "ele": 294.872
+        },
+        {
+          "lat": 37.272846,
+          "lng": 128.59874,
+          "ele": 468.491
+        }
+      ],
+      "color": "#052f3b",
+      "start_name": "갈림길",
+      "end_name": "출입통제",
+      "length_meter": 843.3,
+      "time_minute": 10
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.272846,
+          "lng": 128.59874,
+          "ele": 468.491
+        },
+        {
+          "lat": 37.272194,
+          "lng": 128.599213,
+          "ele": 472.91
+        }
+      ],
+      "color": "#692e22",
+      "start_name": "출입통제",
+      "end_name": "폐쇠전망대",
+      "length_meter": 83.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.272194,
+          "lng": 128.599213,
+          "ele": 472.91
+        },
+        {
+          "lat": 37.273064,
+          "lng": 128.598862,
+          "ele": 461.088
+        }
+      ],
+      "color": "#50539f",
+      "start_name": "폐쇠전망대",
+      "end_name": "추락 및 낙석",
+      "length_meter": 101.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.273064,
+          "lng": 128.598862,
+          "ele": 461.088
+        },
+        {
+          "lat": 37.274235,
+          "lng": 128.599152,
+          "ele": 552.721
+        }
+      ],
+      "color": "#428094",
+      "start_name": "추락 및 낙석",
+      "end_name": "조망",
+      "length_meter": 132.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.274235,
+          "lng": 128.599152,
+          "ele": 552.721
+        },
+        {
+          "lat": 37.274734,
+          "lng": 128.59967,
+          "ele": 597.796
+        }
+      ],
+      "color": "#a7352e",
+      "start_name": "조망 / 추락 및 낙석",
+      "end_name": "경치",
+      "length_meter": 79.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.274734,
+          "lng": 128.59967,
+          "ele": 597.796
+        },
+        {
+          "lat": 37.280006,
+          "lng": 128.596069,
+          "ele": 910.949
+        }
+      ],
+      "color": "#301f89",
+      "start_name": "경치",
+      "end_name": "백운산  정상",
+      "length_meter": 667.2,
+      "time_minute": 8
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.280006,
+          "lng": 128.596069,
+          "ele": 910.949
+        },
+        {
+          "lat": 37.279682,
+          "lng": 128.594162,
+          "ele": 867.792
+        }
+      ],
+      "color": "#9894b5",
+      "start_name": "백운산  정상",
+      "end_name": "갈림길",
+      "length_meter": 172.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.279682,
+          "lng": 128.594162,
+          "ele": 867.792
+        },
+        {
+          "lat": 37.271477,
+          "lng": 128.583008,
+          "ele": 566.852
+        }
+      ],
+      "color": "#901552",
+      "start_name": "갈림길",
+      "end_name": "추모명판 돌탑",
+      "length_meter": 1344.0,
+      "time_minute": 16
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.271477,
+          "lng": 128.583008,
+          "ele": 566.852
+        },
+        {
+          "lat": 37.269855,
+          "lng": 128.582275,
+          "ele": 485.534
+        }
+      ],
+      "color": "#6f28a2",
+      "start_name": "추모명판 돌탑",
+      "end_name": "갈림길",
+      "length_meter": 191.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.269855,
+          "lng": 128.582275,
+          "ele": 485.534
+        },
+        {
+          "lat": 37.266834,
+          "lng": 128.580307,
+          "ele": 495.879
+        }
+      ],
+      "color": "#405e86",
+      "start_name": "갈림길",
+      "end_name": "칠족령전망대",
+      "length_meter": 378.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.266834,
+          "lng": 128.580307,
+          "ele": 495.879
+        },
+        {
+          "lat": 37.266941,
+          "lng": 128.580521,
+          "ele": 496.919
+        }
+      ],
+      "color": "#8b9606",
+      "start_name": "칠족령전망대 / 의자2개",
+      "end_name": "의자 2개",
+      "length_meter": 22.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.266941,
+          "lng": 128.580521,
+          "ele": 496.919
+        },
+        {
+          "lat": 37.266155,
+          "lng": 128.582352,
+          "ele": 482.779
+        }
+      ],
+      "color": "#559d49",
+      "start_name": "의자 2개",
+      "end_name": "갈림길",
+      "length_meter": 184.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.266155,
+          "lng": 128.582352,
+          "ele": 482.779
+        },
+        {
+          "lat": 37.259232,
+          "lng": 128.581451,
+          "ele": 271.348
+        }
+      ],
+      "color": "#bd295c",
+      "start_name": "갈림길 / 추락 및 낙석위험",
+      "end_name": "석벽",
+      "length_meter": 782.7,
+      "time_minute": 13
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.259232,
+          "lng": 128.581451,
+          "ele": 271.348
+        },
+        {
+          "lat": 37.258526,
+          "lng": 128.583832,
+          "ele": 276.109
+        }
+      ],
+      "color": "#3f0146",
+      "start_name": "석벽",
+      "end_name": "정희농박",
+      "length_meter": 224.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.258526,
+          "lng": 128.583832,
+          "ele": 276.109
+        },
+        {
+          "lat": 37.259922,
+          "lng": 128.586639,
+          "ele": 264.115
+        }
+      ],
+      "color": "#b56d4b",
+      "start_name": "정희농박",
+      "end_name": "날머리 제장마을 입구",
+      "length_meter": 292.9,
+      "time_minute": 3
+    }
+  ]
+}

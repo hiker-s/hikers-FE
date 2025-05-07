@@ -1,0 +1,95 @@
+{
+  "mnt_id": 62,
+  "mnt_name": "운문산",
+  "course_id": 173,
+  "max_ele": 1137.557,
+  "total_length_km": "3.9km",
+  "total_time": "0시간 48분",
+  "start_name": "석골사",
+  "end_name": "정구지바위",
+  "level": "상",
+  "course_name": "거친산길 코스",
+  "min_ele": 290.908,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.615387,
+          "lng": 128.927338,
+          "ele": 290.908
+        },
+        {
+          "lat": 35.615921,
+          "lng": 128.927628,
+          "ele": 295.903
+        }
+      ],
+      "color": "#19238d",
+      "start_name": "석골사",
+      "end_name": "석골사 해우소",
+      "length_meter": 64.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.615921,
+          "lng": 128.927628,
+          "ele": 295.903
+        },
+        {
+          "lat": 35.616623,
+          "lng": 128.928299,
+          "ele": 308.753
+        }
+      ],
+      "color": "#29003e",
+      "start_name": "석골사 해우소",
+      "end_name": "갈림길",
+      "length_meter": 98.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.616623,
+          "lng": 128.928299,
+          "ele": 308.753
+        },
+        {
+          "lat": 35.618416,
+          "lng": 128.956467,
+          "ele": 1030.017
+        }
+      ],
+      "color": "#7a788b",
+      "start_name": "갈림길",
+      "end_name": "상운암",
+      "length_meter": 2554.0,
+      "time_minute": 31
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.618416,
+          "lng": 128.956467,
+          "ele": 1030.017
+        },
+        {
+          "lat": 35.620102,
+          "lng": 128.943924,
+          "ele": 580.201
+        }
+      ],
+      "color": "#243902",
+      "start_name": "상운암",
+      "end_name": "정구지바위",
+      "length_meter": 1149.2,
+      "time_minute": 14
+    }
+  ]
+}

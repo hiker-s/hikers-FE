@@ -1,0 +1,55 @@
+{
+  "mnt_id": 58,
+  "mnt_name": "오대산",
+  "course_id": 161,
+  "max_ele": 1471.694,
+  "total_length_km": "2.5km",
+  "total_time": "0시간 31분",
+  "start_name": "북대미륵암",
+  "end_name": "오대산 두로봉",
+  "level": "하",
+  "course_name": "산들산책 코스",
+  "min_ele": 1320.886,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.802956,
+          "lng": 128.56665,
+          "ele": 1320.886
+        },
+        {
+          "lat": 37.810471,
+          "lng": 128.572311,
+          "ele": 1348.112
+        }
+      ],
+      "color": "#687a4f",
+      "start_name": "북대미륵암",
+      "end_name": "갈림길",
+      "length_meter": 972.4,
+      "time_minute": 12
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.810471,
+          "lng": 128.572311,
+          "ele": 1348.112
+        },
+        {
+          "lat": 37.82132,
+          "lng": 128.58284,
+          "ele": 1459.456
+        }
+      ],
+      "color": "#29acaf",
+      "start_name": "갈림길",
+      "end_name": "오대산 두로봉",
+      "length_meter": 1520.1,
+      "time_minute": 19
+    }
+  ]
+}

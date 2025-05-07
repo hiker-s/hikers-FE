@@ -1,0 +1,155 @@
+{
+  "mnt_id": 33,
+  "mnt_name": "모악산",
+  "course_id": 85,
+  "max_ele": 696.68,
+  "total_length_km": "2.2km",
+  "total_time": "0시간 27분",
+  "start_name": "심원암길",
+  "end_name": "헬리포트",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 178.976,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.724983,
+          "lng": 127.061623,
+          "ele": 178.976
+        },
+        {
+          "lat": 35.725544,
+          "lng": 127.066116,
+          "ele": 244.564
+        }
+      ],
+      "color": "#7d114a",
+      "start_name": "심원암길 / 갈림길",
+      "end_name": "편백나무",
+      "length_meter": 419.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.725544,
+          "lng": 127.066116,
+          "ele": 244.564
+        },
+        {
+          "lat": 35.726402,
+          "lng": 127.066849,
+          "ele": 274.983
+        }
+      ],
+      "color": "#44bbb1",
+      "start_name": "편백나무",
+      "end_name": "심원암",
+      "length_meter": 116.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.726402,
+          "lng": 127.066849,
+          "ele": 274.983
+        },
+        {
+          "lat": 35.729855,
+          "lng": 127.068771,
+          "ele": 377.913
+        }
+      ],
+      "color": "#76838e",
+      "start_name": "심원암 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 421.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.729855,
+          "lng": 127.068771,
+          "ele": 377.913
+        },
+        {
+          "lat": 35.730225,
+          "lng": 127.069489,
+          "ele": 431.05
+        }
+      ],
+      "color": "#8c6d58",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 149.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.730225,
+          "lng": 127.069489,
+          "ele": 431.05
+        },
+        {
+          "lat": 35.730564,
+          "lng": 127.076958,
+          "ele": 595.087
+        }
+      ],
+      "color": "#0a6212",
+      "start_name": "쉼터 / 119비상 구급함",
+      "end_name": "조망터",
+      "length_meter": 676.6,
+      "time_minute": 11
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.730564,
+          "lng": 127.076958,
+          "ele": 595.087
+        },
+        {
+          "lat": 35.730724,
+          "lng": 127.081024,
+          "ele": 688.389
+        }
+      ],
+      "color": "#c3b663",
+      "start_name": "조망터",
+      "end_name": "쉼터",
+      "length_meter": 367.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.730724,
+          "lng": 127.081024,
+          "ele": 688.389
+        },
+        {
+          "lat": 35.730606,
+          "lng": 127.081345,
+          "ele": 696.68
+        }
+      ],
+      "color": "#bf67af",
+      "start_name": "쉼터",
+      "end_name": "헬리포트",
+      "length_meter": 31.8,
+      "time_minute": 0
+    }
+  ]
+}

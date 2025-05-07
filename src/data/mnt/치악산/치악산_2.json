@@ -1,0 +1,555 @@
+{
+  "mnt_id": 85,
+  "mnt_name": "치악산",
+  "course_id": 218,
+  "max_ele": 1203.815,
+  "total_length_km": "10.2km",
+  "total_time": "2시간 7분",
+  "start_name": "성남종점",
+  "end_name": "행구동탐방지원센타",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 0.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 37.280529,
+          "lng": 128.086029,
+          "ele": 458.865
+        },
+        {
+          "lat": 37.280998,
+          "lng": 128.085434,
+          "ele": 462.647
+        }
+      ],
+      "color": "#bb07a5",
+      "start_name": "성남종점 / 종점주차장 / 상원산장식당",
+      "end_name": "성남탐방지원센터",
+      "length_meter": 95.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 37.280998,
+          "lng": 128.085434,
+          "ele": 462.647
+        },
+        {
+          "lat": 37.293766,
+          "lng": 128.074097,
+          "ele": 560.408
+        }
+      ],
+      "color": "#c58816",
+      "start_name": "성남탐방지원센터 / 탐방지원센터 화장실 / 계곡물",
+      "end_name": "임시주차장",
+      "length_meter": 1739.3,
+      "time_minute": 28
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 37.293766,
+          "lng": 128.074097,
+          "ele": 560.408
+        },
+        {
+          "lat": 37.29417,
+          "lng": 128.069656,
+          "ele": 608.249
+        }
+      ],
+      "color": "#21be0e",
+      "start_name": "임시주차장",
+      "end_name": "바위와 작은폭포",
+      "length_meter": 395.4,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 37.29417,
+          "lng": 128.069656,
+          "ele": 608.249
+        },
+        {
+          "lat": 37.294125,
+          "lng": 128.069061,
+          "ele": 611.949
+        }
+      ],
+      "color": "#a2bb2e",
+      "start_name": "바위와 작은폭포 / 상원사탐방로 시작점 주차장",
+      "end_name": "치악산국립공원 알림마당",
+      "length_meter": 75.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 37.294125,
+          "lng": 128.069061,
+          "ele": 611.949
+        },
+        {
+          "lat": 37.294281,
+          "lng": 128.067368,
+          "ele": 630.297
+        }
+      ],
+      "color": "#b23e8b",
+      "start_name": "치악산국립공원 알림마당",
+      "end_name": "계곡",
+      "length_meter": 150.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 37.294281,
+          "lng": 128.067368,
+          "ele": 630.297
+        },
+        {
+          "lat": 37.297531,
+          "lng": 128.064377,
+          "ele": 700.366
+        }
+      ],
+      "color": "#00bd5e",
+      "start_name": "계곡",
+      "end_name": "의자 2개",
+      "length_meter": 447.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 37.297531,
+          "lng": 128.064377,
+          "ele": 700.366
+        },
+        {
+          "lat": 37.298119,
+          "lng": 128.063324,
+          "ele": 708.474
+        }
+      ],
+      "color": "#80666d",
+      "start_name": "의자 2개",
+      "end_name": "경치",
+      "length_meter": 113.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 37.298119,
+          "lng": 128.063324,
+          "ele": 708.474
+        },
+        {
+          "lat": 37.304718,
+          "lng": 128.054428,
+          "ele": 1032.611
+        }
+      ],
+      "color": "#273b93",
+      "start_name": "경치",
+      "end_name": "상원사 샘터 폐쇄",
+      "length_meter": 1075.9,
+      "time_minute": 13
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 37.304718,
+          "lng": 128.054428,
+          "ele": 1032.611
+        },
+        {
+          "lat": 37.305843,
+          "lng": 128.054108,
+          "ele": 1076.886
+        }
+      ],
+      "color": "#613017",
+      "start_name": "상원사 샘터 폐쇄",
+      "end_name": "상원사 조망처",
+      "length_meter": 128.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 37.305843,
+          "lng": 128.054108,
+          "ele": 1076.886
+        },
+        {
+          "lat": 37.306541,
+          "lng": 128.053665,
+          "ele": 1107.287
+        }
+      ],
+      "color": "#6c7d48",
+      "start_name": "상원사 조망처 / 자연경관",
+      "end_name": "상원사 경내 식수",
+      "length_meter": 100.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 37.306541,
+          "lng": 128.053665,
+          "ele": 1107.287
+        },
+        {
+          "lat": 37.306656,
+          "lng": 128.053879,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3cc174",
+      "start_name": "상원사 경내 식수 / 상원사 석탑 및 광배 / 까치전설의 종",
+      "end_name": "상원사",
+      "length_meter": 71.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 37.306656,
+          "lng": 128.053879,
+          "ele": 0.0
+        },
+        {
+          "lat": 37.306286,
+          "lng": 128.053452,
+          "ele": 1112.123
+        }
+      ],
+      "color": "#5d933f",
+      "start_name": "상원사 / 관광자원",
+      "end_name": "상으ㅓㄴ사내",
+      "length_meter": 102.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 37.306286,
+          "lng": 128.053452,
+          "ele": 1112.123
+        },
+        {
+          "lat": 37.305965,
+          "lng": 128.053787,
+          "ele": 1098.422
+        }
+      ],
+      "color": "#423825",
+      "start_name": "상으ㅓㄴ사내 / 상원사 경내",
+      "end_name": "상원사 바깥 화장실",
+      "length_meter": 75.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 37.305965,
+          "lng": 128.053787,
+          "ele": 1098.422
+        },
+        {
+          "lat": 37.305496,
+          "lng": 128.051498,
+          "ele": 1144.066
+        }
+      ],
+      "color": "#719f7d",
+      "start_name": "상원사 바깥 화장실",
+      "end_name": "쉼터",
+      "length_meter": 209.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 37.305496,
+          "lng": 128.051498,
+          "ele": 1144.066
+        },
+        {
+          "lat": 37.30703,
+          "lng": 128.050659,
+          "ele": 0.0
+        }
+      ],
+      "color": "#877662",
+      "start_name": "쉼터 / 갈림길",
+      "end_name": "바위",
+      "length_meter": 187.0,
+      "time_minute": 3
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 37.30703,
+          "lng": 128.050659,
+          "ele": 0.0
+        },
+        {
+          "lat": 37.307152,
+          "lng": 128.051788,
+          "ele": 1197.573
+        }
+      ],
+      "color": "#a0844f",
+      "start_name": "바위",
+      "end_name": "초망처",
+      "length_meter": 100.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 37.307152,
+          "lng": 128.051788,
+          "ele": 1197.573
+        },
+        {
+          "lat": 37.307823,
+          "lng": 128.051987,
+          "ele": 1203.815
+        }
+      ],
+      "color": "#9d069a",
+      "start_name": "초망처 / 조망처",
+      "end_name": "치악산 남대봉 1,181m",
+      "length_meter": 77.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 37.307823,
+          "lng": 128.051987,
+          "ele": 1203.815
+        },
+        {
+          "lat": 37.311581,
+          "lng": 128.047791,
+          "ele": 1172.276
+        }
+      ],
+      "color": "#78c73b",
+      "start_name": "치악산 남대봉 1,181m / 남대봉안전센터",
+      "end_name": "종주능선 전망대",
+      "length_meter": 582.0,
+      "time_minute": 9
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 37.311581,
+          "lng": 128.047791,
+          "ele": 1172.276
+        },
+        {
+          "lat": 37.312691,
+          "lng": 128.047302,
+          "ele": 1168.339
+        }
+      ],
+      "color": "#344364",
+      "start_name": "종주능선 전망대",
+      "end_name": "원주시내 조망처",
+      "length_meter": 130.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 37.312691,
+          "lng": 128.047302,
+          "ele": 1168.339
+        },
+        {
+          "lat": 37.313347,
+          "lng": 128.045685,
+          "ele": 1148.923
+        }
+      ],
+      "color": "#0d493d",
+      "start_name": "원주시내 조망처",
+      "end_name": "갈림길",
+      "length_meter": 160.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 20,
+      "path": [
+        {
+          "lat": 37.313347,
+          "lng": 128.045685,
+          "ele": 1148.923
+        },
+        {
+          "lat": 37.327667,
+          "lng": 128.035751,
+          "ele": 1002.943
+        }
+      ],
+      "color": "#15960c",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 1818.6,
+      "time_minute": 22
+    },
+    {
+      "path_id": 21,
+      "path": [
+        {
+          "lat": 37.327667,
+          "lng": 128.035751,
+          "ele": 1002.943
+        },
+        {
+          "lat": 37.330711,
+          "lng": 128.034546,
+          "ele": 1060.049
+        }
+      ],
+      "color": "#570c7a",
+      "start_name": "쉼터",
+      "end_name": "의자",
+      "length_meter": 354.9,
+      "time_minute": 4
+    },
+    {
+      "path_id": 22,
+      "path": [
+        {
+          "lat": 37.330711,
+          "lng": 128.034546,
+          "ele": 1060.049
+        },
+        {
+          "lat": 37.331032,
+          "lng": 128.033875,
+          "ele": 1063.301
+        }
+      ],
+      "color": "#1e0586",
+      "start_name": "의자 / 향로봉 삼각점 / 향로봉안전센터",
+      "end_name": "향로봉 1,043",
+      "length_meter": 77.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 23,
+      "path": [
+        {
+          "lat": 37.331032,
+          "lng": 128.033875,
+          "ele": 1063.301
+        },
+        {
+          "lat": 37.331089,
+          "lng": 128.033813,
+          "ele": 1064.949
+        }
+      ],
+      "color": "#c61e0f",
+      "start_name": "향로봉 1,043",
+      "end_name": "향로봉전망대",
+      "length_meter": 8.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 24,
+      "path": [
+        {
+          "lat": 37.331089,
+          "lng": 128.033813,
+          "ele": 1064.949
+        },
+        {
+          "lat": 37.332954,
+          "lng": 128.033066,
+          "ele": 1040.992
+        }
+      ],
+      "color": "#370c4b",
+      "start_name": "향로봉전망대",
+      "end_name": "갈림길",
+      "length_meter": 217.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 25,
+      "path": [
+        {
+          "lat": 37.332954,
+          "lng": 128.033066,
+          "ele": 1040.992
+        },
+        {
+          "lat": 37.333797,
+          "lng": 128.026535,
+          "ele": 0.0
+        }
+      ],
+      "color": "#3db38d",
+      "start_name": "갈림길",
+      "end_name": "보문사",
+      "length_meter": 585.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 26,
+      "path": [
+        {
+          "lat": 37.333797,
+          "lng": 128.026535,
+          "ele": 0.0
+        },
+        {
+          "lat": 37.333252,
+          "lng": 128.01442,
+          "ele": 439.59
+        }
+      ],
+      "color": "#30b32a",
+      "start_name": "보문사 / 자연경관",
+      "end_name": "행구동탐방지원센타",
+      "length_meter": 1149.2,
+      "time_minute": 18
+    }
+  ]
+}

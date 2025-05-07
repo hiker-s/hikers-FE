@@ -1,0 +1,395 @@
+{
+  "mnt_id": 45,
+  "mnt_name": "변산",
+  "course_id": 116,
+  "max_ele": 442.528,
+  "total_length_km": "7.9km",
+  "total_time": "1시간 39분",
+  "start_name": "바디재",
+  "end_name": "입암",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 60.615,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.636395,
+          "lng": 126.629173,
+          "ele": 208.845
+        },
+        {
+          "lat": 35.635021,
+          "lng": 126.623863,
+          "ele": 417.8
+        }
+      ],
+      "color": "#15615d",
+      "start_name": "바디재 / 바디재입구",
+      "end_name": "옥녀봉80m전",
+      "length_meter": 510.7,
+      "time_minute": 8
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.635021,
+          "lng": 126.623863,
+          "ele": 417.8
+        },
+        {
+          "lat": 35.635296,
+          "lng": 126.622643,
+          "ele": 442.528
+        }
+      ],
+      "color": "#0e4086",
+      "start_name": "옥녀봉80m전 / 옥녀봉전",
+      "end_name": "옥녀봉",
+      "length_meter": 116.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.635296,
+          "lng": 126.622643,
+          "ele": 442.528
+        },
+        {
+          "lat": 35.629021,
+          "lng": 126.622932,
+          "ele": 304.068
+        }
+      ],
+      "color": "#73b83c",
+      "start_name": "옥녀봉",
+      "end_name": "옥녀봉조망",
+      "length_meter": 698.2,
+      "time_minute": 8
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.629021,
+          "lng": 126.622932,
+          "ele": 304.068
+        },
+        {
+          "lat": 35.628578,
+          "lng": 126.622963,
+          "ele": 310.605
+        }
+      ],
+      "color": "#282d29",
+      "start_name": "옥녀봉조망",
+      "end_name": "관음봉조망",
+      "length_meter": 49.3,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.628578,
+          "lng": 126.622963,
+          "ele": 310.605
+        },
+        {
+          "lat": 35.627056,
+          "lng": 126.620384,
+          "ele": 262.114
+        }
+      ],
+      "color": "#0e2a0e",
+      "start_name": "관음봉조망",
+      "end_name": "갈림길",
+      "length_meter": 288.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.627056,
+          "lng": 126.620384,
+          "ele": 262.114
+        },
+        {
+          "lat": 35.636803,
+          "lng": 126.609375,
+          "ele": 144.904
+        }
+      ],
+      "color": "#058a0e",
+      "start_name": "갈림길",
+      "end_name": "원시림",
+      "length_meter": 1471.3,
+      "time_minute": 18
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.636803,
+          "lng": 126.609375,
+          "ele": 144.904
+        },
+        {
+          "lat": 35.640339,
+          "lng": 126.603065,
+          "ele": 126.656
+        }
+      ],
+      "color": "#440d47",
+      "start_name": "원시림",
+      "end_name": "계곡길",
+      "length_meter": 692.6,
+      "time_minute": 8
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.640339,
+          "lng": 126.603065,
+          "ele": 126.656
+        },
+        {
+          "lat": 35.639748,
+          "lng": 126.600899,
+          "ele": 143.693
+        }
+      ],
+      "color": "#27aa9c",
+      "start_name": "계곡길",
+      "end_name": "세봉조망",
+      "length_meter": 206.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.639748,
+          "lng": 126.600899,
+          "ele": 143.693
+        },
+        {
+          "lat": 35.639034,
+          "lng": 126.600471,
+          "ele": 107.674
+        }
+      ],
+      "color": "#86c18a",
+      "start_name": "세봉조망",
+      "end_name": "갈림길",
+      "length_meter": 88.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.639034,
+          "lng": 126.600471,
+          "ele": 107.674
+        },
+        {
+          "lat": 35.639065,
+          "lng": 126.601105,
+          "ele": 107.324
+        }
+      ],
+      "color": "#8e59b1",
+      "start_name": "갈림길",
+      "end_name": "와룡소",
+      "length_meter": 57.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.639065,
+          "lng": 126.601105,
+          "ele": 107.324
+        },
+        {
+          "lat": 35.637283,
+          "lng": 126.596672,
+          "ele": 83.398
+        }
+      ],
+      "color": "#c14d73",
+      "start_name": "와룡소",
+      "end_name": "갈림길",
+      "length_meter": 446.9,
+      "time_minute": 5
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.637283,
+          "lng": 126.596672,
+          "ele": 83.398
+        },
+        {
+          "lat": 35.636402,
+          "lng": 126.593491,
+          "ele": 162.613
+        }
+      ],
+      "color": "#37b471",
+      "start_name": "갈림길",
+      "end_name": "내변산 봉우리 조망",
+      "length_meter": 303.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.636402,
+          "lng": 126.593491,
+          "ele": 162.613
+        },
+        {
+          "lat": 35.631866,
+          "lng": 126.591461,
+          "ele": 365.97
+        }
+      ],
+      "color": "#1b9421",
+      "start_name": "내변산 봉우리 조망",
+      "end_name": "직소보 조망",
+      "length_meter": 536.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.631866,
+          "lng": 126.591461,
+          "ele": 365.97
+        },
+        {
+          "lat": 35.630146,
+          "lng": 126.591751,
+          "ele": 427.848
+        }
+      ],
+      "color": "#611548",
+      "start_name": "직소보 조망",
+      "end_name": "세봉삼거리전",
+      "length_meter": 193.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.630146,
+          "lng": 126.591751,
+          "ele": 427.848
+        },
+        {
+          "lat": 35.625027,
+          "lng": 126.591003,
+          "ele": 402.508
+        }
+      ],
+      "color": "#c07d97",
+      "start_name": "세봉삼거리전",
+      "end_name": "곰소만",
+      "length_meter": 573.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.625027,
+          "lng": 126.591003,
+          "ele": 402.508
+        },
+        {
+          "lat": 35.621082,
+          "lng": 126.592949,
+          "ele": 287.754
+        }
+      ],
+      "color": "#4b4028",
+      "start_name": "곰소만 / 신전봉배경",
+      "end_name": "호수",
+      "length_meter": 472.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.621082,
+          "lng": 126.592949,
+          "ele": 287.754
+        },
+        {
+          "lat": 35.61565,
+          "lng": 126.594681,
+          "ele": 250.212
+        }
+      ],
+      "color": "#9535b1",
+      "start_name": "호수",
+      "end_name": "곰소만",
+      "length_meter": 624.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.61565,
+          "lng": 126.594681,
+          "ele": 250.212
+        },
+        {
+          "lat": 35.612282,
+          "lng": 126.59095,
+          "ele": 117.875
+        }
+      ],
+      "color": "#c50e04",
+      "start_name": "곰소만 / 관음봉",
+      "end_name": "입암전망대",
+      "length_meter": 504.0,
+      "time_minute": 8
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.612282,
+          "lng": 126.59095,
+          "ele": 117.875
+        },
+        {
+          "lat": 35.611462,
+          "lng": 126.590515,
+          "ele": 60.615
+        }
+      ],
+      "color": "#6d650a",
+      "start_name": "입암전망대",
+      "end_name": "입암",
+      "length_meter": 99.3,
+      "time_minute": 1
+    }
+  ]
+}

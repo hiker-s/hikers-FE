@@ -1,0 +1,275 @@
+{
+  "mnt_id": 30,
+  "mnt_name": "마이산",
+  "course_id": 78,
+  "max_ele": 573.11,
+  "total_length_km": "6.4km",
+  "total_time": "1시간 20분",
+  "start_name": "덕천교입구등산로",
+  "end_name": "쌍벽루",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 289.939,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.755539,
+          "lng": 127.353409,
+          "ele": 299.78
+        },
+        {
+          "lat": 35.753571,
+          "lng": 127.360435,
+          "ele": 447.224
+        }
+      ],
+      "color": "#7f8148",
+      "start_name": "덕천교입구등산로 / 갈림길",
+      "end_name": "국가지점목",
+      "length_meter": 671.0,
+      "time_minute": 11
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.753571,
+          "lng": 127.360435,
+          "ele": 447.224
+        },
+        {
+          "lat": 35.754807,
+          "lng": 127.36351,
+          "ele": 503.325
+        }
+      ],
+      "color": "#185a37",
+      "start_name": "국가지점목",
+      "end_name": "광대봉가는중간봉우리",
+      "length_meter": 309.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.754807,
+          "lng": 127.36351,
+          "ele": 503.325
+        },
+        {
+          "lat": 35.754478,
+          "lng": 127.369881,
+          "ele": 412.813
+        }
+      ],
+      "color": "#524e14",
+      "start_name": "광대봉가는중간봉우리",
+      "end_name": "국가지점목",
+      "length_meter": 576.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.754478,
+          "lng": 127.369881,
+          "ele": 412.813
+        },
+        {
+          "lat": 35.755848,
+          "lng": 127.381645,
+          "ele": 553.075
+        }
+      ],
+      "color": "#3d2dc6",
+      "start_name": "국가지점목 / 갈림길",
+      "end_name": "야생동물배설물",
+      "length_meter": 1156.7,
+      "time_minute": 18
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.755848,
+          "lng": 127.381645,
+          "ele": 553.075
+        },
+        {
+          "lat": 35.753761,
+          "lng": 127.382507,
+          "ele": 559.08
+        }
+      ],
+      "color": "#5b5bae",
+      "start_name": "야생동물배설물",
+      "end_name": "갈림길",
+      "length_meter": 244.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.753761,
+          "lng": 127.382507,
+          "ele": 559.08
+        },
+        {
+          "lat": 35.746819,
+          "lng": 127.375313,
+          "ele": 365.887
+        }
+      ],
+      "color": "#7da048",
+      "start_name": "갈림길",
+      "end_name": "보흥사",
+      "length_meter": 1008.6,
+      "time_minute": 12
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.746819,
+          "lng": 127.375313,
+          "ele": 365.887
+        },
+        {
+          "lat": 35.746391,
+          "lng": 127.374756,
+          "ele": 368.907
+        }
+      ],
+      "color": "#a1388d",
+      "start_name": "보흥사 / 강정리오층석탑",
+      "end_name": "보흥사 화장실",
+      "length_meter": 70.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.746391,
+          "lng": 127.374756,
+          "ele": 368.907
+        },
+        {
+          "lat": 35.74567,
+          "lng": 127.373695,
+          "ele": 341.129
+        }
+      ],
+      "color": "#ae8997",
+      "start_name": "보흥사 화장실",
+      "end_name": "보흥사입구주차장",
+      "length_meter": 124.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.74567,
+          "lng": 127.373695,
+          "ele": 341.129
+        },
+        {
+          "lat": 35.745541,
+          "lng": 127.373581,
+          "ele": 343.49
+        }
+      ],
+      "color": "#139312",
+      "start_name": "보흥사입구주차장 / 팔각정",
+      "end_name": "보흥사입구화장실",
+      "length_meter": 75.9,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.745541,
+          "lng": 127.373581,
+          "ele": 343.49
+        },
+        {
+          "lat": 35.738209,
+          "lng": 127.365295,
+          "ele": 296.314
+        }
+      ],
+      "color": "#6165b7",
+      "start_name": "보흥사입구화장실",
+      "end_name": "갈림길",
+      "length_meter": 1106.3,
+      "time_minute": 13
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.738209,
+          "lng": 127.365295,
+          "ele": 296.314
+        },
+        {
+          "lat": 35.73671,
+          "lng": 127.364807,
+          "ele": 293.601
+        }
+      ],
+      "color": "#ba631b",
+      "start_name": "갈림길",
+      "end_name": "원강정마을 버스정류소",
+      "length_meter": 172.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.73671,
+          "lng": 127.364807,
+          "ele": 293.601
+        },
+        {
+          "lat": 35.736393,
+          "lng": 127.362831,
+          "ele": 297.967
+        }
+      ],
+      "color": "#028bb9",
+      "start_name": "원강정마을 버스정류소",
+      "end_name": "강정리근대한옥마을",
+      "length_meter": 181.8,
+      "time_minute": 2
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.736393,
+          "lng": 127.362831,
+          "ele": 297.967
+        },
+        {
+          "lat": 35.738628,
+          "lng": 127.355545,
+          "ele": 289.939
+        }
+      ],
+      "color": "#6b8581",
+      "start_name": "강정리근대한옥마을 / 갈림길",
+      "end_name": "쌍벽루",
+      "length_meter": 703.1,
+      "time_minute": 11
+    }
+  ]
+}

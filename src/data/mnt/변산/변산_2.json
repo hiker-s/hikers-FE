@@ -1,0 +1,415 @@
+{
+  "mnt_id": 45,
+  "mnt_name": "변산",
+  "course_id": 115,
+  "max_ele": 441.341,
+  "total_length_km": "6.9km",
+  "total_time": "1시간 25분",
+  "start_name": "원암매표소",
+  "end_name": "남여치",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 48.593,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.60939,
+          "lng": 126.582047,
+          "ele": 48.593
+        },
+        {
+          "lat": 35.615734,
+          "lng": 126.577629,
+          "ele": 153.631
+        }
+      ],
+      "color": "#751791",
+      "start_name": "원암매표소",
+      "end_name": "주능선조망",
+      "length_meter": 810.6,
+      "time_minute": 10
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.615734,
+          "lng": 126.577629,
+          "ele": 153.631
+        },
+        {
+          "lat": 35.618469,
+          "lng": 126.575539,
+          "ele": 203.929
+        }
+      ],
+      "color": "#365c85",
+      "start_name": "주능선조망",
+      "end_name": "갈림길",
+      "length_meter": 358.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.618469,
+          "lng": 126.575539,
+          "ele": 203.929
+        },
+        {
+          "lat": 35.618855,
+          "lng": 126.573715,
+          "ele": 179.269
+        }
+      ],
+      "color": "#2a2395",
+      "start_name": "갈림길 / 재백이삼거리 쉄터 / 재백이삼거리",
+      "end_name": "원시림숲길",
+      "length_meter": 192.1,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.618855,
+          "lng": 126.573715,
+          "ele": 179.269
+        },
+        {
+          "lat": 35.618942,
+          "lng": 126.572708,
+          "ele": 165.325
+        }
+      ],
+      "color": "#a40683",
+      "start_name": "원시림숲길",
+      "end_name": "재백이다리",
+      "length_meter": 91.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.618942,
+          "lng": 126.572708,
+          "ele": 165.325
+        },
+        {
+          "lat": 35.619141,
+          "lng": 126.572609,
+          "ele": 162.594
+        }
+      ],
+      "color": "#3e1842",
+      "start_name": "재백이다리",
+      "end_name": "비상우회로",
+      "length_meter": 23.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.619141,
+          "lng": 126.572609,
+          "ele": 162.594
+        },
+        {
+          "lat": 35.620235,
+          "lng": 126.572212,
+          "ele": 159.41
+        }
+      ],
+      "color": "#5a1612",
+      "start_name": "비상우회로",
+      "end_name": "갈림길",
+      "length_meter": 126.8,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.620235,
+          "lng": 126.572212,
+          "ele": 159.41
+        },
+        {
+          "lat": 35.626915,
+          "lng": 126.569519,
+          "ele": 152.594
+        }
+      ],
+      "color": "#ad7713",
+      "start_name": "갈림길",
+      "end_name": "직소폭포 상단",
+      "length_meter": 781.6,
+      "time_minute": 9
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.626915,
+          "lng": 126.569519,
+          "ele": 152.594
+        },
+        {
+          "lat": 35.627621,
+          "lng": 126.570511,
+          "ele": 132.278
+        }
+      ],
+      "color": "#4fa0c0",
+      "start_name": "직소폭포 상단 / 직소폭포인근",
+      "end_name": "직소폭포 조망",
+      "length_meter": 119.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.627621,
+          "lng": 126.570511,
+          "ele": 132.278
+        },
+        {
+          "lat": 35.62701,
+          "lng": 126.570045,
+          "ele": 118.21
+        }
+      ],
+      "color": "#9048a5",
+      "start_name": "직소폭포 조망 / 갈림길",
+      "end_name": "직소폭포",
+      "length_meter": 103.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.62701,
+          "lng": 126.570045,
+          "ele": 118.21
+        },
+        {
+          "lat": 35.627754,
+          "lng": 126.570763,
+          "ele": 133.879
+        }
+      ],
+      "color": "#525e2c",
+      "start_name": "직소폭포",
+      "end_name": "직소폭포전망대",
+      "length_meter": 105.1,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.627754,
+          "lng": 126.570763,
+          "ele": 133.879
+        },
+        {
+          "lat": 35.628502,
+          "lng": 126.573357,
+          "ele": 108.309
+        }
+      ],
+      "color": "#12a075",
+      "start_name": "직소폭포전망대 / 적소폭포외",
+      "end_name": "선녀탕",
+      "length_meter": 267.8,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 35.628502,
+          "lng": 126.573357,
+          "ele": 108.309
+        },
+        {
+          "lat": 35.630245,
+          "lng": 126.573341,
+          "ele": 92.925
+        }
+      ],
+      "color": "#08989e",
+      "start_name": "선녀탕 / 갈림길",
+      "end_name": "직소보",
+      "length_meter": 195.7,
+      "time_minute": 3
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 35.630245,
+          "lng": 126.573341,
+          "ele": 92.925
+        },
+        {
+          "lat": 35.631741,
+          "lng": 126.57238,
+          "ele": 103.945
+        }
+      ],
+      "color": "#bf71c2",
+      "start_name": "직소보",
+      "end_name": "직소보전망대",
+      "length_meter": 187.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 35.631741,
+          "lng": 126.57238,
+          "ele": 103.945
+        },
+        {
+          "lat": 35.632404,
+          "lng": 126.573547,
+          "ele": 94.916
+        }
+      ],
+      "color": "#54ada4",
+      "start_name": "직소보전망대",
+      "end_name": "자연보호헌장",
+      "length_meter": 128.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 14,
+      "path": [
+        {
+          "lat": 35.632404,
+          "lng": 126.573547,
+          "ele": 94.916
+        },
+        {
+          "lat": 35.639278,
+          "lng": 126.567162,
+          "ele": 399.527
+        }
+      ],
+      "color": "#3a3781",
+      "start_name": "자연보호헌장 / 갈림길",
+      "end_name": "개별쉄터",
+      "length_meter": 959.9,
+      "time_minute": 15
+    },
+    {
+      "path_id": 15,
+      "path": [
+        {
+          "lat": 35.639278,
+          "lng": 126.567162,
+          "ele": 399.527
+        },
+        {
+          "lat": 35.640511,
+          "lng": 126.55822,
+          "ele": 417.93
+        }
+      ],
+      "color": "#490762",
+      "start_name": "개별쉄터",
+      "end_name": "월명암",
+      "length_meter": 819.6,
+      "time_minute": 10
+    },
+    {
+      "path_id": 16,
+      "path": [
+        {
+          "lat": 35.640511,
+          "lng": 126.55822,
+          "ele": 417.93
+        },
+        {
+          "lat": 35.643318,
+          "lng": 126.557159,
+          "ele": 441.341
+        }
+      ],
+      "color": "#a96e75",
+      "start_name": "월명암",
+      "end_name": "갈림길",
+      "length_meter": 326.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 17,
+      "path": [
+        {
+          "lat": 35.643318,
+          "lng": 126.557159,
+          "ele": 441.341
+        },
+        {
+          "lat": 35.647533,
+          "lng": 126.553108,
+          "ele": 336.434
+        }
+      ],
+      "color": "#b97345",
+      "start_name": "갈림길",
+      "end_name": "내변산쉄터",
+      "length_meter": 594.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 18,
+      "path": [
+        {
+          "lat": 35.647533,
+          "lng": 126.553108,
+          "ele": 336.434
+        },
+        {
+          "lat": 35.651192,
+          "lng": 126.547539,
+          "ele": 103.988
+        }
+      ],
+      "color": "#c47095",
+      "start_name": "내변산쉄터",
+      "end_name": "남여치주차장",
+      "length_meter": 647.1,
+      "time_minute": 8
+    },
+    {
+      "path_id": 19,
+      "path": [
+        {
+          "lat": 35.651192,
+          "lng": 126.547539,
+          "ele": 103.988
+        },
+        {
+          "lat": 35.651093,
+          "lng": 126.547585,
+          "ele": 104.595
+        }
+      ],
+      "color": "#b8aa80",
+      "start_name": "남여치주차장",
+      "end_name": "남여치",
+      "length_meter": 11.8,
+      "time_minute": 0
+    }
+  ]
+}

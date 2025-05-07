@@ -1,0 +1,75 @@
+{
+  "mnt_id": 56,
+  "mnt_name": "신불산",
+  "course_id": 154,
+  "max_ele": 1149.636,
+  "total_length_km": "1.4km",
+  "total_time": "0시간 17분",
+  "start_name": "쉼터",
+  "end_name": "자연경관",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 408.095,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.527931,
+          "lng": 129.026489,
+          "ele": 408.095
+        },
+        {
+          "lat": 35.530231,
+          "lng": 129.029587,
+          "ele": 663.109
+        }
+      ],
+      "color": "#867b0f",
+      "start_name": "쉼터",
+      "end_name": "자연경관",
+      "length_meter": 379.5,
+      "time_minute": 4
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.530231,
+          "lng": 129.029587,
+          "ele": 663.109
+        },
+        {
+          "lat": 35.534191,
+          "lng": 129.037201,
+          "ele": 880.849
+        }
+      ],
+      "color": "#b7c4b4",
+      "start_name": "자연경관",
+      "end_name": "갈림길",
+      "length_meter": 817.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.534191,
+          "lng": 129.037201,
+          "ele": 880.849
+        },
+        {
+          "lat": 35.534939,
+          "lng": 129.039063,
+          "ele": 931.776
+        }
+      ],
+      "color": "#7403b0",
+      "start_name": "갈림길",
+      "end_name": "자연경관",
+      "length_meter": 187.9,
+      "time_minute": 2
+    }
+  ]
+}

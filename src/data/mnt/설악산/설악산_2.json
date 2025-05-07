@@ -1,0 +1,155 @@
+{
+  "mnt_id": 51,
+  "mnt_name": "설악산",
+  "course_id": 139,
+  "max_ele": 1733.638,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "남설악탐방지원센터",
+  "end_name": "공룡능선",
+  "level": "상",
+  "course_name": "가파른산길 코스",
+  "min_ele": 443.023,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.084709,
+          "lng": 128.448883,
+          "ele": 443.023
+        },
+        {
+          "lat": 38.090847,
+          "lng": 128.449371,
+          "ele": 619.126
+        }
+      ],
+      "color": "#31be06",
+      "start_name": "남설악탐방지원센터 / 남설악화장실",
+      "end_name": "의자",
+      "length_meter": 684.2,
+      "time_minute": 11
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.090847,
+          "lng": 128.449371,
+          "ele": 619.126
+        },
+        {
+          "lat": 38.095238,
+          "lng": 128.450348,
+          "ele": 844.921
+        }
+      ],
+      "color": "#c21fc7",
+      "start_name": "의자",
+      "end_name": "오색1쉼터",
+      "length_meter": 495.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.095238,
+          "lng": 128.450348,
+          "ele": 844.921
+        },
+        {
+          "lat": 38.096855,
+          "lng": 128.453903,
+          "ele": 916.369
+        }
+      ],
+      "color": "#770585",
+      "start_name": "오색1쉼터",
+      "end_name": "갈림길",
+      "length_meter": 359.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.096855,
+          "lng": 128.453903,
+          "ele": 916.369
+        },
+        {
+          "lat": 38.103073,
+          "lng": 128.456665,
+          "ele": 999.948
+        }
+      ],
+      "color": "#9272c1",
+      "start_name": "갈림길 / 쉼터",
+      "end_name": "설악폭포",
+      "length_meter": 732.5,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.103073,
+          "lng": 128.456665,
+          "ele": 999.948
+        },
+        {
+          "lat": 38.110825,
+          "lng": 128.460464,
+          "ele": 1363.688
+        }
+      ],
+      "color": "#3307be",
+      "start_name": "설악폭포",
+      "end_name": "오색2쉼터",
+      "length_meter": 923.9,
+      "time_minute": 11
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.110825,
+          "lng": 128.460464,
+          "ele": 1363.688
+        },
+        {
+          "lat": 38.119102,
+          "lng": 128.465347,
+          "ele": 1733.575
+        }
+      ],
+      "color": "#84c005",
+      "start_name": "오색2쉼터",
+      "end_name": "대청봉",
+      "length_meter": 1014.7,
+      "time_minute": 12
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.119102,
+          "lng": 128.465347,
+          "ele": 1733.575
+        },
+        {
+          "lat": 38.119114,
+          "lng": 128.465347,
+          "ele": 1733.638
+        }
+      ],
+      "color": "#4cc60f",
+      "start_name": "대청봉",
+      "end_name": "공룡능선",
+      "length_meter": 1.3,
+      "time_minute": 0
+    }
+  ]
+}

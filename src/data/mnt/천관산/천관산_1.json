@@ -1,0 +1,135 @@
+{
+  "mnt_id": 78,
+  "mnt_name": "천관산",
+  "course_id": 204,
+  "max_ele": 736.11,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 42분",
+  "start_name": "금강굴",
+  "end_name": "장안사",
+  "level": "중",
+  "course_name": "산중길 코스",
+  "min_ele": 172.393,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.540127,
+          "lng": 126.913895,
+          "ele": 588.758
+        },
+        {
+          "lat": 34.540108,
+          "lng": 126.913246,
+          "ele": 617.696
+        }
+      ],
+      "color": "#8d30a8",
+      "start_name": "금강굴",
+      "end_name": "석선",
+      "length_meter": 59.5,
+      "time_minute": 0
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.540108,
+          "lng": 126.913246,
+          "ele": 617.696
+        },
+        {
+          "lat": 34.535591,
+          "lng": 126.911819,
+          "ele": 730.11
+        }
+      ],
+      "color": "#c45baa",
+      "start_name": "석선",
+      "end_name": "갈림길",
+      "length_meter": 519.0,
+      "time_minute": 6
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.535591,
+          "lng": 126.911819,
+          "ele": 730.11
+        },
+        {
+          "lat": 34.531826,
+          "lng": 126.91951,
+          "ele": 733.543
+        }
+      ],
+      "color": "#9ba053",
+      "start_name": "갈림길 / 환희대",
+      "end_name": "천관산 연대봉",
+      "length_meter": 819.5,
+      "time_minute": 13
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.531826,
+          "lng": 126.91951,
+          "ele": 733.543
+        },
+        {
+          "lat": 34.536087,
+          "lng": 126.925873,
+          "ele": 588.393
+        }
+      ],
+      "color": "#a87a50",
+      "start_name": "천관산 연대봉 / 갈림길",
+      "end_name": "정원암",
+      "length_meter": 753.6,
+      "time_minute": 12
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.536087,
+          "lng": 126.925873,
+          "ele": 588.393
+        },
+        {
+          "lat": 34.537449,
+          "lng": 126.926849,
+          "ele": 560.758
+        }
+      ],
+      "color": "#71640f",
+      "start_name": "정원암",
+      "end_name": "양근암",
+      "length_meter": 175.9,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.537449,
+          "lng": 126.926849,
+          "ele": 560.758
+        },
+        {
+          "lat": 34.546654,
+          "lng": 126.930435,
+          "ele": 172.393
+        }
+      ],
+      "color": "#8732a3",
+      "start_name": "양근암",
+      "end_name": "장안사",
+      "length_meter": 1075.0,
+      "time_minute": 13
+    }
+  ]
+}

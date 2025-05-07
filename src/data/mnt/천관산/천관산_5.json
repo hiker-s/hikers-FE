@@ -1,0 +1,295 @@
+{
+  "mnt_id": 78,
+  "mnt_name": "천관산",
+  "course_id": 202,
+  "max_ele": 720.848,
+  "total_length_km": "5.0km",
+  "total_time": "1시간 2분",
+  "start_name": "약수터",
+  "end_name": "장흥 천관사 삼층석탑",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 89.219,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.548855,
+          "lng": 126.935677,
+          "ele": 89.219
+        },
+        {
+          "lat": 34.548691,
+          "lng": 126.933411,
+          "ele": 104.804
+        }
+      ],
+      "color": "#1db19d",
+      "start_name": "약수터",
+      "end_name": "쉼터",
+      "length_meter": 208.3,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.548691,
+          "lng": 126.933411,
+          "ele": 104.804
+        },
+        {
+          "lat": 34.548462,
+          "lng": 126.931602,
+          "ele": 123.518
+        }
+      ],
+      "color": "#ae38c1",
+      "start_name": "쉼터 / 전남 농업 마이스터 대학",
+      "end_name": "쉼터",
+      "length_meter": 170.2,
+      "time_minute": 2
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.548462,
+          "lng": 126.931602,
+          "ele": 123.518
+        },
+        {
+          "lat": 34.54879,
+          "lng": 126.929344,
+          "ele": 152.551
+        }
+      ],
+      "color": "#b90886",
+      "start_name": "쉼터",
+      "end_name": "장천재",
+      "length_meter": 210.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.54879,
+          "lng": 126.929344,
+          "ele": 152.551
+        },
+        {
+          "lat": 34.548779,
+          "lng": 126.928963,
+          "ele": 157.949
+        }
+      ],
+      "color": "#933c0a",
+      "start_name": "장천재 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 39.8,
+      "time_minute": 0
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.548779,
+          "lng": 126.928963,
+          "ele": 157.949
+        },
+        {
+          "lat": 34.538586,
+          "lng": 126.919479,
+          "ele": 552.841
+        }
+      ],
+      "color": "#c43f36",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 1428.0,
+      "time_minute": 17
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.538586,
+          "lng": 126.919479,
+          "ele": 552.841
+        },
+        {
+          "lat": 34.533813,
+          "lng": 126.91674,
+          "ele": 719.333
+        }
+      ],
+      "color": "#791024",
+      "start_name": "갈림길",
+      "end_name": "KT시설물",
+      "length_meter": 587.0,
+      "time_minute": 7
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.533813,
+          "lng": 126.91674,
+          "ele": 719.333
+        },
+        {
+          "lat": 34.533821,
+          "lng": 126.91674,
+          "ele": 720.848
+        }
+      ],
+      "color": "#b66295",
+      "start_name": "KT시설물",
+      "end_name": "비상시 핸드폰 충전 시설",
+      "length_meter": 0.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.533821,
+          "lng": 126.91674,
+          "ele": 720.848
+        },
+        {
+          "lat": 34.538006,
+          "lng": 126.912315,
+          "ele": 706.164
+        }
+      ],
+      "color": "#736d1d",
+      "start_name": "비상시 핸드폰 충전 시설",
+      "end_name": "갈림길",
+      "length_meter": 617.1,
+      "time_minute": 7
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.538006,
+          "lng": 126.912315,
+          "ele": 706.164
+        },
+        {
+          "lat": 34.538685,
+          "lng": 126.912155,
+          "ele": 684.314
+        }
+      ],
+      "color": "#3f6b4f",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 76.9,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.538685,
+          "lng": 126.912155,
+          "ele": 684.314
+        },
+        {
+          "lat": 34.539448,
+          "lng": 126.912613,
+          "ele": 678.692
+        }
+      ],
+      "color": "#3c7075",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 94.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.539448,
+          "lng": 126.912613,
+          "ele": 678.692
+        },
+        {
+          "lat": 34.5424,
+          "lng": 126.910133,
+          "ele": 602.358
+        }
+      ],
+      "color": "#1d635e",
+      "start_name": "갈림길",
+      "end_name": "쉼터",
+      "length_meter": 399.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 34.5424,
+          "lng": 126.910133,
+          "ele": 602.358
+        },
+        {
+          "lat": 34.549019,
+          "lng": 126.906242,
+          "ele": 381.549
+        }
+      ],
+      "color": "#763c9a",
+      "start_name": "쉼터",
+      "end_name": "등산로 모습",
+      "length_meter": 817.7,
+      "time_minute": 10
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 34.549019,
+          "lng": 126.906242,
+          "ele": 381.549
+        },
+        {
+          "lat": 34.551334,
+          "lng": 126.904861,
+          "ele": 353.18
+        }
+      ],
+      "color": "#1f8296",
+      "start_name": "등산로 모습",
+      "end_name": "장흥 천관사 오층 석탑",
+      "length_meter": 286.8,
+      "time_minute": 3
+    },
+    {
+      "path_id": 13,
+      "path": [
+        {
+          "lat": 34.551334,
+          "lng": 126.904861,
+          "ele": 353.18
+        },
+        {
+          "lat": 34.551762,
+          "lng": 126.904373,
+          "ele": 351.818
+        }
+      ],
+      "color": "#63b13e",
+      "start_name": "장흥 천관사 오층 석탑 / 장흥 천관사 석등 / 천관사",
+      "end_name": "장흥 천관사 삼층석탑",
+      "length_meter": 83.5,
+      "time_minute": 1
+    }
+  ]
+}

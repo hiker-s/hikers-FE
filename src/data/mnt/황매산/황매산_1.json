@@ -1,0 +1,235 @@
+{
+  "mnt_id": 95,
+  "mnt_name": "황매산",
+  "course_id": 250,
+  "max_ele": 1123.344,
+  "total_length_km": "6.8km",
+  "total_time": "1시간 25분",
+  "start_name": "갈림길",
+  "end_name": "모산재",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 497.942,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.483547,
+          "lng": 127.998627,
+          "ele": 497.942
+        },
+        {
+          "lat": 35.484016,
+          "lng": 127.997932,
+          "ele": 506.046
+        }
+      ],
+      "color": "#18bac2",
+      "start_name": "갈림길",
+      "end_name": "황매산고래바우",
+      "length_meter": 81.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.484016,
+          "lng": 127.997932,
+          "ele": 506.046
+        },
+        {
+          "lat": 35.481808,
+          "lng": 127.988449,
+          "ele": 721.806
+        }
+      ],
+      "color": "#4f9489",
+      "start_name": "황매산고래바우 / 갈림길",
+      "end_name": "쉼터",
+      "length_meter": 934.3,
+      "time_minute": 15
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.481808,
+          "lng": 127.988449,
+          "ele": 721.806
+        },
+        {
+          "lat": 35.481453,
+          "lng": 127.985657,
+          "ele": 774.551
+        }
+      ],
+      "color": "#45c52b",
+      "start_name": "쉼터",
+      "end_name": "황매산 오토 캠핑장",
+      "length_meter": 255.9,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.481453,
+          "lng": 127.985657,
+          "ele": 774.551
+        },
+        {
+          "lat": 35.481087,
+          "lng": 127.983414,
+          "ele": 801.906
+        }
+      ],
+      "color": "#997914",
+      "start_name": "황매산 오토 캠핑장",
+      "end_name": "갈림길",
+      "length_meter": 207.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.481087,
+          "lng": 127.983414,
+          "ele": 801.906
+        },
+        {
+          "lat": 35.481228,
+          "lng": 127.982208,
+          "ele": 811.525
+        }
+      ],
+      "color": "#c57b04",
+      "start_name": "갈림길",
+      "end_name": "로컬푸드",
+      "length_meter": 110.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.481228,
+          "lng": 127.982208,
+          "ele": 811.525
+        },
+        {
+          "lat": 35.479427,
+          "lng": 127.980721,
+          "ele": 869.92
+        }
+      ],
+      "color": "#4fbb85",
+      "start_name": "로컬푸드",
+      "end_name": "갈림길",
+      "length_meter": 241.3,
+      "time_minute": 3
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.479427,
+          "lng": 127.980721,
+          "ele": 869.92
+        },
+        {
+          "lat": 35.478813,
+          "lng": 127.979362,
+          "ele": 887.183
+        }
+      ],
+      "color": "#260a36",
+      "start_name": "갈림길",
+      "end_name": "흔들의자 쉼터",
+      "length_meter": 140.7,
+      "time_minute": 1
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.478813,
+          "lng": 127.979362,
+          "ele": 887.183
+        },
+        {
+          "lat": 35.478176,
+          "lng": 127.976974,
+          "ele": 894.385
+        }
+      ],
+      "color": "#313965",
+      "start_name": "흔들의자 쉼터 / 철쭉군락지",
+      "end_name": "데크 쉼터",
+      "length_meter": 228.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.478176,
+          "lng": 127.976974,
+          "ele": 894.385
+        },
+        {
+          "lat": 35.479958,
+          "lng": 127.976036,
+          "ele": 955.63
+        }
+      ],
+      "color": "#a78ba6",
+      "start_name": "데크 쉼터",
+      "end_name": "갈림길",
+      "length_meter": 215.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 35.479958,
+          "lng": 127.976036,
+          "ele": 955.63
+        },
+        {
+          "lat": 35.494186,
+          "lng": 127.974632,
+          "ele": 1123.344
+        }
+      ],
+      "color": "#0605ba",
+      "start_name": "갈림길",
+      "end_name": "황매산 군립공원",
+      "length_meter": 1587.2,
+      "time_minute": 19
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 35.494186,
+          "lng": 127.974632,
+          "ele": 1123.344
+        },
+        {
+          "lat": 35.474625,
+          "lng": 127.99398,
+          "ele": 796.953
+        }
+      ],
+      "color": "#7518a5",
+      "start_name": "황매산 군립공원 / 갈림길",
+      "end_name": "모산재",
+      "length_meter": 2822.9,
+      "time_minute": 46
+    }
+  ]
+}

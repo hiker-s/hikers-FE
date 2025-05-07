@@ -1,0 +1,195 @@
+{
+  "mnt_id": 56,
+  "mnt_name": "신불산",
+  "course_id": 153,
+  "max_ele": 904.806,
+  "total_length_km": "1.7km",
+  "total_time": "0시간 21분",
+  "start_name": "자연경관",
+  "end_name": "휴양림상단",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 405.788,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 35.528458,
+          "lng": 129.026276,
+          "ele": 405.788
+        },
+        {
+          "lat": 35.529648,
+          "lng": 129.025772,
+          "ele": 424.125
+        }
+      ],
+      "color": "#30bcaf",
+      "start_name": "자연경관 / 관광자원",
+      "end_name": "쉼터",
+      "length_meter": 141.0,
+      "time_minute": 2
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 35.529648,
+          "lng": 129.025772,
+          "ele": 424.125
+        },
+        {
+          "lat": 35.530495,
+          "lng": 129.025589,
+          "ele": 438.138
+        }
+      ],
+      "color": "#b3a96e",
+      "start_name": "쉼터",
+      "end_name": "뱀등 독충주의",
+      "length_meter": 95.6,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 35.530495,
+          "lng": 129.025589,
+          "ele": 438.138
+        },
+        {
+          "lat": 35.532276,
+          "lng": 129.026077,
+          "ele": 466.349
+        }
+      ],
+      "color": "#112001",
+      "start_name": "뱀등 독충주의 / 안전구조목 / 쉼터",
+      "end_name": "자연경관",
+      "length_meter": 203.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 35.532276,
+          "lng": 129.026077,
+          "ele": 466.349
+        },
+        {
+          "lat": 35.533482,
+          "lng": 129.025711,
+          "ele": 486.337
+        }
+      ],
+      "color": "#675621",
+      "start_name": "자연경관 / 쉼터",
+      "end_name": "주의",
+      "length_meter": 138.7,
+      "time_minute": 2
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 35.533482,
+          "lng": 129.025711,
+          "ele": 486.337
+        },
+        {
+          "lat": 35.53463,
+          "lng": 129.024948,
+          "ele": 536.902
+        }
+      ],
+      "color": "#714d52",
+      "start_name": "주의 / 쉼터 / 자연경관",
+      "end_name": "주의",
+      "length_meter": 165.6,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 35.53463,
+          "lng": 129.024948,
+          "ele": 536.902
+        },
+        {
+          "lat": 35.53627,
+          "lng": 129.024094,
+          "ele": 532.478
+        }
+      ],
+      "color": "#228ac7",
+      "start_name": "주의",
+      "end_name": "쉼터",
+      "length_meter": 198.1,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 35.53627,
+          "lng": 129.024094,
+          "ele": 532.478
+        },
+        {
+          "lat": 35.541172,
+          "lng": 129.021896,
+          "ele": 575.164
+        }
+      ],
+      "color": "#5db814",
+      "start_name": "쉼터",
+      "end_name": "금지",
+      "length_meter": 580.2,
+      "time_minute": 7
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 35.541172,
+          "lng": 129.021896,
+          "ele": 575.164
+        },
+        {
+          "lat": 35.54208,
+          "lng": 129.021851,
+          "ele": 580.756
+        }
+      ],
+      "color": "#6682b6",
+      "start_name": "금지",
+      "end_name": "쉼터",
+      "length_meter": 101.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 35.54208,
+          "lng": 129.021851,
+          "ele": 580.756
+        },
+        {
+          "lat": 35.542683,
+          "lng": 129.022339,
+          "ele": 580.961
+        }
+      ],
+      "color": "#14c59f",
+      "start_name": "쉼터 / 관광자원",
+      "end_name": "휴양림상단",
+      "length_meter": 88.1,
+      "time_minute": 1
+    }
+  ]
+}

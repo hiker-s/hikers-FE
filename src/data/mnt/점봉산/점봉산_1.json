@@ -1,0 +1,175 @@
+{
+  "mnt_id": 72,
+  "mnt_name": "점봉산",
+  "course_id": 193,
+  "max_ele": 1128.0,
+  "total_length_km": "4.4km",
+  "total_time": "0시간 55분",
+  "start_name": "입구",
+  "end_name": "곰배령 정상",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 746.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 38.036438,
+          "lng": 128.471298,
+          "ele": 746.0
+        },
+        {
+          "lat": 38.031631,
+          "lng": 128.463196,
+          "ele": 778.0
+        }
+      ],
+      "color": "#7237b9",
+      "start_name": "입구 / 점봉산 생태관리센터 / 외부 종자 유입 방지 에어건",
+      "end_name": "폭포",
+      "length_meter": 888.4,
+      "time_minute": 14
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 38.031631,
+          "lng": 128.463196,
+          "ele": 778.0
+        },
+        {
+          "lat": 38.033512,
+          "lng": 128.456528,
+          "ele": 815.0
+        }
+      ],
+      "color": "#856f98",
+      "start_name": "폭포",
+      "end_name": "갈림길",
+      "length_meter": 620.3,
+      "time_minute": 7
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 38.033512,
+          "lng": 128.456528,
+          "ele": 815.0
+        },
+        {
+          "lat": 38.035477,
+          "lng": 128.45433,
+          "ele": 821.0
+        }
+      ],
+      "color": "#9dc41d",
+      "start_name": "갈림길 / 쉼터",
+      "end_name": "곰배령 끝집 등",
+      "length_meter": 291.2,
+      "time_minute": 4
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 38.035477,
+          "lng": 128.45433,
+          "ele": 821.0
+        },
+        {
+          "lat": 38.037895,
+          "lng": 128.450943,
+          "ele": 840.0
+        }
+      ],
+      "color": "#53c60b",
+      "start_name": "곰배령 끝집 등 / 사설 매점 화장실",
+      "end_name": "쉼터",
+      "length_meter": 400.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 38.037895,
+          "lng": 128.450943,
+          "ele": 840.0
+        },
+        {
+          "lat": 38.03846,
+          "lng": 128.444672,
+          "ele": 897.0
+        }
+      ],
+      "color": "#c439ae",
+      "start_name": "쉼터",
+      "end_name": "폭포",
+      "length_meter": 552.8,
+      "time_minute": 6
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 38.03846,
+          "lng": 128.444672,
+          "ele": 897.0
+        },
+        {
+          "lat": 38.036495,
+          "lng": 128.44101,
+          "ele": 938.0
+        }
+      ],
+      "color": "#914008",
+      "start_name": "폭포",
+      "end_name": "쉼터",
+      "length_meter": 388.1,
+      "time_minute": 4
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 38.036495,
+          "lng": 128.44101,
+          "ele": 938.0
+        },
+        {
+          "lat": 38.027786,
+          "lng": 128.433029,
+          "ele": 1123.0
+        }
+      ],
+      "color": "#7b9d99",
+      "start_name": "쉼터",
+      "end_name": "갈림길",
+      "length_meter": 1194.3,
+      "time_minute": 14
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 38.027786,
+          "lng": 128.433029,
+          "ele": 1123.0
+        },
+        {
+          "lat": 38.027935,
+          "lng": 128.432312,
+          "ele": 1128.0
+        }
+      ],
+      "color": "#022074",
+      "start_name": "갈림길 / 곰배령 정상 조망점",
+      "end_name": "곰배령 정상",
+      "length_meter": 67.6,
+      "time_minute": 1
+    }
+  ]
+}

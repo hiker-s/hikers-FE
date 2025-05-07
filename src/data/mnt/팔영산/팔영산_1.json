@@ -1,0 +1,275 @@
+{
+  "mnt_id": 91,
+  "mnt_name": "팔영산",
+  "course_id": 235,
+  "max_ele": 622.0,
+  "total_length_km": "3.4km",
+  "total_time": "0시간 42분",
+  "start_name": "팔영산 등산안내도",
+  "end_name": "팔영산 8봉",
+  "level": "중",
+  "course_name": "꾸준오름 코스",
+  "min_ele": 24.0,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.639889,
+          "lng": 127.450142,
+          "ele": 31.0
+        },
+        {
+          "lat": 34.639141,
+          "lng": 127.450813,
+          "ele": 24.0
+        }
+      ],
+      "color": "#1fbb7f",
+      "start_name": "팔영산 등산안내도 / 팔영산 곡강 / 팔영산 곡강 주차장",
+      "end_name": "팔영산 선녀봉경유입구",
+      "length_meter": 119.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.639141,
+          "lng": 127.450813,
+          "ele": 24.0
+        },
+        {
+          "lat": 34.63715,
+          "lng": 127.448883,
+          "ele": 68.0
+        }
+      ],
+      "color": "#307d40",
+      "start_name": "팔영산 선녀봉경유입구",
+      "end_name": "탐방로 안내도",
+      "length_meter": 283.2,
+      "time_minute": 3
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.63715,
+          "lng": 127.448883,
+          "ele": 68.0
+        },
+        {
+          "lat": 34.635769,
+          "lng": 127.448761,
+          "ele": 110.0
+        }
+      ],
+      "color": "#ab7a92",
+      "start_name": "탐방로 안내도",
+      "end_name": "갈림길",
+      "length_meter": 154.0,
+      "time_minute": 1
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.635769,
+          "lng": 127.448761,
+          "ele": 110.0
+        },
+        {
+          "lat": 34.633404,
+          "lng": 127.447975,
+          "ele": 181.0
+        }
+      ],
+      "color": "#714d76",
+      "start_name": "갈림길",
+      "end_name": "낙석주위",
+      "length_meter": 272.6,
+      "time_minute": 3
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.633404,
+          "lng": 127.447975,
+          "ele": 181.0
+        },
+        {
+          "lat": 34.631508,
+          "lng": 127.44693,
+          "ele": 292.0
+        }
+      ],
+      "color": "#78b533",
+      "start_name": "낙석주위",
+      "end_name": "목구조목",
+      "length_meter": 231.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.631508,
+          "lng": 127.44693,
+          "ele": 292.0
+        },
+        {
+          "lat": 34.63229,
+          "lng": 127.444717,
+          "ele": 371.0
+        }
+      ],
+      "color": "#8bbb9b",
+      "start_name": "목구조목",
+      "end_name": "갈림길",
+      "length_meter": 220.4,
+      "time_minute": 2
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.63229,
+          "lng": 127.444717,
+          "ele": 371.0
+        },
+        {
+          "lat": 34.630619,
+          "lng": 127.441353,
+          "ele": 497.0
+        }
+      ],
+      "color": "#665e0a",
+      "start_name": "갈림길 / 선녀1봉",
+      "end_name": "선녀봉 2봉 쥥터",
+      "length_meter": 379.7,
+      "time_minute": 6
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.630619,
+          "lng": 127.441353,
+          "ele": 497.0
+        },
+        {
+          "lat": 34.629562,
+          "lng": 127.439445,
+          "ele": 543.0
+        }
+      ],
+      "color": "#06c7af",
+      "start_name": "선녀봉 2봉 쥥터",
+      "end_name": "팔영산 선녀봉",
+      "length_meter": 210.5,
+      "time_minute": 2
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.629562,
+          "lng": 127.439445,
+          "ele": 543.0
+        },
+        {
+          "lat": 34.629398,
+          "lng": 127.439415,
+          "ele": 542.0
+        }
+      ],
+      "color": "#52b61f",
+      "start_name": "팔영산 선녀봉",
+      "end_name": "선녀봉에서 성주봉쪽으로",
+      "length_meter": 18.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.629398,
+          "lng": 127.439415,
+          "ele": 542.0
+        },
+        {
+          "lat": 34.62912,
+          "lng": 127.439217,
+          "ele": 526.0
+        }
+      ],
+      "color": "#24b394",
+      "start_name": "선녀봉에서 성주봉쪽으로 / 갈림길",
+      "end_name": "목구조목",
+      "length_meter": 40.4,
+      "time_minute": 0
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.62912,
+          "lng": 127.439217,
+          "ele": 526.0
+        },
+        {
+          "lat": 34.627182,
+          "lng": 127.433182,
+          "ele": 484.0
+        }
+      ],
+      "color": "#7eb966",
+      "start_name": "목구조목",
+      "end_name": "갈림길",
+      "length_meter": 592.7,
+      "time_minute": 7
+    },
+    {
+      "path_id": 11,
+      "path": [
+        {
+          "lat": 34.627182,
+          "lng": 127.433182,
+          "ele": 484.0
+        },
+        {
+          "lat": 34.620781,
+          "lng": 127.43103,
+          "ele": 612.0
+        }
+      ],
+      "color": "#bf5464",
+      "start_name": "갈림길",
+      "end_name": "칠봉과팔봉사이",
+      "length_meter": 738.5,
+      "time_minute": 9
+    },
+    {
+      "path_id": 12,
+      "path": [
+        {
+          "lat": 34.620781,
+          "lng": 127.43103,
+          "ele": 612.0
+        },
+        {
+          "lat": 34.619579,
+          "lng": 127.43177,
+          "ele": 622.0
+        }
+      ],
+      "color": "#adc66a",
+      "start_name": "칠봉과팔봉사이",
+      "end_name": "팔영산 8봉",
+      "length_meter": 149.8,
+      "time_minute": 1
+    }
+  ]
+}

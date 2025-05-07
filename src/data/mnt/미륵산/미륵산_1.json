@@ -1,0 +1,235 @@
+{
+  "mnt_id": 36,
+  "mnt_name": "미륵산",
+  "course_id": 93,
+  "max_ele": 437.3,
+  "total_length_km": "4.2km",
+  "total_time": "0시간 52분",
+  "start_name": "옹달샘",
+  "end_name": "미륵동 약수터",
+  "level": "중",
+  "course_name": "중턱오름 코스",
+  "min_ele": 52.3,
+  "track": [
+    {
+      "path_id": 0,
+      "path": [
+        {
+          "lat": 34.824051,
+          "lng": 128.415268,
+          "ele": 53.9
+        },
+        {
+          "lat": 34.82296,
+          "lng": 128.415024,
+          "ele": 52.3
+        }
+      ],
+      "color": "#876d29",
+      "start_name": "옹달샘",
+      "end_name": "용화주막집",
+      "length_meter": 123.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 1,
+      "path": [
+        {
+          "lat": 34.82296,
+          "lng": 128.415024,
+          "ele": 52.3
+        },
+        {
+          "lat": 34.82235,
+          "lng": 128.414825,
+          "ele": 64.4
+        }
+      ],
+      "color": "#51ab99",
+      "start_name": "용화주막집 / 봉평곰탕",
+      "end_name": "미륵편의점",
+      "length_meter": 71.5,
+      "time_minute": 1
+    },
+    {
+      "path_id": 2,
+      "path": [
+        {
+          "lat": 34.82235,
+          "lng": 128.414825,
+          "ele": 64.4
+        },
+        {
+          "lat": 34.821953,
+          "lng": 128.414749,
+          "ele": 69.8
+        }
+      ],
+      "color": "#6a31ad",
+      "start_name": "미륵편의점 / 용화사 광장주차장",
+      "end_name": "용화산방",
+      "length_meter": 44.7,
+      "time_minute": 0
+    },
+    {
+      "path_id": 3,
+      "path": [
+        {
+          "lat": 34.821953,
+          "lng": 128.414749,
+          "ele": 69.8
+        },
+        {
+          "lat": 34.817135,
+          "lng": 128.402298,
+          "ele": 334.9
+        }
+      ],
+      "color": "#222ba8",
+      "start_name": "용화산방 / 갈림길",
+      "end_name": "현금산 정상 339미터",
+      "length_meter": 1256.9,
+      "time_minute": 20
+    },
+    {
+      "path_id": 4,
+      "path": [
+        {
+          "lat": 34.817135,
+          "lng": 128.402298,
+          "ele": 334.9
+        },
+        {
+          "lat": 34.817833,
+          "lng": 128.406036,
+          "ele": 336.5
+        }
+      ],
+      "color": "#6cb823",
+      "start_name": "현금산 정상 339미터",
+      "end_name": "천지봉 정상",
+      "length_meter": 350.0,
+      "time_minute": 4
+    },
+    {
+      "path_id": 5,
+      "path": [
+        {
+          "lat": 34.817833,
+          "lng": 128.406036,
+          "ele": 336.5
+        },
+        {
+          "lat": 34.817516,
+          "lng": 128.407135,
+          "ele": 324.8
+        }
+      ],
+      "color": "#5d7e77",
+      "start_name": "천지봉 정상",
+      "end_name": "KBS중계탑옆 조망처",
+      "length_meter": 106.3,
+      "time_minute": 1
+    },
+    {
+      "path_id": 6,
+      "path": [
+        {
+          "lat": 34.817516,
+          "lng": 128.407135,
+          "ele": 324.8
+        },
+        {
+          "lat": 34.815922,
+          "lng": 128.410355,
+          "ele": 319.8
+        }
+      ],
+      "color": "#078595",
+      "start_name": "KBS중계탑옆 조망처",
+      "end_name": "갈림길",
+      "length_meter": 343.3,
+      "time_minute": 4
+    },
+    {
+      "path_id": 7,
+      "path": [
+        {
+          "lat": 34.815922,
+          "lng": 128.410355,
+          "ele": 319.8
+        },
+        {
+          "lat": 34.811089,
+          "lng": 128.415375,
+          "ele": 378.7
+        }
+      ],
+      "color": "#a6a89e",
+      "start_name": "갈림길",
+      "end_name": "정상직전 멋진소나무",
+      "length_meter": 706.3,
+      "time_minute": 8
+    },
+    {
+      "path_id": 8,
+      "path": [
+        {
+          "lat": 34.811089,
+          "lng": 128.415375,
+          "ele": 378.7
+        },
+        {
+          "lat": 34.810749,
+          "lng": 128.416092,
+          "ele": 437.3
+        }
+      ],
+      "color": "#196e08",
+      "start_name": "정상직전 멋진소나무",
+      "end_name": "미륵산",
+      "length_meter": 75.6,
+      "time_minute": 0
+    },
+    {
+      "path_id": 9,
+      "path": [
+        {
+          "lat": 34.810749,
+          "lng": 128.416092,
+          "ele": 437.3
+        },
+        {
+          "lat": 34.807171,
+          "lng": 128.418793,
+          "ele": 332.6
+        }
+      ],
+      "color": "#7f7a22",
+      "start_name": "미륵산",
+      "end_name": "갈림길",
+      "length_meter": 468.1,
+      "time_minute": 5
+    },
+    {
+      "path_id": 10,
+      "path": [
+        {
+          "lat": 34.807171,
+          "lng": 128.418793,
+          "ele": 332.6
+        },
+        {
+          "lat": 34.812881,
+          "lng": 128.420654,
+          "ele": 206.5
+        }
+      ],
+      "color": "#9b131f",
+      "start_name": "갈림길",
+      "end_name": "미륵동 약수터",
+      "length_meter": 657.3,
+      "time_minute": 8
+    }
+  ]
+}
