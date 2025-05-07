@@ -45,26 +45,38 @@ const CourseData = () => {
           const dataModule = await import(/* @vite-ignore */ `../../../data/mnt/${mnt_course.courseFilePath}`);
           setCourseData(dataModule.default);
           setLoading(false);
+          // ----
+          // + 3-2-2) JSON 파일 fetch 로 불러오기
+          // const response = await fetch(`/data/mnt/${mnt_course.courseFilePath}`);
+          // const data = await response.json();
+          // setCourseData(data);
+          // setLoading(false);
+          // ---
+          // + 3-2-3) Vite의 import.meta.glob 활용하기
+          // const files = import.meta.glob("/src/data/mnt/**/*.json");
+          // const module = await files[`/src/data/mnt/${mnt_course.courseFilePath}`]();
+          // setCourseData((module as { default: MountainData }).default);
+          // setLoading(false);
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
 
-          // 3-2-1) 대체 방법: glob 방식 사용
-          const modules: Record<string, { default: MountainData }> = import.meta.glob("../../../data/mnt/**/*.json", {
-            eager: true,
-          });
+          // 3-2-4) 대체 방법: glob 방식 사용
+          // const modules: Record<string, { default: MountainData }> = import.meta.glob("../../../data/mnt/**/*.json", {
+          //   eager: true,
+          // });
           // console.log("Available modules:", Object.keys(modules));
 
           // 3-3) 코스.json 경로지정해서 불러오기
-          const targetPath = `../../../data/mnt/${mnt_course.courseFilePath}`;
-          const data = modules[targetPath];
+          // const targetPath = `../../../data/mnt/${mnt_course.courseFilePath}`;
+          // const data = modules[targetPath];
 
-          if (data) {
-            setCourseData(data.default);
-            setLoading(false);
-          } else {
-            setError(`코스 데이터를 찾을 수 없습니다: ${mnt_course.courseFilePath}`);
-            setLoading(false);
-          }
+          // if (data) {
+          //   setCourseData(data.default);
+          //   setLoading(false);
+          // } else {
+          //   setError(`코스 데이터를 찾을 수 없습니다: ${mnt_course.courseFilePath}`);
+          //   setLoading(false);
+          // }
         }
       } catch (err) {
         console.error("데이터 로딩 오류:", err);
