@@ -42,9 +42,9 @@ const CourseData = () => {
 
         // 3-2-1) 직접적인 동적 import 방식
         try {
-          const dataModule = await import(/* @vite-ignore */ `../../../data/mnt/${mnt_course.courseFilePath}`);
-          setCourseData(dataModule.default);
-          setLoading(false);
+          // const dataModule = await import(/* @vite-ignore */ `../../../data/mnt/${mnt_course.courseFilePath}`);
+          // setCourseData(dataModule.default);
+          // setLoading(false);
           // ----
           // + 3-2-2) JSON 파일 fetch 로 불러오기
           // const response = await fetch(`/data/mnt/${mnt_course.courseFilePath}`);
@@ -53,10 +53,10 @@ const CourseData = () => {
           // setLoading(false);
           // ---
           // + 3-2-3) Vite의 import.meta.glob 활용하기
-          // const files = import.meta.glob("/src/data/mnt/**/*.json");
-          // const module = await files[`/src/data/mnt/${mnt_course.courseFilePath}`]();
-          // setCourseData((module as { default: MountainData }).default);
-          // setLoading(false);
+          const files = import.meta.glob("/src/data/mnt/**/*.json");
+          const module = await files[`/src/data/mnt/${mnt_course.courseFilePath}`]();
+          setCourseData((module as { default: MountainData }).default);
+          setLoading(false);
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
 
