@@ -80,7 +80,7 @@ export const crewApi = {
       // console.log("크루 글 목록 데이터:", response.data);
 
       if (response.data) {
-        return response.data.map((item: CrewList) => ({
+        return response.data.reverse().map((item: CrewList) => ({
           id: item.id,
           title: item.title,
           content: item.content,
