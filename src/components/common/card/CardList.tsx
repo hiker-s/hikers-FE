@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import * as Styled from "./styled";
 import { Card } from "./Card";
 import { Filter } from "../filter/Filter";
@@ -17,10 +18,11 @@ interface CardListProps {
   items: CourseItem[];
   type: string;
   onTypeChange?: (type: string) => void;
-  onItemClick: (id: number) => void;
 }
 
-export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListProps) => {
+export const CardList = ({ items, type, onTypeChange }: CardListProps) => {
+  const navigate = useNavigate();
+
   const [likedItems, setLikedItems] = useState<Set<number>>(
     new Set(items.filter((item) => item.isLiked).map((item) => item.id))
   );
@@ -49,6 +51,10 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
     } catch (error) {
       console.error("좋아요 처리 실패", error);
     }
+  };
+
+  const onItemClick = (id: number) => {
+    navigate(`/courseInfo/${id}`);
   };
 
   return (
