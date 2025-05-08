@@ -2,6 +2,7 @@ import { useState } from "react";
 import * as Styled from "./styled";
 import { Card } from "./Card";
 import { Filter } from "../filter/Filter";
+import { reviewApi } from "../../../apis/community/ReviewApi";
 
 interface CourseItem {
   id: number;
@@ -16,7 +17,7 @@ interface CardListProps {
   items: CourseItem[];
   type: string;
   onTypeChange?: (type: string) => void;
-  onItemClick?: (id: number) => void;
+  onItemClick: (id: number) => void;
 }
 
 export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListProps) => {
@@ -24,16 +25,30 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
     new Set(items.filter((item) => item.isLiked).map((item) => item.id))
   );
 
-  const handleLikeClick = (id: number) => {
-    setLikedItems((prev) => {
-      const newSet = new Set(prev);
-      if (newSet.has(id)) {
-        newSet.delete(id);
+  const handleHeartClick = async (id: number) => {
+    if (!id) {
+      console.error("review_id가 없습니다.");
+      return;
+    }
+
+    const isAlreadyLiked = likedItems.has(id);
+    // console.log(`${id} 좋아요 ${isAlreadyLiked ? "취소" : "추가"} 클릭`);
+
+    try {
+      if (isAlreadyLiked) {
+        await reviewApi.deleteReviewHeart(id);
+        setLikedItems((prev) => {
+          const newSet = new Set(prev);
+          newSet.delete(id);
+          return newSet;
+        });
       } else {
-        newSet.add(id);
+        await reviewApi.postReviewHeart(id);
+        setLikedItems((prev) => new Set(prev).add(id));
       }
-      return newSet;
-    });
+    } catch (error) {
+      console.error("좋아요 처리 실패", error);
+    }
   };
 
   return (
@@ -44,8 +59,7 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
           filter={type}
           isReview={true}
           onTypeChange={(newType) => {
-            // console.log("Selected Type:", newType);
-            onTypeChange?.(newType); // 상위로 전달
+            onTypeChange?.(newType);
           }}
         />
       </Styled.CardListTopWrapper>
@@ -59,8 +73,8 @@ export const CardList = ({ items, type, onItemClick, onTypeChange }: CardListPro
             description={item.description}
             imgUrl={item.imgUrl}
             isLiked={likedItems.has(item.id)}
-            onLikeClick={() => handleLikeClick(item.id)}
-            onDetailClick={() => onItemClick?.(item.id)}
+            onLikeClick={() => handleHeartClick(item.id)}
+            onDetailClick={() => onItemClick(item.id)}
           />
         ))}
       </Styled.CardsWrapper>
