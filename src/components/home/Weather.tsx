@@ -1,18 +1,6 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-
-interface WeatherData {
-  TEMP: string; // 기온
-  SENSIBLE_TEMP: string; // 체감온도
-  MAX_TEMP: string; // 최고온도
-  MIN_TEMP: string; // 최저온도
-  PM10_INDEX: string; // 미세먼지지표
-  PM10: string; // 미세먼지농도
-  PM25_INDEX: string; // 초미세먼지지표
-  PM25: string; // 초미세먼지농도
-  UV_INDEX: string; // 자외선지수
-  RAIN_CHANCE: string; // 강수확률
-}
+import { weatherApi, WeatherData } from "../../apis/home/WeatherApi";
 
 interface WeatherItem {
   label: string;
@@ -21,10 +9,38 @@ interface WeatherItem {
 
 export const Weather = () => {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    const fetchWeather = async () => {
+      try {
+        setIsLoading(true);
+        const data = await weatherApi.getWeather();
+        // console.log("weatherData 결과:", data);
+        setWeatherData(data);
+      } catch (error) {
+        console.error("날씨 가져오기 실패:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchWeather();
+  }, []);
+
+  // 3초마다 인덱스 변경
+  useEffect(() => {
+    if (!weatherData) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % 8); // 총 8개 항목
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [weatherData]);
+
+  // weatherItems를 weatherData가 있을 때만 정의
   const weatherItems: WeatherItem[] = [
     { label: "현재 온도", getValue: (d) => `${d.TEMP} °C` },
     { label: "체감 온도", getValue: (d) => `${d.SENSIBLE_TEMP} °C` },
@@ -36,6 +52,10 @@ export const Weather = () => {
     { label: "강수확률", getValue: (d) => `${d.RAIN_CHANCE} %` },
   ];
 
+  // 렌더링
+  const item = weatherItems[currentIndex] ?? { label: "", getValue: () => "" };
+
+  /* 백엔드 처리로 변경
   useEffect(() => {
     //서울시 API에서 날씨 데이터 가져오기
     const API_KEY = import.meta.env.VITE_APP_SEOUL_API_KEY;
@@ -61,6 +81,17 @@ export const Weather = () => {
     getWeather();
   }, []);
 
+    const weatherItems: WeatherItem[] = [
+    { label: "현재 온도", getValue: (d) => `${d.TEMP} °C` },
+    { label: "체감 온도", getValue: (d) => `${d.SENSIBLE_TEMP} °C` },
+    { label: "최고 온도", getValue: (d) => `${d.MAX_TEMP} °C` },
+    { label: "최저 온도", getValue: (d) => `${d.MIN_TEMP} °C` },
+    { label: "미세먼지", getValue: (d) => `${d.PM10_INDEX}(${d.PM10})` },
+    { label: "초미세먼지", getValue: (d) => `${d.PM25_INDEX}(${d.PM25})` },
+    { label: "자외선", getValue: (d) => `${d.UV_INDEX}` },
+    { label: "강수확률", getValue: (d) => `${d.RAIN_CHANCE} %` },
+  ];
+
   useEffect(() => {
     //3초마다 표시할 날씨 정보 변경
     if (!weatherData) return;
@@ -71,6 +102,7 @@ export const Weather = () => {
 
     return () => clearInterval(interval);
   }, [weatherData, weatherItems.length]);
+
 
   // XML 응답 파싱 함수
   const parseXmlResponse = async (res: Response): Promise<WeatherData> => {
@@ -101,16 +133,15 @@ export const Weather = () => {
   };
 
   const item = weatherItems[currentIndex];
+  */
 
   return (
     <WeatherContainer>
-      {loading ? (
+      {isLoading ? (
         <>
           <Label>오늘의</Label>
           <Value>날씨는?</Value>
         </>
-      ) : error ? (
-        <Value>{error}</Value>
       ) : weatherData ? (
         <>
           <Label>{item.label}</Label>
