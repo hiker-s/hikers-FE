@@ -19,6 +19,7 @@ import ReviewWrite from "./pages/community/review/ReviewWrite";
 import ReviewEdit from "./pages/community/review/ReviewEdit";
 import Loading from "./pages/loading/Loading";
 import NotFound from "./pages/error/NotFound";
+import NotMember from "./pages/error/NotMember";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,7 @@ const router = createBrowserRouter([
       { path: "/rank", element: <Rank /> },
       { path: "/mypage", element: <Mypage /> },
       { path: "/loading", element: <Loading /> },
+      { path: "/not-member", element: <NotMember /> },
     ],
   },
 ]);
