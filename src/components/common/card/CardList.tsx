@@ -18,9 +18,10 @@ interface CardListProps {
   items: CourseItem[];
   type: string;
   onTypeChange?: (type: string) => void;
+  onItemClick?: (id: number) => void;
 }
 
-export const CardList = ({ items, type, onTypeChange }: CardListProps) => {
+export const CardList = ({ items, type, onTypeChange, onItemClick }: CardListProps) => {
   const navigate = useNavigate();
 
   const [likedItems, setLikedItems] = useState<Set<number>>(
@@ -53,8 +54,12 @@ export const CardList = ({ items, type, onTypeChange }: CardListProps) => {
     }
   };
 
-  const onItemClick = (id: number) => {
-    navigate(`/courseInfo/${id}`);
+  const handleItemClick = (id: number) => {
+    if (onItemClick) {
+      onItemClick(id);
+    } else {
+      navigate(`/courseInfo/${id}`);
+    }
   };
 
   return (
@@ -80,7 +85,7 @@ export const CardList = ({ items, type, onTypeChange }: CardListProps) => {
             imgUrl={item.imgUrl}
             isLiked={likedItems.has(item.id)}
             onLikeClick={() => handleHeartClick(item.id)}
-            onDetailClick={() => onItemClick(item.id)}
+            onDetailClick={() => handleItemClick(item.id)}
           />
         ))}
       </Styled.CardsWrapper>
