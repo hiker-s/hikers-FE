@@ -6,7 +6,7 @@ import SketchMap from "../../components/course/courseInfo/SketchMap";
 import CourseReview from "../../components/course/courseInfo/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
 import { useEffect, useMemo, useState, useRef } from "react";
-// import DetailCourseList from "../../components/course/courseInfo/DetailCourseList";
+import DetailCourseList from "../../components/course/courseInfo/DetailCourseList";
 
 const CourseInfo = () => {
   const navigate = useNavigate();
@@ -81,9 +81,9 @@ const CourseInfo = () => {
         <ListCompWrapper id="약도">
           <SketchMap />
         </ListCompWrapper>
-        {/* <ListCompWrapper id="상세 코스">
+        <ListCompWrapper id="상세 코스">
           <DetailCourseList />
-        </ListCompWrapper> */}
+        </ListCompWrapper>
         <ListCompWrapper id="리뷰">
           <CourseReview />
         </ListCompWrapper>

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as Styled from "./RoadView.styled";
 
 declare global {
@@ -13,7 +13,7 @@ interface RoadViewProps {
   lng: number;
 }
 
-export default function RoadView({ lat, lng }: RoadViewProps) {
+const RoadView = React.memo(({ lat, lng }: RoadViewProps) => {
   const panoramaRef = useRef<HTMLDivElement>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -38,44 +38,36 @@ export default function RoadView({ lat, lng }: RoadViewProps) {
 
     const position = new LatLng(lat, lng);
 
-    // const map = new Map(panoramaRef.current, {
-    //   center: position,
-    //   zoom: 15,
-    // });
-
     const panorama = new Panorama(panoramaRef.current, {
       position,
       pov: { pan: 0, tilt: 0, fov: 100 },
     });
 
     return () => {
-      //   map.destroy();
       panorama.destroy();
     };
   }, [isLoading, error, lat, lng]);
 
   return (
     <div>
-      <div>
-        {isLoading ? (
-          <div>
-            <div>
-              <div></div>
-              <p>지도 로딩 중</p>
-            </div>
-          </div>
-        ) : error ? (
-          <div>
-            <p>
-              {error}
-              <br />
-              <span>api 키 확인 필요</span>
-            </p>
-          </div>
-        ) : (
-          <Styled.Wrapper ref={panoramaRef}></Styled.Wrapper>
-        )}
-      </div>
+      {isLoading ? (
+        <div>
+          <div></div>
+          <p>지도 로딩 중</p>
+        </div>
+      ) : error ? (
+        <div>
+          <p>
+            {error}
+            <br />
+            <span>api 키 확인 필요</span>
+          </p>
+        </div>
+      ) : (
+        <Styled.Wrapper ref={panoramaRef}></Styled.Wrapper>
+      )}
     </div>
   );
-}
+});
+
+export default RoadView;
