@@ -116,9 +116,9 @@ export const CardListWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.625rem;
+  gap: 1.25rem;
   padding: 0 1.25rem;
-  margin: 3.94rem 0 3.75rem 0;
+  /* margin: 3.94rem 0 3.75rem 0; */
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -142,7 +142,7 @@ export const CardsWrapper = styled.div`
   gap: 0.625rem;
   overflow-x: auto;
   width: calc(100% + 2.5rem);
-  padding: 0.5rem 1.25rem;
+  /* padding: 0.5rem 1.25rem; */
   flex-wrap: nowrap;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
