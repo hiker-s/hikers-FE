@@ -28,7 +28,7 @@ i {font-style:normal}
 }
 
 @font-face {
-    font-family: "Pretendard";
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Malgun Gothic", sans-serif;
     src: url("/fonts/PretendardVariable.woff2") format('woff2-variations');
 	font-display: swap;
 }
@@ -55,6 +55,8 @@ body {
 	max-width: 390px;
 	overflow-x: hidden;
 	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 `;
