@@ -28,7 +28,6 @@ export const SearchIcon = styled.img`
 
 export const SearchInput = styled.input`
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -52,7 +51,6 @@ export const SearchButton = styled.button`
   border-radius: 0rem 0.625rem 0.625rem 0rem;
   background: #349989;
   color: #fff;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;

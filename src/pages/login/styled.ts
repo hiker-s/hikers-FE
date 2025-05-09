@@ -45,7 +45,6 @@ export const GoSignUpBtn = styled.button`
   border-radius: 0.9375rem;
   font-size: 0.875rem;
   font-weight: 600;
-  font-family: "Pretendard";
   border: 1px solid #eee;
   background-color: #eee;
   color: #3b3b3b;

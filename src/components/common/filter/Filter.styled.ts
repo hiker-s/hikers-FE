@@ -7,7 +7,6 @@ export const Filter = styled.div`
   cursor: pointer;
   position: relative;
   color: #666666;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 400;
 `;
@@ -37,7 +36,6 @@ export const DropdownItem = styled.div<{ $isSelected: boolean }>`
   gap: 0.625rem;
   cursor: pointer;
   color: ${({ $isSelected }) => ($isSelected ? "#65A69E" : "#3B3B3B")};
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: ${({ $isSelected }) => ($isSelected ? "600" : "400")};
   font-style: normal;
@@ -51,7 +49,6 @@ export const DropdownItem = styled.div<{ $isSelected: boolean }>`
     border-radius: 0.5rem;
     background: #349989;
     color: #fff;
-    font-family: Pretendard;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;

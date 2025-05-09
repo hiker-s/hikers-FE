@@ -72,7 +72,6 @@ export const TopTextContainer = styled.div`
 export const TopName = styled.div`
   color: #fff;
   text-align: center;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -81,7 +80,6 @@ export const TopName = styled.div`
 
 export const TopStamp = styled.div`
   color: #a9d4cd;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;

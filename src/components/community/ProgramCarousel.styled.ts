@@ -10,7 +10,6 @@ export const TitleWrapper = styled.div`
   margin: 0 0.3rem;
 
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;

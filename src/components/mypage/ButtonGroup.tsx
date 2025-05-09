@@ -56,7 +56,6 @@ const LogoutBtn = styled.div`
   gap: 0.625rem;
   border-radius: 0.625rem;
   background: #fff;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 600;
   color: #fff;
@@ -76,7 +75,6 @@ const DeleteBtn = styled.div`
   gap: 0.625rem;
   border-radius: 0.625rem;
   background: #fff;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 600;
   color: #a4a4a4;

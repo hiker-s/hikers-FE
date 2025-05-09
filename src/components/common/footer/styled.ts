@@ -25,7 +25,6 @@ export const FooterWrapper = styled.section`
   }
 
   span {
-    font-family: "Pretendard";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;

@@ -28,9 +28,10 @@ i {font-style:normal}
 }
 
 @font-face {
-    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Malgun Gothic", sans-serif;
-    src: url("/fonts/PretendardVariable.woff2") format('woff2-variations');
+    font-family: "Pretendard";
+    src: url("/fonts/PretendardVariable.woff2") format('woff2');
 	font-display: swap;
+	font-weight: 100 900;
 }
 
 
@@ -57,6 +58,8 @@ body {
 	background-color: #ffffff;
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Malgun Gothic", sans-serif;
+	font-synthesis: none;
 }
 
 `;

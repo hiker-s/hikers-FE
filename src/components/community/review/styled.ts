@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
 export const TitleInput = styled.input`
   width: 100%;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -15,7 +14,6 @@ export const TitleInput = styled.input`
   border: none;
   &::placeholder {
     color: #a4a4a4;
-    font-family: "Pretendard";
   }
   &:focus {
     outline: none;
@@ -73,7 +71,6 @@ export const LevelRadio = styled.input.attrs({ type: "radio" })`
 // 레이블 스타일 추가
 export const LabelSpan = styled.span`
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +115,6 @@ export const ContentInput = styled.textarea`
   white-space: pre-line;
   width: 100%;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -127,7 +123,6 @@ export const ContentInput = styled.textarea`
   border: none;
   &::placeholder {
     color: #a4a4a4;
-    font-family: "Pretendard";
   }
   &:focus {
     outline: none;

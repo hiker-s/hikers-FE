@@ -44,7 +44,6 @@ export const ModalHeader = styled.div`
 
 export const ModalTitle = styled.h2`
   color: #349989;
-  font-family: "Pretendard";
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 700;
@@ -78,7 +77,6 @@ export const ModalBody = styled.div`
 
 export const ShareText = styled.p`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
