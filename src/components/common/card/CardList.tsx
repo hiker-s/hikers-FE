@@ -58,7 +58,7 @@ export const CardList = ({ items, type, onTypeChange, onItemClick }: CardListPro
     if (onItemClick) {
       onItemClick(id);
     } else {
-      navigate(`/courseInfo/${id}`);
+      navigate(`/community/review/${id}`);
     }
   };
 
