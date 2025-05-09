@@ -48,12 +48,12 @@ const CourseReview = () => {
       {isLoading ? (
         <Skeleton width={"100%"} height={"100%"} />
       ) : mntReview.length > 0 ? (
-        <>
+        <CardListWrapper>
           <CardList items={mntReview} type={type} onTypeChange={setType} onItemClick={handleItemClick} />
           <CardListBottomWrapper>
             <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
           </CardListBottomWrapper>
-        </>
+        </CardListWrapper>
       ) : (
         <>
           <NoneData>{"아직 산의 리뷰가 없습니다."}</NoneData>
@@ -67,6 +67,10 @@ const CourseReview = () => {
 };
 
 export default CourseReview;
+
+const CardListWrapper = styled.div`
+  margin: 3.75rem 0;
+`;
 
 const NoneData = styled.div`
   width: 21.875rem;
@@ -83,7 +87,7 @@ const CardListBottomWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0.5rem 1.25rem 0 0;
+  padding: 1.06rem 1.25rem 0 0;
   width: 100%;
   margin-bottom: 3rem;
 `;
