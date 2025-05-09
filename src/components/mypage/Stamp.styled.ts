@@ -56,4 +56,10 @@ export const StampsWrapper = styled.div`
 
 export const StampImage = styled.img`
   object-fit: contain;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 `;
