@@ -83,11 +83,15 @@ export default function DetailCourseList() {
         const latitude = pos.coords.latitude;
         const longitude = pos.coords.longitude;
 
-        await stampApi.postStampAuth({
-          courseId: id,
-          latitude: latitude,
-          longitude: longitude,
-        } as StampAuthParams);
+        try {
+          await stampApi.postStampAuth({
+            courseId: id,
+            latitude: latitude,
+            longitude: longitude,
+          } as StampAuthParams);
+        } catch (error) {
+          console.error("스탬프 인증 실패:", error);
+        }
       },
       function (err) {
         console.error("위치 정보 가져오기 실패:", err);
@@ -117,8 +121,6 @@ export default function DetailCourseList() {
           const colorIndex = index % COLORS.length;
           const color = COLORS[colorIndex];
           const isLast = index === courseData.track.length - 1;
-          // console.log("로드뷰 위치:", trackItem.path[0]);
-          // console.log("trackItem.path.length", trackItem.path.length);
 
           return (
             <Styled.CourseItem key={trackItem.path_id}>
