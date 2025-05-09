@@ -19,7 +19,6 @@ export const CourseTitleWrapper = styled.div`
 
 export const CourseTitle = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-weight: 700;
   line-height: normal;
@@ -38,7 +37,6 @@ export const CourseLevel = styled.div`
   background: #f2dabd;
   color: #f1870d;
   text-align: center;
-  font-family: "Pretendard";
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
@@ -60,7 +58,6 @@ export const CourseMeta = styled.div`
 
 export const StartToEnd = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 400;
 `;
@@ -76,7 +73,6 @@ export const CourseStats = styled.div`
 
 export const CourseStatsItem = styled.span`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 400;
 `;

@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
 export const TitleInput = styled.input`
   width: 100%;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -15,7 +14,6 @@ export const TitleInput = styled.input`
   border: none;
   &::placeholder {
     color: #a4a4a4;
-    font-family: "Pretendard";
   }
   &:focus {
     outline: none;
@@ -57,7 +55,6 @@ export const ContentInput = styled.textarea<{ $hasImages: boolean }>`
   width: 100%;
   min-height: ${({ $hasImages }) => ($hasImages ? "calc(100vh - 32rem)" : "calc(100vh - 24rem)")};
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -66,7 +63,6 @@ export const ContentInput = styled.textarea<{ $hasImages: boolean }>`
   border: none;
   &::placeholder {
     color: #a4a4a4;
-    font-family: "Pretendard";
   }
   &:focus {
     outline: none;

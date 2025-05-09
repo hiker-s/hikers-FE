@@ -45,7 +45,6 @@ export const TitleWrapper = styled.div`
 export const TitleText = styled.div`
   color: #3b3b3b;
   text-align: center;
-  font-family: "Pretendard";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
@@ -76,7 +75,6 @@ export const LeftBtn = styled.div`
   border: 1px solid #a4a4a4;
   background: #a4a4a4;
   color: #fff;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -94,7 +92,6 @@ export const RightBtn = styled.div`
   border: 1px solid #e77575;
   background: #e77575;
   color: #fff;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;

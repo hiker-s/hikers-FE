@@ -55,7 +55,6 @@ export const ModalText = styled.div`
   justify-content: center;
   align-items: center;
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
@@ -80,7 +79,6 @@ export const ModalButton = styled.button`
   border: 1px solid #349989;
   background: #349989;
   color: #fff;
-  font-family: Pretendard;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;

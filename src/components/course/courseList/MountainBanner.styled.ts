@@ -26,7 +26,6 @@ export const MountainBannerWrapper = styled.div<{ $image?: string }>`
 
 export const Title = styled.h1`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +34,6 @@ export const Title = styled.h1`
 
 export const Content = styled.p`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;

@@ -7,7 +7,6 @@ export const TitleWrapper = styled.div`
 
 export const Title = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -80,7 +79,6 @@ export const ImageContent = styled.div`
 `;
 export const Content = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -104,7 +102,6 @@ export const MountainName = styled.div`
   align-items: center;
   gap: 0.625rem;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
@@ -113,7 +110,6 @@ export const MountainName = styled.div`
 
 export const CourseName = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
@@ -147,7 +143,6 @@ export const EditBtn = styled.div`
   gap: 0.625rem;
   border-radius: 0.625rem;
   background: #fff;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 600;
   color: #fff;
@@ -166,7 +161,6 @@ export const DeleteBtn = styled.div`
   gap: 0.625rem;
   border-radius: 0.625rem;
   background: #fff;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 600;
   color: #a4a4a4;

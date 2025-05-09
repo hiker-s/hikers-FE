@@ -79,7 +79,6 @@ export const InfoRow = styled.div`
 
 export const DetailTitle = styled.span`
   color: #a4a4a4;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +94,6 @@ export const DetailContext = styled.div`
 
 export const DetailInfo = styled.div`
   color: #000;
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;

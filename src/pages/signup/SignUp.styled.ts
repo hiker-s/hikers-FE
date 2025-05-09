@@ -17,7 +17,6 @@ export const TitleWrapper = styled.div`
 export const Title = styled.div`
   display: flex;
   color: #349989;
-  font-family: "Pretendard";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;

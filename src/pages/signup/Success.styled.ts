@@ -23,7 +23,6 @@ export const TextWrapper = styled.div`
 export const SuccessText = styled.div`
   text-align: left;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +31,6 @@ export const SuccessText = styled.div`
 
 export const WelcomeText = styled.div`
   color: #349989;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;

@@ -51,7 +51,6 @@ export const PagingBtn = styled.button<{ disabled: boolean }>`
 `;
 export const PageNumber = styled.div`
   color: #000;
-  font-family: Pretendard;
   font-size: 0.8775;
   font-style: normal;
   font-weight: 700;

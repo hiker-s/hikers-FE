@@ -168,7 +168,6 @@ const WeatherContainer = styled.div`
 
 const Label = styled.div`
   color: #3b3b3b;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: -0.02625rem;
@@ -176,7 +175,6 @@ const Label = styled.div`
 
 const Value = styled.span`
   color: #349989;
-  font-family: Pretendard;
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: -0.02625rem;

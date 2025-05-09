@@ -70,7 +70,6 @@ export const Img = styled.img`
 
 export const Name = styled.div`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -78,7 +77,6 @@ export const Name = styled.div`
 `;
 
 export const Stamp = styled.div<RankerProps>`
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
