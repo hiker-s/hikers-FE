@@ -56,4 +56,5 @@ export const StampsWrapper = styled.div`
 
 export const StampImage = styled.img`
   object-fit: contain;
+  shape-rendering: crispEdges;
 `;
