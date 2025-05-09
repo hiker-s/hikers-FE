@@ -6,7 +6,6 @@ import courseIds from "../../../data/course_ids.json";
 import { useParams } from "react-router-dom";
 import { MountainData } from "../../../types/mountainData";
 import { stampApi, StampAuthParams } from "../../../apis/course/courseInfo/StampAuthenticateApi";
-import Loading from "../../../pages/loading/Loading";
 
 interface CourseIdItem {
   course_id: number;
@@ -41,13 +40,15 @@ export default function DetailCourseList() {
         }
 
         try {
-          const response = await fetch(`/data/mnt/${mnt_course.courseFilePath}`);
-          if (!response.ok) throw new Error("Failed to fetch course data");
+          const modules = import.meta.glob("/src/data/mnt/**/*.json", { eager: true });
+          const targetPath = `/src/data/mnt/${mnt_course.courseFilePath}`;
+          const data = modules[targetPath];
 
-          const data = await response.json();
-          if (isMounted) {
-            setCourseData(data);
+          if (data && isMounted) {
+            setCourseData((data as { default: MountainData }).default);
             setLoading(false);
+          } else {
+            throw new Error("코스 데이터를 찾을 수 없습니다.");
           }
         } catch (importError) {
           console.error("파일 불러오기 실패:", importError);
@@ -98,7 +99,7 @@ export default function DetailCourseList() {
   if (!courseData || loading) {
     return (
       <Styled.Wrapper>
-        <Loading />
+        <></>
       </Styled.Wrapper>
     );
   }
