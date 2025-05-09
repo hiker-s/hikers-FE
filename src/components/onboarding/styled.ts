@@ -20,7 +20,6 @@ export const LinkWrapper = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   color: #349989;
-  font-family: "Pretendard";
   font-size: 0.8125rem;
   font-style: normal;
   font-weight: 400;

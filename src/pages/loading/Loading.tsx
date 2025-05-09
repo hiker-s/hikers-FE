@@ -28,7 +28,6 @@ const LottieWrapper = styled(DotLottieReact)`
 
 const Text = styled.div`
   color: #349989;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;

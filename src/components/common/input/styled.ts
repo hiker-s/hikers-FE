@@ -16,7 +16,6 @@ export const textTitle = styled.div`
   flex-direction: column;
   justify-content: center;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-weight: 600;
 `;

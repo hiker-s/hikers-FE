@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeaderText = styled.span`
   color: #3b3b3b;
   font-size: 1.25rem;
-  font-family: "Pretendard";
   font-weight: 700;
   word-wrap: break-word;
 `;

@@ -12,7 +12,6 @@ export const SketchMapWrapper = styled.div`
 export const CourseInfoTitle = styled.div`
   align-self: stretch;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;

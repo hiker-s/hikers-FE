@@ -65,7 +65,6 @@ export const CardDescription = styled.p<{ $hasImage?: boolean }>`
   -webkit-line-clamp: 2;
   overflow: hidden;
   color: ${({ $hasImage }) => ($hasImage ? "#fff" : "#666")};
-  font-family: "Pretendard";
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.4;
@@ -134,7 +133,6 @@ export const CardListTopWrapper = styled.div`
 
 export const CardListTitle = styled.h2`
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.25rem;
   font-weight: 700;
 `;

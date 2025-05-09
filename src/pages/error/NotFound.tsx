@@ -49,7 +49,6 @@ export const TextWrapper = styled.div`
 export const TitleText = styled.div`
   text-align: left;
   color: #3b3b3b;
-  font-family: "Pretendard";
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
@@ -58,7 +57,6 @@ export const TitleText = styled.div`
 
 export const SubTitle = styled.div`
   color: #349989;
-  font-family: "Pretendard";
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;

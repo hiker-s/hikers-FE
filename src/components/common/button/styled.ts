@@ -12,7 +12,6 @@ export const BottomBtn = styled.button`
   border-radius: 1rem;
   font-size: 1rem;
   font-weight: 600;
-  font-family: "Pretendard";
   background-color: ${({ disabled }) => (disabled ? "#A4A4A4" : "#349989")};
   color: #ffffff;
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
@@ -37,7 +36,6 @@ export const GreenBtn = styled.button<GreenBtnProps>`
   background: ${({ $bgColor }) => $bgColor || "#349989"};
   color: ${({ $color }) => $color || "#FFF"};
   border: none;
-  font-family: "Pretendard";
   font-size: ${({ $fontSize }) => $fontSize || "0.875rem"};
   font-weight: 600;
   cursor: pointer;
