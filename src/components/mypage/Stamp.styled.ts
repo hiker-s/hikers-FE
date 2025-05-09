@@ -58,7 +58,7 @@ export const StampImage = styled.img`
   object-fit: contain;
   width: 60px;
   height: 60px;
-  -webkit-transform: translateZ(0);
+  /* -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -67,5 +67,5 @@ export const StampImage = styled.img`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   will-change: transform;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d; */
 `;
