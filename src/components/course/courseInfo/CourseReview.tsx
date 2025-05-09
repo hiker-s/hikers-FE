@@ -75,6 +75,7 @@ const NoneData = styled.div`
 `;
 
 const CardListBottomWrapper = styled.div`
+  padding: 0 1.25rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
