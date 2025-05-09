@@ -1,5 +1,6 @@
 import * as Styled from "./ShareModal.styled";
 import { GreenBtn } from "../button/GreenBtn";
+import { IoClose } from "react-icons/io5";
 
 interface ModalProps {
   title: string;
@@ -14,7 +15,9 @@ export const Modal = ({ title, onClose, onKakaoShare, onLinkShare }: ModalProps)
       <Styled.ModalContent onClick={(e) => e.stopPropagation()}>
         <Styled.ModalHeader>
           <Styled.ModalTitle>코스 공유하기</Styled.ModalTitle>
-          <Styled.CloseButton onClick={onClose}>×</Styled.CloseButton>
+          <Styled.CloseButton onClick={onClose}>
+            <IoClose size="24" color="#3b3b3b" />
+          </Styled.CloseButton>
         </Styled.ModalHeader>
         <Styled.ModalBody>
           <Styled.ShareText>
