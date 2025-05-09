@@ -5,13 +5,14 @@ import styled from "styled-components";
 import SketchMap from "../../components/course/courseInfo/SketchMap";
 import CourseReview from "../../components/course/courseInfo/CourseReview";
 import { Layout } from "../../components/common/layout/Layout";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import DetailCourseList from "../../components/course/courseInfo/DetailCourseList";
 
 const CourseInfo = () => {
   const navigate = useNavigate();
   const handleBackBtn = () => navigate(-1);
   const [activeCategory, setActiveCategory] = useState("약도");
+  const headerRef = useRef<HTMLDivElement>(null);
 
   const categories = useMemo(
     () => [
@@ -24,9 +25,11 @@ const CourseInfo = () => {
 
   const handleCategoryClick = (keyword: string) => {
     const element = document.getElementById(keyword);
-    if (element) {
-      const headerHeight = 17 * 16;
-      const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const header = headerRef.current;
+
+    if (element && header) {
+      const headerHeight = header.offsetHeight;
+      const elementPosition = element.offsetTop;
       const offsetPosition = elementPosition - headerHeight;
 
       window.scrollTo({
@@ -38,14 +41,18 @@ const CourseInfo = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const headerHeight = 17.5 * 16;
-      const scrollPosition = window.scrollY + headerHeight;
+      const header = headerRef.current;
+      if (!header) return;
+
+      const headerHeight = header.offsetHeight;
+      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
       for (const category of categories) {
         const element = document.getElementById(category.keyword);
         if (element) {
           const elementTop = element.offsetTop;
           const elementBottom = elementTop + element.offsetHeight;
-          if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
+          if (scrollPosition + headerHeight >= elementTop && scrollPosition + headerHeight < elementBottom) {
             setActiveCategory(category.keyword);
             break;
           }
@@ -53,7 +60,7 @@ const CourseInfo = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [categories]);
 
@@ -61,6 +68,7 @@ const CourseInfo = () => {
     <Layout $margin="17rem 0 3rem 0" $isFooter={true}>
       <Wrapper>
         <Header
+          ref={headerRef}
           onClick={handleBackBtn}
           isCourse={true}
           isCategory={true}
@@ -89,6 +97,7 @@ export default CourseInfo;
 const Wrapper = styled.div`
   width: 100%;
   max-width: 390px;
+  -webkit-overflow-scrolling: touch;
 `;
 
 const ListCompWrapper = styled.div`
