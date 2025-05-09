@@ -20,6 +20,11 @@ const STAMP_POSITIONS = [
   { x: 298, y: 190 },
 ];
 
+const isSafari = () => {
+  const ua = navigator.userAgent.toLowerCase();
+  return ua.includes("safari") && !ua.includes("chrome");
+};
+
 export default function Stamp() {
   const [stamps, setStamps] = useState<StampData[]>([]);
   const [myStampData, setMyStampData] = useState<MyStampAPI[]>([]);
@@ -50,6 +55,15 @@ export default function Stamp() {
     setStamps(matchedStamps);
   }, [myStampData]);
 
+  const getStampImage = (stampImg: string) => {
+    if (isSafari()) {
+      // Safari에서는 PNG 사용
+      return stampImg.replace(".svg", ".png");
+    }
+    // Chrome 등 다른 브라우저에서는 SVG 사용
+    return stampImg;
+  };
+
   return (
     <Styled.Wrapper>
       <Styled.TitleWrapper>
@@ -64,7 +78,7 @@ export default function Stamp() {
           {stamps.map((stamp, index) => (
             <Styled.StampImage
               key={index}
-              src={stamp.stampImg}
+              src={getStampImage(stamp.stampImg)}
               alt={`${stamp.mountain_name} 스탬프`}
               style={{
                 position: "absolute",
