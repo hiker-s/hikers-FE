@@ -89,5 +89,4 @@ const CardListBottomWrapper = styled.div`
   align-items: center;
   padding: 1.06rem 1.25rem 0 0;
   width: 100%;
-  margin-bottom: 3rem;
 `;
