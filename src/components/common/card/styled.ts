@@ -141,8 +141,8 @@ export const CardsWrapper = styled.div`
   display: flex;
   gap: 0.625rem;
   overflow-x: auto;
-  width: calc(100% + 2.5rem);
-  /* padding: 0.5rem 1.25rem; */
+  width: 100%;
+  padding: 0.5rem 0;
   flex-wrap: nowrap;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
