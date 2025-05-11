@@ -56,7 +56,7 @@ const CourseReview = () => {
         </CardListWrapper>
       ) : (
         <>
-          <NoneData>{"아직 산의 리뷰가 없습니다."}</NoneData>
+          <NoneData>아직 산의 리뷰가 없습니다.</NoneData>
           <CardListBottomWrapper>
             <GreenBtn onClick={handleReviewClick}>리뷰 작성하기</GreenBtn>
           </CardListBottomWrapper>
@@ -73,7 +73,6 @@ const CardListWrapper = styled.div`
 `;
 
 const NoneData = styled.div`
-  width: 21.875rem;
   height: 15rem;
   display: flex;
   align-items: center;
