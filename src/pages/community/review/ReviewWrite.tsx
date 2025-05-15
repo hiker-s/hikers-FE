@@ -5,6 +5,7 @@ import ReviewForm from "../../../components/community/review/ReviewForm";
 import { reviewApi } from "../../../apis/community/ReviewApi";
 import { useEffect, useState } from "react";
 import { mypageApi } from "../../../apis/mypage/MypageApi";
+import axios from "axios";
 
 export default function ReviewWrite() {
   const navigate = useNavigate();
@@ -30,8 +31,16 @@ export default function ReviewWrite() {
       await reviewApi.postReview(postValue);
       //   console.log("postValue:", postValue);
       navigate("/community");
-    } catch (error) {
-      console.log(error);
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        if (error.response?.status === 413) {
+          alert("사진 업로드 용량이 너무 큽니다. 파일을 줄여주세요.");
+        } else {
+          console.error("Axios 에러:", error.message);
+        }
+      } else {
+        console.error("리뷰 게시글 작성 실패", error);
+      }
     }
   };
 

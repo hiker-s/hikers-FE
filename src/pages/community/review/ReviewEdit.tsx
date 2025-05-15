@@ -6,6 +6,7 @@ import { mypageApi } from "../../../apis/mypage/MypageApi";
 import { reviewApi, ReviewDetail } from "../../../apis/community/ReviewApi";
 import { Mountain, reviewSearchApi } from "../../../apis/community/ReviewSearchApi";
 import ReviewEditForm from "../../../components/community/review/ReviewEditForm";
+import axios from "axios";
 
 export default function ReviewEdit() {
   const navigate = useNavigate();
@@ -73,9 +74,16 @@ export default function ReviewEdit() {
 
       // alert("리뷰가 성공적으로 수정되었습니다.");
       navigate(`/community/review/${id}`); // 상세 페이지로 이동
-    } catch (error) {
-      console.error("리뷰 게시글 수정 실패:", error);
-      alert("리뷰 수정에 실패했습니다. 다시 시도해주세요.");
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        if (error.response?.status === 413) {
+          alert("사진 업로드 용량이 너무 큽니다. 파일을 줄여주세요.");
+        } else {
+          console.error("Axios 에러:", error.message);
+        }
+      } else {
+        console.error("리뷰 게시글 수정 실패", error);
+      }
     }
   };
 
