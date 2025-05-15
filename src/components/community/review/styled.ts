@@ -114,6 +114,7 @@ export const ContentWrapper = styled.div`
 export const ContentInput = styled.textarea`
   white-space: pre-line;
   width: 100%;
+  min-height: calc(100dvh - 35rem);
   color: #3b3b3b;
   font-size: 1rem;
   font-style: normal;
