@@ -11,7 +11,7 @@ export default function ReviewWrite() {
   const [userInfo, setUserInfo] = useState<{ nickname: string }[]>([]);
 
   const handleBackBtn = () => {
-    navigate("/community");
+    navigate(-1);
   };
 
   const today = new Date();

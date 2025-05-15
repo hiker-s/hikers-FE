@@ -13,7 +13,7 @@ import { reviewApi, ReviewDetail } from "../../../apis/community/ReviewApi";
 export default function ReviewRead() {
   const navigate = useNavigate();
   const handleBackBtn = () => {
-    navigate("/community");
+    navigate(-1);
   };
 
   const { review_id } = useParams();
