@@ -48,9 +48,7 @@ export default function CrewRead() {
               author_name={crewDetailData.author_name}
               is_writer={crewDetailData.is_writer}
             />
-            <div style={{ whiteSpace: "pre-line" }}>
-              <PostContent content={crewDetailData.content} image_urls={crewDetailData.image_urls} />
-            </div>
+            <PostContent content={crewDetailData.content} image_urls={crewDetailData.image_urls} />
             {crewDetailData.is_writer && (
               <ButtonWrapper>
                 <ButtonGroup mode="crew" id={id} />
