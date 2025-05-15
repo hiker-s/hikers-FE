@@ -79,6 +79,5 @@ const Wrapper = styled.div`
 `;
 
 const ButtonWrapper = styled.div`
-  position: absolute;
-  top: calc(100vh - 18%);
+  background-color: white;
 `;
