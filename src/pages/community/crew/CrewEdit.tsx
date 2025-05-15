@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { mypageApi } from "../../../apis/mypage/MypageApi";
 import { crewApi, CrewDetail } from "../../../apis/community/CrewApi";
 import CrewEditForm from "../../../components/community/crew/CrewEditForm";
+import axios from "axios";
 
 export default function CrewEdit() {
   const navigate = useNavigate();
@@ -33,8 +34,16 @@ export default function CrewEdit() {
       // console.log("수정된 크루 게시글:", response);
 
       navigate(-1);
-    } catch (error) {
-      console.error("크루 게시글 수정 실패:", error);
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        if (error.response?.status === 413) {
+          alert("사진 업로드 용량이 너무 큽니다. 파일을 줄여주세요.");
+        } else {
+          console.error("Axios 에러:", error.message);
+        }
+      } else {
+        console.error("크루 게시글 수정 실패", error);
+      }
     }
   };
 
