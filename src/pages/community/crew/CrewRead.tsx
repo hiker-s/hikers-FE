@@ -12,7 +12,7 @@ import { crewApi, CrewDetail } from "../../../apis/community/CrewApi";
 export default function CrewRead() {
   const navigate = useNavigate();
   const handleBackBtn = () => {
-    navigate("/community");
+    navigate(-1);
   };
 
   const { crew_id } = useParams();
