@@ -59,7 +59,9 @@ export default function ReviewRead() {
               liked_by_current_user={reviewDetailData.liked_by_current_user}
               like_count={reviewDetailData.like_count}
             />
-            <PostContent content={reviewDetailData.content} image_urls={reviewDetailData.image_urls} />
+            <div style={{ whiteSpace: "pre-line" }}>
+              <PostContent content={reviewDetailData.content} image_urls={reviewDetailData.image_urls} />
+            </div>
             {reviewDetailData.is_writer && (
               <ButtonWrapper>
                 <ButtonGroup mode="review" id={id} />
