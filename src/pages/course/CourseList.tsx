@@ -11,7 +11,7 @@ const CourseList = () => {
   const handleBackBtn = () => navigate("/home");
 
   return (
-    <Layout $margin="6.25rem 0 0 0" $isFooter={true}>
+    <Layout $margin="6.25rem 0 1.87rem 0" $isFooter={true}>
       <Wrapper>
         <Header onClick={handleBackBtn}>코스</Header>
         <MountainBanner />
@@ -26,7 +26,6 @@ export default CourseList;
 
 const Wrapper = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;

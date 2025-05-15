@@ -30,7 +30,7 @@ export const ModalContent = styled.div`
   width: 390px;
   border-radius: 1.875rem 1.875rem 0rem 0rem;
   background: #ffffff;
-  padding: 1.875rem 1.25rem 2.5rem 1.25rem;
+  padding: 1.87rem 0.87rem 1.56rem 1.87rem;
   animation: ${slideUp} 0.3s ease-out;
 `;
 
@@ -61,7 +61,6 @@ export const CloseButton = styled.button`
   flex-shrink: 0;
   background: none;
   border: none;
-  font-size: 2rem;
   color: #3b3b3b;
   cursor: pointer;
   padding: 0;
@@ -72,7 +71,6 @@ export const ModalBody = styled.div`
   flex-direction: column;
   align-items: left;
   gap: 0.5rem;
-  margin-bottom: 1rem;
 `;
 
 export const ShareText = styled.p`
@@ -92,6 +90,6 @@ export const ShareButtonsWrapper = styled.div`
   align-items: center;
   gap: 1rem;
   width: 100%;
-  padding: 1.88rem 0;
+  padding-top: 1.88rem;
   margin-top: 1rem;
 `;
