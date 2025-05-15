@@ -36,7 +36,7 @@ export default function CrewRead() {
   }, [id]);
 
   return (
-    <Layout $margin="6.81rem 0 0 0" $isFooter={true}>
+    <Layout $margin="6.81rem 0 3rem 0" $isFooter={true}>
       <Header onClick={handleBackBtn}>크루</Header>
       <Wrapper>
         {crewDetailData && (
